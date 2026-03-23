@@ -1,0 +1,25 @@
+digraph "CFG for 'xmlValidateDocumentFinal' function" {
+	label="CFG for 'xmlValidateDocumentFinal' function";
+
+	Node0x37d24490 [shape=record,label="{valid.c:5997:}"];
+	Node0x37d24490 -> Node0x37d24710;
+	Node0x37d24490 -> Node0x37d244e0;
+	Node0x37d244e0 [shape=record,label="{valid.c:5999:}"];
+	Node0x37d244e0 -> Node0x37d24530;
+	Node0x37d244e0 -> Node0x37d24580;
+	Node0x37d24530 [shape=record,label="{valid.c:149:}"];
+	Node0x37d24530 -> Node0x37d24710;
+	Node0x37d24580 [shape=record,label="{valid.c:6018:}"];
+	Node0x37d24580 -> Node0x37d24620;
+	Node0x37d24580 -> Node0x37d245d0;
+	Node0x37d245d0 [shape=record,label="{valid.c:6019:}"];
+	Node0x37d245d0 -> Node0x37d24620;
+	Node0x37d24620 [shape=record,label="{valid.c:6024:}"];
+	Node0x37d24620 -> Node0x37d246c0;
+	Node0x37d24620 -> Node0x37d24670;
+	Node0x37d24670 [shape=record,label="{valid.c:6030:}"];
+	Node0x37d24670 -> Node0x37d246c0;
+	Node0x37d246c0 [shape=record,label="{valid.c:6032:}"];
+	Node0x37d246c0 -> Node0x37d24710;
+	Node0x37d24710 [shape=record,label="{valid.c:6033:}"];
+}

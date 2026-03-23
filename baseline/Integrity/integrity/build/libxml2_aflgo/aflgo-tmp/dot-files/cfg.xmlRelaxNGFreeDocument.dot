@@ -1,0 +1,46 @@
+digraph "CFG for 'xmlRelaxNGFreeDocument' function" {
+	label="CFG for 'xmlRelaxNGFreeDocument' function";
+
+	Node0x12d5c410 [shape=record,label="{relaxng.c:624:}"];
+	Node0x12d5c410 -> Node0x12d5caf0;
+	Node0x12d5c410 -> Node0x12d5c640;
+	Node0x12d5c640 [shape=record,label="{relaxng.c:627:}"];
+	Node0x12d5c640 -> Node0x12d5c6e0;
+	Node0x12d5c640 -> Node0x12d5c690;
+	Node0x12d5c690 [shape=record,label="{relaxng.c:628:}"];
+	Node0x12d5c690 -> Node0x12d5c6e0;
+	Node0x12d5c6e0 [shape=record,label="{relaxng.c:629:}"];
+	Node0x12d5c6e0 -> Node0x12d5c780;
+	Node0x12d5c6e0 -> Node0x12d5c730;
+	Node0x12d5c730 [shape=record,label="{relaxng.c:630:}"];
+	Node0x12d5c730 -> Node0x12d5c780;
+	Node0x12d5c780 [shape=record,label="{relaxng.c:631:}"];
+	Node0x12d5c780 -> Node0x12d5caa0;
+	Node0x12d5c780 -> Node0x12d5c7d0;
+	Node0x12d5c7d0 [shape=record,label="{relaxng.c:722:}"];
+	Node0x12d5c7d0 -> Node0x12d5c870;
+	Node0x12d5c7d0 -> Node0x12d5c820;
+	Node0x12d5c820 [shape=record,label="{relaxng.c:723:}"];
+	Node0x12d5c820 -> Node0x12d5c870;
+	Node0x12d5c870 [shape=record,label="{relaxng.c:724:}"];
+	Node0x12d5c870 -> Node0x12d5ca50;
+	Node0x12d5c870 -> Node0x12d5c8c0;
+	Node0x12d5c8c0 [shape=record,label="{relaxng.c:727:}"];
+	Node0x12d5c8c0 -> Node0x12d5c910;
+	Node0x12d5c8c0 -> Node0x12d5ca00;
+	Node0x12d5c910 [shape=record,label="{relaxng.c:728:}"];
+	Node0x12d5c910 -> Node0x12d5c960;
+	Node0x12d5c910 -> Node0x12d5c9b0;
+	Node0x12d5c960 [shape=record,label="{%26}"];
+	Node0x12d5c960 -> Node0x12d5c9b0;
+	Node0x12d5c9b0 [shape=record,label="{relaxng.c:727:1}"];
+	Node0x12d5c9b0 -> Node0x12d5c910;
+	Node0x12d5c9b0 -> Node0x12d5ca00;
+	Node0x12d5ca00 [shape=record,label="{relaxng.c:729:}"];
+	Node0x12d5ca00 -> Node0x12d5ca50;
+	Node0x12d5ca50 [shape=record,label="{relaxng.c:732:}"];
+	Node0x12d5ca50 -> Node0x12d5caa0;
+	Node0x12d5caa0 [shape=record,label="{relaxng.c:633:}"];
+	Node0x12d5caa0 -> Node0x12d5caf0;
+	Node0x12d5caf0 [shape=record,label="{relaxng.c:634:}"];
+}

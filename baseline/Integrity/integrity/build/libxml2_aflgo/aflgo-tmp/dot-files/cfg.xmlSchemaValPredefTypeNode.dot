@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlSchemaValPredefTypeNode' function" {
+	label="CFG for 'xmlSchemaValPredefTypeNode' function";
+
+	Node0xb8ad40 [shape=record,label="{xmlschemastypes.c:3614:}"];
+}

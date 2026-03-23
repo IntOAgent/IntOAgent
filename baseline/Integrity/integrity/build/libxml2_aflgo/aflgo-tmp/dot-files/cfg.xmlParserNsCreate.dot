@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlParserNsCreate' function" {
+	label="CFG for 'xmlParserNsCreate' function";
+
+	Node0x26a09ba0 [shape=record,label="{parser.c:1417:}"];
+	Node0x26a09ba0 -> Node0x26a17b00;
+	Node0x26a09ba0 -> Node0x26a17ab0;
+	Node0x26a17ab0 [shape=record,label="{parser.c:1417:1}"];
+	Node0x26a17ab0 -> Node0x26a17b00;
+	Node0x26a17b00 [shape=record,label="{parser.c:1425:}"];
+}

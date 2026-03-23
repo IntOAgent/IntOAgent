@@ -1,0 +1,46 @@
+digraph "CFG for 'xmlParseLookupGt' function" {
+	label="CFG for 'xmlParseLookupGt' function";
+
+	Node0x27349020 [shape=record,label="{parser.c:10677:}"];
+	Node0x27349020 -> Node0x27349620;
+	Node0x27349020 -> Node0x27349940;
+	Node0x27349620 [shape=record,label="{parser.c:10686:}"];
+	Node0x27349620 -> Node0x27349670;
+	Node0x27349620 -> Node0x273496c0;
+	Node0x27349670 [shape=record,label="{parser.c:10686:1}"];
+	Node0x27349670 -> Node0x273496c0;
+	Node0x273496c0 [shape=record,label="{parser.c:10686:2}"];
+	Node0x273496c0 -> Node0x27349710;
+	Node0x273496c0 -> Node0x27349760;
+	Node0x27349710 [shape=record,label="{parser.c:10686:3}"];
+	Node0x27349710 -> Node0x27349760;
+	Node0x27349760 [shape=record,label="{parser.c:10686:4}"];
+	Node0x27349760 -> Node0x273497b0;
+	Node0x273497b0 [shape=record,label="{parser.c:10687:}"];
+	Node0x273497b0 -> Node0x27349850;
+	Node0x273497b0 -> Node0x27349800;
+	Node0x27349800 [shape=record,label="{parser.c:10688:}"];
+	Node0x27349800 -> Node0x273498f0;
+	Node0x27349850 [shape=record,label="{parser.c:10690:}"];
+	Node0x27349850 -> Node0x273498f0;
+	Node0x27349850 -> Node0x273498a0;
+	Node0x27349850 -> Node0x27349ad0;
+	Node0x273498a0 [shape=record,label="{parser.c:10691:}"];
+	Node0x273498a0 -> Node0x273498f0;
+	Node0x273498f0 [shape=record,label="{parser.c:10697:}"];
+	Node0x273498f0 -> Node0x273497b0;
+	Node0x273498f0 -> Node0x27349940;
+	Node0x27349940 [shape=record,label="{parser.c:10700:}"];
+	Node0x27349940 -> Node0x27349990;
+	Node0x27349940 -> Node0x273499e0;
+	Node0x27349990 [shape=record,label="{%41}"];
+	Node0x27349990 -> Node0x273499e0;
+	Node0x273499e0 [shape=record,label="{%44}"];
+	Node0x273499e0 -> Node0x27349a30;
+	Node0x273499e0 -> Node0x27349a80;
+	Node0x27349a30 [shape=record,label="{%45}"];
+	Node0x27349a30 -> Node0x27349a80;
+	Node0x27349a80 [shape=record,label="{parser.c:10701:}"];
+	Node0x27349a80 -> Node0x27349ad0;
+	Node0x27349ad0 [shape=record,label="{parser.c:10709:}"];
+}

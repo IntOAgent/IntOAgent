@@ -1,0 +1,33 @@
+digraph "CFG for 'xmlExpandCatalog' function" {
+	label="CFG for 'xmlExpandCatalog' function";
+
+	Node0x5ecc150 [shape=record,label="{catalog.c:2668:}"];
+	Node0x5ecc150 -> Node0x5ecc530;
+	Node0x5ecc150 -> Node0x5ecc210;
+	Node0x5ecc210 [shape=record,label="{catalog.c:2672:}"];
+	Node0x5ecc210 -> Node0x5ecc260;
+	Node0x5ecc210 -> Node0x5ecc300;
+	Node0x5ecc260 [shape=record,label="{catalog.c:2676:}"];
+	Node0x5ecc260 -> Node0x5ecc530;
+	Node0x5ecc260 -> Node0x5ecc2b0;
+	Node0x5ecc2b0 [shape=record,label="{catalog.c:2680:}"];
+	Node0x5ecc2b0 -> Node0x5ecc530;
+	Node0x5ecc300 [shape=record,label="{catalog.c:2691:}"];
+	Node0x5ecc300 -> Node0x5ecc350;
+	Node0x5ecc300 -> Node0x5ecc3a0;
+	Node0x5ecc350 [shape=record,label="{catalog.c:206:}"];
+	Node0x5ecc350 -> Node0x5ecc3f0;
+	Node0x5ecc3a0 [shape=record,label="{catalog.c:270:}"];
+	Node0x5ecc3a0 -> Node0x5ecc3f0;
+	Node0x5ecc3f0 [shape=record,label="{catalog.c:2693:}"];
+	Node0x5ecc3f0 -> Node0x5ecc440;
+	Node0x5ecc3f0 -> Node0x5ecc490;
+	Node0x5ecc440 [shape=record,label="{catalog.c:2695:}"];
+	Node0x5ecc440 -> Node0x5ecc530;
+	Node0x5ecc490 [shape=record,label="{catalog.c:2697:}"];
+	Node0x5ecc490 -> Node0x5ecc4e0;
+	Node0x5ecc490 -> Node0x5ecc490;
+	Node0x5ecc4e0 [shape=record,label="{catalog.c:2697:1}"];
+	Node0x5ecc4e0 -> Node0x5ecc530;
+	Node0x5ecc530 [shape=record,label="{catalog.c:2702:}"];
+}

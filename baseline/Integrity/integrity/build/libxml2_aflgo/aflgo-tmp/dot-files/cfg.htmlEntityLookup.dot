@@ -1,0 +1,20 @@
+digraph "CFG for 'htmlEntityLookup' function" {
+	label="CFG for 'htmlEntityLookup' function";
+
+	Node0x38392d0 [shape=record,label="{HTMLparser.c:1897:}"];
+	Node0x38392d0 -> Node0x37cfe70;
+	Node0x37cfe70 [shape=record,label="{HTMLparser.c:1899:}"];
+	Node0x37cfe70 -> Node0x37cff10;
+	Node0x37cfe70 -> Node0x37cfec0;
+	Node0x37cfec0 [shape=record,label="{HTMLparser.c:1897:1}"];
+	Node0x37cfec0 -> Node0x37d0000;
+	Node0x37cff10 [shape=record,label="{HTMLparser.c:1898:}"];
+	Node0x37cff10 -> Node0x37cff60;
+	Node0x37cff10 -> Node0x37cffb0;
+	Node0x37cff60 [shape=record,label="{%9}"];
+	Node0x37cff60 -> Node0x37cffb0;
+	Node0x37cffb0 [shape=record,label="{HTMLparser.c:1897:2}"];
+	Node0x37cffb0 -> Node0x37d0000;
+	Node0x37cffb0 -> Node0x37cfe70;
+	Node0x37d0000 [shape=record,label="{HTMLparser.c:1904:}"];
+}

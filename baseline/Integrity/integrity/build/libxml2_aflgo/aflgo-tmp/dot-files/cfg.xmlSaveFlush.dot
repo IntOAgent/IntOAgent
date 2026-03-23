@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlSaveFlush' function" {
+	label="CFG for 'xmlSaveFlush' function";
+
+	Node0x263909e0 [shape=record,label="{xmlsave.c:2040:}"];
+	Node0x263909e0 -> Node0x26390b00;
+	Node0x263909e0 -> Node0x26390a60;
+	Node0x26390a60 [shape=record,label="{xmlsave.c:2041:}"];
+	Node0x26390a60 -> Node0x26390b00;
+	Node0x26390a60 -> Node0x26390ab0;
+	Node0x26390ab0 [shape=record,label="{xmlsave.c:2042:}"];
+	Node0x26390ab0 -> Node0x26390b00;
+	Node0x26390b00 [shape=record,label="{xmlsave.c:2043:}"];
+}

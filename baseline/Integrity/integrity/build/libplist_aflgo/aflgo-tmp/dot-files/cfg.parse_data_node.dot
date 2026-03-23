@@ -1,0 +1,12 @@
+digraph "CFG for 'parse_data_node' function" {
+	label="CFG for 'parse_data_node' function";
+
+	Node0x38880390 [shape=record,label="{bplist.c:462:}"];
+	Node0x38880390 -> Node0x38867430;
+	Node0x38880390 -> Node0x38867480;
+	Node0x38867430 [shape=record,label="{bplist.c:468:}"];
+	Node0x38867430 -> Node0x388674d0;
+	Node0x38867480 [shape=record,label="{bplist.c:472:}"];
+	Node0x38867480 -> Node0x388674d0;
+	Node0x388674d0 [shape=record,label="{bplist.c:475:}"];
+}

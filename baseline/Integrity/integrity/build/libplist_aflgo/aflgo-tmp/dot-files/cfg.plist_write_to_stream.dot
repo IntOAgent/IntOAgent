@@ -1,0 +1,38 @@
+digraph "CFG for 'plist_write_to_stream' function" {
+	label="CFG for 'plist_write_to_stream' function";
+
+	Node0x216a1570 [shape=record,label="{plist.c:1948:}"];
+	Node0x216a1570 -> Node0x216288f0;
+	Node0x216a1570 -> Node0x21628cd0;
+	Node0x216288f0 [shape=record,label="{plist.c:1952:}"];
+	Node0x216288f0 -> Node0x21628be0;
+	Node0x216288f0 -> Node0x216289b0;
+	Node0x216288f0 -> Node0x21628a00;
+	Node0x216288f0 -> Node0x21628a50;
+	Node0x216288f0 -> Node0x21628aa0;
+	Node0x216288f0 -> Node0x21628af0;
+	Node0x216288f0 -> Node0x21628b40;
+	Node0x216288f0 -> Node0x21628b90;
+	Node0x216289b0 [shape=record,label="{plist.c:1956:}"];
+	Node0x216289b0 -> Node0x21628be0;
+	Node0x21628a00 [shape=record,label="{plist.c:1959:}"];
+	Node0x21628a00 -> Node0x21628be0;
+	Node0x21628a50 [shape=record,label="{plist.c:1962:}"];
+	Node0x21628a50 -> Node0x21628be0;
+	Node0x21628aa0 [shape=record,label="{plist.c:1965:}"];
+	Node0x21628aa0 -> Node0x21628be0;
+	Node0x21628af0 [shape=record,label="{plist.c:1968:}"];
+	Node0x21628af0 -> Node0x21628be0;
+	Node0x21628b40 [shape=record,label="{plist.c:1971:}"];
+	Node0x21628b40 -> Node0x21628be0;
+	Node0x21628b90 [shape=record,label="{plist.c:1974:}"];
+	Node0x21628b90 -> Node0x21628be0;
+	Node0x21628be0 [shape=record,label="{plist.c:1981:}"];
+	Node0x21628be0 -> Node0x21628c30;
+	Node0x21628be0 -> Node0x21628c80;
+	Node0x21628c30 [shape=record,label="{plist.c:1982:}"];
+	Node0x21628c30 -> Node0x21628c80;
+	Node0x21628c80 [shape=record,label="{plist.c:1988:}"];
+	Node0x21628c80 -> Node0x21628cd0;
+	Node0x21628cd0 [shape=record,label="{plist.c:1988:1}"];
+}

@@ -1,0 +1,16 @@
+(
+	{stKey = "A First";
+		ASecondKey = "A Second Valueÿÿÿ-ÿÿÿ";
+		//rstKey = {
+  "Some ASCII string" = "Test ASCII Stri:g";
+  "Some UTF8 stirngs" = (
+    "Ã Ã©Ã¨Ã§Ã¹",
+    "æ—",
+    "à¤¹à¤¤¨à¥à¤¦à¥€",
+  );
+  "K sy&e \"entities\"" = "hello world & othero< sndes> are fun!?'";
+  "Some Int" =3;
+  "Some String with Unicode entity" = "Yeah check this: \U1234 !!!";
+}
+ now here is a"	}
+)

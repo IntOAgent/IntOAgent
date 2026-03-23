@@ -1,0 +1,27 @@
+digraph "CFG for 'parse_real_node' function" {
+	label="CFG for 'parse_real_node' function";
+
+	Node0x3887c7f0 [shape=record,label="{bplist.c:308:}"];
+	Node0x3887c7f0 -> Node0x3887cdb0;
+	Node0x3887c7f0 -> Node0x3887ce00;
+	Node0x3887cdb0 [shape=record,label="{%5}"];
+	Node0x3887cdb0 -> Node0x3887ce00;
+	Node0x3887ce00 [shape=record,label="{%8}"];
+	Node0x3887ce00 -> Node0x3887ce50;
+	Node0x3887ce00 -> Node0x3887cea0;
+	Node0x3887ce50 [shape=record,label="{%9}"];
+	Node0x3887ce50 -> Node0x3887cea0;
+	Node0x3887cea0 [shape=record,label="{bplist.c:311:}"];
+	Node0x3887cea0 -> Node0x3887cf90;
+	Node0x3887cea0 -> Node0x3887cef0;
+	Node0x3887cea0 -> Node0x3887cf40;
+	Node0x3887cef0 [shape=record,label="{bplist.c:316:}"];
+	Node0x3887cef0 -> Node0x3887cfe0;
+	Node0x3887cf40 [shape=record,label="{bplist.c:327:}"];
+	Node0x3887cf40 -> Node0x3887cfe0;
+	Node0x3887cf90 [shape=record,label="{bplist.c:334:}"];
+	Node0x3887cf90 -> Node0x3887d030;
+	Node0x3887cfe0 [shape=record,label="{bplist.c:338:}"];
+	Node0x3887cfe0 -> Node0x3887d030;
+	Node0x3887d030 [shape=record,label="{bplist.c:342:}"];
+}

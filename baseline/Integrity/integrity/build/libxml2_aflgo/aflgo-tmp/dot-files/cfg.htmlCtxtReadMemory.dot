@@ -1,0 +1,26 @@
+digraph "CFG for 'htmlCtxtReadMemory' function" {
+	label="CFG for 'htmlCtxtReadMemory' function";
+
+	Node0x3a20790 [shape=record,label="{HTMLparser.c:5920:}"];
+	Node0x3a20790 -> Node0x3a20a10;
+	Node0x3a20790 -> Node0x3a207e0;
+	Node0x3a207e0 [shape=record,label="{HTMLparser.c:5493:}"];
+	Node0x3a207e0 -> Node0x3a20880;
+	Node0x3a207e0 -> Node0x3a20830;
+	Node0x3a20830 [shape=record,label="{HTMLparser.c:5535:}"];
+	Node0x3a20830 -> Node0x3a20880;
+	Node0x3a20880 [shape=record,label="{HTMLparser.c:5537:}"];
+	Node0x3a20880 -> Node0x3a20970;
+	Node0x3a20880 -> Node0x3a208d0;
+	Node0x3a208d0 [shape=record,label="{HTMLparser.c:5538:}"];
+	Node0x3a208d0 -> Node0x3a20970;
+	Node0x3a208d0 -> Node0x3a20920;
+	Node0x3a20920 [shape=record,label="{HTMLparser.c:5539:}"];
+	Node0x3a20920 -> Node0x3a20970;
+	Node0x3a20970 [shape=record,label="{HTMLparser.c:5545:}"];
+	Node0x3a20970 -> Node0x3a20a10;
+	Node0x3a20970 -> Node0x3a209c0;
+	Node0x3a209c0 [shape=record,label="{HTMLparser.c:5931:}"];
+	Node0x3a209c0 -> Node0x3a20a10;
+	Node0x3a20a10 [shape=record,label="{HTMLparser.c:5932:}"];
+}

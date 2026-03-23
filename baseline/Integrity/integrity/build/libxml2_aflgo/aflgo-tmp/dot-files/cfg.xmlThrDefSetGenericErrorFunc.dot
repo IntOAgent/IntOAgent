@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlThrDefSetGenericErrorFunc' function" {
+	label="CFG for 'xmlThrDefSetGenericErrorFunc' function";
+
+	Node0x130af00 [shape=record,label="{globals.c:845:}"];
+}

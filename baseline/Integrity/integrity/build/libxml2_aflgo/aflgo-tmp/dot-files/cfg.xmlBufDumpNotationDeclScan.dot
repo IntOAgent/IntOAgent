@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlBufDumpNotationDeclScan' function" {
+	label="CFG for 'xmlBufDumpNotationDeclScan' function";
+
+	Node0x26475690 [shape=record,label="{xmlsave.c:300:}"];
+}

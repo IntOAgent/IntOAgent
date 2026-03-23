@@ -1,0 +1,21 @@
+digraph "CFG for 'xmlCatalogLocalResolveURI' function" {
+	label="CFG for 'xmlCatalogLocalResolveURI' function";
+
+	Node0x5ef0d70 [shape=record,label="{catalog.c:3608:}"];
+	Node0x5ef0d70 -> Node0x5ef0f90;
+	Node0x5ef0d70 -> Node0x5ef0e00;
+	Node0x5ef0e00 [shape=record,label="{catalog.c:3611:}"];
+	Node0x5ef0e00 -> Node0x5ef0ea0;
+	Node0x5ef0e00 -> Node0x5ef0e50;
+	Node0x5ef0e50 [shape=record,label="{catalog.c:3612:}"];
+	Node0x5ef0e50 -> Node0x5ef0ea0;
+	Node0x5ef0ea0 [shape=record,label="{catalog.c:3616:}"];
+	Node0x5ef0ea0 -> Node0x5ef0f90;
+	Node0x5ef0ea0 -> Node0x5ef0ef0;
+	Node0x5ef0ef0 [shape=record,label="{catalog.c:3615:}"];
+	Node0x5ef0ef0 -> Node0x5ef0f90;
+	Node0x5ef0ef0 -> Node0x5ef0f40;
+	Node0x5ef0f40 [shape=record,label="{catalog.c:3621:}"];
+	Node0x5ef0f40 -> Node0x5ef0f90;
+	Node0x5ef0f90 [shape=record,label="{catalog.c:3622:}"];
+}

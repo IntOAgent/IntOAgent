@@ -1,0 +1,39 @@
+digraph "CFG for 'xmlBufferWriteCHAR' function" {
+	label="CFG for 'xmlBufferWriteCHAR' function";
+
+	Node0x3f7f5d40 [shape=record,label="{buf.c:988:}"];
+	Node0x3f7f5d40 -> Node0x3f7f63b0;
+	Node0x3f7f5d40 -> Node0x3f7f5ff0;
+	Node0x3f7f5ff0 [shape=record,label="{buf.c:991:}"];
+	Node0x3f7f5ff0 -> Node0x3f7f63b0;
+	Node0x3f7f5ff0 -> Node0x3f7f6040;
+	Node0x3f7f6040 [shape=record,label="{buf.c:996:}"];
+	Node0x3f7f6040 -> Node0x3f7f6090;
+	Node0x3f7f6040 -> Node0x3f7f60e0;
+	Node0x3f7f6090 [shape=record,label="{buf.c:996:1}"];
+	Node0x3f7f6090 -> Node0x3f7f60e0;
+	Node0x3f7f60e0 [shape=record,label="{buf.c:996:2}"];
+	Node0x3f7f60e0 -> Node0x3f7f6130;
+	Node0x3f7f60e0 -> Node0x3f7f6180;
+	Node0x3f7f6130 [shape=record,label="{buf.c:996:3}"];
+	Node0x3f7f6130 -> Node0x3f7f6180;
+	Node0x3f7f6180 [shape=record,label="{buf.c:996:4}"];
+	Node0x3f7f6180 -> Node0x3f7f6220;
+	Node0x3f7f6180 -> Node0x3f7f61d0;
+	Node0x3f7f61d0 [shape=record,label="{buf.c:997:}"];
+	Node0x3f7f61d0 -> Node0x3f7f63b0;
+	Node0x3f7f61d0 -> Node0x3f7f6220;
+	Node0x3f7f6220 [shape=record,label="{buf.c:1001:}"];
+	Node0x3f7f6220 -> Node0x3f7f6270;
+	Node0x3f7f6220 -> Node0x3f7f62c0;
+	Node0x3f7f6270 [shape=record,label="{buf.c:1002:}"];
+	Node0x3f7f6270 -> Node0x3f7f62c0;
+	Node0x3f7f62c0 [shape=record,label="{buf.c:1002:5}"];
+	Node0x3f7f62c0 -> Node0x3f7f6310;
+	Node0x3f7f62c0 -> Node0x3f7f6360;
+	Node0x3f7f6310 [shape=record,label="{buf.c:1002:6}"];
+	Node0x3f7f6310 -> Node0x3f7f6360;
+	Node0x3f7f6360 [shape=record,label="{buf.c:1002:7}"];
+	Node0x3f7f6360 -> Node0x3f7f63b0;
+	Node0x3f7f63b0 [shape=record,label="{buf.c:1095:}"];
+}

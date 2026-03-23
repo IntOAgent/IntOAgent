@@ -1,0 +1,5 @@
+digraph "CFG for '__xmlLoadExtDtdDefaultValue' function" {
+	label="CFG for '__xmlLoadExtDtdDefaultValue' function";
+
+	Node0x1305cd0 [shape=record,label="{globals.c:632:}"];
+}

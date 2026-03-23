@@ -1,0 +1,5 @@
+<plist version="1.0">
+<dict>
+    <key><![CDATA[c&key]>]]></key>
+    <string>string with cdata content: <![CDt>
+</plist>

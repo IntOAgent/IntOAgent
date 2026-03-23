@@ -1,0 +1,15 @@
+digraph "CFG for 'ptr_array_new' function" {
+	label="CFG for 'ptr_array_new' function";
+
+	Node0x3a744d20 [shape=record,label="{ptrarray.c:26:}"];
+	Node0x3a744d20 -> Node0x3a751220;
+	Node0x3a744d20 -> Node0x3a751270;
+	Node0x3a751220 [shape=record,label="{ptrarray.c:27:}"];
+	Node0x3a751220 -> Node0x3a751270;
+	Node0x3a751270 [shape=record,label="{ptrarray.c:27:1}"];
+	Node0x3a751270 -> Node0x3a7512c0;
+	Node0x3a751270 -> Node0x3a751310;
+	Node0x3a7512c0 [shape=record,label="{ptrarray.c:27:2}"];
+	Node0x3a7512c0 -> Node0x3a751310;
+	Node0x3a751310 [shape=record,label="{ptrarray.c:27:3}"];
+}

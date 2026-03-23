@@ -1,0 +1,17 @@
+digraph "CFG for 'htmlIsAutoClosed' function" {
+	label="CFG for 'htmlIsAutoClosed' function";
+
+	Node0x3832e00 [shape=record,label="{HTMLparser.c:1467:}"];
+	Node0x3832e00 -> Node0x38331a0;
+	Node0x3832e00 -> Node0x38330b0;
+	Node0x38330b0 [shape=record,label="{HTMLparser.c:1468:}"];
+	Node0x38330b0 -> Node0x38331a0;
+	Node0x38330b0 -> Node0x3833150;
+	Node0x3833100 [shape=record,label="{HTMLparser.c:1471:}"];
+	Node0x3833100 -> Node0x38331a0;
+	Node0x3833100 -> Node0x3833150;
+	Node0x3833150 [shape=record,label="{HTMLparser.c:1470:}"];
+	Node0x3833150 -> Node0x3833100;
+	Node0x3833150 -> Node0x38331a0;
+	Node0x38331a0 [shape=record,label="{HTMLparser.c:1474:}"];
+}

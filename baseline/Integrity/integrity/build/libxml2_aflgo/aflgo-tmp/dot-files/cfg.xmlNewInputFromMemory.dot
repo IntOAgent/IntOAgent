@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlNewInputFromMemory' function" {
+	label="CFG for 'xmlNewInputFromMemory' function";
+
+	Node0x8dd0a90 [shape=record,label="{parserInternals.c:1895:}"];
+	Node0x8dd0a90 -> Node0x8dd0bb0;
+	Node0x8dd0a90 -> Node0x8dd0b10;
+	Node0x8dd0b10 [shape=record,label="{parserInternals.c:1898:}"];
+	Node0x8dd0b10 -> Node0x8dd0bb0;
+	Node0x8dd0b10 -> Node0x8dd0b60;
+	Node0x8dd0b60 [shape=record,label="{parserInternals.c:1902:}"];
+	Node0x8dd0b60 -> Node0x8dd0bb0;
+	Node0x8dd0bb0 [shape=record,label="{parserInternals.c:1903:}"];
+}

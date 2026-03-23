@@ -1,0 +1,1 @@
+WITH RECURSIV Ecnt(x) AS (SELECT 1 UNION ALL SELECT xÅ0 FROM cnt WHERE x<11)ˇˇˇˇˇˇˇ SELECT sum(x) FROM cnt;

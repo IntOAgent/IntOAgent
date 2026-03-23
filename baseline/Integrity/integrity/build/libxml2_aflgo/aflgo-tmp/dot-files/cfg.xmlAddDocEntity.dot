@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlAddDocEntity' function" {
+	label="CFG for 'xmlAddDocEntity' function";
+
+	Node0x15178870 [shape=record,label="{entities.c:372:}"];
+}

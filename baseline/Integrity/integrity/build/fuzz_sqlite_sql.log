@@ -1,0 +1,223 @@
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1010511801
+INFO: Loaded 1 modules   (46 inline 8-bit counters): 46 [0x63c30c5b1b30, 0x63c30c5b1b5e), 
+INFO: Loaded 1 PC tables (46 PCs): 46 [0x63c30c5b1b60,0x63c30c5b1e40), 
+INFO: 29422 Extra Counters
+INFO:      245 files found in corpus/sqlite/sql/
+INFO: seed corpus: files: 245 min: 1b max: 222b total: 19509b rss: 27Mb
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:37203:7
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:37203:7
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:196104:11
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34303:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34304:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34305:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34307:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34309:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34303:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34304:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34305:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34306:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34308:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34306:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34310:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34307:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34310:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34309:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34308:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34312:36
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34312:36
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:35722:7
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:95568:9
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:35722:7
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:123773:11
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:178833:27
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:95579:12
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:36000:7
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36221:12
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36177:12
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:36099:10
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:36099:10
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36727:25
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:72677:7
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:72677:7
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:35846:10
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:72543:19
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:258223:24
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:197769:40
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:197769:40
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:242438:10
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:36099:14
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:36099:18
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:242436:12
+#246	INITED cov: 24 ft: 605 corp: 175/13984b exec/s: 8 rss: 32Mb
+#255	NEW    cov: 24 ft: 606 corp: 176/14045b lim: 222 exec/s: 8 rss: 32Mb L: 61/222 MS: 4 ChangeBit-InsertByte-ShuffleBytes-InsertByte-
+#256	pulse  cov: 24 ft: 606 corp: 176/14045b lim: 222 exec/s: 8 rss: 32Mb
+#264	NEW    cov: 24 ft: 607 corp: 177/14048b lim: 222 exec/s: 8 rss: 32Mb L: 3/222 MS: 4 InsertByte-InsertByte-ChangeByte-CrossOver-
+#268	NEW    cov: 24 ft: 608 corp: 178/14129b lim: 222 exec/s: 8 rss: 32Mb L: 81/222 MS: 4 ChangeByte-CMP-ShuffleBytes-InsertByte- DE: "t_docsiz"-
+#276	NEW    cov: 24 ft: 609 corp: 179/14188b lim: 222 exec/s: 9 rss: 32Mb L: 59/222 MS: 3 CopyPart-ShuffleBytes-CMP- DE: "trigg"-
+#284	NEW    cov: 24 ft: 610 corp: 180/14255b lim: 222 exec/s: 9 rss: 32Mb L: 67/222 MS: 3 CrossOver-InsertByte-InsertByte-
+#321	NEW    cov: 24 ft: 611 corp: 181/14346b lim: 222 exec/s: 10 rss: 32Mb L: 91/222 MS: 2 ChangeBit-ChangeByte-
+#325	NEW    cov: 24 ft: 612 corp: 182/14399b lim: 222 exec/s: 10 rss: 32Mb L: 53/222 MS: 4 ChangeBinInt-ChangeBinInt-ChangeByte-ShuffleBytes-
+#329	NEW    cov: 24 ft: 613 corp: 183/14463b lim: 222 exec/s: 10 rss: 32Mb L: 64/222 MS: 4 ChangeBinInt-ChangeByte-CopyPart-EraseBytes-
+#341	NEW    cov: 24 ft: 614 corp: 184/14615b lim: 222 exec/s: 11 rss: 32Mb L: 152/222 MS: 2 InsertRepeatedBytes-InsertByte-
+#349	NEW    cov: 24 ft: 615 corp: 185/14636b lim: 222 exec/s: 11 rss: 32Mb L: 21/222 MS: 3 ShuffleBytes-ShuffleBytes-CrossOver-
+#361	NEW    cov: 24 ft: 616 corp: 186/14726b lim: 222 exec/s: 12 rss: 32Mb L: 90/222 MS: 2 ChangeBinInt-ChangeBinInt-
+#453	NEW    cov: 24 ft: 617 corp: 187/14831b lim: 222 exec/s: 15 rss: 32Mb L: 105/222 MS: 2 CrossOver-InsertRepeatedBytes-
+#461	NEW    cov: 24 ft: 618 corp: 188/14852b lim: 222 exec/s: 15 rss: 32Mb L: 21/222 MS: 3 ChangeBit-InsertRepeatedBytes-CrossOver-
+#473	NEW    cov: 24 ft: 619 corp: 189/14868b lim: 222 exec/s: 15 rss: 32Mb L: 16/222 MS: 2 EraseBytes-ShuffleBytes-
+#512	pulse  cov: 24 ft: 619 corp: 189/14868b lim: 222 exec/s: 17 rss: 32Mb
+#541	NEW    cov: 24 ft: 620 corp: 190/14954b lim: 222 exec/s: 18 rss: 32Mb L: 86/222 MS: 3 ChangeASCIIInt-ChangeASCIIInt-ShuffleBytes-
+#557	NEW    cov: 24 ft: 621 corp: 191/15040b lim: 222 exec/s: 18 rss: 32Mb L: 86/222 MS: 1 ChangeBinInt-
+#657	NEW    cov: 24 ft: 622 corp: 192/15108b lim: 222 exec/s: 21 rss: 32Mb L: 68/222 MS: 5 ChangeBinInt-PersAutoDict-CrossOver-CopyPart-ShuffleBytes- DE: "t_docsiz"-
+#691	NEW    cov: 24 ft: 623 corp: 193/15280b lim: 222 exec/s: 23 rss: 32Mb L: 172/222 MS: 4 ShuffleBytes-PersAutoDict-ChangeASCIIInt-CopyPart- DE: "t_docsiz"-
+#697	NEW    cov: 24 ft: 624 corp: 194/15381b lim: 222 exec/s: 17 rss: 32Mb L: 101/222 MS: 1 ChangeASCIIInt-
+#837	NEW    cov: 24 ft: 625 corp: 195/15493b lim: 222 exec/s: 20 rss: 32Mb L: 112/222 MS: 5 CMP-CMP-InsertByte-PersAutoDict-ChangeBinInt- DE: "\000\000\000\000\000\000\000\003"-"sqlite_se"-"trigg"-
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:95568:9
+#988	NEW    cov: 24 ft: 626 corp: 196/15542b lim: 222 exec/s: 24 rss: 32Mb L: 49/222 MS: 1 InsertByte-
+#1024	pulse  cov: 24 ft: 626 corp: 196/15542b lim: 222 exec/s: 25 rss: 32Mb
+#1049	REDUCE cov: 24 ft: 626 corp: 196/15540b lim: 222 exec/s: 26 rss: 32Mb L: 103/222 MS: 1 EraseBytes-
+#1066	REDUCE cov: 24 ft: 626 corp: 196/15538b lim: 222 exec/s: 26 rss: 32Mb L: 109/222 MS: 2 ChangeByte-EraseBytes-
+#1322	NEW    cov: 24 ft: 627 corp: 197/15643b lim: 222 exec/s: 33 rss: 32Mb L: 105/222 MS: 1 PersAutoDict- DE: "sqlite_se"-
+#1365	NEW    cov: 24 ft: 628 corp: 198/15769b lim: 222 exec/s: 34 rss: 32Mb L: 126/222 MS: 3 CrossOver-EraseBytes-CopyPart-
+#1381	REDUCE cov: 24 ft: 628 corp: 198/15765b lim: 222 exec/s: 34 rss: 32Mb L: 45/222 MS: 1 EraseBytes-
+#1441	NEW    cov: 24 ft: 629 corp: 199/15803b lim: 222 exec/s: 36 rss: 32Mb L: 38/222 MS: 5 ChangeBinInt-CMP-InsertByte-EraseBytes-ChangeASCIIInt- DE: "\000\000\000\000"-
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36596:10
+#1727	NEW    cov: 24 ft: 630 corp: 200/15923b lim: 222 exec/s: 43 rss: 32Mb L: 120/222 MS: 1 ChangeASCIIInt-
+#2048	pulse  cov: 24 ft: 630 corp: 200/15923b lim: 222 exec/s: 40 rss: 32Mb
+#2799	NEW    cov: 24 ft: 631 corp: 201/16087b lim: 229 exec/s: 55 rss: 32Mb L: 164/222 MS: 2 ChangeBit-ChangeByte-
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:247303:43
+#2836	NEW    cov: 24 ft: 632 corp: 202/16292b lim: 229 exec/s: 56 rss: 32Mb L: 205/222 MS: 2 CopyPart-ChangeASCIIInt-
+#2932	NEW    cov: 24 ft: 633 corp: 203/16Kb lim: 229 exec/s: 58 rss: 32Mb L: 155/222 MS: 1 InsertRepeatedBytes-
+#3093	REDUCE cov: 24 ft: 633 corp: 203/16Kb lim: 229 exec/s: 61 rss: 32Mb L: 59/222 MS: 1 EraseBytes-
+#3519	NEW    cov: 24 ft: 634 corp: 204/16Kb lim: 229 exec/s: 70 rss: 32Mb L: 119/222 MS: 1 ChangeBinInt-
+#4096	pulse  cov: 24 ft: 634 corp: 204/16Kb lim: 229 exec/s: 81 rss: 32Mb
+#4412	NEW    cov: 24 ft: 635 corp: 205/16Kb lim: 236 exec/s: 88 rss: 32Mb L: 159/222 MS: 3 ChangeBit-EraseBytes-InsertRepeatedBytes-
+#4448	NEW    cov: 24 ft: 636 corp: 206/16Kb lim: 236 exec/s: 88 rss: 32Mb L: 64/222 MS: 1 InsertRepeatedBytes-
+#4750	NEW    cov: 24 ft: 637 corp: 207/16Kb lim: 236 exec/s: 95 rss: 32Mb L: 119/222 MS: 2 CrossOver-EraseBytes-
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:258174:9
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:258210:9
+#5161	NEW    cov: 24 ft: 639 corp: 208/16Kb lim: 236 exec/s: 103 rss: 32Mb L: 164/222 MS: 1 ChangeASCIIInt-
+#5937	REDUCE cov: 24 ft: 639 corp: 208/16Kb lim: 243 exec/s: 118 rss: 32Mb L: 183/222 MS: 1 EraseBytes-
+#6974	NEW    cov: 24 ft: 641 corp: 209/16Kb lim: 250 exec/s: 136 rss: 32Mb L: 135/222 MS: 2 CopyPart-CopyPart-
+#7090	REDUCE cov: 24 ft: 641 corp: 209/16Kb lim: 250 exec/s: 139 rss: 32Mb L: 118/222 MS: 1 EraseBytes-
+#7391	NEW    cov: 24 ft: 642 corp: 210/16Kb lim: 250 exec/s: 144 rss: 32Mb L: 178/222 MS: 1 ChangeByte-
+#8059	REDUCE cov: 24 ft: 642 corp: 210/16Kb lim: 250 exec/s: 158 rss: 32Mb L: 48/222 MS: 3 ShuffleBytes-EraseBytes-CopyPart-
+#8192	pulse  cov: 24 ft: 642 corp: 210/16Kb lim: 250 exec/s: 160 rss: 32Mb
+#8763	REDUCE cov: 24 ft: 642 corp: 210/16Kb lim: 250 exec/s: 171 rss: 32Mb L: 75/222 MS: 4 ShuffleBytes-InsertByte-ChangeBinInt-EraseBytes-
+[INTEGRITY] OVERFLOW at /home/xxx/PHDlife/fuxian/sqlite/sqlite3.c:0:0
+#9446	NEW    cov: 24 ft: 643 corp: 211/16Kb lim: 250 exec/s: 185 rss: 32Mb L: 31/222 MS: 3 InsertByte-ChangeByte-ChangeBit-
+#9532	REDUCE cov: 24 ft: 643 corp: 211/16Kb lim: 250 exec/s: 186 rss: 32Mb L: 109/222 MS: 1 EraseBytes-
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:36104:7
+#9643	NEW    cov: 24 ft: 644 corp: 212/17Kb lim: 250 exec/s: 189 rss: 32Mb L: 110/222 MS: 1 ChangeBinInt-
+#9755	REDUCE cov: 24 ft: 644 corp: 212/17Kb lim: 250 exec/s: 191 rss: 32Mb L: 89/222 MS: 2 PersAutoDict-EraseBytes- DE: "trigg"-
+#9971	NEW    cov: 24 ft: 645 corp: 213/17Kb lim: 250 exec/s: 195 rss: 32Mb L: 88/222 MS: 1 EraseBytes-
+#10044	REDUCE cov: 24 ft: 645 corp: 213/17Kb lim: 250 exec/s: 196 rss: 32Mb L: 24/222 MS: 3 EraseBytes-InsertByte-InsertByte-
+#10053	NEW    cov: 24 ft: 646 corp: 214/17Kb lim: 250 exec/s: 197 rss: 32Mb L: 138/222 MS: 4 EraseBytes-EraseBytes-ChangeASCIIInt-CopyPart-
+#10061	REDUCE cov: 24 ft: 646 corp: 214/17Kb lim: 250 exec/s: 197 rss: 32Mb L: 104/222 MS: 3 ShuffleBytes-ChangeBinInt-EraseBytes-
+#10772	NEW    cov: 24 ft: 647 corp: 215/17Kb lim: 257 exec/s: 211 rss: 32Mb L: 172/222 MS: 1 CopyPart-
+#11089	REDUCE cov: 24 ft: 647 corp: 215/17Kb lim: 257 exec/s: 217 rss: 32Mb L: 54/222 MS: 2 ChangeBit-EraseBytes-
+#12145	REDUCE cov: 24 ft: 647 corp: 215/17Kb lim: 265 exec/s: 238 rss: 32Mb L: 120/222 MS: 1 EraseBytes-
+#12182	REDUCE cov: 24 ft: 647 corp: 215/17Kb lim: 265 exec/s: 238 rss: 32Mb L: 95/222 MS: 2 ChangeBit-EraseBytes-
+#12663	REDUCE cov: 24 ft: 647 corp: 215/17Kb lim: 265 exec/s: 248 rss: 32Mb L: 76/222 MS: 1 EraseBytes-
+#12865	NEW    cov: 24 ft: 648 corp: 216/17Kb lim: 265 exec/s: 247 rss: 32Mb L: 159/222 MS: 2 ChangeByte-CopyPart-
+#13007	REDUCE cov: 24 ft: 648 corp: 216/17Kb lim: 265 exec/s: 250 rss: 32Mb L: 200/222 MS: 2 ChangeASCIIInt-EraseBytes-
+#13278	REDUCE cov: 24 ft: 648 corp: 216/17Kb lim: 265 exec/s: 255 rss: 32Mb L: 41/222 MS: 1 EraseBytes-
+#13789	REDUCE cov: 24 ft: 648 corp: 216/17Kb lim: 265 exec/s: 265 rss: 32Mb L: 155/222 MS: 1 EraseBytes-
+#13855	NEW    cov: 24 ft: 649 corp: 217/17Kb lim: 265 exec/s: 266 rss: 32Mb L: 94/222 MS: 1 ChangeByte-
+#14121	REDUCE cov: 24 ft: 649 corp: 217/17Kb lim: 265 exec/s: 271 rss: 32Mb L: 83/222 MS: 1 EraseBytes-
+#14552	NEW    cov: 24 ft: 650 corp: 218/17Kb lim: 265 exec/s: 234 rss: 32Mb L: 101/222 MS: 1 ShuffleBytes-
+#14838	REDUCE cov: 24 ft: 650 corp: 218/17Kb lim: 265 exec/s: 239 rss: 32Mb L: 53/222 MS: 1 EraseBytes-
+Slowest unit: 10 s:
+artifact_prefix='./'; Test unit written to ./slow-unit-3f3532e16ef73c810e8746eaf7205ee75cdcc541
+Base64: V0lUSCBSRUNVUlNJVkUgY250KHgpIEFTIChTRUxFQ1QgMCBVTklPTiBBTEwgU0VMRUNUIHgrMCBGUk9NIGNudCBXSEVSRSB4PDExKSBTRUxFQ1Qgc3VtKHgpIEZST00gY250Owo=
+#15559	REDUCE cov: 24 ft: 650 corp: 218/17Kb lim: 265 exec/s: 189 rss: 32Mb L: 115/222 MS: 1 EraseBytes-
+#15840	NEW    cov: 24 ft: 651 corp: 219/17Kb lim: 265 exec/s: 193 rss: 32Mb L: 85/222 MS: 1 EraseBytes-
+#16384	pulse  cov: 24 ft: 651 corp: 219/17Kb lim: 265 exec/s: 199 rss: 32Mb
+#16901	REDUCE cov: 24 ft: 651 corp: 219/17Kb lim: 273 exec/s: 206 rss: 32Mb L: 15/222 MS: 1 EraseBytes-
+#16947	REDUCE cov: 24 ft: 653 corp: 220/17Kb lim: 273 exec/s: 206 rss: 32Mb L: 199/222 MS: 1 CrossOver-
+#17514	REDUCE cov: 24 ft: 653 corp: 220/17Kb lim: 273 exec/s: 213 rss: 32Mb L: 33/222 MS: 2 CMP-EraseBytes- DE: "ti_stat"-
+#18281	NEW    cov: 24 ft: 654 corp: 221/18Kb lim: 273 exec/s: 222 rss: 32Mb L: 92/222 MS: 2 ChangeBit-EraseBytes-
+#19301	REDUCE cov: 24 ft: 654 corp: 221/18Kb lim: 281 exec/s: 209 rss: 32Mb L: 69/222 MS: 5 ShuffleBytes-ChangeASCIIInt-ChangeASCIIInt-CopyPart-EraseBytes-
+#19481	REDUCE cov: 24 ft: 654 corp: 221/18Kb lim: 281 exec/s: 211 rss: 32Mb L: 29/222 MS: 5 ShuffleBytes-ChangeBit-InsertByte-InsertByte-EraseBytes-
+#19747	REDUCE cov: 24 ft: 654 corp: 221/18Kb lim: 281 exec/s: 214 rss: 32Mb L: 101/222 MS: 1 EraseBytes-
+#20538	REDUCE cov: 24 ft: 654 corp: 221/18Kb lim: 281 exec/s: 223 rss: 32Mb L: 45/222 MS: 1 EraseBytes-
+#20704	REDUCE cov: 24 ft: 654 corp: 221/18Kb lim: 281 exec/s: 225 rss: 32Mb L: 109/222 MS: 1 EraseBytes-
+#21535	REDUCE cov: 24 ft: 654 corp: 221/18Kb lim: 289 exec/s: 234 rss: 32Mb L: 14/222 MS: 1 EraseBytes-
+#21986	NEW    cov: 24 ft: 655 corp: 222/18Kb lim: 289 exec/s: 238 rss: 32Mb L: 92/222 MS: 1 ChangeByte-
+#22107	REDUCE cov: 24 ft: 655 corp: 222/18Kb lim: 289 exec/s: 240 rss: 32Mb L: 89/222 MS: 1 EraseBytes-
+#23198	REDUCE cov: 24 ft: 655 corp: 222/18Kb lim: 297 exec/s: 252 rss: 32Mb L: 69/222 MS: 1 EraseBytes-
+#23537	REDUCE cov: 24 ft: 655 corp: 222/18Kb lim: 297 exec/s: 255 rss: 32Mb L: 51/222 MS: 4 ChangeASCIIInt-EraseBytes-CopyPart-EraseBytes-
+#23673	NEW    cov: 24 ft: 657 corp: 223/18Kb lim: 297 exec/s: 257 rss: 32Mb L: 252/252 MS: 1 CrossOver-
+#25486	REDUCE cov: 24 ft: 657 corp: 223/18Kb lim: 313 exec/s: 247 rss: 32Mb L: 15/252 MS: 1 EraseBytes-
+#25757	REDUCE cov: 24 ft: 657 corp: 223/18Kb lim: 313 exec/s: 250 rss: 32Mb L: 89/252 MS: 1 EraseBytes-
+#26252	REDUCE cov: 24 ft: 657 corp: 223/18Kb lim: 313 exec/s: 254 rss: 32Mb L: 88/252 MS: 5 CrossOver-PersAutoDict-CrossOver-CopyPart-ChangeBinInt- DE: "sqlite_se"-
+#26386	REDUCE cov: 24 ft: 657 corp: 223/18Kb lim: 313 exec/s: 256 rss: 32Mb L: 38/252 MS: 4 ChangeByte-ChangeBit-ChangeASCIIInt-EraseBytes-
+#27023	REDUCE cov: 24 ft: 657 corp: 223/18Kb lim: 313 exec/s: 262 rss: 32Mb L: 18/252 MS: 2 InsertByte-EraseBytes-
+#27669	REDUCE cov: 24 ft: 657 corp: 223/18Kb lim: 313 exec/s: 268 rss: 32Mb L: 98/252 MS: 1 EraseBytes-
+#27670	REDUCE cov: 24 ft: 657 corp: 223/18Kb lim: 313 exec/s: 268 rss: 32Mb L: 50/252 MS: 1 EraseBytes-
+#28506	REDUCE cov: 24 ft: 657 corp: 223/18Kb lim: 321 exec/s: 276 rss: 32Mb L: 111/252 MS: 1 EraseBytes-
+#28523	REDUCE cov: 24 ft: 657 corp: 223/18Kb lim: 321 exec/s: 276 rss: 32Mb L: 63/252 MS: 2 InsertByte-EraseBytes-
+#28789	REDUCE cov: 24 ft: 657 corp: 223/18Kb lim: 321 exec/s: 279 rss: 32Mb L: 189/252 MS: 1 EraseBytes-
+#28845	REDUCE cov: 24 ft: 657 corp: 223/18Kb lim: 321 exec/s: 280 rss: 32Mb L: 53/252 MS: 1 EraseBytes-
+#29720	DONE   cov: 24 ft: 657 corp: 223/18Kb lim: 329 exec/s: 241 rss: 32Mb
+###### Recommended dictionary. ######
+"t_docsiz" # Uses: 524
+"trigg" # Uses: 453
+"\000\000\000\000\000\000\000\003" # Uses: 462
+"sqlite_se" # Uses: 459
+"\000\000\000\000" # Uses: 438
+"ti_stat" # Uses: 156
+###### End of recommended dictionary. ######
+Done 29720 runs in 123 second(s)
+[INTEGRITY] === Error Summary (51 unique, 0 dropped) ===
+[INTEGRITY]   [1] UNDERFLOW at sqlite/sqlite3.c:37203:7 (count=16247719)
+[INTEGRITY]   [2] OVERFLOW at sqlite/sqlite3.c:37203:7 (count=13000261)
+[INTEGRITY]   [3] SHIFT_OVF at sqlite/sqlite3.c:196104:11 (count=33762)
+[INTEGRITY]   [4] OVERFLOW at sqlite/sqlite3.c:34303:5 (count=36445)
+[INTEGRITY]   [5] UNDERFLOW at sqlite/sqlite3.c:34304:5 (count=40953)
+[INTEGRITY]   [6] OVERFLOW at sqlite/sqlite3.c:34305:5 (count=40547)
+[INTEGRITY]   [7] UNDERFLOW at sqlite/sqlite3.c:34307:5 (count=34664)
+[INTEGRITY]   [8] UNDERFLOW at sqlite/sqlite3.c:34309:5 (count=37981)
+[INTEGRITY]   [9] UNDERFLOW at sqlite/sqlite3.c:34303:5 (count=34075)
+[INTEGRITY]   [10] OVERFLOW at sqlite/sqlite3.c:34304:5 (count=33428)
+[INTEGRITY]   [11] UNDERFLOW at sqlite/sqlite3.c:34305:5 (count=33591)
+[INTEGRITY]   [12] UNDERFLOW at sqlite/sqlite3.c:34306:5 (count=33344)
+[INTEGRITY]   [13] UNDERFLOW at sqlite/sqlite3.c:34308:5 (count=36020)
+[INTEGRITY]   [14] OVERFLOW at sqlite/sqlite3.c:34306:5 (count=33441)
+[INTEGRITY]   [15] UNDERFLOW at sqlite/sqlite3.c:34310:5 (count=35175)
+[INTEGRITY]   [16] OVERFLOW at sqlite/sqlite3.c:34307:5 (count=35593)
+[INTEGRITY]   [17] OVERFLOW at sqlite/sqlite3.c:34310:5 (count=39830)
+[INTEGRITY]   [18] OVERFLOW at sqlite/sqlite3.c:34309:5 (count=37527)
+[INTEGRITY]   [19] OVERFLOW at sqlite/sqlite3.c:34308:5 (count=34802)
+[INTEGRITY]   [20] OVERFLOW at sqlite/sqlite3.c:34312:36 (count=17218)
+[INTEGRITY]   [21] UNDERFLOW at sqlite/sqlite3.c:34312:36 (count=14762)
+[INTEGRITY]   [22] OVERFLOW at sqlite/sqlite3.c:35722:7 (count=1403032)
+[INTEGRITY]   [23] UNDERFLOW at sqlite/sqlite3.c:95568:9 (count=811)
+[INTEGRITY]   [24] UNDERFLOW at sqlite/sqlite3.c:35722:7 (count=12637)
+[INTEGRITY]   [25] SHIFT_OVF at sqlite/sqlite3.c:123773:11 (count=24337)
+[INTEGRITY]   [26] OVERFLOW at sqlite/sqlite3.c:178833:27 (count=4002)
+[INTEGRITY]   [27] SHIFT_OVF at sqlite/sqlite3.c:95579:12 (count=143)
+[INTEGRITY]   [28] OVERFLOW at sqlite/sqlite3.c:36000:7 (count=130)
+[INTEGRITY]   [29] SHIFT_OVF at sqlite/sqlite3.c:36221:12 (count=68)
+[INTEGRITY]   [30] SHIFT_OVF at sqlite/sqlite3.c:36177:12 (count=1407)
+[INTEGRITY]   [31] OVERFLOW at sqlite/sqlite3.c:36099:10 (count=4706)
+[INTEGRITY]   [32] UNDERFLOW at sqlite/sqlite3.c:36099:10 (count=3989)
+[INTEGRITY]   [33] SHIFT_OVF at sqlite/sqlite3.c:36727:25 (count=841)
+[INTEGRITY]   [34] UNDERFLOW at sqlite/sqlite3.c:72677:7 (count=4239)
+[INTEGRITY]   [35] OVERFLOW at sqlite/sqlite3.c:72677:7 (count=743)
+[INTEGRITY]   [36] OVERFLOW at sqlite/sqlite3.c:35846:10 (count=90)
+[INTEGRITY]   [37] OVERFLOW at sqlite/sqlite3.c:72543:19 (count=61)
+[INTEGRITY]   [38] OVERFLOW at sqlite/sqlite3.c:258223:24 (count=4777)
+[INTEGRITY]   [39] OVERFLOW at sqlite/sqlite3.c:197769:40 (count=5941)
+[INTEGRITY]   [40] UNDERFLOW at sqlite/sqlite3.c:197769:40 (count=3039)
+[INTEGRITY]   [41] SHIFT_OVF at sqlite/sqlite3.c:242438:10 (count=253)
+[INTEGRITY]   [42] UNDERFLOW at sqlite/sqlite3.c:36099:14 (count=57)
+[INTEGRITY]   [43] OVERFLOW at sqlite/sqlite3.c:36099:18 (count=57)
+[INTEGRITY]   [44] SHIFT_OVF at sqlite/sqlite3.c:242436:12 (count=2412)
+[INTEGRITY]   [45] OVERFLOW at sqlite/sqlite3.c:95568:9 (count=5)
+[INTEGRITY]   [46] SHIFT_OVF at sqlite/sqlite3.c:36596:10 (count=7)
+[INTEGRITY]   [47] UNDERFLOW at sqlite/sqlite3.c:247303:43 (count=31)
+[INTEGRITY]   [48] SHIFT_OVF at sqlite/sqlite3.c:258174:9 (count=19)
+[INTEGRITY]   [49] SHIFT_OVF at sqlite/sqlite3.c:258210:9 (count=19)
+[INTEGRITY]   [50] OVERFLOW at /home/xxx/PHDlife/fuxian/sqlite/sqlite3.c:0:0 (count=4)
+[INTEGRITY]   [51] OVERFLOW at sqlite/sqlite3.c:36104:7 (count=31)

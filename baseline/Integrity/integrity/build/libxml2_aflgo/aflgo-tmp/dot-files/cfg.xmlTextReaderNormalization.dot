@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlTextReaderNormalization' function" {
+	label="CFG for 'xmlTextReaderNormalization' function";
+
+	Node0x22bb5510 [shape=record,label="{xmlreader.c:3646:}"];
+}

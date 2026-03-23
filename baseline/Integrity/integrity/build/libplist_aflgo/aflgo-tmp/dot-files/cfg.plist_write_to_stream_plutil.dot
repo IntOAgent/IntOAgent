@@ -1,0 +1,18 @@
+digraph "CFG for 'plist_write_to_stream_plutil' function" {
+	label="CFG for 'plist_write_to_stream_plutil' function";
+
+	Node0x3cd82b20 [shape=record,label="{out-plutil.c:445:}"];
+	Node0x3cd82b20 -> Node0x3cd83a70;
+	Node0x3cd82b20 -> Node0x3cd83bb0;
+	Node0x3cd83a70 [shape=record,label="{out-plutil.c:448:}"];
+	Node0x3cd83a70 -> Node0x3cd83bb0;
+	Node0x3cd83a70 -> Node0x3cd83ac0;
+	Node0x3cd83ac0 [shape=record,label="{out-plutil.c:393:}"];
+	Node0x3cd83ac0 -> Node0x3cd83b10;
+	Node0x3cd83ac0 -> Node0x3cd83b60;
+	Node0x3cd83b10 [shape=record,label="{out-plutil.c:398:}"];
+	Node0x3cd83b10 -> Node0x3cd83b60;
+	Node0x3cd83b60 [shape=record,label="{out-plutil.c:401:}"];
+	Node0x3cd83b60 -> Node0x3cd83bb0;
+	Node0x3cd83bb0 [shape=record,label="{out-plutil.c:465:}"];
+}

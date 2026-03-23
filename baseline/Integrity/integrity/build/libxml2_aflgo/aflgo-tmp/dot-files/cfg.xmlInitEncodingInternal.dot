@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlInitEncodingInternal' function" {
+	label="CFG for 'xmlInitEncodingInternal' function";
+
+	Node0x253f07c0 [shape=record,label="{encoding.c:827:}"];
+}

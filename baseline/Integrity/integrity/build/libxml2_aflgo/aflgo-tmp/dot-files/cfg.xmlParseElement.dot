@@ -1,0 +1,28 @@
+digraph "CFG for 'xmlParseElement' function" {
+	label="CFG for 'xmlParseElement' function";
+
+	Node0x26f56d80 [shape=record,label="{parser.c:9669:}"];
+	Node0x26f56d80 -> Node0x26f578b0;
+	Node0x26f56d80 -> Node0x26f57b30;
+	Node0x26f578b0 [shape=record,label="{parser.c:9672:}"];
+	Node0x26f578b0 -> Node0x26f57ae0;
+	Node0x26f578b0 -> Node0x26f57900;
+	Node0x26f57900 [shape=record,label="{parser.c:9675:}"];
+	Node0x26f57900 -> Node0x26f57b30;
+	Node0x26f57900 -> Node0x26f57950;
+	Node0x26f57950 [shape=record,label="{parser.c:9676:}"];
+	Node0x26f57950 -> Node0x26f579a0;
+	Node0x26f57950 -> Node0x26f579f0;
+	Node0x26f579a0 [shape=record,label="{parser.c:9676:1}"];
+	Node0x26f579a0 -> Node0x26f579f0;
+	Node0x26f579f0 [shape=record,label="{parser.c:9676:2}"];
+	Node0x26f579f0 -> Node0x26f57a40;
+	Node0x26f579f0 -> Node0x26f57a90;
+	Node0x26f57a40 [shape=record,label="{parser.c:9676:3}"];
+	Node0x26f57a40 -> Node0x26f57a90;
+	Node0x26f57a90 [shape=record,label="{parser.c:9676:4}"];
+	Node0x26f57a90 -> Node0x26f57b30;
+	Node0x26f57ae0 [shape=record,label="{parser.c:9685:}"];
+	Node0x26f57ae0 -> Node0x26f57b30;
+	Node0x26f57b30 [shape=record,label="{parser.c:9686:}"];
+}

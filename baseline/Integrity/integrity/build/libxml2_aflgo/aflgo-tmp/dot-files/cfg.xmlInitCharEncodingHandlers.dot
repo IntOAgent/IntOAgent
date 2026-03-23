@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlInitCharEncodingHandlers' function" {
+	label="CFG for 'xmlInitCharEncodingHandlers' function";
+
+	Node0x253f05c0 [shape=record,label="{encoding.c:814:}"];
+}

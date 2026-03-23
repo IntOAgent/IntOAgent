@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtGetPrivate' function" {
+	label="CFG for 'xmlCtxtGetPrivate' function";
+
+	Node0x8e68620 [shape=record,label="{parserInternals.c:3078:}"];
+	Node0x8e68620 -> Node0x8e686c0;
+	Node0x8e68620 -> Node0x8e68670;
+	Node0x8e68670 [shape=record,label="{parserInternals.c:3081:}"];
+	Node0x8e68670 -> Node0x8e686c0;
+	Node0x8e686c0 [shape=record,label="{parserInternals.c:3082:}"];
+}

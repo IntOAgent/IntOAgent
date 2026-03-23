@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlCtxtReadDoc' function" {
+	label="CFG for 'xmlCtxtReadDoc' function";
+
+	Node0x2716cd70 [shape=record,label="{parser.c:13567:}"];
+	Node0x2716cd70 -> Node0x2717b180;
+	Node0x2716cd70 -> Node0x2717afb0;
+	Node0x2717afb0 [shape=record,label="{parser.c:13570:}"];
+	Node0x2717afb0 -> Node0x2717b090;
+	Node0x2717afb0 -> Node0x2717b040;
+	Node0x2717b040 [shape=record,label="{parser.c:13271:}"];
+	Node0x2717b040 -> Node0x2717b0e0;
+	Node0x2717b090 [shape=record,label="{parser.c:13171:}"];
+	Node0x2717b090 -> Node0x2717b0e0;
+	Node0x2717b0e0 [shape=record,label="{parser.c:13573:}"];
+	Node0x2717b0e0 -> Node0x2717b180;
+	Node0x2717b0e0 -> Node0x2717b130;
+	Node0x2717b130 [shape=record,label="{parser.c:13578:}"];
+	Node0x2717b130 -> Node0x2717b180;
+	Node0x2717b180 [shape=record,label="{parser.c:13579:}"];
+}

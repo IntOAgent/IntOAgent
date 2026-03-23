@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlFreeRMutex' function" {
+	label="CFG for 'xmlFreeRMutex' function";
+
+	Node0x22939f40 [shape=record,label="{threads.c:221:}"];
+	Node0x22939f40 -> Node0x22939fe0;
+	Node0x22939f40 -> Node0x22939f90;
+	Node0x22939f90 [shape=record,label="{threads.c:205:}"];
+	Node0x22939f90 -> Node0x22939fe0;
+	Node0x22939fe0 [shape=record,label="{threads.c:225:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSaveNotationTable' function" {
+	label="CFG for 'xmlSaveNotationTable' function";
+
+	Node0x2638f960 [shape=record,label="{xmlsave.c:2024:}"];
+	Node0x2638f960 -> Node0x2638fa00;
+	Node0x2638f960 -> Node0x2638f9b0;
+	Node0x2638f9b0 [shape=record,label="{xmlsave.c:2026:}"];
+	Node0x2638f9b0 -> Node0x2638fa00;
+	Node0x2638fa00 [shape=record,label="{xmlsave.c:2028:}"];
+}

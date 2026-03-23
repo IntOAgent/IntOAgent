@@ -1,0 +1,6 @@
+parserInternals.c:3057,24.408163265306122
+parserInternals.c:3062,24
+parserInternals.c:3064,20
+parserInternals.c:3057,24.408163265306122
+parserInternals.c:3062,24
+parserInternals.c:3064,20

@@ -1,0 +1,25 @@
+digraph "CFG for 'xmlNewStreamComp' function" {
+	label="CFG for 'xmlNewStreamComp' function";
+
+	Node0x32bd0ea0 [shape=record,label="{pattern.c:1258:}"];
+	Node0x32bd0ea0 -> Node0x32bd1120;
+	Node0x32bd0ea0 -> Node0x32bd0ef0;
+	Node0x32bd0ef0 [shape=record,label="{pattern.c:1267:}"];
+	Node0x32bd0ef0 -> Node0x32bd0f40;
+	Node0x32bd0ef0 -> Node0x32bd0f90;
+	Node0x32bd0f40 [shape=record,label="{pattern.c:1268:}"];
+	Node0x32bd0f40 -> Node0x32bd0f90;
+	Node0x32bd0f90 [shape=record,label="{pattern.c:1268:1}"];
+	Node0x32bd0f90 -> Node0x32bd0fe0;
+	Node0x32bd0f90 -> Node0x32bd1030;
+	Node0x32bd0fe0 [shape=record,label="{pattern.c:1268:2}"];
+	Node0x32bd0fe0 -> Node0x32bd1030;
+	Node0x32bd1030 [shape=record,label="{pattern.c:1268:3}"];
+	Node0x32bd1030 -> Node0x32bd1080;
+	Node0x32bd1030 -> Node0x32bd10d0;
+	Node0x32bd1080 [shape=record,label="{pattern.c:1270:}"];
+	Node0x32bd1080 -> Node0x32bd1120;
+	Node0x32bd10d0 [shape=record,label="{pattern.c:1275:}"];
+	Node0x32bd10d0 -> Node0x32bd1120;
+	Node0x32bd1120 [shape=record,label="{pattern.c:1278:}"];
+}

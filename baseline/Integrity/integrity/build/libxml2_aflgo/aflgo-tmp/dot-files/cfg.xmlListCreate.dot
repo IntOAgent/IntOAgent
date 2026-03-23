@@ -1,0 +1,25 @@
+digraph "CFG for 'xmlListCreate' function" {
+	label="CFG for 'xmlListCreate' function";
+
+	Node0xdfa77b0 [shape=record,label="{list.c:178:}"];
+	Node0xdfa77b0 -> Node0xdfa7a30;
+	Node0xdfa77b0 -> Node0xdfa7800;
+	Node0xdfa7800 [shape=record,label="{list.c:182:}"];
+	Node0xdfa7800 -> Node0xdfa7850;
+	Node0xdfa7800 -> Node0xdfa78a0;
+	Node0xdfa7850 [shape=record,label="{list.c:187:}"];
+	Node0xdfa7850 -> Node0xdfa7a30;
+	Node0xdfa78a0 [shape=record,label="{list.c:185:}"];
+	Node0xdfa78a0 -> Node0xdfa7940;
+	Node0xdfa78a0 -> Node0xdfa78f0;
+	Node0xdfa78f0 [shape=record,label="{list.c:196:}"];
+	Node0xdfa78f0 -> Node0xdfa7940;
+	Node0xdfa7940 [shape=record,label="{list.c:198:}"];
+	Node0xdfa7940 -> Node0xdfa79e0;
+	Node0xdfa7940 -> Node0xdfa7990;
+	Node0xdfa7990 [shape=record,label="{list.c:199:}"];
+	Node0xdfa7990 -> Node0xdfa7a30;
+	Node0xdfa79e0 [shape=record,label="{list.c:201:}"];
+	Node0xdfa79e0 -> Node0xdfa7a30;
+	Node0xdfa7a30 [shape=record,label="{list.c:203:}"];
+}

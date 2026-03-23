@@ -1,0 +1,22 @@
+digraph "CFG for 'xmlSchemaGetBuiltInListSimpleTypeItemType' function" {
+	label="CFG for 'xmlSchemaGetBuiltInListSimpleTypeItemType' function";
+
+	Node0xb51330 [shape=record,label="{xmlschemastypes.c:1342:}"];
+	Node0xb51330 -> Node0xb51550;
+	Node0xb51330 -> Node0xb513c0;
+	Node0xb513c0 [shape=record,label="{xmlschemastypes.c:1342:1}"];
+	Node0xb513c0 -> Node0xb51410;
+	Node0xb513c0 -> Node0xb51550;
+	Node0xb51410 [shape=record,label="{xmlschemastypes.c:1344:}"];
+	Node0xb51410 -> Node0xb51550;
+	Node0xb51410 -> Node0xb51460;
+	Node0xb51410 -> Node0xb514b0;
+	Node0xb51410 -> Node0xb51500;
+	Node0xb51460 [shape=record,label="{xmlschemastypes.c:1346:}"];
+	Node0xb51460 -> Node0xb51550;
+	Node0xb514b0 [shape=record,label="{xmlschemastypes.c:1348:}"];
+	Node0xb514b0 -> Node0xb51550;
+	Node0xb51500 [shape=record,label="{xmlschemastypes.c:1350:}"];
+	Node0xb51500 -> Node0xb51550;
+	Node0xb51550 [shape=record,label="{xmlschemastypes.c:1354:}"];
+}

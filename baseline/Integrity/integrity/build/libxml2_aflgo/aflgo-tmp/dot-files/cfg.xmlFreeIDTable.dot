@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlFreeIDTable' function" {
+	label="CFG for 'xmlFreeIDTable' function";
+
+	Node0x37d046a0 [shape=record,label="{valid.c:2310:}"];
+}

@@ -1,0 +1,5 @@
+pattern.c:1267,2.4000000000000004
+pattern.c:1268,0
+pattern.c:1258,0
+pattern.c:1267,2.4000000000000004
+pattern.c:1268,0

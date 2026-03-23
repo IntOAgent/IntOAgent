@@ -1,0 +1,35 @@
+digraph "CFG for 'htmlIsScriptAttribute' function" {
+	label="CFG for 'htmlIsScriptAttribute' function";
+
+	Node0x3836390 [shape=record,label="{HTMLparser.c:1571:}"];
+	Node0x3836390 -> Node0x3836770;
+	Node0x3836390 -> Node0x3836450;
+	Node0x3836450 [shape=record,label="{HTMLparser.c:1576:}"];
+	Node0x3836450 -> Node0x38364a0;
+	Node0x3836450 -> Node0x3836770;
+	Node0x38364a0 [shape=record,label="{HTMLparser.c:1576:1}"];
+	Node0x38364a0 -> Node0x3836540;
+	Node0x38364a0 -> Node0x3836770;
+	Node0x38364f0 [shape=record,label="{HTMLparser.c:1579:}"];
+	Node0x38364f0 -> Node0x3836770;
+	Node0x38364f0 -> Node0x3836540;
+	Node0x3836540 [shape=record,label="{HTMLparser.c:1581:}"];
+	Node0x3836540 -> Node0x3836590;
+	Node0x3836540 -> Node0x38365e0;
+	Node0x3836590 [shape=record,label="{HTMLparser.c:1581:2}"];
+	Node0x3836590 -> Node0x38365e0;
+	Node0x38365e0 [shape=record,label="{HTMLparser.c:1581:3}"];
+	Node0x38365e0 -> Node0x3836630;
+	Node0x38365e0 -> Node0x3836680;
+	Node0x3836630 [shape=record,label="{HTMLparser.c:1581:4}"];
+	Node0x3836630 -> Node0x3836680;
+	Node0x3836680 [shape=record,label="{HTMLparser.c:1581:5}"];
+	Node0x3836680 -> Node0x38366d0;
+	Node0x3836680 -> Node0x3836720;
+	Node0x38366d0 [shape=record,label="{%18}"];
+	Node0x38366d0 -> Node0x3836720;
+	Node0x3836720 [shape=record,label="{HTMLparser.c:1581:6}"];
+	Node0x3836720 -> Node0x38364f0;
+	Node0x3836720 -> Node0x3836770;
+	Node0x3836770 [shape=record,label="{HTMLparser.c:1585:}"];
+}

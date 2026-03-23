@@ -1,0 +1,5 @@
+digraph "CFG for '__xmlLineNumbersDefaultValue' function" {
+	label="CFG for '__xmlLineNumbersDefaultValue' function";
+
+	Node0x13059a0 [shape=record,label="{globals.c:627:}"];
+}

@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlSAX2InitHtmlDefaultSAXHandler' function" {
+	label="CFG for 'xmlSAX2InitHtmlDefaultSAXHandler' function";
+
+	Node0x1ad27840 [shape=record,label="{SAX2.c:2799:}"];
+	Node0x1ad27840 -> Node0x1ad27960;
+	Node0x1ad27840 -> Node0x1ad278c0;
+	Node0x1ad278c0 [shape=record,label="{SAX2.c:2799:1}"];
+	Node0x1ad278c0 -> Node0x1ad27910;
+	Node0x1ad278c0 -> Node0x1ad27960;
+	Node0x1ad27910 [shape=record,label="{SAX2.c:2802:}"];
+	Node0x1ad27910 -> Node0x1ad27960;
+	Node0x1ad27960 [shape=record,label="{SAX2.c:2831:}"];
+}

@@ -1,0 +1,24 @@
+digraph "CFG for 'xmlRemoveRef' function" {
+	label="CFG for 'xmlRemoveRef' function";
+
+	Node0x37d32be0 [shape=record,label="{valid.c:2706:}"];
+	Node0x37d32be0 -> Node0x37d32e10;
+	Node0x37d32be0 -> Node0x37d32c30;
+	Node0x37d32c30 [shape=record,label="{valid.c:2711:}"];
+	Node0x37d32c30 -> Node0x37d32e10;
+	Node0x37d32c30 -> Node0x37d32c80;
+	Node0x37d32c80 [shape=record,label="{valid.c:2715:}"];
+	Node0x37d32c80 -> Node0x37d32e10;
+	Node0x37d32c80 -> Node0x37d32cd0;
+	Node0x37d32cd0 [shape=record,label="{valid.c:2719:}"];
+	Node0x37d32cd0 -> Node0x37d32dc0;
+	Node0x37d32cd0 -> Node0x37d32d20;
+	Node0x37d32d20 [shape=record,label="{valid.c:2735:}"];
+	Node0x37d32d20 -> Node0x37d32dc0;
+	Node0x37d32d20 -> Node0x37d32d70;
+	Node0x37d32d70 [shape=record,label="{valid.c:2743:}"];
+	Node0x37d32d70 -> Node0x37d32dc0;
+	Node0x37d32dc0 [shape=record,label="{valid.c:2746:}"];
+	Node0x37d32dc0 -> Node0x37d32e10;
+	Node0x37d32e10 [shape=record,label="{valid.c:2746:1}"];
+}

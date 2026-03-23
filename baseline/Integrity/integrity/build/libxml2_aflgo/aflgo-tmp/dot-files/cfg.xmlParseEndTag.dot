@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlParseEndTag' function" {
+	label="CFG for 'xmlParseEndTag' function";
+
+	Node0x26f040e0 [shape=record,label="{parser.c:8367:}"];
+}

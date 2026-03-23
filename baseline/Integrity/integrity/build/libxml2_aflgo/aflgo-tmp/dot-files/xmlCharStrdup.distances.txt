@@ -1,0 +1,11 @@
+xmlstring.c:94,0
+xmlstring.c:98,0
+xmlstring.c:100,3
+xmlstring.c:101,2
+xmlstring.c:118,6.435024076620695
+xmlstring.c:119,5.1540563083423656
+xmlstring.c:120,0
+xmlstring.c:94,0
+xmlstring.c:98,0
+xmlstring.c:100,3
+xmlstring.c:101,2

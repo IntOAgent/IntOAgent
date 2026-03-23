@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlRelaxNGCleanupTypes' function" {
+	label="CFG for 'xmlRelaxNGCleanupTypes' function";
+
+	Node0x12d12690 [shape=record,label="{relaxng.c:2745:}"];
+	Node0x12d12690 -> Node0x12d068c0;
+	Node0x12d12690 -> Node0x12d06910;
+	Node0x12d068c0 [shape=record,label="{relaxng.c:2751:}"];
+	Node0x12d068c0 -> Node0x12d06910;
+	Node0x12d06910 [shape=record,label="{relaxng.c:2754:}"];
+}

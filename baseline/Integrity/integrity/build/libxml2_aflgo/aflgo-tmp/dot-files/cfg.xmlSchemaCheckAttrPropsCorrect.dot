@@ -1,0 +1,26 @@
+digraph "CFG for 'xmlSchemaCheckAttrPropsCorrect' function" {
+	label="CFG for 'xmlSchemaCheckAttrPropsCorrect' function";
+
+	Node0x2df3d8a0 [shape=record,label="{xmlschemas.c:19077:}"];
+	Node0x2df3d8a0 -> Node0x2df3db20;
+	Node0x2df3d8a0 -> Node0x2df3d8f0;
+	Node0x2df3d8f0 [shape=record,label="{xmlschemas.c:19080:}"];
+	Node0x2df3d8f0 -> Node0x2df3db20;
+	Node0x2df3d8f0 -> Node0x2df3d940;
+	Node0x2df3d940 [shape=record,label="{xmlschemas.c:19088:}"];
+	Node0x2df3d940 -> Node0x2df3d9e0;
+	Node0x2df3d940 -> Node0x2df3d990;
+	Node0x2df3d990 [shape=record,label="{xmlschemas.c:19093:}"];
+	Node0x2df3d990 -> Node0x2df3db20;
+	Node0x2df3d9e0 [shape=record,label="{xmlschemas.c:19108:}"];
+	Node0x2df3d9e0 -> Node0x2df3db20;
+	Node0x2df3d9e0 -> Node0x2df3da30;
+	Node0x2df3da30 [shape=record,label="{xmlschemas.c:19112:}"];
+	Node0x2df3da30 -> Node0x2df3da80;
+	Node0x2df3da30 -> Node0x2df3dad0;
+	Node0x2df3da80 [shape=record,label="{xmlschemas.c:2322:}"];
+	Node0x2df3da80 -> Node0x2df3db20;
+	Node0x2df3dad0 [shape=record,label="{xmlschemas.c:19119:}"];
+	Node0x2df3dad0 -> Node0x2df3db20;
+	Node0x2df3db20 [shape=record,label="{xmlschemas.c:19127:}"];
+}

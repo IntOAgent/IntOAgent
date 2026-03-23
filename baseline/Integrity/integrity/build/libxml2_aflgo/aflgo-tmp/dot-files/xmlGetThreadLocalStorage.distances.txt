@@ -1,0 +1,5 @@
+globals.c:508,13
+globals.c:482,12
+globals.c:484,13
+globals.c:492,12
+globals.c:496,10

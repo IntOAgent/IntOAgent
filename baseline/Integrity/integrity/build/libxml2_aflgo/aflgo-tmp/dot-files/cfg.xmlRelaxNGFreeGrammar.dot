@@ -1,0 +1,30 @@
+digraph "CFG for 'xmlRelaxNGFreeGrammar' function" {
+	label="CFG for 'xmlRelaxNGFreeGrammar' function";
+
+	Node0x12d06720 [shape=record,label="{relaxng.c:794:}"];
+	Node0x12d06720 -> Node0x12d01e60;
+	Node0x12d06720 -> Node0x12d01b90;
+	Node0x12d01b90 [shape=record,label="{relaxng.c:797:}"];
+	Node0x12d01b90 -> Node0x12d01c30;
+	Node0x12d01b90 -> Node0x12d01be0;
+	Node0x12d01be0 [shape=record,label="{relaxng.c:798:}"];
+	Node0x12d01be0 -> Node0x12d01c30;
+	Node0x12d01c30 [shape=record,label="{relaxng.c:800:}"];
+	Node0x12d01c30 -> Node0x12d01cd0;
+	Node0x12d01c30 -> Node0x12d01c80;
+	Node0x12d01c80 [shape=record,label="{relaxng.c:801:}"];
+	Node0x12d01c80 -> Node0x12d01cd0;
+	Node0x12d01cd0 [shape=record,label="{relaxng.c:803:}"];
+	Node0x12d01cd0 -> Node0x12d01d70;
+	Node0x12d01cd0 -> Node0x12d01d20;
+	Node0x12d01d20 [shape=record,label="{relaxng.c:804:}"];
+	Node0x12d01d20 -> Node0x12d01d70;
+	Node0x12d01d70 [shape=record,label="{relaxng.c:806:}"];
+	Node0x12d01d70 -> Node0x12d01e10;
+	Node0x12d01d70 -> Node0x12d01dc0;
+	Node0x12d01dc0 [shape=record,label="{relaxng.c:807:}"];
+	Node0x12d01dc0 -> Node0x12d01e10;
+	Node0x12d01e10 [shape=record,label="{relaxng.c:810:}"];
+	Node0x12d01e10 -> Node0x12d01e60;
+	Node0x12d01e60 [shape=record,label="{relaxng.c:811:}"];
+}

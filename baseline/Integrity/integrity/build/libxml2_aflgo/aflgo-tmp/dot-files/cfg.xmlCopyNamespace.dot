@@ -1,0 +1,38 @@
+digraph "CFG for 'xmlCopyNamespace' function" {
+	label="CFG for 'xmlCopyNamespace' function";
+
+	Node0x37233da0 [shape=record,label="{tree.c:3618:}"];
+	Node0x37233da0 -> Node0x372341d0;
+	Node0x37233da0 -> Node0x37233e60;
+	Node0x37233e60 [shape=record,label="{tree.c:3619:}"];
+	Node0x37233e60 -> Node0x37233eb0;
+	Node0x37233e60 -> Node0x372341d0;
+	Node0x37233eb0 [shape=record,label="{tree.c:3621:}"];
+	Node0x37233eb0 -> Node0x372341d0;
+	Node0x37233eb0 -> Node0x37233f00;
+	Node0x37233f00 [shape=record,label="{tree.c:529:}"];
+	Node0x37233f00 -> Node0x37233fa0;
+	Node0x37233f00 -> Node0x37233f50;
+	Node0x37233f50 [shape=record,label="{tree.c:533:}"];
+	Node0x37233f50 -> Node0x37234040;
+	Node0x37233f50 -> Node0x37233fa0;
+	Node0x37233fa0 [shape=record,label="{tree.c:537:}"];
+	Node0x37233fa0 -> Node0x372341d0;
+	Node0x37233fa0 -> Node0x37233ff0;
+	Node0x37233ff0 [shape=record,label="{tree.c:538:}"];
+	Node0x37233ff0 -> Node0x37234040;
+	Node0x37233ff0 -> Node0x372341d0;
+	Node0x37234040 [shape=record,label="{tree.c:567:}"];
+	Node0x37234040 -> Node0x372340e0;
+	Node0x37234040 -> Node0x37234090;
+	Node0x37234090 [shape=record,label="{tree.c:599:}"];
+	Node0x37234090 -> Node0x372340e0;
+	Node0x372340e0 [shape=record,label="{tree.c:600:}"];
+	Node0x372340e0 -> Node0x37234180;
+	Node0x372340e0 -> Node0x37234130;
+	Node0x37234130 [shape=record,label="{tree.c:600:1}"];
+	Node0x37234130 -> Node0x37234180;
+	Node0x37234180 [shape=record,label="{tree.c:601:}"];
+	Node0x37234180 -> Node0x372341d0;
+	Node0x372341d0 [shape=record,label="{tree.c:3627:}"];
+}

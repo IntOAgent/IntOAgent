@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlGenericErrorDefaultFunc' function" {
+	label="CFG for 'xmlGenericErrorDefaultFunc' function";
+
+	Node0x3649ecc0 [shape=record,label="{error.c:233:}"];
+	Node0x3649ecc0 -> Node0x364a43b0;
+	Node0x3649ecc0 -> Node0x364a4560;
+	Node0x364a43b0 [shape=record,label="{error.c:236:}"];
+	Node0x364a43b0 -> Node0x364a4560;
+	Node0x364a4560 [shape=record,label="{error.c:238:}"];
+}

@@ -1,0 +1,290 @@
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1672440991
+INFO: Loaded 1 modules   (4141 inline 8-bit counters): 4141 [0x642ae7194220, 0x642ae719524d), 
+INFO: Loaded 1 PC tables (4141 PCs): 4141 [0x642ae7195250,0x642ae71a5520), 
+INFO: 5530 Extra Counters
+INFO:      582 files found in corpus/libplist/bplist/
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
+INFO: seed corpus: files: 582 min: 1b max: 3718b total: 55672b rss: 27Mb
+[INTEGRITY] SHIFT_OVF at libplist/src/bplist.c:855:28
+[INTEGRITY] SHIFT_OVF at libplist/src/bplist.c:534:18
+[INTEGRITY] SHIFT_OVF at libplist/src/bplist.c:535:18
+[INTEGRITY] SHIFT_OVF at libplist/src/bplist.c:618:18
+[INTEGRITY] SHIFT_OVF at libplist/src/bplist.c:647:20
+[INTEGRITY] SHIFT_OVF at libplist/src/bplist.c:690:27
+[INTEGRITY] OVERFLOW at libplist/src/ptrarray.c:85:0
+[INTEGRITY] OVERFLOW at libplist/src/ptrarray.c:90:13
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:890:17
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:0:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:102:7
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:108:8
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:100:2
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:105:7
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:0:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:107:3
+[INTEGRITY] OVERFLOW at libplist/src/ptrarray.c:94:0
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:835:0
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:855:28
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:662:0
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:675:9
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:360:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:48:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:64:6
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:618:18
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:887:9
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:633:35
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:133:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:80:17
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:80:2
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:89:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:51:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:156:17
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:882:24
+[INTEGRITY] OVERFLOW at libplist/src/ptrarray.c:78:0
+[INTEGRITY] OVERFLOW at libplist/src/ptrarray.c:81:2
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:264:25
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:116:2
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:733:19
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:608:5
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:262:0
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:463:5
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:163:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:166:6
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:120:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:126:7
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:129:7
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:0:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:170:39
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:390:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:31:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:32:0
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:0:0
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:423:5
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:473:17
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:263:6
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:392:5
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:34:21
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:720:19
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:150:6
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:64:9
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:37:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:38:21
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:152:7
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:67:9
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:706:5
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:137:13
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:140:10
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:403:47
+[INTEGRITY] OVERFLOW at libplist/src/ptrarray.c:35:0
+[INTEGRITY] OVERFLOW at libplist/src/ptrarray.c:36:6
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:34:6
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:287:5
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:304:20
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:405:2
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:408:20
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:417:27
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:434:37
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:430:37
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:803:16
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:458:0
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:408:7
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:417:14
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:792:16
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:365:0
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:379:26
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:647:20
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:654:14
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:778:16
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:355:0
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:353:0
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:356:42
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:296:24
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:437:18
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:785:16
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:479:0
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:493:24
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:399:24
+[INTEGRITY] SHIFT_OVF at libplist/src/bplist.c:795:17
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:825:16
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:499:0
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:521:5
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:409:13
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:410:17
+[INTEGRITY] OVERFLOW at libplist/src/hashtable.c:38:0
+[INTEGRITY] OVERFLOW at libplist/src/hashtable.c:39:6
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:746:19
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:337:23
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:326:23
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:418:8
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:409:8
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:799:21
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:807:21
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:781:21
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:821:21
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:788:21
+#583	INITED cov: 257 ft: 1691 corp: 324/32Kb exec/s: 0 rss: 27Mb
+#524288	pulse  cov: 257 ft: 1691 corp: 324/32Kb lim: 4096 exec/s: 262144 rss: 29Mb
+#1048576	pulse  cov: 257 ft: 1691 corp: 324/32Kb lim: 4096 exec/s: 262144 rss: 29Mb
+#2097152	pulse  cov: 257 ft: 1691 corp: 324/32Kb lim: 4096 exec/s: 233016 rss: 29Mb
+#2257053	REDUCE cov: 257 ft: 1691 corp: 324/32Kb lim: 4096 exec/s: 225705 rss: 29Mb L: 89/3718 MS: 5 InsertByte-CrossOver-ShuffleBytes-EraseBytes-EraseBytes-
+#2526395	REDUCE cov: 257 ft: 1691 corp: 324/32Kb lim: 4096 exec/s: 229672 rss: 30Mb L: 85/3718 MS: 2 ChangeBinInt-EraseBytes-
+#2559526	NEW    cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 213293 rss: 30Mb L: 77/3718 MS: 1 CrossOver-
+#2816973	REDUCE cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 234747 rss: 30Mb L: 78/3718 MS: 1 EraseBytes-
+#3169134	REDUCE cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 226366 rss: 30Mb L: 81/3718 MS: 1 EraseBytes-
+#4194304	pulse  cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 233016 rss: 30Mb
+#4820472	REDUCE cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 241023 rss: 30Mb L: 98/3718 MS: 3 ChangeASCIIInt-EraseBytes-CMP- DE: "\035\000\000\000\000\000\000\000"-
+#5761743	REDUCE cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 250510 rss: 30Mb L: 80/3718 MS: 1 EraseBytes-
+#6124405	REDUCE cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 244976 rss: 30Mb L: 79/3718 MS: 2 ChangeASCIIInt-EraseBytes-
+#6904748	REDUCE cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 255731 rss: 30Mb L: 140/3718 MS: 2 ChangeBit-EraseBytes-
+#8388608	pulse  cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 254200 rss: 30Mb
+#9209469	REDUCE cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 263127 rss: 30Mb L: 77/3718 MS: 1 EraseBytes-
+#14947090	REDUCE cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 271765 rss: 30Mb L: 77/3718 MS: 1 EraseBytes-
+#16777216	pulse  cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 275036 rss: 30Mb
+#16782604	REDUCE cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 275124 rss: 30Mb L: 82/3718 MS: 4 ChangeByte-CrossOver-CopyPart-EraseBytes-
+#18195500	REDUCE cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 275689 rss: 30Mb L: 81/3718 MS: 1 EraseBytes-
+#19974229	REDUCE cov: 257 ft: 1692 corp: 325/32Kb lim: 4096 exec/s: 277419 rss: 30Mb L: 81/3718 MS: 3 CMP-ChangeBit-EraseBytes- DE: "\007\000\000\000\000\000\000\000"-
+#20284092	NEW    cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 274109 rss: 30Mb L: 136/3718 MS: 3 InsertRepeatedBytes-PersAutoDict-ChangeBinInt- DE: "\035\000\000\000\000\000\000\000"-
+#20285644	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 274130 rss: 30Mb L: 107/3718 MS: 2 ChangeBinInt-EraseBytes-
+#20286000	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 274135 rss: 30Mb L: 92/3718 MS: 1 EraseBytes-
+#20287118	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 274150 rss: 30Mb L: 83/3718 MS: 3 ChangeBit-PersAutoDict-EraseBytes- DE: "\007\000\000\000\000\000\000\000"-
+#20293359	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 274234 rss: 30Mb L: 77/3718 MS: 1 EraseBytes-
+#20668200	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 275576 rss: 30Mb L: 80/3718 MS: 1 EraseBytes-
+#21017897	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 276551 rss: 30Mb L: 55/3718 MS: 2 EraseBytes-ChangeBit-
+#21084243	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 277424 rss: 30Mb L: 79/3718 MS: 1 EraseBytes-
+#21585374	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 276735 rss: 30Mb L: 79/3718 MS: 1 EraseBytes-
+#21720585	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 274944 rss: 30Mb L: 78/3718 MS: 1 EraseBytes-
+#22066202	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 275827 rss: 30Mb L: 80/3718 MS: 2 PersAutoDict-EraseBytes- DE: "\007\000\000\000\000\000\000\000"-
+#24660123	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 277080 rss: 30Mb L: 76/3718 MS: 1 EraseBytes-
+#25184754	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 276755 rss: 30Mb L: 77/3718 MS: 1 EraseBytes-
+#25832650	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 277770 rss: 30Mb L: 77/3718 MS: 1 EraseBytes-
+#25871021	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 278183 rss: 30Mb L: 78/3718 MS: 1 EraseBytes-
+#27410019	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 276868 rss: 30Mb L: 80/3718 MS: 3 PersAutoDict-InsertByte-EraseBytes- DE: "\007\000\000\000\000\000\000\000"-
+#28861410	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 277513 rss: 30Mb L: 77/3718 MS: 1 EraseBytes-
+#28885092	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 277741 rss: 30Mb L: 76/3718 MS: 2 EraseBytes-ChangeBit-
+#29079403	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 276946 rss: 30Mb L: 78/3718 MS: 1 EraseBytes-
+#32554544	REDUCE cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 278243 rss: 30Mb L: 106/3718 MS: 5 CrossOver-EraseBytes-ChangeASCIIInt-ChangeBit-CMP- DE: "\377\377\377\377\377\377\377\017"-
+#33554432	pulse  cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 279620 rss: 30Mb
+#33660274	DONE   cov: 257 ft: 1694 corp: 326/32Kb lim: 4096 exec/s: 278184 rss: 30Mb
+###### Recommended dictionary. ######
+"\035\000\000\000\000\000\000\000" # Uses: 2005182
+"\007\000\000\000\000\000\000\000" # Uses: 614026
+"\377\377\377\377\377\377\377\017" # Uses: 34046
+###### End of recommended dictionary. ######
+Done 33660274 runs in 121 second(s)
+[INTEGRITY] === Error Summary (116 unique, 0 dropped) ===
+[INTEGRITY]   [1] SHIFT_OVF at libplist/src/bplist.c:855:28 (count=150405)
+[INTEGRITY]   [2] SHIFT_OVF at libplist/src/bplist.c:534:18 (count=86454)
+[INTEGRITY]   [3] SHIFT_OVF at libplist/src/bplist.c:535:18 (count=88333)
+[INTEGRITY]   [4] SHIFT_OVF at libplist/src/bplist.c:618:18 (count=171307)
+[INTEGRITY]   [5] SHIFT_OVF at libplist/src/bplist.c:647:20 (count=3079438)
+[INTEGRITY]   [6] SHIFT_OVF at libplist/src/bplist.c:690:27 (count=5566)
+[INTEGRITY]   [7] OVERFLOW at libplist/src/ptrarray.c:85:0 (count=4376387)
+[INTEGRITY]   [8] OVERFLOW at libplist/src/ptrarray.c:90:13 (count=4376387)
+[INTEGRITY]   [9] OVERFLOW at libplist/src/bplist.c:890:17 (count=1932753)
+[INTEGRITY]   [10] OVERFLOW at libplist/src/bplist.c:0:0 (count=2282411)
+[INTEGRITY]   [11] OVERFLOW at libplist/libcnary/node.c:102:7 (count=1354576)
+[INTEGRITY]   [12] OVERFLOW at libplist/libcnary/node.c:108:8 (count=1274086)
+[INTEGRITY]   [13] OVERFLOW at libplist/libcnary/node.c:100:2 (count=1846929)
+[INTEGRITY]   [14] OVERFLOW at libplist/libcnary/node.c:105:7 (count=1274148)
+[INTEGRITY]   [15] OVERFLOW at libplist/libcnary/node.c:0:0 (count=1961832)
+[INTEGRITY]   [16] OVERFLOW at libplist/libcnary/node.c:107:3 (count=1251608)
+[INTEGRITY]   [17] OVERFLOW at libplist/src/ptrarray.c:94:0 (count=583336)
+[INTEGRITY]   [18] OVERFLOW at libplist/src/bplist.c:835:0 (count=572843)
+[INTEGRITY]   [19] OVERFLOW at libplist/src/bplist.c:855:28 (count=1145686)
+[INTEGRITY]   [20] OVERFLOW at libplist/src/bplist.c:662:0 (count=572843)
+[INTEGRITY]   [21] OVERFLOW at libplist/src/bplist.c:675:9 (count=572843)
+[INTEGRITY]   [22] OVERFLOW at libplist/src/plist.c:360:0 (count=572843)
+[INTEGRITY]   [23] OVERFLOW at libplist/libcnary/node.c:48:0 (count=572843)
+[INTEGRITY]   [24] OVERFLOW at libplist/libcnary/node.c:64:6 (count=572843)
+[INTEGRITY]   [25] OVERFLOW at libplist/src/bplist.c:618:18 (count=1080796)
+[INTEGRITY]   [26] OVERFLOW at libplist/src/bplist.c:887:9 (count=572843)
+[INTEGRITY]   [27] OVERFLOW at libplist/src/bplist.c:633:35 (count=540398)
+[INTEGRITY]   [28] OVERFLOW at libplist/libcnary/node.c:133:0 (count=572843)
+[INTEGRITY]   [29] OVERFLOW at libplist/libcnary/node.c:80:17 (count=572843)
+[INTEGRITY]   [30] OVERFLOW at libplist/libcnary/node.c:80:2 (count=572843)
+[INTEGRITY]   [31] OVERFLOW at libplist/libcnary/node.c:89:0 (count=572843)
+[INTEGRITY]   [32] OVERFLOW at libplist/libcnary/node_list.c:51:0 (count=572843)
+[INTEGRITY]   [33] OVERFLOW at libplist/libcnary/node.c:156:17 (count=572843)
+[INTEGRITY]   [34] OVERFLOW at libplist/src/bplist.c:882:24 (count=572803)
+[INTEGRITY]   [35] OVERFLOW at libplist/src/ptrarray.c:78:0 (count=572803)
+[INTEGRITY]   [36] OVERFLOW at libplist/src/ptrarray.c:81:2 (count=572803)
+[INTEGRITY]   [37] OVERFLOW at libplist/libcnary/node.c:264:25 (count=1261471)
+[INTEGRITY]   [38] OVERFLOW at libplist/libcnary/node.c:116:2 (count=594752)
+[INTEGRITY]   [39] OVERFLOW at libplist/src/bplist.c:733:19 (count=14704)
+[INTEGRITY]   [40] OVERFLOW at libplist/src/bplist.c:608:5 (count=563308)
+[INTEGRITY]   [41] OVERFLOW at libplist/libcnary/node.c:262:0 (count=1181116)
+[INTEGRITY]   [42] OVERFLOW at libplist/src/plist.c:463:5 (count=1174551)
+[INTEGRITY]   [43] OVERFLOW at libplist/libcnary/node.c:163:0 (count=572843)
+[INTEGRITY]   [44] OVERFLOW at libplist/libcnary/node.c:166:6 (count=572843)
+[INTEGRITY]   [45] OVERFLOW at libplist/libcnary/node_list.c:120:0 (count=572843)
+[INTEGRITY]   [46] OVERFLOW at libplist/libcnary/node_list.c:126:7 (count=572843)
+[INTEGRITY]   [47] OVERFLOW at libplist/libcnary/node_list.c:129:7 (count=572843)
+[INTEGRITY]   [48] OVERFLOW at libplist/libcnary/node_list.c:0:0 (count=572843)
+[INTEGRITY]   [49] OVERFLOW at libplist/libcnary/node.c:170:39 (count=572843)
+[INTEGRITY]   [50] OVERFLOW at libplist/src/plist.c:390:0 (count=572843)
+[INTEGRITY]   [51] OVERFLOW at libplist/libcnary/node.c:31:0 (count=572843)
+[INTEGRITY]   [52] OVERFLOW at libplist/libcnary/node_list.c:32:0 (count=572843)
+[INTEGRITY]   [53] OVERFLOW at libplist/src/plist.c:0:0 (count=1718428)
+[INTEGRITY]   [54] OVERFLOW at libplist/src/plist.c:423:5 (count=572843)
+[INTEGRITY]   [55] OVERFLOW at libplist/src/plist.c:473:17 (count=572742)
+[INTEGRITY]   [56] OVERFLOW at libplist/libcnary/node.c:263:6 (count=483749)
+[INTEGRITY]   [57] OVERFLOW at libplist/src/plist.c:392:5 (count=347817)
+[INTEGRITY]   [58] OVERFLOW at libplist/libcnary/node.c:34:21 (count=483749)
+[INTEGRITY]   [59] OVERFLOW at libplist/src/bplist.c:720:19 (count=4494)
+[INTEGRITY]   [60] OVERFLOW at libplist/libcnary/node.c:150:6 (count=70010)
+[INTEGRITY]   [61] OVERFLOW at libplist/libcnary/node_list.c:64:9 (count=70010)
+[INTEGRITY]   [62] OVERFLOW at libplist/libcnary/node_list.c:37:0 (count=65097)
+[INTEGRITY]   [63] OVERFLOW at libplist/libcnary/node_list.c:38:21 (count=65097)
+[INTEGRITY]   [64] OVERFLOW at libplist/libcnary/node.c:152:7 (count=65097)
+[INTEGRITY]   [65] OVERFLOW at libplist/libcnary/node_list.c:67:9 (count=65097)
+[INTEGRITY]   [66] OVERFLOW at libplist/src/bplist.c:706:5 (count=106670)
+[INTEGRITY]   [67] OVERFLOW at libplist/libcnary/node_list.c:137:13 (count=70010)
+[INTEGRITY]   [68] OVERFLOW at libplist/libcnary/node_list.c:140:10 (count=65097)
+[INTEGRITY]   [69] OVERFLOW at libplist/src/plist.c:403:47 (count=107246)
+[INTEGRITY]   [70] OVERFLOW at libplist/src/ptrarray.c:35:0 (count=107246)
+[INTEGRITY]   [71] OVERFLOW at libplist/src/ptrarray.c:36:6 (count=107246)
+[INTEGRITY]   [72] OVERFLOW at libplist/libcnary/node.c:34:6 (count=65097)
+[INTEGRITY]   [73] OVERFLOW at libplist/src/bplist.c:287:5 (count=95542)
+[INTEGRITY]   [74] OVERFLOW at libplist/src/bplist.c:304:20 (count=149413)
+[INTEGRITY]   [75] OVERFLOW at libplist/src/bplist.c:405:2 (count=542247)
+[INTEGRITY]   [76] OVERFLOW at libplist/src/bplist.c:408:20 (count=556202)
+[INTEGRITY]   [77] OVERFLOW at libplist/src/bplist.c:417:27 (count=556202)
+[INTEGRITY]   [78] OVERFLOW at libplist/src/bplist.c:434:37 (count=212659)
+[INTEGRITY]   [79] OVERFLOW at libplist/src/bplist.c:430:37 (count=304430)
+[INTEGRITY]   [80] OVERFLOW at libplist/src/bplist.c:803:16 (count=75637)
+[INTEGRITY]   [81] OVERFLOW at libplist/src/bplist.c:458:0 (count=75637)
+[INTEGRITY]   [82] OVERFLOW at libplist/src/bplist.c:408:7 (count=42849)
+[INTEGRITY]   [83] OVERFLOW at libplist/src/bplist.c:417:14 (count=31492)
+[INTEGRITY]   [84] OVERFLOW at libplist/src/bplist.c:792:16 (count=6573)
+[INTEGRITY]   [85] OVERFLOW at libplist/src/bplist.c:365:0 (count=6573)
+[INTEGRITY]   [86] OVERFLOW at libplist/src/bplist.c:379:26 (count=6573)
+[INTEGRITY]   [87] OVERFLOW at libplist/src/bplist.c:647:20 (count=79926)
+[INTEGRITY]   [88] OVERFLOW at libplist/src/bplist.c:654:14 (count=65059)
+[INTEGRITY]   [89] OVERFLOW at libplist/src/bplist.c:778:16 (count=36980)
+[INTEGRITY]   [90] OVERFLOW at libplist/src/bplist.c:355:0 (count=36980)
+[INTEGRITY]   [91] OVERFLOW at libplist/src/plist.c:353:0 (count=71700)
+[INTEGRITY]   [92] OVERFLOW at libplist/src/plist.c:356:42 (count=71700)
+[INTEGRITY]   [93] OVERFLOW at libplist/src/bplist.c:296:24 (count=27011)
+[INTEGRITY]   [94] OVERFLOW at libplist/src/bplist.c:437:18 (count=92649)
+[INTEGRITY]   [95] OVERFLOW at libplist/src/bplist.c:785:16 (count=3204)
+[INTEGRITY]   [96] OVERFLOW at libplist/src/bplist.c:479:0 (count=3204)
+[INTEGRITY]   [97] OVERFLOW at libplist/src/bplist.c:493:24 (count=3204)
+[INTEGRITY]   [98] OVERFLOW at libplist/src/plist.c:399:24 (count=3204)
+[INTEGRITY]   [99] SHIFT_OVF at libplist/src/bplist.c:795:17 (count=7879)
+[INTEGRITY]   [100] OVERFLOW at libplist/src/bplist.c:825:16 (count=65459)
+[INTEGRITY]   [101] OVERFLOW at libplist/src/bplist.c:499:0 (count=65459)
+[INTEGRITY]   [102] OVERFLOW at libplist/src/bplist.c:521:5 (count=65459)
+[INTEGRITY]   [103] OVERFLOW at libplist/src/plist.c:409:13 (count=65459)
+[INTEGRITY]   [104] OVERFLOW at libplist/src/plist.c:410:17 (count=65459)
+[INTEGRITY]   [105] OVERFLOW at libplist/src/hashtable.c:38:0 (count=65459)
+[INTEGRITY]   [106] OVERFLOW at libplist/src/hashtable.c:39:6 (count=65459)
+[INTEGRITY]   [107] OVERFLOW at libplist/src/bplist.c:746:19 (count=14952)
+[INTEGRITY]   [108] OVERFLOW at libplist/src/bplist.c:337:23 (count=15034)
+[INTEGRITY]   [109] OVERFLOW at libplist/src/bplist.c:326:23 (count=15150)
+[INTEGRITY]   [110] OVERFLOW at libplist/src/bplist.c:418:8 (count=6499)
+[INTEGRITY]   [111] OVERFLOW at libplist/src/bplist.c:409:8 (count=5501)
+[INTEGRITY]   [112] OVERFLOW at libplist/src/bplist.c:799:21 (count=4777)
+[INTEGRITY]   [113] OVERFLOW at libplist/src/bplist.c:807:21 (count=4997)
+[INTEGRITY]   [114] OVERFLOW at libplist/src/bplist.c:781:21 (count=4892)
+[INTEGRITY]   [115] OVERFLOW at libplist/src/bplist.c:821:21 (count=4971)
+[INTEGRITY]   [116] OVERFLOW at libplist/src/bplist.c:788:21 (count=4984)

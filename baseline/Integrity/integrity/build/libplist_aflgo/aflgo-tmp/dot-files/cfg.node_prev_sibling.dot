@@ -1,0 +1,10 @@
+digraph "CFG for 'node_prev_sibling' function" {
+	label="CFG for 'node_prev_sibling' function";
+
+	Node0x40f4900 [shape=record,label="{node.c:177:}"];
+	Node0x40f4900 -> Node0x40f49a0;
+	Node0x40f4900 -> Node0x40f4950;
+	Node0x40f4950 [shape=record,label="{node.c:178:}"];
+	Node0x40f4950 -> Node0x40f49a0;
+	Node0x40f49a0 [shape=record,label="{node.c:179:}"];
+}

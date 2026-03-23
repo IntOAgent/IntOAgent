@@ -1,0 +1,17 @@
+digraph "CFG for 'xmlLoadCatalog' function" {
+	label="CFG for 'xmlLoadCatalog' function";
+
+	Node0x5eca6c0 [shape=record,label="{catalog.c:3124:}"];
+	Node0x5eca6c0 -> Node0x5eca930;
+	Node0x5eca6c0 -> Node0x5ecaa20;
+	Node0x5eca930 [shape=record,label="{catalog.c:3129:}"];
+	Node0x5eca930 -> Node0x5eca980;
+	Node0x5eca930 -> Node0x5eca9d0;
+	Node0x5eca980 [shape=record,label="{catalog.c:3131:}"];
+	Node0x5eca980 -> Node0x5ecaa70;
+	Node0x5eca9d0 [shape=record,label="{catalog.c:3135:}"];
+	Node0x5eca9d0 -> Node0x5ecaa70;
+	Node0x5ecaa20 [shape=record,label="{catalog.c:3141:}"];
+	Node0x5ecaa20 -> Node0x5ecaa70;
+	Node0x5ecaa70 [shape=record,label="{catalog.c:3144:}"];
+}

@@ -1,0 +1,1 @@
+/oCREATE TABLG t(a,b); INSERT INTO t VALUES(5,2);

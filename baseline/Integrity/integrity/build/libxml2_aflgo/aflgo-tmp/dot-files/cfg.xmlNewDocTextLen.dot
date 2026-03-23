@@ -1,0 +1,29 @@
+digraph "CFG for 'xmlNewDocTextLen' function" {
+	label="CFG for 'xmlNewDocTextLen' function";
+
+	Node0x37102df0 [shape=record,label="{tree.c:2294:}"];
+	Node0x37102df0 -> Node0x371c0160;
+	Node0x37102df0 -> Node0x371bff20;
+	Node0x371bff20 [shape=record,label="{tree.c:2297:}"];
+	Node0x371bff20 -> Node0x371c0070;
+	Node0x371bff20 -> Node0x371bffd0;
+	Node0x371bffd0 [shape=record,label="{tree.c:2302:}"];
+	Node0x371bffd0 -> Node0x371c0020;
+	Node0x371bffd0 -> Node0x371c0070;
+	Node0x371c0020 [shape=record,label="{tree.c:2304:}"];
+	Node0x371c0020 -> Node0x371c0160;
+	Node0x371c0070 [shape=record,label="{tree.c:2309:}"];
+	Node0x371c0070 -> Node0x371c0160;
+	Node0x371c0070 -> Node0x371c00c0;
+	Node0x371c00c0 [shape=record,label="{tree.c:2309:1}"];
+	Node0x371c00c0 -> Node0x371c0160;
+	Node0x371c00c0 -> Node0x371c0110;
+	Node0x371c0110 [shape=record,label="{tree.c:2310:}"];
+	Node0x371c0110 -> Node0x371c0160;
+	Node0x371c0160 [shape=record,label="{tree.c:2328:}"];
+	Node0x371c0160 -> Node0x371c0200;
+	Node0x371c0160 -> Node0x371c01b0;
+	Node0x371c01b0 [shape=record,label="{tree.c:2328:2}"];
+	Node0x371c01b0 -> Node0x371c0200;
+	Node0x371c0200 [shape=record,label="{tree.c:2329:}"];
+}

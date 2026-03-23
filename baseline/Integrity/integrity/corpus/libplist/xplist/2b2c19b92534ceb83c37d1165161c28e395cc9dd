@@ -1,0 +1,11 @@
+<plist version="1.0">
+<dict>
+    <key>some test entitites</key>
+    <dict>
+        <key>copyright</key>
+        <string>&#169;</string>
+        <key>multiple entµitites</key>
+        <string>&#x2F20;&#x2Æ21;&#x2F22;</string>
+        <key>multiple entitites with characters inbes in" ".tt÷://www.aict>
+</dict>
+</plist>

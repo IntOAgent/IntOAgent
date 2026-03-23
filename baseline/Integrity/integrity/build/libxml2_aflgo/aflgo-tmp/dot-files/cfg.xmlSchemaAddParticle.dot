@@ -1,0 +1,28 @@
+digraph "CFG for 'xmlSchemaAddParticle' function" {
+	label="CFG for 'xmlSchemaAddParticle' function";
+
+	Node0x2df2e930 [shape=record,label="{xmlschemas.c:5288:}"];
+	Node0x2df2e930 -> Node0x2df2ec60;
+	Node0x2df2e930 -> Node0x2df2e9e0;
+	Node0x2df2e9e0 [shape=record,label="{xmlschemas.c:5292:}"];
+	Node0x2df2e9e0 -> Node0x2df2ea30;
+	Node0x2df2e9e0 -> Node0x2df2eb20;
+	Node0x2df2ea30 [shape=record,label="{xmlschemas.c:1856:}"];
+	Node0x2df2ea30 -> Node0x2df2ea80;
+	Node0x2df2ea30 -> Node0x2df2ead0;
+	Node0x2df2ea80 [shape=record,label="{xmlschemas.c:1856:1}"];
+	Node0x2df2ea80 -> Node0x2df2ead0;
+	Node0x2df2ead0 [shape=record,label="{xmlschemas.c:1856:2}"];
+	Node0x2df2ead0 -> Node0x2df2ec60;
+	Node0x2df2eb20 [shape=record,label="{xmlschemas.c:5291:}"];
+	Node0x2df2eb20 -> Node0x2df2eb70;
+	Node0x2df2eb20 -> Node0x2df2ec60;
+	Node0x2df2eb70 [shape=record,label="{xmlschemas.c:1856:3}"];
+	Node0x2df2eb70 -> Node0x2df2ebc0;
+	Node0x2df2eb70 -> Node0x2df2ec10;
+	Node0x2df2ebc0 [shape=record,label="{xmlschemas.c:1856:4}"];
+	Node0x2df2ebc0 -> Node0x2df2ec10;
+	Node0x2df2ec10 [shape=record,label="{xmlschemas.c:1856:5}"];
+	Node0x2df2ec10 -> Node0x2df2ec60;
+	Node0x2df2ec60 [shape=record,label="{xmlschemas.c:5313:}"];
+}

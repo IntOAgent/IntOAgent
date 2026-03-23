@@ -1,0 +1,5 @@
+digraph "CFG for 'htmlCtxtReset' function" {
+	label="CFG for 'htmlCtxtReset' function";
+
+	Node0x3810df0 [shape=record,label="{HTMLparser.c:5493:}"];
+}

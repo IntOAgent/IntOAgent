@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlStringCurrentChar' function" {
+	label="CFG for 'xmlStringCurrentChar' function";
+
+	Node0x8d57ae0 [shape=record,label="{parserInternals.c:1066:}"];
+	Node0x8d57ae0 -> Node0x8d587c0;
+	Node0x8d57ae0 -> Node0x8d58770;
+	Node0x8d58770 [shape=record,label="{parserInternals.c:1070:}"];
+	Node0x8d58770 -> Node0x8d587c0;
+	Node0x8d587c0 [shape=record,label="{parserInternals.c:1074:}"];
+}

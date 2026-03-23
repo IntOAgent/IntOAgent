@@ -1,0 +1,34 @@
+digraph "CFG for 'xmlACatalogResolveURI' function" {
+	label="CFG for 'xmlACatalogResolveURI' function";
+
+	Node0x5e79f20 [shape=record,label="{catalog.c:2844:}"];
+	Node0x5e79f20 -> Node0x5e7a300;
+	Node0x5e79f20 -> Node0x5e79fe0;
+	Node0x5e79fe0 [shape=record,label="{catalog.c:2847:}"];
+	Node0x5e79fe0 -> Node0x5e7a080;
+	Node0x5e79fe0 -> Node0x5e7a030;
+	Node0x5e7a030 [shape=record,label="{catalog.c:2848:}"];
+	Node0x5e7a030 -> Node0x5e7a080;
+	Node0x5e7a080 [shape=record,label="{catalog.c:2852:}"];
+	Node0x5e7a080 -> Node0x5e7a0d0;
+	Node0x5e7a080 -> Node0x5e7a2b0;
+	Node0x5e7a0d0 [shape=record,label="{catalog.c:2537:}"];
+	Node0x5e7a0d0 -> Node0x5e7a210;
+	Node0x5e7a0d0 -> Node0x5e7a120;
+	Node0x5e7a120 [shape=record,label="{catalog.c:2516:}"];
+	Node0x5e7a120 -> Node0x5e7a210;
+	Node0x5e7a120 -> Node0x5e7a170;
+	Node0x5e7a170 [shape=record,label="{catalog.c:2519:}"];
+	Node0x5e7a170 -> Node0x5e7a1c0;
+	Node0x5e7a170 -> Node0x5e7a210;
+	Node0x5e7a1c0 [shape=record,label="{catalog.c:2520:}"];
+	Node0x5e7a1c0 -> Node0x5e7a210;
+	Node0x5e7a210 [shape=record,label="{catalog.c:2856:}"];
+	Node0x5e7a210 -> Node0x5e7a300;
+	Node0x5e7a210 -> Node0x5e7a260;
+	Node0x5e7a260 [shape=record,label="{catalog.c:2857:}"];
+	Node0x5e7a260 -> Node0x5e7a300;
+	Node0x5e7a2b0 [shape=record,label="{catalog.c:2861:}"];
+	Node0x5e7a2b0 -> Node0x5e7a300;
+	Node0x5e7a300 [shape=record,label="{catalog.c:2866:}"];
+}

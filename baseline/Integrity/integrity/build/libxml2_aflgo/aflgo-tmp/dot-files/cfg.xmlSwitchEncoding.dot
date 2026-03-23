@@ -1,0 +1,32 @@
+digraph "CFG for 'xmlSwitchEncoding' function" {
+	label="CFG for 'xmlSwitchEncoding' function";
+
+	Node0x8d177f0 [shape=record,label="{parserInternals.c:1264:}"];
+	Node0x8d177f0 -> Node0x8d17b70;
+	Node0x8d177f0 -> Node0x8d178a0;
+	Node0x8d178a0 [shape=record,label="{parserInternals.c:1268:}"];
+	Node0x8d178a0 -> Node0x8d17b70;
+	Node0x8d178a0 -> Node0x8d178f0;
+	Node0x8d178f0 [shape=record,label="{parserInternals.c:1271:}"];
+	Node0x8d178f0 -> Node0x8d17990;
+	Node0x8d178f0 -> Node0x8d17940;
+	Node0x8d17940 [shape=record,label="{parserInternals.c:486:}"];
+	Node0x8d17940 -> Node0x8d17b70;
+	Node0x8d17990 [shape=record,label="{parserInternals.c:1277:}"];
+	Node0x8d17990 -> Node0x8d17a30;
+	Node0x8d17990 -> Node0x8d17ad0;
+	Node0x8d17990 -> Node0x8d179e0;
+	Node0x8d17990 -> Node0x8d17a80;
+	Node0x8d179e0 [shape=record,label="{parserInternals.c:236:}"];
+	Node0x8d179e0 -> Node0x8d17a80;
+	Node0x8d17a30 [shape=record,label="{%25}"];
+	Node0x8d17a30 -> Node0x8d17a80;
+	Node0x8d17a80 [shape=record,label="{parserInternals.c:246:}"];
+	Node0x8d17a80 -> Node0x8d17ad0;
+	Node0x8d17ad0 [shape=record,label="{parserInternals.c:1279:}"];
+	Node0x8d17ad0 -> Node0x8d17b20;
+	Node0x8d17ad0 -> Node0x8d17b70;
+	Node0x8d17b20 [shape=record,label="{parserInternals.c:1280:}"];
+	Node0x8d17b20 -> Node0x8d17b70;
+	Node0x8d17b70 [shape=record,label="{parserInternals.c:1284:}"];
+}

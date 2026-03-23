@@ -1,0 +1,17 @@
+xmlwriter.c:2139,30
+xmlwriter.c:2144,43.815201192250363
+xmlwriter.c:2149,33.114323258869916
+xmlwriter.c:2147,0
+xmlwriter.c:2152,0
+xmlwriter.c:2139,30
+xmlwriter.c:2144,43.815201192250363
+xmlwriter.c:2149,33.114323258869916
+xmlwriter.c:2147,0
+xmlwriter.c:2152,0
+xmlwriter.c:2139,30
+xmlwriter.c:2143,5.5790192779672276
+xmlwriter.c:2144,43.815201192250363
+xmlwriter.c:2147,0
+xmlwriter.c:2148,5.527736597138424
+xmlwriter.c:2149,33.114323258869916
+xmlwriter.c:2152,0

@@ -1,0 +1,8 @@
+<plist version="1.0">
+<dict>
+    <key><![CDATA[cdata&key]]></key>
+    <string>string with cn="1.0">
+<dict>
+   d[CDATA[ÎÎÎÎÎÎÎÎÎÎÎÎg>
+</dict>
+</plist>

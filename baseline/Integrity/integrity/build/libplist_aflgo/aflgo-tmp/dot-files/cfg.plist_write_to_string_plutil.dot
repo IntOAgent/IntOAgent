@@ -1,0 +1,36 @@
+digraph "CFG for 'plist_write_to_string_plutil' function" {
+	label="CFG for 'plist_write_to_string_plutil' function";
+
+	Node0x3cd32800 [shape=record,label="{out-plutil.c:405:}"];
+	Node0x3cd32800 -> Node0x3cd53b10;
+	Node0x3cd32800 -> Node0x3cd53e80;
+	Node0x3cd53b10 [shape=record,label="{out-plutil.c:412:}"];
+	Node0x3cd53b10 -> Node0x3cd53e80;
+	Node0x3cd53b10 -> Node0x3cd53b60;
+	Node0x3cd53b60 [shape=record,label="{out-plutil.c:417:}"];
+	Node0x3cd53b60 -> Node0x3cd53e80;
+	Node0x3cd53b60 -> Node0x3cd53bb0;
+	Node0x3cd53bb0 [shape=record,label="{out-plutil.c:393:}"];
+	Node0x3cd53bb0 -> Node0x3cd53c00;
+	Node0x3cd53bb0 -> Node0x3cd53c50;
+	Node0x3cd53c00 [shape=record,label="{out-plutil.c:398:}"];
+	Node0x3cd53c00 -> Node0x3cd53c50;
+	Node0x3cd53c50 [shape=record,label="{out-plutil.c:401:}"];
+	Node0x3cd53c50 -> Node0x3cd53ca0;
+	Node0x3cd53c50 -> Node0x3cd53cf0;
+	Node0x3cd53ca0 [shape=record,label="{out-plutil.c:427:}"];
+	Node0x3cd53ca0 -> Node0x3cd53e80;
+	Node0x3cd53cf0 [shape=record,label="{out-plutil.c:432:}"];
+	Node0x3cd53cf0 -> Node0x3cd53d40;
+	Node0x3cd53cf0 -> Node0x3cd53d90;
+	Node0x3cd53d40 [shape=record,label="{out-plutil.c:435:}"];
+	Node0x3cd53d40 -> Node0x3cd53d90;
+	Node0x3cd53d90 [shape=record,label="{out-plutil.c:435:1}"];
+	Node0x3cd53d90 -> Node0x3cd53de0;
+	Node0x3cd53d90 -> Node0x3cd53e30;
+	Node0x3cd53de0 [shape=record,label="{out-plutil.c:435:2}"];
+	Node0x3cd53de0 -> Node0x3cd53e30;
+	Node0x3cd53e30 [shape=record,label="{out-plutil.c:435:3}"];
+	Node0x3cd53e30 -> Node0x3cd53e80;
+	Node0x3cd53e80 [shape=record,label="{out-plutil.c:441:}"];
+}

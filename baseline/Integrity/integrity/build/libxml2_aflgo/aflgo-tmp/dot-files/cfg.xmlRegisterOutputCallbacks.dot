@@ -1,0 +1,15 @@
+digraph "CFG for 'xmlRegisterOutputCallbacks' function" {
+	label="CFG for 'xmlRegisterOutputCallbacks' function";
+
+	Node0x9798af0 [shape=record,label="{xmlIO.c:2850:}"];
+	Node0x9798af0 -> Node0x980a650;
+	Node0x9798af0 -> Node0x980a560;
+	Node0x980a560 [shape=record,label="{xmlIO.c:2855:}"];
+	Node0x980a560 -> Node0x980a5b0;
+	Node0x980a560 -> Node0x980a600;
+	Node0x980a5b0 [shape=record,label="{xmlIO.c:2859:}"];
+	Node0x980a5b0 -> Node0x980a600;
+	Node0x980a600 [shape=record,label="{xmlIO.c:2859:1}"];
+	Node0x980a600 -> Node0x980a650;
+	Node0x980a650 [shape=record,label="{xmlIO.c:2860:}"];
+}

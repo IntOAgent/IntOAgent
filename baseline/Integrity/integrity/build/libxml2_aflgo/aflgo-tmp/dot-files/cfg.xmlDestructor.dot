@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlDestructor' function" {
+	label="CFG for 'xmlDestructor' function";
+
+	Node0x22948090 [shape=record,label="{threads.c:515:}"];
+	Node0x22948090 -> Node0x229484f0;
+	Node0x22948090 -> Node0x22948540;
+	Node0x229484f0 [shape=record,label="{threads.c:516:}"];
+	Node0x229484f0 -> Node0x22948540;
+	Node0x22948540 [shape=record,label="{threads.c:517:}"];
+}

@@ -1,0 +1,23 @@
+digraph "CFG for 'xmlRelaxNGGetParserErrors' function" {
+	label="CFG for 'xmlRelaxNGGetParserErrors' function";
+
+	Node0x12dc8fe0 [shape=record,label="{relaxng.c:7422:}"];
+	Node0x12dc8fe0 -> Node0x12dc9210;
+	Node0x12dc8fe0 -> Node0x12dc9030;
+	Node0x12dc9030 [shape=record,label="{relaxng.c:7424:}"];
+	Node0x12dc9030 -> Node0x12dc90d0;
+	Node0x12dc9030 -> Node0x12dc9080;
+	Node0x12dc9080 [shape=record,label="{relaxng.c:7425:}"];
+	Node0x12dc9080 -> Node0x12dc90d0;
+	Node0x12dc90d0 [shape=record,label="{relaxng.c:7426:}"];
+	Node0x12dc90d0 -> Node0x12dc9170;
+	Node0x12dc90d0 -> Node0x12dc9120;
+	Node0x12dc9120 [shape=record,label="{relaxng.c:7427:}"];
+	Node0x12dc9120 -> Node0x12dc9170;
+	Node0x12dc9170 [shape=record,label="{relaxng.c:7428:}"];
+	Node0x12dc9170 -> Node0x12dc9210;
+	Node0x12dc9170 -> Node0x12dc91c0;
+	Node0x12dc91c0 [shape=record,label="{relaxng.c:7429:}"];
+	Node0x12dc91c0 -> Node0x12dc9210;
+	Node0x12dc9210 [shape=record,label="{relaxng.c:7431:}"];
+}

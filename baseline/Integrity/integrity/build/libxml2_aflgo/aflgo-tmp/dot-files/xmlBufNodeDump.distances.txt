@@ -1,0 +1,8 @@
+xmlsave.c:63,40
+xmlsave.c:63,40
+xmlsave.c:2244,10.134560557298412
+xmlsave.c:2252,41.440552540700537
+xmlsave.c:63,40
+xmlsave.c:2270,0
+xmlsave.c:63,40
+xmlsave.c:63,40

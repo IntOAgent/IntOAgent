@@ -1,0 +1,46 @@
+digraph "CFG for 'plist_from_bin' function" {
+	label="CFG for 'plist_from_bin' function";
+
+	Node0x38796140 [shape=record,label="{bplist.c:845:}"];
+	Node0x38796140 -> Node0x387965f0;
+	Node0x38796140 -> Node0x38796190;
+	Node0x38796190 [shape=record,label="{bplist.c:848:}"];
+	Node0x38796190 -> Node0x387965f0;
+	Node0x38796190 -> Node0x387961e0;
+	Node0x387961e0 [shape=record,label="{bplist.c:854:}"];
+	Node0x387961e0 -> Node0x38796230;
+	Node0x387961e0 -> Node0x387965f0;
+	Node0x38796230 [shape=record,label="{bplist.c:859:}"];
+	Node0x38796230 -> Node0x38796280;
+	Node0x38796230 -> Node0x387965f0;
+	Node0x38796280 [shape=record,label="{bplist.c:864:}"];
+	Node0x38796280 -> Node0x387962d0;
+	Node0x38796280 -> Node0x387965f0;
+	Node0x387962d0 [shape=record,label="{bplist.c:870:}"];
+	Node0x387962d0 -> Node0x38796320;
+	Node0x387962d0 -> Node0x387965f0;
+	Node0x38796320 [shape=record,label="{bplist.c:901:}"];
+	Node0x38796320 -> Node0x38796370;
+	Node0x38796320 -> Node0x387965f0;
+	Node0x38796370 [shape=record,label="{bplist.c:906:}"];
+	Node0x38796370 -> Node0x387963c0;
+	Node0x38796370 -> Node0x38796410;
+	Node0x387963c0 [shape=record,label="{%51}"];
+	Node0x387963c0 -> Node0x38796410;
+	Node0x38796410 [shape=record,label="{%54}"];
+	Node0x38796410 -> Node0x38796460;
+	Node0x38796410 -> Node0x387964b0;
+	Node0x38796460 [shape=record,label="{%55}"];
+	Node0x38796460 -> Node0x387964b0;
+	Node0x387964b0 [shape=record,label="{bplist.c:906:1}"];
+	Node0x387964b0 -> Node0x387965f0;
+	Node0x387964b0 -> Node0x38796500;
+	Node0x38796500 [shape=record,label="{bplist.c:916:}"];
+	Node0x38796500 -> Node0x387965a0;
+	Node0x38796500 -> Node0x38796550;
+	Node0x38796550 [shape=record,label="{bplist.c:931:}"];
+	Node0x38796550 -> Node0x387965a0;
+	Node0x387965a0 [shape=record,label="{bplist.c:940:}"];
+	Node0x387965a0 -> Node0x387965f0;
+	Node0x387965f0 [shape=record,label="{bplist.c:940:2}"];
+}

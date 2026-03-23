@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlCreatePushParserCtxt' function" {
+	label="CFG for 'xmlCreatePushParserCtxt' function";
+
+	Node0x270879f0 [shape=record,label="{parser.c:11361:}"];
+	Node0x270879f0 -> Node0x270896e0;
+	Node0x270879f0 -> Node0x270895a0;
+	Node0x270895a0 [shape=record,label="{parser.c:11365:}"];
+	Node0x270895a0 -> Node0x27089690;
+	Node0x270895a0 -> Node0x270895f0;
+	Node0x270895f0 [shape=record,label="{parser.c:11373:}"];
+	Node0x270895f0 -> Node0x27089640;
+	Node0x270895f0 -> Node0x270896e0;
+	Node0x27089640 [shape=record,label="{parser.c:11374:}"];
+	Node0x27089640 -> Node0x27089690;
+	Node0x27089690 [shape=record,label="{parser.c:11380:}"];
+	Node0x27089690 -> Node0x270896e0;
+	Node0x270896e0 [shape=record,label="{parser.c:11380:1}"];
+}

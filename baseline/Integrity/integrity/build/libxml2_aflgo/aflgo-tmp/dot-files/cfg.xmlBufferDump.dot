@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlBufferDump' function" {
+	label="CFG for 'xmlBufferDump' function";
+
+	Node0x3f7cfb40 [shape=record,label="{buf.c:913:}"];
+	Node0x3f7cfb40 -> Node0x3f7d06f0;
+	Node0x3f7cfb40 -> Node0x3f7d0650;
+	Node0x3f7d0650 [shape=record,label="{buf.c:915:}"];
+	Node0x3f7d0650 -> Node0x3f7d06f0;
+	Node0x3f7d0650 -> Node0x3f7d06a0;
+	Node0x3f7d06a0 [shape=record,label="{buf.c:917:}"];
+	Node0x3f7d06a0 -> Node0x3f7d06f0;
+	Node0x3f7d06f0 [shape=record,label="{buf.c:921:}"];
+}

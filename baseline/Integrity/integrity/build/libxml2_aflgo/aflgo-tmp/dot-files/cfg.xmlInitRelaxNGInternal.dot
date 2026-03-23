@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlInitRelaxNGInternal' function" {
+	label="CFG for 'xmlInitRelaxNGInternal' function";
+
+	Node0x12d0c870 [shape=record,label="{relaxng.c:2686:}"];
+}

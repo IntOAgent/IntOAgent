@@ -1,0 +1,31 @@
+digraph "CFG for 'hash_table_destroy' function" {
+	label="CFG for 'hash_table_destroy' function";
+
+	Node0x16c1f920 [shape=record,label="{hashtable.c:39:}"];
+	Node0x16c1f920 -> Node0x16c222f0;
+	Node0x16c1f920 -> Node0x16c22020;
+	Node0x16c22020 [shape=record,label="{hashtable.c:42:}"];
+	Node0x16c22020 -> Node0x16c22070;
+	Node0x16c22070 [shape=record,label="{hashtable.c:43:}"];
+	Node0x16c22070 -> Node0x16c221b0;
+	Node0x16c22070 -> Node0x16c220c0;
+	Node0x16c220c0 [shape=record,label="{hashtable.c:46:}"];
+	Node0x16c220c0 -> Node0x16c22160;
+	Node0x16c220c0 -> Node0x16c22110;
+	Node0x16c22110 [shape=record,label="{hashtable.c:47:}"];
+	Node0x16c22110 -> Node0x16c22160;
+	Node0x16c22160 [shape=record,label="{hashtable.c:50:}"];
+	Node0x16c22160 -> Node0x16c221b0;
+	Node0x16c22160 -> Node0x16c220c0;
+	Node0x16c221b0 [shape=record,label="{hashtable.c:42:1}"];
+	Node0x16c221b0 -> Node0x16c22200;
+	Node0x16c221b0 -> Node0x16c22250;
+	Node0x16c22200 [shape=record,label="{%18}"];
+	Node0x16c22200 -> Node0x16c22250;
+	Node0x16c22250 [shape=record,label="{hashtable.c:42:2}"];
+	Node0x16c22250 -> Node0x16c222a0;
+	Node0x16c22250 -> Node0x16c22070;
+	Node0x16c222a0 [shape=record,label="{hashtable.c:55:}"];
+	Node0x16c222a0 -> Node0x16c222f0;
+	Node0x16c222f0 [shape=record,label="{hashtable.c:56:}"];
+}

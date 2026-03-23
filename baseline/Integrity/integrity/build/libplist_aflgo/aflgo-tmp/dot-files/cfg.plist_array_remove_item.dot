@@ -1,0 +1,39 @@
+digraph "CFG for 'plist_array_remove_item' function" {
+	label="CFG for 'plist_array_remove_item' function";
+
+	Node0x2159e830 [shape=record,label="{plist.c:747:}"];
+	Node0x2159e830 -> Node0x2159ecc0;
+	Node0x2159e830 -> Node0x2159e900;
+	Node0x2159e900 [shape=record,label="{plist.c:356:}"];
+	Node0x2159e900 -> Node0x2159e9a0;
+	Node0x2159e900 -> Node0x2159e950;
+	Node0x2159e950 [shape=record,label="{plist.c:1265:}"];
+	Node0x2159e950 -> Node0x2159e9a0;
+	Node0x2159e9a0 [shape=record,label="{plist.c:747:1}"];
+	Node0x2159e9a0 -> Node0x2159e9f0;
+	Node0x2159e9a0 -> Node0x2159ecc0;
+	Node0x2159e9f0 [shape=record,label="{plist.c:356:2}"];
+	Node0x2159e9f0 -> Node0x2159eb80;
+	Node0x2159e9f0 -> Node0x2159ea40;
+	Node0x2159ea40 [shape=record,label="{plist.c:1265:3}"];
+	Node0x2159ea40 -> Node0x2159ea90;
+	Node0x2159ea40 -> Node0x2159eb80;
+	Node0x2159ea90 [shape=record,label="{plist.c:655:}"];
+	Node0x2159ea90 -> Node0x2159eb30;
+	Node0x2159ea90 -> Node0x2159eae0;
+	Node0x2159eae0 [shape=record,label="{plist.c:657:}"];
+	Node0x2159eae0 -> Node0x2159eb80;
+	Node0x2159eb30 [shape=record,label="{plist.c:655:4}"];
+	Node0x2159eb30 -> Node0x2159eb80;
+	Node0x2159eb80 [shape=record,label="{plist.c:750:}"];
+	Node0x2159eb80 -> Node0x2159ecc0;
+	Node0x2159eb80 -> Node0x2159ebd0;
+	Node0x2159ebd0 [shape=record,label="{plist.c:752:}"];
+	Node0x2159ebd0 -> Node0x2159ec70;
+	Node0x2159ebd0 -> Node0x2159ec20;
+	Node0x2159ec20 [shape=record,label="{plist.c:754:}"];
+	Node0x2159ec20 -> Node0x2159ec70;
+	Node0x2159ec70 [shape=record,label="{plist.c:555:}"];
+	Node0x2159ec70 -> Node0x2159ecc0;
+	Node0x2159ecc0 [shape=record,label="{plist.c:759:}"];
+}

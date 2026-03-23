@@ -1,0 +1,24 @@
+digraph "CFG for 'xmlFileClose' function" {
+	label="CFG for 'xmlFileClose' function";
+
+	Node0x97654b0 [shape=record,label="{xmlIO.c:1041:}"];
+	Node0x97654b0 -> Node0x97656e0;
+	Node0x97654b0 -> Node0x9765500;
+	Node0x9765500 [shape=record,label="{xmlIO.c:1046:}"];
+	Node0x9765500 -> Node0x97656e0;
+	Node0x9765500 -> Node0x9765550;
+	Node0x9765550 [shape=record,label="{xmlIO.c:1048:}"];
+	Node0x9765550 -> Node0x97655a0;
+	Node0x9765550 -> Node0x9765640;
+	Node0x97655a0 [shape=record,label="{xmlIO.c:1027:}"];
+	Node0x97655a0 -> Node0x97656e0;
+	Node0x97655a0 -> Node0x97655f0;
+	Node0x97655f0 [shape=record,label="{xmlIO.c:1028:}"];
+	Node0x97655f0 -> Node0x97656e0;
+	Node0x9765640 [shape=record,label="{xmlIO.c:1051:}"];
+	Node0x9765640 -> Node0x97656e0;
+	Node0x9765640 -> Node0x9765690;
+	Node0x9765690 [shape=record,label="{xmlIO.c:1052:}"];
+	Node0x9765690 -> Node0x97656e0;
+	Node0x97656e0 [shape=record,label="{xmlIO.c:1055:}"];
+}

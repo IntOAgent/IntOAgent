@@ -1,0 +1,5 @@
+digraph "CFG for 'plist_new_uid' function" {
+	label="CFG for 'plist_new_uid' function";
+
+	Node0x2156d0c0 [shape=record,label="{plist.c:361:}"];
+}

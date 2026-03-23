@@ -1,0 +1,25 @@
+digraph "CFG for 'xmlFreeNotationTableEntry' function" {
+	label="CFG for 'xmlFreeNotationTableEntry' function";
+
+	Node0x37ceee80 [shape=record,label="{valid.c:1903:}"];
+	Node0x37ceee80 -> Node0x37cef100;
+	Node0x37ceee80 -> Node0x37ceeed0;
+	Node0x37ceeed0 [shape=record,label="{valid.c:1904:}"];
+	Node0x37ceeed0 -> Node0x37ceef70;
+	Node0x37ceeed0 -> Node0x37ceef20;
+	Node0x37ceef20 [shape=record,label="{valid.c:1905:}"];
+	Node0x37ceef20 -> Node0x37ceef70;
+	Node0x37ceef70 [shape=record,label="{valid.c:1906:}"];
+	Node0x37ceef70 -> Node0x37cef010;
+	Node0x37ceef70 -> Node0x37ceefc0;
+	Node0x37ceefc0 [shape=record,label="{valid.c:1907:}"];
+	Node0x37ceefc0 -> Node0x37cef010;
+	Node0x37cef010 [shape=record,label="{valid.c:1908:}"];
+	Node0x37cef010 -> Node0x37cef0b0;
+	Node0x37cef010 -> Node0x37cef060;
+	Node0x37cef060 [shape=record,label="{valid.c:1909:}"];
+	Node0x37cef060 -> Node0x37cef0b0;
+	Node0x37cef0b0 [shape=record,label="{valid.c:1910:}"];
+	Node0x37cef0b0 -> Node0x37cef100;
+	Node0x37cef100 [shape=record,label="{valid.c:2005:}"];
+}

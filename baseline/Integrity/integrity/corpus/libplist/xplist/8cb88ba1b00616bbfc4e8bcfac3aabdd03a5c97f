@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1&0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="2.0">
+<dict>
+	<key>Time1</key>
+	<date>2010-11-12T13:14:15Z</date>
+	<key>Time2</key>
+	<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key Soe>AmSCÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿII string</key>
+	<string>Test ASCII String</string>
+	<key>Some UTF8 strings</key>
+	<array><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plis<plist wersion="1.0">
+<dict>
+    <key>some test entitites</key>
+    <dict>
+        <key>copyright</key>
+        <string>&#169;</string>
+        <key>multiple entitites</key>
+        <string>&#x2F20;&#x2F21;&#x2F22;</string>
+    
+        <key>multiple entitites</key>
+        <string>&#x1F20;&#x2F21;&#x2F22;</string>
+        <key>multiple entitites with characters inbetween</key>
+        <string>a&#x2F23;b&#x2F24;c&#x2F25;d</string>
+       <key>multiple entitites with characters inbetween</key>
+        <string>a&#x2F23;b&#x2F24;c&#x2F25;d</string>
+    </dict>
+    <key>one byte entity</key>
+    <dict6ApPSvCsCTCoyRewqgqwrXDuSUhwqc6LzsuLD8+PH4je1t8YFxeQF19wqQ
+KMDEyMzQ1Njc4OVRF
+	U1QwMTIzNDU2Nzg5<?xml version="1.0" encoding="UTF-8"?>
+(eger>36fffffffvfffffffffffffffffffffffffffffffffffffffffffffffffffffff89<34  <key>one byte entity</key>
+        <st utf-8 with te¯t be!DOFxeQF19wqQK
+	Õ</data>
+<fore &a/mp; after</key>
+      libdict>
+plist/src/plist.c  <strin</plistg>abcd&#x1D>5
+65>

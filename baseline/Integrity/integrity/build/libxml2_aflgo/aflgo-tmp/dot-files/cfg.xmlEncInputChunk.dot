@@ -1,0 +1,33 @@
+digraph "CFG for 'xmlEncInputChunk' function" {
+	label="CFG for 'xmlEncInputChunk' function";
+
+	Node0x25421ed0 [shape=record,label="{encoding.c:1687:}"];
+	Node0x25421ed0 -> Node0x254220d0;
+	Node0x25421ed0 -> Node0x25421f90;
+	Node0x25421f90 [shape=record,label="{encoding.c:1688:}"];
+	Node0x25421f90 -> Node0x25421fe0;
+	Node0x25421f90 -> Node0x25422030;
+	Node0x25421fe0 [shape=record,label="{encoding.c:1691:}"];
+	Node0x25421fe0 -> Node0x25422080;
+	Node0x25422030 [shape=record,label="{encoding.c:1696:}"];
+	Node0x25422030 -> Node0x25422080;
+	Node0x25422080 [shape=record,label="{%15}"];
+	Node0x25422080 -> Node0x254222b0;
+	Node0x25422080 -> Node0x25422260;
+	Node0x254220d0 [shape=record,label="{encoding.c:1698:}"];
+	Node0x254220d0 -> Node0x25422120;
+	Node0x254220d0 -> Node0x25422170;
+	Node0x25422120 [shape=record,label="{encoding.c:1702:}"];
+	Node0x25422120 -> Node0x25422210;
+	Node0x25422170 [shape=record,label="{encoding.c:1707:}"];
+	Node0x25422170 -> Node0x254221c0;
+	Node0x25422170 -> Node0x25422210;
+	Node0x254221c0 [shape=record,label="{encoding.c:1713:}"];
+	Node0x254221c0 -> Node0x25422210;
+	Node0x25422210 [shape=record,label="{%30}"];
+	Node0x25422210 -> Node0x254222b0;
+	Node0x25422210 -> Node0x25422260;
+	Node0x25422260 [shape=record,label="{encoding.c:1717:}"];
+	Node0x25422260 -> Node0x254222b0;
+	Node0x254222b0 [shape=record,label="{encoding.c:1721:}"];
+}

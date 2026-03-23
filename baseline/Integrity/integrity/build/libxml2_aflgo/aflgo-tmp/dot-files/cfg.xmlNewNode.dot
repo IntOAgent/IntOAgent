@@ -1,0 +1,27 @@
+digraph "CFG for 'xmlNewNode' function" {
+	label="CFG for 'xmlNewNode' function";
+
+	Node0x3718d4d0 [shape=record,label="{tree.c:1904:}"];
+	Node0x3718d4d0 -> Node0x3718d750;
+	Node0x3718d4d0 -> Node0x3718d520;
+	Node0x3718d520 [shape=record,label="{tree.c:1915:}"];
+	Node0x3718d520 -> Node0x3718d750;
+	Node0x3718d520 -> Node0x3718d570;
+	Node0x3718d570 [shape=record,label="{tree.c:1845:}"];
+	Node0x3718d570 -> Node0x3718d6b0;
+	Node0x3718d570 -> Node0x3718d5c0;
+	Node0x3718d5c0 [shape=record,label="{tree.c:1848:}"];
+	Node0x3718d5c0 -> Node0x3718d6b0;
+	Node0x3718d5c0 -> Node0x3718d610;
+	Node0x3718d610 [shape=record,label="{tree.c:1868:}"];
+	Node0x3718d610 -> Node0x3718d6b0;
+	Node0x3718d610 -> Node0x3718d660;
+	Node0x3718d660 [shape=record,label="{tree.c:1869:}"];
+	Node0x3718d660 -> Node0x3718d6b0;
+	Node0x3718d6b0 [shape=record,label="{tree.c:1920:}"];
+	Node0x3718d6b0 -> Node0x3718d700;
+	Node0x3718d6b0 -> Node0x3718d750;
+	Node0x3718d700 [shape=record,label="{tree.c:1921:}"];
+	Node0x3718d700 -> Node0x3718d750;
+	Node0x3718d750 [shape=record,label="{tree.c:1818:}"];
+}

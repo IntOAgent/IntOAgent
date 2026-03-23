@@ -1,0 +1,5 @@
+cwe369_divzero.c:14
+cwe369_divzero.c:14:1
+cwe369_divzero.c:14:2
+cwe369_divzero.c:14:3
+cwe369_divzero.c:14:4

@@ -1,0 +1,5 @@
+xmlregexp.c:4454,13.481481481481481
+xmlregexp.c:4456,12.48
+xmlregexp.c:4457,12.48
+xmlregexp.c:4458,12.48
+xmlregexp.c:4462,10

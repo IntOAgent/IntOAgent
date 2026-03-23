@@ -1,0 +1,1 @@
+WITH RECURt(x) AS (SELECT nt WHERE x<10) SELECT sum(x) FROM cnt;

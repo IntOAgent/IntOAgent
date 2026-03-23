@@ -1,0 +1,16 @@
+digraph "CFG for 'xmlTextReaderGetParserColumnNumber' function" {
+	label="CFG for 'xmlTextReaderGetParserColumnNumber' function";
+
+	Node0x22bbe640 [shape=record,label="{xmlreader.c:3781:}"];
+	Node0x22bbe640 -> Node0x22ac66a0;
+	Node0x22bbe640 -> Node0x22ac65b0;
+	Node0x22ac65b0 [shape=record,label="{xmlreader.c:3781:1}"];
+	Node0x22ac65b0 -> Node0x22ac66a0;
+	Node0x22ac65b0 -> Node0x22ac6600;
+	Node0x22ac6600 [shape=record,label="{xmlreader.c:3782:}"];
+	Node0x22ac6600 -> Node0x22ac66a0;
+	Node0x22ac6600 -> Node0x22ac6650;
+	Node0x22ac6650 [shape=record,label="{xmlreader.c:3785:}"];
+	Node0x22ac6650 -> Node0x22ac66a0;
+	Node0x22ac66a0 [shape=record,label="{xmlreader.c:3786:}"];
+}

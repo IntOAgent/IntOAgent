@@ -1,0 +1,3 @@
+encoding.c:1188,10
+encoding.c:1196,10
+encoding.c:1204,15

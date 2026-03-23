@@ -1,0 +1,5 @@
+digraph "CFG for 'hash_table_new' function" {
+	label="CFG for 'hash_table_new' function";
+
+	Node0x16c0d350 [shape=record,label="{hashtable.c:25:}"];
+}

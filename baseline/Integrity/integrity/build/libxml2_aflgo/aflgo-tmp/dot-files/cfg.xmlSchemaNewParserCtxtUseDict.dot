@@ -1,0 +1,30 @@
+digraph "CFG for 'xmlSchemaNewParserCtxtUseDict' function" {
+	label="CFG for 'xmlSchemaNewParserCtxtUseDict' function";
+
+	Node0x2e111dd0 [shape=record,label="{xmlschemas.c:9687:}"];
+	Node0x2e111dd0 -> Node0x2e111e80;
+	Node0x2e111dd0 -> Node0x2e111ed0;
+	Node0x2e111e80 [shape=record,label="{xmlschemas.c:1863:}"];
+	Node0x2e111e80 -> Node0x2e112060;
+	Node0x2e111ed0 [shape=record,label="{xmlschemas.c:9692:}"];
+	Node0x2e111ed0 -> Node0x2e111f20;
+	Node0x2e111ed0 -> Node0x2e111f70;
+	Node0x2e111f20 [shape=record,label="{xmlschemas.c:1863:1}"];
+	Node0x2e111f20 -> Node0x2e111fc0;
+	Node0x2e111f70 [shape=record,label="{xmlschemas.c:3332:}"];
+	Node0x2e111f70 -> Node0x2e111fc0;
+	Node0x2e111fc0 [shape=record,label="{xmlschemas.c:9694:}"];
+	Node0x2e111fc0 -> Node0x2e112010;
+	Node0x2e111fc0 -> Node0x2e112060;
+	Node0x2e112010 [shape=record,label="{xmlschemas.c:9696:}"];
+	Node0x2e112010 -> Node0x2e112060;
+	Node0x2e112060 [shape=record,label="{xmlschemas.c:9716:}"];
+	Node0x2e112060 -> Node0x2e112150;
+	Node0x2e112060 -> Node0x2e1120b0;
+	Node0x2e1120b0 [shape=record,label="{xmlschemas.c:9718:}"];
+	Node0x2e1120b0 -> Node0x2e112150;
+	Node0x2e1120b0 -> Node0x2e112100;
+	Node0x2e112100 [shape=record,label="{xmlschemas.c:9721:}"];
+	Node0x2e112100 -> Node0x2e112150;
+	Node0x2e112150 [shape=record,label="{xmlschemas.c:9723:}"];
+}

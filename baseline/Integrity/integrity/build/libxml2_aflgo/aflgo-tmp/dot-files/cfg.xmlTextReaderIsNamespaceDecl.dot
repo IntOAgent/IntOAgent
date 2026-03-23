@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlTextReaderIsNamespaceDecl' function" {
+	label="CFG for 'xmlTextReaderIsNamespaceDecl' function";
+
+	Node0x22bdc940 [shape=record,label="{xmlreader.c:4377:}"];
+	Node0x22bdc940 -> Node0x22bdd150;
+	Node0x22bdc940 -> Node0x22bdd0b0;
+	Node0x22bdd0b0 [shape=record,label="{xmlreader.c:4379:}"];
+	Node0x22bdd0b0 -> Node0x22bdd150;
+	Node0x22bdd0b0 -> Node0x22bdd100;
+	Node0x22bdd100 [shape=record,label="{xmlreader.c:4381:}"];
+	Node0x22bdd100 -> Node0x22bdd150;
+	Node0x22bdd150 [shape=record,label="{xmlreader.c:4390:}"];
+}

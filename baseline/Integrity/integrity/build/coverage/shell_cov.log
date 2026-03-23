@@ -1,0 +1,2133 @@
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 3571988308
+INFO: Loaded 1 modules   (7217 inline 8-bit counters): 7217 [0x6270193f1f88, 0x6270193f3bb9), 
+INFO: Loaded 1 PC tables (7217 PCs): 7217 [0x6270193f3bc0,0x62701940fed0), 
+INFO:      834 files found in corpus/sqlite/shell/
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
+INFO: seed corpus: files: 834 min: 2b max: 101b total: 32414b rss: 27Mb
+Parse error near line 1: near "§": syntax error
+  §
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "r". Enter ".help" for help
+Parse error near line 1: near """": syntax error
+  ""
+  ^--- error here
+Usage: .scanstats on|off|est
+Parse error near line 1: unrecognized token: "["
+  [
+  ^--- error here
+Error: unknown command or invalid arguments:  ".s". Enter ".help" for help
+Error: unknown command or invalid arguments:  "it". Enter ".help" for help
+Error: unknown command or invalid arguments:  "r". Enter ".help" for help
+Error: unknown command or invalid arguments:  "fa". Enter ".help" for help
+Usage: .nullvalue STRING
+Error: unknown command or invalid arguments:  "w>". Enter ".help" for help
+Parse error near line 1: near "…": syntax error
+  … ;
+  ^--- error here
+Parse error near line 1: near "H": syntax error
+  H""
+  ^--- error here
+Parse error near line 1: near "SE": syntax error
+  SE
+  ^--- error here
+Parse error near line 1: near "T": syntax error
+  T"Y
+  ^--- error here
+Error: unknown command or invalid arguments:  "vg". Enter ".help" for help
+Parse error near line 1: unrecognized token: "`c
+"
+  `c 
+  ^--- error here
+Usage: .log FILENAME
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 1: near "SELE": syntax error
+  SELE
+  ^--- error here
+Error: unknown command or invalid arguments:  "wr>". Enter ".help" for help
+Parse error near line 1: near "TH": syntax error
+  TH""
+  ^--- error here
+Error: unknown command or invalid arguments:  "bta". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ch)". Enter ".help" for help
+Parse error near line 1: near "ST": syntax error
+  ST"]
+  ^--- error here
+Error: unknown command or invalid arguments:  ",". Enter ".help" for help
+Error: unknown command or invalid arguments:  "qsr". Enter ".help" for help
+Parse error near line 1: near "S": syntax error
+  S[
+  ^--- error here
+Error: unknown command or invalid arguments:  "ma". Enter ".help" for help
+Usage: .nullvalue STRING
+Error: unknown command or invalid arguments:  "pig". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+    e
+  ^--- error here
+Parse error near line 1: near "ë": syntax error
+  ë` 
+  ^--- error here
+Error: unknown command or invalid arguments:  ".". Enter ".help" for help
+Parse error near line 1: near "lEE¥": syntax error
+  lEE¥
+  ^--- error here
+Usage: .nullvalue STRING
+Error: unknown command or invalid arguments:  "wr.>". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+    Le
+  ^--- error here
+Usage: .echo on|off
+Error: unknown command or invalid arguments:  "ch)". Enter ".help" for help
+Usage: .scanstats on|off|est
+Usage: .scanstats on|off|est
+Error: unknown command or invalid arguments:  "sshe". Enter ".help" for help
+Parse error near line 1: near "?": syntax error
+  ?a.tb
+  ^--- error here
+Error: unknown command or invalid arguments:  "fø&a". Enter ".help" for help
+Error: unknown command or invalid arguments:  "lcŠã". Enter ".help" for help
+Parse error near line 1: near "EESEE": syntax error
+  EESEE
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "b<". Enter ".help" for help
+Usage: .log FILENAME
+Error: unknown command or invalid arguments:  "pote". Enter ".help" for help
+File "" already exists.
+Parse error near line 1: near "ëc": syntax error
+  ëc` 
+  ^--- error here
+Error: unknown command or invalid arguments:  "he‹". Enter ".help" for help
+Parse error near line 1: near ".": syntax error
+  .f
+  ^--- error here
+Error: unknown command or invalid arguments:  "r.rr". Enter ".help" for help
+File "cv" already exists.
+Error: unknown command or invalid arguments:  "lcŠ(h". Enter ".help" for help
+Parse error near line 1: near "L": syntax error
+  L--0),
+  ^--- error here
+Error: unknown command or invalid arguments:  "tablŠ". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+  
+  ^--- error here
+Usage: .scanstats on|off|est
+Error: unknown command or invalid arguments:  ".s". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+    ELE
+  ^--- error here
+Error: unknown command or invalid arguments:  "wr.I>". Enter ".help" for help
+Error: unknown command or invalid arguments:  "fø&abl". Enter ".help" for help
+Parse error near line 1: near "LESE": syntax error
+  LESE  C
+  ^--- error here
+Error: unknown command or invalid arguments:  "qr;". Enter ".help" for help
+Error: unknown command or invalid arguments:  "e:t–a". Enter ".help" for help
+Error: unknown command or invalid arguments:  "e‹". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "a". Enter ".help" for help
+Error: no such function: shell_add_schema
+Error: unknown command or invalid arguments:  "vs". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /"!
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees
+  ^--- error here
+Parse error near line 1: near "SE": syntax error
+  SE
+  ^--- error here
+Usage: .clone FILENAME
+Parse error near line 1: near "SEL": syntax error
+  SEL--0),
+  ^--- error here
+Parse error near line 1: near "S": syntax error
+  S`C``Sz#
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  
+  ^--- error here
+Error: unknown command or invalid arguments:  "se‹". Enter ".help" for help
+Parse error near line 1: near "se": syntax error
+  se    
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "t". Enter ".help" for help
+Usage: .auth ON|OFF
+Error: unknown command or invalid arguments:  "sql". Enter ".help" for help
+Parse error near line 1: near "lE": syntax error
+  lE Sµ  s
+  ^--- error here
+Parse error near line 1: near ".": syntax error
+  .fò
+  ^--- error here
+Parse error near line 1: near "ÿ": syntax error
+  ÿ`ÿÿÿÿ
+  ^--- error here
+Error: unknown command or invalid arguments:  ".LECT". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".ab". Enter ".help" for help
+Error: no such function: shell_add_schema
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "bE". Enter ".help" for help
+Error: unknown command or invalid arguments:  "qr;". Enter ".help" for help
+Error: unknown command or invalid arguments:  "////////". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /oA/»o);
+  ^--- error here
+Parse error near line 1: near "SELEC": syntax error
+  SELEC 0+1
+  ^--- error here
+Usage: .separator COL ?ROW?
+Error: unknown file-control: %.
+Use ".filectrl --help" for help
+Usage: .headers on|off
+Error: unknown command or invalid arguments:  "fâ§ø&abl". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+  
+  ^--- error here
+missing FILENAME argument on .backup
+Usage: .clone FILENAME
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "LT.LECT". Enter ".help" for help
+Error: unknown command or invalid arguments:  "SE". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".Þ". Enter ".help" for help
+Parse error near line 1: near "ÿ¿": syntax error
+  ÿ¿      
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /Üdu'ÜÜSlÜ
+  ^--- error here
+Error: unknown command or invalid arguments:  ".Þ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "c.'.". Enter ".help" for help
+Parse error near line 1: near "sc": syntax error
+  sc`ema); 
+  ^--- error here
+Error: unknown command or invalid arguments:  "$""""""SE". Enter ".help" for help
+Error: unknown command or invalid arguments:  "fâ". Enter ".help" for help
+Parse error near line 1: near "SELEC": syntax error
+  SELEC 0+0;
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÿR`
+  ^--- error here
+Error: unknown command or invalid arguments:  "r.rr". Enter ".help" for help
+Error: unknown command or invalid arguments:  "r.rr". Enter ".help" for help
+Parse error near line 2: near "Ð": syntax error
+  Ð"".d.
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oRTA/»o);
+  ^--- error here
+Error: unknown command or invalid arguments:  "tabLEFROM". Enter ".help" for help
+Error: unknown command or invalid arguments:  "wr.p". Enter ".help" for help
+Parse error near line 1: near "LI2EWE": syntax error
+  LI2EWE
+  ^--- error here
+Error: unknown command or invalid arguments:  ".Þ". Enter ".help" for help
+ERROR: Not a boolean value: "mØ"{a". Assuming "no".
+Parse error near line 1: near "S": syntax error
+  S)ESE
+  ^--- error here
+Parse error near line 1: near "SML": syntax error
+  SML(;;A+1; 
+  ^--- error here
+Parse error near line 1: near "S": syntax error
+  S
+  ^--- error here
+Parse error near line 1: near ".": syntax error
+  SELECT 1+.;
+           ^--- error here
+Error: unknown command or invalid arguments:  "LECT.LECT". Enter ".help" for help
+Parse error near line 1: near "SG": syntax error
+  SG[ê]2M,
+  ^--- error here
+Parse error near line 1: near "ÿ": syntax error
+  ÿ`ÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "SE": syntax error
+  SE 
+  ^--- error here
+Error: unknown file-control: %. `BO?
+Use ".filectrl --help" for help
+Error: ambiguous file-control: ""
+Use ".filectrl --help" for help
+Parse error near line 1: near "Sÿÿÿ": syntax error
+  Sÿÿÿ P
+  ^--- error here
+Error: unknown command or invalid arguments:  ".Þ". Enter ".help" for help
+Parse error near line 1: near "S": syntax error
+  S--…
+  ^--- error here
+Parse error near line 1: near "SEÿL¿q": syntax error
+  SEÿL¿q .ÜÜRO
+  ^--- error here
+ERROR: Not a boolean value: "emØ"{a". Assuming "no".
+Usage: .system COMMAND
+Error: unknown command or invalid arguments:  "sql". Enter ".help" for help
+Error: unknown command or invalid arguments:  "n_(x)". Enter ".help" for help
+Error: unknown file-control: ;
+Use ".filectrl --help" for help
+Parse error near line 1: near "SEÿL¿": syntax error
+  SEÿL¿@q .ÜÜRO
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  ///--0),ÿÿeya
+  ^--- error here
+Error: cannot open "b^/R"
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÁÁÁetest". Enter ".help" for help
+Error: unknown command or invalid arguments:  "/////////ÿ,l". Enter ".help" for help
+Parse error near line 1: near """": syntax error
+  ""¤"Ød"TE""C¢
+  ^--- error here
+Parse error near line 1: near "S": syntax error
+  S
+  ^--- error here
+Error: unknown command or invalid arguments:  "h".ch"""""""P". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "%þG". Enter ".help" for help
+Parse error near line 1: near """": syntax error
+  ""¤"Ødb"TE""C¢
+  ^--- error here
+Parse error near line 1: unrecognized token: "]"
+  ]
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  SELECT 324 ÿÿÿ
+                ^--- error here
+Error: unknown file-control: ÿ""
+Use ".filectrl --help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "dn". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /Ca);( —º tSE(T
+  ^--- error here
+Parse error near line 1: near "SG": syntax error
+  SG[F7ê2]M,
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /×ÜÜ Ü""""Ü""""
+  ^--- error here
+Parse error near line 1: near "SMLCTÍÿ": syntax error
+  SMLCTÍÿ(;;A+1; 
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  
+  ^--- error here
+Error: unknown command or invalid arguments:  "s"". Enter ".help" for help
+Error: unknown command or invalid arguments:  "Ý.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "sÿ". Enter ".help" for help
+Usage: .scanstats on|off|est
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: unrecognized token: "]"
+  ]
+  ^--- error here
+Error: unknown command or invalid arguments:  "%/G". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.". Enter ".help" for help
+Parse error near line 1: near "SG": syntax error
+  SG[]
+  ^--- error here
+Parse error near line 1: near """""""""""""""""": syntax error
+  """"""""""""""""
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  SELECT ÿÿÿ1+1;
+            ^--- error here
+Parse error near line 1: near "able": syntax error
+  ables Gÿÿÿÿÿÿab
+  ^--- error here
+Parse error near line 1: unrecognized token: "^"
+  SELECT ^ 0+--0),
+         ^--- error here
+Parse error near line 1: near "/": syntax error
+  /Ca)(, tº—; SE(T
+  ^--- error here
+Error: unknown command or invalid arguments:  ",1.". Enter ".help" for help
+Parse error near line 1: near "SE": syntax error
+  SE a'x(42)l^o'; 
+  ^--- error here
+Error: unknown command or invalid arguments:  "bE". Enter ".help" for help
+Parse error near line 1: near "cÚ§": syntax error
+  cÚ§ Eer oELECTÍÍ
+  ^--- error here
+Error: unknown command or invalid arguments:  "n_(x)". Enter ".help" for help
+Parse error near line 1: near "SE": syntax error
+  SE a'x(42)l^o'); 
+  ^--- error here
+Parse error near line 1: near "SG": syntax error
+  SG[]
+  ^--- error here
+Parse error near line 1: near """""": syntax error
+  """"ØØØØ""E"C2"T¢
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oRDALUEÿ)o;»(/*
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Parse error near line 1: unrecognized token: "2Eÿ"
+  2Eÿ
+  ^--- error here
+Error: unknown command or invalid arguments:  ".". Enter ".help" for help
+ERROR: Not a boolean value: "d.d.{gmØ"". Assuming "no".
+Error: unknown command or invalid arguments:  "tabLEFROM". Enter ".help" for help
+Parse error near line 1: near "S": syntax error
+  S abs--),,ÿÿÿ  
+  ^--- error here
+Error: unknown command or invalid arguments:  "bE". Enter ".help" for help
+Parse error near line 3: near "/": syntax error
+  ///
+  ^--- error here
+Error: unknown command or invalid arguments:  "sql". Enter ".help" for help
+Parse error near line 1: near "SEÿÿÿÿÿÿSELECTÍÍ": syntax error
+  SEÿÿÿÿÿÿSELECTÍÍ Í
+  ^--- error here
+Parse error near line 1: near "SEL": syntax error
+  SEL) ..anstd.{ .d.
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /Ca)(, tºb; INSE(T
+  ^--- error here
+Parse error near line 1: near "Eàòòò": syntax error
+  Eàòòò  *ÿÿÿ   
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sch[mable'2);
+  ^--- error here
+Error: unknown command or invalid arguments:  "lc". Enter ".help" for help
+Error: unknown command or invalid arguments:  "B???LTA". Enter ".help" for help
+Parse error near line 1: near "ÿ": syntax error
+  ÿ ÿ ÿ         
+  ^--- error here
+Parse error near line 1: near "NSEŽTx5": syntax error
+  NSEŽTx5,,sc`ema); 
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜdumÜ:ÜÜÜÜÜÜ'ÜÜSlÜ
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  SELECT abs--0),,…
+            ^--- error here
+Parse error near line 1: near "S1": syntax error
+  S1<6‚2;
+  ^--- error here
+Parse error near line 2: near "ECT": syntax error
+  ECT 1<<62;
+  ^--- error here
+Parse error near line 1: near "SG": syntax error
+  SG[EL]
+  ^--- error here
+Parse error near line 1: near "E": syntax error
+  E      *ÿÿÿÿ   
+  ^--- error here
+Error: unknown command or invalid arguments:  "emA". Enter ".help" for help
+Parse error near line 1: incomplete input
+Parse error near line 1: near "/": syntax error
+  /oCR@eS(t(aÿ(0(2);
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  Eöÿÿ
+  ^--- error here
+Error: unknown command or invalid arguments:  "Þ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "schea". Enter ".help" for help
+Parse error near line 1: unrecognized token: "2ELE"
+  2ELE  ¶ò".; C
+  ^--- error here
+Error: unknown command or invalid arguments:  ".". Enter ".help" for help
+Parse error near line 1: near "–": syntax error
+  –.??ÿ`?   `ÿ ?????
+  ^--- error here
+Error: unknown command or invalid arguments:  "c.'.". Enter ".help" for help
+Parse error near line 1: near "S1": syntax error
+  S1<<6‚2;
+  ^--- error here
+Parse error near line 2: near "ECT": syntax error
+  ECT 1<<62;
+  ^--- error here
+Parse error near line 1: near "-": syntax error
+  - - s  V    q
+  ^--- error here
+Parse error near line 1: no such table: sqer
+Parse error near line 1: near "SE": syntax error
+  SE ab(h'x(42)l^o');
+  ^--- error here
+Error: unknown command or invalid arguments:  ".Þ". Enter ".help" for help
+Parse error near line 1: unrecognized token: "2ELE"
+  2ELE   öò"; C
+  ^--- error here
+Error: unknown command or invalid arguments:  "wr". Enter ".help" for help
+Error: unknown command or invalid arguments:  "srEATCREATE". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "f"Ø...dd". Enter ".help" for help
+Error: unknown command or invalid arguments:  "f".". Enter ".help" for help
+Error: unknown command or invalid arguments:  "dn". Enter ".help" for help
+Error: unknown command or invalid arguments:  "??????/G". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ#ÜÜÜÜ+0;
+  ^--- error here
+Parse error near line 2: near "/": syntax error
+  /tablg
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "ÁSE1ÿÿÿÿ": syntax error
+  ÁSE1ÿÿÿÿ'ÿÿ
+  ^--- error here
+Error: unknown command or invalid arguments:  "////////////-/////bl". Enter ".help" for help
+Parse error near line 1: near "ESL": syntax error
+  ESL      *ÿÿÿÿ   
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  SELECT abs--…
+            ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" "Ü."="ÿÿÿÿ"""Ü"
+  ^--- error here
+Parse error near line 1: near "`Etlmlc`": syntax error
+  `Etlmlc`ROMst `OM `
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /CREA T=BLE t(a,b); I
+  ^--- error here
+Parse error near line 1: near "SEÿÿÿÿÿÿ": syntax error
+  SEÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ#ÜÜÜÜÜÜÜ+0;
+  ^--- error here
+Parse error near line 2: near "/": syntax error
+  /SELEz
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   #         ;
+  ^--- error here
+Parse error near line 15: near "ÿõ": syntax error
+  ÿõ q
+  ^--- error here
+Parse error near line 1: near "SEÿÿÿÿÿÿ": syntax error
+  SEÿÿÿÿÿÿ
+  ^--- error here
+ERROR: Not a boolean value: "0+1;". Assuming "no".
+Warning: .scanstats not available in this build.
+Error: unknown command or invalid arguments:  "/////////////-/////bl". Enter ".help" for help
+Error: unknown file-control: ÿ""""""""’""
+Use ".filectrl --help" for help
+Parse error near line 1: near "ÿ": syntax error
+  SELECT  *ÿ  
+           ^--- error here
+Parse error near line 1: near "–": syntax error
+  –.??ÿ`?   ?????
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ#ÜÜÜÜÜÜÜÜ+0;
+  ^--- error here
+Parse error near line 2: near "/": syntax error
+  /SELEz
+  ^--- error here
+Parse error near line 1: no such table: sq_mast
+Parse error near line 1: near "SEL": syntax error
+  SEL) .dz&ns.anstd.{ .d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "ƒƒ". Enter ".help" for help
+Parse error near line 1: near """""": syntax error
+  """"¢<""b"""""¢""LECTÍÍ
+  ^--- error here
+Parse error near line 1: near "SELg": syntax error
+  SELg))))EC
+  ^--- error here
+Parse error near line 1: no such table: sq
+Parse error near line 1: unrecognized token: "2E"
+  2E    
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "S$Eÿÿÿÿÿÿ": syntax error
+  S$Eÿÿÿÿÿÿ;
+  ^--- error here
+Error: unknown command or invalid arguments:  "tteòesúúú)úúúúúúúúúúla". Enter ".help" for help
+Parse error near line 1: near "JSEasterq": syntax error
+  JSEasterq;
+  ^--- error here
+Parse error near line 2: near "m": syntax error
+  m-st * 0);
+  ^--- error here
+Parse error near line 3: unrecognized token: ""
+  
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /(((((((((,(((((((((ÜlÜ
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "Gÿÿÿÿÿÿab": syntax error
+  Gÿÿÿÿÿÿab
+  ^--- error here
+Usage: .stats ?on|off|stmt|vmstep?
+Parse error near line 1: near "/": syntax error
+  /oCREAT?sch[mable'2);
+  ^--- error here
+Parse error near line 1: near "Gÿÿ": syntax error
+  Gÿÿ Gÿÿÿÿÿÿab
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  ///--0),eys=OFD;
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  SELECT abs--0),,…
+            ^--- error here
+Parse error near line 1: near "`EtlmlECT* `": syntax error
+  `EtlmlECT* `ROMst `OM `
+  ^--- error here
+Parse error near line 1: near "SG": syntax error
+  SG[EL]
+  ^--- error here
+Parse error near line 1: near "2": syntax error
+  2    ''''''''ELECT  -
+  ^--- error here
+Parse error near line 1: near "S": syntax error
+  S)))ÿÿÿ1ù)))))))))))))).*
+  ^--- error here
+Parse error near line 1: near "scanstS1": syntax error
+  scanstS1<""b"""""¢"LECTÍÍ
+  ^--- error here
+ERROR: Not a boolean value: "". Assuming "no".
+Parse error near line 1: near "FROMssqROM": syntax error
+  SELECT * FROMssqROM ser;
+           ^--- error here
+Parse error near line 1: near "1": syntax error
+  CREATE TABLE ÿÿUES(1,2);
+                     ^--- error here
+Parse error near line 1: near "`ROM sqlimast `": syntax error
+  SELECT * `ROM sqlimast `R
+           ^--- error here
+Parse error near line 1: near "SEÿÿÿ": syntax error
+  SEÿÿÿ
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  "  ; E   i
+  ^--- error here
+Error: unknown command or invalid arguments:  "//-//////////////-/////bl". Enter ".help" for help
+Parse error near line 1: near "(": syntax error
+  SELECT a(-1), x(-1( , """"
+                    ^--- error here
+Parse error near line 1: unrecognized token: "@"
+  @..??????ÿÿÿ`??????.
+  ^--- error here
+Error: unknown command or invalid arguments:  ".". Enter ".help" for help
+Error: unknown command or invalid arguments:  "Þ". Enter ".help" for help
+Parse error near line 1: near "SEELCT": syntax error
+  SEELCT max(2147483647+1);
+  ^--- error here
+Error: unknown command or invalid arguments:  "??????". Enter ".help" for help
+Parse error near line 1: unrecognized token: "12474RT64"
+  SELECT max(12474RT64
+             ^--- error here
+Error: unknown command or invalid arguments:  "2,". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /oCREATLsch[maUES(5'2);
+  ^--- error here
+Error: unknown command or invalid arguments:  "h".ch""""""""".ch)ÿ"". Enter ".help" for help
+Parse error near line 1: near "S$Eÿÿÿÿ": syntax error
+  S$Eÿÿÿÿ7 !
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÿÿ/////+//1/////////t.:ta
+  ^--- error here
+ERROR: Not a boolean value: "/". Assuming "no".
+Parse error near line 1: near "S": syntax error
+  S)))ÿÿÿ1ù)))))))))))))))P.*
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "??????.???ÿÿtG". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "write_b". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜÜÜ.""""""""""""""""""Ü
+  ^--- error here
+Parse error near line 1: near "–": syntax error
+  –..?????ÿ`?   ?????
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oCR@eS(t(aÿÿS(TÿUES(0(2);
+  ^--- error here
+Parse error near line 1: near "SE": syntax error
+  SE
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  
+  ^--- error here
+Parse error near line 1: unrecognized token: "2Le"
+  2Le  &ž            
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  """""  ; E   i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+     Ü'ÜÜ      SE
+  ^--- error here
+Parse error near line 1: near "SEL": syntax error
+  SEL) .dz®{.ca&ns.anstd.{ .d.
+  ^--- error here
+Parse error near line 2: near "Tÿÿÿÿÿü": syntax error
+  Tÿÿÿÿÿü SELET  *ÿÿ
+  ^--- error here
+Parse error near line 1: near "SECT": syntax error
+  SECT * FROM] sqlite_master;
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /CREATE TAB´º t(a,b); INSE(T
+  ^--- error here
+Error: unknown command or invalid arguments:  "s.see". Enter ".help" for help
+Parse error near line 1: near "SL": syntax error
+  ;SL      *ÿÿ    *ÿÿÿ   
+   ^--- error here
+Parse error near line 1: unrecognized token: ""
+  
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜÜÜ.""""""""""""""""""Ü"
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ý{.d.{{". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+  SELECT (-snÿÿÿÿÿÿ(-1hž ('ÿa.
+                   ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+ERROR: Not a boolean value: "0+1;". Assuming "no".
+Warning: .scanstats not available in this build.
+Parse error near line 1: near "JSEasterq": syntax error
+  JSEasterq;
+  ^--- error here
+Parse error near line 2: near "m": syntax error
+  m-st * FROM s0r;
+  ^--- error here
+Parse error near line 3: unrecognized token: ""
+  
+  ^--- error here
+Error: unknown command or invalid arguments:  "c.'.". Enter ".help" for help
+Parse error near line 1: near "SELECTÍÍÍÍÍÍÍÍÍÍÍ": syntax error
+  SELECTÍÍÍÍÍÍÍÍÍÍÍ ÿ 1ÿ1;1+1;
+  ^--- error here
+Parse error near line 1: unrecognized token: "2ELe"
+  2ELe  &ž            
+  ^--- error here
+Parse error near line 1: near "SELECÿÿÿÿÿÿÿûÍÍÍ1ÿ": syntax error
+  SELECÿÿÿÿÿÿÿûÍÍÍ1ÿ  Íÿ1;1+1;
+  ^--- error here
+Error: unknown file-control: ÿ""#""""""""""ÞÝÝâ"""ma
+Use ".filectrl --help" for help
+Error: unknown command or invalid arguments:  ".f;". Enter ".help" for help
+Error: unknown command or invalid arguments:  "{#". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".". Enter ".help" for help
+Parse error near line 4: near """": syntax error
+  "";""~""ò.
+  ^--- error here
+Error: unknown command or invalid arguments:  "c.c.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Parse error near line 6: near "/": syntax error
+  ///
+  ^--- error here
+Error: unknown command or invalid arguments:  "d..f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "dn". Enter ".help" for help
+Error: unknown command or invalid arguments:  "dn". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".?????SLEC". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "GÿßþÏ": syntax error
+  GÿßþÏ Gb+ Gÿßÿ
+  ^--- error here
+Parse error near line 1: unrecognized token: "2ELE"
+  2ELE      
+  ^--- error here
+Parse error near line 1: near "(": syntax error
+  CREATE TABLE t(a,····»S(1,2);
+                         ^--- error here
+Parse error near line 1: near "SL": syntax error
+  ;SL      *ÿÿÿÿ *ÿ        
+   ^--- error here
+Error: unknown command or invalid arguments:  "??????SELEC". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "dd.ý{.d.{{". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜÜÜÜÜÑÜÜœÜÜÜÜÜ:ÜÜÜÜÜÜ'ÜÜSlÜ
+  ^--- error here
+Parse error near line 1: near "?": syntax error
+  CREATE TABLE t(asimÿpl INSE2?;
+                error here ---^
+Parse error near line 1: near "S": syntax error
+  S..??table`?    ??????
+  ^--- error here
+Error: unknown dbconfig "dbconfig"
+Enter ".dbconfig" with no arguments for a list
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+  """"ÿ)o;»(/*""(/*""""
+  ^--- error here
+Error: unknown command or invalid arguments:  "s.see". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" """""""""0ÜÜ."="ÿÿÿÿ"""Ü"
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oCR@eS(t(aema,bÿÿS(TÿUES(0(2);
+  ^--- error here
+Parse error near line 1: near "SELg": syntax error
+  SELg))))EC
+  ^--- error here
+Parse error near line 1: near "ÿÿÿÿÿÿÿÿ_mast": syntax error
+  SELECT  *ÿÿÿÿÿÿÿÿ_mast
+           ^--- error here
+Error: unknown command or invalid arguments:  ".". Enter ".help" for help
+Parse error near line 1: near "S": syntax error
+  S..??table`?    ???????
+  ^--- error here
+Parse error near line 1: near "SEC¬ßÕáFROM": syntax error
+  SEC¬ßÕáFROM] sqìääääite_mao:er;
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÿÿ/////+//1///////////////t.:ta
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜÜÜÜÜÑÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ'ÜÜSlÜ
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+        Ü'ÜÜ      SE
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`.dÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+ERROR: Not a boolean value: "0+1;". Assuming "no".
+Warning: .scanstats not available in this build.
+Parse error near line 1: near "S": syntax error
+  S))))))))))))))))))PPPPPPPPPPPP.
+  ^--- error here
+Error: unknown command or invalid arguments:  "//-//////////////////". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+ERROR: Not a boolean value: "CE62". Assuming "no".
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d". Enter ".help" for help
+Parse error near line 1: near "SE": syntax error
+  SE length('hel$EC!?abs2ÿÿÿ ('hael
+  ^--- error here
+Parse error near line 1: near "Gÿÿ": syntax error
+  Gÿÿ Gÿÿÿÿÿÿabs Gÿÿ Gÿÿÿ
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "2,". Enter ".help" for help
+ERROR: Not a boolean value: "". Assuming "no".
+Error: unknown command or invalid arguments:  "Þ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "????". Enter ".help" for help
+Error: unknown command or invalid arguments:  "//////////////////////". Enter ".help" for help
+Error: unknown command or invalid arguments:  "2,". Enter ".help" for help
+Parse error near line 1: near "scanstS1": syntax error
+  scanstS1<<62;
+  ^--- error here
+Parse error near line 2: near "CE62": syntax error
+  CE62;
+  ^--- error here
+Parse error near line 3: near ")": syntax error
+  )
+  ^--- error here
+Parse error near line 1: unrecognized token: "2ELE"
+  2ELE
+  ^--- error here
+Parse error near line 1: near "SEÿÿÿÿÿe": syntax error
+  SEÿÿÿÿÿe
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /OAd.d.)))))))))))))))))))))/»o);
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  //////+//////1///////////////t.:ta
+  ^--- error here
+Error: unknown command or invalid arguments:  "??????SELEC". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{.Þ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "SL": syntax error
+  ;SL      *ÿÿÿÿ     ª          
+   ^--- error here
+Error: unknown command or invalid arguments:  "d.d.{.Þ". Enter ".help" for help
+Parse error near line 1: near "S2": syntax error
+  S2), lenÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "WITHTTTTTT": syntax error
+  WITHTTTTTT  CELE    TCS
+  ^--- error here
+Parse error near line 1: near "b": syntax error
+  b INSE2);
+  ^--- error here
+Parse error near line 1: unrecognized token: "2ELE"
+  2ELE   öò"; C
+  ^--- error here
+Parse error near line 1: unrecognized token: "2SE"
+  2SE  C        "; C
+  ^--- error here
+Parse error near line 1: unrecognized token: "2ELE"
+  2ELE      
+  ^--- error here
+Error: unknown command or invalid arguments:  ".ÿ-(((=(((((((((((((E". Enter ".help" for help
+Parse error near line 1: near "*": syntax error
+  SELECT * FROM sqlite_mas* ECT * Fr;
+                          ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d"".{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.ema". Enter ".help" for help
+Parse error near line 1: near "SL": syntax error
+  ;SL      *ÿÿÿÿ       ª          
+   ^--- error here
+Parse error near line 1: near "SELSELg": syntax error
+  SELSELg))))Eg)))E)C
+  ^--- error here
+Parse error near line 1: near "SECELT": syntax error
+  SECELT///////////*/////t.:ta ÿÿÿÿÿ1+
+  ^--- error here
+Parse error near line 1: near "*": syntax error
+  SELECT * FROM sqlite_mast * FROM ser;
+              error here ---^
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "scanstS1": syntax error
+  scanstS1<<62;
+  ^--- error here
+Parse error near line 2: near "CE62": syntax error
+  CE62;
+  ^--- error here
+Parse error near line 3: near ")": syntax error
+  )
+  ^--- error here
+Parse error near line 1: near "*": syntax error
+  SELECT * FROM sqliportert * FRO FROM 
+              error here ---^
+Parse error near line 1: no such table: sqlite_m
+Error: unknown command or invalid arguments:  "d.{..{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "dÄd.". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /oCÿÿÿÿS(t(a,b); INSERT INTÿUES(0,2);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oCReAE zT@eS(t(aema,bÿÿS(TÿUES(0(2);
+  ^--- error here
+Parse error near line 1: near "SEtableabs": syntax error
+  SEtableabs(--0),………………………… lenÿlo
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /CREATE TABLE t(a,b); INSE(a,b); INSERT
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "SELE": syntax error
+  SELE       #    
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜÜÜÜÜÑÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ'ÜÜSlesÜÜ
+  ^--- error here
+Error: unknown command or invalid arguments:  "2,". Enter ".help" for help
+Parse error near line 1: no such table: sSEq¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦21ls
+Error: unknown command or invalid arguments:  "d.{..d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "dÄd.". Enter ".help" for help
+Parse error near line 5: near "dump": syntax error
+  dump
+  ^--- error here
+Parse error near line 35: near "t": syntax error
+  t
+  ^--- error here
+Error: unknown command or invalid arguments:  ".f;". Enter ".help" for help
+Error: unknown command or invalid arguments:  "{#". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".". Enter ".help" for help
+Parse error near line 11: near """": syntax error
+  "";""""ò.
+  ^--- error here
+Parse error near line 1: near "S": syntax error
+  S..??????ÿ`?    ??????????
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+         #                SE
+  ^--- error here
+Parse error near line 2: unrecognized token: ""
+       
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oCReAE LT@eS(t(asshema,bÿÿS(TÿUES(0,2);
+  ^--- error here
+Error: unknown command or invalid arguments:  "G". Enter ".help" for help
+Error: unknown command or invalid arguments:  "Q/ÜÜÜÜÜÜÜ". Enter ".help" for help
+Parse error near line 3: near "ÿÿ": syntax error
+  ÿÿ                                   .
+  ^--- error here
+Error: unknown file-control: ÿ"""""""ÿÿÿc"f"ÿ""""""""""""""ssèema
+Use ".filectrl --help" for help
+Parse error near line 1: no such table: sq¦¦¦¦ÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¦¦CRE
+Parse error near line 1: near "/": syntax error
+  /ÜÜ.ÜÜ""""*""B:""""""ÜÜÜ.""ee@std…s 
+  ^--- error here
+Parse error near line 1: near "Gÿÿ": syntax error
+  Gÿÿ HGÿßÿ Gbs Gÿßÿ
+  ^--- error here
+Parse error near line 36: near "t": syntax error
+  t
+  ^--- error here
+Error: unknown command or invalid arguments:  "sœ—¤’a.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "{". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Parse error near line 1: unrecognized token: "2ELE"
+  2ELE
+  ^--- error here
+Parse error near line 1: near "SEtableabs": syntax error
+  SEtableabs(--0),………………………… lenÿÿÿÿÿlo
+  ^--- error here
+Error: unknown command or invalid arguments:  ".??????????". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /oCREAE TALUeS(t(asshema,bÿÿS(TÿUES(0,2);
+  ^--- error here
+Parse error near line 1: near "2": syntax error
+  2    '''''''''''SELECT  -
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  ///////////////T ^ 0+--0),eys=OFD;
+  ^--- error here
+Parse error near line 1: no such function: absÿÿÿÿÿÿÿÿx
+  SELECT absÿÿÿÿÿÿÿÿx(42), length('hello');
+         ^--- error here
+Parse error near line 1: near "eng": syntax error
+  eng'h('hel$EC0),eng'(h'ÿÿÿ(-1©, he ('hael
+  ^--- error here
+Parse error near line 2: near "Tÿÿÿÿÿü": syntax error
+  Tÿÿÿÿÿü SELECT  *ÿÿÿÿÿòòõ        
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /////////////1/////////////////////_ket.:ta
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+      1  # ;
+  ^--- error here
+Parse error near line 9: near "ELG": syntax error
+  ELG 1  # ;
+  ^--- error here
+Parse error near line 14: near "ELGC": syntax error
+  ELGC`EC;   ?
+  ^--- error here
+Parse error near line 1: near "SEL": syntax error
+  SEL abs--0),,………………….porte……… lenÿÿÿÿÿÿÿ  
+  ^--- error here
+Parse error near line 1: incomplete input
+Error: unknown file-control: ÿ""""""""""""""""""""
+Use ".filectrl --help" for help
+Error: unknown command or invalid arguments:  ".???????????????????????????????able". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜ.ÜÜ""""*""B:""""""ÜÜÜ.""ee@.ma…s 
+  ^--- error here
+Parse error near line 1: near "SELEÄÄ": syntax error
+  SELEÄÄ
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /////////////_kCT ^ 0+--0),eys=OFD;
+  ^--- error here
+Error: unknown command or invalid arguments:  "G". Enter ".help" for help
+Parse error near line 1: unrecognized token: "2ELEC"
+  2ELEC    öò"; C
+  ^--- error here
+Error: unknown command or invalid arguments:  ".$((((((((((((((((((((((((((¶((((((ÿS.ÿÿÿÿE". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".??????????". Enter ".help" for help
+Parse error near line 1: near "Sles": syntax error
+  Sles  ELCT 1<<abl
+  ^--- error here
+Parse error near line 1: no such table: sq
+Parse error near line 2: near "s": syntax error
+  s
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;+;;;;;;;
+  ^--- error here
+Parse error near line 3: near "tsa3SE": syntax error
+  tsa3SE,LECT ÿÿÿÿ ÿÿ  1
+  ^--- error here
+Error: unknown command or invalid arguments:  "c.c.". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+     ;
+  ^--- error here
+Parse error near line 22: near "&": syntax error
+  &    SE
+  ^--- error here
+Error: unknown command or invalid arguments:  "Q/ÜÜÜÜÜÜÜ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜÜÜ.""""""""""""".""""""""""""""""""""""Ü.
+  ^--- error here
+Error: unknown command or invalid arguments:  "lECT". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿ)o;»(/*". Enter ".help" for help
+Parse error near line 2: near """"""¢"""""""": syntax error
+  """""¢"""""""d/oRDALU/* AEigsshema
+  ^--- error here
+Parse error near line 1: near "SELSELg": syntax error
+  SELSELg))))ECg)))E)C
+  ^--- error here
+Parse error near line 1: near "ÿÿÿÿÿÿÿÿ": syntax error
+  SELECT  *ÿÿÿÿÿÿÿÿ
+           ^--- error here
+Parse error near line 1: unrecognized token: ""
+         #                SE
+  ^--- error here
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Parse error near line 1: near "ÁSEqÿÿÿ": syntax error
+  ÁSEqÿÿÿ='ÿÿÞ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /OAd.d.)))))))))))))))))))))))))))))))))))/»o);
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;+;;;;;;;
+  ^--- error here
+Parse error near line 3: near "tsaSELECT": syntax error
+  tsaSELECT ÿblÿÿÿÿÿÿÿ ÿÿ   1
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 3: near "scanst": syntax error
+  scanst
+  ^--- error here
+Parse error near line 1: near "SEELCT": syntax error
+  SEELCT max(2147847+;
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;+;;;;;;;
+  ^--- error here
+Parse error near line 3: near "tsaSELECT": syntax error
+  tsaSELECT ÿbleŠ       ÿÿ   1
+  ^--- error here
+Parse error near line 1: near "VAL2": syntax error
+  INSERT INTO t VAL2);
+                ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜÜÜ.""""""""""""""ÜÜÜ.""""""""""""""""""""""Ü"
+  ^--- error here
+Error: unknown command or invalid arguments:  "ƒƒƒ‰ÜÜÜÜÜÜÜ+1;". Enter ".help" for help
+Parse error near line 2: near "/": syntax error
+  /ÜÜÜÜÜ('hllo'ERTÿÿÿÿÿÿÿÿÿÿÿÿÿ INTO
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oCREATE TABLG t(a,b); INSERT INTO t VALUES(5,2);
+  ^--- error here
+Parse error near line 1: near "?": syntax error
+  CREATE TABLE t(asimÿpl INSEJJJJJJJJJJJJJJJJJJJ2?;&
+                                   error here ---^
+Parse error near line 1: unrecognized token: ""
+     ;
+  ^--- error here
+Parse error near line 5: near "ÿ": syntax error
+  ÿ       &     """""  ; E   i
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+  fâ"`      #  ÿÿÿf   â"`[H            
+  ^--- error here
+Parse error near line 1: incomplete input
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "2,". Enter ".help" for help
+Error: unknown command or invalid arguments:  "/ÜÜÜ'ÜÜ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÞÝÝÝÝÝÝÞ")".dÿf". Enter ".help" for help
+Parse error near line 2: near ""."""": syntax error
+  "."""
+  ^--- error here
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÞÝ". Enter ".help" for help
+Parse error near line 32: unrecognized token: ""
+  
+  ^--- error here
+Parse error near line 1: near "SEenÿÿÿdbtÿ": syntax error
+  SEenÿÿÿdbtÿ                      ‰         ‰   ');
+  ^--- error here
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÞÝ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ƒƒƒ‰ÜÜÜÜÜÜÜ+1;". Enter ".help" for help
+Parse error near line 2: near "/": syntax error
+  /ÜÜÜÜÜ('hello'ERTÿÿÿÿÿÿÿÿÿÿÿÿÿ INTO
+  ^--- error here
+Parse error near line 1: unrecognized token: "2ELE"
+  2ELE    '''''''''''SELECT  -
+  ^--- error here
+Parse error near line 1: near "ÿÿÿÿ": syntax error
+  SELECT  *ÿÿÿÿ                    
+           ^--- error here
+Parse error near line 1: near "S$Eÿÿÿÿÿÿ": syntax error
+  S$Eÿÿÿÿÿÿ? !? !?
+  ^--- error here
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Parse error near line 3: near "/": syntax error
+  /// d           C  /ÜÜÜÜÜÜ."" ;
+  ^--- error here
+Parse error near line 1: near "abs": syntax error
+  SELECT abs(EC-T abs(--0),,………………………… lenÿÿÿÿÿlo');
+                  ^--- error here
+Parse error near line 1: near "eng": syntax error
+  eng'h('hel$EC¹T absÿÿÿÿ0),eng'(h'ÿÿÿ(-1©, he ('hael
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+         #             #     #   
+  ^--- error here
+Parse error near line 1: near "¦": syntax error
+  ELECT * FROM sq¦¦¦¦ÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¦¦CREATE TABL¦¦E ¦
+                                      error here ---^
+Parse error near line 1: near "SEenÿÿÿdbtÿ": syntax error
+  SEenÿÿÿdbtÿ                      ‰              ');
+  ^--- error here
+Parse error near line 1: near "INSt": syntax error
+  INSt VALUES(2,2);
+  ^--- error here
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /////////////1/////////////////////_keys=OFD;
+  ^--- error here
+Error: unknown command or invalid arguments:  "ÿ)o;»(/*". Enter ".help" for help
+Parse error near line 2: near """"""¢"""""""": syntax error
+  """""¢"""""""d/oRDALUEÿ)o;»/* """"sshema
+  ^--- error here
+Parse error near line 3: near "scanst": syntax error
+  scanst
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÿÿÿÿÿÿÿ); INSEWITHõ(x)À AS (SELECT ."st"0emØ UNI5)"{
+  ^--- error here
+Error: unknown command or invalid arguments:  ";". Enter ".help" for help
+Error: unknown command or invalid arguments:  "{#". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".;". Enter ".help" for help
+Parse error near line 11: unrecognized token: """"""""""""""""S
+
+.
+
+{
+.d."
+  """""""""""""""S  .  { .d.
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /$##((((((((((((((((((((((((((((((((/"ÜÜÜ.""""((((((
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "SELEC": syntax error
+  SELEC 0+0; TABLG t(a,b); INSERT INTO t VALUES(5,2);
+  ^--- error here
+Parse error near line 1: near ")": syntax error
+  SELECT PPPPPPPPPPPPPPP)))))))))))))))))))PPPPPPPPPPPP.
+                        ^--- error here
+Parse error near line 1: near "sc": syntax error
+  sc CETEt)
+  ^--- error here
+Parse error near line 6: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 30: unrecognized token: ""
+     SE
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{#1". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{datab.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Parse error near line 1: near "?": syntax error
+  ?  #   &      "wwwwww;      ƒ $`{emaEÿÿÿ ;    ""
+  ^--- error here
+Parse error near line 1: near "ex": syntax error
+  ex('42S); sca.                                   t]
+  ^--- error here
+Error: unknown command or invalid arguments:  "Þ". Enter ".help" for help
+Parse error near line 1: near "abs": syntax error
+  SELECT abs(ECT abs(-0),,………………………… lenÿÿÿÿÿÿÿÿÿello');
+                 ^--- error here
+Parse error near line 1: near "L": syntax error
+  L, leng'h('hel$ECT absÿÿÿÿ1),eng'(h'ÿÿÿ(-1©, he ('hael
+  ^--- error here
+ERROR: Not a boolean value: "0a+". Assuming "no".
+Warning: .scanstats not available in this build.
+Parse error near line 1: near "Ê": syntax error
+  Ê
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÿÿÿÿÿÿÿ); INSEWITHõõt(x)À AS (SELECT ."st"0emØ UNI5)"{
+  ^--- error here
+Error: unknown command or invalid arguments:  "ÞÝ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "explSELECT 2a". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d". Enter ".help" for help
+Parse error near line 1: near "SELÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  SELÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¼ÿÿÿÿÿÿÿÿÿÿÿÛÿÿgth(');
+  ^--- error here
+Error: unknown command or invalid arguments:  "ÞÝÝÝÝÝÝÞ""""". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d"".""""""ÿÿÿÿÿ"".d.{.d.{{". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /ÿÿÿÿÿÿÿ); INSEWITHõõõt(x)À AS (SELECT ."st"0emØ UNI5)"{
+  ^--- error here
+Error: unknown command or invalid arguments:  "ÞÝÝÝÝÝÝÞ""".d". Enter ".help" for help
+Parse error near line 2: near ""."""": syntax error
+  "."""s.???????????she
+  ^--- error here
+Parse error near line 1: near "sc": syntax error
+  sc CETEt)
+  ^--- error here
+Parse error near line 1: near "SEÖECT": syntax error
+  SEÖECT (-snÿÿÿÿÿÿ:(-EÖECT (-snÿÿÿÿÿÿ:(-1he (
+  ^--- error here
+Error: unknown command or invalid arguments:  "lECT". Enter ".help" for help
+Parse error near line 1: near "SÿLC": syntax error
+  SÿLC
+  ^--- error here
+Parse error near line 1: unrecognized token: "2147ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ483647"
+  SELECT max(2147ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ483647+1);
+             ^--- error here
+Parse error near line 1: near "~": syntax error
+  CT (ma29x44ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿýÿ483648+1~);
+                                      error here ---^
+Parse error near line 1: unrecognized token: ""
+                                      SE
+  ^--- error here
+Parse error near line 1: unrecognized token: "2ELE"
+  2ELE                          e";
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{#". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".{ÿÿÿÿÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Parse error near line 1: near "FR": syntax error
+  ECURSIVE cnt(x) AS (SELECT 1 UNION ALL SELECT(x+1 FR
+                                      error here ---^
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 6: near "*": syntax error
+  *ÿ  .d.{ .d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "fÜÜ/ÜÜÜÜÜÜÜÜÜÜÜÜÜÜ###ÜÜÜÜÜÜ +e". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+         #  ELEC`EC;                  SE
+  ^--- error here
+Parse error near line 1: near "SEtsableŠLshellECT": syntax error
+  SEtsableŠLshellECT * `RŠLshellECT* `ROM sqlite_mast `OM `R
+  ^--- error here
+Parse error near line 1: unrecognized token: "2ELE"
+  2ELE    '''''''''''SELECT     abs(-
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+         #         ;
+  ^--- error here
+Parse error near line 32: unrecognized token: ""
+     SE
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d"".{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.emd.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d"".{". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+        # ü        ;
+  ^--- error here
+Parse error near line 18: near "½": syntax error
+  ½ CT * FR       SE
+  ^--- error here
+Parse error near line 1: near "ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ.d.{.d{ .d.d.{ . . .d.{ .d.d.{ . .d.d.{ .d.d.
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+           /ÜÜÜÜÜÜÜÜÑÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ'ÜÜ      SE
+  ^--- error here
+Parse error near line 1: near "tsa": syntax error
+  SELECT s(-1)tsableôŠ, hex(21)SEL, lengths(-abs(-1)tsa ('hael
+                                      error here ---^
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooooooooooooooooooooooooood.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+         #              #     .""""""""""""""""S "
+  ^--- error here
+Parse error near line 1: near "lo": syntax error
+  LECT abs(-1), hex('42SE)LE, lengtCT 1+1; (!hello'lo'); sst
+                                      error here ---^
+Parse error near line 1: near "ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ.d.{.d.{ .d.d.{ . . .d.{ .d.d.{ . .d.d.{ .d.d.
+  ^--- error here
+Parse error near line 1: near "SEÖECT": syntax error
+  SEÖECT (-snÿÿÿÿÿÿ:(-EÖECT (-snÿÿÿÿÿÿ:(-1he (
+  ^--- error here
+Parse error near line 1: no such table: sq¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+Parse error near line 1: near "tsa": syntax error
+  LECT abs(-1)tsableôŠ, hex(21)SEL, lengths(-abs(-1)tsa ('hael
+                                      error here ---^
+Parse error near line 1: unrecognized token: ""
+               #        /ÜÜÜÜôÕ       ;
+  ^--- error here
+Parse error near line 30: near "*": syntax error
+  *  
+  ^--- error here
+Parse error near line 1: near "lo": syntax error
+  ECT abs(-1), hex('42SE)LE, lengtC1T 1+1; (!hello'lo'); sst
+                                      error here ---^
+Parse error near line 1: no such table: sSEq¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Parse error near line 1: near "INSS": syntax error
+  INSS(2,2);
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+               /ÜÜÜÜÜÜÜÜÑÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ'ÜÜ      SE
+  ^--- error here
+Parse error near line 1: near "S$Eÿÿÿÿÿÿ": syntax error
+  S$Eÿÿÿÿÿÿ;
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜ.ÜÜ"""""""":""""""ÜÜÜ."""""ÿÿ]ÿÿÿÜ"@@z@q”ttiee@.ma…s 
+  ^--- error here
+Error: unknown command or invalid arguments:  "ÞÝ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "cöLshellECT". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".???????????????SELEC". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.~{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`..{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿýÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Unknown option "-SLT!" on ".dump"
+Parse error near line 9: near "*": syntax error
+  *ÿ  .d.{.
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  fâ"`      #      [/ÜÜÜÜôÕ ,    Š  fâ"`[       
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /////////////1////////]////////////_kCT ^ 0+--0),eys=OFD;
+  ^--- error here
+Error: unknown command or invalid arguments:  "ql". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 1: near "(": syntax error
+  SELECT abs(-1)sca('8)DE,paesÓbl(!hello' hex('13Sex('42S);
+                   ^--- error here
+Parse error near line 2: near "scanst": syntax error
+  scanst
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "/ÜÜÜ'ÜÜ". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜ.ÜÜ"""""""":""""""ÜÜÜ."""""ÿÿÿÿÿÜ"@@z@@.ma @@@@@@@@@@@@@@@@@
+  ^--- error here
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Parse error near line 3: near "/": syntax error
+  /// d           C  /ÜÜÜÜÜÜ.""""""""""""""    ;
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,IÿÿÿLeCT * FROM cnt;
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{#". Enter ".help" for help
+Parse error near line 7: near "?": syntax error
+  ? .d.{#       #         #  Y."""""""""""""S .""
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Parse error near line 37: near "SEI": syntax error
+  SEI
+  ^--- error here
+Error: unknown command or invalid arguments:  "ql". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ\ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜeLEE
+  ^--- error here
+Parse error near line 1: near "?": syntax error
+  ?  #   &      """""""""""shemaEÿÿÿ ;      ƒ $`ÿ   #  SE
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{.dtrig.d.ÿd.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.)))))))))))))))))))))))))))))))))))". Enter ".help" for help
+Parse error near line 1: no such table: sq_mÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿast
+Parse error near line 1: near "A": syntax error
+  A x+1ÿÿÿÿUELAS(5,2);
+  ^--- error here
+Parse error near line 2: near "LECT": syntax error
+  LECT * FROM ES(5,2);
+  ^--- error here
+Parse error near line 3: near "LE": syntax error
+  LE* FROM OM ct;
+  ^--- error here
+Parse error near line 4: near "FRO": syntax error
+  FRO SELECT
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.z". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d..d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.z". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+  #           #  #              #  #   
+  ^--- error here
+Parse error near line 1: unrecognized token: "2ELE"
+  2ELE    ''''''''''SELECT     abs(-
+  ^--- error here
+Parse error near line 1: near "'h ('": syntax error
+  1)tsÿÿÿÿÿÿÿÿableŠ, hex(24)SEL, length(bs(-1), hgto'h ('hael
+                                      error here ---^
+Parse error near line 1: unrecognized token: ""
+     ;
+  ^--- error here
+Parse error near line 22: near "&": syntax error
+  &      ;
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d3.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 1: near "SESE": syntax error
+  SESE * FROMT * FROM súqlite_mm
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+  Š  fâ"`      #      [/ÜÜÜÜôÕ ,    Š  fâ"`[       
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{#". Enter ".help" for help
+Parse error near line 7: near "?": syntax error
+  ? .d.{#       #         #       Y."""""""""""""S .""
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "h": syntax error
+  sableŠ, hex(21)SEL, length('hellECT abs(-1), hgto'h ('hael
+                                      error here ---^
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near ",": syntax error
+  ,Iÿÿÿ
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 2: near """"""¢"""""""": syntax error
+  """""¢"""""""d/oRDALUEÿ)o;»(/* """"sshema
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.d.{.Þ.d..d". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.z". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.z". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.z". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.z". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d..d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.z". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+      #         ;
+  ^--- error here
+Parse error near line 17: near "*": syntax error
+  *                #         ;
+  ^--- error here
+Parse error near line 44: unrecognized token: ""
+     SE
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+         #         ;
+  ^--- error here
+Parse error near line 20: near "*": syntax error
+  *                #     øõõõ;
+  ^--- error here
+Parse error near line 44: near "*": syntax error
+  *    SE
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Parse error near line 1: near "+": syntax error
+  CREATE TABLE ÿßÿÿVAÿÿÿ+#ÿÿÿÿÿÿÿÿÿÿÿÿÿtTE TABLE ÿÿÿÿ+#ÿ
+                        ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,IÿÿÿLECT * FROM cnt;
+  ^--- error here
+Parse error near line 1: unrecognized token: "2ELE"
+  2ELE    '''''''''''''''''''''''' SELECT     abs(-
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oEAE TALUES(t(a,b); INES(0,2);CREAE TALUES(t(a,b); INSERT INTÿUES(0,+2);
+  ^--- error here
+Parse error near line 1: near "`L 
+*;`": syntax error
+  ;`L      *;`L      *ÿÿÿÿ *ÿÿÿÿ           ÿÿÿÿ *ÿÿÿÿ          
+   ^--- error here
+Parse error near line 1: unrecognized token: "'"
+  SELECT abs(-1), hex(21), length('
+                    error here ---^
+Parse error near line 1: near "&": syntax error
+  RSIVE cnt(x) AS (SELECT 1 UNION ALL SELECT x+1 FRO&LECT * FROM cn
+                                      error here ---^
+Parse error near line 1: near "SEtsa": syntax error
+  SEtsa* `RŠECT * `ROM sqlite_mast `OM sqliteast `OM sqliteshell `R shell `R
+  ^--- error here
+Parse error near line 1: no such function: heÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿx
+  SELECT abs(-1), heÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿx('42SE)NE, lengtCT 1+1; (!hello');
+                  ^--- error here
+Parse error near line 3: near "scant": syntax error
+  scant
+  ^--- error here
+Parse error near line 1: no such table: sq_mÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿast
+Parse error near line 1: near "SELEzzzzzzzzzzzzzzzzzzzzzzzzÄÄ": syntax error
+  SELEzzzzzzzzzzzzzzzzzzzzzzzzÄÄ
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  Š  fâ"`      #      [/ÜÜÜÜôÕ     Š  fâ"`[        *  
+  ^--- error here
+Parse error near line 1: near "lo": syntax error
+  (42), length('helSELECT abs(-1), hex(42), length('lo');
+                                      error here ---^
+Parse error near line 1: no such function: heÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿx
+  SELECT abs(-1), heÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿx('42SE)NE, lengtCT 1+1; (!hello');
+                  ^--- error here
+Parse error near line 3: near "scanst": syntax error
+  scanst
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{.dtrig.d.ÿd.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.)))))))))))))))))))))))))))))))))))))))))))". Enter ".help" for help
+Parse error near line 1: near "SEDEÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿC": syntax error
+  SEDEÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿC 
+  ^--- error here
+Parse error near line 1: near "LL": syntax error
+  WITH RECURSIVE cntNLA  LL SELECÿÿÿÿÿÿÿuOMçœ‘‹ 5<<61;] T * FRO T * FROM cn;
+                         ^--- error here
+Parse error near line 1: incomplete input
+Error: unknown command or invalid arguments:  "`d.{.d.d.{d.].". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "tM". Enter ".help" for help
+Error: unknown command or invalid arguments:  "t<4)". Enter ".help" for help
+Parse error near line 7: near "x": syntax error
+  x<5) SELECT *d.
+  ^--- error here
+Parse error near line 1: near ")": syntax error
+  LE t(a,···,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb); INSERT I,2),A
+                                      error here ---^
+Parse error near line 1: near "SELSELECT": syntax error
+  SELSELECT 1+.;
+  ^--- error here
+Parse error near line 2: near "qlite_masCT": syntax error
+  qlite_masCT 1+.;
+  ^--- error here
+Parse error near line 3: near "qlitmasCT": syntax error
+  qlitmasCT 1 FROe_mt+.;
+  ^--- error here
+Parse error near line 4: near "qlite_mt": syntax error
+  qlite_mt *à¹­§e_mer;
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  #     #  #            #  #        
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+    Š  fâ"`      #      [/ÜÜÜÜôÕ     Š  fâ"`[        *  
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  #             #  #              #  #   
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{#". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".{ÿÿÿÿÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+      ?  #   &      """""""""""shemaEÿÿÿ ;        i.   2SE
+  ^--- error here
+Parse error near line 1: near "INSERALUES": syntax error
+  INSERALUES
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+    Š  fâ"`      #       [/ÜÜÜÜôÕ     Š  fâ"`[        *  
+  ^--- error here
+Error: unknown command or invalid arguments:  "sœ—¤’ad.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "{". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{#". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".;". Enter ".help" for help
+Parse error near line 25: unrecognized token: """"""""""""""S
+
+.d.{.d.{
+.d."
+  """""""""""""S  .d.{.d.{ .d.
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /sc`ema T=BEE v(a,b); ?INSERT INTO ÿ òòòòòòòòòòòðòòòòòòòòòòòòòòòòVALUEÓ
+  ^--- error here
+Parse error near line 1: near "SEÿLECT": syntax error
+  SEÿLECT 1+.;
+  ^--- error here
+Parse error near line 2: near "qlite_masCT": syntax error
+  qlite_masCT 1«.;
+  ^--- error here
+Parse error near line 3: near "qlitmasCT": syntax error
+  qlitmasCT 1+.;
+  ^--- error here
+Parse error near line 4: near "qlite_mt": syntax error
+  qlite_mt OM ser;
+  ^--- error here
+Parse error near line 5: near "ÿÿÿÿÿSELECTÍÍ": syntax error
+  ÿÿÿÿÿSELECTÍÍ Í
+  ^--- error here
+Parse error near line 1: near "?": syntax error
+  EJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ2?;
+                                      error here ---^
+Parse error near line 1: near "/": syntax error
+  ////////////////+///////////////////////////////////////////////////////.:t.:t
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜ.ÜÜ"""".p I:""""""ÜÜÜ."""""ÿÿÿÿÿÜ"@@z"""""":""""""ÜÜÜ."""""ÿÿÿÿÿÿÿ@@@@@
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d3.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+    Š  fâ"`   d    Š  ü  þõ      1EE ÿŠ
+  ^--- error here
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Parse error near line 3: near "/": syntax error
+  ///            C  /ÜÜÜÜÜÜ.""""""""""""""    ;
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+     ;
+  ^--- error here
+Parse error near line 22: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 46: unrecognized token: ""
+     SE
+  ^--- error here
+Parse error near line 1: near "S2": syntax error
+  S2), lenÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "abs": syntax error
+  SELECT abs(ECT abs(-0),,………………………;;;;;;;;;;;;;;;;;;;;;;… lenÿÿÿÿÿÿ
+                 ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.3{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "sch[mad.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  /oREAE TLscanstUAES(t(al,b);EAE TLscanstUAES(t(al,b)VALstUAES(t(a IVALstUAES(t
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "sœ—¤)SEL,". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "{". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "{". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.ÿÿ{". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.`{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.3{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "/". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 1: no such table: sqlite_masterllllllllllllllll$lllllllllllllßÿplÿÿÿlÿÿalllllllllll
+Parse error near line 1: near "/": syntax error
+  /sc`ema T=BLE t(a,b); INSERT INTO ÿ òòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòòVALUEÓ
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d.{.d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: cannot open "SELd/{"
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ´´´~
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oREAE TLscanstUAES(t(al,b);EAE TLscanstUAES(t(al,b); IVALstUAES(t(a IVALstUAE
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "/": syntax error
+  ////////////////////////////////////////////////////////////////////////.e
+  ^--- error here
+Parse error near line 1: near "²ELEe": syntax error
+  ²ELEe                       
+  ^--- error here
+Parse error near line 1: near "?": syntax error
+  TE TABLE t(a,······ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b)? INSERT INZb); INSERT I,2),
+                                      error here ---^
+Parse error near line 1: near "INSERALUES": syntax error
+  INSERALUES(1,2);
+  ^--- error here
+Parse error near line 1: near "SEtsableŠLshellECT": syntax error
+  SEtsableŠLshellECT *Š`+ RLlECT * `BOM sqlsc`ema *LŠ`R shellÿÿÿÿÿe_mast `OM sql
+  ^--- error here
+Parse error near line 1: no such table: sqlite_masterllllllllllllllll$lllllllllllllÿÿexplaÿÿÿÿÿllllllllllll
+Parse error near line 1: near "?": syntax error
+  E TABLE t(a,···,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b)? INSERT INZb); INSERT I,2),
+                                      error here ---^
+Error: unknown command or invalid arguments:  "`d.{.¿d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "t<5)". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 1: near "SEÖECT": syntax error
+  SEÖECT (-snÿÿÿÿÿÿ:(-EÖECT (-snÿÿÿÿÿÿ:(-ECT (-sSEÖECT (-snWÿÿÿ(-EÖECTnÿÿÿÿÿÿ
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{.¿d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "t<5)". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "t<5T". Enter ".help" for help
+Parse error near line 1: near "q”ttiees": syntax error
+  q”ttiees 1shel
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees
+  ^--- error here
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Parse error near line 3: near "/": syntax error
+  ///            C  /ÜÜÜÜÜÜ.""""""""""""""    ;
+  ^--- error here
+Parse error near line 1: near ";": syntax error
+  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿgt('hhello');
+                                      error here ---^
+Parse error near line 1: no such function: lenÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿgth
+  SELECT abs(-1), hex(42), lenÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿgth('he
+             error here ---^
+Parse error near line 1: unrecognized token: "2ELE"
+  2ELE    '''''''''''''''''''''''''''''''''' ' SELECT     abs(-*
+  ^--- error here
+Parse error near line 1: near "q”ttiees": syntax error
+  q”ttiees PYz* 
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  SELECT až‡(-1), hex(42), lenÿÿÿÿÿÿÿÿÿÿÿ ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿgth('l
+                           error here ---^
+Parse error near line 1: near "/": syntax error
+  /"·····························table·········IB
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜ.ÜÜ"""""""":""""""ÜÜÜ.""""""""""""""""""""""Ü"@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+    Š  fâ"`          Õ    Š  fâ"`          2EE 
+  ^--- error here
+Parse error near line 1: near "SEtsableŠLshellECT": syntax error
+  SEtsableŠLshellECT * `RŠLshellECT * `ROM sqlsc`ema *LŠR` shellÿÿÿÿÿe_mast `OM 
+  ^--- error here
+Parse error near line 1: near "q…bl": syntax error
+  q…bl.lcŠ(
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees
+  ^--- error here
+Error: unknown command or invalid arguments:  ".d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Parse error near line 3: near "/": syntax error
+  ///            C  /ÜÜÜÜÜÜ.""""""""""""""    ///
+  ^--- error here
+Parse error near line 1: near "SEÖECT": syntax error
+  SEÖECT (-snÿÿÿÿÿÿ:(-EÖECT (-snÿÿÿÿÿÿ:(-ECT (-sSEÖECT (-snÿÿÿÿÿÿ:(-EÖECTnÿÿÿ
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+    Š  fâ"`       #       [/ÜÜÜÜôÕ     Š  fâ"`            ;    *  
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  SELECT až‡(-0), hex(42), lenÿÿÿÿSEÿÿÿ
+                         error here ---^
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d3.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 1: near "SÛ": syntax error
+  SÛ<<62;
+  ^--- error here
+Parse error near line 2: near "ELECT": syntax error
+  ELECT 1ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÿÿÿÛÛÿÿÿÿÿÿÿÿÛÛÛÛÿÿÿÿÿÿÿ&ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ3Û;<7
+  ^--- error here
+Error: unknown command or invalid arguments:  "ÿÿ". Enter ".help" for help
+Parse error near line 5: near "oA": syntax error
+  oA/»                                ÿÿ    oA/»                       log      
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 6: near "*": syntax error
+  *ÿ  .d.{ .r`Odu* `R `mp
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees 
+  ^--- error here
+Parse error near line 1: near "S1": syntax error
+  S1<<62;
+  ^--- error here
+Parse error near line 2: near "ELECT": syntax error
+  ELECT 1ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÿÿÿÛÛÛÛ,ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ<<62
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿÿppppppppppppppppÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 9: near "*": syntax error
+  *ÿ  .d.{ .d.
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /CREATE TABLE t(a,b); INSER
+  ^--- error here
+Parse error near line 1: near "‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘": syntax error
+  
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees b
+  ^--- error here
+Parse error near line 1: near "ALL": syntax error
+  ALL SELECT x+1ALUL SELECT x+1UELAS(5,2);
+  ^--- error here
+Parse error near line 2: near "LECT": syntax error
+  LECT * FROM ES(5,2);
+  ^--- error here
+Parse error near line 3: near "LE": syntax error
+  LE* FROM OM ct;
+  ^--- error here
+Parse error near line 4: near "FRO": syntax error
+  FRO SELECT
+  ^--- error here
+Parse error near line 1: near "SEELCT": syntax error
+  SEELCT max(2«©«««««««««««««««««««««««««««««««««««««««««««««««««««««««««
+  ^--- error here
+Parse error near line 1: near "q”ttiees": syntax error
+  q”ttiees 
+  ^--- error here
+Parse error near line 1: near "SEtsableŠLshellECT": syntax error
+  SEtsableŠLshellECT * `RŠECT * `ROM sqlite_mast `OM sqliteast `OM sqliteshell `
+  ^--- error here
+Parse error near line 1: near "q”ttiees": syntax error
+  q”ttiees PYz* 
+  ^--- error here
+Parse error near line 1: no such function: abÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿsÿÿÿÿÿÿÿÿx
+  SELECT abÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿsÿÿÿÿÿÿÿÿx(84), lengt
+         ^--- error here
+Parse error near line 1: no such table: t
+Parse error near line 1: near "‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘": syntax error
+  
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+  SELECT a¦‡(
+             ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "Ê": syntax error
+  Ê
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+    Š  fâ"`       #       [/ÜÜÜÜôÕ     Š  fâ"`          2EE ÿ
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.z". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d..d.d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.z". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.". Enter ".help" for help
+Parse error near line 1: near "p": syntax error
+  p``````````````à````````````````````````a`````````````X```````````````````````
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{*****************/*******ÉÉÉÉÉÉ**.ld.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 6: near "*": syntax error
+  *ÿ  .d.{ .d.
+  ^--- error here
+Parse error near line 1: near "‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘": syntax error
+  
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d..¿d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "t<5S". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 1: near "S1": syntax error
+  S1<<62;
+  ^--- error here
+Parse error near line 2: unrecognized token: ""
+  
+  ^--- error here
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 41: unrecognized token: ""
+     SE     r.Q
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo.d.d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.ema". Enter ".help" for help
+Parse error near line 1: near ")": syntax error
+  SELECT abs(-1), hex=42)SEL, leng'h('hel$(-1), hex=42)SEL, leng'h('heeng'h('ÿÿÿ
+                        ^--- error here
+Parse error near line 1: near "‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘": syntax error
+  
+  ^--- error here
+Parse error near line 1: near "SEELCT": syntax error
+  SEELCT max(2«©«««««««««««««««««««««««««««««««««««««««««««««««««««««««««
+  ^--- error here
+Parse error near line 1: near "d": syntax error
+  d.{ .d.d.z . . .d{ .d.d.{ . .d. . .d.{ .d.d.{ . .d..d.d.{.d.{ .d.d.z . .  .
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜ.ÜÜ"""""""":""""""ÜÜÜ."""""ÿÿÿÿÿÜ"@@z"""""":""""""ÜÜÜ."""""ÿÿÿÿÿÜ@@.ma 
+  ^--- error here
+Parse error near line 1: near "x": syntax error
+   AS (SELECT 1 UNION ALL SELECT x+1 FROM cnt W¸ºR½ x<5) SELECT * FROM cnt;
+                                      error here ---^
+Error: unknown command or invalid arguments:  "$""""""SESIVE". Enter ".help" for help
+Parse error near line 1: near ",": syntax error
+  ,IÿÿÿLECT * FROM cnt;
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "t<4)". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "tM". Enter ".help" for help
+Error: unknown command or invalid arguments:  "t<4)". Enter ".help" for help
+Parse error near line 8: near "x": syntax error
+  x<5) SELECT *d.
+  ^--- error here
+Parse error near line 1: near "TART": syntax error
+  CREATE TART INZb);BLE t(a,······ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··/* b)? IGSERT INZ
+         ^--- error here
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Error: unknown command or invalid arguments:  "se". Enter ".help" for help
+Parse error near line 23: near "0": syntax error
+  0     .se     0     .se
+  ^--- error here
+Error: unknown command or invalid arguments:  "d..f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "dn". Enter ".help" for help
+Parse error near line 1: near "x": syntax error
+   AS (SELECT 1 UNION ALL SELECT x+1 FROM cnt W¸ºRE x<5) SELECT * FROM cnt;
+                                      error here ---^
+Parse error near line 1: no such function: abÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿsÿÿÿÿÿÿÿÿx
+  SELECT abÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿsÿÿÿÿÿÿÿÿx(42), 
+         ^--- error here
+Parse error near line 1: near "SEtsableŠLshellECT": syntax error
+  SEtsableŠLshellECT * `RŠLshellECT * `ROM sqlite_mast `OM sqliteast `OM sqlites
+  ^--- error here
+Parse error near line 1: near "jjjj": syntax error
+  jjjj            Ê
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,IÿÿÿLECT * FROM cnt;
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜÜ.ÜÜ"""""""":""""""ÜÜÜ."""""ÿÿÿÿÿÜ"@@z"""""":""""""ÜÜÜ."""""ÿÿÿÿÿÜ@@z"""
+  ^--- error here
+Parse error near line 1: near "VAa": syntax error
+  INSERT INTO t VAa,b); INSERT INTO t VALUES(1,2);
+                ^--- error here
+#835	INITED cov: 753 ft: 2045 corp: 361/12445b exec/s: 0 rss: 30Mb
+#835	DONE   cov: 753 ft: 2045 corp: 361/12445b lim: 95 exec/s: 0 rss: 30Mb
+Done 835 runs in 0 second(s)

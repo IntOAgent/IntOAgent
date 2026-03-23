@@ -1,0 +1,10 @@
+digraph "CFG for 'htmlParseFile' function" {
+	label="CFG for 'htmlParseFile' function";
+
+	Node0x39d7240 [shape=record,label="{HTMLparser.c:5372:}"];
+	Node0x39d7240 -> Node0x39d72e0;
+	Node0x39d7240 -> Node0x39d7290;
+	Node0x39d7290 [shape=record,label="{HTMLparser.c:5380:}"];
+	Node0x39d7290 -> Node0x39d72e0;
+	Node0x39d72e0 [shape=record,label="{HTMLparser.c:5402:}"];
+}

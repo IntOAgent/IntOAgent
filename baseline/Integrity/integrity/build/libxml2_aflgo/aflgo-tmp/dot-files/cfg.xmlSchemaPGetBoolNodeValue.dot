@@ -1,0 +1,24 @@
+digraph "CFG for 'xmlSchemaPGetBoolNodeValue' function" {
+	label="CFG for 'xmlSchemaPGetBoolNodeValue' function";
+
+	Node0x2e14c0d0 [shape=record,label="{xmlschemas.c:5924:}"];
+	Node0x2e14c0d0 -> Node0x2e14c120;
+	Node0x2e14c0d0 -> Node0x2e14c260;
+	Node0x2e14c120 [shape=record,label="{xmlschemas.c:5932:}"];
+	Node0x2e14c120 -> Node0x2e14c170;
+	Node0x2e14c120 -> Node0x2e14c260;
+	Node0x2e14c170 [shape=record,label="{xmlschemas.c:5934:}"];
+	Node0x2e14c170 -> Node0x2e14c1c0;
+	Node0x2e14c170 -> Node0x2e14c260;
+	Node0x2e14c1c0 [shape=record,label="{xmlschemas.c:5936:}"];
+	Node0x2e14c1c0 -> Node0x2e14c210;
+	Node0x2e14c1c0 -> Node0x2e14c260;
+	Node0x2e14c210 [shape=record,label="{xmlschemas.c:5942:}"];
+	Node0x2e14c210 -> Node0x2e14c260;
+	Node0x2e14c260 [shape=record,label="{xmlschemas.c:5946:}"];
+	Node0x2e14c260 -> Node0x2e14c300;
+	Node0x2e14c260 -> Node0x2e14c2b0;
+	Node0x2e14c2b0 [shape=record,label="{xmlschemas.c:5947:}"];
+	Node0x2e14c2b0 -> Node0x2e14c300;
+	Node0x2e14c300 [shape=record,label="{xmlschemas.c:5948:}"];
+}

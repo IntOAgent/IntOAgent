@@ -1,0 +1,36 @@
+digraph "CFG for 'xmlFreeIDTableEntry' function" {
+	label="CFG for 'xmlFreeIDTableEntry' function";
+
+	Node0x37d04a60 [shape=record,label="{valid.c:2154:}"];
+	Node0x37d04a60 -> Node0x37d04e20;
+	Node0x37d04a60 -> Node0x37d04ab0;
+	Node0x37d04ab0 [shape=record,label="{valid.c:2156:}"];
+	Node0x37d04ab0 -> Node0x37d04b50;
+	Node0x37d04ab0 -> Node0x37d04b00;
+	Node0x37d04b00 [shape=record,label="{valid.c:2157:}"];
+	Node0x37d04b00 -> Node0x37d04b50;
+	Node0x37d04b50 [shape=record,label="{valid.c:2159:}"];
+	Node0x37d04b50 -> Node0x37d04bf0;
+	Node0x37d04b50 -> Node0x37d04ba0;
+	Node0x37d04ba0 [shape=record,label="{valid.c:2160:}"];
+	Node0x37d04ba0 -> Node0x37d04bf0;
+	Node0x37d04bf0 [shape=record,label="{valid.c:2161:}"];
+	Node0x37d04bf0 -> Node0x37d04d30;
+	Node0x37d04bf0 -> Node0x37d04c40;
+	Node0x37d04c40 [shape=record,label="{valid.c:2162:}"];
+	Node0x37d04c40 -> Node0x37d04ce0;
+	Node0x37d04c40 -> Node0x37d04c90;
+	Node0x37d04c90 [shape=record,label="{valid.c:2162:1}"];
+	Node0x37d04c90 -> Node0x37d04ce0;
+	Node0x37d04c90 -> Node0x37d04d30;
+	Node0x37d04ce0 [shape=record,label="{valid.c:2162:2}"];
+	Node0x37d04ce0 -> Node0x37d04d30;
+	Node0x37d04d30 [shape=record,label="{valid.c:2163:}"];
+	Node0x37d04d30 -> Node0x37d04dd0;
+	Node0x37d04d30 -> Node0x37d04d80;
+	Node0x37d04d80 [shape=record,label="{valid.c:2164:}"];
+	Node0x37d04d80 -> Node0x37d04dd0;
+	Node0x37d04dd0 [shape=record,label="{valid.c:2168:}"];
+	Node0x37d04dd0 -> Node0x37d04e20;
+	Node0x37d04e20 [shape=record,label="{valid.c:2301:}"];
+}

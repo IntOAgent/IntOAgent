@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlCleanupSchemasTypesInternal' function" {
+	label="CFG for 'xmlCleanupSchemasTypesInternal' function";
+
+	Node0xb16b00 [shape=record,label="{xmlschemastypes.c:529:}"];
+}

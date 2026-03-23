@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlFreeIDCHashEntry' function" {
+	label="CFG for 'xmlFreeIDCHashEntry' function";
+
+	Node0x2e6f9070 [shape=record,label="{xmlschemas.c:21846:}"];
+	Node0x2e6f9070 -> Node0x2e6f93b0;
+	Node0x2e6f9070 -> Node0x2e6f9310;
+	Node0x2e6f9310 [shape=record,label="{xmlschemas.c:21845:}"];
+	Node0x2e6f9310 -> Node0x2e6f9360;
+	Node0x2e6f9360 [shape=record,label="{xmlschemas.c:21847:}"];
+	Node0x2e6f9360 -> Node0x2e6f93b0;
+	Node0x2e6f9360 -> Node0x2e6f9360;
+	Node0x2e6f93b0 [shape=record,label="{xmlschemas.c:21851:}"];
+}

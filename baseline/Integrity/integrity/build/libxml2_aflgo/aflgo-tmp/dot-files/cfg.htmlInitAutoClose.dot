@@ -1,0 +1,5 @@
+digraph "CFG for 'htmlInitAutoClose' function" {
+	label="CFG for 'htmlInitAutoClose' function";
+
+	Node0x37afb90 [shape=record,label="{HTMLparser.c:1246:}"];
+}

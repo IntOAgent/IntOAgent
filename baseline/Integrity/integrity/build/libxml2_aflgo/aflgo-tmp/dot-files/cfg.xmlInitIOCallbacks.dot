@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlInitIOCallbacks' function" {
+	label="CFG for 'xmlInitIOCallbacks' function";
+
+	Node0x97fa700 [shape=record,label="{xmlIO.c:2761:}"];
+}

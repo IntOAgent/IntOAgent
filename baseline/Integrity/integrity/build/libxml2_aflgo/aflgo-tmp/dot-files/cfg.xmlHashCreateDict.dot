@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlHashCreateDict' function" {
+	label="CFG for 'xmlHashCreateDict' function";
+
+	Node0x94eea10 [shape=record,label="{hash.c:208:}"];
+	Node0x94eea10 -> Node0x94ef7c0;
+	Node0x94eea10 -> Node0x94ef770;
+	Node0x94ef770 [shape=record,label="{hash.c:210:}"];
+	Node0x94ef770 -> Node0x94ef7c0;
+	Node0x94ef7c0 [shape=record,label="{hash.c:213:}"];
+}

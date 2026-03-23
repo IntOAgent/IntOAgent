@@ -1,0 +1,19 @@
+digraph "CFG for 'xmlGetDtdElementDesc' function" {
+	label="CFG for 'xmlGetDtdElementDesc' function";
+
+	Node0x37d38440 [shape=record,label="{valid.c:2798:}"];
+	Node0x37d38440 -> Node0x37d38610;
+	Node0x37d38440 -> Node0x37d384d0;
+	Node0x37d384d0 [shape=record,label="{valid.c:2800:}"];
+	Node0x37d384d0 -> Node0x37d38610;
+	Node0x37d384d0 -> Node0x37d38520;
+	Node0x37d38520 [shape=record,label="{valid.c:2808:}"];
+	Node0x37d38520 -> Node0x37d38610;
+	Node0x37d38520 -> Node0x37d38570;
+	Node0x37d38570 [shape=record,label="{valid.c:2804:}"];
+	Node0x37d38570 -> Node0x37d38610;
+	Node0x37d38570 -> Node0x37d385c0;
+	Node0x37d385c0 [shape=record,label="{valid.c:2813:}"];
+	Node0x37d385c0 -> Node0x37d38610;
+	Node0x37d38610 [shape=record,label="{valid.c:2815:}"];
+}

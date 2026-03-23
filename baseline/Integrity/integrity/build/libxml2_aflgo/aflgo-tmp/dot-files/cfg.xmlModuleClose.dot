@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlModuleClose' function" {
+	label="CFG for 'xmlModuleClose' function";
+
+	Node0x17281220 [shape=record,label="{xmlmodule.c:127:}"];
+	Node0x17281220 -> Node0x17281340;
+	Node0x17281220 -> Node0x172812a0;
+	Node0x172812a0 [shape=record,label="{xmlmodule.c:130:}"];
+	Node0x172812a0 -> Node0x172812f0;
+	Node0x172812a0 -> Node0x17281340;
+	Node0x172812f0 [shape=record,label="{xmlmodule.c:155:}"];
+	Node0x172812f0 -> Node0x17281340;
+	Node0x17281340 [shape=record,label="{xmlmodule.c:137:}"];
+}

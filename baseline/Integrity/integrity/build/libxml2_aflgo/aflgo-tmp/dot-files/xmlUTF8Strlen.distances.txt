@@ -1,0 +1,10 @@
+xmlstring.c:766,4
+xmlstring.c:769,2
+xmlstring.c:771,3
+xmlstring.c:773,2
+xmlstring.c:774,4
+xmlstring.c:776,3
+xmlstring.c:777,3
+xmlstring.c:779,2
+xmlstring.c:781,2
+xmlstring.c:789,0

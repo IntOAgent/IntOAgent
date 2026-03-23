@@ -1,0 +1,16 @@
+digraph "CFG for 'xmlC14NNsCompare' function" {
+	label="CFG for 'xmlC14NNsCompare' function";
+
+	Node0xfcd0ae0 [shape=record,label="{c14n.c:492:}"];
+	Node0xfcd0ae0 -> Node0xfcd1680;
+	Node0xfcd0ae0 -> Node0xfcd1590;
+	Node0xfcd1590 [shape=record,label="{c14n.c:494:}"];
+	Node0xfcd1590 -> Node0xfcd1680;
+	Node0xfcd1590 -> Node0xfcd15e0;
+	Node0xfcd15e0 [shape=record,label="{c14n.c:496:}"];
+	Node0xfcd15e0 -> Node0xfcd1680;
+	Node0xfcd15e0 -> Node0xfcd1630;
+	Node0xfcd1630 [shape=record,label="{c14n.c:499:}"];
+	Node0xfcd1630 -> Node0xfcd1680;
+	Node0xfcd1680 [shape=record,label="{c14n.c:500:}"];
+}

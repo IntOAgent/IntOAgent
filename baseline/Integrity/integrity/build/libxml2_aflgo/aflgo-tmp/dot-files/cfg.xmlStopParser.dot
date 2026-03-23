@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlStopParser' function" {
+	label="CFG for 'xmlStopParser' function";
+
+	Node0x2708c950 [shape=record,label="{parser.c:11390:}"];
+	Node0x2708c950 -> Node0x2708ca70;
+	Node0x2708c950 -> Node0x2708c9d0;
+	Node0x2708c9d0 [shape=record,label="{parser.c:11394:}"];
+	Node0x2708c9d0 -> Node0x2708ca20;
+	Node0x2708c9d0 -> Node0x2708ca70;
+	Node0x2708ca20 [shape=record,label="{parser.c:11403:}"];
+	Node0x2708ca20 -> Node0x2708ca70;
+	Node0x2708ca70 [shape=record,label="{parser.c:11407:}"];
+}

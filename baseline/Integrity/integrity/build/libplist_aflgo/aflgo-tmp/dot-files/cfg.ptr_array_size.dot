@@ -1,0 +1,5 @@
+digraph "CFG for 'ptr_array_size' function" {
+	label="CFG for 'ptr_array_size' function";
+
+	Node0x3a7700e0 [shape=record,label="{ptrarray.c:95:}"];
+}

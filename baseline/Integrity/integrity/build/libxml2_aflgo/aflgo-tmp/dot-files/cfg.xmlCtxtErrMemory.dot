@@ -1,0 +1,27 @@
+digraph "CFG for 'xmlCtxtErrMemory' function" {
+	label="CFG for 'xmlCtxtErrMemory' function";
+
+	Node0x8ccec50 [shape=record,label="{parserInternals.c:184:}"];
+	Node0x8ccec50 -> Node0x8cced00;
+	Node0x8ccec50 -> Node0x8cced50;
+	Node0x8cced00 [shape=record,label="{parserInternals.c:185:}"];
+	Node0x8cced00 -> Node0x8ccef80;
+	Node0x8cced50 [shape=record,label="{parserInternals.c:189:}"];
+	Node0x8cced50 -> Node0x8ccedf0;
+	Node0x8cced50 -> Node0x8cceda0;
+	Node0x8cceda0 [shape=record,label="{parserInternals.c:196:}"];
+	Node0x8cceda0 -> Node0x8ccef30;
+	Node0x8ccedf0 [shape=record,label="{parserInternals.c:197:}"];
+	Node0x8ccedf0 -> Node0x8ccee40;
+	Node0x8ccedf0 -> Node0x8cceee0;
+	Node0x8ccee40 [shape=record,label="{parserInternals.c:198:}"];
+	Node0x8ccee40 -> Node0x8cceee0;
+	Node0x8ccee40 -> Node0x8ccee90;
+	Node0x8ccee90 [shape=record,label="{parserInternals.c:200:}"];
+	Node0x8ccee90 -> Node0x8ccef30;
+	Node0x8cceee0 [shape=record,label="{parserInternals.c:202:}"];
+	Node0x8cceee0 -> Node0x8ccef30;
+	Node0x8ccef30 [shape=record,label="{parserInternals.c:207:}"];
+	Node0x8ccef30 -> Node0x8ccef80;
+	Node0x8ccef80 [shape=record,label="{parserInternals.c:208:}"];
+}

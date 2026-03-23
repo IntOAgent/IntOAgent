@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtSetMaxAmplification' function" {
+	label="CFG for 'xmlCtxtSetMaxAmplification' function";
+
+	Node0x271624b0 [shape=record,label="{parser.c:13307:}"];
+	Node0x271624b0 -> Node0x27162550;
+	Node0x271624b0 -> Node0x27162500;
+	Node0x27162500 [shape=record,label="{parser.c:13309:}"];
+	Node0x27162500 -> Node0x27162550;
+	Node0x27162550 [shape=record,label="{parser.c:13310:}"];
+}

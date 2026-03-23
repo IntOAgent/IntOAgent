@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlTextReaderGetLastError' function" {
+	label="CFG for 'xmlTextReaderGetLastError' function";
+
+	Node0x22c0b9d0 [shape=record,label="{xmlreader.c:4913:}"];
+	Node0x22c0b9d0 -> Node0x22c0ba70;
+	Node0x22c0b9d0 -> Node0x22c0ba20;
+	Node0x22c0ba20 [shape=record,label="{xmlreader.c:4913:1}"];
+	Node0x22c0ba20 -> Node0x22c0ba70;
+	Node0x22c0ba70 [shape=record,label="{xmlreader.c:4916:}"];
+}

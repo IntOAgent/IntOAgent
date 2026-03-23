@@ -1,0 +1,34 @@
+digraph "CFG for 'xmlSchemaValidateStreamLocator' function" {
+	label="CFG for 'xmlSchemaValidateStreamLocator' function";
+
+	Node0x2e97fc60 [shape=record,label="{xmlschemas.c:28300:}"];
+	Node0x2e97fc60 -> Node0x2e980120;
+	Node0x2e97fc60 -> Node0x2e97fe00;
+	Node0x2e97fe00 [shape=record,label="{xmlschemas.c:28300:1}"];
+	Node0x2e97fe00 -> Node0x2e980120;
+	Node0x2e97fe00 -> Node0x2e97fe50;
+	Node0x2e97fe50 [shape=record,label="{xmlschemas.c:28303:}"];
+	Node0x2e97fe50 -> Node0x2e97fef0;
+	Node0x2e97fe50 -> Node0x2e97fea0;
+	Node0x2e97fea0 [shape=record,label="{xmlschemas.c:28304:}"];
+	Node0x2e97fea0 -> Node0x2e97fef0;
+	Node0x2e97fef0 [shape=record,label="{xmlschemas.c:28305:}"];
+	Node0x2e97fef0 -> Node0x2e97ff90;
+	Node0x2e97fef0 -> Node0x2e97ff40;
+	Node0x2e97ff40 [shape=record,label="{xmlschemas.c:28306:}"];
+	Node0x2e97ff40 -> Node0x2e97ff90;
+	Node0x2e97ff90 [shape=record,label="{xmlschemas.c:28309:}"];
+	Node0x2e97ff90 -> Node0x2e980120;
+	Node0x2e97ff90 -> Node0x2e97ffe0;
+	Node0x2e97ffe0 [shape=record,label="{xmlschemas.c:28310:}"];
+	Node0x2e97ffe0 -> Node0x2e980080;
+	Node0x2e97ffe0 -> Node0x2e980030;
+	Node0x2e980030 [shape=record,label="{xmlschemas.c:28311:}"];
+	Node0x2e980030 -> Node0x2e980080;
+	Node0x2e980080 [shape=record,label="{xmlschemas.c:28312:}"];
+	Node0x2e980080 -> Node0x2e980120;
+	Node0x2e980080 -> Node0x2e9800d0;
+	Node0x2e9800d0 [shape=record,label="{xmlschemas.c:28313:}"];
+	Node0x2e9800d0 -> Node0x2e980120;
+	Node0x2e980120 [shape=record,label="{xmlschemas.c:28317:}"];
+}

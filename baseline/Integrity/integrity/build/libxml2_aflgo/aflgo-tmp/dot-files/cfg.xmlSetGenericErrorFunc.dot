@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlSetGenericErrorFunc' function" {
+	label="CFG for 'xmlSetGenericErrorFunc' function";
+
+	Node0x364a5990 [shape=record,label="{error.c:273:}"];
+}

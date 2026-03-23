@@ -1,0 +1,24 @@
+digraph "CFG for 'xmlC14NPrintNamespaces' function" {
+	label="CFG for 'xmlC14NPrintNamespaces' function";
+
+	Node0xfce7050 [shape=record,label="{c14n.c:514:}"];
+	Node0xfce7050 -> Node0xfce70a0;
+	Node0xfce7050 -> Node0xfce70f0;
+	Node0xfce70a0 [shape=record,label="{c14n.c:173:}"];
+	Node0xfce70a0 -> Node0xfce72d0;
+	Node0xfce70f0 [shape=record,label="{c14n.c:519:}"];
+	Node0xfce70f0 -> Node0xfce7190;
+	Node0xfce70f0 -> Node0xfce7140;
+	Node0xfce7140 [shape=record,label="{c14n.c:520:}"];
+	Node0xfce7140 -> Node0xfce71e0;
+	Node0xfce7190 [shape=record,label="{c14n.c:524:}"];
+	Node0xfce7190 -> Node0xfce71e0;
+	Node0xfce71e0 [shape=record,label="{c14n.c:526:}"];
+	Node0xfce71e0 -> Node0xfce7280;
+	Node0xfce71e0 -> Node0xfce7230;
+	Node0xfce7230 [shape=record,label="{c14n.c:527:}"];
+	Node0xfce7230 -> Node0xfce72d0;
+	Node0xfce7280 [shape=record,label="{c14n.c:529:}"];
+	Node0xfce7280 -> Node0xfce72d0;
+	Node0xfce72d0 [shape=record,label="{c14n.c:532:}"];
+}

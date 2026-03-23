@@ -1,0 +1,26 @@
+digraph "CFG for 'xmlRelaxNGValidateDefinitionList' function" {
+	label="CFG for 'xmlRelaxNGValidateDefinitionList' function";
+
+	Node0x132134a0 [shape=record,label="{relaxng.c:9297:}"];
+	Node0x132134a0 -> Node0x13213540;
+	Node0x132134a0 -> Node0x132134f0;
+	Node0x132134f0 [shape=record,label="{relaxng.c:9302:}"];
+	Node0x132134f0 -> Node0x13213590;
+	Node0x13213540 [shape=record,label="{relaxng.c:9298:}"];
+	Node0x13213540 -> Node0x13213720;
+	Node0x13213590 [shape=record,label="{relaxng.c:9303:}"];
+	Node0x13213590 -> Node0x132135e0;
+	Node0x13213590 -> Node0x13213630;
+	Node0x132135e0 [shape=record,label="{relaxng.c:9303:1}"];
+	Node0x132135e0 -> Node0x13213680;
+	Node0x132135e0 -> Node0x13213630;
+	Node0x13213630 [shape=record,label="{relaxng.c:9304:}"];
+	Node0x13213630 -> Node0x13213720;
+	Node0x13213630 -> Node0x132136d0;
+	Node0x13213680 [shape=record,label="{relaxng.c:9308:}"];
+	Node0x13213680 -> Node0x13213720;
+	Node0x132136d0 [shape=record,label="{relaxng.c:9313:}"];
+	Node0x132136d0 -> Node0x13213720;
+	Node0x132136d0 -> Node0x13213590;
+	Node0x13213720 [shape=record,label="{relaxng.c:9317:}"];
+}

@@ -1,0 +1,28 @@
+digraph "CFG for 'plist_array_get_item_index' function" {
+	label="CFG for 'plist_array_get_item_index' function";
+
+	Node0x2158a460 [shape=record,label="{plist.c:1256:}"];
+	Node0x2158a460 -> Node0x2158f4c0;
+	Node0x2158a460 -> Node0x2155e9e0;
+	Node0x2155e9e0 [shape=record,label="{plist.c:1256:1}"];
+	Node0x2155e9e0 -> Node0x2158f4c0;
+	Node0x2158f4c0 [shape=record,label="{plist.c:1256:2}"];
+	Node0x2158f4c0 -> Node0x2158f600;
+	Node0x2158f4c0 -> Node0x2158f510;
+	Node0x2158f510 [shape=record,label="{plist.c:356:}"];
+	Node0x2158f510 -> Node0x2158f5b0;
+	Node0x2158f510 -> Node0x2158f560;
+	Node0x2158f560 [shape=record,label="{plist.c:1265:}"];
+	Node0x2158f560 -> Node0x2158f5b0;
+	Node0x2158f5b0 [shape=record,label="{%13}"];
+	Node0x2158f5b0 -> Node0x2158f600;
+	Node0x2158f5b0 -> Node0x2158f650;
+	Node0x2158f600 [shape=record,label="{plist.c:1267:}"];
+	Node0x2158f600 -> Node0x2158f650;
+	Node0x2158f650 [shape=record,label="{plist.c:668:}"];
+	Node0x2158f650 -> Node0x2158f6a0;
+	Node0x2158f650 -> Node0x2158f6f0;
+	Node0x2158f6a0 [shape=record,label="{plist.c:670:}"];
+	Node0x2158f6a0 -> Node0x2158f6f0;
+	Node0x2158f6f0 [shape=record,label="{plist.c:673:}"];
+}

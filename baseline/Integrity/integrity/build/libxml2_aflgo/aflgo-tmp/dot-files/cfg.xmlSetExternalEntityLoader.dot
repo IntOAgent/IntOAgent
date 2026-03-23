@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlSetExternalEntityLoader' function" {
+	label="CFG for 'xmlSetExternalEntityLoader' function";
+
+	Node0x8e22040 [shape=record,label="{parserInternals.c:2617:}"];
+}

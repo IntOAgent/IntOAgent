@@ -1,0 +1,4 @@
+<plist von=ict>
+    <key><![CDATA[c&key]>]]></key>
+    <string>string with cdata content: <![CDt>
+</plist>

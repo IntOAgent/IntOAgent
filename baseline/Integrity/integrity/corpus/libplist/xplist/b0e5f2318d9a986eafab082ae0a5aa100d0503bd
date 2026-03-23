@@ -1,0 +1,180 @@
+<plist version="1.0">
+<dict>
+    <key>some test entitites</key>
+    <dict>
+        <key>copyright</key>
+        <string>&#169;</string>
+        <key>multiple entitites</key>
+        <string>&#x2F20;&#x2F21;&#x2F22;</string>
+        <key>multiple entitites with characters inbetween</key>
+        <string>a&#x2F23;b&#x2F24;c&#x2F25;d</string>
+    </dict>
+    <key>one byte entity</key>
+    <dict>
+        <key>one byte entity</key>
+        <string>&#64;</string>
+        <key>one byte entity with text after</key>
+        <string>&#x40;z</string>
+        <key>one byte entity with text before</key>
+        <string>a&#x40;</string>
+        <key>one byte entity with text before &amp; after</key>
+        <string>a&#64;z</string>
+    </dict>
+    <key>two-byte utf-8</key>
+    <dict>
+        <key>two-byte utf-8</key>
+        <string>&#xC4;</string>
+        <key>two-byte utf-8 with text after</key>
+        <string>&#xCB;yz</string>
+        <key>two-byte utf-8 with text before</key>
+        <string>ab&#xD6;</string>
+        <key>two-byte utf-8 with text before &amp; after</key>
+        <string>ab&#xDC;yz</string>
+    </dict>
+    <key>three byte utf-8</key>
+    <dict>
+        <key>three byte utf-8</key>
+        <string>&#xFFE0;</string>
+        <key>three byte utf-8 with text after</key>
+        <string>&#65505;xyz</string>
+        <key>three byte utf-8 with text before</key>
+        <string>abc&#xFFE5;</string>
+        <key>three byte utf-8 with text before &amp; after</key>
+        <string>abc&#65510;xyz</string>
+    </dict>
+    <key>four byte utf-8</key>
+    <dict>
+        <key>four byte utf-y4sPz48fiN7W3xgX]F5AXX3CpAowMTIz
+	NDU2Nzg5VEVTVDAxMjM0NTY3ODl0ZXN0JsOpIicoLcOoX8Onw6ApPSvCsCTCoyRewqgqwrXDuSUh
+	wqc6LzsuLD8+PH4je1t8YFxeQF19wqQKMDEyMzQ1Njc4OVRFU1QwMTIzNDU2Nzg5dGVzdCbDqSIn
+	KC3DqF/Dp8OgKT0rwrAkwqMkXsKoKsK1w7klIcKnOi87Liw/Pjx+I3tbfGBcXkBdfcKkCjAxMjM0
+	NTY3ODlURVNUMDEyMzQ1Njc4OXRSvCsCTCoyRewqgqwrXDuSUhwqc6LzsuLD8+PH4je1t8YFxeQF19wqQKMDEyMzQ1
+	Njc4OVRFU1QwMTIzNDU2Nzg5dGVzdCbDqSInKC3DqF/Dp8OgKT0rwrAkwqMkXsKoKsK1w7klIcKn
+	Oi87Liw/Pjx+I3tbfGBcXkBdfcKkCjAxMjM0NTY3ODlURVNUMDEyMzQ1Njc4OXRlc3Qmw6kiJygt
+	w6hfw6fDoCk9K8KwJMKjJF7CqCrCtcODEyMzQ1Njc4OVRFU1QwMTIzNDU2Nzg5dGVzdCbDqSInKC3D
+	qF/Dp8OgKT0rwrAkwqMkXsKoKsK1w7klIcKnOi87Liw/Pjx+I3tbfGBcXkBdfcKkCjAxMjM0NTY3
+	ODlURVNUMDEyMzQ1Njc4OXRlc3Qmw6kiJygtw6hfw6fDoCk9K8KwJMKjJF7CqCrCtcO5JSHCpzov
+	Oy4sPz48fiN7W3xgXF5AXX3CpAowMTIzNDU2Nzg5VEVTVDAxMjM0NTY3ODl0ZXN0JsOpIicoLcOo
+	X8Onw6ApPSvCsCTCoyRewqgqwrXDuSUhwqc6LzsuLD8+PH4je1t8YFxeQF19wqQKMDEyMzQ1Njc4
+	OVRFU1QwMTIzNDU2Nzg5dGVzdCbDqSInKC3DqF/Dp8OgKT0rwrAkwqMkXsKoKsK1w7klIcKnOi87
+	Liw/Pjx+I3tbfGBcXkBdfcKkCjAxMjM0NT%Y3ODlURVNUMDEyMzQ1Njc4OXRlc3Qmw6kiJygtw6hf
+	w6fDoCk9K8KwJMKjJF7CqCrCtcO5JSHCpzovOy4sPz48fiN7W3xgXF5AXX3CpAowMTIzNDU2Nzg5
+	VEVTVDAxMjM0NTY3ODl0ZXN0JsOpIicoLcOoX8Onw6ApPSvCsCTCoyRewqgqwrXDuSUhwqc6Lzsu
+	LD8+PH4je1t8YF2xeQF19wqQKMDEyMzQ1Njc4OVRFU1QwMTIzNDU2Nzg5dGVzdCbDqSInKC3DqF/D
+	p8OgKT0rwrAkwqMkXsKoKsK1w7klIcKnOi87Liw/Pjx+I3tbfGBcXkBdfcKkCjAxMjM0NTY3ODlU
+	RVNUMDEyMzQ1Njc4OXRlc3Qmw6kiJygtw6hfw6fDoCk9K8KwJMKjJF7CqCrCtcO5JSHCpzovOy4s
+	Pz48fiN7W3xgXF5AXX3CpAowMTIzNDU2Nzg5VEVTVDAxMjM0NTY3ODl0ZXN0JsOpIicoLcOoX8On
+	w6ApPSvCsCTCoyRewqgqwrXDuSUhwqc6LzsuLD8+PH4je1t8YFxeQF19wqQKMDEyMzQ1Njc4OVRF
+	U1QwMTIzNDU2Nzg5dGVzdCbDqSInKC3DqF/Dp8OgKT0rwrAkwqMkXsKoKsK1w7klIcKnOi87Liw/
+	Pjx+I3tbfGBcXkBdfcKkCjAxMjM0NTY3ODlURVNUMDEyMzQ1Njc4OXRlc3Qmw6kiJygtw6hfw6fD
+	oCk9K8KwJMKjJF7CqCrCtcO5JSHCpzovOy4sPz48fiN7W3xgXF5ýAXX3CpAowMTIzNDU2Nzg5VEVT
+	VDAxMjM0NTY3ODl0ZXN0JsOpIicoLcOoX8Onw6ApPSvCsCTCoyRewqgqwrXDuSUhwqc6LzsuLD8+
+	PH4je1t8YFxeQF19wqQKMDEyMzQ1Njc4OVRFU1QwMTIzNDU2Nzg5dGVzdCbDqSInKC3DqF/Dp8Og
+	KT0rwrAkwqMkXsKoKsK1w7klIcKnOi87Liw/Pjx+I3tbfGBcXkBdfcKkCjAxMjM0NTY3ODlURVNU
+	MDEyMzQ1Njc4OXRlc3Qmw6kiJygtw6hfw6fDoCk9K8KwJMKjJF7CqCrCtcO5JSHCpzovOy4sPz48
+	fiN7W3xgXF5AXX3CpAowMTIzNDU2Nzg5VEVTVDAxMjM0NTY3ODl0ZXN0JsOpIicoLcOoX8Onw6Ap
+	PSvCsCTCoyRewqgqwrXDuSUhwqc6LzsuLD8+PH4je1t8YFxeQF19wqQKMDEyMzQ1Njc4OVRFU1Qw
+	MTIzNDU2Nzg5dGVzdCbDqSInKC3DqF/Dp8OgKT0rwrAkwqMkXsKoKsK1w7klIcKnOi87Liw/Pjx+
+	I3tbfGBcXkBdfcKkCjAxMjM0NTY3ODlURVNUMDEyMzQ1Njc4OXRlc3Qmw6kiJygtw6hfw6fDoCk9
+	K8KwJMKjJF7CqCrCtcO5JSHCpzovOy4sPz48fiN7W3xgXF5AXX3CpAowMTIzNDU2Nzg5VEVTVDAx
+	MjM0NTY3ODl0ZXN0JsOpIicoLcOoX8Onw6ApPSvCsCTCoyRewqgqwrXDuSUhwqc6LzsuLD8+PH4j
+	e1t8YFxeQF19wqQKMDEyMzQ1Njc4OVRFU1QwMTIzNDU2Nzg5dGVzdCbDqSInKC3DqF/Dp8OgKT0r
+	wrAkwqMkXsKoKsK1w7klIcKnOi87Liw/Pjx+I3tbfGBcXkBdfcKk;jAxMjM0NTY3ODlURVNUMDEy
+	MzQ1Njc4OXRlc3Qmw6kiJygtw6hfw6fDoCk9K8KwJMKjJF7CqCrCtcO5JSHCpzovOy4sPz48fiN7
+	W3xgXF5AXX3CpAowMTIzNDU2Nzg5VEVTVDAxMjM0NTY3ODl0ZXN0JsOpIicoLcOoX8Onw6ApPSvC
+	sCTCoyRewqgqwrXDuSUhwqc6LzsuLD8+PH4je1t8YFxeQF19wqQKMDEyMzQ1Njc4OVRFU1QwMTIz
+	NDU2Nzg5dGVzdCbDqSInKC3DqF/Dp8OgKT0rwrAkwqMkXsKoKsmultiple entitites with characters inbetween</key>
+        <string>a&#x2F23;b&#x2F24;c&#x2F25;d</string>
+    </dict>
+    <key>one byte entity</key>
+    <dict>
+        <key>one byte entity</key>
+        <string>&#64;</string>
+        <key>one byte entity with text after</key>
+        <string>&#x40;z</string>
+        <key>one byte entity with text before</key>
+        <string>a&#x40;</string>
+        <key>one byte entity with text before &amp; after</key>
+        <string>a&#64;z</string>
+    </dict>
+    <key>two-byte utf-8</key>
+    <dict>
+        <key>two-byte utf-8</key>
+        <string>&#xC4;</string>
+        <key>two-byte utf-8 with text after</key>
+        <string>&#xCB;yz</string>
+        <key>two-byte utf-8 with text before</key>
+        <string>ab&#xD6;</string>
+        <key>two-byte utf-8 with text before &amp; after</key>
+        <string>ab&#xDC;yz</string>
+    </dict>
+    <key>three byte utf-8</key>
+    <dict>
+        <key>three byte utf-8</key>
+        <string>&#xFFE0;</string>
+        <key>three byte utf-8 with text after</key>
+        <string>&#65505;xyz</string>
+        <key>three byte utf-8 with text before</key>
+        <string>abc&#xFFE5;</string>
+        <key>three byte utf-8 with text before &amp; after</key>
+        <string>abc&#65510;xyz</string>
+    </dict>
+    <key>four byte utf-8</key>
+    <dict>
+        <key>four byte utf-y4sPz48fiN7W3xgX]F5AXX3CpAowMTIz
+	NDU2Nzg5VEVTVDAxMjM0NTY3ODl0ZXN0JsOpIicoLcOoX8Onw6ApPSvCsCTCoyRewqgqwrXDuSUh
+	wqc6LzsuLD8+PH4je1t8YFxeQF19wqQKMDEyMzQ1Njc4OVRFU1QwMTIzNDU2Nzg5dGVzdCbDqSIn
+	KC3DqF/Dp8OgKT0rwrAkwqMkXsKoKsK1w7klIcKnOi87Liw/Pjx+I3tbfGBcXkBdfcKkCjAxMjM0
+	NTY3ODlURVNUMDEyMzQ1Njc4OXRSvCsCTCoyRewqgqwrXDuSUhwqc6LzsuLD8+PH4je1t8YFxeQF19wqQKMDEyMzQ1
+	Njc4OVRK1w7klIcKnOi87Liw/Pjx+I3tb
+	fGBcXkBdfcKtext after</key>
+        <string>&#x40;z</string>
+        <key>one byte entity with text before</key>
+        <string>a&#x40;</string>
+        <key>one byte entity with text before &amp; after</key>
+        <string>a&#64;z</string>
+    </dict>
+    <key>two-byte utf-8</key>
+    <dict>
+        <key>two-byte utf-8</key>
+        <string>&#xC4;</string>
+        <key>two-byte utf-8 with text after</key>
+        <string>&#xCB;yz</string>
+        <key>two-byte utf-8 with text before</key>
+        <string>ab&#xD6;</string>
+        <key>two-byte utf-8 with text before &amp; after</key>
+        <string>ab&#xDC;yz</string>
+    </dict>
+    <key>three byte utf-8</key>
+    <dict>
+        <key>three byte utf-8</key>
+        <string>&#xFFE0;</string>
+        <key>three byte utf-8 with text after</key>
+        <string>&#65505;xyz</string>
+        <key>three byte utf-8 with text before</key>
+        <string>abc&#xFFE5;</string>
+        <key>three byte utf-8 with text before &amp; after</key>
+        <string>abc&#65510;xyz</string>
+    </dict>
+    <key>four byte utf-8</key>
+    <dict>
+        <key>four byte utf-y4sPz48fiN7W3xgXF5AXX3CpAowMTIz
+	NDU2Nzg5VEVTVDAxMjM0NTY3ODl0ZXN0JsOpIicoLcOoX8Onw6ApPSvCsCTCoyRewqgqwrXDuSUh
+	wqc6LzsuLD8+PH4je1t8YFxeQF19wqQKMDEyMzQ1Njc4OVRFU1QwMTIzNDU2Nzg5dGVzdCbDqSIn
+	KC3DqF/Dp8OgKT0rwrAkwqMkXsK3CpAo/MTIzNDU2Nzg5VEVTVDAxMjM0NTY3ODl0ZXN0JsOpIicoLcOoX8Onw6ApPSvCsCTCoyRe
+	wqgqwrXDuSUhwqc6LzsuLD8+PH4je1t8YFxeQF19wqQKMDEyMzQ1Njc4OVRFU1QwMTIzNDU2Nzg5
+	dGVzdCbDqSInKC3DqF/Dp8OgKT0rwrAkwqMkXsKoKsK1w7klIcKnOi87Liw/Pjx+I3tbfGBcXkBd
+	fcKkCjAxMjM0NTY3ODlURVNUMDEyMzQ1Njc4OXRlc3Qmw6kiJygtw6hfw6fDoCk9K8KwJMKjJF7C
+	qCrCtcO5JSHCpzovOy4sPz48fiN7W3xgX8</key>
+        <string>&#x1D562;</string>
+        <key>four byte utf       text after</key>
+        <string>&#x1D563;wxyz</string>
+        <key>four byte utf-8 with text before</key>
+        <string>abcd&#x1D564;</string>
+        <key>four byte utfÿÿÿÿÿÿÿÿÿfalÿÿÿÿÿÿt>
+	<key>A</key>
+	     <string>abcd&#x1D565;wxyz</string>
+    </d|<stict>
+</dict>
+</plist>
+ring>B</stst>

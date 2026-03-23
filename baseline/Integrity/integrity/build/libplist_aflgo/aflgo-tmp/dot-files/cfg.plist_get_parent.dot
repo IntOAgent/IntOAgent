@@ -1,0 +1,10 @@
+digraph "CFG for 'plist_get_parent' function" {
+	label="CFG for 'plist_get_parent' function";
+
+	Node0x21592630 [shape=record,label="{plist.c:1256:}"];
+	Node0x21592630 -> Node0x215926d0;
+	Node0x21592630 -> Node0x21592680;
+	Node0x21592680 [shape=record,label="{plist.c:1256:1}"];
+	Node0x21592680 -> Node0x215926d0;
+	Node0x215926d0 [shape=record,label="{plist.c:1256:2}"];
+}

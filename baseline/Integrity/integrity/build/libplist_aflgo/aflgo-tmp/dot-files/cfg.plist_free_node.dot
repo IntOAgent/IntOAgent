@@ -1,0 +1,16 @@
+digraph "CFG for 'plist_free_node' function" {
+	label="CFG for 'plist_free_node' function";
+
+	Node0x21579490 [shape=record,label="{plist.c:419:}"];
+	Node0x21579490 -> Node0x21579560;
+	Node0x21579490 -> Node0x21579510;
+	Node0x21579510 [shape=record,label="{plist.c:356:}"];
+	Node0x21579510 -> Node0x21579560;
+	Node0x21579560 [shape=record,label="{plist.c:421:}"];
+	Node0x21579560 -> Node0x21579600;
+	Node0x21579560 -> Node0x215795b0;
+	Node0x215795b0 [shape=record,label="{plist.c:426:}"];
+	Node0x215795b0 -> Node0x21579600;
+	Node0x215795b0 -> Node0x215795b0;
+	Node0x21579600 [shape=record,label="{plist.c:431:}"];
+}

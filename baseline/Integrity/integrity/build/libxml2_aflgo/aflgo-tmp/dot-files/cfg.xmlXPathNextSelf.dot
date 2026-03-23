@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlXPathNextSelf' function" {
+	label="CFG for 'xmlXPathNextSelf' function";
+
+	Node0x2ff80910 [shape=record,label="{xpath.c:6139:}"];
+	Node0x2ff80910 -> Node0x2ff80c50;
+	Node0x2ff80910 -> Node0x2ff80bb0;
+	Node0x2ff80bb0 [shape=record,label="{xpath.c:6139:1}"];
+	Node0x2ff80bb0 -> Node0x2ff80c00;
+	Node0x2ff80bb0 -> Node0x2ff80c50;
+	Node0x2ff80c00 [shape=record,label="{xpath.c:6141:}"];
+	Node0x2ff80c00 -> Node0x2ff80c50;
+	Node0x2ff80c50 [shape=record,label="{xpath.c:6143:}"];
+}

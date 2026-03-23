@@ -1,0 +1,25 @@
+digraph "CFG for 'xmlSchemaValDecimalGetSignificantDigitCount' function" {
+	label="CFG for 'xmlSchemaValDecimalGetSignificantDigitCount' function";
+
+	Node0xe72380 [shape=record,label="{xmlschemastypes.c:344:}"];
+	Node0xe72380 -> Node0xe723d0;
+	Node0xe72380 -> Node0xe72420;
+	Node0xe723d0 [shape=record,label="{xmlschemastypes.c:338:}"];
+	Node0xe723d0 -> Node0xe72420;
+	Node0xe72420 [shape=record,label="{xmlschemastypes.c:351:}"];
+	Node0xe72420 -> Node0xe72470;
+	Node0xe72420 -> Node0xe724c0;
+	Node0xe72470 [shape=record,label="{xmlschemastypes.c:352:}"];
+	Node0xe72470 -> Node0xe724c0;
+	Node0xe724c0 [shape=record,label="{xmlschemastypes.c:350:}"];
+	Node0xe724c0 -> Node0xe72510;
+	Node0xe724c0 -> Node0xe72560;
+	Node0xe72510 [shape=record,label="{xmlschemastypes.c:356:}"];
+	Node0xe72510 -> Node0xe72560;
+	Node0xe72560 [shape=record,label="{xmlschemastypes.c:356:1}"];
+	Node0xe72560 -> Node0xe725b0;
+	Node0xe72560 -> Node0xe72600;
+	Node0xe725b0 [shape=record,label="{xmlschemastypes.c:356:2}"];
+	Node0xe725b0 -> Node0xe72600;
+	Node0xe72600 [shape=record,label="{xmlschemastypes.c:356:3}"];
+}

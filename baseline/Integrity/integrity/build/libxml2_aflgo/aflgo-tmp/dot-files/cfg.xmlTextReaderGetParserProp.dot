@@ -1,0 +1,28 @@
+digraph "CFG for 'xmlTextReaderGetParserProp' function" {
+	label="CFG for 'xmlTextReaderGetParserProp' function";
+
+	Node0x22bbb380 [shape=record,label="{xmlreader.c:3734:}"];
+	Node0x22bbb380 -> Node0x22bbb600;
+	Node0x22bbb380 -> Node0x22bbb3d0;
+	Node0x22bbb3d0 [shape=record,label="{xmlreader.c:3734:1}"];
+	Node0x22bbb3d0 -> Node0x22bbb600;
+	Node0x22bbb3d0 -> Node0x22bbb420;
+	Node0x22bbb420 [shape=record,label="{xmlreader.c:3738:}"];
+	Node0x22bbb420 -> Node0x22bbb600;
+	Node0x22bbb420 -> Node0x22bbb470;
+	Node0x22bbb420 -> Node0x22bbb510;
+	Node0x22bbb420 -> Node0x22bbb560;
+	Node0x22bbb420 -> Node0x22bbb5b0;
+	Node0x22bbb470 [shape=record,label="{xmlreader.c:3740:}"];
+	Node0x22bbb470 -> Node0x22bbb4c0;
+	Node0x22bbb470 -> Node0x22bbb600;
+	Node0x22bbb4c0 [shape=record,label="{xmlreader.c:3740:2}"];
+	Node0x22bbb4c0 -> Node0x22bbb600;
+	Node0x22bbb510 [shape=record,label="{xmlreader.c:3744:}"];
+	Node0x22bbb510 -> Node0x22bbb600;
+	Node0x22bbb560 [shape=record,label="{xmlreader.c:3748:}"];
+	Node0x22bbb560 -> Node0x22bbb600;
+	Node0x22bbb5b0 [shape=record,label="{xmlreader.c:3750:}"];
+	Node0x22bbb5b0 -> Node0x22bbb600;
+	Node0x22bbb600 [shape=record,label="{xmlreader.c:3753:}"];
+}

@@ -1,0 +1,34 @@
+digraph "CFG for 'xmlC14NAttrsCompare' function" {
+	label="CFG for 'xmlC14NAttrsCompare' function";
+
+	Node0xfcf3850 [shape=record,label="{c14n.c:876:}"];
+	Node0xfcf3850 -> Node0xfcf3d30;
+	Node0xfcf3850 -> Node0xfcf3a60;
+	Node0xfcf3a60 [shape=record,label="{c14n.c:878:}"];
+	Node0xfcf3a60 -> Node0xfcf3d30;
+	Node0xfcf3a60 -> Node0xfcf3ab0;
+	Node0xfcf3ab0 [shape=record,label="{c14n.c:880:}"];
+	Node0xfcf3ab0 -> Node0xfcf3d30;
+	Node0xfcf3ab0 -> Node0xfcf3b00;
+	Node0xfcf3b00 [shape=record,label="{c14n.c:882:}"];
+	Node0xfcf3b00 -> Node0xfcf3ce0;
+	Node0xfcf3b00 -> Node0xfcf3b50;
+	Node0xfcf3b50 [shape=record,label="{c14n.c:891:}"];
+	Node0xfcf3b50 -> Node0xfcf3d30;
+	Node0xfcf3b50 -> Node0xfcf3ba0;
+	Node0xfcf3ba0 [shape=record,label="{c14n.c:893:}"];
+	Node0xfcf3ba0 -> Node0xfcf3d30;
+	Node0xfcf3ba0 -> Node0xfcf3bf0;
+	Node0xfcf3bf0 [shape=record,label="{c14n.c:895:}"];
+	Node0xfcf3bf0 -> Node0xfcf3d30;
+	Node0xfcf3bf0 -> Node0xfcf3c40;
+	Node0xfcf3c40 [shape=record,label="{c14n.c:897:}"];
+	Node0xfcf3c40 -> Node0xfcf3d30;
+	Node0xfcf3c40 -> Node0xfcf3c90;
+	Node0xfcf3c90 [shape=record,label="{c14n.c:900:}"];
+	Node0xfcf3c90 -> Node0xfcf3ce0;
+	Node0xfcf3c90 -> Node0xfcf3d30;
+	Node0xfcf3ce0 [shape=record,label="{c14n.c:905:}"];
+	Node0xfcf3ce0 -> Node0xfcf3d30;
+	Node0xfcf3d30 [shape=record,label="{c14n.c:905:1}"];
+}

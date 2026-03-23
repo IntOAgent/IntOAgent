@@ -1,0 +1,43 @@
+digraph "CFG for 'xmlParseInNodeContext' function" {
+	label="CFG for 'xmlParseInNodeContext' function";
+
+	Node0x27120930 [shape=record,label="{parser.c:12157:}"];
+	Node0x27120930 -> Node0x271216c0;
+	Node0x27120930 -> Node0x27120d20;
+	Node0x27120d20 [shape=record,label="{parser.c:12159:}"];
+	Node0x27120d20 -> Node0x271216c0;
+	Node0x27120d20 -> Node0x27120d70;
+	Node0x27120d70 [shape=record,label="{parser.c:12164:}"];
+	Node0x27120d70 -> Node0x271216c0;
+	Node0x27120d70 -> Node0x27121300;
+	Node0x27121300 [shape=record,label="{parser.c:12169:}"];
+	Node0x27121300 -> Node0x27121350;
+	Node0x27121300 -> Node0x271213a0;
+	Node0x27121350 [shape=record,label="{parser.c:12170:}"];
+	Node0x27121350 -> Node0x271213f0;
+	Node0x271213a0 [shape=record,label="{parser.c:12174:}"];
+	Node0x271213a0 -> Node0x271213f0;
+	Node0x271213f0 [shape=record,label="{parser.c:12176:}"];
+	Node0x271213f0 -> Node0x271216c0;
+	Node0x271213f0 -> Node0x27121440;
+	Node0x27121440 [shape=record,label="{parser.c:12179:}"];
+	Node0x27121440 -> Node0x27121670;
+	Node0x27121440 -> Node0x27121490;
+	Node0x27121490 [shape=record,label="{parser.c:13270:}"];
+	Node0x27121490 -> Node0x27121530;
+	Node0x27121490 -> Node0x271214e0;
+	Node0x271214e0 [shape=record,label="{parser.c:13271:}"];
+	Node0x271214e0 -> Node0x27121580;
+	Node0x27121530 [shape=record,label="{parser.c:13171:}"];
+	Node0x27121530 -> Node0x27121580;
+	Node0x27121580 [shape=record,label="{parser.c:12189:}"];
+	Node0x27121580 -> Node0x271215d0;
+	Node0x27121580 -> Node0x27121620;
+	Node0x271215d0 [shape=record,label="{parser.c:12192:}"];
+	Node0x271215d0 -> Node0x27121670;
+	Node0x27121620 [shape=record,label="{parser.c:12197:}"];
+	Node0x27121620 -> Node0x27121670;
+	Node0x27121670 [shape=record,label="{parser.c:12203:}"];
+	Node0x27121670 -> Node0x271216c0;
+	Node0x271216c0 [shape=record,label="{parser.c:12203:1}"];
+}

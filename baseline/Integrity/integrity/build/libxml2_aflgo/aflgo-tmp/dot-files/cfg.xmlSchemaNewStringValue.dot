@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlSchemaNewStringValue' function" {
+	label="CFG for 'xmlSchemaNewStringValue' function";
+
+	Node0xb6b7d0 [shape=record,label="{xmlschemastypes.c:1187:}"];
+	Node0xb6b7d0 -> Node0xb6b820;
+	Node0xb6b7d0 -> Node0xb6b8c0;
+	Node0xb6b820 [shape=record,label="{xmlschemastypes.c:1189:}"];
+	Node0xb6b820 -> Node0xb6b8c0;
+	Node0xb6b820 -> Node0xb6b870;
+	Node0xb6b870 [shape=record,label="{xmlschemastypes.c:1189:1}"];
+	Node0xb6b870 -> Node0xb6b8c0;
+	Node0xb6b8c0 [shape=record,label="{xmlschemastypes.c:1197:}"];
+}

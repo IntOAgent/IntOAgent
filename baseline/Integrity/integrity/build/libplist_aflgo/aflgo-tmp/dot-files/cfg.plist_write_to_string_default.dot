@@ -1,0 +1,47 @@
+digraph "CFG for 'plist_write_to_string_default' function" {
+	label="CFG for 'plist_write_to_string_default' function";
+
+	Node0xf5a8010 [shape=record,label="{out-default.c:426:}"];
+	Node0xf5a8010 -> Node0xf5c9a50;
+	Node0xf5a8010 -> Node0xf5c9f00;
+	Node0xf5c9a50 [shape=record,label="{out-default.c:434:}"];
+	Node0xf5c9a50 -> Node0xf5c9f00;
+	Node0xf5c9a50 -> Node0xf5c9aa0;
+	Node0xf5c9aa0 [shape=record,label="{out-default.c:443:}"];
+	Node0xf5c9aa0 -> Node0xf5c9f00;
+	Node0xf5c9aa0 -> Node0xf5c9af0;
+	Node0xf5c9af0 [shape=record,label="{out-default.c:411:}"];
+	Node0xf5c9af0 -> Node0xf5c9c30;
+	Node0xf5c9af0 -> Node0xf5c9b40;
+	Node0xf5c9b40 [shape=record,label="{out-default.c:412:}"];
+	Node0xf5c9b40 -> Node0xf5c9b90;
+	Node0xf5c9b40 -> Node0xf5c9be0;
+	Node0xf5c9b90 [shape=record,label="{%28}"];
+	Node0xf5c9b90 -> Node0xf5c9be0;
+	Node0xf5c9be0 [shape=record,label="{out-default.c:411:1}"];
+	Node0xf5c9be0 -> Node0xf5c9c30;
+	Node0xf5c9be0 -> Node0xf5c9b40;
+	Node0xf5c9c30 [shape=record,label="{out-default.c:414:}"];
+	Node0xf5c9c30 -> Node0xf5c9c80;
+	Node0xf5c9c30 -> Node0xf5c9cd0;
+	Node0xf5c9c80 [shape=record,label="{out-default.c:419:}"];
+	Node0xf5c9c80 -> Node0xf5c9cd0;
+	Node0xf5c9cd0 [shape=record,label="{out-default.c:422:}"];
+	Node0xf5c9cd0 -> Node0xf5c9d20;
+	Node0xf5c9cd0 -> Node0xf5c9d70;
+	Node0xf5c9d20 [shape=record,label="{out-default.c:453:}"];
+	Node0xf5c9d20 -> Node0xf5c9f00;
+	Node0xf5c9d70 [shape=record,label="{out-default.c:458:}"];
+	Node0xf5c9d70 -> Node0xf5c9dc0;
+	Node0xf5c9d70 -> Node0xf5c9e10;
+	Node0xf5c9dc0 [shape=record,label="{out-default.c:461:}"];
+	Node0xf5c9dc0 -> Node0xf5c9e10;
+	Node0xf5c9e10 [shape=record,label="{out-default.c:461:2}"];
+	Node0xf5c9e10 -> Node0xf5c9e60;
+	Node0xf5c9e10 -> Node0xf5c9eb0;
+	Node0xf5c9e60 [shape=record,label="{out-default.c:461:3}"];
+	Node0xf5c9e60 -> Node0xf5c9eb0;
+	Node0xf5c9eb0 [shape=record,label="{out-default.c:461:4}"];
+	Node0xf5c9eb0 -> Node0xf5c9f00;
+	Node0xf5c9f00 [shape=record,label="{out-default.c:467:}"];
+}

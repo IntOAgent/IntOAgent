@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlSchemaSubstGroupFreeEntry' function" {
+	label="CFG for 'xmlSchemaSubstGroupFreeEntry' function";
+
+	Node0x2df4b0b0 [shape=record,label="{xmlschemas.c:5450:}"];
+	Node0x2df4b0b0 -> Node0x2df4b420;
+	Node0x2df4b0b0 -> Node0x2df4b290;
+	Node0x2df4b290 [shape=record,label="{xmlschemas.c:5452:}"];
+	Node0x2df4b290 -> Node0x2df4b3d0;
+	Node0x2df4b290 -> Node0x2df4b2e0;
+	Node0x2df4b2e0 [shape=record,label="{xmlschemas.c:3453:}"];
+	Node0x2df4b2e0 -> Node0x2df4b380;
+	Node0x2df4b2e0 -> Node0x2df4b330;
+	Node0x2df4b330 [shape=record,label="{xmlschemas.c:3454:}"];
+	Node0x2df4b330 -> Node0x2df4b380;
+	Node0x2df4b380 [shape=record,label="{xmlschemas.c:3455:}"];
+	Node0x2df4b380 -> Node0x2df4b3d0;
+	Node0x2df4b3d0 [shape=record,label="{xmlschemas.c:5454:}"];
+	Node0x2df4b3d0 -> Node0x2df4b420;
+	Node0x2df4b420 [shape=record,label="{xmlschemas.c:5461:}"];
+}

@@ -1,0 +1,36 @@
+digraph "CFG for 'xmlTextReaderByteConsumed' function" {
+	label="CFG for 'xmlTextReaderByteConsumed' function";
+
+	Node0x22c0c5f0 [shape=record,label="{xmlreader.c:4937:}"];
+	Node0x22c0c5f0 -> Node0x22c0ca20;
+	Node0x22c0c5f0 -> Node0x22c0c6b0;
+	Node0x22c0c6b0 [shape=record,label="{xmlreader.c:4937:1}"];
+	Node0x22c0c6b0 -> Node0x22c0ca20;
+	Node0x22c0c6b0 -> Node0x22c0c700;
+	Node0x22c0c700 [shape=record,label="{xmlreader.c:4939:}"];
+	Node0x22c0c700 -> Node0x22c0ca20;
+	Node0x22c0c700 -> Node0x22c0c750;
+	Node0x22c0c750 [shape=record,label="{xmlreader.c:4942:}"];
+	Node0x22c0c750 -> Node0x22c0c7a0;
+	Node0x22c0c750 -> Node0x22c0c7f0;
+	Node0x22c0c7a0 [shape=record,label="{xmlreader.c:4942:2}"];
+	Node0x22c0c7a0 -> Node0x22c0c7f0;
+	Node0x22c0c7f0 [shape=record,label="{xmlreader.c:4942:3}"];
+	Node0x22c0c7f0 -> Node0x22c0c840;
+	Node0x22c0c7f0 -> Node0x22c0c890;
+	Node0x22c0c840 [shape=record,label="{xmlreader.c:4942:4}"];
+	Node0x22c0c840 -> Node0x22c0c890;
+	Node0x22c0c890 [shape=record,label="{xmlreader.c:4942:5}"];
+	Node0x22c0c890 -> Node0x22c0c8e0;
+	Node0x22c0c890 -> Node0x22c0c930;
+	Node0x22c0c8e0 [shape=record,label="{xmlreader.c:4942:6}"];
+	Node0x22c0c8e0 -> Node0x22c0c930;
+	Node0x22c0c930 [shape=record,label="{xmlreader.c:4942:7}"];
+	Node0x22c0c930 -> Node0x22c0c980;
+	Node0x22c0c930 -> Node0x22c0c9d0;
+	Node0x22c0c980 [shape=record,label="{xmlreader.c:4942:8}"];
+	Node0x22c0c980 -> Node0x22c0c9d0;
+	Node0x22c0c9d0 [shape=record,label="{xmlreader.c:4942:9}"];
+	Node0x22c0c9d0 -> Node0x22c0ca20;
+	Node0x22c0ca20 [shape=record,label="{xmlreader.c:4943:}"];
+}

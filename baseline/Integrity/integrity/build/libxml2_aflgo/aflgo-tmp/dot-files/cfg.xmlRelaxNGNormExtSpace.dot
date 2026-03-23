@@ -1,0 +1,48 @@
+digraph "CFG for 'xmlRelaxNGNormExtSpace' function" {
+	label="CFG for 'xmlRelaxNGNormExtSpace' function";
+
+	Node0x12f27e10 [shape=record,label="{relaxng.c:6658:}"];
+	Node0x12f27e10 -> Node0x12e0a970;
+	Node0x12f27e10 -> Node0x12e0a4c0;
+	Node0x12e0a4c0 [shape=record,label="{relaxng.c:6661:}"];
+	Node0x12e0a4c0 -> Node0x12e0a560;
+	Node0x12e0a4c0 -> Node0x12e0a510;
+	Node0x12e0a510 [shape=record,label="{relaxng.c:6662:}"];
+	Node0x12e0a510 -> Node0x12e0a4c0;
+	Node0x12e0a560 [shape=record,label="{relaxng.c:6663:}"];
+	Node0x12e0a560 -> Node0x12e0a5b0;
+	Node0x12e0a560 -> Node0x12e0a7e0;
+	Node0x12e0a5b0 [shape=record,label="{relaxng.c:6665:}"];
+	Node0x12e0a5b0 -> Node0x12e0a650;
+	Node0x12e0a5b0 -> Node0x12e0a970;
+	Node0x12e0a5b0 -> Node0x12e0a600;
+	Node0x12e0a600 [shape=record,label="{relaxng.c:6670:}"];
+	Node0x12e0a600 -> Node0x12e0a6f0;
+	Node0x12e0a650 [shape=record,label="{relaxng.c:6666:}"];
+	Node0x12e0a650 -> Node0x12e0a6a0;
+	Node0x12e0a6a0 [shape=record,label="{%9}"];
+	Node0x12e0a6a0 -> Node0x12e0a5b0;
+	Node0x12e0a6f0 [shape=record,label="{relaxng.c:6670:1}"];
+	Node0x12e0a6f0 -> Node0x12e0a6a0;
+	Node0x12e0a6f0 -> Node0x12e0a740;
+	Node0x12e0a6f0 -> Node0x12e0a920;
+	Node0x12e0a740 [shape=record,label="{relaxng.c:6671:}"];
+	Node0x12e0a740 -> Node0x12e0a6f0;
+	Node0x12e0a790 [shape=record,label="{relaxng.c:6679:}"];
+	Node0x12e0a790 -> Node0x12e0a7e0;
+	Node0x12e0a7e0 [shape=record,label="{relaxng.c:6679:2}"];
+	Node0x12e0a7e0 -> Node0x12e0a790;
+	Node0x12e0a7e0 -> Node0x12e0a920;
+	Node0x12e0a7e0 -> Node0x12e0a830;
+	Node0x12e0a830 [shape=record,label="{relaxng.c:6686:}"];
+	Node0x12e0a830 -> Node0x12e0a880;
+	Node0x12e0a880 [shape=record,label="{relaxng.c:6686:3}"];
+	Node0x12e0a880 -> Node0x12e0a790;
+	Node0x12e0a880 -> Node0x12e0a8d0;
+	Node0x12e0a880 -> Node0x12e0a920;
+	Node0x12e0a8d0 [shape=record,label="{relaxng.c:6687:}"];
+	Node0x12e0a8d0 -> Node0x12e0a880;
+	Node0x12e0a920 [shape=record,label="{relaxng.c:6695:}"];
+	Node0x12e0a920 -> Node0x12e0a970;
+	Node0x12e0a970 [shape=record,label="{relaxng.c:6695:4}"];
+}

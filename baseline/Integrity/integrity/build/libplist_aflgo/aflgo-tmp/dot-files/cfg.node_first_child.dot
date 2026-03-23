@@ -1,0 +1,13 @@
+digraph "CFG for 'node_first_child' function" {
+	label="CFG for 'node_first_child' function";
+
+	Node0x40d9580 [shape=record,label="{node.c:171:}"];
+	Node0x40d9580 -> Node0x40f3710;
+	Node0x40d9580 -> Node0x40f3510;
+	Node0x40f3510 [shape=record,label="{node.c:171:1}"];
+	Node0x40f3510 -> Node0x40f3710;
+	Node0x40f3510 -> Node0x40f36c0;
+	Node0x40f36c0 [shape=record,label="{node.c:172:}"];
+	Node0x40f36c0 -> Node0x40f3710;
+	Node0x40f3710 [shape=record,label="{node.c:173:}"];
+}

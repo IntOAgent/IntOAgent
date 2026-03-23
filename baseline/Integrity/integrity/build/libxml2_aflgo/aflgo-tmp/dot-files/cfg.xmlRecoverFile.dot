@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlRecoverFile' function" {
+	label="CFG for 'xmlRecoverFile' function";
+
+	Node0x271476a0 [shape=record,label="{parser.c:12540:}"];
+}

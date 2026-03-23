@@ -1,0 +1,10 @@
+digraph "CFG for 'plist_is_binary' function" {
+	label="CFG for 'plist_is_binary' function";
+
+	Node0x2153f4a0 [shape=record,label="{plist.c:213:}"];
+	Node0x2153f4a0 -> Node0x2153f540;
+	Node0x2153f4a0 -> Node0x2153f4f0;
+	Node0x2153f4f0 [shape=record,label="{plist.c:217:}"];
+	Node0x2153f4f0 -> Node0x2153f540;
+	Node0x2153f540 [shape=record,label="{plist.c:218:}"];
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//Dist-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>foo</key>
+	<array>
+		<array>
+			<integer>2</integer>
+		</array>
+		<dict>
+			<key>test</key>
+			<string>foo</string>
+		</dict>
+		<array>
+			<integer>1</integer>
+		</array>
+		<array>
+			<integer>1</integer>
+		</array>
+	</array>
+</dict>
+</plisÿÿÿt>

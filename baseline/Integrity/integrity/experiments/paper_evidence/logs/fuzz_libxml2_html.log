@@ -1,0 +1,329 @@
+[INTEGRITY] OVERFLOW at libxml2/xpath.c:191:31
+[INTEGRITY] UNDERFLOW at libxml2/xpath.c:191:31
+[INTEGRITY] OVERFLOW at libxml2/xpath.c:190:5
+INFO: found LLVMFuzzerCustomMutator (0x5c5d783956f0). Disabling -len_control by default.
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1402646576
+INFO: Loaded 1 modules   (48356 inline 8-bit counters): 48356 [0x5c5d78ad7bc8, 0x5c5d78ae38ac), 
+INFO: Loaded 1 PC tables (48356 PCs): 48356 [0x5c5d78ae38b0,0x5c5d78ba06f0), 
+INFO: 55847 Extra Counters
+INFO:      453 files found in corpus/libxml2/html/
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 38762 bytes
+[INTEGRITY] UNDERFLOW at libxml2/dict.c:990:23
+[INTEGRITY] OVERFLOW at libxml2/dict.c:990:52
+[INTEGRITY] OVERFLOW at libxml2/dict.c:990:23
+[INTEGRITY] OVERFLOW at libxml2/xmlstring.c:76:5
+[INTEGRITY] UNDERFLOW at libxml2/dict.c:990:52
+[INTEGRITY] OVERFLOW at libxml2/xmlstring.c:314:5
+INFO: seed corpus: files: 453 min: 2b max: 38762b total: 1923236b rss: 30Mb
+[INTEGRITY] SHIFT_OVF at libxml2/dict.c:993:40
+[INTEGRITY] UNDERFLOW at libxml2/dict.c:450:9
+[INTEGRITY] OVERFLOW at libxml2/dict.c:450:9
+[INTEGRITY] UNDERFLOW at libxml2/dict.c:453:5
+[INTEGRITY] OVERFLOW at libxml2/dict.c:453:5
+[INTEGRITY] SHIFT_OVF at libxml2/HTMLparser.c:3038:29
+[INTEGRITY] SHIFT_OVF at libxml2/HTMLparser.c:404:15
+[INTEGRITY] OVERFLOW at libxml2/xmlstring.c:365:13
+[INTEGRITY] OVERFLOW at libxml2/xmlstring.c:364:5
+[INTEGRITY] OVERFLOW at libxml2/encoding.c:0:0
+[INTEGRITY] OVERFLOW at libxml2/encoding.c:2981:30
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3047:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3038:25
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:0:0
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2995:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:371:0
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:380:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3306:31
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3311:21
+[INTEGRITY] OVERFLOW at libxml2/xmlIO.c:351:24
+[INTEGRITY] OVERFLOW at libxml2/xmlIO.c:342:17
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2361:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2350:15
+[INTEGRITY] OVERFLOW at libxml2/dict.c:449:31
+[INTEGRITY] OVERFLOW at libxml2/encoding.c:2970:17
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3327:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3340:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3238:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3345:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3334:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3045:28
+[INTEGRITY] OVERFLOW at libxml2/buf.c:459:0
+[INTEGRITY] OVERFLOW at libxml2/buf.c:467:9
+[INTEGRITY] OVERFLOW at libxml2/xmlIO.c:2388:0
+[INTEGRITY] OVERFLOW at libxml2/xmlIO.c:2435:13
+[INTEGRITY] OVERFLOW at libxml2/xmlIO.c:2441:23
+[INTEGRITY] OVERFLOW at libxml2/xmlIO.c:2471:12
+[INTEGRITY] OVERFLOW at libxml2/xmlstring.c:266:0
+[INTEGRITY] OVERFLOW at libxml2/xmlstring.c:274:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:406:46
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:421:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2327:20
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2376:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:375:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2999:17
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4761:5
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2622:17
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:364:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2762:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2596:24
+[INTEGRITY] OVERFLOW at libxml2/xmlIO.c:349:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2733:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:446:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:469:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:445:5
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:459:20
+[INTEGRITY] OVERFLOW at libxml2/xmlstring.c:275:5
+[INTEGRITY] OVERFLOW at /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:29:3
+[INTEGRITY] OVERFLOW at libxml2/xmlstring.c:157:0
+[INTEGRITY] OVERFLOW at libxml2/xmlstring.c:165:13
+[INTEGRITY] UNDERFLOW at libxml2/hash.c:69:9
+[INTEGRITY] OVERFLOW at libxml2/hash.c:69:9
+[INTEGRITY] UNDERFLOW at libxml2/hash.c:74:5
+[INTEGRITY] UNDERFLOW at libxml2/hash.c:84:5
+[INTEGRITY] OVERFLOW at libxml2/hash.c:74:5
+[INTEGRITY] OVERFLOW at libxml2/hash.c:84:5
+[INTEGRITY] UNDERFLOW at libxml2/hash.c:94:5
+[INTEGRITY] OVERFLOW at libxml2/hash.c:94:5
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1513:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4764:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4813:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2898:0
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2902:21
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:2606:0
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:2473:0
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2904:34
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:2481:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2914:22
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2913:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2922:25
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2930:17
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3341:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3264:29
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4766:26
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:366:19
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2596:17
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2946:45
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3343:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2904:13
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:2588:31
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2902:46
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2939:25
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:2494:24
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:0:0
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:2543:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLtree.c:720:41
+[INTEGRITY] OVERFLOW at libxml2/HTMLtree.c:728:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLtree.c:737:23
+[INTEGRITY] OVERFLOW at libxml2/HTMLtree.c:0:0
+[INTEGRITY] OVERFLOW at libxml2/HTMLtree.c:725:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3045:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2327:13
+[INTEGRITY] OVERFLOW at libxml2/HTMLtree.c:720:61
+[INTEGRITY] OVERFLOW at libxml2/HTMLtree.c:720:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2201:2
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2211:2
+[INTEGRITY] OVERFLOW at libxml2/xmlstring.c:166:5
+[INTEGRITY] OVERFLOW at libxml2/hash.c:68:5
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:438:0
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:476:9
+[INTEGRITY] OVERFLOW at /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:37:14
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:392:42
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4780:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:1297:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2170:5
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2171:15
+[INTEGRITY] OVERFLOW at libxml2/xmlstring.c:72:0
+[INTEGRITY] OVERFLOW at libxml2/xmlstring.c:58:5
+[INTEGRITY] OVERFLOW at /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:34:11
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3340:40
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3362:33
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3306:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3000:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3017:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2362:23
+[INTEGRITY] OVERFLOW at libxml2/dict.c:558:17
+[INTEGRITY] OVERFLOW at libxml2/dict.c:580:17
+[INTEGRITY] OVERFLOW at libxml2/dict.c:583:25
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3367:37
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3375:3
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3379:37
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3390:32
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2312:0
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2348:27
+[INTEGRITY] OVERFLOW at libxml2/dict.c:833:0
+[INTEGRITY] OVERFLOW at libxml2/dict.c:667:0
+[INTEGRITY] OVERFLOW at libxml2/dict.c:677:42
+[INTEGRITY] OVERFLOW at libxml2/dict.c:449:28
+[INTEGRITY] OVERFLOW at libxml2/dict.c:681:13
+[INTEGRITY] OVERFLOW at libxml2/dict.c:691:27
+[INTEGRITY] OVERFLOW at libxml2/dict.c:843:15
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2393:9
+[INTEGRITY] OVERFLOW at libxml2/dict.c:582:9
+[INTEGRITY] OVERFLOW at libxml2/xmlIO.c:2560:0
+[INTEGRITY] OVERFLOW at libxml2/xmlIO.c:2569:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4792:26
+[INTEGRITY] OVERFLOW at libxml2/dict.c:563:25
+[INTEGRITY] OVERFLOW at libxml2/dict.c:701:13
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3396:13
+[INTEGRITY] OVERFLOW at libxml2/xmlIO.c:345:17
+[INTEGRITY] OVERFLOW at libxml2/xmlIO.c:342:31
+[INTEGRITY] OVERFLOW at libxml2/dict.c:775:17
+[INTEGRITY] OVERFLOW at libxml2/xmlstring.c:299:5
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4180:19
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4221:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4220:9
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3860:0
+[INTEGRITY] OVERFLOW at libxml2/tree.c:4033:32
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2349:39
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4823:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4952:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:5015:21
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3335:30
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4750:0
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2390:5
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2940:33
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:1265:0
+[INTEGRITY] OVERFLOW at /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:36:16
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3365:43
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3370:42
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3377:43
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3377:10
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3392:3
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3344:27
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3346:19
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3401:19
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3365:10
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2349:54
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:2965:0
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3355:9
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:2498:50
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:1783:0
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:1795:21
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:1806:23
+[INTEGRITY] OVERFLOW at libxml2/xmlstring.c:50:0
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:1846:6
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:1854:32
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3083:21
+[INTEGRITY] OVERFLOW at libxml2/xmlIO.c:306:0
+[INTEGRITY] OVERFLOW at libxml2/xmlIO.c:365:17
+[INTEGRITY] OVERFLOW at libxml2/xmlIO.c:0:0
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1684:0
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1688:44
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1690:32
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1694:9
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1698:5
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3993:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4234:0
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4243:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3799:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3850:25
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3926:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:154:0
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:155:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:157:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:159:9
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:1713:0
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1900:0
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1907:9
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1855:9
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1868:32
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1920:9
+[INTEGRITY] OVERFLOW at libxml2/SAX2.c:923:26
+[INTEGRITY] OVERFLOW at libxml2/parser.c:1988:0
+[INTEGRITY] OVERFLOW at libxml2/parser.c:1992:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4254:9
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:4260:22
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:5040:32
+[INTEGRITY] OVERFLOW at libxml2/HTMLtree.c:1021:17
+[INTEGRITY] OVERFLOW at libxml2/HTMLtree.c:876:41
+[INTEGRITY] OVERFLOW at libxml2/HTMLtree.c:885:43
+[INTEGRITY] OVERFLOW at libxml2/HTMLtree.c:889:17
+[INTEGRITY] OVERFLOW at libxml2/HTMLtree.c:921:35
+[INTEGRITY] OVERFLOW at libxml2/HTMLtree.c:926:17
+[INTEGRITY] OVERFLOW at libxml2/valid.c:2326:0
+[INTEGRITY] OVERFLOW at libxml2/valid.c:2337:56
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3988:41
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3864:5
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3898:9
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3918:13
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3928:46
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3934:42
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3970:42
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3327:0
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3338:44
+[INTEGRITY] OVERFLOW at libxml2/tree.c:3399:30
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1697:32
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3851:19
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3598:0
+[INTEGRITY] OVERFLOW at libxml2/HTMLparser.c:3912:13
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1572:0
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1578:12
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1435:0
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1439:9
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1464:21
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1470:13
+[INTEGRITY] OVERFLOW at libxml2/tree.c:1474:13
+#454	INITED cov: 2087 ft: 10228 corp: 390/1566Kb exec/s: 0 rss: 34Mb
+#465	NEW    cov: 2091 ft: 10252 corp: 391/1567Kb lim: 38762 exec/s: 0 rss: 34Mb L: 518/38762 MS: 2 InsertByte-Custom-
+#466	NEW    cov: 2091 ft: 10253 corp: 392/1568Kb lim: 38762 exec/s: 0 rss: 34Mb L: 1015/38762 MS: 2 CMP-Custom- DE: "\377\377\377\000"-
+#469	NEW    cov: 2091 ft: 10254 corp: 393/1568Kb lim: 38762 exec/s: 0 rss: 34Mb L: 383/38762 MS: 6 ChangeBinInt-Custom-ShuffleBytes-Custom-CopyPart-Custom-
+#478	NEW    cov: 2091 ft: 10256 corp: 394/1571Kb lim: 38762 exec/s: 0 rss: 34Mb L: 2805/38762 MS: 8 EraseBytes-Custom-ChangeBinInt-Custom-InsertByte-Custom-PersAutoDict-Custom- DE: "\377\377\377\000"-
+#479	NEW    cov: 2091 ft: 10257 corp: 395/1571Kb lim: 38762 exec/s: 0 rss: 34Mb L: 512/38762 MS: 2 ShuffleBytes-Custom-
+#483	NEW    cov: 2091 ft: 10258 corp: 396/1572Kb lim: 38762 exec/s: 0 rss: 34Mb L: 317/38762 MS: 8 EraseBytes-Custom-PersAutoDict-Custom-CrossOver-Custom-CrossOver-Custom- DE: "\377\377\377\000"-
+#492	NEW    cov: 2092 ft: 10262 corp: 397/1572Kb lim: 38762 exec/s: 0 rss: 34Mb L: 142/38762 MS: 8 PersAutoDict-Custom-InsertByte-Custom-ShuffleBytes-Custom-CopyPart-Custom- DE: "\377\377\377\000"-
+#495	NEW    cov: 2092 ft: 10270 corp: 398/1572Kb lim: 38762 exec/s: 0 rss: 34Mb L: 170/38762 MS: 6 CrossOver-Custom-ChangeASCIIInt-Custom-InsertRepeatedBytes-Custom-
+#498	NEW    cov: 2092 ft: 10271 corp: 399/1572Kb lim: 38762 exec/s: 0 rss: 34Mb L: 211/38762 MS: 6 ChangeByte-Custom-ShuffleBytes-Custom-InsertByte-Custom-
+#500	NEW    cov: 2092 ft: 10272 corp: 400/1573Kb lim: 38762 exec/s: 0 rss: 34Mb L: 387/38762 MS: 4 CrossOver-Custom-InsertByte-Custom-
+#501	NEW    cov: 2092 ft: 10274 corp: 401/1573Kb lim: 38762 exec/s: 0 rss: 34Mb L: 392/38762 MS: 2 InsertByte-Custom-
+#511	NEW    cov: 2093 ft: 10275 corp: 402/1574Kb lim: 38762 exec/s: 0 rss: 34Mb L: 616/38762 MS: 10 InsertByte-Custom-ChangeByte-Custom-CrossOver-Custom-ChangeBinInt-Custom-CrossOver-Custom-
+#529	NEW    cov: 2093 ft: 10279 corp: 403/1593Kb lim: 38762 exec/s: 0 rss: 34Mb L: 19868/38762 MS: 6 ShuffleBytes-Custom-ShuffleBytes-Custom-CopyPart-Custom-
+#540	NEW    cov: 2093 ft: 10281 corp: 404/1603Kb lim: 38762 exec/s: 0 rss: 34Mb L: 10660/38762 MS: 2 ChangeByte-Custom-
+#543	NEW    cov: 2093 ft: 10282 corp: 405/1604Kb lim: 38762 exec/s: 0 rss: 34Mb L: 382/38762 MS: 6 EraseBytes-Custom-CopyPart-Custom-CrossOver-Custom-
+#550	NEW    cov: 2094 ft: 10285 corp: 406/1604Kb lim: 38762 exec/s: 0 rss: 34Mb L: 613/38762 MS: 4 ChangeBinInt-Custom-ShuffleBytes-Custom-
+#552	NEW    cov: 2095 ft: 10293 corp: 407/1627Kb lim: 38762 exec/s: 0 rss: 34Mb L: 22730/38762 MS: 4 ChangeBit-Custom-CrossOver-Custom-
+#556	NEW    cov: 2096 ft: 10294 corp: 408/1627Kb lim: 38762 exec/s: 0 rss: 34Mb L: 135/38762 MS: 8 CMP-Custom-ChangeByte-Custom-CopyPart-Custom-InsertRepeatedBytes-Custom- DE: "\377\377\377\377\377\377\377\030"-
+#571	NEW    cov: 2097 ft: 10319 corp: 409/1627Kb lim: 38762 exec/s: 0 rss: 34Mb L: 183/38762 MS: 10 CrossOver-Custom-CopyPart-Custom-PersAutoDict-Custom-ShuffleBytes-Custom-InsertRepeatedBytes-Custom- DE: "\377\377\377\000"-
+#573	NEW    cov: 2097 ft: 10322 corp: 410/1627Kb lim: 38762 exec/s: 0 rss: 34Mb L: 286/38762 MS: 4 CMP-Custom-InsertRepeatedBytes-Custom- DE: "\013\000\000\000\000\000\000\000"-
+#592	NEW    cov: 2097 ft: 10323 corp: 411/1627Kb lim: 38762 exec/s: 0 rss: 34Mb L: 1/38762 MS: 8 InsertByte-Custom-EraseBytes-Custom-ChangeBit-Custom-EraseBytes-Custom-
+#595	REDUCE cov: 2097 ft: 10323 corp: 411/1627Kb lim: 38762 exec/s: 0 rss: 34Mb L: 390/38762 MS: 6 InsertByte-Custom-PersAutoDict-Custom-EraseBytes-Custom- DE: "\377\377\377\000"-
+#602	NEW    cov: 2097 ft: 10335 corp: 412/1628Kb lim: 38762 exec/s: 0 rss: 34Mb L: 362/38762 MS: 4 ChangeByte-Custom-InsertByte-Custom-
+	NEW_FUNC[1/1]: 0x5c5d784de570 in xmlDoErrValid /home/xxx/PHDlife/fuxian/libxml2/valid.c:75
+#610	NEW    cov: 2109 ft: 10348 corp: 413/1628Kb lim: 38762 exec/s: 0 rss: 36Mb L: 604/38762 MS: 6 ShuffleBytes-Custom-ChangeBinInt-Custom-CopyPart-Custom-
+#622	NEW    cov: 2114 ft: 10370 corp: 414/1656Kb lim: 38762 exec/s: 0 rss: 36Mb L: 28181/38762 MS: 4 ShuffleBytes-Custom-CopyPart-Custom-
+#624	NEW    cov: 2114 ft: 10378 corp: 415/1656Kb lim: 38762 exec/s: 0 rss: 36Mb L: 496/38762 MS: 4 PersAutoDict-Custom-CrossOver-Custom- DE: "\377\377\377\000"-
+#645	NEW    cov: 2114 ft: 10381 corp: 416/1656Kb lim: 38762 exec/s: 0 rss: 36Mb L: 104/38762 MS: 2 InsertRepeatedBytes-Custom-
+#654	NEW    cov: 2114 ft: 10385 corp: 417/1656Kb lim: 38762 exec/s: 0 rss: 36Mb L: 100/38762 MS: 8 ChangeBit-Custom-EraseBytes-Custom-InsertByte-Custom-InsertRepeatedBytes-Custom-
+#655	NEW    cov: 2114 ft: 10387 corp: 418/1657Kb lim: 38762 exec/s: 0 rss: 36Mb L: 911/38762 MS: 2 EraseBytes-Custom-
+#657	NEW    cov: 2114 ft: 10389 corp: 419/1658Kb lim: 38762 exec/s: 0 rss: 36Mb L: 591/38762 MS: 4 ChangeBinInt-Custom-CrossOver-Custom-
+#668	NEW    cov: 2114 ft: 10410 corp: 420/1662Kb lim: 38762 exec/s: 0 rss: 36Mb L: 3994/38762 MS: 2 CrossOver-Custom-
+#669	NEW    cov: 2114 ft: 10411 corp: 421/1665Kb lim: 38762 exec/s: 0 rss: 36Mb L: 3685/38762 MS: 2 ChangeByte-Custom-
+#675	NEW    cov: 2115 ft: 10412 corp: 422/1665Kb lim: 38762 exec/s: 0 rss: 36Mb L: 74/38762 MS: 2 EraseBytes-Custom-
+#677	NEW    cov: 2115 ft: 10417 corp: 423/1666Kb lim: 38762 exec/s: 0 rss: 36Mb L: 288/38762 MS: 4 ChangeBinInt-Custom-ShuffleBytes-Custom-
+#691	NEW    cov: 2115 ft: 10420 corp: 424/1666Kb lim: 38762 exec/s: 0 rss: 36Mb L: 208/38762 MS: 8 ChangeByte-Custom-CrossOver-Custom-ChangeBit-Custom-InsertByte-Custom-
+pull/push parser error mismatch: 81 != 0
+==56917== ERROR: libFuzzer: deadly signal
+    #0 0x5c5d78394da4 in __sanitizer_print_stack_trace (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_libxml2_html+0x18fda4) (BuildId: 36df240c89bb254cbf3b47d398b5b40cdab244d7)
+    #1 0x5c5d7836b7b8 in fuzzer::PrintStackTrace() (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_libxml2_html+0x1667b8) (BuildId: 36df240c89bb254cbf3b47d398b5b40cdab244d7)
+    #2 0x5c5d78351233 in fuzzer::Fuzzer::CrashCallback() (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_libxml2_html+0x14c233) (BuildId: 36df240c89bb254cbf3b47d398b5b40cdab244d7)
+    #3 0x75acf6e4251f  (/lib/x86_64-linux-gnu/libc.so.6+0x4251f) (BuildId: 095c7ba148aeca81668091f718047078d57efddb)
+    #4 0x75acf6e969fb in __pthread_kill_implementation nptl/./nptl/pthread_kill.c:43:17
+    #5 0x75acf6e969fb in __pthread_kill_internal nptl/./nptl/pthread_kill.c:78:10
+    #6 0x75acf6e969fb in pthread_kill nptl/./nptl/pthread_kill.c:89:10
+    #7 0x75acf6e42475 in gsignal signal/../sysdeps/posix/raise.c:26:13
+    #8 0x75acf6e287f2 in abort stdlib/./stdlib/abort.c:79:7
+    #9 0x5c5d783956b8 in LLVMFuzzerTestOneInput /home/xxx/PHDlife/fuxian/libxml2/fuzz/html.c:161:13
+    #10 0x5c5d783527c3 in fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_libxml2_html+0x14d7c3) (BuildId: 36df240c89bb254cbf3b47d398b5b40cdab244d7)
+    #11 0x5c5d78351f19 in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*) (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_libxml2_html+0x14cf19) (BuildId: 36df240c89bb254cbf3b47d398b5b40cdab244d7)
+    #12 0x5c5d78353709 in fuzzer::Fuzzer::MutateAndTestOne() (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_libxml2_html+0x14e709) (BuildId: 36df240c89bb254cbf3b47d398b5b40cdab244d7)
+    #13 0x5c5d78354285 in fuzzer::Fuzzer::Loop(std::vector<fuzzer::SizedFile, std::allocator<fuzzer::SizedFile> >&) (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_libxml2_html+0x14f285) (BuildId: 36df240c89bb254cbf3b47d398b5b40cdab244d7)
+    #14 0x5c5d783423c2 in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_libxml2_html+0x13d3c2) (BuildId: 36df240c89bb254cbf3b47d398b5b40cdab244d7)
+    #15 0x5c5d7836c0b2 in main (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_libxml2_html+0x1670b2) (BuildId: 36df240c89bb254cbf3b47d398b5b40cdab244d7)
+    #16 0x75acf6e29d8f in __libc_start_call_main csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+    #17 0x75acf6e29e3f in __libc_start_main csu/../csu/libc-start.c:392:3
+    #18 0x5c5d78336e04 in _start (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_libxml2_html+0x131e04) (BuildId: 36df240c89bb254cbf3b47d398b5b40cdab244d7)
+
+NOTE: libFuzzer has rudimentary signal handlers.
+      Combine libFuzzer with AddressSanitizer or similar for better crash reports.
+SUMMARY: libFuzzer: deadly signal
+MS: 2 InsertRepeatedBytes-Custom-; base unit: d8f5f2729dc7b47b3961fd38d37d95524496fd00
+artifact_prefix='./'; Test unit written to ./crash-95e6c5c054017dec188f32435cae7a8f42dca241

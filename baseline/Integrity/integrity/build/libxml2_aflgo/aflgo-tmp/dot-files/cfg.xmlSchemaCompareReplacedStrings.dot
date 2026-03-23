@@ -1,0 +1,46 @@
+digraph "CFG for 'xmlSchemaCompareReplacedStrings' function" {
+	label="CFG for 'xmlSchemaCompareReplacedStrings' function";
+
+	Node0xe38840 [shape=record,label="{xmlschemastypes.c:4692:}"];
+	Node0xe38840 -> Node0xe38ed0;
+	Node0xe38840 -> Node0xe38ac0;
+	Node0xe38ac0 [shape=record,label="{xmlschemastypes.c:4692:1}"];
+	Node0xe38ac0 -> Node0xe38bb0;
+	Node0xe38ac0 -> Node0xe38e80;
+	Node0xe38ac0 -> Node0xe38b10;
+	Node0xe38b10 [shape=record,label="{xmlschemastypes.c:4694:}"];
+	Node0xe38b10 -> Node0xe38b60;
+	Node0xe38b10 -> Node0xe38e30;
+	Node0xe38b60 [shape=record,label="{xmlschemastypes.c:4695:}"];
+	Node0xe38b60 -> Node0xe38f20;
+	Node0xe38bb0 [shape=record,label="{xmlschemastypes.c:4701:}"];
+	Node0xe38bb0 -> Node0xe38c50;
+	Node0xe38bb0 -> Node0xe38c00;
+	Node0xe38c00 [shape=record,label="{xmlschemastypes.c:4702:}"];
+	Node0xe38c00 -> Node0xe38f20;
+	Node0xe38c50 [shape=record,label="{xmlschemastypes.c:4701:2}"];
+	Node0xe38c50 -> Node0xe38ca0;
+	Node0xe38c50 -> Node0xe38cf0;
+	Node0xe38ca0 [shape=record,label="{%16}"];
+	Node0xe38ca0 -> Node0xe38cf0;
+	Node0xe38cf0 [shape=record,label="{%19}"];
+	Node0xe38cf0 -> Node0xe38d40;
+	Node0xe38cf0 -> Node0xe38d90;
+	Node0xe38d40 [shape=record,label="{%20}"];
+	Node0xe38d40 -> Node0xe38d90;
+	Node0xe38d90 [shape=record,label="{xmlschemastypes.c:4708:}"];
+	Node0xe38d90 -> Node0xe38f20;
+	Node0xe38d90 -> Node0xe38de0;
+	Node0xe38de0 [shape=record,label="{xmlschemastypes.c:4710:}"];
+	Node0xe38de0 -> Node0xe38e30;
+	Node0xe38de0 -> Node0xe38f20;
+	Node0xe38e30 [shape=record,label="{xmlschemastypes.c:4713:}"];
+	Node0xe38e30 -> Node0xe38ed0;
+	Node0xe38e30 -> Node0xe38ac0;
+	Node0xe38e80 [shape=record,label="{xmlschemastypes.c:4716:}"];
+	Node0xe38e80 -> Node0xe38ed0;
+	Node0xe38e80 -> Node0xe38f20;
+	Node0xe38ed0 [shape=record,label="{xmlschemastypes.c:4718:}"];
+	Node0xe38ed0 -> Node0xe38f20;
+	Node0xe38f20 [shape=record,label="{xmlschemastypes.c:4721:}"];
+}

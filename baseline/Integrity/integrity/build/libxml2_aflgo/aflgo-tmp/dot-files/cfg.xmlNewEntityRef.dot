@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlNewEntityRef' function" {
+	label="CFG for 'xmlNewEntityRef' function";
+
+	Node0x371553b0 [shape=record,label="{tree.c:2143:}"];
+	Node0x371553b0 -> Node0x37155400;
+	Node0x371553b0 -> Node0x37155450;
+	Node0x37155400 [shape=record,label="{tree.c:2145:}"];
+	Node0x37155400 -> Node0x37155540;
+	Node0x37155450 [shape=record,label="{tree.c:2148:}"];
+	Node0x37155450 -> Node0x37155540;
+	Node0x37155450 -> Node0x371554a0;
+	Node0x371554a0 [shape=record,label="{tree.c:2153:}"];
+	Node0x371554a0 -> Node0x37155540;
+	Node0x371554a0 -> Node0x371554f0;
+	Node0x371554f0 [shape=record,label="{tree.c:2154:}"];
+	Node0x371554f0 -> Node0x37155540;
+	Node0x37155540 [shape=record,label="{tree.c:2157:}"];
+}

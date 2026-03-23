@@ -1,0 +1,10 @@
+dict.c:449,0
+dict.c:450,0
+dict.c:453,0
+dict.c:447,4.5205684232461012
+dict.c:449,0
+dict.c:450,0
+dict.c:453,0
+dict.c:449,0
+dict.c:450,0
+dict.c:453,0

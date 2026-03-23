@@ -1,0 +1,10 @@
+digraph "CFG for 'byte_array_new' function" {
+	label="CFG for 'byte_array_new' function";
+
+	Node0x15d62b80 [shape=record,label="{bytearray.c:28:}"];
+	Node0x15d62b80 -> Node0x15d6edb0;
+	Node0x15d62b80 -> Node0x15d6ee00;
+	Node0x15d6edb0 [shape=record,label="{bytearray.c:29:}"];
+	Node0x15d6edb0 -> Node0x15d6ee00;
+	Node0x15d6ee00 [shape=record,label="{bytearray.c:29:1}"];
+}

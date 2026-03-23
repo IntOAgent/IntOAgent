@@ -1,0 +1,48 @@
+digraph "CFG for 'xmlSaveTree' function" {
+	label="CFG for 'xmlSaveTree' function";
+
+	Node0x2633e8d0 [shape=record,label="{xmlsave.c:1982:}"];
+	Node0x2633e8d0 -> Node0x2633efc0;
+	Node0x2633e8d0 -> Node0x2633eb10;
+	Node0x2633eb10 [shape=record,label="{xmlsave.c:1984:}"];
+	Node0x2633eb10 -> Node0x2633ebb0;
+	Node0x2633eb10 -> Node0x2633eb60;
+	Node0x2633eb60 [shape=record,label="{xmlsave.c:1985:}"];
+	Node0x2633eb60 -> Node0x2633efc0;
+	Node0x2633ebb0 [shape=record,label="{xmlsave.c:1988:}"];
+	Node0x2633ebb0 -> Node0x2633eca0;
+	Node0x2633ebb0 -> Node0x2633ec00;
+	Node0x2633ec00 [shape=record,label="{xmlsave.c:1988:1}"];
+	Node0x2633ec00 -> Node0x2633eca0;
+	Node0x2633ec00 -> Node0x2633ec50;
+	Node0x2633ec50 [shape=record,label="{xmlsave.c:1989:}"];
+	Node0x2633ec50 -> Node0x2633ef70;
+	Node0x2633ec50 -> Node0x2633ecf0;
+	Node0x2633eca0 [shape=record,label="{xmlsave.c:1991:}"];
+	Node0x2633eca0 -> Node0x2633ef70;
+	Node0x2633eca0 -> Node0x2633ecf0;
+	Node0x2633ecf0 [shape=record,label="{xmlsave.c:925:}"];
+	Node0x2633ecf0 -> Node0x2633ed40;
+	Node0x2633ecf0 -> Node0x2633ee30;
+	Node0x2633ed40 [shape=record,label="{xmlsave.c:930:}"];
+	Node0x2633ed40 -> Node0x2633ede0;
+	Node0x2633ed40 -> Node0x2633ed90;
+	Node0x2633ed90 [shape=record,label="{xmlsave.c:931:}"];
+	Node0x2633ed90 -> Node0x2633ede0;
+	Node0x2633ede0 [shape=record,label="{xmlsave.c:933:}"];
+	Node0x2633ede0 -> Node0x2633efc0;
+	Node0x2633ede0 -> Node0x2633ee30;
+	Node0x2633ee30 [shape=record,label="{xmlsave.c:922:}"];
+	Node0x2633ee30 -> Node0x2633efc0;
+	Node0x2633ee30 -> Node0x2633ee80;
+	Node0x2633ee80 [shape=record,label="{xmlsave.c:688:}"];
+	Node0x2633ee80 -> Node0x2633ef20;
+	Node0x2633ee80 -> Node0x2633eed0;
+	Node0x2633eed0 [shape=record,label="{xmlsave.c:693:}"];
+	Node0x2633eed0 -> Node0x2633ef20;
+	Node0x2633ef20 [shape=record,label="{xmlsave.c:700:}"];
+	Node0x2633ef20 -> Node0x2633efc0;
+	Node0x2633ef70 [shape=record,label="{xmlsave.c:1996:}"];
+	Node0x2633ef70 -> Node0x2633efc0;
+	Node0x2633efc0 [shape=record,label="{xmlsave.c:1998:}"];
+}

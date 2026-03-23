@@ -1,0 +1,8 @@
+xmlschemastypes.c:4603,8
+xmlschemastypes.c:4606,6
+xmlschemastypes.c:4604,9
+xmlschemastypes.c:4608,10
+xmlschemastypes.c:4629,8
+xmlschemastypes.c:4632,4
+xmlschemastypes.c:4649,2
+xmlschemastypes.c:4648,0

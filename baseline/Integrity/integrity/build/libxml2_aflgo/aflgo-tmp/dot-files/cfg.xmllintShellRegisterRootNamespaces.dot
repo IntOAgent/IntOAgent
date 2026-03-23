@@ -1,0 +1,27 @@
+digraph "CFG for 'xmllintShellRegisterRootNamespaces' function" {
+	label="CFG for 'xmllintShellRegisterRootNamespaces' function";
+
+	Node0x91cfb60 [shape=record,label="{shell.c:417:}"];
+	Node0x91cfb60 -> Node0x91cfde0;
+	Node0x91cfb60 -> Node0x91cfbb0;
+	Node0x91cfbb0 [shape=record,label="{shell.c:417:1}"];
+	Node0x91cfbb0 -> Node0x91cfc00;
+	Node0x91cfbb0 -> Node0x91cfde0;
+	Node0x91cfc00 [shape=record,label="{shell.c:418:}"];
+	Node0x91cfc00 -> Node0x91cfde0;
+	Node0x91cfc00 -> Node0x91cfc50;
+	Node0x91cfc50 [shape=record,label="{shell.c:418:2}"];
+	Node0x91cfc50 -> Node0x91cfde0;
+	Node0x91cfc50 -> Node0x91cfca0;
+	Node0x91cfca0 [shape=record,label="{shell.c:422:}"];
+	Node0x91cfca0 -> Node0x91cfcf0;
+	Node0x91cfca0 -> Node0x91cfd40;
+	Node0x91cfcf0 [shape=record,label="{shell.c:423:}"];
+	Node0x91cfcf0 -> Node0x91cfd90;
+	Node0x91cfd40 [shape=record,label="{shell.c:425:}"];
+	Node0x91cfd40 -> Node0x91cfd90;
+	Node0x91cfd90 [shape=record,label="{shell.c:426:}"];
+	Node0x91cfd90 -> Node0x91cfde0;
+	Node0x91cfd90 -> Node0x91cfca0;
+	Node0x91cfde0 [shape=record,label="{shell.c:429:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlModuleSymbol' function" {
+	label="CFG for 'xmlModuleSymbol' function";
+
+	Node0x1727c0d0 [shape=record,label="{xmlmodule.c:101:}"];
+	Node0x1727c0d0 -> Node0x1727eeb0;
+	Node0x1727c0d0 -> Node0x1727ee60;
+	Node0x1727ee60 [shape=record,label="{xmlmodule.c:104:}"];
+	Node0x1727ee60 -> Node0x1727eeb0;
+	Node0x1727eeb0 [shape=record,label="{xmlmodule.c:110:}"];
+}

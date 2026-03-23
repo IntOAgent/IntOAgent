@@ -1,0 +1,23 @@
+digraph "CFG for 'xmlBufAvail' function" {
+	label="CFG for 'xmlBufAvail' function";
+
+	Node0x3f78ebc0 [shape=record,label="{buf.c:427:}"];
+	Node0x3f78ebc0 -> Node0x3f78edf0;
+	Node0x3f78ebc0 -> Node0x3f78ec10;
+	Node0x3f78ec10 [shape=record,label="{buf.c:427:1}"];
+	Node0x3f78ec10 -> Node0x3f78ec60;
+	Node0x3f78ec10 -> Node0x3f78edf0;
+	Node0x3f78ec60 [shape=record,label="{buf.c:430:}"];
+	Node0x3f78ec60 -> Node0x3f78ecb0;
+	Node0x3f78ec60 -> Node0x3f78ed00;
+	Node0x3f78ecb0 [shape=record,label="{buf.c:430:2}"];
+	Node0x3f78ecb0 -> Node0x3f78ed00;
+	Node0x3f78ed00 [shape=record,label="{buf.c:430:3}"];
+	Node0x3f78ed00 -> Node0x3f78ed50;
+	Node0x3f78ed00 -> Node0x3f78eda0;
+	Node0x3f78ed50 [shape=record,label="{buf.c:430:4}"];
+	Node0x3f78ed50 -> Node0x3f78eda0;
+	Node0x3f78eda0 [shape=record,label="{buf.c:430:5}"];
+	Node0x3f78eda0 -> Node0x3f78edf0;
+	Node0x3f78edf0 [shape=record,label="{buf.c:431:}"];
+}

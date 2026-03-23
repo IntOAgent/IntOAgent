@@ -1,0 +1,6 @@
+xmlschemastypes.c:916,5.1632290670673404
+xmlschemastypes.c:918,4.1284403669724776
+xmlschemastypes.c:920,3.0681818181818188
+xmlschemastypes.c:933,0
+xmlschemastypes.c:943,0
+xmlschemastypes.c:966,0

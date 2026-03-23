@@ -1,0 +1,15 @@
+digraph "CFG for 'isStandaloneDebug' function" {
+	label="CFG for 'isStandaloneDebug' function";
+
+	Node0x3d162900 [shape=record,label="{xmllint.c:643:}"];
+	Node0x3d162900 -> Node0x3d162ad0;
+	Node0x3d162900 -> Node0x3d162b20;
+	Node0x3d162ad0 [shape=record,label="{xmllint.c:643:1}"];
+	Node0x3d162ad0 -> Node0x3d162b20;
+	Node0x3d162b20 [shape=record,label="{xmllint.c:643:2}"];
+	Node0x3d162b20 -> Node0x3d162b70;
+	Node0x3d162b20 -> Node0x3d162bc0;
+	Node0x3d162b70 [shape=record,label="{xmllint.c:646:}"];
+	Node0x3d162b70 -> Node0x3d162bc0;
+	Node0x3d162bc0 [shape=record,label="{xmllint.c:648:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlClearParserCtxt' function" {
+	label="CFG for 'xmlClearParserCtxt' function";
+
+	Node0x8e87000 [shape=record,label="{parserInternals.c:3508:}"];
+}

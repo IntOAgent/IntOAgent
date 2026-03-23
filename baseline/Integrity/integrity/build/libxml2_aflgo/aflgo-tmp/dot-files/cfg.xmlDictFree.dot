@@ -1,0 +1,39 @@
+digraph "CFG for 'xmlDictFree' function" {
+	label="CFG for 'xmlDictFree' function";
+
+	Node0x15ecea20 [shape=record,label="{dict.c:322:}"];
+	Node0x15ecea20 -> Node0x15ecefe0;
+	Node0x15ecea20 -> Node0x15ecec20;
+	Node0x15ecec20 [shape=record,label="{dict.c:326:}"];
+	Node0x15ecec20 -> Node0x15ecec70;
+	Node0x15ecec20 -> Node0x15ececc0;
+	Node0x15ecec70 [shape=record,label="{dict.c:327:}"];
+	Node0x15ecec70 -> Node0x15ececc0;
+	Node0x15ececc0 [shape=record,label="{dict.c:327:1}"];
+	Node0x15ececc0 -> Node0x15eced10;
+	Node0x15ececc0 -> Node0x15eced60;
+	Node0x15eced10 [shape=record,label="{dict.c:327:2}"];
+	Node0x15eced10 -> Node0x15eced60;
+	Node0x15eced60 [shape=record,label="{dict.c:327:3}"];
+	Node0x15eced60 -> Node0x15ecefe0;
+	Node0x15eced60 -> Node0x15ecedb0;
+	Node0x15ecedb0 [shape=record,label="{dict.c:335:}"];
+	Node0x15ecedb0 -> Node0x15ecee50;
+	Node0x15ecedb0 -> Node0x15ecee00;
+	Node0x15ecee00 [shape=record,label="{dict.c:336:}"];
+	Node0x15ecee00 -> Node0x15ecee50;
+	Node0x15ecee50 [shape=record,label="{dict.c:339:}"];
+	Node0x15ecee50 -> Node0x15eceef0;
+	Node0x15ecee50 -> Node0x15eceea0;
+	Node0x15eceea0 [shape=record,label="{dict.c:340:}"];
+	Node0x15eceea0 -> Node0x15eceef0;
+	Node0x15eceef0 [shape=record,label="{dict.c:342:}"];
+	Node0x15eceef0 -> Node0x15ecef90;
+	Node0x15eceef0 -> Node0x15ecef40;
+	Node0x15ecef40 [shape=record,label="{dict.c:344:}"];
+	Node0x15ecef40 -> Node0x15ecef90;
+	Node0x15ecef40 -> Node0x15ecef40;
+	Node0x15ecef90 [shape=record,label="{dict.c:348:}"];
+	Node0x15ecef90 -> Node0x15ecefe0;
+	Node0x15ecefe0 [shape=record,label="{dict.c:349:}"];
+}

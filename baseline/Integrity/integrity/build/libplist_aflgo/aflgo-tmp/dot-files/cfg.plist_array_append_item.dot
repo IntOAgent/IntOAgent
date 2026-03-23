@@ -1,0 +1,16 @@
+digraph "CFG for 'plist_array_append_item' function" {
+	label="CFG for 'plist_array_append_item' function";
+
+	Node0x21598000 [shape=record,label="{plist.c:723:}"];
+	Node0x21598000 -> Node0x21598080;
+	Node0x21598000 -> Node0x21598170;
+	Node0x21598080 [shape=record,label="{plist.c:356:}"];
+	Node0x21598080 -> Node0x21598170;
+	Node0x21598080 -> Node0x215980d0;
+	Node0x215980d0 [shape=record,label="{plist.c:1265:}"];
+	Node0x215980d0 -> Node0x21598120;
+	Node0x215980d0 -> Node0x21598170;
+	Node0x21598120 [shape=record,label="{plist.c:728:}"];
+	Node0x21598120 -> Node0x21598170;
+	Node0x21598170 [shape=record,label="{plist.c:731:}"];
+}

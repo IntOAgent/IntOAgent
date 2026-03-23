@@ -1,0 +1,22 @@
+digraph "CFG for 'xmlSchemaNewWildcardNsConstraint' function" {
+	label="CFG for 'xmlSchemaNewWildcardNsConstraint' function";
+
+	Node0x2e2ed700 [shape=record,label="{xmlschemas.c:5375:}"];
+	Node0x2e2ed700 -> Node0x2e2ed750;
+	Node0x2e2ed700 -> Node0x2e2ed8e0;
+	Node0x2e2ed750 [shape=record,label="{xmlschemas.c:1855:}"];
+	Node0x2e2ed750 -> Node0x2e2ed890;
+	Node0x2e2ed750 -> Node0x2e2ed7a0;
+	Node0x2e2ed7a0 [shape=record,label="{xmlschemas.c:1856:}"];
+	Node0x2e2ed7a0 -> Node0x2e2ed7f0;
+	Node0x2e2ed7a0 -> Node0x2e2ed840;
+	Node0x2e2ed7f0 [shape=record,label="{xmlschemas.c:1856:1}"];
+	Node0x2e2ed7f0 -> Node0x2e2ed840;
+	Node0x2e2ed840 [shape=record,label="{xmlschemas.c:1856:2}"];
+	Node0x2e2ed840 -> Node0x2e2ed890;
+	Node0x2e2ed890 [shape=record,label="{xmlschemas.c:1863:}"];
+	Node0x2e2ed890 -> Node0x2e2ed930;
+	Node0x2e2ed8e0 [shape=record,label="{xmlschemas.c:5374:}"];
+	Node0x2e2ed8e0 -> Node0x2e2ed930;
+	Node0x2e2ed930 [shape=record,label="{xmlschemas.c:5383:}"];
+}

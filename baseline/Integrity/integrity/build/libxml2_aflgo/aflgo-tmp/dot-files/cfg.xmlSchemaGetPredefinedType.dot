@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSchemaGetPredefinedType' function" {
+	label="CFG for 'xmlSchemaGetPredefinedType' function";
+
+	Node0xb504e0 [shape=record,label="{xmlschemastypes.c:1325:}"];
+	Node0xb504e0 -> Node0xb50580;
+	Node0xb504e0 -> Node0xb50530;
+	Node0xb50530 [shape=record,label="{xmlschemastypes.c:1329:}"];
+	Node0xb50530 -> Node0xb50580;
+	Node0xb50580 [shape=record,label="{xmlschemastypes.c:1330:}"];
+}

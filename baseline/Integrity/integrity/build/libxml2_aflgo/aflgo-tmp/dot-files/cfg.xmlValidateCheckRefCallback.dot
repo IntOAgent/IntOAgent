@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlValidateCheckRefCallback' function" {
+	label="CFG for 'xmlValidateCheckRefCallback' function";
+
+	Node0x37d24440 [shape=record,label="{valid.c:5965:}"];
+	Node0x37d24440 -> Node0x37d278f0;
+	Node0x37d24440 -> Node0x37d278a0;
+	Node0x37d278a0 [shape=record,label="{valid.c:5963:}"];
+	Node0x37d278a0 -> Node0x37d278f0;
+	Node0x37d278f0 [shape=record,label="{valid.c:5974:}"];
+}

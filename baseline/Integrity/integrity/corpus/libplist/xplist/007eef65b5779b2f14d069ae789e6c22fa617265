@@ -1,0 +1,9 @@
+<plist version="1.0">
+<dict>
+    <key>some test entitites</key>
+    <dict>
+
+        <string>&#x2F20;&#x2F21;&#x2F22;</string
+        <string>&#169;</string>dict>
+     ï   <key>one byte entity</key>
+        <stri        <string>abcd&#x1D565;t>

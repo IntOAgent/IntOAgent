@@ -1,0 +1,25 @@
+digraph "CFG for 'xmlCreateURLParserCtxt' function" {
+	label="CFG for 'xmlCreateURLParserCtxt' function";
+
+	Node0x27132d00 [shape=record,label="{parser.c:12429:}"];
+	Node0x27132d00 -> Node0x27132f80;
+	Node0x27132d00 -> Node0x27132d50;
+	Node0x27132d50 [shape=record,label="{parser.c:13270:}"];
+	Node0x27132d50 -> Node0x27132df0;
+	Node0x27132d50 -> Node0x27132da0;
+	Node0x27132da0 [shape=record,label="{parser.c:13271:}"];
+	Node0x27132da0 -> Node0x27132e40;
+	Node0x27132df0 [shape=record,label="{parser.c:13171:}"];
+	Node0x27132df0 -> Node0x27132e40;
+	Node0x27132e40 [shape=record,label="{parser.c:12435:}"];
+	Node0x27132e40 -> Node0x27132f30;
+	Node0x27132e40 -> Node0x27132e90;
+	Node0x27132e90 [shape=record,label="{parser.c:12440:}"];
+	Node0x27132e90 -> Node0x27132ee0;
+	Node0x27132e90 -> Node0x27132f80;
+	Node0x27132ee0 [shape=record,label="{parser.c:12441:}"];
+	Node0x27132ee0 -> Node0x27132f30;
+	Node0x27132f30 [shape=record,label="{parser.c:12447:}"];
+	Node0x27132f30 -> Node0x27132f80;
+	Node0x27132f80 [shape=record,label="{parser.c:12447:1}"];
+}

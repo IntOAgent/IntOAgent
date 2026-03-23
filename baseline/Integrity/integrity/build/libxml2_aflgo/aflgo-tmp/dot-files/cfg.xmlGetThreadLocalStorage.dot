@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlGetThreadLocalStorage' function" {
+	label="CFG for 'xmlGetThreadLocalStorage' function";
+
+	Node0x12edf70 [shape=record,label="{globals.c:508:}"];
+	Node0x12edf70 -> Node0x12c03f0;
+	Node0x12edf70 -> Node0x12c0530;
+	Node0x12c03f0 [shape=record,label="{globals.c:482:}"];
+	Node0x12c03f0 -> Node0x12c0440;
+	Node0x12c03f0 -> Node0x12c04e0;
+	Node0x12c0440 [shape=record,label="{globals.c:484:}"];
+	Node0x12c0440 -> Node0x12c0490;
+	Node0x12c0440 -> Node0x12c0530;
+	Node0x12c0490 [shape=record,label="{globals.c:492:}"];
+	Node0x12c0490 -> Node0x12c04e0;
+	Node0x12c04e0 [shape=record,label="{globals.c:496:}"];
+	Node0x12c04e0 -> Node0x12c0530;
+	Node0x12c0530 [shape=record,label="{globals.c:526:}"];
+}

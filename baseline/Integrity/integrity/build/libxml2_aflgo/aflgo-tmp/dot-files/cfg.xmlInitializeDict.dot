@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlInitializeDict' function" {
+	label="CFG for 'xmlInitializeDict' function";
+
+	Node0x15e8cca0 [shape=record,label="{dict.c:90:}"];
+}

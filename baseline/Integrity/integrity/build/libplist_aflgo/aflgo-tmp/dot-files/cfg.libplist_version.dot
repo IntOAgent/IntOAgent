@@ -1,0 +1,5 @@
+digraph "CFG for 'libplist_version' function" {
+	label="CFG for 'libplist_version' function";
+
+	Node0x216acab0 [shape=record,label="{plist.c:2014:}"];
+}

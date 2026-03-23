@@ -1,0 +1,24 @@
+digraph "CFG for 'xmlFileOpen' function" {
+	label="CFG for 'xmlFileOpen' function";
+
+	Node0x9750e30 [shape=record,label="{xmlIO.c:899:}"];
+	Node0x9750e30 -> Node0x9751060;
+	Node0x9750e30 -> Node0x9750e80;
+	Node0x9750e80 [shape=record,label="{xmlIO.c:686:}"];
+	Node0x9750e80 -> Node0x9750f70;
+	Node0x9750e80 -> Node0x9750ed0;
+	Node0x9750ed0 [shape=record,label="{xmlIO.c:688:}"];
+	Node0x9750ed0 -> Node0x9750f70;
+	Node0x9750ed0 -> Node0x9750f20;
+	Node0x9750f20 [shape=record,label="{xmlIO.c:690:}"];
+	Node0x9750f20 -> Node0x9750f70;
+	Node0x9750f20 -> Node0x9750fc0;
+	Node0x9750f70 [shape=record,label="{xmlIO.c:702:}"];
+	Node0x9750f70 -> Node0x9750fc0;
+	Node0x9750fc0 [shape=record,label="{xmlIO.c:902:}"];
+	Node0x9750fc0 -> Node0x9751060;
+	Node0x9750fc0 -> Node0x9751010;
+	Node0x9751010 [shape=record,label="{xmlIO.c:905:}"];
+	Node0x9751010 -> Node0x9751060;
+	Node0x9751060 [shape=record,label="{xmlIO.c:956:}"];
+}

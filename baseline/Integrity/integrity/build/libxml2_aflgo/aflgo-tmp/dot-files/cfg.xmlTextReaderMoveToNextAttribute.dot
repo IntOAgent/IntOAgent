@@ -1,0 +1,46 @@
+digraph "CFG for 'xmlTextReaderMoveToNextAttribute' function" {
+	label="CFG for 'xmlTextReaderMoveToNextAttribute' function";
+
+	Node0x22b3c8b0 [shape=record,label="{xmlreader.c:2745:}"];
+	Node0x22b3c8b0 -> Node0x22b3e840;
+	Node0x22b3c8b0 -> Node0x22b3e350;
+	Node0x22b3e350 [shape=record,label="{xmlreader.c:2747:}"];
+	Node0x22b3e350 -> Node0x22b3e840;
+	Node0x22b3e350 -> Node0x22b3e430;
+	Node0x22b3e430 [shape=record,label="{xmlreader.c:2749:}"];
+	Node0x22b3e430 -> Node0x22b3e480;
+	Node0x22b3e430 -> Node0x22b3e840;
+	Node0x22b3e480 [shape=record,label="{xmlreader.c:2751:}"];
+	Node0x22b3e480 -> Node0x22b3e4d0;
+	Node0x22b3e480 -> Node0x22b3e610;
+	Node0x22b3e4d0 [shape=record,label="{xmlreader.c:2725:}"];
+	Node0x22b3e4d0 -> Node0x22b3e570;
+	Node0x22b3e4d0 -> Node0x22b3e520;
+	Node0x22b3e520 [shape=record,label="{xmlreader.c:2726:}"];
+	Node0x22b3e520 -> Node0x22b3e840;
+	Node0x22b3e570 [shape=record,label="{xmlreader.c:2729:}"];
+	Node0x22b3e570 -> Node0x22b3e840;
+	Node0x22b3e570 -> Node0x22b3e5c0;
+	Node0x22b3e5c0 [shape=record,label="{xmlreader.c:2730:}"];
+	Node0x22b3e5c0 -> Node0x22b3e840;
+	Node0x22b3e610 [shape=record,label="{xmlreader.c:2754:}"];
+	Node0x22b3e610 -> Node0x22b3e840;
+	Node0x22b3e610 -> Node0x22b3e660;
+	Node0x22b3e610 -> Node0x22b3e7a0;
+	Node0x22b3e660 [shape=record,label="{xmlreader.c:2756:}"];
+	Node0x22b3e660 -> Node0x22b3e700;
+	Node0x22b3e660 -> Node0x22b3e6b0;
+	Node0x22b3e6b0 [shape=record,label="{xmlreader.c:2757:}"];
+	Node0x22b3e6b0 -> Node0x22b3e840;
+	Node0x22b3e700 [shape=record,label="{xmlreader.c:2760:}"];
+	Node0x22b3e700 -> Node0x22b3e840;
+	Node0x22b3e700 -> Node0x22b3e750;
+	Node0x22b3e750 [shape=record,label="{xmlreader.c:2761:}"];
+	Node0x22b3e750 -> Node0x22b3e840;
+	Node0x22b3e7a0 [shape=record,label="{xmlreader.c:2766:}"];
+	Node0x22b3e7a0 -> Node0x22b3e840;
+	Node0x22b3e7a0 -> Node0x22b3e7f0;
+	Node0x22b3e7f0 [shape=record,label="{xmlreader.c:2767:}"];
+	Node0x22b3e7f0 -> Node0x22b3e840;
+	Node0x22b3e840 [shape=record,label="{xmlreader.c:2771:}"];
+}

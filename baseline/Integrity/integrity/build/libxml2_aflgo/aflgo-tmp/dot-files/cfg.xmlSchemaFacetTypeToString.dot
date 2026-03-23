@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlSchemaFacetTypeToString' function" {
+	label="CFG for 'xmlSchemaFacetTypeToString' function";
+
+	Node0x2dca0490 [shape=record,label="{xmlschemas.c:21071:}"];
+	Node0x2dca0490 -> Node0x2dc857d0;
+	Node0x2dca0490 -> Node0x2dc85820;
+	Node0x2dc857d0 [shape=record,label="{xmlschemas.c:21071:1}"];
+	Node0x2dc857d0 -> Node0x2dc85820;
+	Node0x2dc85820 [shape=record,label="{xmlschemas.c:21071:2}"];
+	Node0x2dc85820 -> Node0x2dc85870;
+	Node0x2dc85820 -> Node0x2dc858c0;
+	Node0x2dc85870 [shape=record,label="{xmlschemas.c:21071:3}"];
+	Node0x2dc85870 -> Node0x2dc858c0;
+	Node0x2dc858c0 [shape=record,label="{xmlschemas.c:21071:4}"];
+	Node0x2dc858c0 -> Node0x2dc85910;
+	Node0x2dc858c0 -> Node0x2dc85960;
+	Node0x2dc85910 [shape=record,label="{xmlschemas.c:21071:5}"];
+	Node0x2dc85910 -> Node0x2dc85960;
+	Node0x2dc85960 [shape=record,label="{xmlschemas.c:21100:}"];
+}

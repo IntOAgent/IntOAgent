@@ -1,0 +1,41 @@
+digraph "CFG for 'xmlXPathRoundFunction' function" {
+	label="CFG for 'xmlXPathRoundFunction' function";
+
+	Node0x3012c180 [shape=record,label="{xpath.c:8074:}"];
+	Node0x3012c180 -> Node0x3012c660;
+	Node0x3012c180 -> Node0x3012c250;
+	Node0x3012c250 [shape=record,label="{xpath.c:8074:1}"];
+	Node0x3012c250 -> Node0x3012c2f0;
+	Node0x3012c250 -> Node0x3012c2a0;
+	Node0x3012c2a0 [shape=record,label="{xpath.c:778:}"];
+	Node0x3012c2a0 -> Node0x3012c660;
+	Node0x3012c2f0 [shape=record,label="{xpath.c:8074:2}"];
+	Node0x3012c2f0 -> Node0x3012c340;
+	Node0x3012c2f0 -> Node0x3012c390;
+	Node0x3012c340 [shape=record,label="{xpath.c:778:3}"];
+	Node0x3012c340 -> Node0x3012c660;
+	Node0x3012c390 [shape=record,label="{xpath.c:8075:}"];
+	Node0x3012c390 -> Node0x3012c480;
+	Node0x3012c390 -> Node0x3012c3e0;
+	Node0x3012c3e0 [shape=record,label="{xpath.c:8075:4}"];
+	Node0x3012c3e0 -> Node0x3012c480;
+	Node0x3012c3e0 -> Node0x3012c430;
+	Node0x3012c430 [shape=record,label="{xpath.c:8075:5}"];
+	Node0x3012c430 -> Node0x3012c480;
+	Node0x3012c480 [shape=record,label="{xpath.c:8076:}"];
+	Node0x3012c480 -> Node0x3012c520;
+	Node0x3012c480 -> Node0x3012c4d0;
+	Node0x3012c4d0 [shape=record,label="{xpath.c:8076:6}"];
+	Node0x3012c4d0 -> Node0x3012c570;
+	Node0x3012c4d0 -> Node0x3012c520;
+	Node0x3012c520 [shape=record,label="{xpath.c:778:7}"];
+	Node0x3012c520 -> Node0x3012c660;
+	Node0x3012c570 [shape=record,label="{xpath.c:8078:}"];
+	Node0x3012c570 -> Node0x3012c5c0;
+	Node0x3012c570 -> Node0x3012c610;
+	Node0x3012c5c0 [shape=record,label="{xpath.c:8082:}"];
+	Node0x3012c5c0 -> Node0x3012c660;
+	Node0x3012c610 [shape=record,label="{xpath.c:8085:}"];
+	Node0x3012c610 -> Node0x3012c660;
+	Node0x3012c660 [shape=record,label="{xpath.c:8090:}"];
+}

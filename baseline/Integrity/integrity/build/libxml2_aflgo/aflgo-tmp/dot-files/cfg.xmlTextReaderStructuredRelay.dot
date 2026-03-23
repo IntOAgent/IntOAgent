@@ -1,0 +1,22 @@
+digraph "CFG for 'xmlTextReaderStructuredRelay' function" {
+	label="CFG for 'xmlTextReaderStructuredRelay' function";
+
+	Node0x22a71b10 [shape=record,label="{xmlreader.c:561:}"];
+	Node0x22a71b10 -> Node0x22a71bb0;
+	Node0x22a71b10 -> Node0x22a71b60;
+	Node0x22a71b60 [shape=record,label="{xmlreader.c:562:}"];
+	Node0x22a71b60 -> Node0x22a71d40;
+	Node0x22a71bb0 [shape=record,label="{xmlreader.c:563:}"];
+	Node0x22a71bb0 -> Node0x22a71d40;
+	Node0x22a71bb0 -> Node0x22a71c00;
+	Node0x22a71c00 [shape=record,label="{xmlreader.c:566:}"];
+	Node0x22a71c00 -> Node0x22a71ca0;
+	Node0x22a71c00 -> Node0x22a71c50;
+	Node0x22a71c50 [shape=record,label="{xmlreader.c:568:}"];
+	Node0x22a71c50 -> Node0x22a71cf0;
+	Node0x22a71ca0 [shape=record,label="{xmlreader.c:573:}"];
+	Node0x22a71ca0 -> Node0x22a71cf0;
+	Node0x22a71cf0 [shape=record,label="{xmlreader.c:579:}"];
+	Node0x22a71cf0 -> Node0x22a71d40;
+	Node0x22a71d40 [shape=record,label="{xmlreader.c:582:}"];
+}

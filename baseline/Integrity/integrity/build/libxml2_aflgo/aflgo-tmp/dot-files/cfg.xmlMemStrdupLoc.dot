@@ -1,0 +1,38 @@
+digraph "CFG for 'xmlMemStrdupLoc' function" {
+	label="CFG for 'xmlMemStrdupLoc' function";
+
+	Node0x3022d8e0 [shape=record,label="{xmlmemory.c:237:}"];
+	Node0x3022d8e0 -> Node0x3022db70;
+	Node0x3022d8e0 -> Node0x3022dbc0;
+	Node0x3022db70 [shape=record,label="{%5}"];
+	Node0x3022db70 -> Node0x3022dbc0;
+	Node0x3022dbc0 [shape=record,label="{xmlmemory.c:240:}"];
+	Node0x3022dbc0 -> Node0x3022df30;
+	Node0x3022dbc0 -> Node0x3022dc10;
+	Node0x3022dc10 [shape=record,label="{xmlmemory.c:245:}"];
+	Node0x3022dc10 -> Node0x3022dc60;
+	Node0x3022dc10 -> Node0x3022dcb0;
+	Node0x3022dc60 [shape=record,label="{xmlmemory.c:245:1}"];
+	Node0x3022dc60 -> Node0x3022dcb0;
+	Node0x3022dcb0 [shape=record,label="{xmlmemory.c:245:2}"];
+	Node0x3022dcb0 -> Node0x3022df30;
+	Node0x3022dcb0 -> Node0x3022dd00;
+	Node0x3022dd00 [shape=record,label="{xmlmemory.c:248:}"];
+	Node0x3022dd00 -> Node0x3022dd50;
+	Node0x3022dd00 -> Node0x3022dda0;
+	Node0x3022dd50 [shape=record,label="{xmlmemory.c:252:}"];
+	Node0x3022dd50 -> Node0x3022dda0;
+	Node0x3022dda0 [shape=record,label="{xmlmemory.c:252:3}"];
+	Node0x3022dda0 -> Node0x3022ddf0;
+	Node0x3022dda0 -> Node0x3022de40;
+	Node0x3022ddf0 [shape=record,label="{xmlmemory.c:252:4}"];
+	Node0x3022ddf0 -> Node0x3022de40;
+	Node0x3022de40 [shape=record,label="{xmlmemory.c:252:5}"];
+	Node0x3022de40 -> Node0x3022de90;
+	Node0x3022de40 -> Node0x3022dee0;
+	Node0x3022de90 [shape=record,label="{xmlmemory.c:253:}"];
+	Node0x3022de90 -> Node0x3022dee0;
+	Node0x3022dee0 [shape=record,label="{xmlmemory.c:253:6}"];
+	Node0x3022dee0 -> Node0x3022df30;
+	Node0x3022df30 [shape=record,label="{xmlmemory.c:225:}"];
+}

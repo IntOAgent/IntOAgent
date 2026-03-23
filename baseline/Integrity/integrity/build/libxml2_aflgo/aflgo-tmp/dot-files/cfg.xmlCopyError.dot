@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCopyError' function" {
+	label="CFG for 'xmlCopyError' function";
+
+	Node0x36570430 [shape=record,label="{error.c:993:}"];
+	Node0x36570430 -> Node0x36550700;
+	Node0x36570430 -> Node0x365506b0;
+	Node0x365506b0 [shape=record,label="{error.c:996:}"];
+	Node0x365506b0 -> Node0x36550700;
+	Node0x36550700 [shape=record,label="{error.c:1005:}"];
+}

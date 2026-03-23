@@ -1,0 +1,21 @@
+digraph "CFG for 'xmlListClear' function" {
+	label="CFG for 'xmlListClear' function";
+
+	Node0xdfb98a0 [shape=record,label="{list.c:388:}"];
+	Node0xdfb98a0 -> Node0xdfbc500;
+	Node0xdfb98a0 -> Node0xdfbc330;
+	Node0xdfbc330 [shape=record,label="{list.c:390:}"];
+	Node0xdfbc330 -> Node0xdfbc500;
+	Node0xdfbc330 -> Node0xdfbc3c0;
+	Node0xdfbc3c0 [shape=record,label="{list.c:391:}"];
+	Node0xdfbc3c0 -> Node0xdfbc410;
+	Node0xdfbc410 [shape=record,label="{list.c:392:}"];
+	Node0xdfbc410 -> Node0xdfbc4b0;
+	Node0xdfbc410 -> Node0xdfbc460;
+	Node0xdfbc460 [shape=record,label="{list.c:63:}"];
+	Node0xdfbc460 -> Node0xdfbc4b0;
+	Node0xdfbc4b0 [shape=record,label="{list.c:64:}"];
+	Node0xdfbc4b0 -> Node0xdfbc500;
+	Node0xdfbc4b0 -> Node0xdfbc410;
+	Node0xdfbc500 [shape=record,label="{list.c:397:}"];
+}

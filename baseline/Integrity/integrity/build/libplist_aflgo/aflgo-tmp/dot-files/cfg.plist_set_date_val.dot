@@ -1,0 +1,19 @@
+digraph "CFG for 'plist_set_date_val' function" {
+	label="CFG for 'plist_set_date_val' function";
+
+	Node0x215cd620 [shape=record,label="{plist.c:354:}"];
+	Node0x215cd620 -> Node0x215cd6c0;
+	Node0x215cd620 -> Node0x215cd670;
+	Node0x215cd670 [shape=record,label="{plist.c:356:}"];
+	Node0x215cd670 -> Node0x215cd6c0;
+	Node0x215cd6c0 [shape=record,label="{plist.c:1478:}"];
+	Node0x215cd6c0 -> Node0x215cd710;
+	Node0x215cd6c0 -> Node0x215cd760;
+	Node0x215cd710 [shape=record,label="{plist.c:1478:1}"];
+	Node0x215cd760 [shape=record,label="{plist.c:1480:}"];
+	Node0x215cd760 -> Node0x215cd800;
+	Node0x215cd760 -> Node0x215cd7b0;
+	Node0x215cd7b0 [shape=record,label="{plist.c:1575:}"];
+	Node0x215cd7b0 -> Node0x215cd800;
+	Node0x215cd800 [shape=record,label="{plist.c:1575:2}"];
+}

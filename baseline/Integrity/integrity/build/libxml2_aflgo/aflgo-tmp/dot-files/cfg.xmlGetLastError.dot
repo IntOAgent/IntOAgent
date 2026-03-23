@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlGetLastError' function" {
+	label="CFG for 'xmlGetLastError' function";
+
+	Node0x365847b0 [shape=record,label="{error.c:937:}"];
+}

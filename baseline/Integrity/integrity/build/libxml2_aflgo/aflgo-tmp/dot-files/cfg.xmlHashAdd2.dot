@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlHashAdd2' function" {
+	label="CFG for 'xmlHashAdd2' function";
+
+	Node0x94c9a10 [shape=record,label="{hash.c:630:}"];
+}

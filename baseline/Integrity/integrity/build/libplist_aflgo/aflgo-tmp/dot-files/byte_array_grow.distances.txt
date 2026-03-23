@@ -1,0 +1,7 @@
+bytearray.c:57,3.902942694889004
+bytearray.c:60,0
+bytearray.c:61,0
+bytearray.c:62,0
+bytearray.c:60,0
+bytearray.c:61,0
+bytearray.c:62,0

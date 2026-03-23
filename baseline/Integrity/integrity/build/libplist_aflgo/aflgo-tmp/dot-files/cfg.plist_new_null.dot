@@ -1,0 +1,5 @@
+digraph "CFG for 'plist_new_null' function" {
+	label="CFG for 'plist_new_null' function";
+
+	Node0x21576f10 [shape=record,label="{plist.c:361:}"];
+}

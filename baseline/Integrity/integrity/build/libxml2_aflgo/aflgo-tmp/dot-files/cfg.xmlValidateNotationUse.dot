@@ -1,0 +1,32 @@
+digraph "CFG for 'xmlValidateNotationUse' function" {
+	label="CFG for 'xmlValidateNotationUse' function";
+
+	Node0x37d3f410 [shape=record,label="{valid.c:3001:}"];
+	Node0x37d3f410 -> Node0x37d3f790;
+	Node0x37d3f410 -> Node0x37d3f4c0;
+	Node0x37d3f4c0 [shape=record,label="{valid.c:3001:1}"];
+	Node0x37d3f4c0 -> Node0x37d3f790;
+	Node0x37d3f4c0 -> Node0x37d3f510;
+	Node0x37d3f510 [shape=record,label="{valid.c:2978:}"];
+	Node0x37d3f510 -> Node0x37d3f5b0;
+	Node0x37d3f510 -> Node0x37d3f560;
+	Node0x37d3f560 [shape=record,label="{valid.c:2979:}"];
+	Node0x37d3f560 -> Node0x37d3f5b0;
+	Node0x37d3f5b0 [shape=record,label="{valid.c:3005:}"];
+	Node0x37d3f5b0 -> Node0x37d3f600;
+	Node0x37d3f5b0 -> Node0x37d3f6f0;
+	Node0x37d3f600 [shape=record,label="{valid.c:3005:2}"];
+	Node0x37d3f600 -> Node0x37d3f6f0;
+	Node0x37d3f600 -> Node0x37d3f650;
+	Node0x37d3f650 [shape=record,label="{valid.c:2978:3}"];
+	Node0x37d3f650 -> Node0x37d3f6f0;
+	Node0x37d3f650 -> Node0x37d3f6a0;
+	Node0x37d3f6a0 [shape=record,label="{valid.c:2979:4}"];
+	Node0x37d3f6a0 -> Node0x37d3f6f0;
+	Node0x37d3f6f0 [shape=record,label="{valid.c:3008:}"];
+	Node0x37d3f6f0 -> Node0x37d3f740;
+	Node0x37d3f6f0 -> Node0x37d3f790;
+	Node0x37d3f740 [shape=record,label="{valid.c:3009:}"];
+	Node0x37d3f740 -> Node0x37d3f790;
+	Node0x37d3f790 [shape=record,label="{valid.c:3015:}"];
+}

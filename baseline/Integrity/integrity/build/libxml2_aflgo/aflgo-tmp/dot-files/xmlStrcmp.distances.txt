@@ -1,0 +1,5 @@
+xmlstring.c:133,5.0909090909090908
+xmlstring.c:134,4
+xmlstring.c:135,2.8571428571428572
+xmlstring.c:140,0
+xmlstring.c:141,2.4000000000000004

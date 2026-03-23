@@ -1,0 +1,38 @@
+digraph "CFG for 'xmlDocDumpFormatMemoryEnc' function" {
+	label="CFG for 'xmlDocDumpFormatMemoryEnc' function";
+
+	Node0x263e3900 [shape=record,label="{xmlsave.c:2432:}"];
+	Node0x263e3900 -> Node0x263e3f60;
+	Node0x263e3900 -> Node0x263e3f10;
+	Node0x263e3f10 [shape=record,label="{xmlsave.c:2433:}"];
+	Node0x263e3f10 -> Node0x263e3f60;
+	Node0x263e3f60 [shape=record,label="{xmlsave.c:2435:}"];
+	Node0x263e3f60 -> Node0x263e42d0;
+	Node0x263e3f60 -> Node0x263e3fb0;
+	Node0x263e3fb0 [shape=record,label="{xmlsave.c:2437:}"];
+	Node0x263e3fb0 -> Node0x263e42d0;
+	Node0x263e3fb0 -> Node0x263e4000;
+	Node0x263e4000 [shape=record,label="{xmlsave.c:2442:}"];
+	Node0x263e4000 -> Node0x263e4050;
+	Node0x263e4000 -> Node0x263e40a0;
+	Node0x263e4050 [shape=record,label="{xmlsave.c:63:}"];
+	Node0x263e4050 -> Node0x263e42d0;
+	Node0x263e40a0 [shape=record,label="{xmlsave.c:2384:}"];
+	Node0x263e40a0 -> Node0x263e4140;
+	Node0x263e40a0 -> Node0x263e40f0;
+	Node0x263e40f0 [shape=record,label="{xmlsave.c:2394:}"];
+	Node0x263e40f0 -> Node0x263e4140;
+	Node0x263e4140 [shape=record,label="{xmlsave.c:2399:}"];
+	Node0x263e4140 -> Node0x263e4190;
+	Node0x263e4140 -> Node0x263e4280;
+	Node0x263e4190 [shape=record,label="{xmlsave.c:2453:}"];
+	Node0x263e4190 -> Node0x263e4230;
+	Node0x263e4190 -> Node0x263e41e0;
+	Node0x263e41e0 [shape=record,label="{xmlsave.c:2454:}"];
+	Node0x263e41e0 -> Node0x263e4230;
+	Node0x263e4230 [shape=record,label="{xmlsave.c:2455:}"];
+	Node0x263e4230 -> Node0x263e4280;
+	Node0x263e4280 [shape=record,label="{xmlsave.c:2458:}"];
+	Node0x263e4280 -> Node0x263e42d0;
+	Node0x263e42d0 [shape=record,label="{xmlsave.c:2459:}"];
+}

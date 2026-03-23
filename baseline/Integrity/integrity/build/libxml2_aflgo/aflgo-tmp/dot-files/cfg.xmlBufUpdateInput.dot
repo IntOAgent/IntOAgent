@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlBufUpdateInput' function" {
+	label="CFG for 'xmlBufUpdateInput' function";
+
+	Node0x3f7a7520 [shape=record,label="{buf.c:606:}"];
+	Node0x3f7a7520 -> Node0x3f7a75c0;
+	Node0x3f7a7520 -> Node0x3f7a7570;
+	Node0x3f7a7570 [shape=record,label="{buf.c:608:}"];
+	Node0x3f7a7570 -> Node0x3f7a75c0;
+	Node0x3f7a75c0 [shape=record,label="{buf.c:612:}"];
+}

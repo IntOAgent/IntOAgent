@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlSchemaTypeDumpEntry' function" {
+	label="CFG for 'xmlSchemaTypeDumpEntry' function";
+
+	Node0x2dc36400 [shape=record,label="{xmlschemas.c:4427:}"];
+}

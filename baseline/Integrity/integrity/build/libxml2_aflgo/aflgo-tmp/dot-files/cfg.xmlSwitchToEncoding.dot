@@ -1,0 +1,19 @@
+digraph "CFG for 'xmlSwitchToEncoding' function" {
+	label="CFG for 'xmlSwitchToEncoding' function";
+
+	Node0x8d714f0 [shape=record,label="{parserInternals.c:1478:}"];
+	Node0x8d714f0 -> Node0x8d71680;
+	Node0x8d714f0 -> Node0x8d71540;
+	Node0x8d71540 [shape=record,label="{parserInternals.c:1481:}"];
+	Node0x8d71540 -> Node0x8d715e0;
+	Node0x8d71540 -> Node0x8d71680;
+	Node0x8d71540 -> Node0x8d71590;
+	Node0x8d71540 -> Node0x8d71630;
+	Node0x8d71590 [shape=record,label="{parserInternals.c:236:}"];
+	Node0x8d71590 -> Node0x8d71630;
+	Node0x8d715e0 [shape=record,label="{%10}"];
+	Node0x8d715e0 -> Node0x8d71630;
+	Node0x8d71630 [shape=record,label="{parserInternals.c:246:}"];
+	Node0x8d71630 -> Node0x8d71680;
+	Node0x8d71680 [shape=record,label="{parserInternals.c:1488:}"];
+}

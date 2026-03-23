@@ -1,0 +1,34 @@
+digraph "CFG for 'xmlFdOpen' function" {
+	label="CFG for 'xmlFdOpen' function";
+
+	Node0x9767620 [shape=record,label="{xmlIO.c:727:}"];
+	Node0x9767620 -> Node0x9767dd0;
+	Node0x9767620 -> Node0x9767ab0;
+	Node0x9767ab0 [shape=record,label="{xmlIO.c:686:}"];
+	Node0x9767ab0 -> Node0x9767ba0;
+	Node0x9767ab0 -> Node0x9767b00;
+	Node0x9767b00 [shape=record,label="{xmlIO.c:688:}"];
+	Node0x9767b00 -> Node0x9767ba0;
+	Node0x9767b00 -> Node0x9767b50;
+	Node0x9767b50 [shape=record,label="{xmlIO.c:690:}"];
+	Node0x9767b50 -> Node0x9767ba0;
+	Node0x9767b50 -> Node0x9767bf0;
+	Node0x9767ba0 [shape=record,label="{xmlIO.c:702:}"];
+	Node0x9767ba0 -> Node0x9767bf0;
+	Node0x9767bf0 [shape=record,label="{xmlIO.c:731:}"];
+	Node0x9767bf0 -> Node0x9767dd0;
+	Node0x9767bf0 -> Node0x9767c40;
+	Node0x9767c40 [shape=record,label="{xmlIO.c:734:}"];
+	Node0x9767c40 -> Node0x9767c90;
+	Node0x9767c40 -> Node0x9767d30;
+	Node0x9767c90 [shape=record,label="{xmlIO.c:766:}"];
+	Node0x9767c90 -> Node0x9767ce0;
+	Node0x9767c90 -> Node0x9767d80;
+	Node0x9767ce0 [shape=record,label="{xmlIO.c:769:}"];
+	Node0x9767ce0 -> Node0x9767d80;
+	Node0x9767d30 [shape=record,label="{xmlIO.c:772:}"];
+	Node0x9767d30 -> Node0x9767d80;
+	Node0x9767d80 [shape=record,label="{xmlIO.c:776:}"];
+	Node0x9767d80 -> Node0x9767dd0;
+	Node0x9767dd0 [shape=record,label="{xmlIO.c:778:}"];
+}

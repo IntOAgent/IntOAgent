@@ -1,0 +1,21 @@
+digraph "CFG for 'xmlCatalogSetDefaultPrefer' function" {
+	label="CFG for 'xmlCatalogSetDefaultPrefer' function";
+
+	Node0x5ee8820 [shape=record,label="{catalog.c:3456:}"];
+	Node0x5ee8820 -> Node0x5ee8b80;
+	Node0x5ee8820 -> Node0x5ee89f0;
+	Node0x5ee89f0 [shape=record,label="{catalog.c:3461:}"];
+	Node0x5ee89f0 -> Node0x5ee8b30;
+	Node0x5ee89f0 -> Node0x5ee8a40;
+	Node0x5ee8a40 [shape=record,label="{catalog.c:3462:}"];
+	Node0x5ee8a40 -> Node0x5ee8b80;
+	Node0x5ee8a40 -> Node0x5ee8ae0;
+	Node0x5ee8a40 -> Node0x5ee8a90;
+	Node0x5ee8a90 [shape=record,label="{catalog.c:3470:}"];
+	Node0x5ee8a90 -> Node0x5ee8ae0;
+	Node0x5ee8ae0 [shape=record,label="{catalog.c:3475:}"];
+	Node0x5ee8ae0 -> Node0x5ee8b30;
+	Node0x5ee8b30 [shape=record,label="{catalog.c:3475:1}"];
+	Node0x5ee8b30 -> Node0x5ee8b80;
+	Node0x5ee8b80 [shape=record,label="{catalog.c:3477:}"];
+}

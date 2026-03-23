@@ -1,0 +1,10 @@
+digraph "CFG for 'plist_free' function" {
+	label="CFG for 'plist_free' function";
+
+	Node0x21578140 [shape=record,label="{plist.c:553:}"];
+	Node0x21578140 -> Node0x21578e10;
+	Node0x21578140 -> Node0x21578dc0;
+	Node0x21578dc0 [shape=record,label="{plist.c:555:}"];
+	Node0x21578dc0 -> Node0x21578e10;
+	Node0x21578e10 [shape=record,label="{plist.c:557:}"];
+}

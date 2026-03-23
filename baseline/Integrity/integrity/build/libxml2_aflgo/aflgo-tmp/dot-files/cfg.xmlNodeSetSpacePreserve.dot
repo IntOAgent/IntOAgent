@@ -1,0 +1,16 @@
+digraph "CFG for 'xmlNodeSetSpacePreserve' function" {
+	label="CFG for 'xmlNodeSetSpacePreserve' function";
+
+	Node0x372e1200 [shape=record,label="{tree.c:4801:}"];
+	Node0x372e1200 -> Node0x372e1370;
+	Node0x372e1200 -> Node0x372e1280;
+	Node0x372e1280 [shape=record,label="{tree.c:4806:}"];
+	Node0x372e1280 -> Node0x372e12d0;
+	Node0x372e1280 -> Node0x372e1370;
+	Node0x372e12d0 [shape=record,label="{tree.c:4809:}"];
+	Node0x372e12d0 -> Node0x372e1320;
+	Node0x372e12d0 -> Node0x372e1370;
+	Node0x372e1320 [shape=record,label="{tree.c:4813:}"];
+	Node0x372e1320 -> Node0x372e1370;
+	Node0x372e1370 [shape=record,label="{tree.c:4823:}"];
+}

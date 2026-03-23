@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlTextWriterWriteFormatCDATA' function" {
+	label="CFG for 'xmlTextWriterWriteFormatCDATA' function";
+
+	Node0x2d59e020 [shape=record,label="{xmlwriter.c:2625:}"];
+	Node0x2d59e020 -> Node0x2d59e600;
+	Node0x2d59e020 -> Node0x2d59e560;
+	Node0x2d59e560 [shape=record,label="{xmlwriter.c:2627:}"];
+	Node0x2d59e560 -> Node0x2d59e600;
+	Node0x2d59e560 -> Node0x2d59e5b0;
+	Node0x2d59e5b0 [shape=record,label="{xmlwriter.c:2657:}"];
+	Node0x2d59e5b0 -> Node0x2d59e600;
+	Node0x2d59e600 [shape=record,label="{xmlwriter.c:2631:}"];
+}

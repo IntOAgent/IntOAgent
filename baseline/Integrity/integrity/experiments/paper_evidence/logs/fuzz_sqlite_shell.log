@@ -1,0 +1,3832 @@
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1628666144
+INFO: Loaded 1 modules   (7560 inline 8-bit counters): 7560 [0x5eaf3c766100, 0x5eaf3c767e88), 
+INFO: Loaded 1 PC tables (7560 PCs): 7560 [0x5eaf3c767e88,0x5eaf3c785708), 
+INFO: 40063 Extra Counters
+INFO: -fork=1: fuzzing in separate process(s)
+INFO: -fork=1: 416 seed inputs, starting to fuzz in /tmp/libFuzzerTemp.FuzzWithFork75184.dir
+#1093: cov: 2329 ft: 2329 corp: 416 exec/s 0 oom/timeout/crash: 0/0/0 time: 0s job: 1 dft_time: 0
+  NEW_FUNC: 0x5eaf3c0604c0 in open_db /home/xxx/PHDlife/fuxian/sqlite/shell.c:25733
+  NEW_FUNC: 0x5eaf3c0a29f0 in shell_exec /home/xxx/PHDlife/fuxian/sqlite/shell.c:24627
+  NEW_FUNC: 0x5eaf3c0a4fa0 in process_input /home/xxx/PHDlife/fuxian/sqlite/shell.c:32474
+  NEW_FUNC: 0x5eaf3c0ac2b0 in LLVMFuzzerTestOneInput /home/xxx/PHDlife/fuxian/integrity/targets/sqlite/fuzz_sqlite_shell.c:119
+  NEW_FUNC: 0x5eaf3c132e20 in shell_error_context /home/xxx/PHDlife/fuxian/sqlite/shell.c:23254
+  NEW_FUNC: 0x5eaf3c149370 in save_err_msg /home/xxx/PHDlife/fuxian/sqlite/shell.c:23351
+  NEW_FUNC: 0x5eaf3c159bd0 in quickscan /home/xxx/PHDlife/fuxian/sqlite/shell.c:32172
+  NEW_FUNC: 0x5eaf3c15b480 in runOneSqlLine /home/xxx/PHDlife/fuxian/sqlite/shell.c:32376
+  NEW_FUNC: 0x5eaf3c15d9a0 in local_getline /home/xxx/PHDlife/fuxian/sqlite/shell.c:1302
+INFO: log from the inner process:
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1938913839
+INFO: Loaded 1 modules   (7560 inline 8-bit counters): 7560 [0x5f6702d53100, 0x5f6702d54e88), 
+INFO: Loaded 1 PC tables (7560 PCs): 7560 [0x5f6702d54e88,0x5f6702d72708), 
+INFO: 40063 Extra Counters
+INFO:        0 files found in /tmp/libFuzzerTemp.FuzzWithFork75184.dir/C1
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
+INFO: seed corpus: files: 20 min: 14b max: 93b total: 1096b rss: 27Mb
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:37203:7
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:37203:7
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:196104:11
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34303:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34305:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34306:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34310:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34303:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34304:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34307:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34309:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34309:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34310:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34305:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34308:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34304:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34307:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34308:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34306:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34312:36
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34312:36
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:35722:7
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:95568:9
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:95579:12
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:36000:7
+Parse error near line 1: near "/": syntax error
+  /oC?sch[mable'2);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" "Ü."="ÿÿÿÿ"""Ü"
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  "  ; E   i
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: near "eng": syntax error
+  eng'h('hel$EC0),eng'(h'ÿÿÿ(-1©, he ('hael
+  ^--- error here
+Parse error near line 1: no such function: absÿÿÿÿÿÿÿÿx
+  SELECT absÿÿÿÿÿÿÿÿx(42), length('hello');
+         ^--- error here
+Error: unknown command or invalid arguments:  ".???????????????????????????????able". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ŞİİİİİİŞ")".dÿf". Enter ".help" for help
+Parse error near line 2: near ""."""": syntax error
+  "."""
+  ^--- error here
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:35722:7
+Parse error near line 1: near "VAL2": syntax error
+  INSERT INTO t VAL2);
+                ^--- error here
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 6: near "*": syntax error
+  *ÿ  .d.{ .d.
+  ^--- error here
+Parse error near line 1: near ")": syntax error
+  LE t(a,···,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb); INSERT I,2),A
+                                      error here ---^
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d.{.d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: cannot open "SELd/{"
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees 
+  ^--- error here
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 41: unrecognized token: ""
+     SE     r.Q
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d..¿d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "t<5S". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+#21	INITED cov: 303 ft: 846 corp: 19/1014b exec/s: 0 rss: 32Mb
+Parse error near line 1: near "t": syntax error
+  t .`Odu* `ROMst `M `mp
+  ^--- error here
+#22	NEW    cov: 303 ft: 859 corp: 20/1037b lim: 93 exec/s: 0 rss: 32Mb L: 23/93 MS: 1 ShuffleBytes-
+Parse error near line 1: near ")": syntax error
+  LE t(a,···,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb); INSEPT I,2),A
+                                      error here ---^
+Parse error near line 1: near "*": syntax error
+  CREATE TABLE t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb); INSEPT I,2),A
+                    ^--- error here
+Parse error near line 1: near "TABLÿ": syntax error
+  CREATE TABLÿE t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb); INSEPT I,2),A
+         ^--- error here
+Parse error near line 1: near "TABLÿ": syntax error
+  CREATE TABLÿE t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb); INSEPT
+         ^--- error here
+#26	NEW    cov: 303 ft: 871 corp: 21/1122b lim: 93 exec/s: 0 rss: 32Mb L: 85/93 MS: 4 ChangeBit-ChangeByte-CMP-InsertRepeatedBytes- DE: "\377\030"-
+Parse error near line 1: unrecognized token: ""
+  ;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E   i
+  ^--- error here
+#27	NEW    cov: 303 ft: 874 corp: 22/1135b lim: 93 exec/s: 0 rss: 32Mb L: 13/93 MS: 1 EraseBytes-
+Parse error near line 1: near "TABLÿ": syntax error
+  CREATE TABLÿE t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb);
+         ^--- error here
+Parse error near line 1: near "CREATEBLTAÿ": syntax error
+  CREATEBLTAÿ E t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb);
+  ^--- error here
+Parse error near line 1: near "CREATEBLTAÿ": syntax error
+  CREATEBLTAÿ E t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb)
+  ^--- error here
+#30	NEW    cov: 303 ft: 886 corp: 23/1228b lim: 93 exec/s: 0 rss: 32Mb L: 93/93 MS: 3 CrossOver-ShuffleBytes-CrossOver-
+Parse error near line 1: near "CREATEBLTAÿ": syntax error
+  CREATEBLTAÿ E t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb)
+  ^--- error here
+Parse error near line 1: near "CREATEBLTÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b": syntax error
+  CREATEBLTÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb); INSÿÿÿÿÿÿÿ··b) INZb)
+  ^--- error here
+#32	NEW    cov: 303 ft: 887 corp: 24/1321b lim: 93 exec/s: 0 rss: 32Mb L: 93/93 MS: 2 PersAutoDict-CopyPart- DE: "\377\030"-
+Parse error near line 1: near "t": syntax error
+  t .`Odu* `RMsOt `M `mp
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Odu* `RMsOtàŸ²ßŸ’
+  ^--- error here
+#34	NEW    cov: 303 ft: 897 corp: 25/1344b lim: 93 exec/s: 0 rss: 32Mb L: 23/93 MS: 2 ShuffleBytes-ChangeBinInt-
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+#35	NEW    cov: 303 ft: 901 corp: 26/1386b lim: 93 exec/s: 0 rss: 32Mb L: 42/93 MS: 1 InsertRepeatedBytes-
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’’’’’’’’’’’’’ch[mable'2);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’’’’’’’’
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’’’’’’’’
+  ^--- error here
+#38	NEW    cov: 303 ft: 904 corp: 27/1430b lim: 93 exec/s: 0 rss: 32Mb L: 44/93 MS: 3 InsertRepeatedBytes-ChangeBinInt-ChangeByte-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo. .d.f.{ .ooooo
+  ^--- error here
+#39	NEW    cov: 303 ft: 913 corp: 28/1509b lim: 93 exec/s: 0 rss: 32Mb L: 79/93 MS: 1 PersAutoDict- DE: "\377\030"-
+Parse error near line 1: no such function: absÿÿÿÿÿÿÿÿx
+  SELECT absÿÿÿÿÿÿÿÿx(41), length('hello');
+         ^--- error here
+Parse error near line 1: near "SELECTsab": syntax error
+  SELECTsab ÿÿÿÿÿÿÿÿx(41), length('hello');
+  ^--- error here
+Parse error near line 1: near "SELECTsab": syntax error
+  SELECTsab ÿÿÿÿÿÿÿÿx(41), length('hello')EL
+  ^--- error here
+#42	NEW    cov: 303 ft: 916 corp: 29/1551b lim: 93 exec/s: 0 rss: 32Mb L: 42/93 MS: 3 ChangeASCIIInt-ShuffleBytes-CopyPart-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo. .ÿd.f.{ .ooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo. .ÿd.f.{ .ooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo. .ÿd.f.{ .ooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo
+  ^--- error here
+#46	NEW    cov: 303 ft: 922 corp: 30/1644b lim: 93 exec/s: 0 rss: 32Mb L: 93/93 MS: 4 PersAutoDict-InsertRepeatedBytes-ChangeByte-CrossOver- DE: "\377\030"-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo
+  ^--- error here
+#50	NEW    cov: 303 ft: 926 corp: 31/1737b lim: 93 exec/s: 0 rss: 32Mb L: 93/93 MS: 4 ChangeByte-CMP-ChangeBit-ChangeBinInt- DE: "output"-
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 36: near "CR": syntax error
+  CR
+  ^--- error here
+#51	NEW    cov: 303 ft: 930 corp: 32/1787b lim: 93 exec/s: 0 rss: 32Mb L: 50/93 MS: 1 CrossOver-
+Error: unknown command or invalid arguments:  "`d.{ÿ.d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: cannot open "SELd/{"
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d.{ÿ.d.d.{d.". Enter ".help" for help
+Parse error near line 3: near "ÒõÑ›Ñ›Ñ": syntax error
+  ÒõÑ›Ñ›Ñ .t WHERE x<5) SELd/{ . . .d.d.{ .t WHERE x<5) SELECT *d.
+  ^--- error here
+#53	NEW    cov: 303 ft: 936 corp: 33/1872b lim: 93 exec/s: 0 rss: 32Mb L: 85/93 MS: 2 PersAutoDict-ChangeBinInt- DE: "\377\030"-
+Parse error near line 1: near ",": syntax error
+  ,t `Odu* `ROMst `M `mp
+  ^--- error here
+#54	NEW    cov: 303 ft: 938 corp: 34/1895b lim: 93 exec/s: 0 rss: 32Mb L: 23/93 MS: 1 ChangeBit-
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sch[mable'2);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sch[mable'2)m
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; E   i
+  ^--- error here
+#57	NEW    cov: 303 ft: 939 corp: 35/1942b lim: 93 exec/s: 0 rss: 32Mb L: 47/93 MS: 3 CopyPart-CopyPart-CrossOver-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo. .d.f.{ .ooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo. .d.f.{ .ooooo
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.{ ÿ.oooooo. .d.f.{ .ooooo
+  ^--- error here
+#60	NEW    cov: 303 ft: 943 corp: 36/2032b lim: 93 exec/s: 0 rss: 32Mb L: 90/93 MS: 3 CMP-ChangeByte-InsertRepeatedBytes- DE: "\016\000\000\000\000\000\000\000"-
+[INTEGRITY] OVERFLOW at sqlite/shell.c:32221:5
+[INTEGRITY] OVERFLOW at sqlite/shell.c:32222:11
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" "Ü."=ããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããã
+  ^--- error here
+#61	NEW    cov: 303 ft: 947 corp: 37/2124b lim: 93 exec/s: 0 rss: 32Mb L: 92/93 MS: 1 InsertRepeatedBytes-
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees :
+  ^--- error here
+#62	NEW    cov: 303 ft: 948 corp: 38/2212b lim: 93 exec/s: 0 rss: 32Mb L: 88/93 MS: 1 ChangeByte-
+Parse error near line 1: near "eng": syntax error
+  eng'h('hel$EC0),eng'((h'ÿÿÿ(-1©, h'ÿÿÿ(-1©, he ('hael
+  ^--- error here
+#63	NEW    cov: 303 ft: 950 corp: 39/2267b lim: 93 exec/s: 0 rss: 32Mb L: 55/93 MS: 1 CopyPart-
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E   i
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E outputi
+  ^--- error here
+#65	NEW    cov: 303 ft: 961 corp: 40/2303b lim: 93 exec/s: 0 rss: 32Mb L: 36/93 MS: 2 CrossOver-PersAutoDict- DE: "output"-
+Parse error near line 1: near "": syntax error
+  ;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E   i
+  ^--- error here
+#66	NEW    cov: 303 ft: 962 corp: 41/2316b lim: 93 exec/s: 0 rss: 32Mb L: 13/93 MS: 1 ChangeBit-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+#70	NEW    cov: 303 ft: 963 corp: 42/2402b lim: 93 exec/s: 0 rss: 32Mb L: 86/93 MS: 4 ChangeBinInt-CopyPart-PersAutoDict-CopyPart- DE: "output"-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}ooo.". Enter ".help" for help
+Parse error near line 5: near "oo": syntax error
+  oo
+  ^--- error here
+#75	NEW    cov: 303 ft: 965 corp: 43/2488b lim: 93 exec/s: 0 rss: 32Mb L: 86/93 MS: 5 ChangeBinInt-ChangeBinInt-CMP-CopyPart-ShuffleBytes- DE: "\000\000\000\373"-
+Parse error near line 1: near "t": syntax error
+  t .`Odu* `RMsOtàŸ²ßŸc
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Odu* `RMsOtàŸ²ßOdu* `RMsOtàŸ²ßŸc
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O`u* `RMsOtàŸ²ßOdu* `RMsOtàŸ²ßŸc
+  ^--- error here
+#78	NEW    cov: 303 ft: 966 corp: 44/2534b lim: 93 exec/s: 0 rss: 32Mb L: 46/93 MS: 3 CMP-CopyPart-ShuffleBytes- DE: "c\000"-
+Parse error near line 1: unrecognized token: ""
+  ( E   i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ( E( E ¼ i
+  ^--- error here
+Parse error near line 1: near "ÿ": syntax error
+  ÿ E( E ¼ i
+  ^--- error here
+Parse error near line 1: near "ÿ": syntax error
+  ÿ E( E
+  ^--- error here
+#82	NEW    cov: 303 ft: 970 corp: 45/2543b lim: 93 exec/s: 0 rss: 32Mb L: 9/93 MS: 4 ChangeByte-CopyPart-PersAutoDict-EraseBytes- DE: "\377\030"-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.ooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.ooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooo
+  ^--- error here
+#86	NEW    cov: 303 ft: 972 corp: 46/2636b lim: 93 exec/s: 0 rss: 32Mb L: 93/93 MS: 4 ShuffleBytes-ChangeBinInt-PersAutoDict-ChangeBit- DE: "\000\000\000\373"-
+Parse error near line 1: near "CREATEBLoutput": syntax error
+  CREATEBLoutput t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb)
+  ^--- error here
+Parse error near line 1: near "CREATEBLoutput": syntax error
+  CREATEBLoutput t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb)
+  ^--- error here
+#88	NEW    cov: 303 ft: 973 corp: 47/2729b lim: 93 exec/s: 0 rss: 32Mb L: 93/93 MS: 2 PersAutoDict-CopyPart- DE: "output"-
+Parse error near line 1: near "t": syntax error
+  t .`Odu* 
+  ^--- error here
+#89	NEW    cov: 303 ft: 974 corp: 48/2752b lim: 93 exec/s: 0 rss: 32Mb L: 23/93 MS: 1 ChangeBinInt-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}ooo..d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}ooo..d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}ooo..d.d.{". Enter ".help" for help
+#92	NEW    cov: 303 ft: 1034 corp: 49/2805b lim: 93 exec/s: 0 rss: 32Mb L: 53/93 MS: 3 CMP-InsertRepeatedBytes-EraseBytes- DE: "d.f.}ooo."-
+Error: unknown command or invalid arguments:  "ŞİİİİİİŞ")".dÿf". Enter ".help" for help
+Parse error near line 2: near ""."""": syntax error
+  "."""
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf                     "."""                    "."""
+  ^--- error here
+#94	NEW    cov: 303 ft: 1042 corp: 50/2895b lim: 93 exec/s: 0 rss: 32Mb L: 90/93 MS: 2 ChangeBit-CopyPart-
+Parse error near line 1: unrecognized token: "{"
+  SELECT 2.{ .d<<62;
+           ^--- error here
+Parse error near line 1: near "SELOCT": syntax error
+  SELOCT 2.{ .d<<62;
+  ^--- error here
+Parse error near line 1: near "SELOCT": syntax error
+  SELOCT 2.{ .d<<62;
+  ^--- error here
+Parse error near line 1: near "SELOCT": syntax error
+  SELOCT 2.{ .d<<62;
+  ^--- error here
+#98	NEW    cov: 303 ft: 1044 corp: 51/2965b lim: 93 exec/s: 0 rss: 32Mb L: 70/93 MS: 4 CrossOver-ChangeBinInt-InsertRepeatedBytes-InsertRepeatedBytes-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oşÿÿ¾". Enter ".help" for help
+Parse error near line 1: near "CREATEBLoutput": syntax error
+  CREATEBLoutput t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb)INZb);
+  ^--- error here
+Parse error near line 1: near "CREATEBLou": syntax error
+  CREATEBLou
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA/ToC?EB
+  ^--- error here
+#106	NEW    cov: 303 ft: 1045 corp: 52/2976b lim: 93 exec/s: 0 rss: 32Mb L: 11/93 MS: 3 CopyPart-CMP-CrossOver- DE: "\001\000\000\000\000\000\000V"-
+Parse error near line 1: near "t": syntax error
+  t .`Odu* `ROMst `M `m~p
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Odst `M `m~p
+  ^--- error here
+#108	NEW    cov: 303 ft: 1046 corp: 53/2993b lim: 93 exec/s: 0 rss: 32Mb L: 17/93 MS: 2 InsertByte-EraseBytes-
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees :
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ):
+  ^--- error here
+#110	NEW    cov: 303 ft: 1047 corp: 54/3084b lim: 93 exec/s: 0 rss: 32Mb L: 91/93 MS: 2 CMP-ChangeByte- DE: "*d."-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}ooo.". Enter ".help" for help
+Parse error near line 5: near "oo": syntax error
+  oo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}ooo.". Enter ".help" for help
+Parse error near line 5: near "oo": syntax error
+  oo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}ooo.". Enter ".help" for help
+Parse error near line 5: near "oo": syntax error
+  oo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}oooioo". Enter ".help" for help
+#114	NEW    cov: 303 ft: 1049 corp: 55/3177b lim: 93 exec/s: 0 rss: 32Mb L: 93/93 MS: 4 PersAutoDict-InsertByte-ShuffleBytes-CMP- DE: "c\000"-"i\000\000\000"-
+Parse error near line 1: near "CREATEBLoutTEBLoutput": syntax error
+  CREATEBLoutTEBLoutput t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) I
+  ^--- error here
+Parse error near line 1: near "ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿput": syntax error
+  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿput t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) I
+  ^--- error here
+Parse error near line 1: near "ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿput": syntax error
+  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿput t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) IINZb
+  ^--- error here
+Parse error near line 1: near "ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿput": syntax error
+  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿput t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+#118	NEW    cov: 303 ft: 1051 corp: 56/3270b lim: 93 exec/s: 0 rss: 32Mb L: 93/93 MS: 4 CopyPart-CrossOver-CopyPart-ChangeBinInt-
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf                     "."""                    "."""
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf                     "."""                    "."""
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".d  SLTC EE *ÿÿf                     "."""                    "."""
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".d  SLTC EE *ÿÿf                     "."""                   o.d.8{
+  ^--- error here
+#122	NEW    cov: 303 ft: 1052 corp: 57/3361b lim: 93 exec/s: 0 rss: 32Mb L: 91/93 MS: 4 ShuffleBytes-EraseBytes-CrossOver-CMP- DE: "o.d.8{"-
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" Ü"."=ããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããã
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" Ü"."=ããããããããããããããããããããããããããããããããããããããããããããããããããã"ÿÿÿÿ"""Ü"
+  ^--- error here
+#124	NEW    cov: 303 ft: 1054 corp: 58/3433b lim: 93 exec/s: 0 rss: 32Mb L: 72/93 MS: 2 ShuffleBytes-EraseBytes-
+Parse error near line 1: near "İßİİİŞ": syntax error
+  İßİİİŞ")".dÿf                     "."""                    "."""
+  ^--- error here
+Parse error near line 1: near "İßİİİŞ": syntax error
+  İßİİİŞ")".dÿf                     "."""            "."""
+  ^--- error here
+#126	NEW    cov: 303 ft: 1055 corp: 59/3523b lim: 93 exec/s: 0 rss: 32Mb L: 90/93 MS: 2 ChangeBinInt-CopyPart-
+Error: unknown command or invalid arguments:  ".???????????????????????????????Able". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".???????????????????????????????Able". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".???????????????????????????????Able". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".??????????????????????????????ÈAble". Enter ".help" for help
+#130	NEW    cov: 303 ft: 1057 corp: 60/3566b lim: 93 exec/s: 0 rss: 32Mb L: 43/93 MS: 4 ChangeBit-CopyPart-CopyPart-ChangeBinInt-
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; E   i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; E   i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc  i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc  i
+  ^--- error here
+#134	NEW    cov: 303 ft: 1060 corp: 61/3613b lim: 93 exec/s: 0 rss: 32Mb L: 47/93 MS: 4 ChangeByte-ShuffleBytes-ChangeBinInt-ChangeASCIIInt-
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E outputi
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E outputi
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E outputi
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E outputi
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E outputiW
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees [
+  ^--- error here
+#140	NEW    cov: 303 ft: 1061 corp: 62/3701b lim: 93 exec/s: 0 rss: 32Mb L: 88/93 MS: 1 ChangeByte-
+Parse error near line 1: no such function: absÿÿÿÿÿÿÿÿx
+  SELECT absÿÿÿÿÿÿÿÿx(42)Ms, length('hello');
+         ^--- error here
+Parse error near line 1: no such function: absÿÿÿÿÿÿÿÿx
+  SELECT absÿÿÿÿÿÿÿÿx(05)Ms, length('hello');
+         ^--- error here
+#142	NEW    cov: 303 ft: 1062 corp: 63/3745b lim: 93 exec/s: 0 rss: 32Mb L: 44/93 MS: 2 CrossOver-ChangeASCIIInt-
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’’’’’’’’
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’’’’’’’’
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’’’’’’’’
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’’’’. .d.f.}o
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’’’’. .d.f.)o
+  ^--- error here
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+#148	NEW    cov: 303 ft: 1071 corp: 64/3771b lim: 93 exec/s: 0 rss: 32Mb L: 26/93 MS: 1 EraseBytes-
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 41: unrecognized token: ""
+     SE     r.Q
+  ^--- error here
+Parse error near line 12: unrecognized token: ""
+   #   &      ;
+  ^--- error here
+Parse error near line 40: unrecognized token: ""
+     SE     r.Q
+  ^--- error here
+#150	NEW    cov: 303 ft: 1076 corp: 65/3864b lim: 93 exec/s: 0 rss: 32Mb L: 93/93 MS: 2 ChangeBinInt-ChangeBit-
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+#154	NEW    cov: 303 ft: 1077 corp: 66/3956b lim: 93 exec/s: 0 rss: 32Mb L: 92/93 MS: 4 CMP-InsertRepeatedBytes-PersAutoDict-ChangeByte- DE: "\\\000"-"\000\000\000\373"-
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+#155	REDUCE cov: 303 ft: 1077 corp: 66/3947b lim: 93 exec/s: 0 rss: 32Mb L: 17/93 MS: 1 EraseBytes-
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+#158	NEW    cov: 303 ft: 1078 corp: 67/4039b lim: 93 exec/s: 0 rss: 32Mb L: 92/93 MS: 3 ChangeBinInt-PersAutoDict-CopyPart- DE: "i\000\000\000"-
+Parse error near line 1: near "SƒLECT": syntax error
+  SƒLECT 2<<63;
+  ^--- error here
+Parse error near line 1: near "SƒLECT": syntax error
+  SƒLECT 2<<26;
+  ^--- error here
+Parse error near line 1: near "Sƒ2": syntax error
+  Sƒ2<<26;
+  ^--- error here
+#162	NEW    cov: 303 ft: 1079 corp: 68/4048b lim: 93 exec/s: 0 rss: 32Mb L: 9/93 MS: 4 ChangeASCIIInt-ChangeByte-ChangeASCIIInt-EraseBytes-
+Parse error near line 1: incomplete input
+#163	NEW    cov: 304 ft: 1080 corp: 69/4129b lim: 93 exec/s: 0 rss: 32Mb L: 81/93 MS: 1 InsertRepeatedBytes-
+Parse error near line 1: near "SE": syntax error
+  SE)Ms, length('hello');
+  ^--- error here
+Parse error near line 1: near "SE": syntax error
+  SE)Mns ,elgth('hello');
+  ^--- error here
+Parse error near line 1: near "SE": syntax error
+  SE)Mns ,elgth('ÿÿÿÿÿÿÿhello');
+  ^--- error here
+Parse error near line 1: near "SE": syntax error
+  SE)Mns ,MMMMMMMMMMMMMMelgth('ÿÿÿÿÿÿÿhello');
+  ^--- error here
+Parse error near line 1: near "SE": syntax error
+  SE)Mns ,MMMMMMMMMMMMMMelgth('ÿÿÿÿÿÿÿhello'©;
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E outputi.d.d.{ .o.d.8{f .ooooo `RMsOtàŸ²ßŸ’
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E outputi.d.d.ooo{ .o.d.8{f .ooooo `RMsOtàŸ²ßŸ’
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E outputi.o.d.8{f .ooooo `RMsOtàŸ²ßŸ’
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E outputi.oo `RMsOtàŸ²ßŸ’
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E outputi.oo'`RMsOtàŸ²ßŸ’
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Odu* 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Odu* 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Odu* 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t`.`Odu* 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t`.`Odu* 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O`u* `RMsOtàŸ²ßOdu* `RMsMsOtàßŸc
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O`u* M`RsOtàŸ²ßOdu* `RMsMsOtàßŸc
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O`u* M`RsOtdu* `RMsMsOtàßŸc
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O`u* M`RsOtdu* `RMsMsOtàßŸc
+  ^--- error here
+#182	NEW    cov: 304 ft: 1083 corp: 70/4192b lim: 93 exec/s: 0 rss: 32Mb L: 63/93 MS: 4 CopyPart-ShuffleBytes-CopyPart-ChangeBit-
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees 
+  ^--- error here
+#183	NEW    cov: 304 ft: 1085 corp: 71/4280b lim: 93 exec/s: 0 rss: 32Mb L: 88/93 MS: 1 CopyPart-
+Parse error near line 1: near "CREA": syntax error
+  CREA\E TABLE t(a,········b); INSERT INTO t VAL2);
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA\E TABLE t(a,········b); INSERT INTO t VAl2);
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA\E TABLE t(a,········b); INS
+  ^--- error here
+#186	NEW    cov: 304 ft: 1086 corp: 72/4338b lim: 93 exec/s: 0 rss: 32Mb L: 58/93 MS: 3 ChangeBit-ChangeBit-PersAutoDict- DE: "\016\000\000\000\000\000\000\000"-
+Parse error near line 1: near "CREATEBLoutput": syntax error
+  CREATEBLoutput t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb)
+  ^--- error here
+Parse error near line 1: near "CREATEBLoutput": syntax error
+  CREATEBLoutput t(a,·*·,···ÿÿÿÿûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb)
+  ^--- error here
+Parse error near line 1: near "CREATEBLoutput": syntax error
+  CREATEBLoutput t(a,·*·,···ÿÿÿÿûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿooooo
+  ^--- error here
+Parse error near line 1: near "CR": syntax error
+  CR
+  ^--- error here
+#190	NEW    cov: 304 ft: 1088 corp: 73/4340b lim: 93 exec/s: 0 rss: 32Mb L: 2/93 MS: 4 ShuffleBytes-ChangeBinInt-CrossOver-CrossOver-
+Parse error near line 1: near ")": syntax error
+  LE t(a,···,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ·¼b) INZb); INSERT I,2),A
+                                      error here ---^
+Parse error near line 1: near ")": syntax error
+  LE t(a,···,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ·¼b) INZb); INSERT ÿÿI,2),A
+                                      error here ---^
+Parse error near line 1: near ")": syntax error
+  LE t(a,···,···ÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿ·¼b) INZb); INSERT ÿÿI,2),A
+                                      error here ---^
+Parse error near line 1: near ")": syntax error
+  LE t(a,···,···ÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿ·¼b) INZb); INSERT
+                                      error here ---^
+Parse error near line 1: near ")": syntax error
+  LE t(a,···,···ÿÿÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿ·¼b) INZb); IN¯SERT
+                                      error here ---^
+Parse error near line 1: near "t": syntax error
+  t d.O`u* MsMsOtàßŸc
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.ORMsMsOtàßŸc
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.ORMsMsOtàßsqlite_masterŸc
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O®²Œ²Œ°‹ßsqlite_masterŸc
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O®²Œ²Œ°‹ßsqlite_maste
+  ^--- error here
+#200	NEW    cov: 304 ft: 1090 corp: 74/4430b lim: 93 exec/s: 0 rss: 32Mb L: 90/93 MS: 5 EraseBytes-EraseBytes-CMP-ChangeBinInt-InsertRepeatedBytes- DE: "sqlite_master"-
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; E   i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; E   iÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+#202	NEW    cov: 304 ft: 1091 corp: 75/4516b lim: 93 exec/s: 0 rss: 32Mb L: 86/93 MS: 2 ShuffleBytes-InsertRepeatedBytes-
+Error: unknown command or invalid arguments:  ".??????????????????????ƒ?????????able". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".?????????????*d.??????ƒ?????????able". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".????????????". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".?????????". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".?????????". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+  ;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E   i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E ¼i 
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  
+  ^--- error here
+#210	NEW    cov: 304 ft: 1094 corp: 76/4530b lim: 93 exec/s: 0 rss: 32Mb L: 14/93 MS: 3 InsertByte-ShuffleBytes-CMP- DE: "\027\000\000\000\000\000\000\000"-
+Parse error near line 1: near ",": syntax error
+  ,t `Odu*`ROMst `M `mp
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t `Odu*`ROMst `M `ma
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t `Odt*`ROMst `M `ma
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t &`Odt*`ROMst `M `ma
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t &`Odt*`ROMst ¾`M `ma
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d..¿d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "t<5S". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+#216	NEW    cov: 304 ft: 1095 corp: 77/4623b lim: 93 exec/s: 0 rss: 32Mb L: 93/93 MS: 1 PersAutoDict- DE: "sqlite_master"-
+Parse error near line 1: near "/": syntax error
+  /oC/oC?sch[mab?sch[mable'2);
+  ^--- error here
+#217	NEW    cov: 304 ft: 1096 corp: 78/4652b lim: 93 exec/s: 0 rss: 32Mb L: 29/93 MS: 1 CopyPart-
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 41: unrecognized token: ""
+     SE     r.Q
+  ^--- error here
+Parse error near line 4: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 28: unrecognized token: ""
+     SE     r.Q
+  ^--- error here
+#219	NEW    cov: 304 ft: 1098 corp: 79/4726b lim: 93 exec/s: 0 rss: 32Mb L: 74/93 MS: 2 ShuffleBytes-EraseBytes-
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc  i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc  i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc  i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc.oooooo  i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc.oooooo  i
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees A:
+  ^--- error here
+Parse error near line 1: near "q”tiA": syntax error
+  q”tiA:=V
+  ^--- error here
+#226	NEW    cov: 304 ft: 1099 corp: 80/4781b lim: 93 exec/s: 0 rss: 32Mb L: 55/93 MS: 2 ChangeByte-EraseBytes-
+Error: unknown command or invalid arguments:  "d.{.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 6: near "*": syntax error
+  *ÿ 
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{.ddu*". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 6: near "*": syntax error
+  *ÿ 
+  ^--- error here
+#228	NEW    cov: 304 ft: 1100 corp: 81/4838b lim: 93 exec/s: 0 rss: 32Mb L: 57/93 MS: 2 EraseBytes-CrossOver-
+Parse error near line 1: near "i": syntax error
+  i
+  ^--- error here
+#229	NEW    cov: 304 ft: 1102 corp: 82/4861b lim: 93 exec/s: 0 rss: 32Mb L: 23/93 MS: 1 PersAutoDict- DE: "i\000\000\000"-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo.oÿÿLTAÿ E t(a,·*·,·ÿ·ÿoutputÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+#230	NEW    cov: 304 ft: 1103 corp: 83/4954b lim: 93 exec/s: 0 rss: 32Mb L: 93/93 MS: 1 CrossOver-
+Parse error near line 1: near "q”tiA": syntax error
+  q”tiA:SELECT absÿÿÿÿÿÿÿÿx(42), length('hello');
+  ^--- error here
+Parse error near line 2: near "": syntax error
+  
+  ^--- error here
+Parse error near line 1: near "q”tiA": syntax error
+  q”tiA:SELECT absÿÿÿÿÿÿÿÿx(42), le¦ngth('hello');
+  ^--- error here
+Parse error near line 2: near "": syntax error
+  
+  ^--- error here
+Parse error near line 1: near "q”tiA": syntax error
+  q”tiA:SELECT absÿÿÿÿÿÿÿÿx(42), le¦ngth('helƒlo');
+  ^--- error here
+Parse error near line 2: near "": syntax error
+  
+  ^--- error here
+Parse error near line 1: near "q”tiA": syntax error
+  q”tiA:SELECT absÿÿÿÿÿÿÿÿx(42), le¦ngth('helM
+  ^--- error here
+Parse error near line 1: near "q”tiA": syntax error
+  q”tiA:SELECT absÿÿÿÿÿÿÿÿx(42), le¦ngth('helM
+  ^--- error here
+Parse error near line 12: unrecognized token: ""
+   #   &      ;
+  ^--- error here
+Parse error near line 29: unrecognized token: ""
+   #     #       SE     r.Q
+  ^--- error here
+#236	NEW    cov: 304 ft: 1107 corp: 84/5047b lim: 93 exec/s: 0 rss: 33Mb L: 93/93 MS: 1 ChangeByte-
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 36: near "CR": syntax error
+  CR
+  ^--- error here
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 27: unrecognized token: ""
+      #    CR
+  ^--- error here
+#238	NEW    cov: 304 ft: 1108 corp: 85/5097b lim: 93 exec/s: 0 rss: 33Mb L: 50/93 MS: 2 ShuffleBytes-ChangeBit-
+Error: unknown command or invalid arguments:  "`d.{.d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 6: near "L": syntax error
+  L/E{. . .d.d.{ .t WHERE x<5) SELECT *d.
+  ^--- error here
+#239	NEW    cov: 304 ft: 1132 corp: 86/5180b lim: 93 exec/s: 0 rss: 33Mb L: 83/93 MS: 1 ShuffleBytes-
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees [=
+  ^--- error here
+#240	NEW    cov: 304 ft: 1134 corp: 87/5268b lim: 93 exec/s: 0 rss: 33Mb L: 88/93 MS: 1 ChangeBinInt-
+Parse error near line 1: unrecognized token: ""
+   ;E   i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;E   i
+  ^--- error here
+#242	NEW    cov: 304 ft: 1135 corp: 88/5331b lim: 93 exec/s: 0 rss: 33Mb L: 63/93 MS: 2 ShuffleBytes-InsertRepeatedBytes-
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’’’’’’’’
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oIC
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oIC'
+  ^--- error here
+#246	NEW    cov: 304 ft: 1138 corp: 89/5384b lim: 93 exec/s: 0 rss: 33Mb L: 53/93 MS: 4 PersAutoDict-CrossOver-InsertByte-ChangeByte- DE: "\001\000\000\000\000\000\000V"-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{ÿ.d.d.{d.". Enter ".help" for help
+Parse error near line 3: near "ÒõÑ›Ñ›Ñ": syntax error
+  ÒõÑ›Ñ›Ñ .stt WHERE x<5) SELd/{ . . .d.d.{ .t WHERE x<5) SELECT *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{ÿ.d.d.{d.". Enter ".help" for help
+Parse error near line 3: near "ÒõÑ›Ñ›Ñ": syntax error
+  ÒõÑ›Ñ›Ñ .stt WHERE x<5) SELd/{W. . .d.d.{ .t WHERE x<5) SELECT *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{ÿ.d.d.{d.". Enter ".help" for help
+Parse error near line 3: near "ÒõÑ›Ñ›Ñ": syntax error
+  ÒõÑ›Ñ›Ñ .stt WHERE x<5) SELd/{W. . .d.d.{ .t WHERE x<1) SELECT *d.
+  ^--- error here
+#254	NEW    cov: 304 ft: 1140 corp: 90/5471b lim: 93 exec/s: 0 rss: 33Mb L: 87/93 MS: 3 CMP-ChangeBinInt-ChangeASCIIInt- DE: "st"-
+Error: unknown command or invalid arguments:  "ŞİİİİİİŞ")".dÿf". Enter ".help" for help
+Parse error near line 2: near "ããã": syntax error
+  ããã      "."""
+  ^--- error here
+#255	NEW    cov: 304 ft: 1143 corp: 91/5521b lim: 93 exec/s: 0 rss: 33Mb L: 50/93 MS: 1 CrossOver-
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Parse error near line 1: unrecognized token: ""
+  """f/ÜÜ\\ÜÜABLE 
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  """f/ÜÜ\\ÜÜABLE 
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  """f/ÜÜ\\ÜÜABLE 
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  """f/ÜÜ\\ÜÜABLE 
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA\E TABLE t(a,········b); INS
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA\E TABLE t(a,········b); INS
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA\E PABLE t(a,········b); INS
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA\E PABLE t(a,········b); INS
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA\E PABLE t(a,········b)); INS; INS
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf                     "."""                    "."""
+  ^--- error here
+Parse error near line 1: near "ãİİİİİŞ": syntax error
+  ãİİİİİŞ")".dÿf                     "."""                    "."""
+  ^--- error here
+Parse error near line 1: near "ãİİİİİŞ": syntax error
+  ãİİİİİŞ")".dÿf                     "."""                    "."""
+  ^--- error here
+Parse error near line 1: near "ãİİİİİŞ": syntax error
+  ãİİİİİŞ")".dÿf               "."""                         "."""
+  ^--- error here
+Parse error near line 1: near "ãİİİİİŞ": syntax error
+  ãİİİİİŞ")/ÜÜÜ" Ü"."=ããããããããããã".ãããããdÿãf  ã
+  ^--- error here
+#275	NEW    cov: 304 ft: 1146 corp: 92/5566b lim: 93 exec/s: 0 rss: 33Mb L: 45/93 MS: 5 InsertByte-CrossOver-CMP-CopyPart-CrossOver- DE: "\344\000\000\000"-
+Parse error near line 1: near "CREATEE": syntax error
+  CREATEE TABLE t(a,········b); INSERT INTO t VAL);
+  ^--- error here
+Parse error near line 1: near "CREATEE": syntax error
+  CREATEE TABLE t(a,········b); INSERTi
+  ^--- error here
+Parse error near line 1: near "CREATEE": syntax error
+  CREATEE TABLE t(a,········b); INSERTi
+  ^--- error here
+Parse error near line 1: near "CREATEE": syntax error
+  CREATEE TABLE t(a,········b-; INSERTi
+  ^--- error here
+Parse error near line 1: near "CREATEE": syntax error
+  CREATEE TABLE t(a,········b-;dbt INSERTi
+  ^--- error here
+Error: unknown command or invalid arguments:  ".??????????????????????????????ÈAble". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".??????????????????????????????ÈAble". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".?????????????????sqlite_masterÈAble". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".??????????s???????qlite_masterÈAble". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".??????????s???????qlite_masterÈAb?s??????". Enter ".help" for help
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('hel$EC0),eng'((h'ÿÿÿ(-1©, h'ÿÿÿ(-1©, he ('hael
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('hel$EC0),eng'((h'ÿÿÿ(-1©, h'ÿÿÿ(-1©, ;
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('hel$EC0),eng'((h'ÿÿÿ
+  ^--- error here
+#288	NEW    cov: 304 ft: 1150 corp: 93/5659b lim: 93 exec/s: 0 rss: 33Mb L: 93/93 MS: 3 InsertRepeatedBytes-CrossOver-CopyPart-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+#290	NEW    cov: 304 ft: 1152 corp: 94/5741b lim: 93 exec/s: 0 rss: 33Mb L: 82/93 MS: 2 ShuffleBytes-PersAutoDict- DE: "c\000"-
+Parse error near line 1: unrecognized token: ""
+  ;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E   iŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠ
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E   iÿŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠ
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E   iÿ
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E   iÿ
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ;
+  ^--- error here
+Parse error near line 2: near "E$": syntax error
+  E$   iÿ
+  ^--- error here
+Parse error near line 1: near "Sƒ3": syntax error
+  Sƒ3<<26;
+  ^--- error here
+Parse error near line 1: near "Sƒ3": syntax error
+  Sƒ3<<26
+  ^--- error here
+Parse error near line 1: near "S6": syntax error
+  S6<ƒ23<
+  ^--- error here
+Parse error near line 1: near "S6": syntax error
+  S6<ƒ23h
+  ^--- error here
+Parse error near line 1: near "S6": syntax error
+  S6<ƒ2Í—ò
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d..¿d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "t<5S". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".t". Enter ".help" for help
+#301	NEW    cov: 304 ft: 1160 corp: 95/5834b lim: 93 exec/s: 0 rss: 33Mb L: 93/93 MS: 1 CopyPart-
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 27: unrecognized token: ""
+    #      CR
+  ^--- error here
+#302	NEW    cov: 304 ft: 1161 corp: 96/5884b lim: 93 exec/s: 0 rss: 33Mb L: 50/93 MS: 1 ShuffleBytes-
+Parse error near line 1: near "ãİİİİİŞ": syntax error
+  ãİİİİİŞ")dumÜ" Ü"."=ããããããããããã".ãããããdÿãf  ã
+  ^--- error here
+Parse error near line 1: near "ãİİİİİŞ": syntax error
+  ãİİİİİŞ")dumÜ" Ü"."=ããããããããããããã"ã.ããdÿãf  ã
+  ^--- error here
+Parse error near line 1: near "ãİİİİİŞ": syntax error
+  ãİİİİİŞ")dumÜ" Ü"."=ããããããããããããã"ã.ããdÿãf  ã
+  ^--- error here
+Parse error near line 1: near "ãİİİİİŞ": syntax error
+  ãİİİİİŞ")dumÜ" Ü".ıııııııııııııııııııııııııııııııııııı"=ããããããããããããã"ã.ããdÿãf
+  ^--- error here
+#306	NEW    cov: 304 ft: 1162 corp: 97/5965b lim: 93 exec/s: 0 rss: 33Mb L: 81/93 MS: 4 CMP-ShuffleBytes-ShuffleBytes-InsertRepeatedBytes- DE: "dum"-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo   #   &      ;
+  ^--- error here
+#307	NEW    cov: 304 ft: 1168 corp: 98/6058b lim: 93 exec/s: 0 rss: 33Mb L: 93/93 MS: 1 CrossOver-
+Parse error near line 1: near "/": syntax error
+  /ÜÜŞ" Ü"."=ããããããããããããããããããããããããããããããããããããããããããããããããããã"ÿÿÿÿ"""Ü"
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜŞ" Ü"."=ã)/ÜÜÜ" Ü"."=ããããããããããã".ãããããdÿãfãããããããããããããããã"ÿÿÿÿ"""Ü"
+  ^--- error here
+#309	NEW    cov: 304 ft: 1173 corp: 99/6130b lim: 93 exec/s: 0 rss: 33Mb L: 72/93 MS: 2 ChangeBit-CrossOver-
+Parse error near line 1: near "CREATEBLTAÿ": syntax error
+  CREATEBLTAÿ E t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb)
+  ^--- error here
+Parse error near line 1: near "CREATEBLTAÿ": syntax error
+  CREATEBLTAÿ t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb); I
+  ^--- error here
+Parse error near line 1: near "CREATEBLTAÿ": syntax error
+  CREATEBLTAÿ t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZ
+  ^--- error here
+Parse error near line 1: near "CREATEBLTAÿ": syntax error
+  CREATEBLTAÿ t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿbÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZ
+  ^--- error here
+Parse error near line 1: near "CREATEBLTAÿ": syntax error
+  CREATEBLTAÿ t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿÿÿbÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZ
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Odu* `o.d.8{ROMst `M `mp
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Odu=* `o.d.8{ROMst `M `mp
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Odu=* `o.d.8{ROMst `M ``M 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Od`o.d.8{d.8{ROMst `M ``M 
+  ^--- error here
+#318	NEW    cov: 304 ft: 1174 corp: 100/6160b lim: 93 exec/s: 0 rss: 33Mb L: 30/93 MS: 4 PersAutoDict-InsertByte-CopyPart-CopyPart- DE: "o.d.8{"-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo. .d.f.{ .ooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.ooo. .d.f.{ .ooooo
+  ^--- error here
+#320	REDUCE cov: 304 ft: 1174 corp: 100/6157b lim: 93 exec/s: 0 rss: 33Mb L: 76/93 MS: 2 InsertByte-EraseBytes-
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc 
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc  mab0e'2      #     #   &      ;)m
+  ^--- error here
+#322	NEW    cov: 304 ft: 1181 corp: 101/6234b lim: 93 exec/s: 0 rss: 33Mb L: 77/93 MS: 2 CMP-CrossOver- DE: "\001\000\000\000\000\000\000m"-
+Parse error near line 1: near "t": syntax error
+  t .`Od`o.d.8{d.8{ROMsto.d.8`M 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t ]`Od`o.d.8{d.8{ROMsto.d.8`M 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t ]]`Od`o.d.8{d.{ROMsto.d.8`M 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t ]]`Od`o.d.8{d.{RORsto.d.8`M 
+  ^--- error here
+Parse error near line 1: near "4": syntax error
+  4 ]]`Od`o.d.8{d.{RORsto.d.8`M 
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; E   i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; E   i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; E   i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?d.f.}ooo. ÿ­ "  ; E   i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?d.f.}ooo. ÿ­ "  ; E   i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc       #     #   &      ;)m
+  ^--- error here
+#333	NEW    cov: 304 ft: 1185 corp: 102/6319b lim: 93 exec/s: 0 rss: 33Mb L: 85/93 MS: 1 CMP- DE: "\000\000\000\000\000\000\000\000"-
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ):~~~~~~y
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ):~~~~~~y
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ):~~~~~~y
+  ^--- error here
+Parse error near line 1: near "q": syntax error
+  q~”tiees ):~~~~~~y
+  ^--- error here
+#337	NEW    cov: 304 ft: 1187 corp: 103/6411b lim: 93 exec/s: 0 rss: 33Mb L: 92/93 MS: 4 ChangeBinInt-PersAutoDict-ShuffleBytes-CopyPart- DE: "\377\030"-
+Parse error near line 1: near "q”ti": syntax error
+  q”ti;ees 
+  ^--- error here
+Parse error near line 1: near "q”ti": syntax error
+  q”ti;ees i
+  ^--- error here
+Parse error near line 1: near "q”ti": syntax error
+  q”ti;ees i
+  ^--- error here
+Parse error near line 1: near "q”ti": syntax error
+  q”ti;ees i
+  ^--- error here
+Parse error near line 1: near "q”ti": syntax error
+  q”ti;ees i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; *E   iÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; *E   i‚ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; *E   i‚ÿÿÿÿÿãİİİİİŞ")/ÜÜÜ" Ü"."=ãããããÿÿÿÿÿÿã
+  ^--- error here
+#345	NEW    cov: 304 ft: 1188 corp: 104/6497b lim: 93 exec/s: 0 rss: 33Mb L: 86/93 MS: 3 InsertByte-InsertByte-CrossOver-
+Parse error near line 1: near ",": syntax error
+  ,t `Odu* `ROMsææææææææææææææt `M `mp
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t `Odu* `ROMsææææææææææææææt `M ;`mp
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t `Odu* `Ræææææææææt `M ;`mp
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t `Odu* `Ræææææææææt `M ;`mpo.d.8{
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t `Odu* `Ræææææææææt. `
+  ^--- error here
+#350	NEW    cov: 304 ft: 1189 corp: 105/6521b lim: 93 exec/s: 0 rss: 33Mb L: 24/93 MS: 5 InsertRepeatedBytes-InsertByte-EraseBytes-PersAutoDict-CrossOver- DE: "o.d.8{"-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿà": syntax error
+  ÿà.oooo
+  ^--- error here
+Error: unknown command or invalid arguments:  ".d.{". Enter ".help" for help
+Parse error near line 2: near "ÿà": syntax error
+  ÿà.oooo
+  ^--- error here
+#353	NEW    cov: 304 ft: 1192 corp: 106/6614b lim: 93 exec/s: 0 rss: 33Mb L: 93/93 MS: 3 ChangeByte-ChangeByte-CopyPart-
+Parse error near line 1: incomplete input
+Parse error near line 1: incomplete input
+Parse error near line 1: incomplete input
+Parse error near line 1: incomplete input
+Parse error near line 1: incomplete input
+Error: unknown command or invalid arguments:  "`d..¿d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "t<5S". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d..¿d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "t<5S". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d..¿d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "t<5S". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d..¿d.d.{d.". Enter ".help" for help
+Error: cannot open ")EzECTLd/{"
+Error: unknown command or invalid arguments:  ".". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d..¿d.d.{d.". Enter ".help" for help
+Error: cannot open ")EzECTLd/{"
+Error: unknown command or invalid arguments:  "@.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 1: near "SELvECT": syntax error
+  SELvECT 2<<62;
+  ^--- error here
+Parse error near line 1: near "SELTv": syntax error
+  SELTv 2CE<<62;
+  ^--- error here
+Parse error near line 1: near "SELTv": syntax error
+  SELTv 2CE<<62
+  ^--- error here
+Parse error near line 1: near "SELTv": syntax error
+  SELTv C2E<<62
+  ^--- error here
+Parse error near line 1: near "SELTv": syntax error
+  SELTv C2E8<62
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC/oC?sch[mab?sch[mable'4);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?sch[mab?sch[mable'4);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?scndo{. .d4);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?scnœ…. .d4);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?scnœ….d4);
+  ^--- error here
+#373	NEW    cov: 305 ft: 1193 corp: 107/6643b lim: 93 exec/s: 0 rss: 33Mb L: 29/93 MS: 5 ChangeASCIIInt-ChangeBit-CrossOver-ChangeBinInt-CopyPart-
+Parse error near line 1: no such function: absÿÿÿÿÿÿÿÿx
+  SELECT absÿÿÿÿÿÿÿÿx(05)Ms, length('hello');
+         ^--- error here
+Parse error near line 1: no such function: absÿÿÿÿÿÿÿÿx
+  SELECT absÿÿÿÿÿÿÿÿx(05)Ms, length('iello');
+         ^--- error here
+Parse error near line 1: no such function: bsÿÿÿÿÿÿÿÿx
+  SELECT ~bsÿÿÿÿÿÿÿÿx(05)Ms, length('iello');
+          ^--- error here
+Parse error near line 1: unrecognized token: "\"
+  SELECT ~bsÿÿÿÿÿÿÿÿx(05)Ms, l\ngth('iello');
+                error here ---^
+Parse error near line 1: near "SELE2T": syntax error
+  SELE2T ~bsÿÿÿÿÿÿÿÿx(05)Ms, l\ngth('iello');
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`O$u* `ROMst `M `mp
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`O$u* `ROMst›››››››››››››››››››››››››››››››››››››››››››››››››››››››››› `M `
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`O$%* `ROMst›››››››››››››››››››››››››››››››››››››››››››››››››››››››››› `M `
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`O$%* `ROMst››››››››››››#   &   
+  ^--- error here
+#382	NEW    cov: 305 ft: 1194 corp: 108/6733b lim: 93 exec/s: 0 rss: 33Mb L: 90/93 MS: 4 ChangeBit-InsertRepeatedBytes-ChangeByte-CrossOver-
+#383	NEW    cov: 305 ft: 1195 corp: 109/6756b lim: 93 exec/s: 0 rss: 33Mb L: 23/93 MS: 1 ChangeBit-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}oooioo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}oooioo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+#386	NEW    cov: 305 ft: 1200 corp: 110/6849b lim: 93 exec/s: 0 rss: 33Mb L: 93/93 MS: 3 PersAutoDict-ChangeBit-CrossOver- DE: "\344\000\000\000"-
+Parse error near line 1: near "VAL4": syntax error
+  INSERT INTO t VAL4);
+                ^--- error here
+Parse error near line 1: near "%": syntax error
+  %CREATE TABLE t(a,········b); INSERT INTO t VAL4);
+  ^--- error here
+Parse error near line 1: near "%": syntax error
+  %CREATE TABLE t(a,········b); INSERT INTO t VAL8);
+  ^--- error here
+Parse error near line 1: near "%": syntax error
+  %CREATE TABLE t(a,········b); INSERTITN O t VAL8);
+  ^--- error here
+#390	NEW    cov: 305 ft: 1201 corp: 111/6900b lim: 93 exec/s: 0 rss: 33Mb L: 51/93 MS: 4 ChangeASCIIInt-InsertByte-ChangeASCIIInt-ShuffleBytes-
+Parse error near line 1: near "t": syntax error
+  t .`Odu* 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Odu* 
+  ^--- error here
+#392	REDUCE cov: 305 ft: 1201 corp: 111/6892b lim: 93 exec/s: 0 rss: 33Mb L: 15/93 MS: 2 CMP-EraseBytes- DE: "SELECT"-
+Parse error near line 1: near "/": syntax error
+  /oC?scl[mable'2);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?scl[mhble'2);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oble'2);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /o);
+  ^--- error here
+Parse error near line 2: unrecognized token: "'2);"
+  '2);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /o);
+  ^--- error here
+Parse error near line 2: near "'2));
+'": syntax error
+  '2)); '2);
+  ^--- error here
+#397	NEW    cov: 305 ft: 1204 corp: 112/6908b lim: 93 exec/s: 0 rss: 33Mb L: 16/93 MS: 5 ChangeBit-ChangeBinInt-EraseBytes-CopyPart-CopyPart-
+Parse error near line 1: near "İßİİİŞ": syntax error
+  İßİİİŞ")".dÿf                            "."""
+  ^--- error here
+Parse error near line 1: near "İßİİİŞ": syntax error
+  İßİİİŞ")".dÿf                            "."""
+  ^--- error here
+Parse error near line 1: near "İßİİİŞ": syntax error
+  İßİİİŞ")".dÿf                            "."""
+  ^--- error here
+Parse error near line 1: near "İßİİİŞ": syntax error
+  İßİİİŞ")".dÿf                            "."""
+  ^--- error here
+Parse error near line 1: near "İßİİ": syntax error
+  İßİİ                 "."""
+  ^--- error here
+#402	NEW    cov: 305 ft: 1205 corp: 113/6978b lim: 93 exec/s: 0 rss: 33Mb L: 70/93 MS: 5 ChangeBinInt-ShuffleBytes-PersAutoDict-ChangeBit-EraseBytes- DE: "o.d.8{"-
+Parse error near line 1: near "/": syntax error
+  /oC?sch[mable'
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oCble'
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oCble'
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oCbl€e'
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oClb€e'
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Od`o.d.8{d.8{ROMstÙŸ²ßŸŸ²ß
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Od`o.d.8{d.8{ROMstÙŸ²ß²ŸŸß
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Od`o.d.4{d.8{ROMstÙŸ²ß²ŸŸß
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Od`ot .`Od`o.dOMstÙŸ²ß²ŸŸß
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Od`ot .`Od`o.dOMstÙŸ²ß²ŸŸß
+  ^--- error here
+Error: unknown command or invalid arguments:  ".d.{". Enter ".help" for help
+Parse error near line 2: near "ÿà": syntax error
+  ÿà.oooo
+  ^--- error here
+Error: unknown command or invalid arguments:  ".d.{". Enter ".help" for help
+Parse error near line 2: near "ÿà": syntax error
+  ÿà.oooo
+  ^--- error here
+Error: unknown command or invalid arguments:  ".d.{". Enter ".help" for help
+Parse error near line 2: near "ÿà": syntax error
+  ÿà.oooo
+  ^--- error here
+#415	REDUCE cov: 305 ft: 1205 corp: 113/6953b lim: 93 exec/s: 0 rss: 33Mb L: 68/93 MS: 3 ShuffleBytes-ChangeBit-EraseBytes-
+Parse error near line 1: near "CREA": syntax error
+  CREA\E TABLE WHERE·······b); INS
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA\E TABLE WHERE·······b); INS
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA\E TABÌE WHERE·······b); INS
+  ^--- error here
+#418	NEW    cov: 305 ft: 1206 corp: 114/7022b lim: 93 exec/s: 0 rss: 33Mb L: 69/93 MS: 3 CMP-CopyPart-ChangeBit- DE: "WHERE"-
+Parse error near line 1: near "SELECTsab": syntax error
+  SELECTsab ÿÿÿÿÿÿÿÿx(41), lengt2h('hello')EL
+  ^--- error here
+Parse error near line 1: near "dumSELECTsab": syntax error
+  dumSELECTsab ÿÿÿÿÿÿÿÿx(41), lengt2h('hello')EL
+  ^--- error here
+Parse error near line 1: near "dumSELECTsab": syntax error
+  dumSELECTsab ÿÿÿÿÿÿÿÿx(41), lengt2h('hello')EL
+  ^--- error here
+Parse error near line 1: near "dumSELECTsab": syntax error
+  dumSELECTsab ÿÿÿÿÿÿÿÿx(41), lengt3h('hello')EL
+  ^--- error here
+Parse error near line 1: near "dumSELECTsab": syntax error
+  dumSELECTsab ÿÿÿÿÿÿÿÿx(41), lengt3h('d.f.}ooo.
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  "  ; E:   i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ÿ ­ ;
+  ^--- error here
+Parse error near line 4: near "E": syntax error
+  E:   i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ÿ ­ ;
+  ^--- error here
+Parse error near line 4: near "E": syntax error
+  E:  ;
+  ^--- error here
+Parse error near line 7: near "E": syntax error
+  E i
+  ^--- error here
+#426	NEW    cov: 305 ft: 1229 corp: 115/7049b lim: 93 exec/s: 0 rss: 33Mb L: 27/93 MS: 3 InsertByte-ShuffleBytes-CopyPart-
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; E   iÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ä iÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+#428	NEW    cov: 305 ft: 1232 corp: 116/7135b lim: 93 exec/s: 0 rss: 33Mb L: 86/93 MS: 2 CMP-PersAutoDict- DE: "\000\002"-"\344\000\000\000"-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.ooo. .`.f.{ .ooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.ooo. .`.f.{ .oooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.ooo. .`.f.{ .oooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.ooo. .`.f.{ .oooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.ooo. .`.f.{ .oooooo
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC/oC?sch[mab?sch[mable'+);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC/oC?sch[mab/oC/oC?sce'+);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC/oC?sch[mab/oC/o
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC/oC?sch[mab/oC/o
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC/oC?sch[mab/oC/o
+  ^--- error here
+Parse error near line 1: near "ÿ": syntax error
+  ÿ ( E
+  ^--- error here
+Parse error near line 1: near "ÿcE": syntax error
+  ÿcE
+  ^--- error here
+#440	NEW    cov: 305 ft: 1233 corp: 117/7143b lim: 93 exec/s: 0 rss: 33Mb L: 8/93 MS: 2 EraseBytes-PersAutoDict- DE: "c\000"-
+Error: unknown command or invalid arguments:  "T". Enter ".help" for help
+Error: unknown command or invalid arguments:  "T". Enter ".help" for help
+#442	NEW    cov: 305 ft: 1235 corp: 118/7183b lim: 93 exec/s: 0 rss: 33Mb L: 40/93 MS: 2 ChangeBit-CopyPart-
+Parse error near line 1: unrecognized token: ""
+   ;Ei
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;Ei
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;Ei
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;Ei
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;Ei
+  ^--- error here
+Parse error near line 1: near "TABLÿ": syntax error
+  CREATE TABLÿE t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿ÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b) INZb); INSEPT
+         ^--- error here
+Parse error near line 1: near "TABL": syntax error
+  CREATE TABL
+         ^--- error here
+Parse error near line 1: near "TABL": syntax error
+  CREATE TABL
+         ^--- error here
+Parse error near line 1: near "TABL": syntax error
+  CREATE TABL
+         ^--- error here
+Parse error near line 1: near "?": syntax error
+  ?REATE TABL
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.d.f.}ooo..d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.f.}ooo..d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.f.}ooo..d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.f.}ooo..d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.f.}ooo..d.d.{". Enter ".help" for help
+Parse error near line 1: near "SELOCT": syntax error
+  SELOCT 2.{ .d<<62;
+  ^--- error here
+#458	NEW    cov: 305 ft: 1236 corp: 119/7254b lim: 93 exec/s: 0 rss: 33Mb L: 71/93 MS: 1 InsertByte-
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees …[=
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees …[=
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees $…[=
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees $…Á[=
+  ^--- error here
+#462	NEW    cov: 305 ft: 1238 corp: 120/7343b lim: 93 exec/s: 0 rss: 33Mb L: 89/93 MS: 4 ChangeBinInt-ChangeByte-InsertByte-ChangeBit-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo\E". Enter ".help" for help
+#464	NEW    cov: 305 ft: 1243 corp: 121/7425b lim: 93 exec/s: 0 rss: 33Mb L: 82/93 MS: 2 PersAutoDict-EraseBytes- DE: "st"-
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc       #     #      ;)m
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc   2   #     #      ;)m
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc   2   #     #      )m
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc   2   #     #      )m
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc   2   #     #      )m
+  ^--- error here
+Parse error near line 1: near "SELECTsqlite_master": syntax error
+  SELECTsqlite_master 2<<62;
+  ^--- error here
+Parse error near line 1: near "SELECTsqlite_master": syntax error
+  SELECTsqlite_master 1<<62;
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ELECTsqlite_master 1<<62;
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ELECTsqlite_master 1<<63;
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ELECTsqlite_master +<<63;
+  ^--- error here
+Parse error near line 1: near "t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­": syntax error
+  t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­ .`Odu* `ROMst `M `mp
+  ^--- error here
+Parse error near line 1: near "t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­Z": syntax error
+  t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­Z .`Odu* `ROMst `M `mp
+  ^--- error here
+Parse error near line 1: near "t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­Z": syntax error
+  t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­Z ROMst.`Odu* `ROMst `
+  ^--- error here
+Parse error near line 1: unrecognized token: "0t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­Z"
+  0t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­Z ROMst.`Odu* `ROMst 
+  ^--- error here
+#478	NEW    cov: 305 ft: 1244 corp: 122/7510b lim: 93 exec/s: 0 rss: 33Mb L: 85/93 MS: 4 InsertRepeatedBytes-ChangeBinInt-CopyPart-InsertByte-
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" "Ü."=ããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããã
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" "Ü."=ãããããããããããããããããããããããããããããããããããããããããâããããããããããããããããããããããããã
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" "Ü."=ãããããããããããããããããããããããããããããããããããããããããâããããããããããããããããããããããããã
+  ^--- error here
+#481	NEW    cov: 305 ft: 1245 corp: 123/7603b lim: 93 exec/s: 0 rss: 33Mb L: 93/93 MS: 3 InsertByte-ChangeBit-PersAutoDict- DE: "i\000\000\000"-
+Parse error near line 1: unrecognized token: ""
+   
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  E······ ·b); IN S
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  E······ ·b); IN S
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}oooioo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo.d.f.}oooioo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo.d.f.}oooioo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooooioo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooioo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d.{.d". Enter ".help" for help
+Parse error near line 3: near "L": syntax error
+  L/E{. . .d.d.{ .t WHERE x<5) SELECT *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{.d". Enter ".help" for help
+Parse error near line 3: near "L": syntax error
+  L/{E. . .d.d.{ .t WHERE x<5) SELECT *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{.d". Enter ".help" for help
+Parse error near line 3: near "L": syntax error
+  L/{E. oooooooc.d.d.{ .o.d. *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{.d". Enter ".help" for help
+Error: cannot open "x<5o.d.8{/{E."
+Parse error near line 3: near "oooooooc": syntax error
+  oooooooc.d.d.{ .o.d. *d.
+  ^--- error here
+#495	NEW    cov: 305 ft: 1252 corp: 124/7669b lim: 93 exec/s: 0 rss: 33Mb L: 66/93 MS: 4 EraseBytes-ShuffleBytes-CrossOver-PersAutoDict- DE: "o.d.8{"-
+Parse error near line 1: near "ÿEE": syntax error
+  ÿEE
+  ^--- error here
+Parse error near line 1: near "çççççççççççççççççççççççççççççççççççççççççççççççççççççÿEE": syntax error
+  çççççççççççççççççççççççççççççççççççççççççççççççççççççÿEE
+  ^--- error here
+Parse error near line 1: near "ççççççççççççççç0çççççççççççççççççççççççççççççççççççççÿEE": syntax error
+  ççççççççççççççç0çççççççççççççççççççççççççççççççççççççÿEE
+  ^--- error here
+Parse error near line 1: near "ççççççççççççççç0çççççççççççççççççççççççççççççççççççççÿEE": syntax error
+  ççççççççççççççç0çççççççççççççççççççççççççççççççççççççÿEE
+  ^--- error here
+Parse error near line 1: near "çççççççççççççççç0ççççççççççççççççççççççççççççççççççççÿEE": syntax error
+  çççççççççççççççç0ççççççççççççççççççççççççççççççççççççÿEE
+  ^--- error here
+Parse error near line 12: unrecognized token: ""
+   #   &      ;
+  ^--- error here
+Parse error near line 29: unrecognized token: ""
+   #     #       SE     r.Q
+  ^--- error here
+Parse error near line 1: near ">": syntax error
+  >        #    #   &      ;
+  ^--- error here
+Parse error near line 29: unrecognized token: ""
+   #     #       SE     r.Q
+  ^--- error here
+#502	NEW    cov: 305 ft: 1258 corp: 125/7762b lim: 93 exec/s: 0 rss: 33Mb L: 93/93 MS: 2 CopyPart-ChangeBit-
+Parse error near line 1: unrecognized token: ""
+  ÿ &­ ;
+  ^--- error here
+Parse error near line 4: near "E": syntax error
+  E:  ;
+  ^--- error here
+Parse error near line 7: near "E": syntax error
+  E i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ÿE i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ÿE i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oIC'
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oICÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊ'
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oICÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊ'
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oICÊÊÊÊÊÊÊÊ'((h'ÿÿÿûÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊÊ'
+  ^--- error here
+#511	NEW    cov: 305 ft: 1260 corp: 126/7855b lim: 93 exec/s: 0 rss: 33Mb L: 93/93 MS: 4 ShuffleBytes-InsertRepeatedBytes-ChangeASCIIInt-CrossOver-
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "tputi": syntax error
+  tputi
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "tputi": syntax error
+  tputi
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "tputiŸ²ßdm": syntax error
+  tputiŸ²ßdm
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .;
+  ^--- error here
+Parse error near line 2: near "tp": syntax error
+  tp;
+  ^--- error here
+Parse error near line 3: near "tŸ²ßdm": syntax error
+  tŸ²ßdm
+  ^--- error here
+#515	REDUCE cov: 305 ft: 1260 corp: 126/7837b lim: 93 exec/s: 0 rss: 33Mb L: 18/93 MS: 4 EraseBytes-ChangeBinInt-EraseBytes-CopyPart-
+Error: unknown command or invalid arguments:  "½""fÿÿÿÿÿÿÿ/ÜÜ\\ÜÜABLE". Enter ".help" for help
+#516	NEW    cov: 305 ft: 1261 corp: 127/7879b lim: 93 exec/s: 0 rss: 33Mb L: 42/93 MS: 1 ChangeByte-
+Error: unknown command or invalid arguments:  "½""fÿÿÿÿÿÿÿ/ÜÜ\\ÜÜABLE". Enter ".help" for help
+Error: unknown command or invalid arguments:  "½""fÿÿÿÿÿÿÿÿÿÿ/ÜÜ\\ÜÜABLE". Enter ".help" for help
+Error: unknown command or invalid arguments:  "½""fÿÿÿÿÿÿÿÿÿÿ/ÜÜ\\ÜÜABLE". Enter ".help" for help
+Error: unknown command or invalid arguments:  "½""fÿÿÿÿÿTEBLoutput". Enter ".help" for help
+Error: unknown command or invalid arguments:  "½""fÿÿÿÿÿTEBLoutput". Enter ".help" for help
+Parse error near line 1: near "": syntax error
+  ;
+  ^--- error here
+Parse error near line 2: unrecognized token: ""
+    i
+  ^--- error here
+Parse error near line 1: near "": syntax error
+  ;
+  ^--- error here
+Parse error near line 2: unrecognized token: ""
+   
+  ^--- error here
+Parse error near line 1: near "": syntax error
+  ;
+  ^--- error here
+Parse error near line 2: unrecognized token: ""
+    ¼
+  ^--- error here
+Parse error near line 1: near "": syntax error
+  ;
+  ^--- error here
+Parse error near line 2: unrecognized token: ""
+  
+  ^--- error here
+Parse error near line 1: near "": syntax error
+  ;
+  ^--- error here
+Parse error near line 2: unrecognized token: ""
+   
+  ^--- error here
+#526	NEW    cov: 305 ft: 1262 corp: 128/7922b lim: 93 exec/s: 0 rss: 33Mb L: 43/93 MS: 5 EraseBytes-InsertRepeatedBytes-ShuffleBytes-EraseBytes-ChangeBinInt-
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+#527	REDUCE cov: 305 ft: 1262 corp: 128/7920b lim: 93 exec/s: 0 rss: 33Mb L: 33/93 MS: 1 EraseBytes-
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ä iÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ä iÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ-ÿÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ä iÿÿÿÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ-ÿÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ä*d.  iÿÿÿÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ-ÿÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?scÿÿÿÿÿd.  iÿÿÿÿÿÿÿÿÿÿÿÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ-ÿÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{.d". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d.{.d". Enter ".help" for help
+#534	NEW    cov: 305 ft: 1263 corp: 129/7956b lim: 93 exec/s: 0 rss: 33Mb L: 36/93 MS: 2 EraseBytes-ChangeBinInt-
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees 
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees '
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees '"=
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees '"=w
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('engÿÿÿÿÿÿÿÿÿÿ. .d.f.{ .,eng'((h'ÿÿÿûÁÁÁhe
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('engÿÿÿÿÿÿÿÿÿÿ. .d.f.{ .,eng'((hÿÿÿûÁÁÁhe
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('engÿÿÿÿÿÿÿÿÿÿ. .d.f.{'engÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿ .d.f.{'engÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿ .d.f.{'engÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "ÿcE": syntax error
+  ÿcE
+  ^--- error here
+Parse error near line 1: near "ÿcE": syntax error
+  ÿcE
+  ^--- error here
+Parse error near line 1: near "ÿcE": syntax error
+  ÿcE
+  ^--- error here
+Parse error near line 1: near "cÿE": syntax error
+  cÿE
+  ^--- error here
+Parse error near line 1: near "cÿE": syntax error
+  cÿE
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?scnœ….d4);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?scnd.d. .d4);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?scnd.d. .d4);/oC¯oC?scnd.d. 
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?sc.nd.d. .d4);/oC¯oC?scnd.d. 
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?sc.nd.d. .d4. .d4)oC?scnd.d. 
+  ^--- error here
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 38: unrecognized token: ""
+     SE     r.Q
+  ^--- error here
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 38: unrecognized token: ""
+     SE     r.Q
+  ^--- error here
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 38: unrecognized token: ""
+     SE     r.Q
+  ^--- error here
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 38: unrecognized token: ""
+     SE     r.Q
+  ^--- error here
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 28: unrecognized token: ""
+     SE     r.Q
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿoooooooÿÿÿÿLTAÿ E t(a,·*·,·ÿ·ÿoutputÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿoooooooÿÿÿÿLTAÿ E t(a,·*·,·ÿ·ÿo
+  ^--- error here
+Parse error near line 1: near "o": syntax error
+  o.d.{ ÿoooooooÿÿÿÿLTAÿ E t(a,·*·,·ÿ·ÿo
+  ^--- error here
+Parse error near line 1: near "E": syntax error
+  E TABLE t(a,····st··b); INS
+  ^--- error here
+Parse error near line 1: near "E": syntax error
+  E TABLE t(a,····st··b); INS
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{.ddu*". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 6: near "*": syntax error
+  *ÿ 
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{.ddu*". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Unknown option "-" on ".dump"
+Parse error near line 6: near "*": syntax error
+  *ÿ 
+  ^--- error here
+#566	NEW    cov: 309 ft: 1267 corp: 130/8013b lim: 93 exec/s: 0 rss: 33Mb L: 57/93 MS: 2 ChangeBit-ChangeBit-
+Error: unknown command or invalid arguments:  ".". Enter ".help" for help
+#567	NEW    cov: 309 ft: 1269 corp: 131/8015b lim: 93 exec/s: 0 rss: 33Mb L: 2/93 MS: 1 CrossOver-
+Parse error near line 1: near "CREA": syntax error
+  CREA\E TABÌE WHERE·······b); INS
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA\E )ABÌE WHERE·······b); INS
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA\E )ABÌE WHERE·······b); INS
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA\E )ABÌE WHERE·······b); INS
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA\E )ABÌE WHEREx<5) SELd/{ . . .d.d.·······b); INS
+  ^--- error here
+Parse error near line 1: near "i": syntax error
+  i
+  ^--- error here
+#573	REDUCE cov: 309 ft: 1269 corp: 131/8009b lim: 93 exec/s: 0 rss: 33Mb L: 17/93 MS: 1 EraseBytes-
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees $…Á…[=
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees $…Á…[=
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ×$…Á…[=
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ×$…Á…[=
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ×$…ÁV
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t `Odu* `ROMM `mp
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t `OROMM `mp
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t `OROMMMM `mp `mp
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,| `OROMMMM `mp `mp
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,| `OROMMMM `mp `mp
+  ^--- error here
+Parse error near line 1: near "İßİİİŞ": syntax error
+  İßİİİŞ")".dÿ              "."""            "."""
+  ^--- error here
+Parse error near line 1: near "İßİİİŞ": syntax error
+  İßİİİŞ")".dÿ              ".""*"            "."""
+  ^--- error here
+Parse error near line 1: near "İßİİİŞ": syntax error
+  İßİİİŞ")".dÿ          ".""*"            "."""
+  ^--- error here
+Parse error near line 1: near "İßİİİŞ": syntax error
+  İßİİİŞ")".dÿ          ".""*"
+  ^--- error here
+Parse error near line 1: near "İßİİİŞz": syntax error
+  İßİİİŞz")".dÿ          ".""*"
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc       #     #   &      ;)m
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc       #     #   &      ;)m
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc    &      ;)m
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc    &      ;)m
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?¶sc    &      ;)m
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees $…ÁQ[=
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees $…ÁQ[=
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees $…ÁQ[
+  ^--- error here
+Parse error near line 1: near "q”tieås": syntax error
+  q”tieås $…ÁQ[
+  ^--- error here
+Parse error near line 1: near "q”tieås": syntax error
+  q”tieås d.f.}ooo.…ÁQ[
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Od`o.d.8{d.8{ROMsÿÿÿÿÿÿÿÿÿÿÿt `M ``M 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Od`o.d.8{d.8{ROMsÿÿÿÿÿÿÿÿÿÿÿt `M j`M 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Od`o.d
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t/ .`Od`o.d
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t/ ÿÿÿÿÿÿÿo.`Od`o.d
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  (((((((((((((((((
+  ^--- error here
+#605	NEW    cov: 309 ft: 1270 corp: 132/8040b lim: 93 exec/s: 0 rss: 33Mb L: 31/93 MS: 2 ShuffleBytes-InsertRepeatedBytes-
+Parse error near line 2: near "E": syntax error
+  E   i
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E   i¯
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E    ¯
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E  ¼  ¯
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E  ¼   
+  ^--- error here
+#610	NEW    cov: 309 ft: 1271 corp: 133/8053b lim: 93 exec/s: 0 rss: 33Mb L: 13/93 MS: 5 ShuffleBytes-ChangeByte-CopyPart-ShuffleBytes-ChangeByte-
+Parse error near line 1: near "t": syntax error
+  t d.O`u* `RMsOtàŸ²ßOdu* `RMsOtàŸ²ßŸc’
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O`u* `RNsOtàŸ²ßOdu* `RMsOtàŸ²ßŸc’
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t `.O`u* `RNsOtàŸ²ßOdu* `RMsOtàŸ²ßŸc’
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t `.`RNsOtàŸ²ßOdu* `RMsOtàŸ²ßŸc’
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t `.`RNsOtàŸ²ßOdu* `RYsOtàŸ²ßŸc’
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf                     "."""                    "."""
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf                     "."""             *d.    "."""
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf                     "."""             *d.    "."""
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf                     "."""             *d.    )."""
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf   iees f             *d.    ).
+  ^--- error here
+#620	NEW    cov: 309 ft: 1272 corp: 134/8144b lim: 93 exec/s: 0 rss: 33Mb L: 91/93 MS: 5 InsertByte-PersAutoDict-ChangeBit-ChangeBinInt-CrossOver- DE: "*d."-
+Parse error near line 1: near "%": syntax error
+  %CREATE TABLE t(a,········b t VAL8);
+  ^--- error here
+Parse error near line 1: near "%": syntax error
+  %CREATE TABLE ti
+  ^--- error here
+Parse error near line 1: near "%": syntax error
+  %CREATE TABLE ti
+  ^--- error here
+Parse error near line 1: near "%": syntax error
+  %CREATE TABLE ti
+  ^--- error here
+Parse error near line 1: near "%": syntax error
+  %CREATE TABLE ti
+  ^--- error here
+Error: unknown command or invalid arguments:  "T". Enter ".help" for help
+Error: unknown command or invalid arguments:  "T". Enter ".help" for help
+Error: unknown command or invalid arguments:  "T". Enter ".help" for help
+Error: unknown command or invalid arguments:  "T". Enter ".help" for help
+Error: unknown command or invalid arguments:  "T". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo   #   &  ­   ;
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo   #   &  ­   ;
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo   #   &  ­   ;
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo   #   &  ­   ;
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo   #   &  ­   ;
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees d.f.}ooo
+  ^--- error here
+Parse error near line 1: near "qÔtiees": syntax error
+  qÔtiees d.f.}ooo
+  ^--- error here
+Parse error near line 1: near "qÔtiees": syntax error
+  qÔtiees d.f.}o
+  ^--- error here
+Parse error near line 1: near "qÔtiees": syntax error
+  qÔtiees d.f.}o
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ./ooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ./ooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ./ooo
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; E   iÿÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; E   i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; E   i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; E   i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /‘¼ÀŒœÀŒ”"  ; E   i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /@oC?sch[mable'2);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /@oC?sch[mable'0);
+  ^--- error here
+#653	NEW    cov: 311 ft: 1274 corp: 135/8163b lim: 93 exec/s: 0 rss: 33Mb L: 19/93 MS: 3 InsertByte-ChangeASCIIInt-CMP- DE: "\000\000\000\000\000\000\000\000"-
+Parse error near line 1: near "CREATEBLTAÿ": syntax error
+  CREATEBLTAÿ E t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "CREATEBLTAÿ": syntax error
+  CREATEBLTAÿ E t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "CREATEBLTAÿ": syntax error
+  CREATEBLTAÿ E t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "CREATEBLTAÿ": syntax error
+  CREATEBLTAÿ E t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "CREATEBLTAÿ": syntax error
+  CREATEBLTAÿ E t(a,·*·,···ÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "q": syntax error
+  q~”tiees )s:~~~~~~y
+  ^--- error here
+Parse error near line 1: near "q": syntax error
+  q~”tiees :~~~~~~y=*d.ÿ
+  ^--- error here
+Parse error near line 1: near "q": syntax error
+  q~”tiees :~~~~~~yab?sch[mabl
+  ^--- error here
+Parse error near line 1: near "q": syntax error
+  q~”tiees :~~~~~~yab?sch[mabl`
+  ^--- error here
+Parse error near line 1: near "q": syntax error
+  q~”tiees :stdout~~~~~yab?sch[mabl`
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('hel$EC0),eng'((h'ÿÿÿ
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('engÿÿÿÿÿÿÿÿÿÿ?scÿÿÿ'h('hel$EC0),eng'((h'ÿÿÿ
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('engÿÿÿÿÿÿÿÿÿÿ?scÿÿÿ'h('hel$IC0),eng'((h'ÿÿÿ
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('engÿÿÿÿÿÿÿÿÿÿ?scÿÿÿ'h('hel$IC0),eng'((h'ÿÿÿ
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('engÿÿÿÿÿÿÿÿÿÿ?œ
+  ^--- error here
+Parse error near line 1: unrecognized token: "0t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­"
+  0t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­* `RO­­­­­­Z ROMst.`Odu* `R
+  ^--- error here
+#669	NEW    cov: 311 ft: 1275 corp: 136/8253b lim: 93 exec/s: 0 rss: 33Mb L: 90/93 MS: 1 CopyPart-
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf   iees ~~wf             *d.    ).
+  ^--- error here
+Parse error near line 1: near "İİİİ": syntax error
+  İİİİİŞ")".dÿf   iees ~~wf             *d.    )
+  ^--- error here
+Parse error near line 1: near "İİİİ": syntax error
+  İİİİİŞ")".dÿf   iees ~~wf            f   
+  ^--- error here
+Parse error near line 1: near "İİİİ": syntax error
+  İİİİİŞ")E".dÿf   iees ~~wf            f  
+  ^--- error here
+Parse error near line 1: near "İİİİ": syntax error
+  İİİİİŞ")E".dÿf   iees ~~wf            mp   
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t `Odu*st `M `mp
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,q”tiA:t `Odu*st `M `mp
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,q”tiA:t `Odu*@t `M `mp
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,q”tiA:t +`Odu*@t `M `mp
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,q”ti
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees 
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees [
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ~~~~
+  ^--- error here
+Parse error near line 1: near "q”tieq": syntax error
+  q”tieq~”esti
+  ^--- error here
+Parse error near line 1: near "t”tieq": syntax error
+  t”tieq~”esti
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooo[". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooo[". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooozoo.oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooo[". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooozoo.oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "dsqlite_master". Enter ".help" for help
+Parse error near line 1: no such column: abÿ
+  SELECT abÿ
+         ^--- error here
+Parse error near line 1: no such column: abÿ
+  SELECT abÿ
+         ^--- error here
+Parse error near line 1: no such column: abÿ
+  SELECT abÿ
+         ^--- error here
+Parse error near line 1: no such column: abÿ
+  SELECT abÿ
+         ^--- error here
+Parse error near line 1: no such column: abÿ
+  SELECT abÿ
+         ^--- error here
+#694	NEW    cov: 311 ft: 1276 corp: 137/8346b lim: 93 exec/s: 0 rss: 33Mb L: 93/93 MS: 5 CMP-ChangeBit-InsertRepeatedBytes-ShuffleBytes-ChangeBinInt- DE: "\377\000"-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.oooooo   #   &      ;
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.". Enter ".help" for help
+#696	NEW    cov: 312 ft: 1280 corp: 138/8351b lim: 93 exec/s: 0 rss: 33Mb L: 5/93 MS: 2 ChangeByte-CrossOver-
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?scnœ….d4);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oä.d4);
+  ^--- error here
+#698	NEW    cov: 312 ft: 1281 corp: 139/8384b lim: 93 exec/s: 0 rss: 33Mb L: 33/93 MS: 2 ShuffleBytes-PersAutoDict- DE: "\344\000\000\000"-
+Parse error near line 1: unrecognized token: ""
+   ;E   i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;E   i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;E   ÿ
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;E   ÿÿ.ooooo
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;E   ÿÿ.ooooo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}ooo.". Enter ".help" for help
+Parse error near line 5: near "oo": syntax error
+  oo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}ooo.". Enter ".help" for help
+Parse error near line 5: near "oo": syntax error
+  oo
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Parse error near line 1: near "CREATEBLTÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  CREATEBLTÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "CREATEBLTÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  CREATEBLTÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Parse error near line 1: near "CREATEBLTÿÿ": syntax error
+  CREATEBLTÿÿ.d.{ ÿ.oooooo
+  ^--- error here
+Parse error near line 1: near "CREATEBLTÿÿ": syntax error
+  CREATEBLTÿÿ.d.{ ÿ.oooooo
+  ^--- error here
+Parse error near line 1: near "CREATEBLTÿÿ": syntax error
+  CREATEBLTÿÿ.d.{ ÿ.oooooo
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Olu* 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Olu* 0t­­­­­­­­­­­­­­­­­­­­­­­­­­
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Olu* 0t­­­­­­­­­­­­­­­­­­­­­­­­­­
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Olu* q0t­­­­­­­­­­­­­­­­­­­­­­­­­­
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Olu* q0t­­­­­­­­­­­­­­½­­­­­­­­­­­
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; *E   i‚ÿÿÿÿÿãİİİİİŞ")/ÜÜÜ" Ü"."=ãããããÿÿÿÿÿÿã
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; *E   i‚ÿÿÿÿÿãİİİİİŞ")/ÜÜÜ" Ü"."=ãããããÿÿÿÿÿÿã
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; *E   i‚ÿÿÿÿÿãİİİİİŞ")/ÜÜÜ" Ü"."=ãããããÿÿÿÿÿÿã
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; *EtàŸ²ßŸ’‚ÿÿÿÿÿãİİİİİŞ")/ÜÜÜ" Ü"."=ãããããÿÿÿÿÿÿã
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc"  ; *EtàŸ²ßŸ’‚ÿÿÿÿÿãİİİİİŞ")ÿÿÿÿÿ/ÜÜÜ" Ü"."=ãããããÿÿÿÿÿÿã
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ="ÿÿÿÿ"""Ü"
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ="ÿÿÿÿ"""Ü~"
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ="ÿÿÿ""ÿ"Ü~"
+  ^--- error here
+#726	NEW    cov: 312 ft: 1282 corp: 140/8400b lim: 93 exec/s: 0 rss: 33Mb L: 16/93 MS: 3 EraseBytes-InsertByte-ShuffleBytes-
+Parse error near line 1: near "/": syntax error
+  /ÜÜŞ" Ü"."=ã)/ÜÜÜ" Ü"."=ããããããããããã".ãããããdÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜŞ" Ü"."=ã)/ÜÜÜ" Ü"."=ãããããããSELECTãããããdÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜŞ" Ü"."=ã)/ÜÜÜ" Ü"
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜŞ" Ü"."=ã)/ÜÜÜ" Ü"
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜŞ" Ü"."=ã)/ÜÜÜ" Ü"
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Od`o.d.8{œÑ8{ROMst `M ``M 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Od`o.d.8{œÑ8{ROMst `M `M 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ`Od`o.d.8{œÑ8{ROMst `M `M 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ`Od`o.d.8ÀÀÀÀÀ`Od`o.d.8{œÑ
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ`Od`o.d.8ÀÀÀÀÀ`Od`o.d.8{œÑ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ="ÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ=";  ÿÿ
+  ^--- error here
+#738	NEW    cov: 312 ft: 1284 corp: 141/8420b lim: 93 exec/s: 0 rss: 33Mb L: 20/93 MS: 2 PersAutoDict-CrossOver- DE: "\027\000\000\000\000\000\000\000"-
+Parse error near line 1: unrecognized token: ""
+  
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  
+  ^--- error here
+#741	NEW    cov: 312 ft: 1286 corp: 142/8430b lim: 93 exec/s: 0 rss: 33Mb L: 10/93 MS: 3 EraseBytes-ChangeBinInt-CMP- DE: "\000\000\000\000\000\000\000\016"-
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees =yV
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees =yV
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees Á=yV
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees Á=y
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees Á=yz
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA/ToC? 
+  ^--- error here
+Parse error near line 1: near "CR": syntax error
+  CR
+  ^--- error here
+Parse error near line 1: near "CR": syntax error
+  CR
+  ^--- error here
+Parse error near line 1: near "*": syntax error
+  *d.
+  ^--- error here
+Parse error near line 1: near "*": syntax error
+  *d.#
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  "  ; E   i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  "  ; EJ  i
+  ^--- error here
+#753	NEW    cov: 312 ft: 1287 corp: 143/8456b lim: 93 exec/s: 0 rss: 33Mb L: 26/93 MS: 2 ChangeBinInt-ChangeBit-
+Parse error near line 1: near "/": syntax error
+  /oC/oC?sch[mab?s5h[mable'2);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC/oC?sch[mab?s5h[mable'4);
+  ^--- error here
+Parse error near line 1: near "C": syntax error
+  C?sch[mab?s5h[mable'4);
+  ^--- error here
+Parse error near line 1: near "C": syntax error
+  C?sch[mab?s5h[ma#ble'4);
+  ^--- error here
+Parse error near line 1: near "C": syntax error
+  C?sch[mb?s5h[ma#ble'4);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oCs?c?sc
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oCs?c?sc
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oCs?c?sc
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oCs?c?sc
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf   iees f             *d.    ).
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf   iees f             *d.    ).
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf   iees Áf             *d.    ).
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf   iees Áf             *d.    )
+  ^--- error here
+Parse error near line 1: near "İİİİİŞ": syntax error
+  İİİİİŞ")".dÿf   iees Áf             *d.    )
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc2  ;
+  ^--- error here
+Parse error near line 4: near "E": syntax error
+  E   i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc2  ;
+  ^--- error here
+Parse error near line 4: near "E": syntax error
+  E îõÿC i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc2  ;
+  ^--- error here
+Parse error near line 4: near "E": syntax error
+  E îõÿC i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc2  ;
+  ^--- error here
+Parse error near line 4: near "E": syntax error
+  E îõÿC i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc2  ;
+  ^--- error here
+Parse error near line 4: near "E": syntax error
+  E mableh[mable'2)m
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{.d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: cannot open "SELd/{"
+Error: unknown command or invalid arguments:  ".d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d.{.d.d.{d.". Enter ".help" for help
+Parse error near line 2: near "®": syntax error
+  ® . .d.d.{ .t WHERE x<5) SELd/{ . ..d.d.{ .t WHERE x<5) SELECT *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{.d.d.{d.". Enter ".help" for help
+Parse error near line 2: near "®": syntax error
+  ® . .d.d.{ .t WHERE x<5) SELd/{ .ÿÿÿÿÿÿ ..d.d.{ .t WHERE x<5) SELECT *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{.d.d.{d.". Enter ".help" for help
+Parse error near line 2: near "®": syntax error
+  ® . .d.d.{ .t WHERE x<5) SELd/{ .ÿÿÿÿÿÿ ..d.d.{ .t WHERE x<5) SELECT *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{.d.d.{d.". Enter ".help" for help
+Parse error near line 2: near "®": syntax error
+  ® . .d.d.{ .t WHERE x<5) SELd/{ .ÿÿÿÿãÿÿ ..d.d.{ .t WHERE x<5) SELECT *d.
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" "Ü."="ÿÿÿÿ"ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ""Ü"
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" "Ü./oC?sc?sc"  ; E ÿÿ 
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" "Ü./oC?sc?sc"  ; E ÿÿ 
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" "Ü./oC?sc?sc"  ; E ÿÿ 
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" "Ü./oC?sc?sc"  ; E ÿÿ 
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{.d.d.{d.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: cannot open "x<5)WHERE/E{."
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d.{.d.d.{dstder". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: cannot open "x<5)WHERE/E{."
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d.{.d.d.{dstder". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: cannot open "x<5)WHERE/E{."
+Parse error near line 5: unrecognized token: "[d.d.{
+.t WHERE x<5) SELECT *d."
+  [d.d.{ .t WHERE x<5) SELECT *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{.d.d.{dstder". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: cannot open "/<5)WHERE/E{."
+Parse error near line 5: unrecognized token: "[d.d.{
+.t WHERE x<5) SELECT *d."
+  [d.d.{ .t WHERE x<5) SELECT *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "`dÉ{.d.d.{dstder". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: cannot open "/<5)WHERE/E{."
+Parse error near line 5: unrecognized token: "[d.d.{
+.t WHERE x<5) SELECT *d."
+  [d.d.{ .t WHERE x<5) SELECT *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "½""fÿÿÿÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "½""fÿÿÿÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "½1""fÿÿÿÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "½1""fÿÿÿÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "½1""fÿÿÿÿÿÿÿ". Enter ".help" for help
+Parse error near line 5: unrecognized token: "`
+
+
+#
+
+
+
+
+#
+
+
+&
+
+
+
+
+
+;
+
+
+
+
+
+#
+
+
+
+
+
+CR"
+  `   #     #   &      ;      #      CR
+  ^--- error here
+#794	NEW    cov: 312 ft: 1289 corp: 144/8506b lim: 93 exec/s: 0 rss: 33Mb L: 50/93 MS: 1 ChangeByte-
+Error: unknown command or invalid arguments:  "`d.{.d". Enter ".help" for help
+Error: cannot open "x<5o.d.8{/{E."
+Parse error near line 3: near "oooooooc": syntax error
+  oooooooc.d.d.{ .o.d. *p
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{.d". Enter ".help" for help
+Error: cannot open "x<5o.d.8{/E."
+Parse error near line 3: near "oooooooc": syntax error
+  oooooooc.d..d.{ .o.d. *p
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{.d". Enter ".help" for help
+Error: cannot open "x<5o.d.8{/E."
+Parse error near line 3: near "oooooooc": syntax error
+  oooooooc.d..d.{ .o.d. *p
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{.d". Enter ".help" for help
+Error: cannot open "x<5o.d.8{/E."
+Parse error near line 3: near "oooooooc": syntax error
+  oooooooc.d..d.{ .o.d. *p
+  ^--- error here
+Parse error near line 2: near "oooooooc": syntax error
+  oooooooc.d..d.{ .o.d. *p
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA/T
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA/T
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA/T¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA/T¨¨¨¨¨Sƒ2¨
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA/T¨¨¨¨¨¨S2¨
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{®d". Enter ".help" for help
+Error: cannot open "x<5o.d.8{/{E."
+Parse error near line 3: near "oooooooc": syntax error
+  oooooooc.d.d.{ .o.d. *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{®d". Enter ".help" for help
+Error: cannot open "x<5o.d.8{/{E."
+Parse error near line 3: near "oooooooc": syntax error
+  oooooooc?????????È.d.d.{ .o.d. *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.{®d". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d.{®d". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d.{d.®". Enter ".help" for help
+Parse error near line 2: near "t": syntax error
+  t WHERE x<5o.dE.8.{
+  ^--- error here
+Parse error near line 1: near "q": syntax error
+  q~”tiees ):~~~~~~y
+  ^--- error here
+Parse error near line 1: near "q": syntax error
+  q~”tiees )~~~~~y=*d.ÿV
+  ^--- error here
+Parse error near line 1: near "q": syntax error
+  q~”tiees WHERE)~~~~~y=*d.ÿ
+  ^--- error here
+Parse error near line 1: near "q": syntax error
+  q~”tiees WHERE/)~~~~~y=*d.
+  ^--- error here
+Parse error near line 1: near "q": syntax error
+  q~”tiees WHERE/)~~~~~y„=*d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "2". Enter ".help" for help
+Parse error near line 1: near "®2": syntax error
+  ®2
+  ^--- error here
+Parse error near line 1: near "®20": syntax error
+  ®20
+  ^--- error here
+Parse error near line 1: near "®2": syntax error
+  ®2
+  ^--- error here
+Parse error near line 1: near "®": syntax error
+  ®`O
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ):¡
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ):¡¡
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees )st:¡¡
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees )st:¡¡[
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees )st:¡¡[
+  ^--- error here
+Parse error near line 1: near "ãİİİİİŞ": syntax error
+  ãİİİİİŞ")du-Ü" Ü".ıııııııııııııııııııııııııııııııııııı"=ããããããããããããã"ã.ããdÿãf
+  ^--- error here
+Parse error near line 1: near "ãİİİİİŞ": syntax error
+  ãİİİİİŞ")du-Ü" Ü".ııııııııııııııııısqlite_masterıııııı"=ããããããããããããã"ã.ããdÿãf
+  ^--- error here
+Parse error near line 1: near "ãİİİİİŞ": syntax error
+  ãİİİİİŞ")du-Ü" Ü".ııııı}ııııııııııısqlite_masterıııııı"=ããããããããããããã"ã.ããdÿãf
+  ^--- error here
+Parse error near line 1: near "ãİİİİİŞ": syntax error
+  ãİİİİİŞ")du-Ü",Ü".ııııı}ııııııııııısqlite_masterıııııı"=ããããããããããããã"ã.ããdÿãf
+  ^--- error here
+Parse error near line 1: near "ãİİİİİŞ": syntax error
+  ãİİİİİŞ")du-Ü",Ü".ııııı}ııııııııııısqlite_masterıııııı"=ããããããããããÿÿÿÿÿÿÿÿÿÿÿã
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sc       /oC?sc?s#     #   &      ;)m
+  ^--- error here
+#830	NEW    cov: 312 ft: 1290 corp: 145/8599b lim: 93 exec/s: 0 rss: 33Mb L: 93/93 MS: 1 CopyPart-
+Parse error near line 1: near "t": syntax error
+  t .`Odu* `M `mp
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Odu* `M
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t
+  ^--- error here
+Parse error near line 1: near "CREA": syntax error
+  CREA/ToC?EÂ
+  ^--- error here
+Parse error near line 1: near "“CREA": syntax error
+  “CREA/ToC?EÂ
+  ^--- error here
+Parse error near line 1: near "“½­º¾Ğ«¸": syntax error
+  “½­º¾Ğ«¸?EÂ
+  ^--- error here
+Parse error near line 1: near "“½­º¾Ğ«¸q”tiees": syntax error
+  “½­º¾Ğ«¸q”tiees ?EÂ
+  ^--- error here
+Parse error near line 1: near "“½­": syntax error
+  “½­:¾Ğ«¸q”tiees ?EÂ
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O®²Œ²Œ°‹ßsqlite_master•••••••••••••••••••••••••••
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O®²Œ²Œ°‹ßsqlite_master•••••••••••••••••••••••••••
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O®²Œ²Œ°‹ßsqlite_master••••••••••••••••••••••••,•••
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O®²Œ²Œ°‹ßsqlite_master••••••••Õ•••••••••••••••,•••
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O®²Œ²Œ°
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Odst `M `m~p
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Odst `M .d.`m~p.
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t .`Oÿst `M .d.`m~p.
+  ^--- error here
+Parse error near line 1: near "ÿÿÿÿOÿst": syntax error
+  ÿÿÿÿOÿst `M .d.`m~p.
+  ^--- error here
+Parse error near line 1: near "ÿÿÿÿOÿst": syntax error
+  ÿÿÿÿOÿst d.`m~p.
+  ^--- error here
+#850	NEW    cov: 312 ft: 1291 corp: 146/8617b lim: 93 exec/s: 0 rss: 33Mb L: 18/93 MS: 5 InsertByte-CrossOver-ChangeByte-CMP-EraseBytes- DE: "\377\377\377\377"-
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees 
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees [
+  ^--- error here
+Parse error near line 1: near "q”C": syntax error
+  q”C
+  ^--- error here
+Parse error near line 1: near "q”C": syntax error
+  q”C
+  ^--- error here
+Parse error near line 1: near "q”C": syntax error
+  q”C
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees 
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ƒ
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ƒ=
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ƒÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo\E". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooo\E". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooo\E". Enter ".help" for help
+Error: unknown command or invalid arguments:  "CREATEBLTAÿd". Enter ".help" for help
+Parse error near line 1: near "&": syntax error
+  &CREATEBLTAÿd .E{
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?/oC¯oC?scnœ…
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?/oC¯oC?scnœ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?oC?scnœ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?&C?scnœ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC¯oC?&C?snœ
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d..¿d.d.{d.". Enter ".help" for help
+Error: cannot open ")ELECTLd/{"
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d.%¿d.d.{d.". Enter ".help" for help
+Error: cannot open ")ELECTLd/{"
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "`d.%¿d.d.{d.". Enter ".help" for help
+Error: cannot open ")ELECTLd/{"
+Error: unknown command or invalid arguments:  "d.d.{". Enter ".help" for help
+Parse error near line 7: near "W": syntax error
+  W.EtRE x<0) SELECT.{ .t *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.%¿d.d.{d.". Enter ".help" for help
+Error: cannot open ")ELECTLd/{"
+Parse error near line 6: near "Ò—": syntax error
+  Ò—.d.{ H W.EtRE x<0) SELECT.{ .t *d.
+  ^--- error here
+Error: unknown command or invalid arguments:  "`d.%¿d.d.{d.". Enter ".help" for help
+Error: cannot open ")ELECTLd/{"
+Parse error near line 6: near "Ò—": syntax error
+  Ò—.d.{ H W.EtRE x<0) SELECT.{ .t *d.
+  ^--- error here
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 24: near "b": syntax error
+  b       #    CR
+  ^--- error here
+Parse error near line 13: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 20: near "b": syntax error
+  b       #    CR
+  ^--- error here
+Parse error near line 13: near "&": syntax error
+  &      ;//////////////////////////////////////// b       #    CR
+  ^--- error here
+#878	NEW    cov: 312 ft: 1293 corp: 147/8707b lim: 93 exec/s: 0 rss: 33Mb L: 90/93 MS: 3 ChangeByte-ChangeBinInt-InsertRepeatedBytes-
+Parse error near line 1: near "/": syntax error
+  /oOC/oC?sch[mab?sch[mable'2);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oOC/oC?s#h[mab?sch[mable'2);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oOC/oC?s#h[mab?sch[mable'Ø);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oOC/oC?s#h[mab?sch["mable'Ø);
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oOC/oC?s#h[mab?sch["mablËe'Ø);
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.{ ÿ.oooooo. .d.f.{ .ooooo
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.{ ÿ.oooooo. .d.f.{ .ooooo
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.{ ÿ.ood.{. .d.f.{ .ooooo
+  ^--- error here
+#886	REDUCE cov: 312 ft: 1293 corp: 147/8672b lim: 93 exec/s: 0 rss: 33Mb L: 55/93 MS: 3 PersAutoDict-ChangeBit-EraseBytes- DE: "st"-
+Parse error near line 1: near "": syntax error
+  ;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E  i
+  ^--- error here
+Parse error near line 1: near "E": syntax error
+  E  ;
+  ^--- error here
+Parse error near line 4: unrecognized token: ""
+  i
+  ^--- error here
+Parse error near line 1: near "E": syntax error
+  E  ;
+  ^--- error here
+Parse error near line 4: unrecognized token: ""
+  i
+  ^--- error here
+Parse error near line 1: near "E": syntax error
+  E  ;
+  ^--- error here
+Parse error near line 4: unrecognized token: ""
+  i
+  ^--- error here
+Parse error near line 1: near "E": syntax error
+  E  ;
+  ^--- error here
+Parse error near line 4: unrecognized token: ""
+  i
+  ^--- error here
+[INTEGRITY] OVERFLOW at sqlite/shell.c:32180:7
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ" "Ü.""=ãããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããã
+  ^--- error here
+#892	NEW    cov: 312 ft: 1295 corp: 148/8764b lim: 93 exec/s: 0 rss: 33Mb L: 92/93 MS: 1 CopyPart-
+Parse error near line 12: near "öõÜõõõÙ÷": syntax error
+  öõÜõõõÙ÷     ;
+  ^--- error here
+Parse error near line 21: unrecognized token: ""
+      #    CR
+  ^--- error here
+Parse error near line 12: near "öõÜõõõÙ÷": syntax error
+  öõÜõõõÙ÷     ;
+  ^--- error here
+Parse error near line 21: unrecognized token: ""
+      #    CR
+  ^--- error here
+Parse error near line 12: near "öõÜõõõÙ÷": syntax error
+  öõÜõõõÙ÷   CR
+  ^--- error here
+Parse error near line 4: unrecognized token: ""
+      #   öõÜõõõÙ÷   CR
+  ^--- error here
+#896	NEW    cov: 312 ft: 1296 corp: 149/8794b lim: 93 exec/s: 0 rss: 33Mb L: 30/93 MS: 4 ChangeBinInt-ShuffleBytes-EraseBytes-ChangeBit-
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees $…Á[=
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees $|…Á[=
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees 
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees 
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees 
+  ^--- error here
+Error: unknown command or invalid arguments:  ".". Enter ".help" for help
+Error: unknown command or invalid arguments:  ".". Enter ".help" for help
+#903	REDUCE cov: 312 ft: 1296 corp: 149/8792b lim: 93 exec/s: 0 rss: 33Mb L: 21/93 MS: 2 ChangeByte-EraseBytes-
+Parse error near line 1: near ",": syntax error
+  ,t `Odu* ÿÿÿÿÿÿÿÿ`Ræææææææææt. `
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t `Odu* ÿÿÿÿÿÿÿÿ`Rææ°ææææææt. `
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t `Odu* ÿÿùÿÿÿÿÿ`Rææ°ææææææt. `
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t `Odu* ÿÿùÿÿÿÿÿ`Rææ°stderrææææææt. `
+  ^--- error here
+Parse error near line 1: near ",": syntax error
+  ,t `Odu* ÿÿùÿÿÿÿÿ`Rææ°stder
+  ^--- error here
+Error: unknown command or invalid arguments:  "ŞİİİİİİŞ")".dÿf". Enter ".help" for help
+Parse error near line 2: near "F": syntax error
+  F            "."""
+  ^--- error here
+Error: unknown command or invalid arguments:  "ŞİİİİİİŞ")". Enter ".help" for help
+#910	NEW    cov: 312 ft: 1299 corp: 150/8846b lim: 93 exec/s: 0 rss: 33Mb L: 54/93 MS: 2 InsertByte-CrossOver-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}ooo.". Enter ".help" for help
+#911	REDUCE cov: 312 ft: 1299 corp: 150/8826b lim: 93 exec/s: 0 rss: 33Mb L: 33/93 MS: 1 EraseBytes-
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.7. .d.f.{ .ooooo
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.7. .d..f.{ .ooooo
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.7. .d..f.{ .ooooµ
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.7. .d..f.{ .ooooµ
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.7. .d..f.{ .ooooµ
+  ^--- error here
+Error: unknown command or invalid arguments:  "ROMst". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ROMst". Enter ".help" for help
+Error: unknown command or invalid arguments:  "RMsOt". Enter ".help" for help
+Error: unknown command or invalid arguments:  "RMsOd.{MOMst". Enter ".help" for help
+Error: unknown command or invalid arguments:  "RMsOd.{-1MOMst". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.}ooo.". Enter ".help" for help
+Parse error near line 13: near "&": syntax error
+  &      ;//////////
+  ^--- error here
+#922	REDUCE cov: 312 ft: 1300 corp: 151/8897b lim: 93 exec/s: 0 rss: 33Mb L: 71/93 MS: 1 CrossOver-
+Parse error near line 1: unrecognized token: ""
+   ;E   i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;E   i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;E   i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;E   i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+   ;E   i
+  ^--- error here
+Parse error near line 1: near "SƒSƒ2": syntax error
+  SƒSƒ2<<26;
+  ^--- error here
+Parse error near line 2: near "2": syntax error
+  2<<26;
+  ^--- error here
+Parse error near line 1: near "ĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞSƒSƒ2": syntax error
+  ĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞSƒSƒ2<<26;
+  ^--- error here
+Parse error near line 2: near "2": syntax error
+  2<<26;
+  ^--- error here
+Parse error near line 1: near "ĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞ2": syntax error
+  ĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞ2<<26;
+  ^--- error here
+Parse error near line 1: near "ĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞ2": syntax error
+  ĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞ2<<26;
+  ^--- error here
+Parse error near line 1: near "ĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞ2": syntax error
+  ĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞĞ2<<26;
+  ^--- error here
+Parse error near line 1: near "ü": syntax error
+  ü
+  ^--- error here
+Parse error near line 1: near "ü": syntax error
+  ü             
+  ^--- error here
+Parse error near line 1: near "ü": syntax error
+  ü             
+  ^--- error here
+Parse error near line 1: near "ü": syntax error
+  ü             
+  ^--- error here
+Parse error near line 1: near "ü": syntax error
+  ü             
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜ ÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜ ÿÿ
+  ^--- error here
+Parse error near line 1: near "Ü": syntax error
+  Ü ÿÿ
+  ^--- error here
+Parse error near line 1: near "Ü": syntax error
+  Ü ÿÿ
+  ^--- error here
+Parse error near line 1: near "Ü": syntax error
+  Ü ÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oIC'
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oIC'
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oIC'
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oIC'
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oIC'
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.ooc.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Parse error near line 1: near "t": syntax error
+  t 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t 
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t   &      ;
+  ^--- error here
+Parse error near line 27: unrecognized token: ""
+     SE     r.Q
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t   &      ;<         #     #       SE     r.Q
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t   &      ;<         #     #    .E  SE     r.Q
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ˆ
+  ^--- error here
+Parse error near line 1: near "q”tiees": syntax error
+  q”tiees ˆ
+  ^--- error here
+Parse error near line 1: near "q”t": syntax error
+  q”t[iees ˆ
+  ^--- error here
+Parse error near line 1: near "q”t": syntax error
+  q”t[iees ˆ=V
+  ^--- error here
+Parse error near line 1: near "q”t": syntax error
+  q”t[iees ˆ*=V
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('engÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ'h('hel$EC5),eng'((h'ÿÿÿ
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿÿ")".dÿf                     "."""                   ('hael
+  ^--- error here
+Parse error near line 1: near "engÿÿÿÿÿÿÿÿÿÿÿÿÿÿ": syntax error
+  engÿÿÿÿÿÿÿÿÿÿÿÿÿÿ")".dÿf                ÿÿÿÿÿ")".dÿf      İŞ")".dÿf           
+  ^--- error here
+#965	NEW    cov: 312 ft: 1301 corp: 152/8990b lim: 93 exec/s: 0 rss: 33Mb L: 93/93 MS: 3 ChangeASCIIInt-CrossOver-CopyPart-
+Parse error near line 1: near "eng": syntax error
+  eng'h('hel$EC0),eng'((h'ÿÿÿ(-1©, h'ÿÿÿ(-1©, he ('haCel
+  ^--- error here
+Parse error near line 1: near "eng": syntax error
+  eng'h('hel$EC0),eng'((h'ÿÿÿ(-1©, h'ÿÿÿ(-1İİİİİŞ")".dÿf                     "
+  ^--- error here
+Parse error near line 1: near "eng": syntax error
+  eng'h('hel$EC0),eng'((h'ÿÿÿ(-1©, h'ÿ".(-1İİİİİŞ")".dÿf                     "
+  ^--- error here
+Parse error near line 1: near "eng": syntax error
+  eng'h('hel$EC0),eng'((h'ÿÿÿ(-1©, h'ÿ".(-1İİİİİŞ")".dÿf         d.f.}ooo.   "
+  ^--- error here
+Parse error near line 1: near "eng": syntax error
+  eng'h('hel$EC0),eng'((h'ÿÿÿ(-1©,à—'ÿ".(-1İİİİİŞ")".dÿf         d.f.}ooo.   "
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sci
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sci
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sci
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?sci
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?sc?Šci
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’’’’’ne’
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’’’’’ne’
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’’’’’ne’
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’i
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’i
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ÿ ­.d.{ .oooooo;
+  ^--- error here
+Parse error near line 4: near "E": syntax error
+  E:
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ÿ ­.d.{ .oooooo;
+  ^--- error here
+Parse error near line 4: near "E": syntax error
+  E:
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ÿ ­.d.{ .oooooo;
+  ^--- error here
+Parse error near line 4: near "E": syntax error
+  E:
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ÿ ­.d.{ .oooooo;
+  ^--- error here
+Parse error near line 4: near "E": syntax error
+  E:
+  ^--- error here
+Parse error near line 1: unrecognized token: ""
+  ö ­.d.{ .oooooo;
+  ^--- error here
+Parse error near line 4: near "E": syntax error
+  E:
+  ^--- error here
+Parse error near line 1: unrecognized token: "0t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­"
+  0t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­* `RO­­­­­­Z`O ROMst.`Odu* 
+  ^--- error here
+Parse error near line 1: unrecognized token: "0t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­"
+  0t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­* `RO­­­­­­Z`O*d.Mst.`Odu* 
+  ^--- error here
+Parse error near line 1: near "?0": syntax error
+  ?0t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­* `RO­­­­­­Z`O*d.Mst.`Odu*
+  ^--- error here
+Parse error near line 1: near "?0": syntax error
+  ?0t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
+  ^--- error here
+Parse error near line 1: near "?0": syntax error
+  ?0t­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
+  ^--- error here
+Error: unknown command or invalid arguments:  "T". Enter ".help" for help
+Error: unknown command or invalid arguments:  "T". Enter ".help" for help
+Parse error near line 4: near "EJ": syntax error
+  EJ 
+  ^--- error here
+Parse error near line 1: near "TdO": syntax error
+  TdO.`2 u* `RT `Odu"  ; EJ 
+  ^--- error here
+Parse error near line 1: near "TdO": syntax error
+  TdO"  ; EJ 
+  ^--- error here
+Parse error near line 1: near "TdO": syntax error
+  TdO"  ; EJ 
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /$##Ö "Ü.""=ãããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããããã
+  ^--- error here
+#996	NEW    cov: 312 ft: 1302 corp: 153/9082b lim: 93 exec/s: 0 rss: 33Mb L: 92/93 MS: 1 ChangeBinInt-
+Parse error near line 13: unrecognized token: "#"
+  #   &      ;
+  ^--- error here
+Parse error near line 26: unrecognized token: ""
+    #      CR
+  ^--- error here
+#997	NEW    cov: 312 ft: 1303 corp: 154/9132b lim: 93 exec/s: 0 rss: 33Mb L: 50/93 MS: 1 ChangeBinInt-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{$". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{$". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo". Enter ".help" for help
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.{ ÿ.ood.{. .d.f.{ .ooooo
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.{ ÿ.ood.{. .d.f.{ .ooooo
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.{ ÿ.ood.{. .std.f.{ .ooooo
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.{ ÿ.ood.{. .›td.f.{ .ooooo
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.{ ÿ.ood.{. .›td.f.{ .ooooo
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ=" ÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ= "ÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ= "ÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ=+"ÿÿ
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /ÜÜÜ=+¢ÿÿ
+  ^--- error here
+Error: unknown command or invalid arguments:  ".d.{". Enter ".help" for help
+Parse error near line 2: near "oÿÿÿÿLTAÿ": syntax error
+  oÿÿÿÿLTAÿ E ÿşÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ··b)oo
+  ^--- error here
+#1013	REDUCE cov: 312 ft: 1303 corp: 154/9109b lim: 93 exec/s: 0 rss: 33Mb L: 45/93 MS: 1 EraseBytes-
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’nmmmmmn
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’nmmmmmn
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’nmmmmmn
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’’’’’’’’’’’’nmmmmmn
+  ^--- error here
+Parse error near line 1: near "/": syntax error
+  /oC?s’’’&’’’’’’’’’’’nmmmmmn
+  ^--- error here
+Parse error near line 1: near "SELECTsab": syntax error
+  SELECTsab ÿÿÿÿÿÿÿÿx(41), length('heoutputL
+  ^--- error here
+Parse error near line 1: near "SELECTsab": syntax error
+  SELECTsab ÿ
+  ^--- error here
+Parse error near line 1: near "SELECTsab$ÿ": syntax error
+  SELECTsab$ÿ
+  ^--- error here
+Parse error near line 1: near "SELECTsab$ÿ": syntax error
+  SELECTsab$ÿ
+  ^--- error here
+Parse error near line 1: near "SELECTsab$ÿ": syntax error
+  SELECTsab$ÿ
+  ^--- error here
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 36: near "R": syntax error
+  R
+  ^--- error here
+Parse error near line 7: near "Ş": syntax error
+  Ş")".dÿf                    #C    R
+  ^--- error here
+#1025	NEW    cov: 313 ft: 1304 corp: 155/9159b lim: 93 exec/s: 0 rss: 33Mb L: 50/93 MS: 2 ShuffleBytes-CrossOver-
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 17: near "&": syntax error
+  &      ;
+  ^--- error here
+Parse error near line 41: unrecognized token: ""
+     SE  &        r.Q
+  ^--- error here
+#1031	NEW    cov: 313 ft: 1305 corp: 156/9252b lim: 93 exec/s: 0 rss: 33Mb L: 93/93 MS: 1 CopyPart-
+Error: unknown command or invalid arguments:  "0t­­­­­­­­­­­­­­­­­­­­­­­­­½""fÿÿÿÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "0t­­­­­­­­­­­­­­­­­­­­­­­­­½""fÿÿÿÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "0t­­­­­­­­­­­­­­­­­­­­­­­­­½""fÿÿÿÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "0t­­­­­­­­­­­­­­­­­­­­­­­­­½""fÿÿÿÿÿÿÿ". Enter ".help" for help
+Error: unknown command or invalid arguments:  "0t­­­­­­­­­­­­­­­­­­­­­ÕÕÕ­­­­½""fÿÿÿÿÿÿÿ". Enter ".help" for help
+Parse error near line 1: near "CR": syntax error
+  CR
+  ^--- error here
+Parse error near line 1: near "C": syntax error
+  C
+  ^--- error here
+Parse error near line 1: near "C": syntax error
+  C
+  ^--- error here
+Parse error near line 1: near "C": syntax error
+  C
+  ^--- error here
+Parse error near line 1: near "C": syntax error
+  C
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooood.{$.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooood.{$.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooood.{$.d.d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o.d.8{f". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooood.{$.d.d.{". Enter ".help" for help
+#1045	NEW    cov: 336 ft: 1330 corp: 157/9321b lim: 93 exec/s: 0 rss: 33Mb L: 69/93 MS: 4 CMP-ShuffleBytes-ShuffleBytes-EraseBytes- DE: "d.{$"-
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ.d.{ ÿ.ood.{. .d.f.{ .ooooo
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ. .
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ. .
+  ^--- error here
+Parse error near line 1: near "ÿÿÿ": syntax error
+  ÿÿÿ. < .
+  ^--- error here
+Parse error near line 1: near "şÿÿ": syntax error
+  şÿÿ. < .
+  ^--- error here
+Parse error near line 1: near "%": syntax error
+  %CREATE TABLE tÿÿÿÿ·······b); INSERTITN O t VAL8);
+  ^--- error here
+Parse error near line 1: near "%": syntax error
+  %CREATE TABLE tÿÿÿÿ·······b); INSETITN O t VAL8);
+  ^--- error here
+Parse error near line 1: near "%": syntax error
+  %CREATE TABLE tÿÿÿÿ·······b); INSEu* `ROMst `M TITN O t VAL8);
+  ^--- error here
+Parse error near line 1: near "%": syntax error
+  %CREATE TABLE tÿÿÿÿ·······b)t VAL8);
+  ^--- error here
+#1054	NEW    cov: 336 ft: 1331 corp: 158/9358b lim: 93 exec/s: 0 rss: 33Mb L: 37/93 MS: 4 CMP-EraseBytes-CrossOver-EraseBytes- DE: "\377\377\377\377"-
+Error: unknown command or invalid arguments:  "". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿ"fÿÿÿÿÿÿÿ/ÜÜ\\ÜÜAÃ³ºß". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿ"fÿÿÿÿÿÿÿ/ÜÜÜ\ÜÜAÃ³ºß". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿ"fÿÿÿÿÿÿÿ/ÜÜÜ\ÜÜAß". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ÿ"fÿÿÿÿÿÿÿ/ÜÜÜ\ÜÜAß". Enter ".help" for help
+Parse error near line 12: unrecognized token: ""
+   #   &      ;
+  ^--- error here
+Parse error near line 39: near "Ò": syntax error
+  Ò   SE     r.Q
+  ^--- error here
+Parse error near line 12: unrecognized token: ""
+   #   &      ;
+  ^--- error here
+Parse error near line 39: near "Ò": syntax error
+  Ò   SE     r.Q
+  ^--- error here
+Parse error near line 12: unrecognized token: ""
+   # /ÜÜÜ" "Ü."=ããããã  &      ;ã
+  ^--- error here
+#1062	NEW    cov: 336 ft: 1333 corp: 159/9405b lim: 93 exec/s: 0 rss: 33Mb L: 47/93 MS: 3 ChangeByte-ChangeByte-CrossOver-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Parse error near line 2: near "ÿ": syntax error
+  ÿ.ooo. .d.f.{ .ooooo
+  ^--- error here
+#1063	REDUCE cov: 336 ft: 1333 corp: 159/9400b lim: 93 exec/s: 0 rss: 33Mb L: 71/93 MS: 1 CrossOver-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.f.{ÿ.ooooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.sqlite_masterooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo.sqlite_masterooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooÿ.sqlite_masterooo". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooÿ.sqlite_masterooo". Enter ".help" for help
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 1: near "q”tie": syntax error
+  q”tie\
+  ^--- error here
+Parse error near line 9: unrecognized token: ""
+     SE
+  ^--- error here
+Parse error near line 9: unrecognized token: ""
+     SE
+  ^--- error here
+Parse error near line 9: unrecognized token: ""
+     SE
+  ^--- error here
+Parse error near line 1: near "": syntax error
+  ;
+  ^--- error here
+Parse error near line 2: near "E": syntax error
+  E   i
+  ^--- error here
+Parse error near line 1: near "": syntax error
+  ;
+  ^--- error here
+Parse error near line 2: near "Ei": syntax error
+  Ei
+  ^--- error here
+Parse error near line 1: near "": syntax error
+  ;
+  ^--- error here
+Parse error near line 2: near "EEi": syntax error
+  EEi
+  ^--- error here
+Parse error near line 1: near "": syntax error
+  ;
+  ^--- error here
+Parse error near line 2: near "EøøøøøøøøøøøøøøøøøøøøøøEi": syntax error
+  EøøøøøøøøøøøøøøøøøøøøøøEi
+  ^--- error here
+Parse error near line 1: near "": syntax error
+  EøøøøøøøøøøøøøøøøøøøøøøEi
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O`u* `RMsOtàŸ²ßOdu* `RMsOtàŸ²ßŸc
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O`u* `RMsOtàŸ²ßOdu* `RMsOtàŸ²ßŸc
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O`u* `RMsOtàŸ²ßOdu* `RMsOtàŸ²ßŸc
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O`u* `RMsOtàŸ²ß
+  ^--- error here
+Parse error near line 1: near "t": syntax error
+  t d.O`u* `RM`sOtàŸ²ß
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "oooooo\E". Enter ".help" for help
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o/ÜÜÜ=";". Enter ".help" for help
+Parse error near line 3: unrecognized token: ""
+   ÿÿ
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o/ÜÜÜ=";". Enter ".help" for help
+Parse error near line 3: unrecognized token: ""
+   ÿÿ
+  ^--- error here
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "o/ÜÜÜ=";". Enter ".help" for help
+Parse error near line 3: unrecognized token: ""
+   ÿÿ
+  ^--- error here
+#1092	REDUCE cov: 336 ft: 1333 corp: 159/9366b lim: 93 exec/s: 0 rss: 33Mb L: 48/93 MS: 4 CopyPart-CrossOver-ChangeBit-EraseBytes-
+Error: unknown command or invalid arguments:  "d.{". Enter ".help" for help
+Error: unknown command or invalid arguments:  "ooooood.{$.d.d.{". Enter ".help" for help
+free(): double free detected in tcache 2
+==75230== ERROR: libFuzzer: deadly signal
+    #0 0x5f67025f8df4 in __sanitizer_print_stack_trace (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_sqlite_shell+0x9fdf4) (BuildId: 1cbf0b7edfc998e9c1e571fdaa1a692b43369741)
+    #1 0x5f67025cf808 in fuzzer::PrintStackTrace() (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_sqlite_shell+0x76808) (BuildId: 1cbf0b7edfc998e9c1e571fdaa1a692b43369741)
+    #2 0x5f67025b5283 in fuzzer::Fuzzer::CrashCallback() (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_sqlite_shell+0x5c283) (BuildId: 1cbf0b7edfc998e9c1e571fdaa1a692b43369741)
+    #3 0x76e708c4251f  (/lib/x86_64-linux-gnu/libc.so.6+0x4251f) (BuildId: 095c7ba148aeca81668091f718047078d57efddb)
+    #4 0x76e708c969fb in __pthread_kill_implementation nptl/./nptl/pthread_kill.c:43:17
+    #5 0x76e708c969fb in __pthread_kill_internal nptl/./nptl/pthread_kill.c:78:10
+    #6 0x76e708c969fb in pthread_kill nptl/./nptl/pthread_kill.c:89:10
+    #7 0x76e708c42475 in gsignal signal/../sysdeps/posix/raise.c:26:13
+    #8 0x76e708c287f2 in abort stdlib/./stdlib/abort.c:79:7
+    #9 0x76e708c89676 in __libc_message libio/../sysdeps/posix/libc_fatal.c:156:5
+    #10 0x76e708ca0cfb in malloc_printerr malloc/./malloc/malloc.c:5666:3
+    #11 0x76e708ca30aa in _int_free malloc/./malloc/malloc.c:4473:5
+    #12 0x76e708ca5452 in __libc_free malloc/./malloc/malloc.c:3391:7
+    #13 0x76e708c7ed26 in _IO_deallocate_file libio/./libio/libioP.h:862:3
+    #14 0x76e708c7ed26 in fclose libio/./libio/iofclose.c:74:3
+    #15 0x5f6702698df3 in output_file_close /home/xxx/PHDlife/fuxian/sqlite/shell.c:26114:37
+    #16 0x5f6702698df3 in output_reset /home/xxx/PHDlife/fuxian/sqlite/shell.c:26631:5
+    #17 0x5f67026734a8 in do_meta_command /home/xxx/PHDlife/fuxian/sqlite/shell.c:30257:5
+    #18 0x5f6702694932 in process_input /home/xxx/PHDlife/fuxian/sqlite/shell.c:32523:14
+    #19 0x5f67026997c1 in LLVMFuzzerTestOneInput /home/xxx/PHDlife/fuxian/integrity/targets/sqlite/fuzz_sqlite_shell.c:160:9
+    #20 0x5f67025b6813 in fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_sqlite_shell+0x5d813) (BuildId: 1cbf0b7edfc998e9c1e571fdaa1a692b43369741)
+    #21 0x5f67025b5f69 in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*) (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_sqlite_shell+0x5cf69) (BuildId: 1cbf0b7edfc998e9c1e571fdaa1a692b43369741)
+    #22 0x5f67025b7759 in fuzzer::Fuzzer::MutateAndTestOne() (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_sqlite_shell+0x5e759) (BuildId: 1cbf0b7edfc998e9c1e571fdaa1a692b43369741)
+    #23 0x5f67025b82d5 in fuzzer::Fuzzer::Loop(std::vector<fuzzer::SizedFile, std::allocator<fuzzer::SizedFile> >&) (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_sqlite_shell+0x5f2d5) (BuildId: 1cbf0b7edfc998e9c1e571fdaa1a692b43369741)
+    #24 0x5f67025a6412 in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_sqlite_shell+0x4d412) (BuildId: 1cbf0b7edfc998e9c1e571fdaa1a692b43369741)
+    #25 0x5f67025d0102 in main (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_sqlite_shell+0x77102) (BuildId: 1cbf0b7edfc998e9c1e571fdaa1a692b43369741)
+    #26 0x76e708c29d8f in __libc_start_call_main csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+    #27 0x76e708c29e3f in __libc_start_main csu/../csu/libc-start.c:392:3
+    #28 0x5f670259ae54 in _start (/home/xxx/PHDlife/fuxian/integrity/build/fuzz_sqlite_shell+0x41e54) (BuildId: 1cbf0b7edfc998e9c1e571fdaa1a692b43369741)
+
+NOTE: libFuzzer has rudimentary signal handlers.
+      Combine libFuzzer with AddressSanitizer or similar for better crash reports.
+SUMMARY: libFuzzer: deadly signal
+MS: 1 CrossOver-; base unit: 7b34719f876144b3adc2213ec3e32ae65da83ad8
+0x2e,0x64,0x2e,0x7b,0xa,0x2e,0x6f,0x6f,0x6f,0x6f,0x6f,0x6f,0x64,0x2e,0x7b,0x24,0x0,0x0,0x0,0x6f,0x0,0x6f,0xe3,0xe3,0xe3,0xe3,0xe3,0xe3,0xe3,0xe3,0xe3,0xe3,0xe3,0xe3,0xe3,0x22,0xff,0xff,0xff,0x22,0x22,0x22,0xdc,0x6f,0x6f,0x6f,0x6f,0x6f,0x6f,0x6f,0x6f,0x6f,0x63,0x0,0x6f,0x6f,0x64,0x2e,0x7b,0xa,0x2e,0x64,0x2e,0x64,0x2e,0x7b,0xa,0x2e,0x6f,0x0,0x6f,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x6f,0x6f,0x6f,0x6f,0x6f,0x6f,0x6f,0x64,0x2e,0x64,0x2e,
+.d.{\012.ooooood.{$\000\000\000o\000o\343\343\343\343\343\343\343\343\343\343\343\343\343\"\377\377\377\"\"\"\334oooooooooc\000ood.{\012.d.d.{\012.o\000o\000\000\000\000\000\000\000\000oooooood.d.
+artifact_prefix='./'; Test unit written to ./crash-b46be823e1a912ad5f5fa764ec42d2b602c1ebb2
+Base64: LmQuewoub29vb29vZC57JAAAAG8Ab+Pj4+Pj4+Pj4+Pj4+Mi////IiIi3G9vb29vb29vb2MAb29kLnsKLmQuZC57Ci5vAG8AAAAAAAAAAG9vb29vb29kLmQu
+stat::number_of_executed_units: 1093
+stat::average_exec_per_sec:     0
+stat::new_units_added:          153
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              35
+INFO: exiting: 77 time: 0s
+[INTEGRITY] === Error Summary (0 unique, 0 dropped) ===

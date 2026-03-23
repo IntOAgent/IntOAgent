@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlSchemaValueGetAsString' function" {
+	label="CFG for 'xmlSchemaValueGetAsString' function";
+
+	Node0xb69180 [shape=record,label="{xmlschemastypes.c:1134:}"];
+	Node0xb69180 -> Node0xb692a0;
+	Node0xb69180 -> Node0xb69200;
+	Node0xb69200 [shape=record,label="{xmlschemastypes.c:1136:}"];
+	Node0xb69200 -> Node0xb692a0;
+	Node0xb69200 -> Node0xb69250;
+	Node0xb69250 [shape=record,label="{xmlschemastypes.c:1149:}"];
+	Node0xb69250 -> Node0xb692a0;
+	Node0xb692a0 [shape=record,label="{xmlschemastypes.c:1154:}"];
+}

@@ -1,0 +1,14 @@
+<plist version="1.0">
+<dict>
+    <key>some test entitites</key>
+    <dict>
+        <key>copyright</key>
+        <string>&#169;</string>
+        <key>multiple entitites</key>
+        <string>&#x2F20;&#x2F21;&#x2F22;</string>
+        <key>multiple entitites with characters inbetween</key>
+        <string>a&#x2V23;b&#x2F24;c&#x2F25;d</string>
+   t bcd&#x1D565;wxyz</string>
+    </dict>
+</dict>
+</plits>

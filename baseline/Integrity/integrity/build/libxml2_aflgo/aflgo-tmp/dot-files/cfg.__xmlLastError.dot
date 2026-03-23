@@ -1,0 +1,5 @@
+digraph "CFG for '__xmlLastError' function" {
+	label="CFG for '__xmlLastError' function";
+
+	Node0x12c0100 [shape=record,label="{globals.c:607:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlTextWriterWriteFormatComment' function" {
+	label="CFG for 'xmlTextWriterWriteFormatComment' function";
+
+	Node0x2d49c710 [shape=record,label="{xmlwriter.c:835:}"];
+}

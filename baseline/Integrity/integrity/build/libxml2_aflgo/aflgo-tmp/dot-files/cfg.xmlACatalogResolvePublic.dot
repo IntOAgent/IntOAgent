@@ -1,0 +1,23 @@
+digraph "CFG for 'xmlACatalogResolvePublic' function" {
+	label="CFG for 'xmlACatalogResolvePublic' function";
+
+	Node0x5e1b260 [shape=record,label="{catalog.c:2756:}"];
+	Node0x5e1b260 -> Node0x5e1b490;
+	Node0x5e1b260 -> Node0x5e1b2b0;
+	Node0x5e1b2b0 [shape=record,label="{catalog.c:2759:}"];
+	Node0x5e1b2b0 -> Node0x5e1b350;
+	Node0x5e1b2b0 -> Node0x5e1b300;
+	Node0x5e1b300 [shape=record,label="{catalog.c:2760:}"];
+	Node0x5e1b300 -> Node0x5e1b350;
+	Node0x5e1b350 [shape=record,label="{catalog.c:2764:}"];
+	Node0x5e1b350 -> Node0x5e1b3a0;
+	Node0x5e1b350 -> Node0x5e1b440;
+	Node0x5e1b3a0 [shape=record,label="{catalog.c:2767:}"];
+	Node0x5e1b3a0 -> Node0x5e1b490;
+	Node0x5e1b3a0 -> Node0x5e1b3f0;
+	Node0x5e1b3f0 [shape=record,label="{catalog.c:2769:}"];
+	Node0x5e1b3f0 -> Node0x5e1b490;
+	Node0x5e1b440 [shape=record,label="{catalog.c:2773:}"];
+	Node0x5e1b440 -> Node0x5e1b490;
+	Node0x5e1b490 [shape=record,label="{catalog.c:2778:}"];
+}

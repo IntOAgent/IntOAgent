@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlCreateIOParserCtxt' function" {
+	label="CFG for 'xmlCreateIOParserCtxt' function";
+
+	Node0x2708da30 [shape=record,label="{parser.c:11430:}"];
+	Node0x2708da30 -> Node0x2708dc00;
+	Node0x2708da30 -> Node0x2708dac0;
+	Node0x2708dac0 [shape=record,label="{parser.c:11434:}"];
+	Node0x2708dac0 -> Node0x2708dbb0;
+	Node0x2708dac0 -> Node0x2708db10;
+	Node0x2708db10 [shape=record,label="{parser.c:11441:}"];
+	Node0x2708db10 -> Node0x2708db60;
+	Node0x2708db10 -> Node0x2708dc00;
+	Node0x2708db60 [shape=record,label="{parser.c:11442:}"];
+	Node0x2708db60 -> Node0x2708dbb0;
+	Node0x2708dbb0 [shape=record,label="{parser.c:11448:}"];
+	Node0x2708dbb0 -> Node0x2708dc00;
+	Node0x2708dc00 [shape=record,label="{parser.c:11448:1}"];
+}

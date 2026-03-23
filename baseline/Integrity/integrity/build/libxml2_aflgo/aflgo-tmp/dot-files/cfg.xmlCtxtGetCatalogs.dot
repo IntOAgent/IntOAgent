@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtGetCatalogs' function" {
+	label="CFG for 'xmlCtxtGetCatalogs' function";
+
+	Node0x8e69a00 [shape=record,label="{parserInternals.c:3108:}"];
+	Node0x8e69a00 -> Node0x8e69aa0;
+	Node0x8e69a00 -> Node0x8e69a50;
+	Node0x8e69a50 [shape=record,label="{parserInternals.c:3111:}"];
+	Node0x8e69a50 -> Node0x8e69aa0;
+	Node0x8e69aa0 [shape=record,label="{parserInternals.c:3112:}"];
+}

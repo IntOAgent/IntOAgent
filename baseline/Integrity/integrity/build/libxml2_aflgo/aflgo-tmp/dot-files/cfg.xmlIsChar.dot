@@ -1,0 +1,35 @@
+digraph "CFG for 'xmlIsChar' function" {
+	label="CFG for 'xmlIsChar' function";
+
+	Node0xb663610 [shape=record,label="{chvalid.c:112:}"];
+	Node0xb663610 -> Node0xb663850;
+	Node0xb663610 -> Node0xb6638f0;
+	Node0xb663850 [shape=record,label="{chvalid.c:112:1}"];
+	Node0xb663850 -> Node0xb6638a0;
+	Node0xb663850 -> Node0xb663bc0;
+	Node0xb6638a0 [shape=record,label="{chvalid.c:112:2}"];
+	Node0xb6638a0 -> Node0xb663bc0;
+	Node0xb6638f0 [shape=record,label="{chvalid.c:112:3}"];
+	Node0xb6638f0 -> Node0xb663940;
+	Node0xb6638f0 -> Node0xb663990;
+	Node0xb663940 [shape=record,label="{chvalid.c:112:4}"];
+	Node0xb663940 -> Node0xb663990;
+	Node0xb663990 [shape=record,label="{chvalid.c:112:5}"];
+	Node0xb663990 -> Node0xb6639e0;
+	Node0xb663990 -> Node0xb663a30;
+	Node0xb6639e0 [shape=record,label="{chvalid.c:112:6}"];
+	Node0xb6639e0 -> Node0xb663a30;
+	Node0xb663a30 [shape=record,label="{chvalid.c:112:7}"];
+	Node0xb663a30 -> Node0xb663a80;
+	Node0xb663a30 -> Node0xb663ad0;
+	Node0xb663a80 [shape=record,label="{chvalid.c:112:8}"];
+	Node0xb663a80 -> Node0xb663ad0;
+	Node0xb663ad0 [shape=record,label="{chvalid.c:112:9}"];
+	Node0xb663ad0 -> Node0xb663b20;
+	Node0xb663ad0 -> Node0xb663b70;
+	Node0xb663b20 [shape=record,label="{chvalid.c:112:10}"];
+	Node0xb663b20 -> Node0xb663b70;
+	Node0xb663b70 [shape=record,label="{chvalid.c:112:11}"];
+	Node0xb663b70 -> Node0xb663bc0;
+	Node0xb663bc0 [shape=record,label="{chvalid.c:112:12}"];
+}

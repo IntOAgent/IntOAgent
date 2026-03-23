@@ -1,0 +1,41 @@
+digraph "CFG for 'xmlListRemoveAll' function" {
+	label="CFG for 'xmlListRemoveAll' function";
+
+	Node0xdfc7f60 [shape=record,label="{list.c:370:}"];
+	Node0xdfc7f60 -> Node0xdfc8440;
+	Node0xdfc7f60 -> Node0xdfc8030;
+	Node0xdfc8030 [shape=record,label="{list.c:373:}"];
+	Node0xdfc8030 -> Node0xdfc8080;
+	Node0xdfc8080 [shape=record,label="{list.c:99:}"];
+	Node0xdfc8080 -> Node0xdfc80d0;
+	Node0xdfc80d0 [shape=record,label="{list.c:99:1}"];
+	Node0xdfc80d0 -> Node0xdfc8170;
+	Node0xdfc80d0 -> Node0xdfc8120;
+	Node0xdfc8120 [shape=record,label="{list.c:99:2}"];
+	Node0xdfc8120 -> Node0xdfc80d0;
+	Node0xdfc8120 -> Node0xdfc8170;
+	Node0xdfc8170 [shape=record,label="{list.c:135:}"];
+	Node0xdfc8170 -> Node0xdfc8210;
+	Node0xdfc8170 -> Node0xdfc81c0;
+	Node0xdfc81c0 [shape=record,label="{list.c:138:}"];
+	Node0xdfc81c0 -> Node0xdfc8210;
+	Node0xdfc8210 [shape=record,label="{list.c:328:}"];
+	Node0xdfc8210 -> Node0xdfc8440;
+	Node0xdfc8210 -> Node0xdfc8260;
+	Node0xdfc8260 [shape=record,label="{list.c:60:}"];
+	Node0xdfc8260 -> Node0xdfc8300;
+	Node0xdfc8260 -> Node0xdfc82b0;
+	Node0xdfc82b0 [shape=record,label="{list.c:63:}"];
+	Node0xdfc82b0 -> Node0xdfc8300;
+	Node0xdfc8300 [shape=record,label="{list.c:64:}"];
+	Node0xdfc8300 -> Node0xdfc8440;
+	Node0xdfc8300 -> Node0xdfc8350;
+	Node0xdfc8350 [shape=record,label="{list.c:374:}"];
+	Node0xdfc8350 -> Node0xdfc83a0;
+	Node0xdfc8350 -> Node0xdfc83f0;
+	Node0xdfc83a0 [shape=record,label="{%40}"];
+	Node0xdfc83a0 -> Node0xdfc83f0;
+	Node0xdfc83f0 [shape=record,label="{list.c:373:3}"];
+	Node0xdfc83f0 -> Node0xdfc8080;
+	Node0xdfc8440 [shape=record,label="{list.c:376:}"];
+}

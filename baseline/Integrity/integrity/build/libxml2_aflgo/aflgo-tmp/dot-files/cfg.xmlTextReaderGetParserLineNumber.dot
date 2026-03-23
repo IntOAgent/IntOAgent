@@ -1,0 +1,16 @@
+digraph "CFG for 'xmlTextReaderGetParserLineNumber' function" {
+	label="CFG for 'xmlTextReaderGetParserLineNumber' function";
+
+	Node0x22bbb330 [shape=record,label="{xmlreader.c:3765:}"];
+	Node0x22bbb330 -> Node0x22bbd760;
+	Node0x22bbb330 -> Node0x22bbd640;
+	Node0x22bbd640 [shape=record,label="{xmlreader.c:3765:1}"];
+	Node0x22bbd640 -> Node0x22bbd760;
+	Node0x22bbd640 -> Node0x22bbd6c0;
+	Node0x22bbd6c0 [shape=record,label="{xmlreader.c:3766:}"];
+	Node0x22bbd6c0 -> Node0x22bbd760;
+	Node0x22bbd6c0 -> Node0x22bbd710;
+	Node0x22bbd710 [shape=record,label="{xmlreader.c:3769:}"];
+	Node0x22bbd710 -> Node0x22bbd760;
+	Node0x22bbd760 [shape=record,label="{xmlreader.c:3770:}"];
+}

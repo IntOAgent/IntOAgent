@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlNewInputBufferString' function" {
+	label="CFG for 'xmlNewInputBufferString' function";
+
+	Node0x977ae90 [shape=record,label="{xmlIO.c:2037:}"];
+	Node0x977ae90 -> Node0x977afb0;
+	Node0x977ae90 -> Node0x977af10;
+	Node0x977af10 [shape=record,label="{xmlIO.c:2037:1}"];
+	Node0x977af10 -> Node0x977af60;
+	Node0x977af10 -> Node0x977afb0;
+	Node0x977af60 [shape=record,label="{xmlIO.c:2046:}"];
+	Node0x977af60 -> Node0x977afb0;
+	Node0x977afb0 [shape=record,label="{xmlIO.c:2051:}"];
+}

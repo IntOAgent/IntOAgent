@@ -1,0 +1,21 @@
+digraph "CFG for 'xmlSchemaSAXHandleCDataSection' function" {
+	label="CFG for 'xmlSchemaSAXHandleCDataSection' function";
+
+	Node0x2de9a1e0 [shape=record,label="{xmlschemas.c:26784:}"];
+	Node0x2de9a1e0 -> Node0x2de9a3c0;
+	Node0x2de9a1e0 -> Node0x2de9a230;
+	Node0x2de9a230 [shape=record,label="{xmlschemas.c:26788:}"];
+	Node0x2de9a230 -> Node0x2de9a280;
+	Node0x2de9a230 -> Node0x2de9a3c0;
+	Node0x2de9a280 [shape=record,label="{xmlschemas.c:26790:}"];
+	Node0x2de9a280 -> Node0x2de9a320;
+	Node0x2de9a280 -> Node0x2de9a2d0;
+	Node0x2de9a2d0 [shape=record,label="{xmlschemas.c:26791:}"];
+	Node0x2de9a2d0 -> Node0x2de9a320;
+	Node0x2de9a320 [shape=record,label="{xmlschemas.c:26792:}"];
+	Node0x2de9a320 -> Node0x2de9a370;
+	Node0x2de9a320 -> Node0x2de9a3c0;
+	Node0x2de9a370 [shape=record,label="{xmlschemas.c:26794:}"];
+	Node0x2de9a370 -> Node0x2de9a3c0;
+	Node0x2de9a3c0 [shape=record,label="{xmlschemas.c:26799:}"];
+}

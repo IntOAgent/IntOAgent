@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlNodeDumpOutput' function" {
+	label="CFG for 'xmlNodeDumpOutput' function";
+
+	Node0x263d5600 [shape=record,label="{xmlsave.c:2335:}"];
+	Node0x263d5600 -> Node0x263d5970;
+	Node0x263d5600 -> Node0x263d5830;
+	Node0x263d5830 [shape=record,label="{xmlsave.c:2348:}"];
+	Node0x263d5830 -> Node0x263d5920;
+	Node0x263d5830 -> Node0x263d5880;
+	Node0x263d5880 [shape=record,label="{xmlsave.c:2369:}"];
+	Node0x263d5880 -> Node0x263d5920;
+	Node0x263d5880 -> Node0x263d58d0;
+	Node0x263d58d0 [shape=record,label="{xmlsave.c:2375:}"];
+	Node0x263d58d0 -> Node0x263d5970;
+	Node0x263d5920 [shape=record,label="{xmlsave.c:2378:}"];
+	Node0x263d5920 -> Node0x263d5970;
+	Node0x263d5970 [shape=record,label="{xmlsave.c:2379:}"];
+}

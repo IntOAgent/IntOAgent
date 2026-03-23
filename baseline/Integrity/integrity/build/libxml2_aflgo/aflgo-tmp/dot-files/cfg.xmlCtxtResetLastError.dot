@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlCtxtResetLastError' function" {
+	label="CFG for 'xmlCtxtResetLastError' function";
+
+	Node0x8c39660 [shape=record,label="{parserInternals.c:163:}"];
+	Node0x8c39660 -> Node0x8c39750;
+	Node0x8c39660 -> Node0x8c396b0;
+	Node0x8c396b0 [shape=record,label="{parserInternals.c:165:}"];
+	Node0x8c396b0 -> Node0x8c39750;
+	Node0x8c396b0 -> Node0x8c39700;
+	Node0x8c39700 [shape=record,label="{parserInternals.c:166:}"];
+	Node0x8c39700 -> Node0x8c39750;
+	Node0x8c39750 [shape=record,label="{parserInternals.c:169:}"];
+}

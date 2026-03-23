@@ -1,0 +1,23 @@
+digraph "CFG for 'node_detach' function" {
+	label="CFG for 'node_detach' function";
+
+	Node0x40e2db0 [shape=record,label="{node.c:94:}"];
+	Node0x40e2db0 -> Node0x40e2f50;
+	Node0x40e2db0 -> Node0x40e3130;
+	Node0x40e2f50 [shape=record,label="{node.c:95:}"];
+	Node0x40e2f50 -> Node0x40e2fa0;
+	Node0x40e2f50 -> Node0x40e3130;
+	Node0x40e2fa0 [shape=record,label="{node.c:97:}"];
+	Node0x40e2fa0 -> Node0x40e2ff0;
+	Node0x40e2fa0 -> Node0x40e3040;
+	Node0x40e2ff0 [shape=record,label="{node.c:97:1}"];
+	Node0x40e2ff0 -> Node0x40e3040;
+	Node0x40e3040 [shape=record,label="{node.c:97:2}"];
+	Node0x40e3040 -> Node0x40e3090;
+	Node0x40e3040 -> Node0x40e30e0;
+	Node0x40e3090 [shape=record,label="{node.c:97:3}"];
+	Node0x40e3090 -> Node0x40e30e0;
+	Node0x40e30e0 [shape=record,label="{node.c:97:4}"];
+	Node0x40e30e0 -> Node0x40e3130;
+	Node0x40e3130 [shape=record,label="{node.c:100:}"];
+}

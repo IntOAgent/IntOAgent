@@ -1,0 +1,17 @@
+digraph "CFG for 'xmlPatternMinDepth' function" {
+	label="CFG for 'xmlPatternMinDepth' function";
+
+	Node0x32b1cf00 [shape=record,label="{pattern.c:2324:}"];
+	Node0x32b1cf00 -> Node0x32b1d1c0;
+	Node0x32b1cf00 -> Node0x32b1d0d0;
+	Node0x32b1d0d0 [shape=record,label="{pattern.c:2327:}"];
+	Node0x32b1d0d0 -> Node0x32b1d1c0;
+	Node0x32b1d0d0 -> Node0x32b1d120;
+	Node0x32b1d120 [shape=record,label="{pattern.c:2329:}"];
+	Node0x32b1d120 -> Node0x32b1d1c0;
+	Node0x32b1d120 -> Node0x32b1d170;
+	Node0x32b1d170 [shape=record,label="{pattern.c:2333:}"];
+	Node0x32b1d170 -> Node0x32b1d1c0;
+	Node0x32b1d170 -> Node0x32b1d0d0;
+	Node0x32b1d1c0 [shape=record,label="{pattern.c:2336:}"];
+}

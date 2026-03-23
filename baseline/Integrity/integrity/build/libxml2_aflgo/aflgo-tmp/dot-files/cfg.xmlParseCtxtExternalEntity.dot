@@ -1,0 +1,27 @@
+digraph "CFG for 'xmlParseCtxtExternalEntity' function" {
+	label="CFG for 'xmlParseCtxtExternalEntity' function";
+
+	Node0x270a6140 [shape=record,label="{parser.c:11887:}"];
+	Node0x270a6140 -> Node0x270a69f0;
+	Node0x270a6140 -> Node0x270a69a0;
+	Node0x270a69a0 [shape=record,label="{parser.c:11888:}"];
+	Node0x270a69a0 -> Node0x270a69f0;
+	Node0x270a69f0 [shape=record,label="{parser.c:11890:}"];
+	Node0x270a69f0 -> Node0x270a6c20;
+	Node0x270a69f0 -> Node0x270a6a40;
+	Node0x270a6a40 [shape=record,label="{parser.c:11893:}"];
+	Node0x270a6a40 -> Node0x270a6bd0;
+	Node0x270a6a40 -> Node0x270a6a90;
+	Node0x270a6a90 [shape=record,label="{parser.c:11898:}"];
+	Node0x270a6a90 -> Node0x270a6b30;
+	Node0x270a6a90 -> Node0x270a6ae0;
+	Node0x270a6ae0 [shape=record,label="{parser.c:11902:}"];
+	Node0x270a6ae0 -> Node0x270a6b80;
+	Node0x270a6b30 [shape=record,label="{parser.c:11904:}"];
+	Node0x270a6b30 -> Node0x270a6b80;
+	Node0x270a6b80 [shape=record,label="{parser.c:11906:}"];
+	Node0x270a6b80 -> Node0x270a6bd0;
+	Node0x270a6bd0 [shape=record,label="{parser.c:11908:}"];
+	Node0x270a6bd0 -> Node0x270a6c20;
+	Node0x270a6c20 [shape=record,label="{parser.c:11908:1}"];
+}

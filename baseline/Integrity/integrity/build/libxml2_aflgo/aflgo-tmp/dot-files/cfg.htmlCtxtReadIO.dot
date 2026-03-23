@@ -1,0 +1,26 @@
+digraph "CFG for 'htmlCtxtReadIO' function" {
+	label="CFG for 'htmlCtxtReadIO' function";
+
+	Node0x3a27f60 [shape=record,label="{HTMLparser.c:5990:}"];
+	Node0x3a27f60 -> Node0x3a281e0;
+	Node0x3a27f60 -> Node0x3a27fb0;
+	Node0x3a27fb0 [shape=record,label="{HTMLparser.c:5493:}"];
+	Node0x3a27fb0 -> Node0x3a28050;
+	Node0x3a27fb0 -> Node0x3a28000;
+	Node0x3a28000 [shape=record,label="{HTMLparser.c:5535:}"];
+	Node0x3a28000 -> Node0x3a28050;
+	Node0x3a28050 [shape=record,label="{HTMLparser.c:5537:}"];
+	Node0x3a28050 -> Node0x3a28140;
+	Node0x3a28050 -> Node0x3a280a0;
+	Node0x3a280a0 [shape=record,label="{HTMLparser.c:5538:}"];
+	Node0x3a280a0 -> Node0x3a28140;
+	Node0x3a280a0 -> Node0x3a280f0;
+	Node0x3a280f0 [shape=record,label="{HTMLparser.c:5539:}"];
+	Node0x3a280f0 -> Node0x3a28140;
+	Node0x3a28140 [shape=record,label="{HTMLparser.c:5545:}"];
+	Node0x3a28140 -> Node0x3a281e0;
+	Node0x3a28140 -> Node0x3a28190;
+	Node0x3a28190 [shape=record,label="{HTMLparser.c:6001:}"];
+	Node0x3a28190 -> Node0x3a281e0;
+	Node0x3a281e0 [shape=record,label="{HTMLparser.c:6002:}"];
+}

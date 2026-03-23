@@ -1,0 +1,30 @@
+digraph "CFG for 'xmlFreeParserInputBuffer' function" {
+	label="CFG for 'xmlFreeParserInputBuffer' function";
+
+	Node0x97773f0 [shape=record,label="{xmlIO.c:1411:}"];
+	Node0x97773f0 -> Node0x9741260;
+	Node0x97773f0 -> Node0x9740f90;
+	Node0x9740f90 [shape=record,label="{xmlIO.c:1413:}"];
+	Node0x9740f90 -> Node0x9741030;
+	Node0x9740f90 -> Node0x9740fe0;
+	Node0x9740fe0 [shape=record,label="{xmlIO.c:1414:}"];
+	Node0x9740fe0 -> Node0x9741030;
+	Node0x9741030 [shape=record,label="{xmlIO.c:1417:}"];
+	Node0x9741030 -> Node0x97410d0;
+	Node0x9741030 -> Node0x9741080;
+	Node0x9741080 [shape=record,label="{xmlIO.c:1418:}"];
+	Node0x9741080 -> Node0x97410d0;
+	Node0x97410d0 [shape=record,label="{xmlIO.c:1420:}"];
+	Node0x97410d0 -> Node0x9741170;
+	Node0x97410d0 -> Node0x9741120;
+	Node0x9741120 [shape=record,label="{xmlIO.c:1421:}"];
+	Node0x9741120 -> Node0x9741170;
+	Node0x9741170 [shape=record,label="{xmlIO.c:1423:}"];
+	Node0x9741170 -> Node0x9741210;
+	Node0x9741170 -> Node0x97411c0;
+	Node0x97411c0 [shape=record,label="{xmlIO.c:1424:}"];
+	Node0x97411c0 -> Node0x9741210;
+	Node0x9741210 [shape=record,label="{xmlIO.c:1428:}"];
+	Node0x9741210 -> Node0x9741260;
+	Node0x9741260 [shape=record,label="{xmlIO.c:1429:}"];
+}

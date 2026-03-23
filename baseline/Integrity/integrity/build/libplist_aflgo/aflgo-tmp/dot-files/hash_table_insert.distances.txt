@@ -1,0 +1,10 @@
+hashtable.c:60,6
+hashtable.c:62,5
+hashtable.c:68,7
+hashtable.c:69,6
+hashtable.c:74,5
+hashtable.c:80,4
+hashtable.c:85,3
+hashtable.c:88,3
+hashtable.c:90,2
+hashtable.c:91,0

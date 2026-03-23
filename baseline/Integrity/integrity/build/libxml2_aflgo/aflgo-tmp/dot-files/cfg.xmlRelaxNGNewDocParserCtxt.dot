@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlRelaxNGNewDocParserCtxt' function" {
+	label="CFG for 'xmlRelaxNGNewDocParserCtxt' function";
+
+	Node0x12d522d0 [shape=record,label="{relaxng.c:6590:}"];
+	Node0x12d522d0 -> Node0x12d524a0;
+	Node0x12d522d0 -> Node0x12d52360;
+	Node0x12d52360 [shape=record,label="{relaxng.c:6592:}"];
+	Node0x12d52360 -> Node0x12d524a0;
+	Node0x12d52360 -> Node0x12d523b0;
+	Node0x12d523b0 [shape=record,label="{relaxng.c:6597:}"];
+	Node0x12d523b0 -> Node0x12d52400;
+	Node0x12d523b0 -> Node0x12d52450;
+	Node0x12d52400 [shape=record,label="{relaxng.c:411:}"];
+	Node0x12d52400 -> Node0x12d524a0;
+	Node0x12d52450 [shape=record,label="{relaxng.c:6597:1}"];
+	Node0x12d52450 -> Node0x12d524a0;
+	Node0x12d524a0 [shape=record,label="{relaxng.c:6608:}"];
+}

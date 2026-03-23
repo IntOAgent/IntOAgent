@@ -1,0 +1,27 @@
+digraph "CFG for 'xmlGetBooleanProp' function" {
+	label="CFG for 'xmlGetBooleanProp' function";
+
+	Node0x2e2a8a70 [shape=record,label="{xmlschemas.c:4557:}"];
+	Node0x2e2a8a70 -> Node0x2e2a8b10;
+	Node0x2e2a8a70 -> Node0x2e2a8ac0;
+	Node0x2e2a8ac0 [shape=record,label="{xmlschemas.c:4560:}"];
+	Node0x2e2a8ac0 -> Node0x2e2a8b10;
+	Node0x2e2a8b10 [shape=record,label="{xmlschemas.c:5969:}"];
+	Node0x2e2a8b10 -> Node0x2e2a8cf0;
+	Node0x2e2a8b10 -> Node0x2e2a8b60;
+	Node0x2e2a8b60 [shape=record,label="{xmlschemas.c:5976:}"];
+	Node0x2e2a8b60 -> Node0x2e2a8bb0;
+	Node0x2e2a8b60 -> Node0x2e2a8cf0;
+	Node0x2e2a8bb0 [shape=record,label="{xmlschemas.c:5978:}"];
+	Node0x2e2a8bb0 -> Node0x2e2a8c00;
+	Node0x2e2a8bb0 -> Node0x2e2a8cf0;
+	Node0x2e2a8c00 [shape=record,label="{xmlschemas.c:5980:}"];
+	Node0x2e2a8c00 -> Node0x2e2a8c50;
+	Node0x2e2a8c00 -> Node0x2e2a8cf0;
+	Node0x2e2a8c50 [shape=record,label="{xmlschemas.c:5982:}"];
+	Node0x2e2a8c50 -> Node0x2e2a8ca0;
+	Node0x2e2a8c50 -> Node0x2e2a8cf0;
+	Node0x2e2a8ca0 [shape=record,label="{xmlschemas.c:5988:}"];
+	Node0x2e2a8ca0 -> Node0x2e2a8cf0;
+	Node0x2e2a8cf0 [shape=record,label="{xmlschemas.c:5993:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSchemaGetValType' function" {
+	label="CFG for 'xmlSchemaGetValType' function";
+
+	Node0xdabda0 [shape=record,label="{xmlschemastypes.c:6124:}"];
+	Node0xdabda0 -> Node0xc7dff0;
+	Node0xdabda0 -> Node0xc7dfa0;
+	Node0xc7dfa0 [shape=record,label="{xmlschemastypes.c:6126:}"];
+	Node0xc7dfa0 -> Node0xc7dff0;
+	Node0xc7dff0 [shape=record,label="{xmlschemastypes.c:6127:}"];
+}

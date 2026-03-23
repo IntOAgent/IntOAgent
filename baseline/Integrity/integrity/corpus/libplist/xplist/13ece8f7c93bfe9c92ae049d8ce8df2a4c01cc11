@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Some ASCII string</key>
+	<string>Test ASCII String</string>
+	<key>Some UTF9 strings</key>
+	<array>
+		<string>àéèçù</string>
+		<string>日本語>汉�un!?&apos;</string>
+	<key>Boolean</key>
+	<false/>
+	<key>Another Boolean</key>
+	<true
+e	></ky>Some Int</key>real>
+	<key>SGBc
+	XkBdfcKkCg==
+	</data>
+</dict>
+</plist>

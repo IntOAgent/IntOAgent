@@ -1,0 +1,48 @@
+digraph "CFG for 'xmlParseEnumeratedType' function" {
+	label="CFG for 'xmlParseEnumeratedType' function";
+
+	Node0x26dab300 [shape=record,label="{parser.c:5860:}"];
+	Node0x26dab300 -> Node0x26dab3e0;
+	Node0x26dab300 -> Node0x26dab840;
+	Node0x26dab3e0 [shape=record,label="{parser.c:5860:1}"];
+	Node0x26dab3e0 -> Node0x26dab430;
+	Node0x26dab3e0 -> Node0x26dab840;
+	Node0x26dab430 [shape=record,label="{parser.c:5860:2}"];
+	Node0x26dab430 -> Node0x26dab480;
+	Node0x26dab430 -> Node0x26dab840;
+	Node0x26dab480 [shape=record,label="{parser.c:5860:3}"];
+	Node0x26dab480 -> Node0x26dab4d0;
+	Node0x26dab480 -> Node0x26dab840;
+	Node0x26dab4d0 [shape=record,label="{parser.c:5860:4}"];
+	Node0x26dab4d0 -> Node0x26dab520;
+	Node0x26dab4d0 -> Node0x26dab840;
+	Node0x26dab520 [shape=record,label="{parser.c:5860:5}"];
+	Node0x26dab520 -> Node0x26dab570;
+	Node0x26dab520 -> Node0x26dab840;
+	Node0x26dab570 [shape=record,label="{parser.c:5860:6}"];
+	Node0x26dab570 -> Node0x26dab5c0;
+	Node0x26dab570 -> Node0x26dab840;
+	Node0x26dab5c0 [shape=record,label="{parser.c:5860:7}"];
+	Node0x26dab5c0 -> Node0x26dab610;
+	Node0x26dab5c0 -> Node0x26dab840;
+	Node0x26dab610 [shape=record,label="{parser.c:5861:}"];
+	Node0x26dab610 -> Node0x26dab660;
+	Node0x26dab610 -> Node0x26dab6b0;
+	Node0x26dab660 [shape=record,label="{parser.c:5861:8}"];
+	Node0x26dab660 -> Node0x26dab6b0;
+	Node0x26dab6b0 [shape=record,label="{parser.c:5861:9}"];
+	Node0x26dab6b0 -> Node0x26dab700;
+	Node0x26dab6b0 -> Node0x26dab750;
+	Node0x26dab700 [shape=record,label="{parser.c:5861:10}"];
+	Node0x26dab700 -> Node0x26dab750;
+	Node0x26dab750 [shape=record,label="{parser.c:5862:}"];
+	Node0x26dab750 -> Node0x26dab7a0;
+	Node0x26dab750 -> Node0x26dab7f0;
+	Node0x26dab7a0 [shape=record,label="{parser.c:260:}"];
+	Node0x26dab7a0 -> Node0x26dab890;
+	Node0x26dab7f0 [shape=record,label="{parser.c:5867:}"];
+	Node0x26dab7f0 -> Node0x26dab890;
+	Node0x26dab840 [shape=record,label="{parser.c:5871:}"];
+	Node0x26dab840 -> Node0x26dab890;
+	Node0x26dab890 [shape=record,label="{parser.c:5874:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlSearchNs' function" {
+	label="CFG for 'xmlSearchNs' function";
+
+	Node0x371fe620 [shape=record,label="{tree.c:5738:}"];
+}

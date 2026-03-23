@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlBufferFree' function" {
+	label="CFG for 'xmlBufferFree' function";
+
+	Node0x3f7bbe60 [shape=record,label="{buf.c:783:}"];
+	Node0x3f7bbe60 -> Node0x3f7bbf00;
+	Node0x3f7bbe60 -> Node0x3f7bbeb0;
+	Node0x3f7bbeb0 [shape=record,label="{buf.c:786:}"];
+	Node0x3f7bbeb0 -> Node0x3f7bbf00;
+	Node0x3f7bbf00 [shape=record,label="{buf.c:792:}"];
+}

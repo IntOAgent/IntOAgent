@@ -1,0 +1,48 @@
+digraph "CFG for 'xmlValidateDtd' function" {
+	label="CFG for 'xmlValidateDtd' function";
+
+	Node0x37e88790 [shape=record,label="{valid.c:6054:}"];
+	Node0x37e88790 -> Node0x37e88d80;
+	Node0x37e88790 -> Node0x37e88880;
+	Node0x37e88880 [shape=record,label="{valid.c:6059:}"];
+	Node0x37e88880 -> Node0x37e88920;
+	Node0x37e88880 -> Node0x37e888d0;
+	Node0x37e888d0 [shape=record,label="{valid.c:6064:}"];
+	Node0x37e888d0 -> Node0x37e88920;
+	Node0x37e88920 [shape=record,label="{valid.c:6067:}"];
+	Node0x37e88920 -> Node0x37e889c0;
+	Node0x37e88920 -> Node0x37e88970;
+	Node0x37e88970 [shape=record,label="{valid.c:6068:}"];
+	Node0x37e88970 -> Node0x37e889c0;
+	Node0x37e889c0 [shape=record,label="{valid.c:6072:}"];
+	Node0x37e889c0 -> Node0x37e88c40;
+	Node0x37e889c0 -> Node0x37e88a10;
+	Node0x37e88a10 [shape=record,label="{valid.c:6074:}"];
+	Node0x37e88a10 -> Node0x37e88bf0;
+	Node0x37e88a10 -> Node0x37e88a60;
+	Node0x37e88a60 [shape=record,label="{valid.c:6018:}"];
+	Node0x37e88a60 -> Node0x37e88b00;
+	Node0x37e88a60 -> Node0x37e88ab0;
+	Node0x37e88ab0 [shape=record,label="{valid.c:6019:}"];
+	Node0x37e88ab0 -> Node0x37e88b00;
+	Node0x37e88b00 [shape=record,label="{valid.c:6024:}"];
+	Node0x37e88b00 -> Node0x37e88ba0;
+	Node0x37e88b00 -> Node0x37e88b50;
+	Node0x37e88b50 [shape=record,label="{valid.c:6030:}"];
+	Node0x37e88b50 -> Node0x37e88ba0;
+	Node0x37e88ba0 [shape=record,label="{valid.c:6032:}"];
+	Node0x37e88ba0 -> Node0x37e88bf0;
+	Node0x37e88bf0 [shape=record,label="{valid.c:6076:}"];
+	Node0x37e88bf0 -> Node0x37e88c40;
+	Node0x37e88c40 [shape=record,label="{valid.c:6079:}"];
+	Node0x37e88c40 -> Node0x37e88ce0;
+	Node0x37e88c40 -> Node0x37e88c90;
+	Node0x37e88c90 [shape=record,label="{valid.c:6082:}"];
+	Node0x37e88c90 -> Node0x37e88ce0;
+	Node0x37e88ce0 [shape=record,label="{valid.c:6085:}"];
+	Node0x37e88ce0 -> Node0x37e88d80;
+	Node0x37e88ce0 -> Node0x37e88d30;
+	Node0x37e88d30 [shape=record,label="{valid.c:6086:}"];
+	Node0x37e88d30 -> Node0x37e88d80;
+	Node0x37e88d80 [shape=record,label="{valid.c:6091:}"];
+}

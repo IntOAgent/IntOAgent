@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlStrVPrintf' function" {
+	label="CFG for 'xmlStrVPrintf' function";
+
+	Node0x1aa277f0 [shape=record,label="{xmlstring.c:545:}"];
+	Node0x1aa277f0 -> Node0x1a9f1f40;
+	Node0x1aa277f0 -> Node0x1a9f1db0;
+	Node0x1a9f1db0 [shape=record,label="{xmlstring.c:549:}"];
+	Node0x1a9f1db0 -> Node0x1a9f1e00;
+	Node0x1a9f1db0 -> Node0x1a9f1e50;
+	Node0x1a9f1e00 [shape=record,label="{xmlstring.c:550:}"];
+	Node0x1a9f1e00 -> Node0x1a9f1e50;
+	Node0x1a9f1e50 [shape=record,label="{xmlstring.c:550:1}"];
+	Node0x1a9f1e50 -> Node0x1a9f1ea0;
+	Node0x1a9f1e50 -> Node0x1a9f1ef0;
+	Node0x1a9f1ea0 [shape=record,label="{xmlstring.c:550:2}"];
+	Node0x1a9f1ea0 -> Node0x1a9f1ef0;
+	Node0x1a9f1ef0 [shape=record,label="{xmlstring.c:550:3}"];
+	Node0x1a9f1ef0 -> Node0x1a9f1f40;
+	Node0x1a9f1f40 [shape=record,label="{xmlstring.c:553:}"];
+}

@@ -1,0 +1,27 @@
+digraph "CFG for 'xmlSchemaIsDerivedFromBuiltInType' function" {
+	label="CFG for 'xmlSchemaIsDerivedFromBuiltInType' function";
+
+	Node0x2e581300 [shape=record,label="{xmlschemas.c:13065:}"];
+	Node0x2e581300 -> Node0x2e581580;
+	Node0x2e581300 -> Node0x2e581350;
+	Node0x2e581350 [shape=record,label="{xmlschemas.c:13067:}"];
+	Node0x2e581350 -> Node0x2e581580;
+	Node0x2e581350 -> Node0x2e5813a0;
+	Node0x2e5813a0 [shape=record,label="{xmlschemas.c:13067:1}"];
+	Node0x2e5813a0 -> Node0x2e581580;
+	Node0x2e5813a0 -> Node0x2e5813f0;
+	Node0x2e5813f0 [shape=record,label="{xmlschemas.c:13069:}"];
+	Node0x2e5813f0 -> Node0x2e581440;
+	Node0x2e5813f0 -> Node0x2e581530;
+	Node0x2e581440 [shape=record,label="{xmlschemas.c:13070:}"];
+	Node0x2e581440 -> Node0x2e5814e0;
+	Node0x2e581440 -> Node0x2e581580;
+	Node0x2e581440 -> Node0x2e581490;
+	Node0x2e581490 [shape=record,label="{xmlschemas.c:13074:}"];
+	Node0x2e581490 -> Node0x2e581580;
+	Node0x2e5814e0 [shape=record,label="{xmlschemas.c:13075:}"];
+	Node0x2e5814e0 -> Node0x2e581580;
+	Node0x2e581530 [shape=record,label="{xmlschemas.c:13077:}"];
+	Node0x2e581530 -> Node0x2e581580;
+	Node0x2e581580 [shape=record,label="{xmlschemas.c:13078:}"];
+}

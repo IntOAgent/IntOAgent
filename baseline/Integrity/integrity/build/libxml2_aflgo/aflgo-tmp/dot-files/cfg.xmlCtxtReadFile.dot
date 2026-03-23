@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlCtxtReadFile' function" {
+	label="CFG for 'xmlCtxtReadFile' function";
+
+	Node0x2717f0d0 [shape=record,label="{parser.c:13597:}"];
+	Node0x2717f0d0 -> Node0x2717f2b0;
+	Node0x2717f0d0 -> Node0x2717f120;
+	Node0x2717f120 [shape=record,label="{parser.c:13600:}"];
+	Node0x2717f120 -> Node0x2717f1c0;
+	Node0x2717f120 -> Node0x2717f170;
+	Node0x2717f170 [shape=record,label="{parser.c:13271:}"];
+	Node0x2717f170 -> Node0x2717f210;
+	Node0x2717f1c0 [shape=record,label="{parser.c:13171:}"];
+	Node0x2717f1c0 -> Node0x2717f210;
+	Node0x2717f210 [shape=record,label="{parser.c:13603:}"];
+	Node0x2717f210 -> Node0x2717f2b0;
+	Node0x2717f210 -> Node0x2717f260;
+	Node0x2717f260 [shape=record,label="{parser.c:13607:}"];
+	Node0x2717f260 -> Node0x2717f2b0;
+	Node0x2717f2b0 [shape=record,label="{parser.c:13608:}"];
+}

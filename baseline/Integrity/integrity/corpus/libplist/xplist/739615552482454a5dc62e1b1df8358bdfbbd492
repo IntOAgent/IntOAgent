@@ -1,0 +1,4 @@
+<plist version="1.]1">
+<dict
+>    <key><![CDATA[cylis&key]]></key>
+    <string>string with cdata cot: <!1728394:;<=>?@ABCDEF>

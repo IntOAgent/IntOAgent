@@ -1,0 +1,10 @@
+prefix=/home/xxx/PHDlife/fuxian/integrity/build/libplist/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libplist
+Description: A library to handle Apple Property Lists whereas they are binary or XML
+Version: 2.7.0-52-g6e03a1d
+Libs: -L${libdir} -lplist-2.0
+Cflags: -I${includedir}

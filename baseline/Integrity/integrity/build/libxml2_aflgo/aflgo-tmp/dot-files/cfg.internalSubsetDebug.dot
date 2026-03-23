@@ -1,0 +1,27 @@
+digraph "CFG for 'internalSubsetDebug' function" {
+	label="CFG for 'internalSubsetDebug' function";
+
+	Node0x3d15fd80 [shape=record,label="{xmllint.c:680:}"];
+	Node0x3d15fd80 -> Node0x3d15fe30;
+	Node0x3d15fd80 -> Node0x3d15fe80;
+	Node0x3d15fe30 [shape=record,label="{xmllint.c:680:1}"];
+	Node0x3d15fe30 -> Node0x3d15fe80;
+	Node0x3d15fe80 [shape=record,label="{xmllint.c:680:2}"];
+	Node0x3d15fe80 -> Node0x3d15fed0;
+	Node0x3d15fe80 -> Node0x3d1600b0;
+	Node0x3d15fed0 [shape=record,label="{xmllint.c:683:}"];
+	Node0x3d15fed0 -> Node0x3d15ff20;
+	Node0x3d15fed0 -> Node0x3d15ff70;
+	Node0x3d15ff20 [shape=record,label="{xmllint.c:685:}"];
+	Node0x3d15ff20 -> Node0x3d15ffc0;
+	Node0x3d15ff70 [shape=record,label="{xmllint.c:687:}"];
+	Node0x3d15ff70 -> Node0x3d15ffc0;
+	Node0x3d15ffc0 [shape=record,label="{xmllint.c:688:}"];
+	Node0x3d15ffc0 -> Node0x3d160010;
+	Node0x3d15ffc0 -> Node0x3d160060;
+	Node0x3d160010 [shape=record,label="{xmllint.c:689:}"];
+	Node0x3d160010 -> Node0x3d1600b0;
+	Node0x3d160060 [shape=record,label="{xmllint.c:691:}"];
+	Node0x3d160060 -> Node0x3d1600b0;
+	Node0x3d1600b0 [shape=record,label="{xmllint.c:692:}"];
+}

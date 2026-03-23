@@ -1,0 +1,16 @@
+digraph "CFG for 'xmlSchemaCheckSubstGroupCircular' function" {
+	label="CFG for 'xmlSchemaCheckSubstGroupCircular' function";
+
+	Node0x2e108fa0 [shape=record,label="{xmlschemas.c:19135:}"];
+	Node0x2e108fa0 -> Node0x2e109110;
+	Node0x2e108fa0 -> Node0x2e109020;
+	Node0x2e109020 [shape=record,label="{xmlschemas.c:19137:}"];
+	Node0x2e109020 -> Node0x2e109110;
+	Node0x2e109020 -> Node0x2e109070;
+	Node0x2e109070 [shape=record,label="{xmlschemas.c:19140:}"];
+	Node0x2e109070 -> Node0x2e1090c0;
+	Node0x2e109070 -> Node0x2e109110;
+	Node0x2e1090c0 [shape=record,label="{xmlschemas.c:19142:}"];
+	Node0x2e1090c0 -> Node0x2e109110;
+	Node0x2e109110 [shape=record,label="{xmlschemas.c:19148:}"];
+}

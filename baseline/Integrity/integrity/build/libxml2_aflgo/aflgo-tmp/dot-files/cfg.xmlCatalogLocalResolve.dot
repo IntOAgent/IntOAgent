@@ -1,0 +1,31 @@
+digraph "CFG for 'xmlCatalogLocalResolve' function" {
+	label="CFG for 'xmlCatalogLocalResolve' function";
+
+	Node0x5eee400 [shape=record,label="{catalog.c:3569:}"];
+	Node0x5eee400 -> Node0x5eee720;
+	Node0x5eee400 -> Node0x5eee450;
+	Node0x5eee450 [shape=record,label="{catalog.c:3572:}"];
+	Node0x5eee450 -> Node0x5eee630;
+	Node0x5eee450 -> Node0x5eee4a0;
+	Node0x5eee4a0 [shape=record,label="{catalog.c:3573:}"];
+	Node0x5eee4a0 -> Node0x5eee4f0;
+	Node0x5eee4a0 -> Node0x5eee540;
+	Node0x5eee4f0 [shape=record,label="{catalog.c:3574:}"];
+	Node0x5eee4f0 -> Node0x5eee630;
+	Node0x5eee540 [shape=record,label="{catalog.c:3576:}"];
+	Node0x5eee540 -> Node0x5eee590;
+	Node0x5eee540 -> Node0x5eee5e0;
+	Node0x5eee590 [shape=record,label="{catalog.c:3577:}"];
+	Node0x5eee590 -> Node0x5eee630;
+	Node0x5eee5e0 [shape=record,label="{catalog.c:3580:}"];
+	Node0x5eee5e0 -> Node0x5eee630;
+	Node0x5eee630 [shape=record,label="{catalog.c:3586:}"];
+	Node0x5eee630 -> Node0x5eee720;
+	Node0x5eee630 -> Node0x5eee680;
+	Node0x5eee680 [shape=record,label="{catalog.c:3585:}"];
+	Node0x5eee680 -> Node0x5eee720;
+	Node0x5eee680 -> Node0x5eee6d0;
+	Node0x5eee6d0 [shape=record,label="{catalog.c:3591:}"];
+	Node0x5eee6d0 -> Node0x5eee720;
+	Node0x5eee720 [shape=record,label="{catalog.c:3592:}"];
+}

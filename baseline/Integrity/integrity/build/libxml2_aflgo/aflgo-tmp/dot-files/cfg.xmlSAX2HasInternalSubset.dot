@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlSAX2HasInternalSubset' function" {
+	label="CFG for 'xmlSAX2HasInternalSubset' function";
+
+	Node0x1abed170 [shape=record,label="{SAX2.c:213:}"];
+	Node0x1abed170 -> Node0x1abed260;
+	Node0x1abed170 -> Node0x1abed1c0;
+	Node0x1abed1c0 [shape=record,label="{SAX2.c:213:1}"];
+	Node0x1abed1c0 -> Node0x1abed260;
+	Node0x1abed1c0 -> Node0x1abed210;
+	Node0x1abed210 [shape=record,label="{SAX2.c:214:}"];
+	Node0x1abed210 -> Node0x1abed260;
+	Node0x1abed260 [shape=record,label="{SAX2.c:215:}"];
+}

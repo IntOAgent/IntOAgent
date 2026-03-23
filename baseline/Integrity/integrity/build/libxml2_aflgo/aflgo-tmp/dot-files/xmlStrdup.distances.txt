@@ -1,0 +1,17 @@
+xmlstring.c:53,3.3870967741935489
+xmlstring.c:54,0
+xmlstring.c:75,4.2971985383678444
+xmlstring.c:76,3.0640958832725378
+xmlstring.c:77,0
+xmlstring.c:53,3.3870967741935489
+xmlstring.c:54,0
+xmlstring.c:54,0
+xmlstring.c:54,0
+xmlstring.c:53,3.3870967741935489
+xmlstring.c:54,0
+xmlstring.c:76,3.0640958832725378
+xmlstring.c:77,0
+xmlstring.c:76,3.0640958832725378
+xmlstring.c:77,0
+xmlstring.c:53,3.3870967741935489
+xmlstring.c:54,0

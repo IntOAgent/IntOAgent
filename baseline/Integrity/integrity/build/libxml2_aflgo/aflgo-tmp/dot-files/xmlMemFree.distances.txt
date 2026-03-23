@@ -1,0 +1,5 @@
+xmlmemory.c:189,5.2664576802507836
+xmlmemory.c:197,4.2105263157894735
+xmlmemory.c:202,3.116883116883117
+xmlmemory.c:206,0
+xmlmemory.c:207,0

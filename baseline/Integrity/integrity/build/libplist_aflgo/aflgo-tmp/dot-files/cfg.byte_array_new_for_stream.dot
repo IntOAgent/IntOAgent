@@ -1,0 +1,5 @@
+digraph "CFG for 'byte_array_new_for_stream' function" {
+	label="CFG for 'byte_array_new_for_stream' function";
+
+	Node0x15d6ee50 [shape=record,label="{bytearray.c:38:}"];
+}

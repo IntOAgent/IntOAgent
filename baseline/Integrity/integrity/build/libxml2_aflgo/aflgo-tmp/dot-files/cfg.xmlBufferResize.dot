@@ -1,0 +1,23 @@
+digraph "CFG for 'xmlBufferResize' function" {
+	label="CFG for 'xmlBufferResize' function";
+
+	Node0x3f7d5070 [shape=record,label="{buf.c:967:}"];
+	Node0x3f7d5070 -> Node0x3f7d52a0;
+	Node0x3f7d5070 -> Node0x3f7d50c0;
+	Node0x3f7d50c0 [shape=record,label="{buf.c:969:}"];
+	Node0x3f7d50c0 -> Node0x3f7d52a0;
+	Node0x3f7d50c0 -> Node0x3f7d5110;
+	Node0x3f7d5110 [shape=record,label="{buf.c:971:}"];
+	Node0x3f7d5110 -> Node0x3f7d5160;
+	Node0x3f7d5110 -> Node0x3f7d51b0;
+	Node0x3f7d5160 [shape=record,label="{buf.c:971:1}"];
+	Node0x3f7d5160 -> Node0x3f7d51b0;
+	Node0x3f7d51b0 [shape=record,label="{buf.c:971:2}"];
+	Node0x3f7d51b0 -> Node0x3f7d5200;
+	Node0x3f7d51b0 -> Node0x3f7d5250;
+	Node0x3f7d5200 [shape=record,label="{buf.c:971:3}"];
+	Node0x3f7d5200 -> Node0x3f7d5250;
+	Node0x3f7d5250 [shape=record,label="{buf.c:971:4}"];
+	Node0x3f7d5250 -> Node0x3f7d52a0;
+	Node0x3f7d52a0 [shape=record,label="{buf.c:974:}"];
+}

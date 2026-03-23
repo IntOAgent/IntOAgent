@@ -1,0 +1,5 @@
+digraph "CFG for 'xlinkGetDefaultDetect' function" {
+	label="CFG for 'xlinkGetDefaultDetect' function";
+
+	Node0x1ff86a70 [shape=record,label="{xlink.c:70:}"];
+}

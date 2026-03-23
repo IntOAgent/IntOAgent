@@ -1,0 +1,19 @@
+digraph "CFG for 'plist_int_val_is_negative' function" {
+	label="CFG for 'plist_int_val_is_negative' function";
+
+	Node0x216620d0 [shape=record,label="{plist.c:1597:}"];
+	Node0x216620d0 -> Node0x216622a0;
+	Node0x216620d0 -> Node0x21662160;
+	Node0x21662160 [shape=record,label="{plist.c:356:}"];
+	Node0x21662160 -> Node0x216622a0;
+	Node0x21662160 -> Node0x216621b0;
+	Node0x216621b0 [shape=record,label="{plist.c:1265:}"];
+	Node0x216621b0 -> Node0x21662200;
+	Node0x216621b0 -> Node0x216622a0;
+	Node0x21662200 [shape=record,label="{plist.c:356:1}"];
+	Node0x21662200 -> Node0x216622a0;
+	Node0x21662200 -> Node0x21662250;
+	Node0x21662250 [shape=record,label="{plist.c:1604:}"];
+	Node0x21662250 -> Node0x216622a0;
+	Node0x216622a0 [shape=record,label="{plist.c:1608:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlFreeAttributeTable' function" {
+	label="CFG for 'xmlFreeAttributeTable' function";
+
+	Node0x37cd2020 [shape=record,label="{valid.c:1763:}"];
+}

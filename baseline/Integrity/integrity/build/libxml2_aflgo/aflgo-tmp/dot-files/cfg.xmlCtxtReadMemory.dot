@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlCtxtReadMemory' function" {
+	label="CFG for 'xmlCtxtReadMemory' function";
+
+	Node0x27182fd0 [shape=record,label="{parser.c:13631:}"];
+	Node0x27182fd0 -> Node0x271831b0;
+	Node0x27182fd0 -> Node0x27183020;
+	Node0x27183020 [shape=record,label="{parser.c:13634:}"];
+	Node0x27183020 -> Node0x271830c0;
+	Node0x27183020 -> Node0x27183070;
+	Node0x27183070 [shape=record,label="{parser.c:13271:}"];
+	Node0x27183070 -> Node0x27183110;
+	Node0x271830c0 [shape=record,label="{parser.c:13171:}"];
+	Node0x271830c0 -> Node0x27183110;
+	Node0x27183110 [shape=record,label="{parser.c:13637:}"];
+	Node0x27183110 -> Node0x271831b0;
+	Node0x27183110 -> Node0x27183160;
+	Node0x27183160 [shape=record,label="{parser.c:13642:}"];
+	Node0x27183160 -> Node0x271831b0;
+	Node0x271831b0 [shape=record,label="{parser.c:13643:}"];
+}

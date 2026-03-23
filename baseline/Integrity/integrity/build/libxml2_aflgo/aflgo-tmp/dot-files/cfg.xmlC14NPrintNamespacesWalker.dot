@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlC14NPrintNamespacesWalker' function" {
+	label="CFG for 'xmlC14NPrintNamespacesWalker' function";
+
+	Node0xfce69c0 [shape=record,label="{c14n.c:536:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCatalogErr' function" {
+	label="CFG for 'xmlCatalogErr' function";
+
+	Node0x5f3d130 [shape=record,label="{catalog.c:227:}"];
+	Node0x5f3d130 -> Node0x5f3d180;
+	Node0x5f3d130 -> Node0x5f3d1d0;
+	Node0x5f3d180 [shape=record,label="{catalog.c:206:}"];
+	Node0x5f3d180 -> Node0x5f3d1d0;
+	Node0x5f3d1d0 [shape=record,label="{catalog.c:234:}"];
+}

@@ -1,0 +1,33 @@
+uatml 
+> <body>
+    <div>
+      <h3>
+        <a href="https://html.spec.whatwg.org/multipage/parsing.html#parse-error-abrupt-closing-of-empty-comment">
+          Abruptly closed comment
+        </a>
+      </h4parsing.html#parse-error-abrupt-closing-of-empty-comment">
+          Abruptly closed comment
+        </a>
+      </h4>
+      <div>
+        <!-->the previous node should be an empty comment, and this should be a text node-->
+      </div>
+      <div>
+        <!--->the previous0node should be>
+   tp://webfarm.mediapl›.com/click_thru_request/164-1361b-1052" style="text-decoration:none"><font color="#000000">Musicmaker</font></a></i></font><br><br> 
+
+<font size=2 face="Arial,Helvetica, sans-serif"><b><a href="/news/wireless/0,1382,,00.html">The Wireless World</a></b></font><br><font size=2 face="Arial, Helvetica, sans-serif"><font size=1 face="Arial, Geneva, sans-serif" color="#000000">Networking gets unplugged.  <br><i>Sponsored by <a href="http://www.ericsson.se/get/internet/default.shtml" style="text-decoration:none"><font color="#000000">Ericsson</font></a></i></font><br><br> 
+
+<font size=2 face="Arial,Helvetica, sans-serif"><b><a href="/news/digiwood/0,1412,,00.html">Digital Hollywood</a></b></font><br><font size=2 face="Arial, Helvetica, sans-serif"><font size=1 face="Arial, Geneva, sans-serif" color="#000000">The buzz of tech.</font><br><br> 
+
+<font size=2 face="Arial,Helvetica, sans-serif"><b><a href="/news/ipo/0,1350,,00.html">IPO Outlook</a></b></font><br><font size=2 face="Arial, Helvetica, sans-serif"><font size=1 face="Arial, Geneva, sans-serif" color="#000000">Deals in the pipeline.  <br><i>Sponsored by <a href="http://r.hotwired.com/r/wn_ipo_r_sun_txt/http://sun.com/ads/smi/brand/hotwired.html" style="text-decoration:none"><font color="#000000">Sun</font></a></i></font><br><br> 
+
+<font size=2 face="Arial,Helvetica, sans-serif"><b><a href="/news/ebiz/0,1272,,00.html">E-Biz</a></b></font><br><font size=2 face="Arial, Helvetica, san   <div>
+        <!-->the previous node should be an empty comment, and this should be a text node-->
+      </div>
+      <div>
+        <!--->the previous0node should be an empty comment, and this should be a text node-->
+      </dotdiv>
+    </div>
+  </body>
+</html>

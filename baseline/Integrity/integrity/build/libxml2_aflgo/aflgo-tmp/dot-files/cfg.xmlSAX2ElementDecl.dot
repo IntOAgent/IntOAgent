@@ -1,0 +1,40 @@
+digraph "CFG for 'xmlSAX2ElementDecl' function" {
+	label="CFG for 'xmlSAX2ElementDecl' function";
+
+	Node0x1ac2ba10 [shape=record,label="{SAX2.c:678:}"];
+	Node0x1ac2ba10 -> Node0x1ac2bea0;
+	Node0x1ac2ba10 -> Node0x1ac2bae0;
+	Node0x1ac2bae0 [shape=record,label="{SAX2.c:684:}"];
+	Node0x1ac2bae0 -> Node0x1ac2bea0;
+	Node0x1ac2bae0 -> Node0x1ac2bb30;
+	Node0x1ac2bb30 [shape=record,label="{SAX2.c:687:}"];
+	Node0x1ac2bb30 -> Node0x1ac2bc20;
+	Node0x1ac2bb30 -> Node0x1ac2bb80;
+	Node0x1ac2bb30 -> Node0x1ac2bbd0;
+	Node0x1ac2bb80 [shape=record,label="{SAX2.c:688:}"];
+	Node0x1ac2bb80 -> Node0x1ac2bc70;
+	Node0x1ac2bbd0 [shape=record,label="{SAX2.c:691:}"];
+	Node0x1ac2bbd0 -> Node0x1ac2bc70;
+	Node0x1ac2bc20 [shape=record,label="{SAX2.c:80:}"];
+	Node0x1ac2bc20 -> Node0x1ac2bea0;
+	Node0x1ac2bc70 [shape=record,label="{SAX2.c:700:}"];
+	Node0x1ac2bc70 -> Node0x1ac2bcc0;
+	Node0x1ac2bc70 -> Node0x1ac2bd10;
+	Node0x1ac2bcc0 [shape=record,label="{SAX2.c:701:}"];
+	Node0x1ac2bcc0 -> Node0x1ac2bd10;
+	Node0x1ac2bd10 [shape=record,label="{SAX2.c:702:}"];
+	Node0x1ac2bd10 -> Node0x1ac2bea0;
+	Node0x1ac2bd10 -> Node0x1ac2bd60;
+	Node0x1ac2bd60 [shape=record,label="{SAX2.c:702:1}"];
+	Node0x1ac2bd60 -> Node0x1ac2bea0;
+	Node0x1ac2bd60 -> Node0x1ac2bdb0;
+	Node0x1ac2bdb0 [shape=record,label="{SAX2.c:703:}"];
+	Node0x1ac2bdb0 -> Node0x1ac2bea0;
+	Node0x1ac2bdb0 -> Node0x1ac2be00;
+	Node0x1ac2be00 [shape=record,label="{SAX2.c:703:2}"];
+	Node0x1ac2be00 -> Node0x1ac2bea0;
+	Node0x1ac2be00 -> Node0x1ac2be50;
+	Node0x1ac2be50 [shape=record,label="{SAX2.c:705:}"];
+	Node0x1ac2be50 -> Node0x1ac2bea0;
+	Node0x1ac2bea0 [shape=record,label="{SAX2.c:707:}"];
+}

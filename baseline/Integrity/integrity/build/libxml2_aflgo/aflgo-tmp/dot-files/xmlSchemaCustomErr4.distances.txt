@@ -1,0 +1,14 @@
+xmlschemas.c:2347,10
+xmlschemas.c:2350,13.900990099009901
+xmlschemas.c:2351,10
+xmlschemas.c:2355,16
+xmlschemas.c:2356,10
+xmlschemas.c:2347,10
+xmlschemas.c:2347,10
+xmlschemas.c:2347,10
+xmlschemas.c:2347,10
+xmlschemas.c:2347,10
+xmlschemas.c:2347,10
+xmlschemas.c:2347,10
+xmlschemas.c:2347,10
+xmlschemas.c:2347,10

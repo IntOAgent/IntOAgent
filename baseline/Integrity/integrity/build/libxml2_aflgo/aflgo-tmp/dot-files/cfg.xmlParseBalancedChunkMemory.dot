@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlParseBalancedChunkMemory' function" {
+	label="CFG for 'xmlParseBalancedChunkMemory' function";
+
+	Node0x270ca1e0 [shape=record,label="{parser.c:11983:}"];
+}

@@ -1,0 +1,9 @@
+xpath.c:2368,5
+xpath.c:2370,4
+xpath.c:2371,3
+xpath.c:2372,2
+xpath.c:2373,0
+xpath.c:2374,4
+xpath.c:2380,4
+xpath.c:2385,4
+xpath.c:2392,4

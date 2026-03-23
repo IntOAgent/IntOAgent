@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlListPopFront' function" {
+	label="CFG for 'xmlListPopFront' function";
+
+	Node0xdfd1bb0 [shape=record,label="{list.c:408:}"];
+	Node0xdfd1bb0 -> Node0xdfd1e70;
+	Node0xdfd1bb0 -> Node0xdfd1d30;
+	Node0xdfd1d30 [shape=record,label="{list.c:410:}"];
+	Node0xdfd1d30 -> Node0xdfd1e70;
+	Node0xdfd1d30 -> Node0xdfd1d80;
+	Node0xdfd1d80 [shape=record,label="{list.c:469:}"];
+	Node0xdfd1d80 -> Node0xdfd1e20;
+	Node0xdfd1d80 -> Node0xdfd1dd0;
+	Node0xdfd1dd0 [shape=record,label="{list.c:63:}"];
+	Node0xdfd1dd0 -> Node0xdfd1e20;
+	Node0xdfd1e20 [shape=record,label="{list.c:64:}"];
+	Node0xdfd1e20 -> Node0xdfd1e70;
+	Node0xdfd1e70 [shape=record,label="{list.c:470:}"];
+}

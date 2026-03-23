@@ -1,0 +1,38 @@
+digraph "CFG for 'xmlCtxtNewInputFromMemory' function" {
+	label="CFG for 'xmlCtxtNewInputFromMemory' function";
+
+	Node0x8dd56b0 [shape=record,label="{parserInternals.c:1920:}"];
+	Node0x8dd56b0 -> Node0x8dd5ac0;
+	Node0x8dd56b0 -> Node0x8dd5700;
+	Node0x8dd5700 [shape=record,label="{parserInternals.c:1898:}"];
+	Node0x8dd5700 -> Node0x8dd57a0;
+	Node0x8dd5700 -> Node0x8dd5750;
+	Node0x8dd5750 [shape=record,label="{parserInternals.c:1902:}"];
+	Node0x8dd5750 -> Node0x8dd57a0;
+	Node0x8dd57a0 [shape=record,label="{parserInternals.c:1924:}"];
+	Node0x8dd57a0 -> Node0x8dd57f0;
+	Node0x8dd57a0 -> Node0x8dd5a20;
+	Node0x8dd57f0 [shape=record,label="{parserInternals.c:189:}"];
+	Node0x8dd57f0 -> Node0x8dd5890;
+	Node0x8dd57f0 -> Node0x8dd5840;
+	Node0x8dd5840 [shape=record,label="{parserInternals.c:196:}"];
+	Node0x8dd5840 -> Node0x8dd59d0;
+	Node0x8dd5890 [shape=record,label="{parserInternals.c:197:}"];
+	Node0x8dd5890 -> Node0x8dd58e0;
+	Node0x8dd5890 -> Node0x8dd5980;
+	Node0x8dd58e0 [shape=record,label="{parserInternals.c:198:}"];
+	Node0x8dd58e0 -> Node0x8dd5980;
+	Node0x8dd58e0 -> Node0x8dd5930;
+	Node0x8dd5930 [shape=record,label="{parserInternals.c:200:}"];
+	Node0x8dd5930 -> Node0x8dd59d0;
+	Node0x8dd5980 [shape=record,label="{parserInternals.c:202:}"];
+	Node0x8dd5980 -> Node0x8dd59d0;
+	Node0x8dd59d0 [shape=record,label="{parserInternals.c:207:}"];
+	Node0x8dd59d0 -> Node0x8dd5ac0;
+	Node0x8dd5a20 [shape=record,label="{parserInternals.c:1929:}"];
+	Node0x8dd5a20 -> Node0x8dd5ac0;
+	Node0x8dd5a20 -> Node0x8dd5a70;
+	Node0x8dd5a70 [shape=record,label="{parserInternals.c:1930:}"];
+	Node0x8dd5a70 -> Node0x8dd5ac0;
+	Node0x8dd5ac0 [shape=record,label="{parserInternals.c:1933:}"];
+}

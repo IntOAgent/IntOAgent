@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlMemClose' function" {
+	label="CFG for 'xmlMemClose' function";
+
+	Node0x97c14c0 [shape=record,label="{xmlIO.c:1910:}"];
+}

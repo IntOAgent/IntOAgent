@@ -1,0 +1,16 @@
+digraph "CFG for 'xmlTextReaderHasValue' function" {
+	label="CFG for 'xmlTextReaderHasValue' function";
+
+	Node0x22ba4760 [shape=record,label="{xmlreader.c:3421:}"];
+	Node0x22ba4760 -> Node0x22ba48d0;
+	Node0x22ba4760 -> Node0x22ba47e0;
+	Node0x22ba47e0 [shape=record,label="{xmlreader.c:3423:}"];
+	Node0x22ba47e0 -> Node0x22ba48d0;
+	Node0x22ba47e0 -> Node0x22ba4830;
+	Node0x22ba4830 [shape=record,label="{xmlreader.c:3425:}"];
+	Node0x22ba4830 -> Node0x22ba4880;
+	Node0x22ba4830 -> Node0x22ba48d0;
+	Node0x22ba4880 [shape=record,label="{xmlreader.c:3441:}"];
+	Node0x22ba4880 -> Node0x22ba48d0;
+	Node0x22ba48d0 [shape=record,label="{xmlreader.c:3442:}"];
+}

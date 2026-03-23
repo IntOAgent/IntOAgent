@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSwitchEncodingName' function" {
+	label="CFG for 'xmlSwitchEncodingName' function";
+
+	Node0x8d732c0 [shape=record,label="{parserInternals.c:1336:}"];
+	Node0x8d732c0 -> Node0x8d73360;
+	Node0x8d732c0 -> Node0x8d73310;
+	Node0x8d73310 [shape=record,label="{parserInternals.c:1339:}"];
+	Node0x8d73310 -> Node0x8d73360;
+	Node0x8d73360 [shape=record,label="{parserInternals.c:1340:}"];
+}

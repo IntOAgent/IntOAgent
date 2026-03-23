@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlDOMWrapNewCtxt' function" {
+	label="CFG for 'xmlDOMWrapNewCtxt' function";
+
+	Node0x3737b2b0 [shape=record,label="{tree.c:6930:}"];
+	Node0x3737b2b0 -> Node0x3737b350;
+	Node0x3737b2b0 -> Node0x3737b300;
+	Node0x3737b300 [shape=record,label="{tree.c:6930:1}"];
+	Node0x3737b300 -> Node0x3737b350;
+	Node0x3737b350 [shape=record,label="{tree.c:6935:}"];
+}

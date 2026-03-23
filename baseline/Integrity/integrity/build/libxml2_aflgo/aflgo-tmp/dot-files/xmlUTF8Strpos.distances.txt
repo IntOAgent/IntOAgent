@@ -1,0 +1,7 @@
+xmlstring.c:987,3.7402597402597402
+xmlstring.c:990,0
+xmlstring.c:991,3.154929577464789
+xmlstring.c:994,3.2000000000000002
+xmlstring.c:996,3
+xmlstring.c:999,0
+xmlstring.c:1000,3

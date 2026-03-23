@@ -1,0 +1,44 @@
+digraph "CFG for 'xmlRemoveEntity' function" {
+	label="CFG for 'xmlRemoveEntity' function";
+
+	Node0x3722a2b0 [shape=record,label="{tree.c:2425:}"];
+	Node0x3722a2b0 -> Node0x3722a790;
+	Node0x3722a2b0 -> Node0x3722a380;
+	Node0x3722a380 [shape=record,label="{tree.c:2430:}"];
+	Node0x3722a380 -> Node0x3722a790;
+	Node0x3722a380 -> Node0x3722a3d0;
+	Node0x3722a380 -> Node0x3722a560;
+	Node0x3722a3d0 [shape=record,label="{tree.c:2436:}"];
+	Node0x3722a3d0 -> Node0x3722a4c0;
+	Node0x3722a3d0 -> Node0x3722a420;
+	Node0x3722a420 [shape=record,label="{tree.c:2437:}"];
+	Node0x3722a420 -> Node0x3722a470;
+	Node0x3722a420 -> Node0x3722a4c0;
+	Node0x3722a470 [shape=record,label="{tree.c:2438:}"];
+	Node0x3722a470 -> Node0x3722a4c0;
+	Node0x3722a4c0 [shape=record,label="{tree.c:2440:}"];
+	Node0x3722a4c0 -> Node0x3722a790;
+	Node0x3722a4c0 -> Node0x3722a510;
+	Node0x3722a510 [shape=record,label="{tree.c:2441:}"];
+	Node0x3722a510 -> Node0x3722a740;
+	Node0x3722a510 -> Node0x3722a790;
+	Node0x3722a560 [shape=record,label="{tree.c:2446:}"];
+	Node0x3722a560 -> Node0x3722a650;
+	Node0x3722a560 -> Node0x3722a5b0;
+	Node0x3722a5b0 [shape=record,label="{tree.c:2447:}"];
+	Node0x3722a5b0 -> Node0x3722a600;
+	Node0x3722a5b0 -> Node0x3722a650;
+	Node0x3722a600 [shape=record,label="{tree.c:2448:}"];
+	Node0x3722a600 -> Node0x3722a650;
+	Node0x3722a650 [shape=record,label="{tree.c:2450:}"];
+	Node0x3722a650 -> Node0x3722a790;
+	Node0x3722a650 -> Node0x3722a6a0;
+	Node0x3722a6a0 [shape=record,label="{tree.c:2451:}"];
+	Node0x3722a6a0 -> Node0x3722a6f0;
+	Node0x3722a6a0 -> Node0x3722a790;
+	Node0x3722a6f0 [shape=record,label="{tree.c:2452:}"];
+	Node0x3722a6f0 -> Node0x3722a740;
+	Node0x3722a740 [shape=record,label="{tree.c:2455:}"];
+	Node0x3722a740 -> Node0x3722a790;
+	Node0x3722a790 [shape=record,label="{tree.c:2455:1}"];
+}

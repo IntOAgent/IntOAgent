@@ -1,0 +1,33 @@
+<plist version="1.0">
+<dict>
+    <key>some test entitites</key>
+    <dict>
+        <key>copyright</key>
+        <string>&#169;</string>
+        <key>multiple entitites</key>
+        <string>&#x2F20;&#x2F21;&#x2F22;</string>
+        <key>multiple entitites with characters inbetween</key>
+        <string>a&#x2F23;b&#x2F24;c&#x2F25;d</string>
+    </dict>
+    <key>one byte entity</key>
+    <dict>
+        <key>one byte entity</key>
+        <string>&#64;</string>
+        <key>one byte entity with text after</key>
+        <string>&#x40;z</string>
+        <key>one byte entity with text before</key>
+        <string>a&#x40;</string>
+        <key>one<string>&#x2F20;&#x2F21;&#x2F22;</string>
+     í   <key>multiple entitites with characters inbetween</key>
+        <strign>a&#x2F23;b&#x2F24;c&#x2F25;d</string>
+    </dict>
+    <key>one byte entity</key>
+    <dict> utf-8 with text `fter</key>
+        <string>&#x1D563;wxyz</string>
+        <key>four byte utf-8 with text before</key>
+        <string>abcd&#x1D564;</string>
+        <key>four byte utf-8 with text before &amp; after</key>
+        <string>abcd&#x1D565;wxyz</string>
+    </dict>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+digraph "CFG for 'xmlStrcasecmp' function" {
+	label="CFG for 'xmlStrcasecmp' function";
+
+	Node0x1a9e0880 [shape=record,label="{xmlstring.c:269:}"];
+	Node0x1a9e0880 -> Node0x1a9e0dd0;
+	Node0x1a9e0880 -> Node0x1a9e0b50;
+	Node0x1a9e0b50 [shape=record,label="{xmlstring.c:270:}"];
+	Node0x1a9e0b50 -> Node0x1a9e0dd0;
+	Node0x1a9e0b50 -> Node0x1a9e0ba0;
+	Node0x1a9e0ba0 [shape=record,label="{xmlstring.c:271:}"];
+	Node0x1a9e0ba0 -> Node0x1a9e0dd0;
+	Node0x1a9e0ba0 -> Node0x1a9e0bf0;
+	Node0x1a9e0bf0 [shape=record,label="{xmlstring.c:273:}"];
+	Node0x1a9e0bf0 -> Node0x1a9e0c40;
+	Node0x1a9e0bf0 -> Node0x1a9e0c90;
+	Node0x1a9e0c40 [shape=record,label="{%18}"];
+	Node0x1a9e0c40 -> Node0x1a9e0c90;
+	Node0x1a9e0c90 [shape=record,label="{%21}"];
+	Node0x1a9e0c90 -> Node0x1a9e0ce0;
+	Node0x1a9e0c90 -> Node0x1a9e0d30;
+	Node0x1a9e0ce0 [shape=record,label="{%22}"];
+	Node0x1a9e0ce0 -> Node0x1a9e0d30;
+	Node0x1a9e0d30 [shape=record,label="{xmlstring.c:274:}"];
+	Node0x1a9e0d30 -> Node0x1a9e0d80;
+	Node0x1a9e0d30 -> Node0x1a9e0dd0;
+	Node0x1a9e0d80 [shape=record,label="{xmlstring.c:273:1}"];
+	Node0x1a9e0d80 -> Node0x1a9e0dd0;
+	Node0x1a9e0d80 -> Node0x1a9e0bf0;
+	Node0x1a9e0dd0 [shape=record,label="{xmlstring.c:277:}"];
+}

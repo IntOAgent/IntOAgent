@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlModuleFree' function" {
+	label="CFG for 'xmlModuleFree' function";
+
+	Node0x17282c50 [shape=record,label="{xmlmodule.c:152:}"];
+	Node0x17282c50 -> Node0x17282cf0;
+	Node0x17282c50 -> Node0x17282ca0;
+	Node0x17282ca0 [shape=record,label="{xmlmodule.c:155:}"];
+	Node0x17282ca0 -> Node0x17282cf0;
+	Node0x17282cf0 [shape=record,label="{xmlmodule.c:159:}"];
+}

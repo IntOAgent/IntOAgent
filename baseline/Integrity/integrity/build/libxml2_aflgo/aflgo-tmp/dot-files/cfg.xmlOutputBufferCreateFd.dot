@@ -1,0 +1,16 @@
+digraph "CFG for 'xmlOutputBufferCreateFd' function" {
+	label="CFG for 'xmlOutputBufferCreateFd' function";
+
+	Node0x97ce750 [shape=record,label="{xmlIO.c:2068:}"];
+	Node0x97ce750 -> Node0x97ce890;
+	Node0x97ce750 -> Node0x97ce7a0;
+	Node0x97ce7a0 [shape=record,label="{xmlIO.c:2072:}"];
+	Node0x97ce7a0 -> Node0x97ce890;
+	Node0x97ce7a0 -> Node0x97ce7f0;
+	Node0x97ce7f0 [shape=record,label="{xmlIO.c:2076:}"];
+	Node0x97ce7f0 -> Node0x97ce890;
+	Node0x97ce7f0 -> Node0x97ce840;
+	Node0x97ce840 [shape=record,label="{xmlIO.c:2080:}"];
+	Node0x97ce840 -> Node0x97ce890;
+	Node0x97ce890 [shape=record,label="{xmlIO.c:2088:}"];
+}

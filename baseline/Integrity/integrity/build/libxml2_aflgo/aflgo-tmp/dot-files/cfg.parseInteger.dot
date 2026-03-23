@@ -1,0 +1,20 @@
+digraph "CFG for 'parseInteger' function" {
+	label="CFG for 'parseInteger' function";
+
+	Node0x3d0c3a10 [shape=record,label="{xmllint.c:2422:}"];
+	Node0x3d0c3a10 -> Node0x3d0c3af0;
+	Node0x3d0c3a10 -> Node0x3d0c3aa0;
+	Node0x3d0c3aa0 [shape=record,label="{xmllint.c:2427:}"];
+	Node0x3d0c3aa0 -> Node0x3d0c3b40;
+	Node0x3d0c3aa0 -> Node0x3d0c3af0;
+	Node0x3d0c3af0 [shape=record,label="{xmllint.c:2428:}"];
+	Node0x3d0c3af0 -> Node0x3d0c3c30;
+	Node0x3d0c3b40 [shape=record,label="{xmllint.c:2431:}"];
+	Node0x3d0c3b40 -> Node0x3d0c3b90;
+	Node0x3d0c3b40 -> Node0x3d0c3be0;
+	Node0x3d0c3b90 [shape=record,label="{xmllint.c:2432:}"];
+	Node0x3d0c3b90 -> Node0x3d0c3c30;
+	Node0x3d0c3be0 [shape=record,label="{xmllint.c:2436:}"];
+	Node0x3d0c3be0 -> Node0x3d0c3c30;
+	Node0x3d0c3c30 [shape=record,label="{xmllint.c:2438:}"];
+}

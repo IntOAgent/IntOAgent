@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlTextWriterSetIndent' function" {
+	label="CFG for 'xmlTextWriterSetIndent' function";
+
+	Node0x2d6a7e20 [shape=record,label="{xmlwriter.c:4404:}"];
+	Node0x2d6a7e20 -> Node0x2d6ab0b0;
+	Node0x2d6a7e20 -> Node0x2d6aaee0;
+	Node0x2d6aaee0 [shape=record,label="{xmlwriter.c:4407:}"];
+	Node0x2d6aaee0 -> Node0x2d6ab0b0;
+	Node0x2d6ab0b0 [shape=record,label="{xmlwriter.c:4411:}"];
+}

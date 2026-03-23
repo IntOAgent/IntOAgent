@@ -1,0 +1,16 @@
+digraph "CFG for 'plist_dict_copy_data' function" {
+	label="CFG for 'plist_dict_copy_data' function";
+
+	Node0x215ae740 [shape=record,label="{plist.c:1161:}"];
+	Node0x215ae740 -> Node0x215ae8b0;
+	Node0x215ae740 -> Node0x215ae7c0;
+	Node0x215ae7c0 [shape=record,label="{plist.c:356:}"];
+	Node0x215ae7c0 -> Node0x215ae8b0;
+	Node0x215ae7c0 -> Node0x215ae810;
+	Node0x215ae810 [shape=record,label="{plist.c:1265:}"];
+	Node0x215ae810 -> Node0x215ae860;
+	Node0x215ae810 -> Node0x215ae8b0;
+	Node0x215ae860 [shape=record,label="{plist.c:637:}"];
+	Node0x215ae860 -> Node0x215ae8b0;
+	Node0x215ae8b0 [shape=record,label="{plist.c:1167:}"];
+}

@@ -1,0 +1,18 @@
+digraph "CFG for 'serialize_plist' function" {
+	label="CFG for 'serialize_plist' function";
+
+	Node0x3881a2f0 [shape=record,label="{bplist.c:999:}"];
+	Node0x3881a2f0 -> Node0x3881a840;
+	Node0x3881a2f0 -> Node0x3881a980;
+	Node0x3881a840 [shape=record,label="{bplist.c:1009:}"];
+	Node0x3881a840 -> Node0x3881a890;
+	Node0x3881a840 -> Node0x3881a8e0;
+	Node0x3881a890 [shape=record,label="{bplist.c:1010:}"];
+	Node0x3881a8e0 [shape=record,label="{bplist.c:1009:1}"];
+	Node0x3881a8e0 -> Node0x3881a980;
+	Node0x3881a8e0 -> Node0x3881a930;
+	Node0x3881a930 [shape=record,label="{bplist.c:1020:}"];
+	Node0x3881a930 -> Node0x3881a980;
+	Node0x3881a930 -> Node0x3881a930;
+	Node0x3881a980 [shape=record,label="{bplist.c:1022:}"];
+}

@@ -1,0 +1,40 @@
+digraph "CFG for 'xmlSchemaStrip' function" {
+	label="CFG for 'xmlSchemaStrip' function";
+
+	Node0xdd8290 [shape=record,label="{xmlschemastypes.c:2171:}"];
+	Node0xdd8290 -> Node0xdd8870;
+	Node0xdd8290 -> Node0xdd84b0;
+	Node0xdd84b0 [shape=record,label="{xmlschemastypes.c:2172:}"];
+	Node0xdd84b0 -> Node0xdd8550;
+	Node0xdd84b0 -> Node0xdd8500;
+	Node0xdd8500 [shape=record,label="{xmlschemastypes.c:2172:1}"];
+	Node0xdd8500 -> Node0xdd84b0;
+	Node0xdd8550 [shape=record,label="{xmlschemastypes.c:2174:}"];
+	Node0xdd8550 -> Node0xdd85a0;
+	Node0xdd8550 -> Node0xdd8550;
+	Node0xdd85a0 [shape=record,label="{xmlschemastypes.c:2177:}"];
+	Node0xdd85a0 -> Node0xdd85f0;
+	Node0xdd85a0 -> Node0xdd8690;
+	Node0xdd85f0 [shape=record,label="{xmlschemastypes.c:2177:2}"];
+	Node0xdd85f0 -> Node0xdd8690;
+	Node0xdd85f0 -> Node0xdd8640;
+	Node0xdd8640 [shape=record,label="{xmlschemastypes.c:2177:3}"];
+	Node0xdd8640 -> Node0xdd85f0;
+	Node0xdd8640 -> Node0xdd8690;
+	Node0xdd8690 [shape=record,label="{xmlschemastypes.c:2179:}"];
+	Node0xdd8690 -> Node0xdd8870;
+	Node0xdd8690 -> Node0xdd86e0;
+	Node0xdd86e0 [shape=record,label="{xmlschemastypes.c:2180:}"];
+	Node0xdd86e0 -> Node0xdd8730;
+	Node0xdd86e0 -> Node0xdd8780;
+	Node0xdd8730 [shape=record,label="{xmlschemastypes.c:2180:4}"];
+	Node0xdd8730 -> Node0xdd8780;
+	Node0xdd8780 [shape=record,label="{xmlschemastypes.c:2180:5}"];
+	Node0xdd8780 -> Node0xdd87d0;
+	Node0xdd8780 -> Node0xdd8820;
+	Node0xdd87d0 [shape=record,label="{xmlschemastypes.c:2180:6}"];
+	Node0xdd87d0 -> Node0xdd8820;
+	Node0xdd8820 [shape=record,label="{xmlschemastypes.c:2180:7}"];
+	Node0xdd8820 -> Node0xdd8870;
+	Node0xdd8870 [shape=record,label="{xmlschemastypes.c:2181:}"];
+}

@@ -1,0 +1,9 @@
+relaxng.c:794,28.948517445322111
+relaxng.c:797,27.929119280613595
+relaxng.c:798,30
+relaxng.c:800,25.774319066147861
+relaxng.c:801,30
+relaxng.c:803,22.488888888888887
+relaxng.c:804,20
+relaxng.c:806,22
+relaxng.c:807,20

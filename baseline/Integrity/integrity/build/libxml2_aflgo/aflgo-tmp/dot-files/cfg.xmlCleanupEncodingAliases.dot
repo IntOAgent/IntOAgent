@@ -1,0 +1,31 @@
+digraph "CFG for 'xmlCleanupEncodingAliases' function" {
+	label="CFG for 'xmlCleanupEncodingAliases' function";
+
+	Node0x253b0810 [shape=record,label="{encoding.c:449:}"];
+	Node0x253b0810 -> Node0x253b1db0;
+	Node0x253b0810 -> Node0x25386be0;
+	Node0x25386be0 [shape=record,label="{encoding.c:452:}"];
+	Node0x25386be0 -> Node0x25386c30;
+	Node0x25386be0 -> Node0x253b1d60;
+	Node0x25386c30 [shape=record,label="{encoding.c:453:}"];
+	Node0x25386c30 -> Node0x25386cd0;
+	Node0x25386c30 -> Node0x25386c80;
+	Node0x25386c80 [shape=record,label="{encoding.c:454:}"];
+	Node0x25386c80 -> Node0x25386cd0;
+	Node0x25386cd0 [shape=record,label="{encoding.c:455:}"];
+	Node0x25386cd0 -> Node0x253b1c70;
+	Node0x25386cd0 -> Node0x25386d20;
+	Node0x25386d20 [shape=record,label="{encoding.c:456:}"];
+	Node0x25386d20 -> Node0x253b1c70;
+	Node0x253b1c70 [shape=record,label="{encoding.c:452:1}"];
+	Node0x253b1c70 -> Node0x253b1cc0;
+	Node0x253b1c70 -> Node0x253b1d10;
+	Node0x253b1cc0 [shape=record,label="{%16}"];
+	Node0x253b1cc0 -> Node0x253b1d10;
+	Node0x253b1d10 [shape=record,label="{encoding.c:452:2}"];
+	Node0x253b1d10 -> Node0x25386c30;
+	Node0x253b1d10 -> Node0x253b1d60;
+	Node0x253b1d60 [shape=record,label="{encoding.c:458:}"];
+	Node0x253b1d60 -> Node0x253b1db0;
+	Node0x253b1db0 [shape=record,label="{encoding.c:462:}"];
+}

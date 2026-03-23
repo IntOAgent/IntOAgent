@@ -1,0 +1,34 @@
+digraph "CFG for 'xmlPatScanName' function" {
+	label="CFG for 'xmlPatScanName' function";
+
+	Node0x32bccd40 [shape=record,label="{pattern.c:691:}"];
+	Node0x32bccd40 -> Node0x32b73690;
+	Node0x32b73690 [shape=record,label="{pattern.c:691:1}"];
+	Node0x32b73690 -> Node0x32b73730;
+	Node0x32b73690 -> Node0x32b736e0;
+	Node0x32b736e0 [shape=record,label="{pattern.c:691:2}"];
+	Node0x32b736e0 -> Node0x32b73690;
+	Node0x32b73730 [shape=record,label="{pattern.c:694:}"];
+	Node0x32b73730 -> Node0x32b73a00;
+	Node0x32b73730 -> Node0x32b73780;
+	Node0x32b73780 [shape=record,label="{pattern.c:697:}"];
+	Node0x32b73780 -> Node0x32b737d0;
+	Node0x32b73780 -> Node0x32b73820;
+	Node0x32b737d0 [shape=record,label="{%15}"];
+	Node0x32b737d0 -> Node0x32b73820;
+	Node0x32b73820 [shape=record,label="{%18}"];
+	Node0x32b73820 -> Node0x32b73870;
+	Node0x32b73820 -> Node0x32b738c0;
+	Node0x32b73870 [shape=record,label="{%19}"];
+	Node0x32b73870 -> Node0x32b738c0;
+	Node0x32b738c0 [shape=record,label="{pattern.c:697:3}"];
+	Node0x32b738c0 -> Node0x32b73960;
+	Node0x32b738c0 -> Node0x32b73910;
+	Node0x32b73910 [shape=record,label="{pattern.c:698:}"];
+	Node0x32b73910 -> Node0x32b739b0;
+	Node0x32b73960 [shape=record,label="{pattern.c:700:}"];
+	Node0x32b73960 -> Node0x32b739b0;
+	Node0x32b739b0 [shape=record,label="{pattern.c:701:}"];
+	Node0x32b739b0 -> Node0x32b73a00;
+	Node0x32b73a00 [shape=record,label="{pattern.c:703:}"];
+}

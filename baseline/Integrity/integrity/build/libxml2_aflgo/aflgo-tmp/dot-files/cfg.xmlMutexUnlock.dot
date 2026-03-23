@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlMutexUnlock' function" {
+	label="CFG for 'xmlMutexUnlock' function";
+
+	Node0x22936750 [shape=record,label="{threads.c:147:}"];
+	Node0x22936750 -> Node0x229367f0;
+	Node0x22936750 -> Node0x229367a0;
+	Node0x229367a0 [shape=record,label="{threads.c:150:}"];
+	Node0x229367a0 -> Node0x229367f0;
+	Node0x229367f0 [shape=record,label="{threads.c:154:}"];
+}

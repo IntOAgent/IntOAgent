@@ -1,0 +1,43 @@
+digraph "CFG for 'htmlEntityValueLookup' function" {
+	label="CFG for 'htmlEntityValueLookup' function";
+
+	Node0x383cec0 [shape=record,label="{%1}"];
+	Node0x383cec0 -> Node0x383d0f0;
+	Node0x383d0f0 [shape=record,label="{%2}"];
+	Node0x383d0f0 -> Node0x383d140;
+	Node0x383d0f0 -> Node0x383d190;
+	Node0x383d140 [shape=record,label="{%6}"];
+	Node0x383d140 -> Node0x383d190;
+	Node0x383d190 [shape=record,label="{%9}"];
+	Node0x383d190 -> Node0x383d1e0;
+	Node0x383d190 -> Node0x383d230;
+	Node0x383d1e0 [shape=record,label="{%10}"];
+	Node0x383d1e0 -> Node0x383d230;
+	Node0x383d230 [shape=record,label="{HTMLparser.c:1911:}"];
+	Node0x383d230 -> Node0x383d280;
+	Node0x383d230 -> Node0x383d2d0;
+	Node0x383d280 [shape=record,label="{%18}"];
+	Node0x383d280 -> Node0x383d2d0;
+	Node0x383d2d0 [shape=record,label="{%21}"];
+	Node0x383d2d0 -> Node0x383d320;
+	Node0x383d2d0 -> Node0x383d370;
+	Node0x383d320 [shape=record,label="{%22}"];
+	Node0x383d320 -> Node0x383d370;
+	Node0x383d370 [shape=record,label="{%25}"];
+	Node0x383d370 -> Node0x383d500;
+	Node0x383d370 -> Node0x383d3c0;
+	Node0x383d3c0 [shape=record,label="{%27}"];
+	Node0x383d3c0 -> Node0x383d550;
+	Node0x383d3c0 -> Node0x383d410;
+	Node0x383d410 [shape=record,label="{%29}"];
+	Node0x383d410 -> Node0x383d460;
+	Node0x383d410 -> Node0x383d4b0;
+	Node0x383d460 [shape=record,label="{%31}"];
+	Node0x383d460 -> Node0x383d4b0;
+	Node0x383d4b0 [shape=record,label="{%34}"];
+	Node0x383d4b0 -> Node0x383d500;
+	Node0x383d500 [shape=record,label="{%35}"];
+	Node0x383d500 -> Node0x383d0f0;
+	Node0x383d500 -> Node0x383d550;
+	Node0x383d550 [shape=record,label="{HTMLparser.c:1933:}"];
+}

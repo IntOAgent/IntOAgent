@@ -1,0 +1,32 @@
+digraph "CFG for 'xmlSchemaGetComponentDesignation' function" {
+	label="CFG for 'xmlSchemaGetComponentDesignation' function";
+
+	Node0x2dfa9630 [shape=record,label="{xmlschemas.c:1403:}"];
+	Node0x2dfa9630 -> Node0x2dfa9e50;
+	Node0x2dfa9630 -> Node0x2dfa9ea0;
+	Node0x2dfa9e50 [shape=record,label="{xmlschemas.c:1149:}"];
+	Node0x2dfa9e50 -> Node0x2dfa9ef0;
+	Node0x2dfa9ea0 [shape=record,label="{xmlschemas.c:1154:}"];
+	Node0x2dfa9ea0 -> Node0x2dfa9ef0;
+	Node0x2dfa9ef0 [shape=record,label="{xmlschemas.c:1403:1}"];
+	Node0x2dfa9ef0 -> Node0x2dfa9f90;
+	Node0x2dfa9ef0 -> Node0x2dfa9f40;
+	Node0x2dfa9f40 [shape=record,label="{xmlschemas.c:1264:}"];
+	Node0x2dfa9f40 -> Node0x2dfa9f90;
+	Node0x2dfa9f90 [shape=record,label="{xmlschemas.c:1268:}"];
+	Node0x2dfa9f90 -> Node0x2dfaa080;
+	Node0x2dfa9f90 -> Node0x2dfa9fe0;
+	Node0x2dfa9fe0 [shape=record,label="{xmlschemas.c:1269:}"];
+	Node0x2dfa9fe0 -> Node0x2dfaa0d0;
+	Node0x2dfa9fe0 -> Node0x2dfaa030;
+	Node0x2dfaa030 [shape=record,label="{xmlschemas.c:1271:}"];
+	Node0x2dfaa030 -> Node0x2dfaa0d0;
+	Node0x2dfaa080 [shape=record,label="{xmlschemas.c:1273:}"];
+	Node0x2dfaa080 -> Node0x2dfaa0d0;
+	Node0x2dfaa0d0 [shape=record,label="{xmlschemas.c:1405:}"];
+	Node0x2dfaa0d0 -> Node0x2dfaa170;
+	Node0x2dfaa0d0 -> Node0x2dfaa120;
+	Node0x2dfaa120 [shape=record,label="{xmlschemas.c:1408:}"];
+	Node0x2dfaa120 -> Node0x2dfaa170;
+	Node0x2dfaa170 [shape=record,label="{xmlschemas.c:1409:}"];
+}

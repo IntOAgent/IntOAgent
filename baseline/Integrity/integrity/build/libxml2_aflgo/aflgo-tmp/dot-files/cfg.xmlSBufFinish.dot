@@ -1,0 +1,37 @@
+digraph "CFG for 'xmlSBufFinish' function" {
+	label="CFG for 'xmlSBufFinish' function";
+
+	Node0x26b95f90 [shape=record,label="{parser.c:781:}"];
+	Node0x26b95f90 -> Node0x26a7a9b0;
+	Node0x26b95f90 -> Node0x26a7aaa0;
+	Node0x26a7a9b0 [shape=record,label="{parser.c:782:}"];
+	Node0x26a7a9b0 -> Node0x26a7aa00;
+	Node0x26a7a9b0 -> Node0x26a7aa50;
+	Node0x26a7aa00 [shape=record,label="{parser.c:784:}"];
+	Node0x26a7aa00 -> Node0x26a7aaf0;
+	Node0x26a7aa50 [shape=record,label="{parser.c:786:}"];
+	Node0x26a7aa50 -> Node0x26a7aaf0;
+	Node0x26a7aaa0 [shape=record,label="{parser.c:789:}"];
+	Node0x26a7aaa0 -> Node0x26a7aaf0;
+	Node0x26a7aaf0 [shape=record,label="{parser.c:792:}"];
+	Node0x26a7aaf0 -> Node0x26a7ac80;
+	Node0x26a7aaf0 -> Node0x26a7ab40;
+	Node0x26a7aaf0 -> Node0x26a7ac30;
+	Node0x26a7ab40 [shape=record,label="{parser.c:793:}"];
+	Node0x26a7ab40 -> Node0x26a7abe0;
+	Node0x26a7ab40 -> Node0x26a7ab90;
+	Node0x26a7ab90 [shape=record,label="{parser.c:794:}"];
+	Node0x26a7ab90 -> Node0x26a7abe0;
+	Node0x26a7abe0 [shape=record,label="{parser.c:795:}"];
+	Node0x26a7abe0 -> Node0x26a7ad70;
+	Node0x26a7ac30 [shape=record,label="{parser.c:773:}"];
+	Node0x26a7ac30 -> Node0x26a7acd0;
+	Node0x26a7ac80 [shape=record,label="{parser.c:775:}"];
+	Node0x26a7ac80 -> Node0x26a7acd0;
+	Node0x26a7acd0 [shape=record,label="{parser.c:800:}"];
+	Node0x26a7acd0 -> Node0x26a7ad70;
+	Node0x26a7acd0 -> Node0x26a7ad20;
+	Node0x26a7ad20 [shape=record,label="{parser.c:803:}"];
+	Node0x26a7ad20 -> Node0x26a7ad70;
+	Node0x26a7ad70 [shape=record,label="{parser.c:805:}"];
+}

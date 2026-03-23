@@ -1,0 +1,48 @@
+digraph "CFG for 'xmlFreeTextWriter' function" {
+	label="CFG for 'xmlFreeTextWriter' function";
+
+	Node0x2d412090 [shape=record,label="{xmlwriter.c:449:}"];
+	Node0x2d412090 -> Node0x2d417db0;
+	Node0x2d412090 -> Node0x2d417810;
+	Node0x2d417810 [shape=record,label="{xmlwriter.c:452:}"];
+	Node0x2d417810 -> Node0x2d417950;
+	Node0x2d417810 -> Node0x2d417900;
+	Node0x2d417900 [shape=record,label="{xmlwriter.c:453:}"];
+	Node0x2d417900 -> Node0x2d417950;
+	Node0x2d417950 [shape=record,label="{xmlwriter.c:455:}"];
+	Node0x2d417950 -> Node0x2d4179f0;
+	Node0x2d417950 -> Node0x2d4179a0;
+	Node0x2d4179a0 [shape=record,label="{xmlwriter.c:456:}"];
+	Node0x2d4179a0 -> Node0x2d4179f0;
+	Node0x2d4179f0 [shape=record,label="{xmlwriter.c:458:}"];
+	Node0x2d4179f0 -> Node0x2d417a90;
+	Node0x2d4179f0 -> Node0x2d417a40;
+	Node0x2d417a40 [shape=record,label="{xmlwriter.c:459:}"];
+	Node0x2d417a40 -> Node0x2d417a90;
+	Node0x2d417a90 [shape=record,label="{xmlwriter.c:461:}"];
+	Node0x2d417a90 -> Node0x2d417c20;
+	Node0x2d417a90 -> Node0x2d417ae0;
+	Node0x2d417ae0 [shape=record,label="{xmlwriter.c:462:}"];
+	Node0x2d417ae0 -> Node0x2d417bd0;
+	Node0x2d417ae0 -> Node0x2d417b30;
+	Node0x2d417b30 [shape=record,label="{xmlwriter.c:462:1}"];
+	Node0x2d417b30 -> Node0x2d417b80;
+	Node0x2d417b30 -> Node0x2d417bd0;
+	Node0x2d417b80 [shape=record,label="{xmlwriter.c:463:}"];
+	Node0x2d417b80 -> Node0x2d417bd0;
+	Node0x2d417bd0 [shape=record,label="{xmlwriter.c:466:}"];
+	Node0x2d417bd0 -> Node0x2d417c20;
+	Node0x2d417c20 [shape=record,label="{xmlwriter.c:469:}"];
+	Node0x2d417c20 -> Node0x2d417cc0;
+	Node0x2d417c20 -> Node0x2d417c70;
+	Node0x2d417c70 [shape=record,label="{xmlwriter.c:470:}"];
+	Node0x2d417c70 -> Node0x2d417cc0;
+	Node0x2d417cc0 [shape=record,label="{xmlwriter.c:472:}"];
+	Node0x2d417cc0 -> Node0x2d417d60;
+	Node0x2d417cc0 -> Node0x2d417d10;
+	Node0x2d417d10 [shape=record,label="{xmlwriter.c:473:}"];
+	Node0x2d417d10 -> Node0x2d417d60;
+	Node0x2d417d60 [shape=record,label="{xmlwriter.c:474:}"];
+	Node0x2d417d60 -> Node0x2d417db0;
+	Node0x2d417db0 [shape=record,label="{xmlwriter.c:475:}"];
+}

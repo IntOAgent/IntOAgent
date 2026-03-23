@@ -1,0 +1,5 @@
+digraph "CFG for '__xmlSaveNoEmptyTags' function" {
+	label="CFG for '__xmlSaveNoEmptyTags' function";
+
+	Node0x12f2c30 [shape=record,label="{globals.c:658:}"];
+}

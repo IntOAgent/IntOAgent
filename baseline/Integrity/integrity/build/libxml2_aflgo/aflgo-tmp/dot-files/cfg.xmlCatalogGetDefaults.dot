@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlCatalogGetDefaults' function" {
+	label="CFG for 'xmlCatalogGetDefaults' function";
+
+	Node0x5ee3dd0 [shape=record,label="{catalog.c:3407:}"];
+}

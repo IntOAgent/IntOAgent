@@ -1,0 +1,8 @@
+ID,Name,Description,Severity,Message,Path,Start line,Start column,End line,End column,Vul code,Code content,Closest Function Name,Closest Function Line
+1,User-controlled data in arithmetic expression,Arithmetic operations on user-controlled data that is not validated can cause overflows.,warning,Conversion between signed and unsigned types int and unsigned int.,/shell.c,1422,0,1422,0,v = v*10 + zArg[0] - '0';,"    }
+  }else{
+    while( IsDigit(zArg[0]) ){
+      v = v*10 + zArg[0] - '0';
+      zArg++;
+    }
+  }",integerValue,1389.0

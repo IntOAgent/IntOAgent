@@ -1,0 +1,45 @@
+digraph "CFG for 'xmlBufCat' function" {
+	label="CFG for 'xmlBufCat' function";
+
+	Node0x3f7953a0 [shape=record,label="{buf.c:488:}"];
+	Node0x3f7953a0 -> Node0x3f795ab0;
+	Node0x3f7953a0 -> Node0x3f795650;
+	Node0x3f795650 [shape=record,label="{buf.c:490:}"];
+	Node0x3f795650 -> Node0x3f795ab0;
+	Node0x3f795650 -> Node0x3f7956a0;
+	Node0x3f7956a0 [shape=record,label="{buf.c:460:}"];
+	Node0x3f7956a0 -> Node0x3f7956f0;
+	Node0x3f7956a0 -> Node0x3f795ab0;
+	Node0x3f7956f0 [shape=record,label="{buf.c:462:}"];
+	Node0x3f7956f0 -> Node0x3f795ab0;
+	Node0x3f7956f0 -> Node0x3f795740;
+	Node0x3f795740 [shape=record,label="{buf.c:467:}"];
+	Node0x3f795740 -> Node0x3f795790;
+	Node0x3f795740 -> Node0x3f7957e0;
+	Node0x3f795790 [shape=record,label="{buf.c:467:1}"];
+	Node0x3f795790 -> Node0x3f7957e0;
+	Node0x3f7957e0 [shape=record,label="{buf.c:467:2}"];
+	Node0x3f7957e0 -> Node0x3f795830;
+	Node0x3f7957e0 -> Node0x3f795880;
+	Node0x3f795830 [shape=record,label="{buf.c:467:3}"];
+	Node0x3f795830 -> Node0x3f795880;
+	Node0x3f795880 [shape=record,label="{buf.c:467:4}"];
+	Node0x3f795880 -> Node0x3f7958d0;
+	Node0x3f795880 -> Node0x3f795920;
+	Node0x3f7958d0 [shape=record,label="{buf.c:468:}"];
+	Node0x3f7958d0 -> Node0x3f795ab0;
+	Node0x3f7958d0 -> Node0x3f795920;
+	Node0x3f795920 [shape=record,label="{buf.c:472:}"];
+	Node0x3f795920 -> Node0x3f795970;
+	Node0x3f795920 -> Node0x3f7959c0;
+	Node0x3f795970 [shape=record,label="{buf.c:473:}"];
+	Node0x3f795970 -> Node0x3f7959c0;
+	Node0x3f7959c0 [shape=record,label="{buf.c:473:5}"];
+	Node0x3f7959c0 -> Node0x3f795a10;
+	Node0x3f7959c0 -> Node0x3f795a60;
+	Node0x3f795a10 [shape=record,label="{buf.c:473:6}"];
+	Node0x3f795a10 -> Node0x3f795a60;
+	Node0x3f795a60 [shape=record,label="{buf.c:473:7}"];
+	Node0x3f795a60 -> Node0x3f795ab0;
+	Node0x3f795ab0 [shape=record,label="{buf.c:491:}"];
+}

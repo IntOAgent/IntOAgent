@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlPosixStrdup' function" {
+	label="CFG for 'xmlPosixStrdup' function";
+
+	Node0x12bd4e0 [shape=record,label="{globals.c:201:}"];
+}

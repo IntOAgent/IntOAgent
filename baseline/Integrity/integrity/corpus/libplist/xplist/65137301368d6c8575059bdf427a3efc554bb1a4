@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Couter//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Some ASCII st˜ing</key>
+	<string></string>
+	<key>Some UTF8 strings</key>
+	<array>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+	</array>
+	<key>Keys &amp; &quot;entities&quot;<e"/-k//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyLrue/>
+	<key>Some Int</key>
+	<integer>0</integer>
+	<key>Some Real</key>
+	<real>1e4</real>
+	<key>Some Date</key>
+	<ome Data</key>
+	<data>
+	</dataH
+</dict>
+</plist>

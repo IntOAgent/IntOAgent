@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSaveNotationDecl' function" {
+	label="CFG for 'xmlSaveNotationDecl' function";
+
+	Node0x263ba730 [shape=record,label="{xmlsave.c:2009:}"];
+	Node0x263ba730 -> Node0x26351160;
+	Node0x263ba730 -> Node0x26351110;
+	Node0x26351110 [shape=record,label="{xmlsave.c:2011:}"];
+	Node0x26351110 -> Node0x26351160;
+	Node0x26351160 [shape=record,label="{xmlsave.c:2013:}"];
+}

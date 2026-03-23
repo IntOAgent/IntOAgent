@@ -1,0 +1,27 @@
+digraph "CFG for 'xmlDOMWrapFreeCtxt' function" {
+	label="CFG for 'xmlDOMWrapFreeCtxt' function";
+
+	Node0x3737c000 [shape=record,label="{tree.c:6945:}"];
+	Node0x3737c000 -> Node0x3737c280;
+	Node0x3737c000 -> Node0x3737c050;
+	Node0x3737c050 [shape=record,label="{tree.c:6947:}"];
+	Node0x3737c050 -> Node0x3737c230;
+	Node0x3737c050 -> Node0x3737c0a0;
+	Node0x3737c0a0 [shape=record,label="{tree.c:6781:}"];
+	Node0x3737c0a0 -> Node0x3737c140;
+	Node0x3737c0a0 -> Node0x3737c0f0;
+	Node0x3737c0f0 [shape=record,label="{tree.c:6784:}"];
+	Node0x3737c0f0 -> Node0x3737c140;
+	Node0x3737c0f0 -> Node0x3737c0f0;
+	Node0x3737c140 [shape=record,label="{tree.c:6787:}"];
+	Node0x3737c140 -> Node0x3737c1e0;
+	Node0x3737c140 -> Node0x3737c190;
+	Node0x3737c190 [shape=record,label="{tree.c:6790:}"];
+	Node0x3737c190 -> Node0x3737c1e0;
+	Node0x3737c190 -> Node0x3737c190;
+	Node0x3737c1e0 [shape=record,label="{tree.c:6793:}"];
+	Node0x3737c1e0 -> Node0x3737c230;
+	Node0x3737c230 [shape=record,label="{tree.c:6952:}"];
+	Node0x3737c230 -> Node0x3737c280;
+	Node0x3737c280 [shape=record,label="{tree.c:6953:}"];
+}

@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE Ct¨2CCCCC USING fts4(content); 

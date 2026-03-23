@@ -1,0 +1,14 @@
+xmlschemastypes.c:5167,7
+xmlschemastypes.c:5170,6
+xmlschemastypes.c:5171,4
+xmlschemastypes.c:5173,3
+xmlschemastypes.c:5175,2
+xmlschemastypes.c:5176,4
+xmlschemastypes.c:5178,3
+xmlschemastypes.c:5179,3
+xmlschemastypes.c:5181,2
+xmlschemastypes.c:5183,2
+xmlschemastypes.c:5188,3
+xmlschemastypes.c:5189,2
+xmlschemastypes.c:5193,2
+xmlschemastypes.c:5195,0

@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlParserHandlePEReference' function" {
+	label="CFG for 'xmlParserHandlePEReference' function";
+
+	Node0x26a78f70 [shape=record,label="{parser.c:2743:}"];
+}

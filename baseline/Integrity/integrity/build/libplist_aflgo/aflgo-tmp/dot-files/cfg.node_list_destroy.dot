@@ -1,0 +1,5 @@
+digraph "CFG for 'node_list_destroy' function" {
+	label="CFG for 'node_list_destroy' function";
+
+	Node0x1cbf1610 [shape=record,label="{node_list.c:33:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlHashRemoveEntry' function" {
+	label="CFG for 'xmlHashRemoveEntry' function";
+
+	Node0x957ec00 [shape=record,label="{hash.c:1190:}"];
+}

@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlCtxtErrIO' function" {
+	label="CFG for 'xmlCtxtErrIO' function";
+
+	Node0x8cd2120 [shape=record,label="{parserInternals.c:225:}"];
+	Node0x8cd2120 -> Node0x8cd22f0;
+	Node0x8cd2120 -> Node0x8cd21b0;
+	Node0x8cd21b0 [shape=record,label="{parserInternals.c:228:}"];
+	Node0x8cd21b0 -> Node0x8cd2250;
+	Node0x8cd21b0 -> Node0x8cd2200;
+	Node0x8cd21b0 -> Node0x8cd22a0;
+	Node0x8cd2200 [shape=record,label="{parserInternals.c:236:}"];
+	Node0x8cd2200 -> Node0x8cd22a0;
+	Node0x8cd2250 [shape=record,label="{%8}"];
+	Node0x8cd2250 -> Node0x8cd22a0;
+	Node0x8cd22a0 [shape=record,label="{parserInternals.c:246:}"];
+	Node0x8cd22a0 -> Node0x8cd22f0;
+	Node0x8cd22f0 [shape=record,label="{parserInternals.c:261:}"];
+}

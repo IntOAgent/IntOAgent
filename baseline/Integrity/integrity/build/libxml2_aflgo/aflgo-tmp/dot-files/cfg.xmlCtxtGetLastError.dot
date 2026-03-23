@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlCtxtGetLastError' function" {
+	label="CFG for 'xmlCtxtGetLastError' function";
+
+	Node0x8c382d0 [shape=record,label="{parserInternals.c:145:}"];
+	Node0x8c382d0 -> Node0x8c38800;
+	Node0x8c382d0 -> Node0x8c38760;
+	Node0x8c38760 [shape=record,label="{parserInternals.c:147:}"];
+	Node0x8c38760 -> Node0x8c38800;
+	Node0x8c38760 -> Node0x8c387b0;
+	Node0x8c387b0 [shape=record,label="{parserInternals.c:147:1}"];
+	Node0x8c387b0 -> Node0x8c38800;
+	Node0x8c38800 [shape=record,label="{parserInternals.c:150:}"];
+}

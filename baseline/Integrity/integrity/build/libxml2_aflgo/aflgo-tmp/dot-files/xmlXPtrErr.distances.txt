@@ -1,0 +1,9 @@
+xpointer.c:73,11.006013310530566
+xpointer.c:76,9.3463987644646664
+xpointer.c:79,7.5905198790030335
+xpointer.c:82,10
+xpointer.c:92,50
+xpointer.c:95,0
+xpointer.c:70,4.5957446808510642
+xpointer.c:106,0
+xpointer.c:109,50

@@ -1,0 +1,34 @@
+digraph "CFG for 'plist_from_openstep' function" {
+	label="CFG for 'plist_from_openstep' function";
+
+	Node0x333e4210 [shape=record,label="{oplist.c:904:}"];
+	Node0x333e4210 -> Node0x333bdfe0;
+	Node0x333e4210 -> Node0x333bdcc0;
+	Node0x333bdcc0 [shape=record,label="{oplist.c:907:}"];
+	Node0x333bdcc0 -> Node0x333bdfe0;
+	Node0x333bdcc0 -> Node0x333bdd10;
+	Node0x333bdd10 [shape=record,label="{oplist.c:912:}"];
+	Node0x333bdd10 -> Node0x333bdd60;
+	Node0x333bdd10 -> Node0x333bdf90;
+	Node0x333bdd60 [shape=record,label="{oplist.c:916:}"];
+	Node0x333bdd60 -> Node0x333bddb0;
+	Node0x333bdd60 -> Node0x333bde00;
+	Node0x333bddb0 [shape=record,label="{oplist.c:918:}"];
+	Node0x333bddb0 -> Node0x333bdf90;
+	Node0x333bde00 [shape=record,label="{oplist.c:919:}"];
+	Node0x333bde00 -> Node0x333bde50;
+	Node0x333bde00 -> Node0x333bdf90;
+	Node0x333bde50 [shape=record,label="{oplist.c:919:1}"];
+	Node0x333bde50 -> Node0x333bdea0;
+	Node0x333bde50 -> Node0x333bdf90;
+	Node0x333bdea0 [shape=record,label="{oplist.c:921:}"];
+	Node0x333bdea0 -> Node0x333bdef0;
+	Node0x333bdea0 -> Node0x333bdf40;
+	Node0x333bdef0 [shape=record,label="{oplist.c:927:}"];
+	Node0x333bdef0 -> Node0x333bdf90;
+	Node0x333bdf40 [shape=record,label="{oplist.c:931:}"];
+	Node0x333bdf40 -> Node0x333bdf90;
+	Node0x333bdf90 [shape=record,label="{oplist.c:937:}"];
+	Node0x333bdf90 -> Node0x333bdfe0;
+	Node0x333bdfe0 [shape=record,label="{oplist.c:937:2}"];
+}

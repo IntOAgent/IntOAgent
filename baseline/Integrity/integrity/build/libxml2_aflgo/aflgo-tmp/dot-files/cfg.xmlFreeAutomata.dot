@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlFreeAutomata' function" {
+	label="CFG for 'xmlFreeAutomata' function";
+
+	Node0x13a15be0 [shape=record,label="{xmlregexp.c:5626:}"];
+	Node0x13a15be0 -> Node0x13a161a0;
+	Node0x13a15be0 -> Node0x13a16150;
+	Node0x13a16150 [shape=record,label="{xmlregexp.c:5628:}"];
+	Node0x13a16150 -> Node0x13a161a0;
+	Node0x13a161a0 [shape=record,label="{xmlregexp.c:5629:}"];
+}

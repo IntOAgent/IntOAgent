@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlNodeListGetRawString' function" {
+	label="CFG for 'xmlNodeListGetRawString' function";
+
+	Node0x37167fa0 [shape=record,label="{tree.c:1420:}"];
+	Node0x37167fa0 -> Node0x37168040;
+	Node0x37167fa0 -> Node0x37167ff0;
+	Node0x37167ff0 [shape=record,label="{tree.c:1423:}"];
+	Node0x37167ff0 -> Node0x37168040;
+	Node0x37168040 [shape=record,label="{tree.c:1429:}"];
+}

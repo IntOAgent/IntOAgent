@@ -1,0 +1,37 @@
+digraph "CFG for 'xmlSchemaGetParticleEmptiable' function" {
+	label="CFG for 'xmlSchemaGetParticleEmptiable' function";
+
+	Node0x2e1056a0 [shape=record,label="{xmlschemas.c:14445:}"];
+	Node0x2e1056a0 -> Node0x2e105c50;
+	Node0x2e1056a0 -> Node0x2e1058e0;
+	Node0x2e1058e0 [shape=record,label="{xmlschemas.c:14445:1}"];
+	Node0x2e1058e0 -> Node0x2e105c50;
+	Node0x2e1058e0 -> Node0x2e105930;
+	Node0x2e105930 [shape=record,label="{xmlschemas.c:14448:}"];
+	Node0x2e105930 -> Node0x2e105c50;
+	Node0x2e105930 -> Node0x2e105980;
+	Node0x2e105980 [shape=record,label="{xmlschemas.c:14452:}"];
+	Node0x2e105980 -> Node0x2e1059d0;
+	Node0x2e1059d0 [shape=record,label="{xmlschemas.c:14453:}"];
+	Node0x2e1059d0 -> Node0x2e105a70;
+	Node0x2e1059d0 -> Node0x2e105a20;
+	Node0x2e105a20 [shape=record,label="{xmlschemas.c:14455:}"];
+	Node0x2e105a20 -> Node0x2e105ac0;
+	Node0x2e105a70 [shape=record,label="{xmlschemas.c:14457:}"];
+	Node0x2e105a70 -> Node0x2e105ac0;
+	Node0x2e105ac0 [shape=record,label="{xmlschemas.c:14458:}"];
+	Node0x2e105ac0 -> Node0x2e105b10;
+	Node0x2e105ac0 -> Node0x2e105b60;
+	Node0x2e105b10 [shape=record,label="{xmlschemas.c:14459:}"];
+	Node0x2e105b10 -> Node0x2e105bb0;
+	Node0x2e105b10 -> Node0x2e105c50;
+	Node0x2e105b60 [shape=record,label="{xmlschemas.c:14463:}"];
+	Node0x2e105b60 -> Node0x2e105c50;
+	Node0x2e105b60 -> Node0x2e105bb0;
+	Node0x2e105bb0 [shape=record,label="{xmlschemas.c:14466:}"];
+	Node0x2e105bb0 -> Node0x2e105c00;
+	Node0x2e105bb0 -> Node0x2e1059d0;
+	Node0x2e105c00 [shape=record,label="{xmlschemas.c:14469:}"];
+	Node0x2e105c00 -> Node0x2e105c50;
+	Node0x2e105c50 [shape=record,label="{xmlschemas.c:14473:}"];
+}

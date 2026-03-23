@@ -1,0 +1,5 @@
+digraph "CFG for 'plist_bin_set_debug' function" {
+	label="CFG for 'plist_bin_set_debug' function";
+
+	Node0x38795e10 [shape=record,label="{bplist.c:272:}"];
+}

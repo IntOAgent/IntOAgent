@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlStreamPushNode' function" {
+	label="CFG for 'xmlStreamPushNode' function";
+
+	Node0x32a29500 [shape=record,label="{pattern.c:1967:}"];
+}

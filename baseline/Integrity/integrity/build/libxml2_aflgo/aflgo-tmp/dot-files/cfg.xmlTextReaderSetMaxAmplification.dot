@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlTextReaderSetMaxAmplification' function" {
+	label="CFG for 'xmlTextReaderSetMaxAmplification' function";
+
+	Node0x22c0ab00 [shape=record,label="{xmlreader.c:4899:}"];
+	Node0x22c0ab00 -> Node0x22c0ae60;
+	Node0x22c0ab00 -> Node0x22c0ae10;
+	Node0x22c0ae10 [shape=record,label="{xmlreader.c:4901:}"];
+	Node0x22c0ae10 -> Node0x22c0ae60;
+	Node0x22c0ae60 [shape=record,label="{xmlreader.c:4902:}"];
+}

@@ -1,0 +1,15 @@
+(
+	{
+		AFirstKey = "A First Value";
+		ASecondKey = "A Second Value";
+		// this is th last entry
+	},
+	/*{
+		BFirstKon;
+	},*/
+	{
+		CFirstKey = "C First Value"; // "C;
+		// noent
+		CSecondKey = /* "C Second Value";*/ "e";
+	}
+)

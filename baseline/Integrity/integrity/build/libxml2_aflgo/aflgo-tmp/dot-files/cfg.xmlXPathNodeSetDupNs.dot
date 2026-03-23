@@ -1,0 +1,40 @@
+digraph "CFG for 'xmlXPathNodeSetDupNs' function" {
+	label="CFG for 'xmlXPathNodeSetDupNs' function";
+
+	Node0x2fda4390 [shape=record,label="{xpath.c:2607:}"];
+	Node0x2fda4390 -> Node0x2fda4a30;
+	Node0x2fda4390 -> Node0x2fda4670;
+	Node0x2fda4670 [shape=record,label="{xpath.c:2607:1}"];
+	Node0x2fda4670 -> Node0x2fda46c0;
+	Node0x2fda4670 -> Node0x2fda4a30;
+	Node0x2fda46c0 [shape=record,label="{xpath.c:2609:}"];
+	Node0x2fda46c0 -> Node0x2fda4760;
+	Node0x2fda46c0 -> Node0x2fda4710;
+	Node0x2fda4710 [shape=record,label="{xpath.c:2609:2}"];
+	Node0x2fda4710 -> Node0x2fda4760;
+	Node0x2fda4710 -> Node0x2fda47b0;
+	Node0x2fda4760 [shape=record,label="{xpath.c:2610:}"];
+	Node0x2fda4760 -> Node0x2fda4a30;
+	Node0x2fda47b0 [shape=record,label="{xpath.c:2615:}"];
+	Node0x2fda47b0 -> Node0x2fda4a30;
+	Node0x2fda47b0 -> Node0x2fda4800;
+	Node0x2fda4800 [shape=record,label="{xpath.c:2618:}"];
+	Node0x2fda4800 -> Node0x2fda48f0;
+	Node0x2fda4800 -> Node0x2fda4850;
+	Node0x2fda4850 [shape=record,label="{xpath.c:2621:}"];
+	Node0x2fda4850 -> Node0x2fda48a0;
+	Node0x2fda4850 -> Node0x2fda48f0;
+	Node0x2fda48a0 [shape=record,label="{xpath.c:2623:}"];
+	Node0x2fda48a0 -> Node0x2fda4a30;
+	Node0x2fda48f0 [shape=record,label="{xpath.c:2627:}"];
+	Node0x2fda48f0 -> Node0x2fda49e0;
+	Node0x2fda48f0 -> Node0x2fda4940;
+	Node0x2fda4940 [shape=record,label="{xpath.c:2628:}"];
+	Node0x2fda4940 -> Node0x2fda4990;
+	Node0x2fda4940 -> Node0x2fda49e0;
+	Node0x2fda4990 [shape=record,label="{xpath.c:2630:}"];
+	Node0x2fda4990 -> Node0x2fda4a30;
+	Node0x2fda49e0 [shape=record,label="{xpath.c:2635:}"];
+	Node0x2fda49e0 -> Node0x2fda4a30;
+	Node0x2fda4a30 [shape=record,label="{xpath.c:2637:}"];
+}

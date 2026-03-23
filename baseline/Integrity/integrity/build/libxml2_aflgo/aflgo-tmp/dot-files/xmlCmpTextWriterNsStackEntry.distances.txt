@@ -1,0 +1,4 @@
+xmlwriter.c:4236,14
+xmlwriter.c:4239,13
+xmlwriter.c:4242,12
+xmlwriter.c:4248,10

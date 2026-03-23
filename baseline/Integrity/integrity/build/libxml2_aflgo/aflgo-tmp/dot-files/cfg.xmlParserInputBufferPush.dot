@@ -1,0 +1,45 @@
+digraph "CFG for 'xmlParserInputBufferPush' function" {
+	label="CFG for 'xmlParserInputBufferPush' function";
+
+	Node0x97db550 [shape=record,label="{xmlIO.c:2217:}"];
+	Node0x97db550 -> Node0x97dc810;
+	Node0x97db550 -> Node0x97dc3b0;
+	Node0x97dc3b0 [shape=record,label="{xmlIO.c:2221:}"];
+	Node0x97dc3b0 -> Node0x97dc810;
+	Node0x97dc3b0 -> Node0x97dc400;
+	Node0x97dc400 [shape=record,label="{xmlIO.c:2221:1}"];
+	Node0x97dc400 -> Node0x97dc450;
+	Node0x97dc400 -> Node0x97dc810;
+	Node0x97dc450 [shape=record,label="{xmlIO.c:2222:}"];
+	Node0x97dc450 -> Node0x97dc720;
+	Node0x97dc450 -> Node0x97dc4a0;
+	Node0x97dc4a0 [shape=record,label="{xmlIO.c:2226:}"];
+	Node0x97dc4a0 -> Node0x97dc4f0;
+	Node0x97dc4a0 -> Node0x97dc590;
+	Node0x97dc4f0 [shape=record,label="{xmlIO.c:2227:}"];
+	Node0x97dc4f0 -> Node0x97dc540;
+	Node0x97dc4f0 -> Node0x97dc590;
+	Node0x97dc540 [shape=record,label="{xmlIO.c:2229:}"];
+	Node0x97dc540 -> Node0x97dc810;
+	Node0x97dc590 [shape=record,label="{xmlIO.c:2233:}"];
+	Node0x97dc590 -> Node0x97dc630;
+	Node0x97dc590 -> Node0x97dc5e0;
+	Node0x97dc5e0 [shape=record,label="{xmlIO.c:2235:}"];
+	Node0x97dc5e0 -> Node0x97dc810;
+	Node0x97dc630 [shape=record,label="{xmlIO.c:2242:}"];
+	Node0x97dc630 -> Node0x97dc680;
+	Node0x97dc630 -> Node0x97dc810;
+	Node0x97dc680 [shape=record,label="{xmlIO.c:2246:}"];
+	Node0x97dc680 -> Node0x97dc6d0;
+	Node0x97dc680 -> Node0x97dc7c0;
+	Node0x97dc6d0 [shape=record,label="{xmlIO.c:2247:}"];
+	Node0x97dc6d0 -> Node0x97dc7c0;
+	Node0x97dc720 [shape=record,label="{xmlIO.c:2249:}"];
+	Node0x97dc720 -> Node0x97dc7c0;
+	Node0x97dc720 -> Node0x97dc770;
+	Node0x97dc770 [shape=record,label="{xmlIO.c:2252:}"];
+	Node0x97dc770 -> Node0x97dc810;
+	Node0x97dc7c0 [shape=record,label="{xmlIO.c:2256:}"];
+	Node0x97dc7c0 -> Node0x97dc810;
+	Node0x97dc810 [shape=record,label="{xmlIO.c:2257:}"];
+}

@@ -1,0 +1,15 @@
+digraph "CFG for 'xmlMemRead' function" {
+	label="CFG for 'xmlMemRead' function";
+
+	Node0x97c1300 [shape=record,label="{xmlIO.c:1896:}"];
+	Node0x97c1300 -> Node0x97c1380;
+	Node0x97c1300 -> Node0x97c13d0;
+	Node0x97c1380 [shape=record,label="{xmlIO.c:1901:}"];
+	Node0x97c1380 -> Node0x97c13d0;
+	Node0x97c13d0 [shape=record,label="{xmlIO.c:1901:1}"];
+	Node0x97c13d0 -> Node0x97c1420;
+	Node0x97c13d0 -> Node0x97c1470;
+	Node0x97c1420 [shape=record,label="{xmlIO.c:1901:2}"];
+	Node0x97c1420 -> Node0x97c1470;
+	Node0x97c1470 [shape=record,label="{xmlIO.c:1901:3}"];
+}

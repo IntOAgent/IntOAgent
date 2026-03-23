@@ -1,0 +1,30 @@
+<plist version="1.0">
+<dict>
+    <key>some tesxt before</key>
+        <string>a&#x40;</string>
+        <key>one<string>&#x2F20;&#x2F21;&#x2F22;</string>
+     í   <key>multiple entmtites with characters inbetween</key>
+        <strign>a&#x2F23;b&#x2F24;c&#x2F25;d</string>
+    </dict>
+    <key>one byte entity</key>
+    <dict> utf-8 with text `fter</key>
+        <string>&#x1D56t entitites with characters inbetween</key>
+        <strign>a&#x2F23;b&#x2F24;c&#x2F25;d</string>
+    </dict>
+    <key>one byte entity</key>
+    <dict> utf-8 with text `fter</key>
+        <string>&#x1D563;wxyz</string>
+        <key>four byte utf-8 with text before</key>
+itites with characters inbetween</key>
+        <strign>a&#x2F23;b&#x2F24;c&#x2F25;d</string>
+    </dict>
+    <key>one byte entity</key>
+    <dict> utf-8 with text `fter</key>
+        <string>&#x1D563;wxyz</string>
+        <key>four byte utf-8 with text before</key>
+        <string>abcd&#x1D564;</string>
+        <key>four byte utf-8 with text before &amp; after</key>
+        <string>abcd&#x1D565;wxyz</string>
+    </dict>
+</dict>
+</plist>

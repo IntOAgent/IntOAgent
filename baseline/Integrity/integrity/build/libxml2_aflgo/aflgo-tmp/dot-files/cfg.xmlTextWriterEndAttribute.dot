@@ -1,0 +1,19 @@
+digraph "CFG for 'xmlTextWriterEndAttribute' function" {
+	label="CFG for 'xmlTextWriterEndAttribute' function";
+
+	Node0x2d4c55a0 [shape=record,label="{xmlwriter.c:1846:}"];
+	Node0x2d4c55a0 -> Node0x2d4470d0;
+	Node0x2d4c55a0 -> Node0x2d446f90;
+	Node0x2d446f90 [shape=record,label="{xmlwriter.c:1849:}"];
+	Node0x2d446f90 -> Node0x2d4470d0;
+	Node0x2d446f90 -> Node0x2d446fe0;
+	Node0x2d446fe0 [shape=record,label="{xmlwriter.c:1854:}"];
+	Node0x2d446fe0 -> Node0x2d4470d0;
+	Node0x2d446fe0 -> Node0x2d447030;
+	Node0x2d447030 [shape=record,label="{xmlwriter.c:1860:}"];
+	Node0x2d447030 -> Node0x2d447080;
+	Node0x2d447030 -> Node0x2d4470d0;
+	Node0x2d447080 [shape=record,label="{xmlwriter.c:1862:}"];
+	Node0x2d447080 -> Node0x2d4470d0;
+	Node0x2d4470d0 [shape=record,label="{xmlwriter.c:1875:}"];
+}

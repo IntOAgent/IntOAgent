@@ -1,0 +1,2 @@
+xmlschemastypes.c:896,32
+xmlschemastypes.c:898,30

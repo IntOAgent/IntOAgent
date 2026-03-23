@@ -1,0 +1,5 @@
+digraph "CFG for 'plist_new_bool' function" {
+	label="CFG for 'plist_new_bool' function";
+
+	Node0x215696c0 [shape=record,label="{plist.c:361:}"];
+}

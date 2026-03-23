@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlRelaxNGDefaultTypeCheck' function" {
+	label="CFG for 'xmlRelaxNGDefaultTypeCheck' function";
+
+	Node0x12d315b0 [shape=record,label="{relaxng.c:2545:}"];
+	Node0x12d315b0 -> Node0x12d316a0;
+	Node0x12d315b0 -> Node0x12d31600;
+	Node0x12d31600 [shape=record,label="{relaxng.c:2547:}"];
+	Node0x12d31600 -> Node0x12d31650;
+	Node0x12d31600 -> Node0x12d316a0;
+	Node0x12d31650 [shape=record,label="{relaxng.c:2549:}"];
+	Node0x12d31650 -> Node0x12d316a0;
+	Node0x12d316a0 [shape=record,label="{relaxng.c:2554:}"];
+}

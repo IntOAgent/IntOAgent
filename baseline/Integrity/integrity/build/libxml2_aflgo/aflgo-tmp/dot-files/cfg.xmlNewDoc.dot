@@ -1,0 +1,21 @@
+digraph "CFG for 'xmlNewDoc' function" {
+	label="CFG for 'xmlNewDoc' function";
+
+	Node0x370e5910 [shape=record,label="{tree.c:889:}"];
+	Node0x370e5910 -> Node0x370e5b30;
+	Node0x370e5910 -> Node0x370e59a0;
+	Node0x370e59a0 [shape=record,label="{tree.c:883:}"];
+	Node0x370e59a0 -> Node0x370e59f0;
+	Node0x370e59a0 -> Node0x370e5a40;
+	Node0x370e59f0 [shape=record,label="{tree.c:897:}"];
+	Node0x370e59f0 -> Node0x370e5b30;
+	Node0x370e5a40 [shape=record,label="{tree.c:900:}"];
+	Node0x370e5a40 -> Node0x370e5b30;
+	Node0x370e5a40 -> Node0x370e5a90;
+	Node0x370e5a90 [shape=record,label="{tree.c:912:}"];
+	Node0x370e5a90 -> Node0x370e5b30;
+	Node0x370e5a90 -> Node0x370e5ae0;
+	Node0x370e5ae0 [shape=record,label="{tree.c:913:}"];
+	Node0x370e5ae0 -> Node0x370e5b30;
+	Node0x370e5b30 [shape=record,label="{tree.c:915:}"];
+}

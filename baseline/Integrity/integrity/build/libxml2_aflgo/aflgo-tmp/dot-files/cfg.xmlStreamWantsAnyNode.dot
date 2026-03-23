@@ -1,0 +1,14 @@
+digraph "CFG for 'xmlStreamWantsAnyNode' function" {
+	label="CFG for 'xmlStreamWantsAnyNode' function";
+
+	Node0x32a34390 [shape=record,label="{pattern.c:2049:}"];
+	Node0x32a34390 -> Node0x32a349c0;
+	Node0x32a34390 -> Node0x32a34920;
+	Node0x32a34920 [shape=record,label="{pattern.c:2052:}"];
+	Node0x32a34920 -> Node0x32a34970;
+	Node0x32a34920 -> Node0x32a349c0;
+	Node0x32a34970 [shape=record,label="{pattern.c:2054:}"];
+	Node0x32a34970 -> Node0x32a349c0;
+	Node0x32a34970 -> Node0x32a34920;
+	Node0x32a349c0 [shape=record,label="{pattern.c:2057:}"];
+}

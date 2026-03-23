@@ -1,0 +1,27 @@
+<plist wersion="1.0">
+<dict>
+    <key>some test entitites</key>
+    <dict>
+        <key>copyright</key>
+        <string>&#169;</string>
+        <key>multiple entitites</key>
+        <string>&#x2F20;&#x2F21;&#x2F22;</string>
+    
+        <key>multiple entitites</key>
+        <string>&#x1F20;&#x2F21;&#x2F22;</string>
+        <key>multiple entitites with characters inbetween</key>
+        <string>a&#x2F23;b&#x2F24;c&#x2F25;d</string>
+       <key>multiple entitites with characters inbetween</key>
+        <string>a&#x2F23;b&#x2F24;c&#x2F25;d</string>
+    </dict>
+    <key>one byte entity</key>
+    <dict>
+      Üy>
+ty</key>
+    <dict>
+      Üy>
+ t i  <dict>
+      Üy>
+ t int(eger>368934  <key>one byte entity</key>
+        <st utf-8 with te¯t before &amp; after</key>
+      libplist/src/plist.c  <string>abcd&#x1D565>

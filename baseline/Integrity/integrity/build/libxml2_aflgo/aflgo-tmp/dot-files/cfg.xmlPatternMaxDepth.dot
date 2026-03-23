@@ -1,0 +1,30 @@
+digraph "CFG for 'xmlPatternMaxDepth' function" {
+	label="CFG for 'xmlPatternMaxDepth' function";
+
+	Node0x32b19ac0 [shape=record,label="{pattern.c:2299:}"];
+	Node0x32b19ac0 -> Node0x32b19df0;
+	Node0x32b19ac0 -> Node0x32b19b70;
+	Node0x32b19b70 [shape=record,label="{pattern.c:2302:}"];
+	Node0x32b19b70 -> Node0x32b19df0;
+	Node0x32b19b70 -> Node0x32b19bc0;
+	Node0x32b19bc0 [shape=record,label="{pattern.c:2304:}"];
+	Node0x32b19bc0 -> Node0x32b19c10;
+	Node0x32b19bc0 -> Node0x32b19da0;
+	Node0x32b19c10 [shape=record,label="{pattern.c:2304:1}"];
+	Node0x32b19c10 -> Node0x32b19cb0;
+	Node0x32b19c60 [shape=record,label="{pattern.c:2304:2}"];
+	Node0x32b19c60 -> Node0x32b19da0;
+	Node0x32b19c60 -> Node0x32b19cb0;
+	Node0x32b19cb0 [shape=record,label="{pattern.c:2305:}"];
+	Node0x32b19cb0 -> Node0x32b19d00;
+	Node0x32b19cb0 -> Node0x32b19d50;
+	Node0x32b19d00 [shape=record,label="{%20}"];
+	Node0x32b19d00 -> Node0x32b19d50;
+	Node0x32b19d50 [shape=record,label="{pattern.c:2305:3}"];
+	Node0x32b19d50 -> Node0x32b19c60;
+	Node0x32b19d50 -> Node0x32b19df0;
+	Node0x32b19da0 [shape=record,label="{pattern.c:2307:}"];
+	Node0x32b19da0 -> Node0x32b19df0;
+	Node0x32b19da0 -> Node0x32b19b70;
+	Node0x32b19df0 [shape=record,label="{pattern.c:2312:}"];
+}

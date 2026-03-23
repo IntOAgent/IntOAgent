@@ -1,0 +1,31 @@
+digraph "CFG for 'xmlTextReaderSetStructuredErrorHandler' function" {
+	label="CFG for 'xmlTextReaderSetStructuredErrorHandler' function";
+
+	Node0x22bef6e0 [shape=record,label="{xmlreader.c:4587:}"];
+	Node0x22bef6e0 -> Node0x22befa00;
+	Node0x22bef6e0 -> Node0x22bef730;
+	Node0x22bef730 [shape=record,label="{xmlreader.c:4590:}"];
+	Node0x22bef730 -> Node0x22bef8c0;
+	Node0x22bef730 -> Node0x22bef780;
+	Node0x22bef780 [shape=record,label="{xmlreader.c:4591:}"];
+	Node0x22bef780 -> Node0x22bef820;
+	Node0x22bef780 -> Node0x22bef7d0;
+	Node0x22bef7d0 [shape=record,label="{xmlreader.c:4598:}"];
+	Node0x22bef7d0 -> Node0x22bef820;
+	Node0x22bef820 [shape=record,label="{xmlreader.c:4603:}"];
+	Node0x22bef820 -> Node0x22befa00;
+	Node0x22bef820 -> Node0x22bef870;
+	Node0x22bef870 [shape=record,label="{xmlreader.c:4604:}"];
+	Node0x22bef870 -> Node0x22befa00;
+	Node0x22bef8c0 [shape=record,label="{xmlreader.c:4610:}"];
+	Node0x22bef8c0 -> Node0x22bef960;
+	Node0x22bef8c0 -> Node0x22bef910;
+	Node0x22bef910 [shape=record,label="{xmlreader.c:4616:}"];
+	Node0x22bef910 -> Node0x22bef960;
+	Node0x22bef960 [shape=record,label="{xmlreader.c:4621:}"];
+	Node0x22bef960 -> Node0x22befa00;
+	Node0x22bef960 -> Node0x22bef9b0;
+	Node0x22bef9b0 [shape=record,label="{xmlreader.c:4622:}"];
+	Node0x22bef9b0 -> Node0x22befa00;
+	Node0x22befa00 [shape=record,label="{xmlreader.c:4627:}"];
+}

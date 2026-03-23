@@ -1,0 +1,30 @@
+digraph "CFG for 'xmlTextReaderDumpCopy' function" {
+	label="CFG for 'xmlTextReaderDumpCopy' function";
+
+	Node0x22aae2a0 [shape=record,label="{xmlreader.c:1620:}"];
+	Node0x22aae2a0 -> Node0x22aae3a0;
+	Node0x22aae2a0 -> Node0x22aae620;
+	Node0x22aae2a0 -> Node0x22aae350;
+	Node0x22aae350 [shape=record,label="{xmlreader.c:1628:}"];
+	Node0x22aae350 -> Node0x22aae620;
+	Node0x22aae3a0 [shape=record,label="{xmlreader.c:1636:}"];
+	Node0x22aae3a0 -> Node0x22aae3f0;
+	Node0x22aae3a0 -> Node0x22aae5d0;
+	Node0x22aae3f0 [shape=record,label="{xmlreader.c:207:}"];
+	Node0x22aae3f0 -> Node0x22aae440;
+	Node0x22aae3f0 -> Node0x22aae490;
+	Node0x22aae440 [shape=record,label="{xmlreader.c:208:}"];
+	Node0x22aae440 -> Node0x22aae620;
+	Node0x22aae490 [shape=record,label="{xmlreader.c:212:}"];
+	Node0x22aae490 -> Node0x22aae530;
+	Node0x22aae490 -> Node0x22aae4e0;
+	Node0x22aae4e0 [shape=record,label="{xmlreader.c:213:}"];
+	Node0x22aae4e0 -> Node0x22aae580;
+	Node0x22aae530 [shape=record,label="{xmlreader.c:215:}"];
+	Node0x22aae530 -> Node0x22aae580;
+	Node0x22aae580 [shape=record,label="{xmlreader.c:217:}"];
+	Node0x22aae580 -> Node0x22aae620;
+	Node0x22aae5d0 [shape=record,label="{xmlreader.c:1642:}"];
+	Node0x22aae5d0 -> Node0x22aae620;
+	Node0x22aae620 [shape=record,label="{xmlreader.c:1646:}"];
+}

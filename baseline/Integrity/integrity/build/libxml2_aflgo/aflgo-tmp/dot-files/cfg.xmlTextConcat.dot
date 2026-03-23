@@ -1,0 +1,33 @@
+digraph "CFG for 'xmlTextConcat' function" {
+	label="CFG for 'xmlTextConcat' function";
+
+	Node0x3721ef60 [shape=record,label="{tree.c:6658:}"];
+	Node0x3721ef60 -> Node0x3721f3e0;
+	Node0x3721ef60 -> Node0x3721f110;
+	Node0x3721f110 [shape=record,label="{tree.c:6661:}"];
+	Node0x3721f110 -> Node0x3721f3e0;
+	Node0x3721f110 -> Node0x3721f160;
+	Node0x3721f160 [shape=record,label="{tree.c:2736:}"];
+	Node0x3721f160 -> Node0x3721f3e0;
+	Node0x3721f160 -> Node0x3721f1b0;
+	Node0x3721f1b0 [shape=record,label="{tree.c:2739:}"];
+	Node0x3721f1b0 -> Node0x3721f3e0;
+	Node0x3721f1b0 -> Node0x3721f200;
+	Node0x3721f200 [shape=record,label="{tree.c:2718:}"];
+	Node0x3721f200 -> Node0x3721f390;
+	Node0x3721f200 -> Node0x3721f250;
+	Node0x3721f250 [shape=record,label="{tree.c:2720:}"];
+	Node0x3721f250 -> Node0x3721f340;
+	Node0x3721f250 -> Node0x3721f2a0;
+	Node0x3721f2a0 [shape=record,label="{tree.c:2723:}"];
+	Node0x3721f2a0 -> Node0x3721f340;
+	Node0x3721f2a0 -> Node0x3721f2f0;
+	Node0x3721f2f0 [shape=record,label="{tree.c:2724:}"];
+	Node0x3721f2f0 -> Node0x3721f340;
+	Node0x3721f2f0 -> Node0x3721f390;
+	Node0x3721f340 [shape=record,label="{tree.c:2725:}"];
+	Node0x3721f340 -> Node0x3721f390;
+	Node0x3721f390 [shape=record,label="{tree.c:2728:}"];
+	Node0x3721f390 -> Node0x3721f3e0;
+	Node0x3721f3e0 [shape=record,label="{tree.c:6668:}"];
+}

@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlFindCharEncodingHandler' function" {
+	label="CFG for 'xmlFindCharEncodingHandler' function";
+
+	Node0x253c50d0 [shape=record,label="{encoding.c:1188:}"];
+	Node0x253c50d0 -> Node0x254208c0;
+	Node0x253c50d0 -> Node0x25420820;
+	Node0x25420820 [shape=record,label="{encoding.c:1196:}"];
+	Node0x25420820 -> Node0x254208c0;
+	Node0x25420820 -> Node0x25420870;
+	Node0x25420870 [shape=record,label="{encoding.c:1204:}"];
+	Node0x25420870 -> Node0x254208c0;
+	Node0x254208c0 [shape=record,label="{encoding.c:1206:}"];
+}

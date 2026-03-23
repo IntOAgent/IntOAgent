@@ -1,0 +1,15 @@
+digraph "CFG for 'xmlTextReaderGetErrorHandler' function" {
+	label="CFG for 'xmlTextReaderGetErrorHandler' function";
+
+	Node0x22bf2ac0 [shape=record,label="{xmlreader.c:4640:}"];
+	Node0x22bf2ac0 -> Node0x22bf2b90;
+	Node0x22bf2ac0 -> Node0x22bf2b40;
+	Node0x22bf2b40 [shape=record,label="{xmlreader.c:4641:}"];
+	Node0x22bf2b40 -> Node0x22bf2b90;
+	Node0x22bf2b90 [shape=record,label="{xmlreader.c:4642:}"];
+	Node0x22bf2b90 -> Node0x22bf2c30;
+	Node0x22bf2b90 -> Node0x22bf2be0;
+	Node0x22bf2be0 [shape=record,label="{xmlreader.c:4643:}"];
+	Node0x22bf2be0 -> Node0x22bf2c30;
+	Node0x22bf2c30 [shape=record,label="{xmlreader.c:4644:}"];
+}

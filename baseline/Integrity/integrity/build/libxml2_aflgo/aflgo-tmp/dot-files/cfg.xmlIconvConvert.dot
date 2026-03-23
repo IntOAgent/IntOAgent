@@ -1,0 +1,47 @@
+digraph "CFG for 'xmlIconvConvert' function" {
+	label="CFG for 'xmlIconvConvert' function";
+
+	Node0x2557ba40 [shape=record,label="{encoding.c:1236:}"];
+	Node0x2557ba40 -> Node0x2532c8d0;
+	Node0x2557ba40 -> Node0x2532c970;
+	Node0x2532c8d0 [shape=record,label="{encoding.c:1242:}"];
+	Node0x2532c8d0 -> Node0x2532cd80;
+	Node0x2532c8d0 -> Node0x2532c920;
+	Node0x2532c920 [shape=record,label="{encoding.c:1242:1}"];
+	Node0x2532c920 -> Node0x2532cd80;
+	Node0x2532c970 [shape=record,label="{encoding.c:1245:}"];
+	Node0x2532c970 -> Node0x2532c9c0;
+	Node0x2532c970 -> Node0x2532ca10;
+	Node0x2532c9c0 [shape=record,label="{encoding.c:1251:}"];
+	Node0x2532c9c0 -> Node0x2532ca10;
+	Node0x2532ca10 [shape=record,label="{encoding.c:1251:2}"];
+	Node0x2532ca10 -> Node0x2532ca60;
+	Node0x2532ca10 -> Node0x2532cab0;
+	Node0x2532ca60 [shape=record,label="{encoding.c:1251:3}"];
+	Node0x2532ca60 -> Node0x2532cab0;
+	Node0x2532cab0 [shape=record,label="{encoding.c:1251:4}"];
+	Node0x2532cab0 -> Node0x2532cb00;
+	Node0x2532cab0 -> Node0x2532cb50;
+	Node0x2532cb00 [shape=record,label="{encoding.c:1252:}"];
+	Node0x2532cb00 -> Node0x2532cb50;
+	Node0x2532cb50 [shape=record,label="{encoding.c:1252:5}"];
+	Node0x2532cb50 -> Node0x2532cba0;
+	Node0x2532cb50 -> Node0x2532cbf0;
+	Node0x2532cba0 [shape=record,label="{encoding.c:1252:6}"];
+	Node0x2532cba0 -> Node0x2532cbf0;
+	Node0x2532cbf0 [shape=record,label="{encoding.c:1252:7}"];
+	Node0x2532cbf0 -> Node0x2532cc40;
+	Node0x2532cbf0 -> Node0x2532cd80;
+	Node0x2532cc40 [shape=record,label="{encoding.c:1254:}"];
+	Node0x2532cc40 -> Node0x2532cd30;
+	Node0x2532cc40 -> Node0x2532cd80;
+	Node0x2532cc40 -> Node0x2532cc90;
+	Node0x2532cc40 -> Node0x2532cce0;
+	Node0x2532cc90 [shape=record,label="{encoding.c:1257:}"];
+	Node0x2532cc90 -> Node0x2532cd80;
+	Node0x2532cce0 [shape=record,label="{encoding.c:1263:}"];
+	Node0x2532cce0 -> Node0x2532cd80;
+	Node0x2532cd30 [shape=record,label="{encoding.c:1272:}"];
+	Node0x2532cd30 -> Node0x2532cd80;
+	Node0x2532cd80 [shape=record,label="{encoding.c:1275:}"];
+}

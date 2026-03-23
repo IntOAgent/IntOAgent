@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSchemaPAttrUseErr4' function" {
+	label="CFG for 'xmlSchemaPAttrUseErr4' function";
+
+	Node0x2e5b2f20 [shape=record,label="{xmlschemas.c:3008:}"];
+	Node0x2e5b2f20 -> Node0x2e5b3260;
+	Node0x2e5b2f20 -> Node0x2e5b3210;
+	Node0x2e5b3210 [shape=record,label="{xmlschemas.c:3015:}"];
+	Node0x2e5b3210 -> Node0x2e5b3260;
+	Node0x2e5b3260 [shape=record,label="{xmlschemas.c:3016:}"];
+}

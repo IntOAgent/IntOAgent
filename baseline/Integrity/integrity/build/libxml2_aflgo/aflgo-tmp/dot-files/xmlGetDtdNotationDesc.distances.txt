@@ -1,0 +1,13 @@
+valid.c:2977,13
+valid.c:2978,12
+valid.c:2979,10
+valid.c:2978,12
+valid.c:2979,10
+valid.c:2978,12
+valid.c:2979,10
+valid.c:2978,12
+valid.c:2979,10
+valid.c:2978,12
+valid.c:2979,10
+valid.c:2978,12
+valid.c:2979,10

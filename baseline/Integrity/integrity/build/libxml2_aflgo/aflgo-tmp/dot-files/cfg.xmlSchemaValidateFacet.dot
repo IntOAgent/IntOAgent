@@ -1,0 +1,15 @@
+digraph "CFG for 'xmlSchemaValidateFacet' function" {
+	label="CFG for 'xmlSchemaValidateFacet' function";
+
+	Node0xd15c80 [shape=record,label="{xmlschemastypes.c:5689:}"];
+	Node0xd15c80 -> Node0xd15d50;
+	Node0xd15c80 -> Node0xd15d00;
+	Node0xd15d00 [shape=record,label="{xmlschemastypes.c:5691:}"];
+	Node0xd15d00 -> Node0xd15df0;
+	Node0xd15d50 [shape=record,label="{xmlschemastypes.c:5693:}"];
+	Node0xd15d50 -> Node0xd15df0;
+	Node0xd15d50 -> Node0xd15da0;
+	Node0xd15da0 [shape=record,label="{xmlschemastypes.c:5695:}"];
+	Node0xd15da0 -> Node0xd15df0;
+	Node0xd15df0 [shape=record,label="{xmlschemastypes.c:5698:}"];
+}

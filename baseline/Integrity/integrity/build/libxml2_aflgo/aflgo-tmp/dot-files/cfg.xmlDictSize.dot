@@ -1,0 +1,23 @@
+digraph "CFG for 'xmlDictSize' function" {
+	label="CFG for 'xmlDictSize' function";
+
+	Node0x15ed4df0 [shape=record,label="{dict.c:385:}"];
+	Node0x15ed4df0 -> Node0x15ed5020;
+	Node0x15ed4df0 -> Node0x15ed4e40;
+	Node0x15ed4e40 [shape=record,label="{dict.c:387:}"];
+	Node0x15ed4e40 -> Node0x15ed5020;
+	Node0x15ed4e40 -> Node0x15ed4e90;
+	Node0x15ed4e90 [shape=record,label="{dict.c:388:}"];
+	Node0x15ed4e90 -> Node0x15ed4ee0;
+	Node0x15ed4e90 -> Node0x15ed4f30;
+	Node0x15ed4ee0 [shape=record,label="{dict.c:388:1}"];
+	Node0x15ed4ee0 -> Node0x15ed4f30;
+	Node0x15ed4f30 [shape=record,label="{dict.c:388:2}"];
+	Node0x15ed4f30 -> Node0x15ed4f80;
+	Node0x15ed4f30 -> Node0x15ed4fd0;
+	Node0x15ed4f80 [shape=record,label="{dict.c:388:3}"];
+	Node0x15ed4f80 -> Node0x15ed4fd0;
+	Node0x15ed4fd0 [shape=record,label="{dict.c:388:4}"];
+	Node0x15ed4fd0 -> Node0x15ed5020;
+	Node0x15ed5020 [shape=record,label="{dict.c:390:}"];
+}

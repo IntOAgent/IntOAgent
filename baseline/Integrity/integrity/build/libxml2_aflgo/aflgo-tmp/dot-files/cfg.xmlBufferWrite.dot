@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlBufferWrite' function" {
+	label="CFG for 'xmlBufferWrite' function";
+
+	Node0x97b7350 [shape=record,label="{xmlIO.c:1071:}"];
+}

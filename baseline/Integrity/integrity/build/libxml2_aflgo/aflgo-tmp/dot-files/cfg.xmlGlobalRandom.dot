@@ -1,0 +1,45 @@
+digraph "CFG for 'xmlGlobalRandom' function" {
+	label="CFG for 'xmlGlobalRandom' function";
+
+	Node0x15f5d7e0 [shape=record,label="{dict.c:1009:}"];
+	Node0x15f5d7e0 -> Node0x15f5d8c0;
+	Node0x15f5d7e0 -> Node0x15f5d910;
+	Node0x15f5d8c0 [shape=record,label="{dict.c:990:}"];
+	Node0x15f5d8c0 -> Node0x15f5d910;
+	Node0x15f5d910 [shape=record,label="{dict.c:990:1}"];
+	Node0x15f5d910 -> Node0x15f5d960;
+	Node0x15f5d910 -> Node0x15f5d9b0;
+	Node0x15f5d960 [shape=record,label="{dict.c:990:2}"];
+	Node0x15f5d960 -> Node0x15f5d9b0;
+	Node0x15f5d9b0 [shape=record,label="{dict.c:990:3}"];
+	Node0x15f5d9b0 -> Node0x15f5da00;
+	Node0x15f5d9b0 -> Node0x15f5da50;
+	Node0x15f5da00 [shape=record,label="{dict.c:990:4}"];
+	Node0x15f5da00 -> Node0x15f5da50;
+	Node0x15f5da50 [shape=record,label="{dict.c:990:5}"];
+	Node0x15f5da50 -> Node0x15f5daa0;
+	Node0x15f5da50 -> Node0x15f5daf0;
+	Node0x15f5daa0 [shape=record,label="{dict.c:990:6}"];
+	Node0x15f5daa0 -> Node0x15f5daf0;
+	Node0x15f5daf0 [shape=record,label="{dict.c:990:7}"];
+	Node0x15f5daf0 -> Node0x15f5db40;
+	Node0x15f5daf0 -> Node0x15f5db90;
+	Node0x15f5db40 [shape=record,label="{%15}"];
+	Node0x15f5db40 -> Node0x15f5db90;
+	Node0x15f5db90 [shape=record,label="{%18}"];
+	Node0x15f5db90 -> Node0x15f5dbe0;
+	Node0x15f5db90 -> Node0x15f5dc30;
+	Node0x15f5dbe0 [shape=record,label="{%19}"];
+	Node0x15f5dbe0 -> Node0x15f5dc30;
+	Node0x15f5dc30 [shape=record,label="{dict.c:992:}"];
+	Node0x15f5dc30 -> Node0x15f5dc80;
+	Node0x15f5dc30 -> Node0x15f5dcd0;
+	Node0x15f5dc80 [shape=record,label="{dict.c:993:}"];
+	Node0x15f5dc80 -> Node0x15f5dcd0;
+	Node0x15f5dcd0 [shape=record,label="{dict.c:993:8}"];
+	Node0x15f5dcd0 -> Node0x15f5dd20;
+	Node0x15f5dcd0 -> Node0x15f5dd70;
+	Node0x15f5dd20 [shape=record,label="{dict.c:993:9}"];
+	Node0x15f5dd20 -> Node0x15f5dd70;
+	Node0x15f5dd70 [shape=record,label="{dict.c:993:10}"];
+}

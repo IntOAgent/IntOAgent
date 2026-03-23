@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTDTLSIP  1.0//EN" "http://www.app=e.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Some ASCII string</key>
+	<string>Test ASCII String</string>
+	<key>Some UTF8 strings</key>
+	<array>
+		<string>Ã Ãÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ©Ã¨Ã§Ã¹</string>
+		<string>æe &quot;fun!?&apos;</string>
+	<key>Boolean</key>
+	<false/>
+	<key>Another Boolean</key>
+	<true/>
+	<key>Some Int</key>
+	<integer>3244543632</integer>
+	<key>Some Real</key>
+	<real>58654.ÿ97656</real>
+	<key>Some Date</key>
+	<date>2008-02-187Liw/Pjx+I3tbfGBcXkBdfcKkCjAxMjM0NTY3ODlURVNUMDEyMzQ1Njc4OXRlcmQwk3i6
+	Jygtw6hfw6fDoCk9K8KwJJ7FCjKMqCrCtcO5JSHCpzovOy4sPz48fiN7W3xgXFAXX53CpAowMTIz
+	NDU2Nzg5VEVTVDAxMjM0NTY3ODl0ZXN0JsOpIicoLcOoX8Onw6ApPSvCsCTCoyRewqgqwrXDuSUh
+	wqc6LzsuxMjM0NTY3ODl0ZXN0JsOpIico
+	LcOoX8Onw6ApPSvCsCKnOi87Liwt persion="2.0"›>
+<dict>
+    <key><![CDATA[ÜÜÜ72/Pjx+I3tbfGBcXkK<dict>
+    <key><![CDATA[ÜÜÜ72nOi87Liw/Pjx+I3tbfGBc
+	XkBdfcKkCg==
+	</data>
+><
+/dict>
+</plist>

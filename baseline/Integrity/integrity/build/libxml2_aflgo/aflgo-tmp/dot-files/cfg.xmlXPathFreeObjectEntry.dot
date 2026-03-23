@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlXPathFreeObjectEntry' function" {
+	label="CFG for 'xmlXPathFreeObjectEntry' function";
+
+	Node0x2fe625b0 [shape=record,label="{xpath.c:4245:}"];
+}

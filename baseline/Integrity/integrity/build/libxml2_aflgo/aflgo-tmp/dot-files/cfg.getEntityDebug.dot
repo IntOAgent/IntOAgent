@@ -1,0 +1,15 @@
+digraph "CFG for 'getEntityDebug' function" {
+	label="CFG for 'getEntityDebug' function";
+
+	Node0x3d167450 [shape=record,label="{xmllint.c:742:}"];
+	Node0x3d167450 -> Node0x3d169b30;
+	Node0x3d167450 -> Node0x3d169b80;
+	Node0x3d169b30 [shape=record,label="{xmllint.c:742:1}"];
+	Node0x3d169b30 -> Node0x3d169b80;
+	Node0x3d169b80 [shape=record,label="{xmllint.c:742:2}"];
+	Node0x3d169b80 -> Node0x3d169bd0;
+	Node0x3d169b80 -> Node0x3d169c20;
+	Node0x3d169bd0 [shape=record,label="{xmllint.c:745:}"];
+	Node0x3d169bd0 -> Node0x3d169c20;
+	Node0x3d169c20 [shape=record,label="{xmllint.c:747:}"];
+}

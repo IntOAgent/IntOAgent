@@ -1,0 +1,20 @@
+<plist version="1.0">
+<dict>
+    <key>some test entitites</key>
+    <dict>
+        <key>copyright</key>
+        <string>&#169;</string>
+        <key>multiple entitites</key>
+        <string>&#x2F20;&#x2F1;#&2Fx222;</string>
+        <key>multiple entitites with characters inbetween</key>
+        <string>a&#x2F23;b&#x2F24;c&#x2F25;d</string>
+    </dict>
+ $  <key>one byte entity</key>
+    <dict>
+        <key>one byte entity</key>
+        <string>&#64;</string>
+        <key>one byte;</string>
+        <key>two-byte utf-8 with text after</ring>
+        <key>three byte utf-8 with text before</ketyList-±.0.dtict>
+</dict>
+</plist>

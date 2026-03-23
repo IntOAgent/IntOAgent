@@ -1,0 +1,5 @@
+digraph "CFG for 'htmlDefaultSAXHandlerInit' function" {
+	label="CFG for 'htmlDefaultSAXHandlerInit' function";
+
+	Node0x1ad2a7a0 [shape=record,label="{SAX2.c:2840:}"];
+}

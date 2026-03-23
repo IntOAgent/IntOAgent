@@ -1,0 +1,10 @@
+digraph "CFG for 'libxml_domnode_binary_insertion_sort' function" {
+	label="CFG for 'libxml_domnode_binary_insertion_sort' function";
+
+	Node0x2fc6d210 [shape=record,label="{timsort.h:251:}"];
+	Node0x2fc6d210 -> Node0x2fc6d800;
+	Node0x2fc6d210 -> Node0x2fc6d7b0;
+	Node0x2fc6d7b0 [shape=record,label="{timsort.h:255:}"];
+	Node0x2fc6d7b0 -> Node0x2fc6d800;
+	Node0x2fc6d800 [shape=record,label="{timsort.h:256:}"];
+}

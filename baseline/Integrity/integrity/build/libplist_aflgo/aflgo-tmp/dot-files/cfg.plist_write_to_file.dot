@@ -1,0 +1,13 @@
+digraph "CFG for 'plist_write_to_file' function" {
+	label="CFG for 'plist_write_to_file' function";
+
+	Node0x216a9b30 [shape=record,label="{plist.c:1992:}"];
+	Node0x216a9b30 -> Node0x216a9bb0;
+	Node0x216a9b30 -> Node0x216a9c50;
+	Node0x216a9bb0 [shape=record,label="{plist.c:1995:}"];
+	Node0x216a9bb0 -> Node0x216a9c50;
+	Node0x216a9bb0 -> Node0x216a9c00;
+	Node0x216a9c00 [shape=record,label="{plist.c:1999:}"];
+	Node0x216a9c00 -> Node0x216a9c50;
+	Node0x216a9c50 [shape=record,label="{plist.c:2002:}"];
+}

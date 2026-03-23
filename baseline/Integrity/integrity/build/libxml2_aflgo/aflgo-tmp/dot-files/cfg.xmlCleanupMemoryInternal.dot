@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlCleanupMemoryInternal' function" {
+	label="CFG for 'xmlCleanupMemoryInternal' function";
+
+	Node0x3023d940 [shape=record,label="{xmlmemory.c:396:}"];
+}

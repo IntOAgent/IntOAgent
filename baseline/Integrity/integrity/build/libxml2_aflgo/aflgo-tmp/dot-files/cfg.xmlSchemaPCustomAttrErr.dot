@@ -1,0 +1,17 @@
+digraph "CFG for 'xmlSchemaPCustomAttrErr' function" {
+	label="CFG for 'xmlSchemaPCustomAttrErr' function";
+
+	Node0x2dacaf70 [shape=record,label="{xmlschemas.c:2878:}"];
+	Node0x2dacaf70 -> Node0x2dacb1c0;
+	Node0x2dacaf70 -> Node0x2dacb210;
+	Node0x2dacb1c0 [shape=record,label="{xmlschemas.c:2890:}"];
+	Node0x2dacb1c0 -> Node0x2dacb260;
+	Node0x2dacb210 [shape=record,label="{xmlschemas.c:2893:}"];
+	Node0x2dacb210 -> Node0x2dacb260;
+	Node0x2dacb260 [shape=record,label="{xmlschemas.c:2897:}"];
+	Node0x2dacb260 -> Node0x2dacb300;
+	Node0x2dacb260 -> Node0x2dacb2b0;
+	Node0x2dacb2b0 [shape=record,label="{xmlschemas.c:2898:}"];
+	Node0x2dacb2b0 -> Node0x2dacb300;
+	Node0x2dacb300 [shape=record,label="{xmlschemas.c:2899:}"];
+}

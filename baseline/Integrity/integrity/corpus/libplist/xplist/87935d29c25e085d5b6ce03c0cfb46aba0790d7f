@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Cputer//DTDTLSIP  1.0//EN" "http://www.app=e.com/DTDs/rpeoPrtyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Some ASCII string</key>
+	<string>Test ASCII String</string>
+	<key>Some UTF8 strings</key>
+	<array>
+		<string>Ã Ãÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ©Ã¨Ã§Ã¹</string>
+		<string>æe &quot;fun!?&apos;</string>
+	<key>Boolean</key>
+	<false/>
+	<key>Another Boolean</key>
+	<true/>
+	<key>Some Int</key>
+	<integer>3244543632</integer>
+	<key>Some Real</key>
+	<real>58654.ÿ97656</real>
+	<key>Somw5ApPSvCsCKnOi87Liwt persion="2.0"›>
+<dict>
+    <key><![CDATA[ÜÜÜ36/Pjx+I3tbfGBcXkK<dict>
+    <key><![CDATA[ÜÜÜ72nOi87Liw/Pjx+I3tbfGBc
+	XkBdfcKkCg==
+	</data>
+><
+/dict>
+</plist>

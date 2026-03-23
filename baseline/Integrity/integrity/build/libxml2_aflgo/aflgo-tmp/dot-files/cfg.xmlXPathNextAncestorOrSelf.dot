@@ -1,0 +1,48 @@
+digraph "CFG for 'xmlXPathNextAncestorOrSelf' function" {
+	label="CFG for 'xmlXPathNextAncestorOrSelf' function";
+
+	Node0x2ff96d00 [shape=record,label="{xpath.c:6542:}"];
+	Node0x2ff96d00 -> Node0x2ff97240;
+	Node0x2ff96d00 -> Node0x2ff96de0;
+	Node0x2ff96de0 [shape=record,label="{xpath.c:6542:1}"];
+	Node0x2ff96de0 -> Node0x2ff97240;
+	Node0x2ff96de0 -> Node0x2ff96e30;
+	Node0x2ff96e30 [shape=record,label="{xpath.c:6543:}"];
+	Node0x2ff96e30 -> Node0x2ff96e80;
+	Node0x2ff96e30 -> Node0x2ff96ed0;
+	Node0x2ff96e80 [shape=record,label="{xpath.c:6544:}"];
+	Node0x2ff96e80 -> Node0x2ff97240;
+	Node0x2ff96ed0 [shape=record,label="{xpath.c:6479:}"];
+	Node0x2ff96ed0 -> Node0x2ff97240;
+	Node0x2ff96ed0 -> Node0x2ff96f20;
+	Node0x2ff96f20 [shape=record,label="{xpath.c:6481:}"];
+	Node0x2ff96f20 -> Node0x2ff97240;
+	Node0x2ff96f20 -> Node0x2ff96f70;
+	Node0x2ff96f70 [shape=record,label="{xpath.c:6483:}"];
+	Node0x2ff96f70 -> Node0x2ff97240;
+	Node0x2ff96f70 -> Node0x2ff96fc0;
+	Node0x2ff96f70 -> Node0x2ff97150;
+	Node0x2ff96f70 -> Node0x2ff971a0;
+	Node0x2ff96fc0 [shape=record,label="{xpath.c:6498:}"];
+	Node0x2ff96fc0 -> Node0x2ff97240;
+	Node0x2ff96fc0 -> Node0x2ff97010;
+	Node0x2ff97010 [shape=record,label="{xpath.c:6500:}"];
+	Node0x2ff97010 -> Node0x2ff97060;
+	Node0x2ff97010 -> Node0x2ff97100;
+	Node0x2ff97060 [shape=record,label="{xpath.c:6501:}"];
+	Node0x2ff97060 -> Node0x2ff97240;
+	Node0x2ff97060 -> Node0x2ff970b0;
+	Node0x2ff970b0 [shape=record,label="{xpath.c:6502:}"];
+	Node0x2ff970b0 -> Node0x2ff97100;
+	Node0x2ff970b0 -> Node0x2ff97240;
+	Node0x2ff97100 [shape=record,label="{xpath.c:6505:}"];
+	Node0x2ff97100 -> Node0x2ff97240;
+	Node0x2ff97150 [shape=record,label="{xpath.c:6509:}"];
+	Node0x2ff97150 -> Node0x2ff97240;
+	Node0x2ff971a0 [shape=record,label="{xpath.c:6514:}"];
+	Node0x2ff971a0 -> Node0x2ff97240;
+	Node0x2ff971a0 -> Node0x2ff971f0;
+	Node0x2ff971f0 [shape=record,label="{xpath.c:6515:}"];
+	Node0x2ff971f0 -> Node0x2ff97240;
+	Node0x2ff97240 [shape=record,label="{xpath.c:6546:}"];
+}

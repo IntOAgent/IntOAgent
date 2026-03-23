@@ -1,0 +1,29 @@
+digraph "CFG for 'xmlAttrNormalizeSpace' function" {
+	label="CFG for 'xmlAttrNormalizeSpace' function";
+
+	Node0x26dd8630 [shape=record,label="{parser.c:989:}"];
+	Node0x26dd8630 -> Node0x26dd9460;
+	Node0x26dd8630 -> Node0x26dd91e0;
+	Node0x26dd91e0 [shape=record,label="{parser.c:992:}"];
+	Node0x26dd91e0 -> Node0x26dd91e0;
+	Node0x26dd91e0 -> Node0x26dd9230;
+	Node0x26dd9230 [shape=record,label="{parser.c:993:}"];
+	Node0x26dd9230 -> Node0x26dd9280;
+	Node0x26dd9280 [shape=record,label="{parser.c:993:1}"];
+	Node0x26dd9280 -> Node0x26dd9370;
+	Node0x26dd9280 -> Node0x26dd9410;
+	Node0x26dd9280 -> Node0x26dd92d0;
+	Node0x26dd92d0 [shape=record,label="{parser.c:995:}"];
+	Node0x26dd92d0 -> Node0x26dd93c0;
+	Node0x26dd92d0 -> Node0x26dd9320;
+	Node0x26dd92d0 -> Node0x26dd9280;
+	Node0x26dd9320 [shape=record,label="{parser.c:995:2}"];
+	Node0x26dd9320 -> Node0x26dd92d0;
+	Node0x26dd9370 [shape=record,label="{parser.c:999:}"];
+	Node0x26dd9370 -> Node0x26dd93c0;
+	Node0x26dd93c0 [shape=record,label="{parser.c:993:3}"];
+	Node0x26dd93c0 -> Node0x26dd9230;
+	Node0x26dd9410 [shape=record,label="{parser.c:1002:}"];
+	Node0x26dd9410 -> Node0x26dd9460;
+	Node0x26dd9460 [shape=record,label="{parser.c:1006:}"];
+}

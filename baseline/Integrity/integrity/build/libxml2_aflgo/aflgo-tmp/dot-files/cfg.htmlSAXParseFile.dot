@@ -1,0 +1,20 @@
+digraph "CFG for 'htmlSAXParseFile' function" {
+	label="CFG for 'htmlSAXParseFile' function";
+
+	Node0x39d4b20 [shape=record,label="{HTMLparser.c:5372:}"];
+	Node0x39d4b20 -> Node0x39d4d00;
+	Node0x39d4b20 -> Node0x39d4b70;
+	Node0x39d4b70 [shape=record,label="{HTMLparser.c:5374:}"];
+	Node0x39d4b70 -> Node0x39d4c10;
+	Node0x39d4b70 -> Node0x39d4bc0;
+	Node0x39d4bc0 [shape=record,label="{HTMLparser.c:5375:}"];
+	Node0x39d4bc0 -> Node0x39d4c10;
+	Node0x39d4c10 [shape=record,label="{HTMLparser.c:5380:}"];
+	Node0x39d4c10 -> Node0x39d4cb0;
+	Node0x39d4c10 -> Node0x39d4c60;
+	Node0x39d4c60 [shape=record,label="{HTMLparser.c:5384:}"];
+	Node0x39d4c60 -> Node0x39d4cb0;
+	Node0x39d4cb0 [shape=record,label="{HTMLparser.c:4585:}"];
+	Node0x39d4cb0 -> Node0x39d4d00;
+	Node0x39d4d00 [shape=record,label="{HTMLparser.c:5390:}"];
+}

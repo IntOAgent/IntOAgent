@@ -1,0 +1,31 @@
+digraph "CFG for 'xmlReaderNewWalker' function" {
+	label="CFG for 'xmlReaderNewWalker' function";
+
+	Node0x22c1b9a0 [shape=record,label="{xmlreader.c:5170:}"];
+	Node0x22c1b9a0 -> Node0x22c1e950;
+	Node0x22c1b9a0 -> Node0x22c1e620;
+	Node0x22c1e620 [shape=record,label="{xmlreader.c:5175:}"];
+	Node0x22c1e620 -> Node0x22c1e720;
+	Node0x22c1e620 -> Node0x22c1e6d0;
+	Node0x22c1e6d0 [shape=record,label="{xmlreader.c:5176:}"];
+	Node0x22c1e6d0 -> Node0x22c1e720;
+	Node0x22c1e720 [shape=record,label="{xmlreader.c:5178:}"];
+	Node0x22c1e720 -> Node0x22c1e7c0;
+	Node0x22c1e720 -> Node0x22c1e770;
+	Node0x22c1e770 [shape=record,label="{xmlreader.c:5179:}"];
+	Node0x22c1e770 -> Node0x22c1e7c0;
+	Node0x22c1e7c0 [shape=record,label="{xmlreader.c:5182:}"];
+	Node0x22c1e7c0 -> Node0x22c1e810;
+	Node0x22c1e7c0 -> Node0x22c1e950;
+	Node0x22c1e810 [shape=record,label="{xmlreader.c:5193:}"];
+	Node0x22c1e810 -> Node0x22c1e8b0;
+	Node0x22c1e810 -> Node0x22c1e860;
+	Node0x22c1e860 [shape=record,label="{xmlreader.c:5193:1}"];
+	Node0x22c1e860 -> Node0x22c1e8b0;
+	Node0x22c1e860 -> Node0x22c1e900;
+	Node0x22c1e8b0 [shape=record,label="{xmlreader.c:5196:}"];
+	Node0x22c1e8b0 -> Node0x22c1e900;
+	Node0x22c1e900 [shape=record,label="{xmlreader.c:5199:}"];
+	Node0x22c1e900 -> Node0x22c1e950;
+	Node0x22c1e950 [shape=record,label="{xmlreader.c:5199:2}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlBuildURI' function" {
+	label="CFG for 'xmlBuildURI' function";
+
+	Node0x376434c0 [shape=record,label="{uri.c:2335:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlCleanupDictInternal' function" {
+	label="CFG for 'xmlCleanupDictInternal' function";
+
+	Node0x15eb8a80 [shape=record,label="{dict.c:117:}"];
+}

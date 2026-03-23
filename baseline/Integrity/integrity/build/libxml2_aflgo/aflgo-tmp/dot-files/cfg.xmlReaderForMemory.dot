@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlReaderForMemory' function" {
+	label="CFG for 'xmlReaderForMemory' function";
+
+	Node0x22c13ed0 [shape=record,label="{xmlreader.c:5045:}"];
+	Node0x22c13ed0 -> Node0x22c14060;
+	Node0x22c13ed0 -> Node0x22c13f20;
+	Node0x22c13f20 [shape=record,label="{xmlreader.c:5049:}"];
+	Node0x22c13f20 -> Node0x22c13f70;
+	Node0x22c13f20 -> Node0x22c13fc0;
+	Node0x22c13f70 [shape=record,label="{xmlreader.c:5051:}"];
+	Node0x22c13f70 -> Node0x22c14060;
+	Node0x22c13fc0 [shape=record,label="{xmlreader.c:5054:}"];
+	Node0x22c13fc0 -> Node0x22c14010;
+	Node0x22c13fc0 -> Node0x22c14060;
+	Node0x22c14010 [shape=record,label="{xmlreader.c:5056:}"];
+	Node0x22c14010 -> Node0x22c14060;
+	Node0x22c14060 [shape=record,label="{xmlreader.c:5060:}"];
+}

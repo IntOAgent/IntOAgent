@@ -1,0 +1,23 @@
+digraph "CFG for 'xmlSaveToIO' function" {
+	label="CFG for 'xmlSaveToIO' function";
+
+	Node0x263272d0 [shape=record,label="{xmlsave.c:1935:}"];
+	Node0x263272d0 -> Node0x26327500;
+	Node0x263272d0 -> Node0x26327320;
+	Node0x26327320 [shape=record,label="{xmlsave.c:1937:}"];
+	Node0x26327320 -> Node0x26327370;
+	Node0x26327320 -> Node0x26327500;
+	Node0x26327370 [shape=record,label="{xmlsave.c:1939:}"];
+	Node0x26327370 -> Node0x26327410;
+	Node0x26327370 -> Node0x263273c0;
+	Node0x263273c0 [shape=record,label="{xmlsave.c:178:}"];
+	Node0x263273c0 -> Node0x26327410;
+	Node0x26327410 [shape=record,label="{xmlsave.c:179:}"];
+	Node0x26327410 -> Node0x263274b0;
+	Node0x26327410 -> Node0x26327460;
+	Node0x26327460 [shape=record,label="{xmlsave.c:180:}"];
+	Node0x26327460 -> Node0x263274b0;
+	Node0x263274b0 [shape=record,label="{xmlsave.c:181:}"];
+	Node0x263274b0 -> Node0x26327500;
+	Node0x26327500 [shape=record,label="{xmlsave.c:1944:}"];
+}

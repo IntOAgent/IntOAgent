@@ -1,0 +1,27 @@
+digraph "CFG for 'xmlAllocOutputBuffer' function" {
+	label="CFG for 'xmlAllocOutputBuffer' function";
+
+	Node0x9742d30 [shape=record,label="{xmlIO.c:1369:}"];
+	Node0x9742d30 -> Node0x9743000;
+	Node0x9742d30 -> Node0x9742d80;
+	Node0x9742d80 [shape=record,label="{xmlIO.c:1373:}"];
+	Node0x9742d80 -> Node0x9742dd0;
+	Node0x9742d80 -> Node0x9742e20;
+	Node0x9742dd0 [shape=record,label="{xmlIO.c:1376:}"];
+	Node0x9742dd0 -> Node0x9743000;
+	Node0x9742e20 [shape=record,label="{xmlIO.c:1380:}"];
+	Node0x9742e20 -> Node0x9742f60;
+	Node0x9742e20 -> Node0x9742e70;
+	Node0x9742e70 [shape=record,label="{xmlIO.c:1382:}"];
+	Node0x9742e70 -> Node0x9742ec0;
+	Node0x9742e70 -> Node0x9742f10;
+	Node0x9742ec0 [shape=record,label="{xmlIO.c:1384:}"];
+	Node0x9742ec0 -> Node0x9743000;
+	Node0x9742f10 [shape=record,label="{xmlIO.c:1392:}"];
+	Node0x9742f10 -> Node0x9742fb0;
+	Node0x9742f60 [shape=record,label="{xmlIO.c:1394:}"];
+	Node0x9742f60 -> Node0x9742fb0;
+	Node0x9742fb0 [shape=record,label="{xmlIO.c:1398:}"];
+	Node0x9742fb0 -> Node0x9743000;
+	Node0x9743000 [shape=record,label="{xmlIO.c:1401:}"];
+}

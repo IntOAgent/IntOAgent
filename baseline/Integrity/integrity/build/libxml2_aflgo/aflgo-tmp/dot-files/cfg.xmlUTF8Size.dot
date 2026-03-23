@@ -1,0 +1,27 @@
+digraph "CFG for 'xmlUTF8Size' function" {
+	label="CFG for 'xmlUTF8Size' function";
+
+	Node0x1aa3b570 [shape=record,label="{xmlstring.c:720:}"];
+	Node0x1aa3b570 -> Node0x1aa3b7f0;
+	Node0x1aa3b570 -> Node0x1aa3b5c0;
+	Node0x1aa3b5c0 [shape=record,label="{xmlstring.c:722:}"];
+	Node0x1aa3b5c0 -> Node0x1aa3b7f0;
+	Node0x1aa3b5c0 -> Node0x1aa3b610;
+	Node0x1aa3b610 [shape=record,label="{xmlstring.c:725:}"];
+	Node0x1aa3b610 -> Node0x1aa3b7f0;
+	Node0x1aa3b610 -> Node0x1aa3b660;
+	Node0x1aa3b660 [shape=record,label="{xmlstring.c:730:}"];
+	Node0x1aa3b660 -> Node0x1aa3b6b0;
+	Node0x1aa3b6b0 [shape=record,label="{xmlstring.c:730:1}"];
+	Node0x1aa3b6b0 -> Node0x1aa3b7f0;
+	Node0x1aa3b6b0 -> Node0x1aa3b700;
+	Node0x1aa3b700 [shape=record,label="{xmlstring.c:732:}"];
+	Node0x1aa3b700 -> Node0x1aa3b750;
+	Node0x1aa3b700 -> Node0x1aa3b7a0;
+	Node0x1aa3b750 [shape=record,label="{%12}"];
+	Node0x1aa3b750 -> Node0x1aa3b7a0;
+	Node0x1aa3b7a0 [shape=record,label="{xmlstring.c:729:}"];
+	Node0x1aa3b7a0 -> Node0x1aa3b7f0;
+	Node0x1aa3b7a0 -> Node0x1aa3b6b0;
+	Node0x1aa3b7f0 [shape=record,label="{xmlstring.c:735:}"];
+}

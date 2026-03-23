@@ -1,0 +1,31 @@
+digraph "CFG for 'xmlDebugCheckDocument' function" {
+	label="CFG for 'xmlDebugCheckDocument' function";
+
+	Node0x1d126130 [shape=record,label="{debugXML.c:1511:}"];
+	Node0x1d126130 -> Node0x1d1266a0;
+	Node0x1d126130 -> Node0x1d1263d0;
+	Node0x1d1263d0 [shape=record,label="{debugXML.c:1168:}"];
+	Node0x1d1263d0 -> Node0x1d1266a0;
+	Node0x1d1263d0 -> Node0x1d126420;
+	Node0x1d126420 [shape=record,label="{debugXML.c:1171:}"];
+	Node0x1d126420 -> Node0x1d1266a0;
+	Node0x1d126420 -> Node0x1d126470;
+	Node0x1d126470 [shape=record,label="{debugXML.c:1172:}"];
+	Node0x1d126470 -> Node0x1d1264c0;
+	Node0x1d126470 -> Node0x1d126510;
+	Node0x1d1264c0 [shape=record,label="{debugXML.c:1172:1}"];
+	Node0x1d1264c0 -> Node0x1d126510;
+	Node0x1d126510 [shape=record,label="{debugXML.c:1172:2}"];
+	Node0x1d126510 -> Node0x1d126560;
+	Node0x1d126510 -> Node0x1d1265b0;
+	Node0x1d126560 [shape=record,label="{debugXML.c:1174:}"];
+	Node0x1d126560 -> Node0x1d1265b0;
+	Node0x1d1265b0 [shape=record,label="{debugXML.c:1174:3}"];
+	Node0x1d1265b0 -> Node0x1d126600;
+	Node0x1d1265b0 -> Node0x1d126650;
+	Node0x1d126600 [shape=record,label="{debugXML.c:1174:4}"];
+	Node0x1d126600 -> Node0x1d126650;
+	Node0x1d126650 [shape=record,label="{debugXML.c:1174:5}"];
+	Node0x1d126650 -> Node0x1d1266a0;
+	Node0x1d1266a0 [shape=record,label="{debugXML.c:1520:}"];
+}

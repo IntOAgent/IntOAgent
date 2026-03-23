@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlNodeIsText' function" {
+	label="CFG for 'xmlNodeIsText' function";
+
+	Node0x3721bf60 [shape=record,label="{tree.c:6614:}"];
+	Node0x3721bf60 -> Node0x3721c1a0;
+	Node0x3721bf60 -> Node0x3721c150;
+	Node0x3721c150 [shape=record,label="{tree.c:6616:}"];
+	Node0x3721c150 -> Node0x3721c1a0;
+	Node0x3721c1a0 [shape=record,label="{tree.c:6618:}"];
+}

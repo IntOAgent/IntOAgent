@@ -1,0 +1,36 @@
+digraph "CFG for 'xmlXPathOrderDocElems' function" {
+	label="CFG for 'xmlXPathOrderDocElems' function";
+
+	Node0x2fd74920 [shape=record,label="{xpath.c:2368:}"];
+	Node0x2fd74920 -> Node0x2fd74f20;
+	Node0x2fd74920 -> Node0x2fd74c00;
+	Node0x2fd74c00 [shape=record,label="{xpath.c:2370:}"];
+	Node0x2fd74c00 -> Node0x2fd74f20;
+	Node0x2fd74c00 -> Node0x2fd74c50;
+	Node0x2fd74c50 [shape=record,label="{xpath.c:2371:}"];
+	Node0x2fd74c50 -> Node0x2fd74ca0;
+	Node0x2fd74ca0 [shape=record,label="{xpath.c:2372:}"];
+	Node0x2fd74ca0 -> Node0x2fd74cf0;
+	Node0x2fd74ca0 -> Node0x2fd74de0;
+	Node0x2fd74cf0 [shape=record,label="{xpath.c:2373:}"];
+	Node0x2fd74cf0 -> Node0x2fd74d40;
+	Node0x2fd74cf0 -> Node0x2fd74d90;
+	Node0x2fd74d40 [shape=record,label="{%12}"];
+	Node0x2fd74d40 -> Node0x2fd74d90;
+	Node0x2fd74d90 [shape=record,label="{xpath.c:2374:}"];
+	Node0x2fd74d90 -> Node0x2fd74de0;
+	Node0x2fd74d90 -> Node0x2fd74ed0;
+	Node0x2fd74de0 [shape=record,label="{xpath.c:2380:}"];
+	Node0x2fd74de0 -> Node0x2fd74e30;
+	Node0x2fd74de0 -> Node0x2fd74ed0;
+	Node0x2fd74e30 [shape=record,label="{xpath.c:2385:}"];
+	Node0x2fd74e30 -> Node0x2fd74ed0;
+	Node0x2fd74e30 -> Node0x2fd74e80;
+	Node0x2fd74e80 [shape=record,label="{xpath.c:2392:}"];
+	Node0x2fd74e80 -> Node0x2fd74e30;
+	Node0x2fd74e80 -> Node0x2fd74ed0;
+	Node0x2fd74ed0 [shape=record,label="{xpath.c:2371:1}"];
+	Node0x2fd74ed0 -> Node0x2fd74f20;
+	Node0x2fd74ed0 -> Node0x2fd74ca0;
+	Node0x2fd74f20 [shape=record,label="{xpath.c:2399:}"];
+}

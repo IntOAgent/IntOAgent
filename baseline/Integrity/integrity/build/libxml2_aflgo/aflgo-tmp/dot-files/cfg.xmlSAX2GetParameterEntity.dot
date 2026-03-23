@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSAX2GetParameterEntity' function" {
+	label="CFG for 'xmlSAX2GetParameterEntity' function";
+
+	Node0x1ac11d20 [shape=record,label="{SAX2.c:502:}"];
+	Node0x1ac11d20 -> Node0x1ac11dc0;
+	Node0x1ac11d20 -> Node0x1ac11d70;
+	Node0x1ac11d70 [shape=record,label="{SAX2.c:504:}"];
+	Node0x1ac11d70 -> Node0x1ac11dc0;
+	Node0x1ac11dc0 [shape=record,label="{SAX2.c:506:}"];
+}

@@ -1,0 +1,16 @@
+digraph "CFG for 'plist_dict_get_size' function" {
+	label="CFG for 'plist_dict_get_size' function";
+
+	Node0x21580c50 [shape=record,label="{plist.c:807:}"];
+	Node0x21580c50 -> Node0x21580dc0;
+	Node0x21580c50 -> Node0x21580cd0;
+	Node0x21580cd0 [shape=record,label="{plist.c:356:}"];
+	Node0x21580cd0 -> Node0x21580dc0;
+	Node0x21580cd0 -> Node0x21580d20;
+	Node0x21580d20 [shape=record,label="{plist.c:1265:}"];
+	Node0x21580d20 -> Node0x21580d70;
+	Node0x21580d20 -> Node0x21580dc0;
+	Node0x21580d70 [shape=record,label="{plist.c:809:}"];
+	Node0x21580d70 -> Node0x21580dc0;
+	Node0x21580dc0 [shape=record,label="{plist.c:811:}"];
+}

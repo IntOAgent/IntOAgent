@@ -1,0 +1,1 @@
+SELECT abs(-1), hex(42), length('helSELECT abs(-1), hex(42), length('lo');

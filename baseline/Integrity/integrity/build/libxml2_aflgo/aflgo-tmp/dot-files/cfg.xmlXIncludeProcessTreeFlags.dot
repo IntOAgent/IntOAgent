@@ -1,0 +1,34 @@
+digraph "CFG for 'xmlXIncludeProcessTreeFlags' function" {
+	label="CFG for 'xmlXIncludeProcessTreeFlags' function";
+
+	Node0xc488390 [shape=record,label="{xinclude.c:2140:}"];
+	Node0xc488390 -> Node0xc488c30;
+	Node0xc488390 -> Node0xc488910;
+	Node0xc488910 [shape=record,label="{xinclude.c:2140:1}"];
+	Node0xc488910 -> Node0xc488c30;
+	Node0xc488910 -> Node0xc488960;
+	Node0xc488960 [shape=record,label="{xinclude.c:2141:}"];
+	Node0xc488960 -> Node0xc488c30;
+	Node0xc488960 -> Node0xc4889b0;
+	Node0xc4889b0 [shape=record,label="{xinclude.c:263:}"];
+	Node0xc4889b0 -> Node0xc488a50;
+	Node0xc4889b0 -> Node0xc488a00;
+	Node0xc488a00 [shape=record,label="{xinclude.c:263:2}"];
+	Node0xc488a00 -> Node0xc488a50;
+	Node0xc488a50 [shape=record,label="{xinclude.c:2144:}"];
+	Node0xc488a50 -> Node0xc488c30;
+	Node0xc488a50 -> Node0xc488aa0;
+	Node0xc488aa0 [shape=record,label="{xinclude.c:2028:}"];
+	Node0xc488aa0 -> Node0xc488b40;
+	Node0xc488aa0 -> Node0xc488af0;
+	Node0xc488af0 [shape=record,label="{xinclude.c:1965:}"];
+	Node0xc488af0 -> Node0xc488b40;
+	Node0xc488b40 [shape=record,label="{xinclude.c:2148:}"];
+	Node0xc488b40 -> Node0xc488b90;
+	Node0xc488b40 -> Node0xc488be0;
+	Node0xc488b90 [shape=record,label="{xinclude.c:2148:3}"];
+	Node0xc488b90 -> Node0xc488be0;
+	Node0xc488be0 [shape=record,label="{xinclude.c:2151:}"];
+	Node0xc488be0 -> Node0xc488c30;
+	Node0xc488c30 [shape=record,label="{xinclude.c:2153:}"];
+}

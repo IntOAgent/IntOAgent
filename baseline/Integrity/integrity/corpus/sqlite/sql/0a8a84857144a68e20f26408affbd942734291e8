@@ -1,0 +1,1 @@
+CREATE VIRTUAL TABLE t USING fts5(content); INSERT INTO t VALUES('hello world'); SELECT STCRU

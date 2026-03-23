@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlSchemaPCustomErrExt' function" {
+	label="CFG for 'xmlSchemaPCustomErrExt' function";
+
+	Node0x2de66b50 [shape=record,label="{xmlschemas.c:2948:}"];
+	Node0x2de66b50 -> Node0x2de66d80;
+	Node0x2de66b50 -> Node0x2de66dd0;
+	Node0x2de66d80 [shape=record,label="{xmlschemas.c:2955:}"];
+	Node0x2de66d80 -> Node0x2de66dd0;
+	Node0x2de66dd0 [shape=record,label="{xmlschemas.c:2957:}"];
+	Node0x2de66dd0 -> Node0x2de66e70;
+	Node0x2de66dd0 -> Node0x2de66e20;
+	Node0x2de66e20 [shape=record,label="{xmlschemas.c:2958:}"];
+	Node0x2de66e20 -> Node0x2de66e70;
+	Node0x2de66e70 [shape=record,label="{xmlschemas.c:2959:}"];
+	Node0x2de66e70 -> Node0x2de66f10;
+	Node0x2de66e70 -> Node0x2de66ec0;
+	Node0x2de66ec0 [shape=record,label="{xmlschemas.c:2959:1}"];
+	Node0x2de66ec0 -> Node0x2de66f10;
+	Node0x2de66f10 [shape=record,label="{xmlschemas.c:2960:}"];
+}

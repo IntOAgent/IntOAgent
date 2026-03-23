@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlNewElementContent' function" {
+	label="CFG for 'xmlNewElementContent' function";
+
+	Node0x37c5b9f0 [shape=record,label="{valid.c:765:}"];
+}

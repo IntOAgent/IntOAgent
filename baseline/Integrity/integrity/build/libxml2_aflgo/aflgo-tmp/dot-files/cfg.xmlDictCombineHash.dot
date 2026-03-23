@@ -1,0 +1,35 @@
+digraph "CFG for 'xmlDictCombineHash' function" {
+	label="CFG for 'xmlDictCombineHash' function";
+
+	Node0x15e9af20 [shape=record,label="{dict.c:518:}"];
+	Node0x15e9af20 -> Node0x15ef5ae0;
+	Node0x15e9af20 -> Node0x15ef5b30;
+	Node0x15ef5ae0 [shape=record,label="{dict.c:519:}"];
+	Node0x15ef5ae0 -> Node0x15ef5b30;
+	Node0x15ef5b30 [shape=record,label="{dict.c:519:1}"];
+	Node0x15ef5b30 -> Node0x15ef5b80;
+	Node0x15ef5b30 -> Node0x15ef5bd0;
+	Node0x15ef5b80 [shape=record,label="{dict.c:519:2}"];
+	Node0x15ef5b80 -> Node0x15ef5bd0;
+	Node0x15ef5bd0 [shape=record,label="{dict.c:519:3}"];
+	Node0x15ef5bd0 -> Node0x15ef5c20;
+	Node0x15ef5bd0 -> Node0x15ef5c70;
+	Node0x15ef5c20 [shape=record,label="{dict.c:519:4}"];
+	Node0x15ef5c20 -> Node0x15ef5c70;
+	Node0x15ef5c70 [shape=record,label="{dict.c:519:5}"];
+	Node0x15ef5c70 -> Node0x15ef5cc0;
+	Node0x15ef5c70 -> Node0x15ef5d10;
+	Node0x15ef5cc0 [shape=record,label="{dict.c:519:6}"];
+	Node0x15ef5cc0 -> Node0x15ef5d10;
+	Node0x15ef5d10 [shape=record,label="{dict.c:519:7}"];
+	Node0x15ef5d10 -> Node0x15ef5d60;
+	Node0x15ef5d10 -> Node0x15ef5db0;
+	Node0x15ef5d60 [shape=record,label="{%16}"];
+	Node0x15ef5d60 -> Node0x15ef5db0;
+	Node0x15ef5db0 [shape=record,label="{%19}"];
+	Node0x15ef5db0 -> Node0x15ef5e00;
+	Node0x15ef5db0 -> Node0x15ef5e50;
+	Node0x15ef5e00 [shape=record,label="{%20}"];
+	Node0x15ef5e00 -> Node0x15ef5e50;
+	Node0x15ef5e50 [shape=record,label="{dict.c:521:}"];
+}

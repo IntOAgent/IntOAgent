@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlParseMemory' function" {
+	label="CFG for 'xmlParseMemory' function";
+
+	Node0x27151b90 [shape=record,label="{parser.c:12754:}"];
+	Node0x27151b90 -> Node0x271546b0;
+	Node0x27151b90 -> Node0x27154530;
+	Node0x27154530 [shape=record,label="{parser.c:12757:}"];
+	Node0x27154530 -> Node0x271546b0;
+	Node0x27154530 -> Node0x271545c0;
+	Node0x271545c0 [shape=record,label="{parser.c:12769:}"];
+	Node0x271545c0 -> Node0x27154660;
+	Node0x271545c0 -> Node0x27154610;
+	Node0x27154610 [shape=record,label="{parser.c:12773:}"];
+	Node0x27154610 -> Node0x27154660;
+	Node0x27154660 [shape=record,label="{parser.c:12775:}"];
+	Node0x27154660 -> Node0x271546b0;
+	Node0x271546b0 [shape=record,label="{parser.c:12816:}"];
+}

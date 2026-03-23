@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlInitMutex' function" {
+	label="CFG for 'xmlInitMutex' function";
+
+	Node0x22913b50 [shape=record,label="{threads.c:59:}"];
+}

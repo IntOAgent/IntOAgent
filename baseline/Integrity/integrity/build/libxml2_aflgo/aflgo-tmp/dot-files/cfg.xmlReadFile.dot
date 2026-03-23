@@ -1,0 +1,35 @@
+digraph "CFG for 'xmlReadFile' function" {
+	label="CFG for 'xmlReadFile' function";
+
+	Node0x27163000 [shape=record,label="{parser.c:13411:}"];
+	Node0x27163000 -> Node0x27167c50;
+	Node0x27163000 -> Node0x27167870;
+	Node0x27167870 [shape=record,label="{parser.c:13270:}"];
+	Node0x27167870 -> Node0x27167980;
+	Node0x27167870 -> Node0x27167930;
+	Node0x27167930 [shape=record,label="{parser.c:13271:}"];
+	Node0x27167930 -> Node0x271679d0;
+	Node0x27167980 [shape=record,label="{parser.c:13171:}"];
+	Node0x27167980 -> Node0x271679d0;
+	Node0x271679d0 [shape=record,label="{parser.c:13422:}"];
+	Node0x271679d0 -> Node0x27167b10;
+	Node0x271679d0 -> Node0x27167a20;
+	Node0x27167a20 [shape=record,label="{parser.c:13422:1}"];
+	Node0x27167a20 -> Node0x27167a70;
+	Node0x27167a20 -> Node0x27167b10;
+	Node0x27167a70 [shape=record,label="{parser.c:13422:2}"];
+	Node0x27167a70 -> Node0x27167ac0;
+	Node0x27167a70 -> Node0x27167b10;
+	Node0x27167ac0 [shape=record,label="{parser.c:13423:}"];
+	Node0x27167ac0 -> Node0x27167b60;
+	Node0x27167b10 [shape=record,label="{parser.c:13426:}"];
+	Node0x27167b10 -> Node0x27167b60;
+	Node0x27167b60 [shape=record,label="{parser.c:13428:}"];
+	Node0x27167b60 -> Node0x27167c00;
+	Node0x27167b60 -> Node0x27167bb0;
+	Node0x27167bb0 [shape=record,label="{parser.c:13429:}"];
+	Node0x27167bb0 -> Node0x27167c00;
+	Node0x27167c00 [shape=record,label="{parser.c:13431:}"];
+	Node0x27167c00 -> Node0x27167c50;
+	Node0x27167c50 [shape=record,label="{parser.c:13433:}"];
+}

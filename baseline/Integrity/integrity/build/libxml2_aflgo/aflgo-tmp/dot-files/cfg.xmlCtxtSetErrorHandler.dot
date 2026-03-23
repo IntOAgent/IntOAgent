@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtSetErrorHandler' function" {
+	label="CFG for 'xmlCtxtSetErrorHandler' function";
+
+	Node0x8c36bb0 [shape=record,label="{parserInternals.c:123:}"];
+	Node0x8c36bb0 -> Node0x8c36f10;
+	Node0x8c36bb0 -> Node0x8c36ec0;
+	Node0x8c36ec0 [shape=record,label="{parserInternals.c:125:}"];
+	Node0x8c36ec0 -> Node0x8c36f10;
+	Node0x8c36f10 [shape=record,label="{parserInternals.c:127:}"];
+}

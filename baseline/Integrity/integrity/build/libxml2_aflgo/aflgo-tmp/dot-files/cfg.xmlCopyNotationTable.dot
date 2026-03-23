@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlCopyNotationTable' function" {
+	label="CFG for 'xmlCopyNotationTable' function";
+
+	Node0x37ceee30 [shape=record,label="{valid.c:2067:}"];
+}

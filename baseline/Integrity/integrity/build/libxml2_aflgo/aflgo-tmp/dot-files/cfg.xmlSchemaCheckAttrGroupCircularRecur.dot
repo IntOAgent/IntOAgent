@@ -1,0 +1,39 @@
+digraph "CFG for 'xmlSchemaCheckAttrGroupCircularRecur' function" {
+	label="CFG for 'xmlSchemaCheckAttrGroupCircularRecur' function";
+
+	Node0x2e4b9d50 [shape=record,label="{xmlschemas.c:18638:}"];
+	Node0x2e4b9d50 -> Node0x2e4b9e10;
+	Node0x2e4b9d50 -> Node0x2e4ba180;
+	Node0x2e4b9e10 [shape=record,label="{xmlschemas.c:18638:1}"];
+	Node0x2e4b9e10 -> Node0x2e4b9e60;
+	Node0x2e4b9e60 [shape=record,label="{xmlschemas.c:18639:}"];
+	Node0x2e4b9e60 -> Node0x2e4b9eb0;
+	Node0x2e4b9e60 -> Node0x2e4ba090;
+	Node0x2e4b9eb0 [shape=record,label="{xmlschemas.c:18641:}"];
+	Node0x2e4b9eb0 -> Node0x2e4b9f00;
+	Node0x2e4b9eb0 -> Node0x2e4ba090;
+	Node0x2e4b9f00 [shape=record,label="{xmlschemas.c:18642:}"];
+	Node0x2e4b9f00 -> Node0x2e4ba090;
+	Node0x2e4b9f00 -> Node0x2e4b9f50;
+	Node0x2e4b9f50 [shape=record,label="{xmlschemas.c:18644:}"];
+	Node0x2e4b9f50 -> Node0x2e4ba180;
+	Node0x2e4b9f50 -> Node0x2e4b9fa0;
+	Node0x2e4b9fa0 [shape=record,label="{xmlschemas.c:18647:}"];
+	Node0x2e4b9fa0 -> Node0x2e4b9ff0;
+	Node0x2e4b9fa0 -> Node0x2e4ba090;
+	Node0x2e4b9ff0 [shape=record,label="{xmlschemas.c:18653:}"];
+	Node0x2e4b9ff0 -> Node0x2e4ba090;
+	Node0x2e4b9ff0 -> Node0x2e4ba040;
+	Node0x2e4ba040 [shape=record,label="{xmlschemas.c:18656:}"];
+	Node0x2e4ba040 -> Node0x2e4ba090;
+	Node0x2e4ba040 -> Node0x2e4ba180;
+	Node0x2e4ba090 [shape=record,label="{xmlschemas.c:18638:2}"];
+	Node0x2e4ba090 -> Node0x2e4ba0e0;
+	Node0x2e4ba090 -> Node0x2e4ba130;
+	Node0x2e4ba0e0 [shape=record,label="{%42}"];
+	Node0x2e4ba0e0 -> Node0x2e4ba130;
+	Node0x2e4ba130 [shape=record,label="{xmlschemas.c:18638:3}"];
+	Node0x2e4ba130 -> Node0x2e4b9e60;
+	Node0x2e4ba130 -> Node0x2e4ba180;
+	Node0x2e4ba180 [shape=record,label="{xmlschemas.c:18667:}"];
+}

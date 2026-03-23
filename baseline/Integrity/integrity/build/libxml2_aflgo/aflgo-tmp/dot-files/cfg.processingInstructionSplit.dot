@@ -1,0 +1,16 @@
+digraph "CFG for 'processingInstructionSplit' function" {
+	label="CFG for 'processingInstructionSplit' function";
+
+	Node0x2deb16e0 [shape=record,label="{xmlschemas.c:27957:}"];
+	Node0x2deb16e0 -> Node0x2deb1820;
+	Node0x2deb16e0 -> Node0x2deb1730;
+	Node0x2deb1730 [shape=record,label="{xmlschemas.c:27957:1}"];
+	Node0x2deb1730 -> Node0x2deb1820;
+	Node0x2deb1730 -> Node0x2deb1780;
+	Node0x2deb1780 [shape=record,label="{xmlschemas.c:27958:}"];
+	Node0x2deb1780 -> Node0x2deb1820;
+	Node0x2deb1780 -> Node0x2deb17d0;
+	Node0x2deb17d0 [shape=record,label="{xmlschemas.c:27959:}"];
+	Node0x2deb17d0 -> Node0x2deb1820;
+	Node0x2deb1820 [shape=record,label="{xmlschemas.c:27960:}"];
+}

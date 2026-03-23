@@ -1,0 +1,16 @@
+digraph "CFG for 'plist_int_val_compare' function" {
+	label="CFG for 'plist_int_val_compare' function";
+
+	Node0x21663fa0 [shape=record,label="{plist.c:1612:}"];
+	Node0x21663fa0 -> Node0x21664110;
+	Node0x21663fa0 -> Node0x21664020;
+	Node0x21664020 [shape=record,label="{plist.c:356:}"];
+	Node0x21664020 -> Node0x21664110;
+	Node0x21664020 -> Node0x21664070;
+	Node0x21664070 [shape=record,label="{plist.c:1265:}"];
+	Node0x21664070 -> Node0x216640c0;
+	Node0x21664070 -> Node0x21664110;
+	Node0x216640c0 [shape=record,label="{plist.c:1615:}"];
+	Node0x216640c0 -> Node0x21664110;
+	Node0x21664110 [shape=record,label="{plist.c:1626:}"];
+}

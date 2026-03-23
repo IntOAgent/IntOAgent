@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlNewEntity' function" {
+	label="CFG for 'xmlNewEntity' function";
+
+	Node0x15170580 [shape=record,label="{entities.c:398:}"];
+	Node0x15170580 -> Node0x1516e1f0;
+	Node0x15170580 -> Node0x1516e150;
+	Node0x1516e150 [shape=record,label="{entities.c:398:1}"];
+	Node0x1516e150 -> Node0x1516e1f0;
+	Node0x1516e150 -> Node0x1516e1a0;
+	Node0x1516e1a0 [shape=record,label="{entities.c:372:}"];
+	Node0x1516e1a0 -> Node0x1516e290;
+	Node0x1516e1f0 [shape=record,label="{entities.c:401:}"];
+	Node0x1516e1f0 -> Node0x1516e290;
+	Node0x1516e1f0 -> Node0x1516e240;
+	Node0x1516e240 [shape=record,label="{entities.c:403:}"];
+	Node0x1516e240 -> Node0x1516e290;
+	Node0x1516e290 [shape=record,label="{entities.c:404:}"];
+}

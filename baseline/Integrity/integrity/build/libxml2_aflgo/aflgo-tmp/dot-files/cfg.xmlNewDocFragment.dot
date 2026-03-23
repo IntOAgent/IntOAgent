@@ -1,0 +1,16 @@
+digraph "CFG for 'xmlNewDocFragment' function" {
+	label="CFG for 'xmlNewDocFragment' function";
+
+	Node0x371a2080 [shape=record,label="{tree.c:2014:}"];
+	Node0x371a2080 -> Node0x371a21f0;
+	Node0x371a2080 -> Node0x371a2100;
+	Node0x371a2100 [shape=record,label="{tree.c:2017:}"];
+	Node0x371a2100 -> Node0x371a21f0;
+	Node0x371a2100 -> Node0x371a2150;
+	Node0x371a2150 [shape=record,label="{tree.c:2022:}"];
+	Node0x371a2150 -> Node0x371a21f0;
+	Node0x371a2150 -> Node0x371a21a0;
+	Node0x371a21a0 [shape=record,label="{tree.c:2023:}"];
+	Node0x371a21a0 -> Node0x371a21f0;
+	Node0x371a21f0 [shape=record,label="{tree.c:2025:}"];
+}

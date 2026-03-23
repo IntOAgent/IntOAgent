@@ -1,0 +1,47 @@
+digraph "CFG for 'xmlNewTextReader' function" {
+	label="CFG for 'xmlNewTextReader' function";
+
+	Node0x22ac6560 [shape=record,label="{xmlreader.c:1990:}"];
+	Node0x22ac6560 -> Node0x22a564f0;
+	Node0x22ac6560 -> Node0x22a55f50;
+	Node0x22a55f50 [shape=record,label="{xmlreader.c:1992:}"];
+	Node0x22a55f50 -> Node0x22a564f0;
+	Node0x22a55f50 -> Node0x22a56040;
+	Node0x22a56040 [shape=record,label="{xmlreader.c:2000:}"];
+	Node0x22a56040 -> Node0x22a56090;
+	Node0x22a56040 -> Node0x22a560e0;
+	Node0x22a56090 [shape=record,label="{xmlreader.c:2003:}"];
+	Node0x22a56090 -> Node0x22a564f0;
+	Node0x22a560e0 [shape=record,label="{xmlreader.c:2006:}"];
+	Node0x22a560e0 -> Node0x22a56130;
+	Node0x22a560e0 -> Node0x22a56180;
+	Node0x22a56130 [shape=record,label="{xmlreader.c:2008:}"];
+	Node0x22a56130 -> Node0x22a564f0;
+	Node0x22a56180 [shape=record,label="{xmlreader.c:2006:1}"];
+	Node0x22a56180 -> Node0x22a561d0;
+	Node0x22a56180 -> Node0x22a56220;
+	Node0x22a561d0 [shape=record,label="{xmlreader.c:2020:}"];
+	Node0x22a561d0 -> Node0x22a56270;
+	Node0x22a56220 [shape=record,label="{xmlreader.c:2026:}"];
+	Node0x22a56220 -> Node0x22a56270;
+	Node0x22a56270 [shape=record,label="{xmlreader.c:2030:}"];
+	Node0x22a56270 -> Node0x22a562c0;
+	Node0x22a56270 -> Node0x22a56310;
+	Node0x22a562c0 [shape=record,label="{xmlreader.c:2040:}"];
+	Node0x22a562c0 -> Node0x22a56310;
+	Node0x22a56310 [shape=record,label="{xmlreader.c:2042:}"];
+	Node0x22a56310 -> Node0x22a56360;
+	Node0x22a56310 -> Node0x22a563b0;
+	Node0x22a56360 [shape=record,label="{xmlreader.c:2044:}"];
+	Node0x22a56360 -> Node0x22a56400;
+	Node0x22a563b0 [shape=record,label="{xmlreader.c:2049:}"];
+	Node0x22a563b0 -> Node0x22a56400;
+	Node0x22a56400 [shape=record,label="{xmlreader.c:2054:}"];
+	Node0x22a56400 -> Node0x22a56450;
+	Node0x22a56400 -> Node0x22a564a0;
+	Node0x22a56450 [shape=record,label="{xmlreader.c:2055:}"];
+	Node0x22a56450 -> Node0x22a564f0;
+	Node0x22a564a0 [shape=record,label="{xmlreader.c:2060:}"];
+	Node0x22a564a0 -> Node0x22a564f0;
+	Node0x22a564f0 [shape=record,label="{xmlreader.c:2076:}"];
+}

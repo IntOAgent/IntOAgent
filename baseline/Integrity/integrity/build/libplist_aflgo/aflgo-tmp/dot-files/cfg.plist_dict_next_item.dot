@@ -1,0 +1,39 @@
+digraph "CFG for 'plist_dict_next_item' function" {
+	label="CFG for 'plist_dict_next_item' function";
+
+	Node0x215af750 [shape=record,label="{plist.c:825:}"];
+	Node0x215af750 -> Node0x215af870;
+	Node0x215af750 -> Node0x215af820;
+	Node0x215af820 [shape=record,label="{plist.c:829:}"];
+	Node0x215af820 -> Node0x215af870;
+	Node0x215af870 [shape=record,label="{plist.c:831:}"];
+	Node0x215af870 -> Node0x215af910;
+	Node0x215af870 -> Node0x215af8c0;
+	Node0x215af8c0 [shape=record,label="{plist.c:833:}"];
+	Node0x215af8c0 -> Node0x215af910;
+	Node0x215af910 [shape=record,label="{plist.c:836:}"];
+	Node0x215af910 -> Node0x215afbe0;
+	Node0x215af910 -> Node0x215af960;
+	Node0x215af960 [shape=record,label="{plist.c:356:}"];
+	Node0x215af960 -> Node0x215afbe0;
+	Node0x215af960 -> Node0x215af9b0;
+	Node0x215af9b0 [shape=record,label="{plist.c:1265:}"];
+	Node0x215af9b0 -> Node0x215afa00;
+	Node0x215af9b0 -> Node0x215afbe0;
+	Node0x215afa00 [shape=record,label="{plist.c:836:1}"];
+	Node0x215afa00 -> Node0x215afbe0;
+	Node0x215afa00 -> Node0x215afa50;
+	Node0x215afa50 [shape=record,label="{plist.c:838:}"];
+	Node0x215afa50 -> Node0x215afaf0;
+	Node0x215afa50 -> Node0x215afaa0;
+	Node0x215afaa0 [shape=record,label="{plist.c:840:}"];
+	Node0x215afaa0 -> Node0x215afaf0;
+	Node0x215afaf0 [shape=record,label="{plist.c:842:}"];
+	Node0x215afaf0 -> Node0x215afb90;
+	Node0x215afaf0 -> Node0x215afb40;
+	Node0x215afb40 [shape=record,label="{plist.c:845:}"];
+	Node0x215afb40 -> Node0x215afb90;
+	Node0x215afb90 [shape=record,label="{plist.c:847:}"];
+	Node0x215afb90 -> Node0x215afbe0;
+	Node0x215afbe0 [shape=record,label="{plist.c:849:}"];
+}

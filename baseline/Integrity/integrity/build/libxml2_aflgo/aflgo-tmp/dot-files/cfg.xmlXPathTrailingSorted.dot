@@ -1,0 +1,21 @@
+digraph "CFG for 'xmlXPathTrailingSorted' function" {
+	label="CFG for 'xmlXPathTrailingSorted' function";
+
+	Node0x2fd69f00 [shape=record,label="{xpath.c:3629:}"];
+	Node0x2fd69f00 -> Node0x2fd6af00;
+	Node0x2fd69f00 -> Node0x2fd6ad70;
+	Node0x2fd6ad70 [shape=record,label="{xpath.c:3629:1}"];
+	Node0x2fd6ad70 -> Node0x2fd6af00;
+	Node0x2fd6ad70 -> Node0x2fd6adc0;
+	Node0x2fd6adc0 [shape=record,label="{xpath.c:3629:2}"];
+	Node0x2fd6adc0 -> Node0x2fd6af00;
+	Node0x2fd6adc0 -> Node0x2fd6ae10;
+	Node0x2fd6ae10 [shape=record,label="{xpath.c:3632:}"];
+	Node0x2fd6ae10 -> Node0x2fd6ae60;
+	Node0x2fd6ae10 -> Node0x2fd6aeb0;
+	Node0x2fd6ae60 [shape=record,label="{xpath.c:3632:3}"];
+	Node0x2fd6ae60 -> Node0x2fd6aeb0;
+	Node0x2fd6aeb0 [shape=record,label="{xpath.c:3632:4}"];
+	Node0x2fd6aeb0 -> Node0x2fd6af00;
+	Node0x2fd6af00 [shape=record,label="{xpath.c:3633:}"];
+}

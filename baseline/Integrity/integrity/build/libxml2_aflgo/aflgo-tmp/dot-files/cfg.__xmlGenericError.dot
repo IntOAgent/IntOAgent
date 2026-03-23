@@ -1,0 +1,5 @@
+digraph "CFG for '__xmlGenericError' function" {
+	label="CFG for '__xmlGenericError' function";
+
+	Node0x12f3070 [shape=record,label="{globals.c:664:}"];
+}

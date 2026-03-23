@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlTextReaderErr' function" {
+	label="CFG for 'xmlTextReaderErr' function";
+
+	Node0x22ae69e0 [shape=record,label="{xmlreader.c:192:}"];
+	Node0x22ae69e0 -> Node0x22a16d80;
+	Node0x22ae69e0 -> Node0x22a16dd0;
+	Node0x22a16d80 [shape=record,label="{xmlreader.c:202:}"];
+	Node0x22a16d80 -> Node0x22a16dd0;
+	Node0x22a16dd0 [shape=record,label="{xmlreader.c:203:}"];
+}

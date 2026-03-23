@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlSchemaBucketFreeEntry' function" {
+	label="CFG for 'xmlSchemaBucketFreeEntry' function";
+
+	Node0x2dc29c00 [shape=record,label="{xmlschemas.c:3492:}"];
+}

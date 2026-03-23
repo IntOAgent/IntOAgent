@@ -1,0 +1,16 @@
+digraph "CFG for 'xmlListReverse' function" {
+	label="CFG for 'xmlListReverse' function";
+
+	Node0xdfdddf0 [shape=record,label="{list.c:563:}"];
+	Node0xdfdddf0 -> Node0xdfde370;
+	Node0xdfdddf0 -> Node0xdfde280;
+	Node0xdfde280 [shape=record,label="{list.c:565:}"];
+	Node0xdfde280 -> Node0xdfde320;
+	Node0xdfde280 -> Node0xdfde2d0;
+	Node0xdfde2d0 [shape=record,label="{list.c:567:}"];
+	Node0xdfde2d0 -> Node0xdfde320;
+	Node0xdfde2d0 -> Node0xdfde2d0;
+	Node0xdfde320 [shape=record,label="{list.c:572:}"];
+	Node0xdfde320 -> Node0xdfde370;
+	Node0xdfde370 [shape=record,label="{list.c:574:}"];
+}

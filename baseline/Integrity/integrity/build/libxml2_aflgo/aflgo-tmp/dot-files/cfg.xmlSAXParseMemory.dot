@@ -1,0 +1,23 @@
+digraph "CFG for 'xmlSAXParseMemory' function" {
+	label="CFG for 'xmlSAXParseMemory' function";
+
+	Node0x27151be0 [shape=record,label="{parser.c:12754:}"];
+	Node0x27151be0 -> Node0x27151e10;
+	Node0x27151be0 -> Node0x27151c30;
+	Node0x27151c30 [shape=record,label="{parser.c:12757:}"];
+	Node0x27151c30 -> Node0x27151e10;
+	Node0x27151c30 -> Node0x27151c80;
+	Node0x27151c80 [shape=record,label="{parser.c:12764:}"];
+	Node0x27151c80 -> Node0x27151d20;
+	Node0x27151c80 -> Node0x27151cd0;
+	Node0x27151cd0 [shape=record,label="{parser.c:12765:}"];
+	Node0x27151cd0 -> Node0x27151d20;
+	Node0x27151d20 [shape=record,label="{parser.c:12769:}"];
+	Node0x27151d20 -> Node0x27151dc0;
+	Node0x27151d20 -> Node0x27151d70;
+	Node0x27151d70 [shape=record,label="{parser.c:12773:}"];
+	Node0x27151d70 -> Node0x27151dc0;
+	Node0x27151dc0 [shape=record,label="{parser.c:12775:}"];
+	Node0x27151dc0 -> Node0x27151e10;
+	Node0x27151e10 [shape=record,label="{parser.c:12799:}"];
+}

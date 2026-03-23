@@ -1,0 +1,12 @@
+xmlschemas.c:14488,4.0540540540540544
+xmlschemas.c:14489,3
+xmlschemas.c:14495,0
+xmlschemas.c:14488,4.0540540540540544
+xmlschemas.c:14489,3
+xmlschemas.c:14495,0
+xmlschemas.c:14488,4.0540540540540544
+xmlschemas.c:14489,3
+xmlschemas.c:14495,0
+xmlschemas.c:14488,4.0540540540540544
+xmlschemas.c:14489,3
+xmlschemas.c:14495,0

@@ -1,0 +1,8 @@
+<plist version="1.0">
+<dict>
+    <key>some test opyright</key>
+   
+    <dict>
+        <key>one byte entity</key>
+        <string>&#3ÆÆÆÆÆÆÆÆÆ0;</string>
+   @   st>

@@ -1,0 +1,142 @@
+#!/usr/bin/env bash
+# integrity-cc — Drop-in replacement for CC / clang.
+#
+# Usage:
+#   CC=/path/to/integrity-cc ./configure ...
+#   CC=/path/to/integrity-cc make
+#
+# In compile mode (-c), applies the Integrity LLVM pass:
+#   1. clang  -emit-llvm -c  →  .pre.bc
+#   2. opt    -integrity     →  .inst.bc
+#   3. clang  -c -x ir       →  .o   (original output path)
+#
+# In all other modes (link, preprocess, etc.), passes through to clang unchanged.
+#
+# Environment variables:
+#   INTEGRITY_CLANG   underlying compiler     (default: clang-14)
+#   INTEGRITY_OPT     opt binary              (default: opt-14)
+#   INTEGRITY_PASS    path to IntegrityPass.so  (auto-detected from script location)
+#   INTEGRITY_VERBOSE set to 1 for verbose output
+
+set -euo pipefail
+
+# ---------------------------------------------------------------------------
+# Configuration
+# ---------------------------------------------------------------------------
+# Detect if invoked as C++ wrapper (via symlink named integrity-c++)
+SCRIPT_NAME="$(basename "$0")"
+if [[ "$SCRIPT_NAME" == *"++"* ]]; then
+    CLANG="${INTEGRITY_CLANG:-clang++-14}"
+else
+    CLANG="${INTEGRITY_CLANG:-clang-14}"
+fi
+OPT="${INTEGRITY_OPT:-opt-14}"
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PASS="${INTEGRITY_PASS:-$SCRIPT_DIR/../build/IntegrityPass.so}"
+RT_OBJ="${INTEGRITY_RT:-$SCRIPT_DIR/../build/integrity_rt.o}"
+
+VERBOSE="${INTEGRITY_VERBOSE:-0}"
+log() { [[ "$VERBOSE" == "1" ]] && echo "[integrity-cc] $*" >&2 || true; }
+
+# ---------------------------------------------------------------------------
+# Classify this invocation
+# ---------------------------------------------------------------------------
+HAS_C=0   # compile-only flag
+HAS_E=0   # preprocess-only flag
+HAS_S=0   # assembly-output flag
+for arg in "$@"; do
+    case "$arg" in
+        -c)  HAS_C=1 ;;
+        -E)  HAS_E=1 ;;
+        -S)  HAS_S=1 ;;
+    esac
+done
+
+# ---------------------------------------------------------------------------
+# Link / preprocess / assembly mode → mostly pass through.
+# In link mode (no -c/-E/-S) inject the Integrity runtime so that
+# instrumented objects can resolve __integrity_report.
+# ---------------------------------------------------------------------------
+if [[ $HAS_C == 0 || $HAS_E == 1 || $HAS_S == 1 ]]; then
+    if [[ $HAS_C == 0 && $HAS_E == 0 && $HAS_S == 0 && -f "$RT_OBJ" ]]; then
+        # True link mode: append runtime (provides __integrity_report)
+        log "link + runtime: $*"
+        exec "$CLANG" "$@" "$RT_OBJ"
+    else
+        log "pass-through: $*"
+        exec "$CLANG" "$@"
+    fi
+fi
+
+# ---------------------------------------------------------------------------
+# Compile mode: parse -o and collect remaining args
+# ---------------------------------------------------------------------------
+OUTPUT=""
+ARGS_WITHOUT_C=()
+SKIP_NEXT=0
+
+for arg in "$@"; do
+    if [[ $SKIP_NEXT == 1 ]]; then
+        OUTPUT="$arg"
+        SKIP_NEXT=0
+        continue
+    fi
+    case "$arg" in
+        -c)  ;;            # drop: we replace -c with -emit-llvm -c
+        -o)  SKIP_NEXT=1 ;;
+        *)   ARGS_WITHOUT_C+=("$arg") ;;
+    esac
+done
+
+# Derive default output filename from the source file if -o was absent
+if [[ -z "$OUTPUT" ]]; then
+    for arg in "${ARGS_WITHOUT_C[@]}"; do
+        if [[ "$arg" =~ \.(c|cc|cpp|cxx|C|m)$ ]]; then
+            OUTPUT="$(basename "${arg%.*}").o"
+            break
+        fi
+    done
+    [[ -z "$OUTPUT" ]] && OUTPUT="a.o"
+fi
+
+# ---------------------------------------------------------------------------
+# Sanity check: pass must be built
+# ---------------------------------------------------------------------------
+if [[ ! -f "$PASS" ]]; then
+    echo "[integrity-cc] WARNING: pass not found at $PASS" >&2
+    echo "[integrity-cc] Run 'make build/IntegrityPass.so' first. Falling back to plain clang." >&2
+    exec "$CLANG" "$@"
+fi
+
+# ---------------------------------------------------------------------------
+# Three-step instrumented compilation
+# ---------------------------------------------------------------------------
+PRE_BC="$(mktemp /tmp/integrity_XXXXXX.pre.bc)"
+INST_BC="${PRE_BC%.pre.bc}.inst.bc"
+trap "rm -f '$PRE_BC' '$INST_BC'" EXIT
+
+# Step 1: Compile source → LLVM bitcode
+log "step1: emit-llvm → $PRE_BC"
+if ! "$CLANG" "${ARGS_WITHOUT_C[@]}" -emit-llvm -c -o "$PRE_BC" 2>&1; then
+    echo "[integrity-cc] ERROR: clang emit-llvm failed for: ${ARGS_WITHOUT_C[*]}" >&2
+    exit 1
+fi
+
+# Step 2: Apply Integrity instrumentation pass
+log "step2: opt -integrity → $INST_BC"
+if ! "$OPT" -enable-new-pm=0 -load "$PASS" -integrity \
+        -o "$INST_BC" "$PRE_BC" 2>/dev/null; then
+    echo "[integrity-cc] WARNING: opt -integrity failed, falling back to uninstrumented compile" >&2
+    "$CLANG" "${ARGS_WITHOUT_C[@]}" -c -o "$OUTPUT"
+    exit $?
+fi
+
+# Step 3: Compile instrumented bitcode → native object
+log "step3: compile IR → $OUTPUT"
+if ! "$CLANG" -c -x ir -o "$OUTPUT" "$INST_BC" 2>&1; then
+    echo "[integrity-cc] ERROR: clang compile IR failed" >&2
+    exit 1
+fi
+
+log "done: $OUTPUT"

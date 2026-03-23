@@ -1,0 +1,44 @@
+digraph "CFG for 'xmlExpandEntitiesInAttValue' function" {
+	label="CFG for 'xmlExpandEntitiesInAttValue' function";
+
+	Node0x26a8b9d0 [shape=record,label="{parser.c:3964:}"];
+	Node0x26a8b9d0 -> Node0x26a8bab0;
+	Node0x26a8b9d0 -> Node0x26a8bc40;
+	Node0x26a8bab0 [shape=record,label="{parser.c:3976:}"];
+	Node0x26a8bab0 -> Node0x26a8bb00;
+	Node0x26a8bab0 -> Node0x26a8bb50;
+	Node0x26a8bb00 [shape=record,label="{parser.c:3976:1}"];
+	Node0x26a8bb00 -> Node0x26a8bb50;
+	Node0x26a8bb50 [shape=record,label="{parser.c:3976:2}"];
+	Node0x26a8bb50 -> Node0x26a8bba0;
+	Node0x26a8bb50 -> Node0x26a8bbf0;
+	Node0x26a8bba0 [shape=record,label="{parser.c:3976:3}"];
+	Node0x26a8bba0 -> Node0x26a8bbf0;
+	Node0x26a8bbf0 [shape=record,label="{parser.c:3976:4}"];
+	Node0x26a8bbf0 -> Node0x26a8bc40;
+	Node0x26a8bc40 [shape=record,label="{parser.c:781:}"];
+	Node0x26a8bc40 -> Node0x26a8bc90;
+	Node0x26a8bc40 -> Node0x26a8bd80;
+	Node0x26a8bc90 [shape=record,label="{parser.c:782:}"];
+	Node0x26a8bc90 -> Node0x26a8bce0;
+	Node0x26a8bc90 -> Node0x26a8bd30;
+	Node0x26a8bce0 [shape=record,label="{parser.c:784:}"];
+	Node0x26a8bce0 -> Node0x26a8bdd0;
+	Node0x26a8bd30 [shape=record,label="{parser.c:786:}"];
+	Node0x26a8bd30 -> Node0x26a8bdd0;
+	Node0x26a8bd80 [shape=record,label="{parser.c:789:}"];
+	Node0x26a8bd80 -> Node0x26a8bdd0;
+	Node0x26a8bdd0 [shape=record,label="{parser.c:792:}"];
+	Node0x26a8bdd0 -> Node0x26a8bec0;
+	Node0x26a8bdd0 -> Node0x26a8be20;
+	Node0x26a8bdd0 -> Node0x26a8be70;
+	Node0x26a8be20 [shape=record,label="{parser.c:795:}"];
+	Node0x26a8be20 -> Node0x26a8bf60;
+	Node0x26a8be70 [shape=record,label="{parser.c:773:}"];
+	Node0x26a8be70 -> Node0x26a8bf10;
+	Node0x26a8bec0 [shape=record,label="{parser.c:775:}"];
+	Node0x26a8bec0 -> Node0x26a8bf10;
+	Node0x26a8bf10 [shape=record,label="{parser.c:800:}"];
+	Node0x26a8bf10 -> Node0x26a8bf60;
+	Node0x26a8bf60 [shape=record,label="{parser.c:3979:}"];
+}

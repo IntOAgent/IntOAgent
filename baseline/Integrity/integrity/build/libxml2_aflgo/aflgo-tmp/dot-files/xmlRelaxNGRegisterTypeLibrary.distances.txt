@@ -1,0 +1,9 @@
+relaxng.c:2653,16.902439024390244
+relaxng.c:2656,10
+relaxng.c:2660,18.666666666666668
+relaxng.c:435,40
+relaxng.c:2665,10
+relaxng.c:435,40
+relaxng.c:435,40
+relaxng.c:435,40
+relaxng.c:435,40

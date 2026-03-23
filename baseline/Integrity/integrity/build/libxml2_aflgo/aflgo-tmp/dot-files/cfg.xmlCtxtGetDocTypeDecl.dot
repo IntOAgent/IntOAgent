@@ -1,0 +1,23 @@
+digraph "CFG for 'xmlCtxtGetDocTypeDecl' function" {
+	label="CFG for 'xmlCtxtGetDocTypeDecl' function";
+
+	Node0x8d7df90 [shape=record,label="{parserInternals.c:3372:}"];
+	Node0x8d7df90 -> Node0x8d7e1c0;
+	Node0x8d7df90 -> Node0x8d7dfe0;
+	Node0x8d7dfe0 [shape=record,label="{parserInternals.c:3375:}"];
+	Node0x8d7dfe0 -> Node0x8d7e080;
+	Node0x8d7dfe0 -> Node0x8d7e030;
+	Node0x8d7e030 [shape=record,label="{parserInternals.c:3376:}"];
+	Node0x8d7e030 -> Node0x8d7e080;
+	Node0x8d7e080 [shape=record,label="{parserInternals.c:3377:}"];
+	Node0x8d7e080 -> Node0x8d7e120;
+	Node0x8d7e080 -> Node0x8d7e0d0;
+	Node0x8d7e0d0 [shape=record,label="{parserInternals.c:3378:}"];
+	Node0x8d7e0d0 -> Node0x8d7e120;
+	Node0x8d7e120 [shape=record,label="{parserInternals.c:3379:}"];
+	Node0x8d7e120 -> Node0x8d7e1c0;
+	Node0x8d7e120 -> Node0x8d7e170;
+	Node0x8d7e170 [shape=record,label="{parserInternals.c:3380:}"];
+	Node0x8d7e170 -> Node0x8d7e1c0;
+	Node0x8d7e1c0 [shape=record,label="{parserInternals.c:3383:}"];
+}

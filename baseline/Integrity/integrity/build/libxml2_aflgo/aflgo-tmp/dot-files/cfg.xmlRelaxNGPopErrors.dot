@@ -1,0 +1,38 @@
+digraph "CFG for 'xmlRelaxNGPopErrors' function" {
+	label="CFG for 'xmlRelaxNGPopErrors' function";
+
+	Node0x12e575e0 [shape=record,label="{relaxng.c:2182:}"];
+	Node0x12e575e0 -> Node0x12e57800;
+	Node0x12e575e0 -> Node0x12e57b20;
+	Node0x12e57800 [shape=record,label="{relaxng.c:2182:1}"];
+	Node0x12e57800 -> Node0x12e57850;
+	Node0x12e57850 [shape=record,label="{relaxng.c:2183:}"];
+	Node0x12e57850 -> Node0x12e57a30;
+	Node0x12e57850 -> Node0x12e578a0;
+	Node0x12e578a0 [shape=record,label="{relaxng.c:2185:}"];
+	Node0x12e578a0 -> Node0x12e57940;
+	Node0x12e578a0 -> Node0x12e578f0;
+	Node0x12e578f0 [shape=record,label="{relaxng.c:2186:}"];
+	Node0x12e578f0 -> Node0x12e57940;
+	Node0x12e57940 [shape=record,label="{relaxng.c:2187:}"];
+	Node0x12e57940 -> Node0x12e579e0;
+	Node0x12e57940 -> Node0x12e57990;
+	Node0x12e57990 [shape=record,label="{relaxng.c:2189:}"];
+	Node0x12e57990 -> Node0x12e579e0;
+	Node0x12e579e0 [shape=record,label="{relaxng.c:2190:}"];
+	Node0x12e579e0 -> Node0x12e57a30;
+	Node0x12e57a30 [shape=record,label="{relaxng.c:2182:2}"];
+	Node0x12e57a30 -> Node0x12e57a80;
+	Node0x12e57a30 -> Node0x12e57ad0;
+	Node0x12e57a80 [shape=record,label="{%22}"];
+	Node0x12e57a80 -> Node0x12e57ad0;
+	Node0x12e57ad0 [shape=record,label="{relaxng.c:2182:3}"];
+	Node0x12e57ad0 -> Node0x12e57850;
+	Node0x12e57ad0 -> Node0x12e57b20;
+	Node0x12e57b20 [shape=record,label="{relaxng.c:2182:4}"];
+	Node0x12e57b20 -> Node0x12e57b70;
+	Node0x12e57b20 -> Node0x12e57bc0;
+	Node0x12e57b70 [shape=record,label="{relaxng.c:2196:}"];
+	Node0x12e57b70 -> Node0x12e57bc0;
+	Node0x12e57bc0 [shape=record,label="{relaxng.c:2197:}"];
+}

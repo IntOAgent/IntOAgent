@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtIsHtml' function" {
+	label="CFG for 'xmlCtxtIsHtml' function";
+
+	Node0x8e72360 [shape=record,label="{parserInternals.c:3245:}"];
+	Node0x8e72360 -> Node0x8e72400;
+	Node0x8e72360 -> Node0x8e723b0;
+	Node0x8e723b0 [shape=record,label="{parserInternals.c:3248:}"];
+	Node0x8e723b0 -> Node0x8e72400;
+	Node0x8e72400 [shape=record,label="{parserInternals.c:3249:}"];
+}

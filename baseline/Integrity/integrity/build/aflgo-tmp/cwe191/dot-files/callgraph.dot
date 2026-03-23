@@ -1,0 +1,6 @@
+strict digraph "Call graph: /home/xxx/PHDlife/fuxian/integrity/build/aflgo-tmp/cwe191/cwe191.0.0.0.bc" {
+label="Call graph: /home/xxx/PHDlife/fuxian/integrity/build/aflgo-tmp/cwe191/cwe191.0.0.0.bc";
+Node0x48be460 [label="{target_function}", shape=record];
+Node0x48be510 [label="{__integrity_report}", shape=record];
+Node0x48be460 -> Node0x48be510;
+}

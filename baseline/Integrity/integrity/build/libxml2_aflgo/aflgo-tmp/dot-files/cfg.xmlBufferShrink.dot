@@ -1,0 +1,46 @@
+digraph "CFG for 'xmlBufferShrink' function" {
+	label="CFG for 'xmlBufferShrink' function";
+
+	Node0x3f7c0d00 [shape=record,label="{buf.c:828:}"];
+	Node0x3f7c0d00 -> Node0x3f7c1530;
+	Node0x3f7c0d00 -> Node0x3f7c1080;
+	Node0x3f7c1080 [shape=record,label="{buf.c:830:}"];
+	Node0x3f7c1080 -> Node0x3f7c1530;
+	Node0x3f7c1080 -> Node0x3f7c10d0;
+	Node0x3f7c10d0 [shape=record,label="{buf.c:832:}"];
+	Node0x3f7c10d0 -> Node0x3f7c1530;
+	Node0x3f7c10d0 -> Node0x3f7c1120;
+	Node0x3f7c1120 [shape=record,label="{buf.c:835:}"];
+	Node0x3f7c1120 -> Node0x3f7c1170;
+	Node0x3f7c1120 -> Node0x3f7c11c0;
+	Node0x3f7c1170 [shape=record,label="{buf.c:835:1}"];
+	Node0x3f7c1170 -> Node0x3f7c11c0;
+	Node0x3f7c11c0 [shape=record,label="{buf.c:835:2}"];
+	Node0x3f7c11c0 -> Node0x3f7c1210;
+	Node0x3f7c11c0 -> Node0x3f7c1260;
+	Node0x3f7c1210 [shape=record,label="{buf.c:835:3}"];
+	Node0x3f7c1210 -> Node0x3f7c1260;
+	Node0x3f7c1260 [shape=record,label="{buf.c:835:4}"];
+	Node0x3f7c1260 -> Node0x3f7c12b0;
+	Node0x3f7c1260 -> Node0x3f7c1440;
+	Node0x3f7c12b0 [shape=record,label="{buf.c:838:}"];
+	Node0x3f7c12b0 -> Node0x3f7c1300;
+	Node0x3f7c12b0 -> Node0x3f7c1350;
+	Node0x3f7c1300 [shape=record,label="{buf.c:839:}"];
+	Node0x3f7c1300 -> Node0x3f7c1350;
+	Node0x3f7c1350 [shape=record,label="{buf.c:839:5}"];
+	Node0x3f7c1350 -> Node0x3f7c13a0;
+	Node0x3f7c1350 -> Node0x3f7c13f0;
+	Node0x3f7c13a0 [shape=record,label="{buf.c:839:6}"];
+	Node0x3f7c13a0 -> Node0x3f7c13f0;
+	Node0x3f7c13f0 [shape=record,label="{buf.c:839:7}"];
+	Node0x3f7c13f0 -> Node0x3f7c1530;
+	Node0x3f7c1440 [shape=record,label="{buf.c:841:}"];
+	Node0x3f7c1440 -> Node0x3f7c1490;
+	Node0x3f7c1440 -> Node0x3f7c14e0;
+	Node0x3f7c1490 [shape=record,label="{buf.c:841:8}"];
+	Node0x3f7c1490 -> Node0x3f7c14e0;
+	Node0x3f7c14e0 [shape=record,label="{buf.c:841:9}"];
+	Node0x3f7c14e0 -> Node0x3f7c1530;
+	Node0x3f7c1530 [shape=record,label="{buf.c:845:}"];
+}

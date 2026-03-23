@@ -1,0 +1,31 @@
+digraph "CFG for 'xmlTextReaderIsEmptyElement' function" {
+	label="CFG for 'xmlTextReaderIsEmptyElement' function";
+
+	Node0x22b53df0 [shape=record,label="{xmlreader.c:2996:}"];
+	Node0x22b53df0 -> Node0x22b54120;
+	Node0x22b53df0 -> Node0x22b53ea0;
+	Node0x22b53ea0 [shape=record,label="{xmlreader.c:2996:1}"];
+	Node0x22b53ea0 -> Node0x22b54120;
+	Node0x22b53ea0 -> Node0x22b53ef0;
+	Node0x22b53ef0 [shape=record,label="{xmlreader.c:2998:}"];
+	Node0x22b53ef0 -> Node0x22b53f40;
+	Node0x22b53ef0 -> Node0x22b54120;
+	Node0x22b53f40 [shape=record,label="{xmlreader.c:3000:}"];
+	Node0x22b53f40 -> Node0x22b53f90;
+	Node0x22b53f40 -> Node0x22b54120;
+	Node0x22b53f90 [shape=record,label="{xmlreader.c:3002:}"];
+	Node0x22b53f90 -> Node0x22b53fe0;
+	Node0x22b53f90 -> Node0x22b54120;
+	Node0x22b53fe0 [shape=record,label="{xmlreader.c:3004:}"];
+	Node0x22b53fe0 -> Node0x22b54120;
+	Node0x22b53fe0 -> Node0x22b54030;
+	Node0x22b54030 [shape=record,label="{xmlreader.c:3006:}"];
+	Node0x22b54030 -> Node0x22b54080;
+	Node0x22b54030 -> Node0x22b54120;
+	Node0x22b54080 [shape=record,label="{xmlreader.c:3009:}"];
+	Node0x22b54080 -> Node0x22b54120;
+	Node0x22b54080 -> Node0x22b540d0;
+	Node0x22b540d0 [shape=record,label="{xmlreader.c:3012:}"];
+	Node0x22b540d0 -> Node0x22b54120;
+	Node0x22b54120 [shape=record,label="{xmlreader.c:3013:}"];
+}

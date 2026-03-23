@@ -1,0 +1,35 @@
+digraph "CFG for 'xmlNodeSetBase' function" {
+	label="CFG for 'xmlNodeSetBase' function";
+
+	Node0x372ece70 [shape=record,label="{tree.c:4920:}"];
+	Node0x372ece70 -> Node0x372ed1e0;
+	Node0x372ece70 -> Node0x372ecec0;
+	Node0x372ecec0 [shape=record,label="{tree.c:4925:}"];
+	Node0x372ecec0 -> Node0x372ed1e0;
+	Node0x372ecec0 -> Node0x372ed0f0;
+	Node0x372ecec0 -> Node0x372ecf10;
+	Node0x372ecf10 [shape=record,label="{tree.c:4933:}"];
+	Node0x372ecf10 -> Node0x372ecfb0;
+	Node0x372ecf10 -> Node0x372ecf60;
+	Node0x372ecf60 [shape=record,label="{tree.c:4934:}"];
+	Node0x372ecf60 -> Node0x372ecfb0;
+	Node0x372ecfb0 [shape=record,label="{tree.c:4935:}"];
+	Node0x372ecfb0 -> Node0x372ed000;
+	Node0x372ecfb0 -> Node0x372ed050;
+	Node0x372ed000 [shape=record,label="{tree.c:4936:}"];
+	Node0x372ed000 -> Node0x372ed0a0;
+	Node0x372ed050 [shape=record,label="{tree.c:4938:}"];
+	Node0x372ed050 -> Node0x372ed1e0;
+	Node0x372ed050 -> Node0x372ed0a0;
+	Node0x372ed0a0 [shape=record,label="{tree.c:4942:}"];
+	Node0x372ed0a0 -> Node0x372ed1e0;
+	Node0x372ed0f0 [shape=record,label="{tree.c:4948:}"];
+	Node0x372ed0f0 -> Node0x372ed1e0;
+	Node0x372ed0f0 -> Node0x372ed140;
+	Node0x372ed140 [shape=record,label="{tree.c:4951:}"];
+	Node0x372ed140 -> Node0x372ed1e0;
+	Node0x372ed140 -> Node0x372ed190;
+	Node0x372ed190 [shape=record,label="{tree.c:4954:}"];
+	Node0x372ed190 -> Node0x372ed1e0;
+	Node0x372ed1e0 [shape=record,label="{tree.c:4961:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlLinkGetData' function" {
+	label="CFG for 'xmlLinkGetData' function";
+
+	Node0xdfc47e0 [shape=record,label="{list.c:547:}"];
+	Node0xdfc47e0 -> Node0xdfc4880;
+	Node0xdfc47e0 -> Node0xdfc4830;
+	Node0xdfc4830 [shape=record,label="{list.c:549:}"];
+	Node0xdfc4830 -> Node0xdfc4880;
+	Node0xdfc4880 [shape=record,label="{list.c:550:}"];
+}

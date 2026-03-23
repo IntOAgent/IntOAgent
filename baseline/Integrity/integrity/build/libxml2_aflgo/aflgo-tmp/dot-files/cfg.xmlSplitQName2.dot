@@ -1,0 +1,44 @@
+digraph "CFG for 'xmlSplitQName2' function" {
+	label="CFG for 'xmlSplitQName2' function";
+
+	Node0x37095360 [shape=record,label="{tree.c:224:}"];
+	Node0x37095360 -> Node0x37096690;
+	Node0x37095360 -> Node0x37096280;
+	Node0x37096280 [shape=record,label="{tree.c:225:}"];
+	Node0x37096280 -> Node0x37096690;
+	Node0x37096280 -> Node0x370962d0;
+	Node0x370962d0 [shape=record,label="{tree.c:229:}"];
+	Node0x370962d0 -> Node0x37096690;
+	Node0x370962d0 -> Node0x37096320;
+	Node0x37096320 [shape=record,label="{tree.c:236:}"];
+	Node0x37096320 -> Node0x37096370;
+	Node0x37096320 -> Node0x37096690;
+	Node0x37096320 -> Node0x37096460;
+	Node0x37096370 [shape=record,label="{tree.c:237:}"];
+	Node0x37096370 -> Node0x370963c0;
+	Node0x37096370 -> Node0x37096410;
+	Node0x370963c0 [shape=record,label="{%10}"];
+	Node0x370963c0 -> Node0x37096410;
+	Node0x37096410 [shape=record,label="{tree.c:236:1}"];
+	Node0x37096410 -> Node0x37096320;
+	Node0x37096460 [shape=record,label="{tree.c:239:}"];
+	Node0x37096460 -> Node0x370964b0;
+	Node0x37096460 -> Node0x37096500;
+	Node0x370964b0 [shape=record,label="{tree.c:239:2}"];
+	Node0x370964b0 -> Node0x37096500;
+	Node0x37096500 [shape=record,label="{tree.c:239:3}"];
+	Node0x37096500 -> Node0x37096690;
+	Node0x37096500 -> Node0x37096550;
+	Node0x37096550 [shape=record,label="{tree.c:239:4}"];
+	Node0x37096550 -> Node0x37096690;
+	Node0x37096550 -> Node0x370965a0;
+	Node0x370965a0 [shape=record,label="{tree.c:245:}"];
+	Node0x370965a0 -> Node0x370965f0;
+	Node0x370965a0 -> Node0x37096690;
+	Node0x370965f0 [shape=record,label="{tree.c:247:}"];
+	Node0x370965f0 -> Node0x37096690;
+	Node0x370965f0 -> Node0x37096640;
+	Node0x37096640 [shape=record,label="{tree.c:248:}"];
+	Node0x37096640 -> Node0x37096690;
+	Node0x37096690 [shape=record,label="{tree.c:255:}"];
+}

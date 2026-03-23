@@ -1,0 +1,16 @@
+digraph "CFG for 'plist_array_get_size' function" {
+	label="CFG for 'plist_array_get_size' function";
+
+	Node0x21587a40 [shape=record,label="{plist.c:643:}"];
+	Node0x21587a40 -> Node0x21587cc0;
+	Node0x21587a40 -> Node0x21587bd0;
+	Node0x21587bd0 [shape=record,label="{plist.c:356:}"];
+	Node0x21587bd0 -> Node0x21587cc0;
+	Node0x21587bd0 -> Node0x21587c20;
+	Node0x21587c20 [shape=record,label="{plist.c:1265:}"];
+	Node0x21587c20 -> Node0x21587c70;
+	Node0x21587c20 -> Node0x21587cc0;
+	Node0x21587c70 [shape=record,label="{plist.c:645:}"];
+	Node0x21587c70 -> Node0x21587cc0;
+	Node0x21587cc0 [shape=record,label="{plist.c:647:}"];
+}

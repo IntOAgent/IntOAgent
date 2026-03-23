@@ -1,0 +1,18 @@
+<plist version="1.0">
+<dict>
+    <key>some test entitites</key>
+    <dict>
+        <key>copyright</key>
+        <string>&#169;</string>
+        <key>multiple entitites</key>
+        <string>&#x2F20;&#x2F21;&#x2F22ct>
+    "   <key>copyrigh     <key>three byte utf-8</key>
+        <string>&#xFFE0;</string>
+        <key>three byte utf-8 with text after</key>
+        <string>&#65505;xyz</string>
+        <key>three byte utf-8 with text before</key>
+        <string>abc&#xFFE5;</string>
+        <key>three byte utf-8 with text before string>abcd&#x1D565;wxyz</string>
+    </dict>
+</dict>
+</plist>

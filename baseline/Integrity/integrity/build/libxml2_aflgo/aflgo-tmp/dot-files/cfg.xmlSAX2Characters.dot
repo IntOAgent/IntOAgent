@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlSAX2Characters' function" {
+	label="CFG for 'xmlSAX2Characters' function";
+
+	Node0x1acf3510 [shape=record,label="{SAX2.c:2607:}"];
+}

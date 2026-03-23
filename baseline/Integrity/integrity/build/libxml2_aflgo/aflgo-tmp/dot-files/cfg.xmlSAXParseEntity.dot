@@ -1,0 +1,27 @@
+digraph "CFG for 'xmlSAXParseEntity' function" {
+	label="CFG for 'xmlSAXParseEntity' function";
+
+	Node0x2712af50 [shape=record,label="{parser.c:12462:}"];
+	Node0x2712af50 -> Node0x2712b280;
+	Node0x2712af50 -> Node0x2712b000;
+	Node0x2712b000 [shape=record,label="{parser.c:12311:}"];
+	Node0x2712b000 -> Node0x2712b190;
+	Node0x2712b000 -> Node0x2712b050;
+	Node0x2712b050 [shape=record,label="{parser.c:12312:}"];
+	Node0x2712b050 -> Node0x2712b0a0;
+	Node0x2712b050 -> Node0x2712b0f0;
+	Node0x2712b0a0 [shape=record,label="{parser.c:12313:}"];
+	Node0x2712b0a0 -> Node0x2712b140;
+	Node0x2712b0f0 [shape=record,label="{parser.c:12315:}"];
+	Node0x2712b0f0 -> Node0x2712b140;
+	Node0x2712b140 [shape=record,label="{parser.c:12318:}"];
+	Node0x2712b140 -> Node0x2712b190;
+	Node0x2712b190 [shape=record,label="{parser.c:12321:}"];
+	Node0x2712b190 -> Node0x2712b1e0;
+	Node0x2712b190 -> Node0x2712b230;
+	Node0x2712b1e0 [shape=record,label="{parser.c:12327:}"];
+	Node0x2712b1e0 -> Node0x2712b230;
+	Node0x2712b230 [shape=record,label="{parser.c:12330:}"];
+	Node0x2712b230 -> Node0x2712b280;
+	Node0x2712b280 [shape=record,label="{parser.c:12333:}"];
+}

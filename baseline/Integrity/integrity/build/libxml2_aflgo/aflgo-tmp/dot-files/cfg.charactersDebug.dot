@@ -1,0 +1,40 @@
+digraph "CFG for 'charactersDebug' function" {
+	label="CFG for 'charactersDebug' function";
+
+	Node0x3d187120 [shape=record,label="{xmllint.c:917:}"];
+	Node0x3d187120 -> Node0x3d187340;
+	Node0x3d187120 -> Node0x3d187390;
+	Node0x3d187340 [shape=record,label="{xmllint.c:920:}"];
+	Node0x3d187340 -> Node0x3d187390;
+	Node0x3d187390 [shape=record,label="{xmllint.c:920:1}"];
+	Node0x3d187390 -> Node0x3d1873e0;
+	Node0x3d187390 -> Node0x3d187750;
+	Node0x3d1873e0 [shape=record,label="{xmllint.c:923:}"];
+	Node0x3d1873e0 -> Node0x3d187430;
+	Node0x3d1873e0 -> Node0x3d187700;
+	Node0x3d187430 [shape=record,label="{xmllint.c:923:2}"];
+	Node0x3d187430 -> Node0x3d187480;
+	Node0x3d187430 -> Node0x3d1874d0;
+	Node0x3d187480 [shape=record,label="{xmllint.c:923:3}"];
+	Node0x3d187480 -> Node0x3d1874d0;
+	Node0x3d1874d0 [shape=record,label="{xmllint.c:923:4}"];
+	Node0x3d1874d0 -> Node0x3d187520;
+	Node0x3d1874d0 -> Node0x3d187570;
+	Node0x3d187520 [shape=record,label="{xmllint.c:923:5}"];
+	Node0x3d187520 -> Node0x3d187570;
+	Node0x3d187570 [shape=record,label="{xmllint.c:923:6}"];
+	Node0x3d187570 -> Node0x3d1875c0;
+	Node0x3d187570 -> Node0x3d187610;
+	Node0x3d1875c0 [shape=record,label="{xmllint.c:923:7}"];
+	Node0x3d1875c0 -> Node0x3d187610;
+	Node0x3d187610 [shape=record,label="{xmllint.c:923:8}"];
+	Node0x3d187610 -> Node0x3d187660;
+	Node0x3d187610 -> Node0x3d1876b0;
+	Node0x3d187660 [shape=record,label="{xmllint.c:923:9}"];
+	Node0x3d187660 -> Node0x3d1876b0;
+	Node0x3d1876b0 [shape=record,label="{xmllint.c:923:10}"];
+	Node0x3d1876b0 -> Node0x3d187700;
+	Node0x3d187700 [shape=record,label="{xmllint.c:925:}"];
+	Node0x3d187700 -> Node0x3d187750;
+	Node0x3d187750 [shape=record,label="{xmllint.c:928:}"];
+}

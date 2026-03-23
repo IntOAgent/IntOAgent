@@ -1,0 +1,38 @@
+digraph "CFG for 'xmlCtxtInitializeLate' function" {
+	label="CFG for 'xmlCtxtInitializeLate' function";
+
+	Node0x26e69b50 [shape=record,label="{parser.c:906:}"];
+	Node0x26e69b50 -> Node0x26e6a120;
+	Node0x26e69b50 -> Node0x26e69db0;
+	Node0x26e69db0 [shape=record,label="{parser.c:907:}"];
+	Node0x26e69db0 -> Node0x26e69e00;
+	Node0x26e69db0 -> Node0x26e69fe0;
+	Node0x26e69e00 [shape=record,label="{parser.c:915:}"];
+	Node0x26e69e00 -> Node0x26e69e50;
+	Node0x26e69e00 -> Node0x26e69fe0;
+	Node0x26e69e50 [shape=record,label="{parser.c:916:}"];
+	Node0x26e69e50 -> Node0x26e69ea0;
+	Node0x26e69e50 -> Node0x26e69f90;
+	Node0x26e69ea0 [shape=record,label="{parser.c:917:}"];
+	Node0x26e69ea0 -> Node0x26e69ef0;
+	Node0x26e69ea0 -> Node0x26e69f90;
+	Node0x26e69ef0 [shape=record,label="{parser.c:918:}"];
+	Node0x26e69ef0 -> Node0x26e69f40;
+	Node0x26e69ef0 -> Node0x26e69fe0;
+	Node0x26e69f40 [shape=record,label="{parser.c:918:1}"];
+	Node0x26e69f40 -> Node0x26e69f90;
+	Node0x26e69f40 -> Node0x26e69fe0;
+	Node0x26e69f90 [shape=record,label="{parser.c:919:}"];
+	Node0x26e69f90 -> Node0x26e69fe0;
+	Node0x26e69fe0 [shape=record,label="{parser.c:928:}"];
+	Node0x26e69fe0 -> Node0x26e6a080;
+	Node0x26e69fe0 -> Node0x26e6a030;
+	Node0x26e6a030 [shape=record,label="{parser.c:931:}"];
+	Node0x26e6a030 -> Node0x26e6a080;
+	Node0x26e6a030 -> Node0x26e6a0d0;
+	Node0x26e6a080 [shape=record,label="{parser.c:225:}"];
+	Node0x26e6a080 -> Node0x26e6a0d0;
+	Node0x26e6a0d0 [shape=record,label="{parser.c:936:}"];
+	Node0x26e6a0d0 -> Node0x26e6a120;
+	Node0x26e6a120 [shape=record,label="{parser.c:947:}"];
+}

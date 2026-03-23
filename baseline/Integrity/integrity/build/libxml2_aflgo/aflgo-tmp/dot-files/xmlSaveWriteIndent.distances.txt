@@ -1,0 +1,16 @@
+xmlsave.c:720,5.7870563674321502
+xmlsave.c:721,4.1982507288629733
+xmlsave.c:722,30
+xmlsave.c:725,0
+xmlsave.c:728,0
+xmlsave.c:720,5.7870563674321502
+xmlsave.c:721,4.1982507288629733
+xmlsave.c:722,30
+xmlsave.c:725,0
+xmlsave.c:728,0
+xmlsave.c:720,5.7870563674321502
+xmlsave.c:721,4.1982507288629733
+xmlsave.c:722,30
+xmlsave.c:725,0
+xmlsave.c:726,2.4000000000000004
+xmlsave.c:728,0

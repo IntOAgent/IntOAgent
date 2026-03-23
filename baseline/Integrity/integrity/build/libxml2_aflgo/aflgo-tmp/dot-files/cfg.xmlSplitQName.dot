@@ -1,0 +1,15 @@
+digraph "CFG for 'xmlSplitQName' function" {
+	label="CFG for 'xmlSplitQName' function";
+
+	Node0x26a92d30 [shape=record,label="{parser.c:2907:}"];
+	Node0x26a92d30 -> Node0x26a92d80;
+	Node0x26a92d30 -> Node0x26a92dd0;
+	Node0x26a92d80 [shape=record,label="{parser.c:2909:}"];
+	Node0x26a92d80 -> Node0x26a92e70;
+	Node0x26a92dd0 [shape=record,label="{parser.c:2913:}"];
+	Node0x26a92dd0 -> Node0x26a92e20;
+	Node0x26a92dd0 -> Node0x26a92e70;
+	Node0x26a92e20 [shape=record,label="{parser.c:2915:}"];
+	Node0x26a92e20 -> Node0x26a92e70;
+	Node0x26a92e70 [shape=record,label="{parser.c:2920:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'htmlParseCharRef' function" {
+	label="CFG for 'htmlParseCharRef' function";
+
+	Node0x383a420 [shape=record,label="{HTMLparser.c:3415:}"];
+}

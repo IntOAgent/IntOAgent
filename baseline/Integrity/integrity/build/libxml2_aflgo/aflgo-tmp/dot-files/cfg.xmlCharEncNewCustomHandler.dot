@@ -1,0 +1,32 @@
+digraph "CFG for 'xmlCharEncNewCustomHandler' function" {
+	label="CFG for 'xmlCharEncNewCustomHandler' function";
+
+	Node0x253ccb70 [shape=record,label="{encoding.c:773:}"];
+	Node0x253ccb70 -> Node0x253ccfe0;
+	Node0x253ccb70 -> Node0x253ccd10;
+	Node0x253ccd10 [shape=record,label="{encoding.c:776:}"];
+	Node0x253ccd10 -> Node0x253cce50;
+	Node0x253ccd10 -> Node0x253ccd60;
+	Node0x253ccd60 [shape=record,label="{encoding.c:779:}"];
+	Node0x253ccd60 -> Node0x253cce00;
+	Node0x253ccd60 -> Node0x253ccdb0;
+	Node0x253ccdb0 [shape=record,label="{encoding.c:782:}"];
+	Node0x253ccdb0 -> Node0x253cce50;
+	Node0x253ccdb0 -> Node0x253cce00;
+	Node0x253cce00 [shape=record,label="{encoding.c:787:}"];
+	Node0x253cce00 -> Node0x253ccfe0;
+	Node0x253cce50 [shape=record,label="{encoding.c:796:}"];
+	Node0x253cce50 -> Node0x253ccfe0;
+	Node0x253cce50 -> Node0x253ccea0;
+	Node0x253ccea0 [shape=record,label="{encoding.c:800:}"];
+	Node0x253ccea0 -> Node0x253ccf40;
+	Node0x253ccea0 -> Node0x253ccef0;
+	Node0x253ccef0 [shape=record,label="{encoding.c:801:}"];
+	Node0x253ccef0 -> Node0x253ccf40;
+	Node0x253ccf40 [shape=record,label="{encoding.c:802:}"];
+	Node0x253ccf40 -> Node0x253ccfe0;
+	Node0x253ccf40 -> Node0x253ccf90;
+	Node0x253ccf90 [shape=record,label="{encoding.c:803:}"];
+	Node0x253ccf90 -> Node0x253ccfe0;
+	Node0x253ccfe0 [shape=record,label="{encoding.c:807:}"];
+}

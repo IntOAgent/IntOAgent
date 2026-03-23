@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlParserInputBufferCreateStatic' function" {
+	label="CFG for 'xmlParserInputBufferCreateStatic' function";
+
+	Node0x9779f90 [shape=record,label="{xmlIO.c:2018:}"];
+	Node0x9779f90 -> Node0x977a030;
+	Node0x9779f90 -> Node0x9779fe0;
+	Node0x9779fe0 [shape=record,label="{xmlIO.c:2021:}"];
+	Node0x9779fe0 -> Node0x977a030;
+	Node0x977a030 [shape=record,label="{xmlIO.c:2022:}"];
+}

@@ -1,0 +1,23 @@
+digraph "CFG for 'xmlListDelete' function" {
+	label="CFG for 'xmlListDelete' function";
+
+	Node0xdfb98f0 [shape=record,label="{list.c:304:}"];
+	Node0xdfb98f0 -> Node0xdfb9b20;
+	Node0xdfb98f0 -> Node0xdfb9940;
+	Node0xdfb9940 [shape=record,label="{list.c:390:}"];
+	Node0xdfb9940 -> Node0xdfb9ad0;
+	Node0xdfb9940 -> Node0xdfb9990;
+	Node0xdfb9990 [shape=record,label="{list.c:391:}"];
+	Node0xdfb9990 -> Node0xdfb99e0;
+	Node0xdfb99e0 [shape=record,label="{list.c:392:}"];
+	Node0xdfb99e0 -> Node0xdfb9a80;
+	Node0xdfb99e0 -> Node0xdfb9a30;
+	Node0xdfb9a30 [shape=record,label="{list.c:63:}"];
+	Node0xdfb9a30 -> Node0xdfb9a80;
+	Node0xdfb9a80 [shape=record,label="{list.c:64:}"];
+	Node0xdfb9a80 -> Node0xdfb9ad0;
+	Node0xdfb9a80 -> Node0xdfb99e0;
+	Node0xdfb9ad0 [shape=record,label="{list.c:308:}"];
+	Node0xdfb9ad0 -> Node0xdfb9b20;
+	Node0xdfb9b20 [shape=record,label="{list.c:310:}"];
+}

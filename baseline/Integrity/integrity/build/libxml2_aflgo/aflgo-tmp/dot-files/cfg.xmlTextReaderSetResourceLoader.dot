@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlTextReaderSetResourceLoader' function" {
+	label="CFG for 'xmlTextReaderSetResourceLoader' function";
+
+	Node0x22bf3ea0 [shape=record,label="{xmlreader.c:4658:}"];
+	Node0x22bf3ea0 -> Node0x22bf3f90;
+	Node0x22bf3ea0 -> Node0x22bf3ef0;
+	Node0x22bf3ef0 [shape=record,label="{xmlreader.c:4658:1}"];
+	Node0x22bf3ef0 -> Node0x22bf3f90;
+	Node0x22bf3ef0 -> Node0x22bf3f40;
+	Node0x22bf3f40 [shape=record,label="{xmlreader.c:4661:}"];
+	Node0x22bf3f40 -> Node0x22bf3f90;
+	Node0x22bf3f90 [shape=record,label="{xmlreader.c:4665:}"];
+}

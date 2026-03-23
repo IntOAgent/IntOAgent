@@ -1,0 +1,28 @@
+digraph "CFG for 'xmlXPathCastToBoolean' function" {
+	label="CFG for 'xmlXPathCastToBoolean' function";
+
+	Node0x2fd3c5a0 [shape=record,label="{xpath.c:4659:}"];
+	Node0x2fd3c5a0 -> Node0x2fd3c820;
+	Node0x2fd3c5a0 -> Node0x2fd3c5f0;
+	Node0x2fd3c5f0 [shape=record,label="{xpath.c:4661:}"];
+	Node0x2fd3c5f0 -> Node0x2fd3c820;
+	Node0x2fd3c5f0 -> Node0x2fd3c7d0;
+	Node0x2fd3c5f0 -> Node0x2fd3c640;
+	Node0x2fd3c5f0 -> Node0x2fd3c6e0;
+	Node0x2fd3c5f0 -> Node0x2fd3c780;
+	Node0x2fd3c640 [shape=record,label="{xpath.c:4667:}"];
+	Node0x2fd3c640 -> Node0x2fd3c820;
+	Node0x2fd3c640 -> Node0x2fd3c690;
+	Node0x2fd3c690 [shape=record,label="{xpath.c:4644:}"];
+	Node0x2fd3c690 -> Node0x2fd3c820;
+	Node0x2fd3c6e0 [shape=record,label="{xpath.c:4670:}"];
+	Node0x2fd3c6e0 -> Node0x2fd3c820;
+	Node0x2fd3c6e0 -> Node0x2fd3c730;
+	Node0x2fd3c730 [shape=record,label="{xpath.c:4631:}"];
+	Node0x2fd3c730 -> Node0x2fd3c820;
+	Node0x2fd3c780 [shape=record,label="{xpath.c:4673:}"];
+	Node0x2fd3c780 -> Node0x2fd3c820;
+	Node0x2fd3c7d0 [shape=record,label="{xpath.c:4676:}"];
+	Node0x2fd3c7d0 -> Node0x2fd3c820;
+	Node0x2fd3c820 [shape=record,label="{xpath.c:4684:}"];
+}

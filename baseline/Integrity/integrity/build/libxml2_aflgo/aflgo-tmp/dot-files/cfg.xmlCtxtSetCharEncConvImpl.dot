@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtSetCharEncConvImpl' function" {
+	label="CFG for 'xmlCtxtSetCharEncConvImpl' function";
+
+	Node0x8d65950 [shape=record,label="{parserInternals.c:1160:}"];
+	Node0x8d65950 -> Node0x8d16900;
+	Node0x8d65950 -> Node0x8d168b0;
+	Node0x8d168b0 [shape=record,label="{parserInternals.c:1163:}"];
+	Node0x8d168b0 -> Node0x8d16900;
+	Node0x8d16900 [shape=record,label="{parserInternals.c:1165:}"];
+}

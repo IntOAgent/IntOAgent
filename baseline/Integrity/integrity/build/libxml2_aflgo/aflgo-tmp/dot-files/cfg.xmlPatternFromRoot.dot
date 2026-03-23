@@ -1,0 +1,17 @@
+digraph "CFG for 'xmlPatternFromRoot' function" {
+	label="CFG for 'xmlPatternFromRoot' function";
+
+	Node0x32b5ad50 [shape=record,label="{pattern.c:2346:}"];
+	Node0x32b5ad50 -> Node0x32b5ae90;
+	Node0x32b5ad50 -> Node0x32b5ada0;
+	Node0x32b5ada0 [shape=record,label="{pattern.c:2349:}"];
+	Node0x32b5ada0 -> Node0x32b5ae90;
+	Node0x32b5ada0 -> Node0x32b5adf0;
+	Node0x32b5adf0 [shape=record,label="{pattern.c:2351:}"];
+	Node0x32b5adf0 -> Node0x32b5ae40;
+	Node0x32b5adf0 -> Node0x32b5ae90;
+	Node0x32b5ae40 [shape=record,label="{pattern.c:2353:}"];
+	Node0x32b5ae40 -> Node0x32b5ae90;
+	Node0x32b5ae40 -> Node0x32b5ada0;
+	Node0x32b5ae90 [shape=record,label="{pattern.c:2357:}"];
+}

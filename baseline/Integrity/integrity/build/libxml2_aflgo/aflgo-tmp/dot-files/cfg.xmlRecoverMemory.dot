@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlRecoverMemory' function" {
+	label="CFG for 'xmlRecoverMemory' function";
+
+	Node0x27156940 [shape=record,label="{parser.c:12754:}"];
+	Node0x27156940 -> Node0x27156ad0;
+	Node0x27156940 -> Node0x27156990;
+	Node0x27156990 [shape=record,label="{parser.c:12757:}"];
+	Node0x27156990 -> Node0x27156ad0;
+	Node0x27156990 -> Node0x271569e0;
+	Node0x271569e0 [shape=record,label="{parser.c:12765:}"];
+	Node0x271569e0 -> Node0x27156a80;
+	Node0x271569e0 -> Node0x27156a30;
+	Node0x27156a30 [shape=record,label="{parser.c:12773:}"];
+	Node0x27156a30 -> Node0x27156a80;
+	Node0x27156a80 [shape=record,label="{parser.c:12775:}"];
+	Node0x27156a80 -> Node0x27156ad0;
+	Node0x27156ad0 [shape=record,label="{parser.c:12835:}"];
+}

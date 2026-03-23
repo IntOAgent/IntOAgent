@@ -1,0 +1,29 @@
+digraph "CFG for 'xmlRelaxNGSkipIgnored' function" {
+	label="CFG for 'xmlRelaxNGSkipIgnored' function";
+
+	Node0x1313d7c0 [shape=record,label="{relaxng.c:8274:}"];
+	Node0x1313d7c0 -> Node0x1313da40;
+	Node0x1313d7c0 -> Node0x1313d810;
+	Node0x1313d810 [shape=record,label="{relaxng.c:8274:1}"];
+	Node0x1313d810 -> Node0x1313d860;
+	Node0x1313d860 [shape=record,label="{relaxng.c:8275:}"];
+	Node0x1313d860 -> Node0x1313da40;
+	Node0x1313d860 -> Node0x1313d9f0;
+	Node0x1313d860 -> Node0x1313d8b0;
+	Node0x1313d8b0 [shape=record,label="{relaxng.c:8281:}"];
+	Node0x1313d8b0 -> Node0x1313d900;
+	Node0x1313d8b0 -> Node0x1313d9f0;
+	Node0x1313d900 [shape=record,label="{relaxng.c:8282:}"];
+	Node0x1313d900 -> Node0x1313d9f0;
+	Node0x1313d900 -> Node0x1313d950;
+	Node0x1313d950 [shape=record,label="{relaxng.c:3291:}"];
+	Node0x1313d950 -> Node0x1313da40;
+	Node0x1313d950 -> Node0x1313d9f0;
+	Node0x1313d950 -> Node0x1313d9a0;
+	Node0x1313d9a0 [shape=record,label="{relaxng.c:3294:}"];
+	Node0x1313d9a0 -> Node0x1313d950;
+	Node0x1313d9f0 [shape=record,label="{relaxng.c:8283:}"];
+	Node0x1313d9f0 -> Node0x1313da40;
+	Node0x1313d9f0 -> Node0x1313d860;
+	Node0x1313da40 [shape=record,label="{relaxng.c:8285:}"];
+}

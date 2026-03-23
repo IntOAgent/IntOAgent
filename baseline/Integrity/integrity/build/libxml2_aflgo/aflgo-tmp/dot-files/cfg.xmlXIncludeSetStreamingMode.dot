@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlXIncludeSetStreamingMode' function" {
+	label="CFG for 'xmlXIncludeSetStreamingMode' function";
+
+	Node0xc478f60 [shape=record,label="{xinclude.c:2041:}"];
+	Node0xc478f60 -> Node0xc479000;
+	Node0xc478f60 -> Node0xc478fb0;
+	Node0xc478fb0 [shape=record,label="{xinclude.c:2043:}"];
+	Node0xc478fb0 -> Node0xc479000;
+	Node0xc479000 [shape=record,label="{xinclude.c:2045:}"];
+}

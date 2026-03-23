@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSchemaAugmentImportedIDC' function" {
+	label="CFG for 'xmlSchemaAugmentImportedIDC' function";
+
+	Node0x2e85cff0 [shape=record,label="{xmlschemas.c:21605:}"];
+	Node0x2e85cff0 -> Node0x2e85dc00;
+	Node0x2e85cff0 -> Node0x2e85dbb0;
+	Node0x2e85dbb0 [shape=record,label="{xmlschemas.c:21606:}"];
+	Node0x2e85dbb0 -> Node0x2e85dc00;
+	Node0x2e85dc00 [shape=record,label="{xmlschemas.c:21608:}"];
+}

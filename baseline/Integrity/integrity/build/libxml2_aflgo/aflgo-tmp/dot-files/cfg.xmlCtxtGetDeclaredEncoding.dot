@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtGetDeclaredEncoding' function" {
+	label="CFG for 'xmlCtxtGetDeclaredEncoding' function";
+
+	Node0x8dbcfd0 [shape=record,label="{parserInternals.c:1728:}"];
+	Node0x8dbcfd0 -> Node0x8dbd070;
+	Node0x8dbcfd0 -> Node0x8dbd020;
+	Node0x8dbd020 [shape=record,label="{parserInternals.c:1731:}"];
+	Node0x8dbd020 -> Node0x8dbd070;
+	Node0x8dbd070 [shape=record,label="{parserInternals.c:1732:}"];
+}

@@ -1,0 +1,30 @@
+digraph "CFG for 'xmlC14NDocDumpMemory' function" {
+	label="CFG for 'xmlC14NDocDumpMemory' function";
+
+	Node0xfc21e00 [shape=record,label="{c14n.c:1957:}"];
+	Node0xfc21e00 -> Node0xfca7b70;
+	Node0xfc21e00 -> Node0xfca7c20;
+	Node0xfca7b70 [shape=record,label="{c14n.c:173:}"];
+	Node0xfca7b70 -> Node0xfca7ea0;
+	Node0xfca7c20 [shape=record,label="{c14n.c:1962:}"];
+	Node0xfca7c20 -> Node0xfca7c70;
+	Node0xfca7c20 -> Node0xfca7cc0;
+	Node0xfca7c70 [shape=record,label="{c14n.c:142:}"];
+	Node0xfca7c70 -> Node0xfca7ea0;
+	Node0xfca7cc0 [shape=record,label="{c14n.c:1922:}"];
+	Node0xfca7cc0 -> Node0xfca7d10;
+	Node0xfca7cc0 -> Node0xfca7d60;
+	Node0xfca7d10 [shape=record,label="{c14n.c:1979:}"];
+	Node0xfca7d10 -> Node0xfca7ea0;
+	Node0xfca7d60 [shape=record,label="{c14n.c:1983:}"];
+	Node0xfca7d60 -> Node0xfca7db0;
+	Node0xfca7d60 -> Node0xfca7e00;
+	Node0xfca7db0 [shape=record,label="{c14n.c:1985:}"];
+	Node0xfca7db0 -> Node0xfca7e00;
+	Node0xfca7e00 [shape=record,label="{c14n.c:1987:}"];
+	Node0xfca7e00 -> Node0xfca7e50;
+	Node0xfca7e00 -> Node0xfca7ea0;
+	Node0xfca7e50 [shape=record,label="{c14n.c:142:1}"];
+	Node0xfca7e50 -> Node0xfca7ea0;
+	Node0xfca7ea0 [shape=record,label="{c14n.c:1994:}"];
+}

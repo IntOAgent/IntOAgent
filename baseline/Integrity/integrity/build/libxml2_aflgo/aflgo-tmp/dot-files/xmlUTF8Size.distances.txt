@@ -1,0 +1,11 @@
+xmlstring.c:720,6
+xmlstring.c:722,5
+xmlstring.c:725,4
+xmlstring.c:730,2
+xmlstring.c:732,0
+xmlstring.c:729,3
+xmlstring.c:722,5
+xmlstring.c:725,4
+xmlstring.c:730,2
+xmlstring.c:732,0
+xmlstring.c:729,3

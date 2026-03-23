@@ -1,0 +1,16 @@
+digraph "CFG for 'xmlRemoveID' function" {
+	label="CFG for 'xmlRemoveID' function";
+
+	Node0x37d12d70 [shape=record,label="{valid.c:2397:}"];
+	Node0x37d12d70 -> Node0x37d12eb0;
+	Node0x37d12d70 -> Node0x37d12dc0;
+	Node0x37d12dc0 [shape=record,label="{valid.c:2398:}"];
+	Node0x37d12dc0 -> Node0x37d12eb0;
+	Node0x37d12dc0 -> Node0x37d12e10;
+	Node0x37d12e10 [shape=record,label="{valid.c:2400:}"];
+	Node0x37d12e10 -> Node0x37d12eb0;
+	Node0x37d12e10 -> Node0x37d12e60;
+	Node0x37d12e60 [shape=record,label="{valid.c:2404:}"];
+	Node0x37d12e60 -> Node0x37d12eb0;
+	Node0x37d12eb0 [shape=record,label="{valid.c:2408:}"];
+}

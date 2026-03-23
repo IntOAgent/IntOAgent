@@ -1,0 +1,40 @@
+digraph "CFG for 'xmlSchemaCheckCOSCTDerivedOK' function" {
+	label="CFG for 'xmlSchemaCheckCOSCTDerivedOK' function";
+
+	Node0x2e10a9d0 [shape=record,label="{xmlschemas.c:15706:}"];
+	Node0x2e10a9d0 -> Node0x2e10ae00;
+	Node0x2e10a9d0 -> Node0x2e10aa90;
+	Node0x2e10aa90 [shape=record,label="{xmlschemas.c:15743:}"];
+	Node0x2e10aa90 -> Node0x2e10ab30;
+	Node0x2e10aa90 -> Node0x2e10aae0;
+	Node0x2e10aae0 [shape=record,label="{xmlschemas.c:15743:1}"];
+	Node0x2e10aae0 -> Node0x2e10ab30;
+	Node0x2e10aae0 -> Node0x2e10ae00;
+	Node0x2e10ab30 [shape=record,label="{xmlschemas.c:15744:}"];
+	Node0x2e10ab30 -> Node0x2e10abd0;
+	Node0x2e10ab30 -> Node0x2e10ab80;
+	Node0x2e10ab80 [shape=record,label="{xmlschemas.c:15744:2}"];
+	Node0x2e10ab80 -> Node0x2e10abd0;
+	Node0x2e10ab80 -> Node0x2e10ae00;
+	Node0x2e10abd0 [shape=record,label="{xmlschemas.c:15755:}"];
+	Node0x2e10abd0 -> Node0x2e10ae00;
+	Node0x2e10abd0 -> Node0x2e10ac20;
+	Node0x2e10ac20 [shape=record,label="{xmlschemas.c:15761:}"];
+	Node0x2e10ac20 -> Node0x2e10ad10;
+	Node0x2e10ac20 -> Node0x2e10ac70;
+	Node0x2e10ac20 -> Node0x2e10ad60;
+	Node0x2e10ac70 [shape=record,label="{xmlschemas.c:15761:3}"];
+	Node0x2e10ac70 -> Node0x2e10ae00;
+	Node0x2e10ac70 -> Node0x2e10acc0;
+	Node0x2e10acc0 [shape=record,label="{xmlschemas.c:15764:}"];
+	Node0x2e10acc0 -> Node0x2e10ad60;
+	Node0x2e10acc0 -> Node0x2e10ad10;
+	Node0x2e10ad10 [shape=record,label="{xmlschemas.c:15764:4}"];
+	Node0x2e10ad10 -> Node0x2e10ad60;
+	Node0x2e10ad10 -> Node0x2e10adb0;
+	Node0x2e10ad60 [shape=record,label="{xmlschemas.c:15770:}"];
+	Node0x2e10ad60 -> Node0x2e10ae00;
+	Node0x2e10adb0 [shape=record,label="{xmlschemas.c:15778:}"];
+	Node0x2e10adb0 -> Node0x2e10ae00;
+	Node0x2e10ae00 [shape=record,label="{xmlschemas.c:15781:}"];
+}

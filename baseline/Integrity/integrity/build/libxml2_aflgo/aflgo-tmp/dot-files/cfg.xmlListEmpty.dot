@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlListEmpty' function" {
+	label="CFG for 'xmlListEmpty' function";
+
+	Node0xdfcd410 [shape=record,label="{list.c:408:}"];
+	Node0xdfcd410 -> Node0xdfcd5c0;
+	Node0xdfcd410 -> Node0xdfcd570;
+	Node0xdfcd570 [shape=record,label="{list.c:410:}"];
+	Node0xdfcd570 -> Node0xdfcd5c0;
+	Node0xdfcd5c0 [shape=record,label="{list.c:411:}"];
+}

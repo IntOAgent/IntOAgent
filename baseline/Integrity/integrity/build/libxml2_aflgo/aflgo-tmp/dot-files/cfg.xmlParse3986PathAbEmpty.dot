@@ -1,0 +1,48 @@
+digraph "CFG for 'xmlParse3986PathAbEmpty' function" {
+	label="CFG for 'xmlParse3986PathAbEmpty' function";
+
+	Node0x376b7ea0 [shape=record,label="{uri.c:610:}"];
+	Node0x376b7ea0 -> Node0x3768ecc0;
+	Node0x3768ecc0 [shape=record,label="{uri.c:615:}"];
+	Node0x3768ecc0 -> Node0x3768ed10;
+	Node0x3768ecc0 -> Node0x3768ed60;
+	Node0x3768ed10 [shape=record,label="{uri.c:616:}"];
+	Node0x3768ed10 -> Node0x3768ecc0;
+	Node0x3768ed10 -> Node0x376b93a0;
+	Node0x3768ed60 [shape=record,label="{uri.c:620:}"];
+	Node0x3768ed60 -> Node0x376b9350;
+	Node0x3768ed60 -> Node0x3768edb0;
+	Node0x3768edb0 [shape=record,label="{uri.c:621:}"];
+	Node0x3768edb0 -> Node0x3768ee50;
+	Node0x3768edb0 -> Node0x3768ee00;
+	Node0x3768ee00 [shape=record,label="{uri.c:621:1}"];
+	Node0x3768ee00 -> Node0x3768ee50;
+	Node0x3768ee50 [shape=record,label="{uri.c:622:}"];
+	Node0x3768ee50 -> Node0x3768f120;
+	Node0x3768ee50 -> Node0x3768eea0;
+	Node0x3768eea0 [shape=record,label="{uri.c:623:}"];
+	Node0x3768eea0 -> Node0x3768eef0;
+	Node0x3768eea0 -> Node0x3768ef40;
+	Node0x3768eef0 [shape=record,label="{%25}"];
+	Node0x3768eef0 -> Node0x3768ef40;
+	Node0x3768ef40 [shape=record,label="{%28}"];
+	Node0x3768ef40 -> Node0x3768ef90;
+	Node0x3768ef40 -> Node0x3768efe0;
+	Node0x3768ef90 [shape=record,label="{%29}"];
+	Node0x3768ef90 -> Node0x3768efe0;
+	Node0x3768efe0 [shape=record,label="{uri.c:623:2}"];
+	Node0x3768efe0 -> Node0x3768f080;
+	Node0x3768efe0 -> Node0x3768f030;
+	Node0x3768f030 [shape=record,label="{uri.c:624:}"];
+	Node0x3768f030 -> Node0x3768f0d0;
+	Node0x3768f080 [shape=record,label="{uri.c:626:}"];
+	Node0x3768f080 -> Node0x3768f0d0;
+	Node0x3768f0d0 [shape=record,label="{uri.c:627:}"];
+	Node0x3768f0d0 -> Node0x376b93a0;
+	Node0x3768f0d0 -> Node0x376b9350;
+	Node0x3768f120 [shape=record,label="{uri.c:630:}"];
+	Node0x3768f120 -> Node0x376b9350;
+	Node0x376b9350 [shape=record,label="{uri.c:633:}"];
+	Node0x376b9350 -> Node0x376b93a0;
+	Node0x376b93a0 [shape=record,label="{uri.c:635:}"];
+}

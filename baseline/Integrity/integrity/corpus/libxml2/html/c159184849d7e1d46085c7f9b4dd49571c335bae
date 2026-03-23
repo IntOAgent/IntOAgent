@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+gcolor="white">
+	Foo1
+	<table borddot"4">
+	  <tr>
+	    <td>Foo3<p><p></td></tr>>
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table borddot"4">
+	  <tr>
+	    <td>Foo3<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo4</td>
+   </tr>
+  </table>
+  </body>
+</html>  

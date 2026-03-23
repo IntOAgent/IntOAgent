@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlXPathRegisteredVariablesCleanup' function" {
+	label="CFG for 'xmlXPathRegisteredVariablesCleanup' function";
+
+	Node0x2fe6e130 [shape=record,label="{xpath.c:3943:}"];
+	Node0x2fe6e130 -> Node0x2fe6e1d0;
+	Node0x2fe6e130 -> Node0x2fe6e180;
+	Node0x2fe6e180 [shape=record,label="{xpath.c:3946:}"];
+	Node0x2fe6e180 -> Node0x2fe6e1d0;
+	Node0x2fe6e1d0 [shape=record,label="{xpath.c:3948:}"];
+}

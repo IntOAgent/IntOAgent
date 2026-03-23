@@ -1,0 +1,30 @@
+start_time        : 1772352543
+last_update       : 1772353189
+fuzzer_pid        : 2756915
+cycles_done       : 282
+execs_done        : 19268094
+execs_per_sec     : 25719.36
+paths_total       : 334
+paths_favored     : 60
+paths_found       : 309
+paths_imported    : 0
+max_depth         : 11
+cur_path          : 234
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.77%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1772353153
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 19268094
+exec_timeout      : 20
+afl_banner        : fuzz_libplist_bplist_aflgo
+afl_version       : 2.57b
+target_mode       : persistent deferred 
+command_line      : /home/xxx/PHDlife/fuxian/aflgo/afl-2.57b/afl-fuzz -z exp -c 45m -i corpus/libplist_aflgo/bplist -o build/afl_out_bplist -- ./build/fuzz_libplist_bplist_aflgo @@
+slowest_exec_ms   : 7
+peak_rss_mb       : 2

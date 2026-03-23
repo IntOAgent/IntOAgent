@@ -1,0 +1,32 @@
+digraph "CFG for 'xmlSAXUserParseFile' function" {
+	label="CFG for 'xmlSAXUserParseFile' function";
+
+	Node0x27149e10 [shape=record,label="{parser.c:12462:}"];
+	Node0x27149e10 -> Node0x2714a1f0;
+	Node0x27149e10 -> Node0x27149ed0;
+	Node0x27149ed0 [shape=record,label="{parser.c:12654:}"];
+	Node0x27149ed0 -> Node0x2714a060;
+	Node0x27149ed0 -> Node0x27149f20;
+	Node0x27149f20 [shape=record,label="{parser.c:12655:}"];
+	Node0x27149f20 -> Node0x27149f70;
+	Node0x27149f20 -> Node0x27149fc0;
+	Node0x27149f70 [shape=record,label="{parser.c:12656:}"];
+	Node0x27149f70 -> Node0x2714a010;
+	Node0x27149fc0 [shape=record,label="{parser.c:12658:}"];
+	Node0x27149fc0 -> Node0x2714a010;
+	Node0x2714a010 [shape=record,label="{parser.c:12661:}"];
+	Node0x2714a010 -> Node0x2714a060;
+	Node0x2714a060 [shape=record,label="{parser.c:12664:}"];
+	Node0x2714a060 -> Node0x2714a0b0;
+	Node0x2714a060 -> Node0x2714a100;
+	Node0x2714a0b0 [shape=record,label="{parser.c:12669:}"];
+	Node0x2714a0b0 -> Node0x2714a100;
+	Node0x2714a100 [shape=record,label="{parser.c:12674:}"];
+	Node0x2714a100 -> Node0x2714a1a0;
+	Node0x2714a100 -> Node0x2714a150;
+	Node0x2714a150 [shape=record,label="{parser.c:12675:}"];
+	Node0x2714a150 -> Node0x2714a1a0;
+	Node0x2714a1a0 [shape=record,label="{parser.c:12678:}"];
+	Node0x2714a1a0 -> Node0x2714a1f0;
+	Node0x2714a1f0 [shape=record,label="{parser.c:12681:}"];
+}

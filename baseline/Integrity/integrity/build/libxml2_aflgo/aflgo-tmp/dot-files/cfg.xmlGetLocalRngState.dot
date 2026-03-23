@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlGetLocalRngState' function" {
+	label="CFG for 'xmlGetLocalRngState' function";
+
+	Node0x130a230 [shape=record,label="{globals.c:734:}"];
+}

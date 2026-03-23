@@ -1,0 +1,22 @@
+digraph "CFG for 'myMallocFunc' function" {
+	label="CFG for 'myMallocFunc' function";
+
+	Node0x3d066870 [shape=record,label="{xmllint.c:472:}"];
+	Node0x3d066870 -> Node0x3cffc1c0;
+	Node0x3d066870 -> Node0x3cffc210;
+	Node0x3cffc1c0 [shape=record,label="{xmllint.c:472:1}"];
+	Node0x3cffc1c0 -> Node0x3cffc210;
+	Node0x3cffc210 [shape=record,label="{xmllint.c:472:2}"];
+	Node0x3cffc210 -> Node0x3cffc260;
+	Node0x3cffc210 -> Node0x3cffc2b0;
+	Node0x3cffc260 [shape=record,label="{xmllint.c:472:3}"];
+	Node0x3cffc260 -> Node0x3cffc2b0;
+	Node0x3cffc2b0 [shape=record,label="{xmllint.c:472:4}"];
+	Node0x3cffc2b0 -> Node0x3cffc350;
+	Node0x3cffc2b0 -> Node0x3cffc300;
+	Node0x3cffc300 [shape=record,label="{xmllint.c:476:}"];
+	Node0x3cffc300 -> Node0x3cffc3a0;
+	Node0x3cffc350 [shape=record,label="{xmllint.c:481:}"];
+	Node0x3cffc350 -> Node0x3cffc3a0;
+	Node0x3cffc3a0 [shape=record,label="{xmllint.c:486:}"];
+}

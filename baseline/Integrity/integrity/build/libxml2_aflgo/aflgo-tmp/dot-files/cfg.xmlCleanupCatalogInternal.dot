@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlCleanupCatalogInternal' function" {
+	label="CFG for 'xmlCleanupCatalogInternal' function";
+
+	Node0x5eda540 [shape=record,label="{catalog.c:3217:}"];
+}

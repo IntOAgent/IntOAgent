@@ -1,0 +1,36 @@
+digraph "CFG for 'xmlHashCopySafe' function" {
+	label="CFG for 'xmlHashCopySafe' function";
+
+	Node0x9611b80 [shape=record,label="{hash.c:1115:}"];
+	Node0x9611b80 -> Node0x9612090;
+	Node0x9611b80 -> Node0x9611d70;
+	Node0x9611d70 [shape=record,label="{hash.c:1118:}"];
+	Node0x9611d70 -> Node0x9612090;
+	Node0x9611d70 -> Node0x9611dc0;
+	Node0x9611dc0 [shape=record,label="{hash.c:1122:}"];
+	Node0x9611dc0 -> Node0x9612090;
+	Node0x9611dc0 -> Node0x9611e10;
+	Node0x9611e10 [shape=record,label="{hash.c:1125:}"];
+	Node0x9611e10 -> Node0x9611e60;
+	Node0x9611e60 [shape=record,label="{hash.c:1128:}"];
+	Node0x9611e60 -> Node0x9611ff0;
+	Node0x9611e60 -> Node0x9611eb0;
+	Node0x9611eb0 [shape=record,label="{hash.c:1131:}"];
+	Node0x9611eb0 -> Node0x9611fa0;
+	Node0x9611eb0 -> Node0x9611f00;
+	Node0x9611f00 [shape=record,label="{hash.c:1134:}"];
+	Node0x9611f00 -> Node0x9611fa0;
+	Node0x9611f00 -> Node0x9611f50;
+	Node0x9611f50 [shape=record,label="{hash.c:1137:}"];
+	Node0x9611f50 -> Node0x9611fa0;
+	Node0x9611fa0 [shape=record,label="{%37}"];
+	Node0x9611fa0 -> Node0x9612090;
+	Node0x9611fa0 -> Node0x9611ff0;
+	Node0x9611fa0 -> Node0x9612040;
+	Node0x9611ff0 [shape=record,label="{hash.c:1127:}"];
+	Node0x9611ff0 -> Node0x9611e60;
+	Node0x9611ff0 -> Node0x9612090;
+	Node0x9612040 [shape=record,label="{hash.c:1145:}"];
+	Node0x9612040 -> Node0x9612090;
+	Node0x9612090 [shape=record,label="{hash.c:1148:}"];
+}

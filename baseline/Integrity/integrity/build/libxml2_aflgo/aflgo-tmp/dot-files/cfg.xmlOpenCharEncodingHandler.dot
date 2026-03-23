@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlOpenCharEncodingHandler' function" {
+	label="CFG for 'xmlOpenCharEncodingHandler' function";
+
+	Node0x253ed910 [shape=record,label="{encoding.c:1170:}"];
+}

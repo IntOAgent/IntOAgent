@@ -1,0 +1,5 @@
+digraph "CFG for '__xmlRegisterNodeDefaultValue' function" {
+	label="CFG for '__xmlRegisterNodeDefaultValue' function";
+
+	Node0x1309240 [shape=record,label="{globals.c:684:}"];
+}

@@ -1,0 +1,1 @@
+SELECT abs(-1), lenth(+'hello').14);

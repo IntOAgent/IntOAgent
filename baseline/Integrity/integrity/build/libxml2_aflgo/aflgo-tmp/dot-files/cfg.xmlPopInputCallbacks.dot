@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlPopInputCallbacks' function" {
+	label="CFG for 'xmlPopInputCallbacks' function";
+
+	Node0x9797110 [shape=record,label="{xmlIO.c:2814:}"];
+	Node0x9797110 -> Node0x9797480;
+	Node0x9797110 -> Node0x97972f0;
+	Node0x97972f0 [shape=record,label="{xmlIO.c:2819:}"];
+	Node0x97972f0 -> Node0x9797340;
+	Node0x97972f0 -> Node0x9797390;
+	Node0x9797340 [shape=record,label="{xmlIO.c:2819:1}"];
+	Node0x9797340 -> Node0x9797390;
+	Node0x9797390 [shape=record,label="{xmlIO.c:2819:2}"];
+	Node0x9797390 -> Node0x97973e0;
+	Node0x9797390 -> Node0x9797430;
+	Node0x97973e0 [shape=record,label="{xmlIO.c:2819:3}"];
+	Node0x97973e0 -> Node0x9797430;
+	Node0x9797430 [shape=record,label="{xmlIO.c:2819:4}"];
+	Node0x9797430 -> Node0x9797480;
+	Node0x9797480 [shape=record,label="{xmlIO.c:2822:}"];
+}

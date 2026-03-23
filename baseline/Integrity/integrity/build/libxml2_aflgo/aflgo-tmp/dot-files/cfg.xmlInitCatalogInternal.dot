@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlInitCatalogInternal' function" {
+	label="CFG for 'xmlInitCatalogInternal' function";
+
+	Node0x5dc3ff0 [shape=record,label="{catalog.c:3047:}"];
+	Node0x5dc3ff0 -> Node0x5dc41f0;
+	Node0x5dc3ff0 -> Node0x5dc41a0;
+	Node0x5dc41a0 [shape=record,label="{catalog.c:3048:}"];
+	Node0x5dc41a0 -> Node0x5dc41f0;
+	Node0x5dc41f0 [shape=record,label="{catalog.c:3049:}"];
+}

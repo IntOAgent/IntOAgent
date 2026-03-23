@@ -1,0 +1,14 @@
+<plist version="1.0">
+<dict>
+    <key>some test entitites</key>
+    <dict>
+        <key>copyright</key>
+   
+    <dict>
+        <key>one byte eing>&#3ÆÆÆÆÆÆÆÆÆ4;</string>
+   @   -8 with text after</key>
+        <string>&#x1Dd&#x1D564;</string>
+        <key>four byte utf-8 wing>abcd&#x1D565;wxyfalstring>
+    </dict>
+</dict>
+</plist>

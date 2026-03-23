@@ -1,0 +1,16 @@
+digraph "CFG for 'xmlListWalk' function" {
+	label="CFG for 'xmlListWalk' function";
+
+	Node0xdff1d10 [shape=record,label="{list.c:617:}"];
+	Node0xdff1d10 -> Node0xdff1e80;
+	Node0xdff1d10 -> Node0xdff1d90;
+	Node0xdff1d90 [shape=record,label="{list.c:619:}"];
+	Node0xdff1d90 -> Node0xdff1de0;
+	Node0xdff1de0 [shape=record,label="{list.c:619:1}"];
+	Node0xdff1de0 -> Node0xdff1e80;
+	Node0xdff1de0 -> Node0xdff1e30;
+	Node0xdff1e30 [shape=record,label="{list.c:620:}"];
+	Node0xdff1e30 -> Node0xdff1e80;
+	Node0xdff1e30 -> Node0xdff1de0;
+	Node0xdff1e80 [shape=record,label="{list.c:623:}"];
+}

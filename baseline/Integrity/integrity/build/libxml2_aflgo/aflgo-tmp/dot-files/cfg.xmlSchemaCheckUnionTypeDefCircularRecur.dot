@@ -1,0 +1,42 @@
+digraph "CFG for 'xmlSchemaCheckUnionTypeDefCircularRecur' function" {
+	label="CFG for 'xmlSchemaCheckUnionTypeDefCircularRecur' function";
+
+	Node0x2e50b930 [shape=record,label="{xmlschemas.c:14681:}"];
+	Node0x2e50b930 -> Node0x2e50bf80;
+	Node0x2e50b930 -> Node0x2e50bbc0;
+	Node0x2e50bbc0 [shape=record,label="{xmlschemas.c:14682:}"];
+	Node0x2e50bbc0 -> Node0x2e50bf30;
+	Node0x2e50bbc0 -> Node0x2e50bc10;
+	Node0x2e50bc10 [shape=record,label="{xmlschemas.c:14684:}"];
+	Node0x2e50bc10 -> Node0x2e50bf30;
+	Node0x2e50bc10 -> Node0x2e50bc60;
+	Node0x2e50bc60 [shape=record,label="{xmlschemas.c:14685:}"];
+	Node0x2e50bc60 -> Node0x2e50bcb0;
+	Node0x2e50bc60 -> Node0x2e50bd00;
+	Node0x2e50bcb0 [shape=record,label="{xmlschemas.c:14688:}"];
+	Node0x2e50bcb0 -> Node0x2e50bf80;
+	Node0x2e50bd00 [shape=record,label="{xmlschemas.c:14692:}"];
+	Node0x2e50bd00 -> Node0x2e50bd50;
+	Node0x2e50bd00 -> Node0x2e50bee0;
+	Node0x2e50bd50 [shape=record,label="{xmlschemas.c:14696:}"];
+	Node0x2e50bd50 -> Node0x2e50bda0;
+	Node0x2e50bda0 [shape=record,label="{xmlschemas.c:14313:}"];
+	Node0x2e50bda0 -> Node0x2e50bdf0;
+	Node0x2e50bda0 -> Node0x2e50be90;
+	Node0x2e50bdf0 [shape=record,label="{xmlschemas.c:14314:}"];
+	Node0x2e50bdf0 -> Node0x2e50be40;
+	Node0x2e50bdf0 -> Node0x2e50be90;
+	Node0x2e50be40 [shape=record,label="{xmlschemas.c:14317:}"];
+	Node0x2e50be40 -> Node0x2e50be90;
+	Node0x2e50be40 -> Node0x2e50bda0;
+	Node0x2e50be90 [shape=record,label="{xmlschemas.c:14697:}"];
+	Node0x2e50be90 -> Node0x2e50bee0;
+	Node0x2e50be90 -> Node0x2e50bf80;
+	Node0x2e50bee0 [shape=record,label="{xmlschemas.c:14704:}"];
+	Node0x2e50bee0 -> Node0x2e50bf30;
+	Node0x2e50bee0 -> Node0x2e50bc10;
+	Node0x2e50bf30 [shape=record,label="{xmlschemas.c:14706:}"];
+	Node0x2e50bf30 -> Node0x2e50bf80;
+	Node0x2e50bf30 -> Node0x2e50bbc0;
+	Node0x2e50bf80 [shape=record,label="{xmlschemas.c:14709:}"];
+}

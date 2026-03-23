@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlXPathInit' function" {
+	label="CFG for 'xmlXPathInit' function";
+
+	Node0x2fc10fb0 [shape=record,label="{xpath.c:181:}"];
+}

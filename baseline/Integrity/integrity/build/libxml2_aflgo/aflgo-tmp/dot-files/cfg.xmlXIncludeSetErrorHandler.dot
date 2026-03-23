@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlXIncludeSetErrorHandler' function" {
+	label="CFG for 'xmlXIncludeSetErrorHandler' function";
+
+	Node0xc46b890 [shape=record,label="{xinclude.c:1993:}"];
+	Node0xc46b890 -> Node0xc46b930;
+	Node0xc46b890 -> Node0xc46b8e0;
+	Node0xc46b8e0 [shape=record,label="{xinclude.c:1995:}"];
+	Node0xc46b8e0 -> Node0xc46b930;
+	Node0xc46b930 [shape=record,label="{xinclude.c:1997:}"];
+}

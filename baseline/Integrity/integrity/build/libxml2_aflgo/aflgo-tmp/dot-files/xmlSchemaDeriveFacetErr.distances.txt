@@ -1,0 +1,15 @@
+xmlschemas.c:21071,0
+xmlschemas.c:21071,0
+xmlschemas.c:21071,0
+xmlschemas.c:21071,0
+xmlschemas.c:21071,0
+xmlschemas.c:21071,0
+xmlschemas.c:16856,10
+xmlschemas.c:21071,0
+xmlschemas.c:16857,10
+xmlschemas.c:16860,10
+xmlschemas.c:16861,7.8947368421052646
+xmlschemas.c:16867,10
+xmlschemas.c:16868,10
+xmlschemas.c:16869,10
+xmlschemas.c:21071,0

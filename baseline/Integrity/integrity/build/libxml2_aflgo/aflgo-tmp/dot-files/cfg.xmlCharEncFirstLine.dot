@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlCharEncFirstLine' function" {
+	label="CFG for 'xmlCharEncFirstLine' function";
+
+	Node0x25425e10 [shape=record,label="{encoding.c:1778:}"];
+}

@@ -1,0 +1,36 @@
+digraph "CFG for 'xmlBufAddLen' function" {
+	label="CFG for 'xmlBufAddLen' function";
+
+	Node0x3f78ab20 [shape=record,label="{buf.c:394:}"];
+	Node0x3f78ab20 -> Node0x3f78af50;
+	Node0x3f78ab20 -> Node0x3f78abe0;
+	Node0x3f78abe0 [shape=record,label="{buf.c:394:1}"];
+	Node0x3f78abe0 -> Node0x3f78ac30;
+	Node0x3f78abe0 -> Node0x3f78af50;
+	Node0x3f78ac30 [shape=record,label="{buf.c:396:}"];
+	Node0x3f78ac30 -> Node0x3f78ac80;
+	Node0x3f78ac30 -> Node0x3f78acd0;
+	Node0x3f78ac80 [shape=record,label="{buf.c:396:2}"];
+	Node0x3f78ac80 -> Node0x3f78acd0;
+	Node0x3f78acd0 [shape=record,label="{buf.c:396:3}"];
+	Node0x3f78acd0 -> Node0x3f78ad20;
+	Node0x3f78acd0 -> Node0x3f78ad70;
+	Node0x3f78ad20 [shape=record,label="{buf.c:396:4}"];
+	Node0x3f78ad20 -> Node0x3f78ad70;
+	Node0x3f78ad70 [shape=record,label="{buf.c:396:5}"];
+	Node0x3f78ad70 -> Node0x3f78af50;
+	Node0x3f78ad70 -> Node0x3f78adc0;
+	Node0x3f78adc0 [shape=record,label="{buf.c:398:}"];
+	Node0x3f78adc0 -> Node0x3f78ae10;
+	Node0x3f78adc0 -> Node0x3f78ae60;
+	Node0x3f78ae10 [shape=record,label="{buf.c:398:6}"];
+	Node0x3f78ae10 -> Node0x3f78ae60;
+	Node0x3f78ae60 [shape=record,label="{buf.c:398:7}"];
+	Node0x3f78ae60 -> Node0x3f78aeb0;
+	Node0x3f78ae60 -> Node0x3f78af00;
+	Node0x3f78aeb0 [shape=record,label="{buf.c:398:8}"];
+	Node0x3f78aeb0 -> Node0x3f78af00;
+	Node0x3f78af00 [shape=record,label="{buf.c:398:9}"];
+	Node0x3f78af00 -> Node0x3f78af50;
+	Node0x3f78af50 [shape=record,label="{buf.c:401:}"];
+}

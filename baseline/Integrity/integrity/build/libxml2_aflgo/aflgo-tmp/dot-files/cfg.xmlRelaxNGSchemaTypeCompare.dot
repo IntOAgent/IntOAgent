@@ -1,0 +1,34 @@
+digraph "CFG for 'xmlRelaxNGSchemaTypeCompare' function" {
+	label="CFG for 'xmlRelaxNGSchemaTypeCompare' function";
+
+	Node0x12d228d0 [shape=record,label="{relaxng.c:2471:}"];
+	Node0x12d228d0 -> Node0x12d22cb0;
+	Node0x12d228d0 -> Node0x12d22990;
+	Node0x12d22990 [shape=record,label="{relaxng.c:2475:}"];
+	Node0x12d22990 -> Node0x12d22cb0;
+	Node0x12d22990 -> Node0x12d229e0;
+	Node0x12d229e0 [shape=record,label="{relaxng.c:2480:}"];
+	Node0x12d229e0 -> Node0x12d22a30;
+	Node0x12d229e0 -> Node0x12d22a80;
+	Node0x12d22a30 [shape=record,label="{relaxng.c:2481:}"];
+	Node0x12d22a30 -> Node0x12d22cb0;
+	Node0x12d22a30 -> Node0x12d22ad0;
+	Node0x12d22a80 [shape=record,label="{relaxng.c:2487:}"];
+	Node0x12d22a80 -> Node0x12d22ad0;
+	Node0x12d22ad0 [shape=record,label="{relaxng.c:2489:}"];
+	Node0x12d22ad0 -> Node0x12d22bc0;
+	Node0x12d22ad0 -> Node0x12d22b20;
+	Node0x12d22b20 [shape=record,label="{relaxng.c:2491:}"];
+	Node0x12d22b20 -> Node0x12d22cb0;
+	Node0x12d22b20 -> Node0x12d22b70;
+	Node0x12d22b70 [shape=record,label="{relaxng.c:2492:}"];
+	Node0x12d22b70 -> Node0x12d22cb0;
+	Node0x12d22bc0 [shape=record,label="{relaxng.c:2495:}"];
+	Node0x12d22bc0 -> Node0x12d22c60;
+	Node0x12d22bc0 -> Node0x12d22c10;
+	Node0x12d22c10 [shape=record,label="{relaxng.c:2497:}"];
+	Node0x12d22c10 -> Node0x12d22c60;
+	Node0x12d22c60 [shape=record,label="{relaxng.c:2498:}"];
+	Node0x12d22c60 -> Node0x12d22cb0;
+	Node0x12d22cb0 [shape=record,label="{relaxng.c:2504:}"];
+}

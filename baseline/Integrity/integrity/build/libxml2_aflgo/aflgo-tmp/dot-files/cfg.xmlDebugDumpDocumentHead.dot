@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlDebugDumpDocumentHead' function" {
+	label="CFG for 'xmlDebugDumpDocumentHead' function";
+
+	Node0x1d114000 [shape=record,label="{debugXML.c:1443:}"];
+}

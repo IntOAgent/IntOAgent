@@ -1,0 +1,16 @@
+digraph "CFG for 'referenceSplit' function" {
+	label="CFG for 'referenceSplit' function";
+
+	Node0x2dec48f0 [shape=record,label="{xmlschemas.c:28046:}"];
+	Node0x2dec48f0 -> Node0x2dec4a60;
+	Node0x2dec48f0 -> Node0x2dec4970;
+	Node0x2dec4970 [shape=record,label="{xmlschemas.c:28048:}"];
+	Node0x2dec4970 -> Node0x2dec4a60;
+	Node0x2dec4970 -> Node0x2dec49c0;
+	Node0x2dec49c0 [shape=record,label="{xmlschemas.c:28049:}"];
+	Node0x2dec49c0 -> Node0x2dec4a60;
+	Node0x2dec49c0 -> Node0x2dec4a10;
+	Node0x2dec4a10 [shape=record,label="{xmlschemas.c:28050:}"];
+	Node0x2dec4a10 -> Node0x2dec4a60;
+	Node0x2dec4a60 [shape=record,label="{xmlschemas.c:28053:}"];
+}

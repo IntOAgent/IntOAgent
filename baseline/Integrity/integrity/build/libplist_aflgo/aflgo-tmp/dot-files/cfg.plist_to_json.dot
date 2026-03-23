@@ -1,0 +1,44 @@
+digraph "CFG for 'plist_to_json' function" {
+	label="CFG for 'plist_to_json' function";
+
+	Node0x3d734830 [shape=record,label="{jplist.c:407:}"];
+	Node0x3d734830 -> Node0x3d734880;
+	Node0x3d734830 -> Node0x3d734ce0;
+	Node0x3d734880 [shape=record,label="{jplist.c:414:}"];
+	Node0x3d734880 -> Node0x3d734920;
+	Node0x3d734880 -> Node0x3d7348d0;
+	Node0x3d7348d0 [shape=record,label="{jplist.c:414:1}"];
+	Node0x3d7348d0 -> Node0x3d734920;
+	Node0x3d7348d0 -> Node0x3d734ce0;
+	Node0x3d734920 [shape=record,label="{jplist.c:419:}"];
+	Node0x3d734920 -> Node0x3d734ce0;
+	Node0x3d734920 -> Node0x3d734970;
+	Node0x3d734970 [shape=record,label="{jplist.c:424:}"];
+	Node0x3d734970 -> Node0x3d734c90;
+	Node0x3d734970 -> Node0x3d7349c0;
+	Node0x3d7349c0 [shape=record,label="{jplist.c:430:}"];
+	Node0x3d7349c0 -> Node0x3d734a10;
+	Node0x3d7349c0 -> Node0x3d734a60;
+	Node0x3d734a10 [shape=record,label="{jplist.c:432:}"];
+	Node0x3d734a10 -> Node0x3d734c90;
+	Node0x3d734a60 [shape=record,label="{jplist.c:437:}"];
+	Node0x3d734a60 -> Node0x3d734b00;
+	Node0x3d734a60 -> Node0x3d734ab0;
+	Node0x3d734ab0 [shape=record,label="{jplist.c:438:}"];
+	Node0x3d734ab0 -> Node0x3d734b00;
+	Node0x3d734b00 [shape=record,label="{jplist.c:441:}"];
+	Node0x3d734b00 -> Node0x3d734b50;
+	Node0x3d734b00 -> Node0x3d734ba0;
+	Node0x3d734b50 [shape=record,label="{jplist.c:444:}"];
+	Node0x3d734b50 -> Node0x3d734ba0;
+	Node0x3d734ba0 [shape=record,label="{jplist.c:444:2}"];
+	Node0x3d734ba0 -> Node0x3d734bf0;
+	Node0x3d734ba0 -> Node0x3d734c40;
+	Node0x3d734bf0 [shape=record,label="{jplist.c:444:3}"];
+	Node0x3d734bf0 -> Node0x3d734c40;
+	Node0x3d734c40 [shape=record,label="{jplist.c:444:4}"];
+	Node0x3d734c40 -> Node0x3d734c90;
+	Node0x3d734c90 [shape=record,label="{jplist.c:450:}"];
+	Node0x3d734c90 -> Node0x3d734ce0;
+	Node0x3d734ce0 [shape=record,label="{jplist.c:450:5}"];
+}

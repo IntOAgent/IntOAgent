@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlBufferContent' function" {
+	label="CFG for 'xmlBufferContent' function";
+
+	Node0x3f7d3cb0 [shape=record,label="{buf.c:932:}"];
+	Node0x3f7d3cb0 -> Node0x3f7d3d50;
+	Node0x3f7d3cb0 -> Node0x3f7d3d00;
+	Node0x3f7d3d00 [shape=record,label="{buf.c:935:}"];
+	Node0x3f7d3d00 -> Node0x3f7d3d50;
+	Node0x3f7d3d50 [shape=record,label="{buf.c:936:}"];
+}

@@ -1,0 +1,34 @@
+digraph "CFG for 'xmlRelaxNGCheckReference' function" {
+	label="CFG for 'xmlRelaxNGCheckReference' function";
+
+	Node0x12fc4f80 [shape=record,label="{relaxng.c:5471:}"];
+	Node0x12fc4f80 -> Node0x12fc51e0;
+	Node0x12fc4f80 -> Node0x12fc5500;
+	Node0x12fc51e0 [shape=record,label="{relaxng.c:5482:}"];
+	Node0x12fc51e0 -> Node0x12fc5230;
+	Node0x12fc51e0 -> Node0x12fc5280;
+	Node0x12fc5230 [shape=record,label="{relaxng.c:5484:}"];
+	Node0x12fc5230 -> Node0x12fc5500;
+	Node0x12fc5280 [shape=record,label="{relaxng.c:5489:}"];
+	Node0x12fc5280 -> Node0x12fc5320;
+	Node0x12fc5280 -> Node0x12fc52d0;
+	Node0x12fc52d0 [shape=record,label="{relaxng.c:5490:}"];
+	Node0x12fc52d0 -> Node0x12fc5500;
+	Node0x12fc5320 [shape=record,label="{relaxng.c:5495:}"];
+	Node0x12fc5320 -> Node0x12fc54b0;
+	Node0x12fc5320 -> Node0x12fc5370;
+	Node0x12fc5370 [shape=record,label="{relaxng.c:5496:}"];
+	Node0x12fc5370 -> Node0x12fc5460;
+	Node0x12fc5370 -> Node0x12fc53c0;
+	Node0x12fc53c0 [shape=record,label="{relaxng.c:5499:}"];
+	Node0x12fc53c0 -> Node0x12fc5500;
+	Node0x12fc53c0 -> Node0x12fc5410;
+	Node0x12fc5410 [shape=record,label="{relaxng.c:5500:}"];
+	Node0x12fc5410 -> Node0x12fc5500;
+	Node0x12fc5410 -> Node0x12fc5410;
+	Node0x12fc5460 [shape=record,label="{relaxng.c:5504:}"];
+	Node0x12fc5460 -> Node0x12fc5500;
+	Node0x12fc54b0 [shape=record,label="{relaxng.c:5509:}"];
+	Node0x12fc54b0 -> Node0x12fc5500;
+	Node0x12fc5500 [shape=record,label="{relaxng.c:5513:}"];
+}

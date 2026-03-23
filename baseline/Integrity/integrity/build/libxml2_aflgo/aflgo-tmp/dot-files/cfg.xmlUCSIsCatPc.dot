@@ -1,0 +1,26 @@
+digraph "CFG for 'xmlUCSIsCatPc' function" {
+	label="CFG for 'xmlUCSIsCatPc' function";
+
+	Node0x13be25c0 [shape=record,label="{unicode.inc:838:}"];
+	Node0x13be25c0 -> Node0x13be2610;
+	Node0x13be25c0 -> Node0x13be2840;
+	Node0x13be2610 [shape=record,label="{unicode.inc:842:}"];
+	Node0x13be2610 -> Node0x13be2660;
+	Node0x13be2610 -> Node0x13be26b0;
+	Node0x13be2660 [shape=record,label="{unicode.inc:842:1}"];
+	Node0x13be2660 -> Node0x13be26b0;
+	Node0x13be26b0 [shape=record,label="{unicode.inc:842:2}"];
+	Node0x13be26b0 -> Node0x13be2700;
+	Node0x13be26b0 -> Node0x13be2750;
+	Node0x13be2700 [shape=record,label="{unicode.inc:842:3}"];
+	Node0x13be2700 -> Node0x13be2750;
+	Node0x13be2750 [shape=record,label="{unicode.inc:842:4}"];
+	Node0x13be2750 -> Node0x13be2840;
+	Node0x13be2750 -> Node0x13be27a0;
+	Node0x13be27a0 [shape=record,label="{unicode.inc:843:}"];
+	Node0x13be27a0 -> Node0x13be27f0;
+	Node0x13be27a0 -> Node0x13be2840;
+	Node0x13be27f0 [shape=record,label="{unicode.inc:845:}"];
+	Node0x13be27f0 -> Node0x13be2840;
+	Node0x13be2840 [shape=record,label="{unicode.inc:838:5}"];
+}

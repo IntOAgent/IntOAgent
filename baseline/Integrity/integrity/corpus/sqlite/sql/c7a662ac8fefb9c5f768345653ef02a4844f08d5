@@ -1,0 +1,1 @@
+WITH RECURSIVE ct(x) AS (SELECT 1 ) SELECT sum(x) FROM cnthello$;

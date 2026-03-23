@@ -1,0 +1,21 @@
+digraph "CFG for 'xmlFreeCatalog' function" {
+	label="CFG for 'xmlFreeCatalog' function";
+
+	Node0x5d58fb0 [shape=record,label="{catalog.c:431:}"];
+	Node0x5d58fb0 -> Node0x5db6390;
+	Node0x5d58fb0 -> Node0x5db6200;
+	Node0x5db6200 [shape=record,label="{catalog.c:433:}"];
+	Node0x5db6200 -> Node0x5db62a0;
+	Node0x5db6200 -> Node0x5db6250;
+	Node0x5db6250 [shape=record,label="{catalog.c:359:}"];
+	Node0x5db6250 -> Node0x5db62a0;
+	Node0x5db6250 -> Node0x5db6250;
+	Node0x5db62a0 [shape=record,label="{catalog.c:436:}"];
+	Node0x5db62a0 -> Node0x5db6340;
+	Node0x5db62a0 -> Node0x5db62f0;
+	Node0x5db62f0 [shape=record,label="{catalog.c:437:}"];
+	Node0x5db62f0 -> Node0x5db6340;
+	Node0x5db6340 [shape=record,label="{catalog.c:439:}"];
+	Node0x5db6340 -> Node0x5db6390;
+	Node0x5db6390 [shape=record,label="{catalog.c:440:}"];
+}

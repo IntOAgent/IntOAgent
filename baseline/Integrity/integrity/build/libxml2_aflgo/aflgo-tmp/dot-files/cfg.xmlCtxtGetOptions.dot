@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtGetOptions' function" {
+	label="CFG for 'xmlCtxtGetOptions' function";
+
+	Node0x27161bc0 [shape=record,label="{parser.c:13235:}"];
+	Node0x27161bc0 -> Node0x27161c60;
+	Node0x27161bc0 -> Node0x27161c10;
+	Node0x27161c10 [shape=record,label="{parser.c:13238:}"];
+	Node0x27161c10 -> Node0x27161c60;
+	Node0x27161c60 [shape=record,label="{parser.c:13239:}"];
+}

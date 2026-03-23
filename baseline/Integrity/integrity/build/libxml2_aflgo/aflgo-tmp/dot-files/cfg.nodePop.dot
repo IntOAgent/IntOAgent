@@ -1,0 +1,38 @@
+digraph "CFG for 'nodePop' function" {
+	label="CFG for 'nodePop' function";
+
+	Node0x26a48dd0 [shape=record,label="{parser.c:2034:}"];
+	Node0x26a48dd0 -> Node0x26a49be0;
+	Node0x26a48dd0 -> Node0x26a49820;
+	Node0x26a49820 [shape=record,label="{parser.c:2035:}"];
+	Node0x26a49820 -> Node0x26a49be0;
+	Node0x26a49820 -> Node0x26a49870;
+	Node0x26a49870 [shape=record,label="{parser.c:2037:}"];
+	Node0x26a49870 -> Node0x26a498c0;
+	Node0x26a49870 -> Node0x26a49910;
+	Node0x26a498c0 [shape=record,label="{parser.c:2037:1}"];
+	Node0x26a498c0 -> Node0x26a49910;
+	Node0x26a49910 [shape=record,label="{parser.c:2037:2}"];
+	Node0x26a49910 -> Node0x26a49960;
+	Node0x26a49910 -> Node0x26a499b0;
+	Node0x26a49960 [shape=record,label="{parser.c:2037:3}"];
+	Node0x26a49960 -> Node0x26a499b0;
+	Node0x26a499b0 [shape=record,label="{parser.c:2037:4}"];
+	Node0x26a499b0 -> Node0x26a49b90;
+	Node0x26a499b0 -> Node0x26a49a00;
+	Node0x26a49a00 [shape=record,label="{parser.c:2039:}"];
+	Node0x26a49a00 -> Node0x26a49a50;
+	Node0x26a49a00 -> Node0x26a49aa0;
+	Node0x26a49a50 [shape=record,label="{%14}"];
+	Node0x26a49a50 -> Node0x26a49aa0;
+	Node0x26a49aa0 [shape=record,label="{%17}"];
+	Node0x26a49aa0 -> Node0x26a49af0;
+	Node0x26a49aa0 -> Node0x26a49b40;
+	Node0x26a49af0 [shape=record,label="{%18}"];
+	Node0x26a49af0 -> Node0x26a49b40;
+	Node0x26a49b40 [shape=record,label="{parser.c:2039:5}"];
+	Node0x26a49b40 -> Node0x26a49b90;
+	Node0x26a49b90 [shape=record,label="{parser.c:2042:}"];
+	Node0x26a49b90 -> Node0x26a49be0;
+	Node0x26a49be0 [shape=record,label="{parser.c:2045:}"];
+}

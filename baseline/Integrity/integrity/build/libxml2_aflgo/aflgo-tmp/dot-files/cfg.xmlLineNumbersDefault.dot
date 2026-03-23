@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlLineNumbersDefault' function" {
+	label="CFG for 'xmlLineNumbersDefault' function";
+
+	Node0x8db4d70 [shape=record,label="{parserInternals.c:3708:}"];
+}

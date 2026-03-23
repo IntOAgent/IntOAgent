@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlNewPI' function" {
+	label="CFG for 'xmlNewPI' function";
+
+	Node0x3718cd20 [shape=record,label="{tree.c:1803:}"];
+}

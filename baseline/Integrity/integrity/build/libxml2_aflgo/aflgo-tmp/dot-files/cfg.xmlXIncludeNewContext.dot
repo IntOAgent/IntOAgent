@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlXIncludeNewContext' function" {
+	label="CFG for 'xmlXIncludeNewContext' function";
+
+	Node0xc3e50f0 [shape=record,label="{xinclude.c:261:}"];
+	Node0xc3e50f0 -> Node0xc467690;
+	Node0xc3e50f0 -> Node0xc414160;
+	Node0xc414160 [shape=record,label="{xinclude.c:263:}"];
+	Node0xc414160 -> Node0xc467690;
+	Node0xc414160 -> Node0xc467640;
+	Node0xc467640 [shape=record,label="{xinclude.c:263:1}"];
+	Node0xc467640 -> Node0xc467690;
+	Node0xc467690 [shape=record,label="{xinclude.c:273:}"];
+}

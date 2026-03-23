@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlInitRMutex' function" {
+	label="CFG for 'xmlInitRMutex' function";
+
+	Node0x22936fe0 [shape=record,label="{threads.c:166:}"];
+}

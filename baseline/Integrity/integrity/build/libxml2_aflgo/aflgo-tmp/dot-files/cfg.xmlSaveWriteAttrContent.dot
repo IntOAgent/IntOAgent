@@ -1,0 +1,21 @@
+digraph "CFG for 'xmlSaveWriteAttrContent' function" {
+	label="CFG for 'xmlSaveWriteAttrContent' function";
+
+	Node0x26472440 [shape=record,label="{xmlsave.c:243:}"];
+	Node0x26472440 -> Node0x26472be0;
+	Node0x26472440 -> Node0x26472a50;
+	Node0x26472a50 [shape=record,label="{xmlsave.c:246:}"];
+	Node0x26472a50 -> Node0x26472aa0;
+	Node0x26472aa0 [shape=record,label="{xmlsave.c:247:}"];
+	Node0x26472aa0 -> Node0x26472b90;
+	Node0x26472aa0 -> Node0x26472af0;
+	Node0x26472aa0 -> Node0x26472b40;
+	Node0x26472af0 [shape=record,label="{xmlsave.c:249:}"];
+	Node0x26472af0 -> Node0x26472b90;
+	Node0x26472b40 [shape=record,label="{xmlsave.c:252:}"];
+	Node0x26472b40 -> Node0x26472b90;
+	Node0x26472b90 [shape=record,label="{xmlsave.c:260:}"];
+	Node0x26472b90 -> Node0x26472be0;
+	Node0x26472b90 -> Node0x26472aa0;
+	Node0x26472be0 [shape=record,label="{xmlsave.c:262:}"];
+}

@@ -1,0 +1,31 @@
+digraph "CFG for 'xmlRegisterCharEncodingHandler' function" {
+	label="CFG for 'xmlRegisterCharEncodingHandler' function";
+
+	Node0x253e67b0 [shape=record,label="{encoding.c:871:}"];
+	Node0x253e67b0 -> Node0x253cba60;
+	Node0x253e67b0 -> Node0x253cb790;
+	Node0x253cb790 [shape=record,label="{encoding.c:873:}"];
+	Node0x253cb790 -> Node0x253cb7e0;
+	Node0x253cb790 -> Node0x253cb830;
+	Node0x253cb7e0 [shape=record,label="{encoding.c:874:}"];
+	Node0x253cb7e0 -> Node0x253cb970;
+	Node0x253cb7e0 -> Node0x253cb880;
+	Node0x253cb830 [shape=record,label="{encoding.c:880:}"];
+	Node0x253cb830 -> Node0x253cb970;
+	Node0x253cb830 -> Node0x253cb880;
+	Node0x253cb880 [shape=record,label="{encoding.c:882:}"];
+	Node0x253cb880 -> Node0x253cb8d0;
+	Node0x253cb880 -> Node0x253cb920;
+	Node0x253cb8d0 [shape=record,label="{encoding.c:882:1}"];
+	Node0x253cb8d0 -> Node0x253cb920;
+	Node0x253cb920 [shape=record,label="{encoding.c:882:2}"];
+	Node0x253cb920 -> Node0x253cba60;
+	Node0x253cb970 [shape=record,label="{encoding.c:885:}"];
+	Node0x253cb970 -> Node0x253cba10;
+	Node0x253cb970 -> Node0x253cb9c0;
+	Node0x253cb9c0 [shape=record,label="{encoding.c:888:}"];
+	Node0x253cb9c0 -> Node0x253cba10;
+	Node0x253cba10 [shape=record,label="{encoding.c:890:}"];
+	Node0x253cba10 -> Node0x253cba60;
+	Node0x253cba60 [shape=record,label="{encoding.c:892:}"];
+}

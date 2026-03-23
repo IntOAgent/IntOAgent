@@ -1,0 +1,16 @@
+digraph "CFG for 'plist_get_data_ptr' function" {
+	label="CFG for 'plist_get_data_ptr' function";
+
+	Node0x215f35b0 [shape=record,label="{plist.c:1376:}"];
+	Node0x215f35b0 -> Node0x215f3630;
+	Node0x215f35b0 -> Node0x215f3720;
+	Node0x215f3630 [shape=record,label="{plist.c:356:}"];
+	Node0x215f3630 -> Node0x215f3720;
+	Node0x215f3630 -> Node0x215f3680;
+	Node0x215f3680 [shape=record,label="{plist.c:1265:}"];
+	Node0x215f3680 -> Node0x215f36d0;
+	Node0x215f3680 -> Node0x215f3720;
+	Node0x215f36d0 [shape=record,label="{plist.c:356:1}"];
+	Node0x215f36d0 -> Node0x215f3720;
+	Node0x215f3720 [shape=record,label="{plist.c:1384:}"];
+}

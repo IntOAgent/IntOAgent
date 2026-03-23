@@ -1,0 +1,48 @@
+digraph "CFG for 'xmlScanName' function" {
+	label="CFG for 'xmlScanName' function";
+
+	Node0x26a94780 [shape=record,label="{parser.c:3052:}"];
+	Node0x26a94780 -> Node0x26a94860;
+	Node0x26a94860 [shape=record,label="{parser.c:3056:}"];
+	Node0x26a94860 -> Node0x26a948b0;
+	Node0x26a94860 -> Node0x26a94950;
+	Node0x26a948b0 [shape=record,label="{parser.c:3060:}"];
+	Node0x26a948b0 -> Node0x26a94c70;
+	Node0x26a948b0 -> Node0x26a94900;
+	Node0x26a94900 [shape=record,label="{parser.c:3062:}"];
+	Node0x26a94900 -> Node0x26a949a0;
+	Node0x26a94950 [shape=record,label="{parser.c:3064:}"];
+	Node0x26a94950 -> Node0x26a94c70;
+	Node0x26a94950 -> Node0x26a949a0;
+	Node0x26a949a0 [shape=record,label="{parser.c:3070:}"];
+	Node0x26a949a0 -> Node0x26a94a40;
+	Node0x26a949a0 -> Node0x26a949f0;
+	Node0x26a949f0 [shape=record,label="{parser.c:3071:}"];
+	Node0x26a949f0 -> Node0x26a94c70;
+	Node0x26a949f0 -> Node0x26a94a90;
+	Node0x26a94a40 [shape=record,label="{parser.c:3072:}"];
+	Node0x26a94a40 -> Node0x26a94c70;
+	Node0x26a94a40 -> Node0x26a94a90;
+	Node0x26a94a90 [shape=record,label="{parser.c:3075:}"];
+	Node0x26a94a90 -> Node0x26a94c70;
+	Node0x26a94a90 -> Node0x26a94ae0;
+	Node0x26a94ae0 [shape=record,label="{parser.c:3077:}"];
+	Node0x26a94ae0 -> Node0x26a94b30;
+	Node0x26a94ae0 -> Node0x26a94b80;
+	Node0x26a94b30 [shape=record,label="{%31}"];
+	Node0x26a94b30 -> Node0x26a94b80;
+	Node0x26a94b80 [shape=record,label="{%34}"];
+	Node0x26a94b80 -> Node0x26a94bd0;
+	Node0x26a94b80 -> Node0x26a94c20;
+	Node0x26a94bd0 [shape=record,label="{%35}"];
+	Node0x26a94bd0 -> Node0x26a94c20;
+	Node0x26a94c20 [shape=record,label="{parser.c:3080:}"];
+	Node0x26a94c20 -> Node0x26a94c70;
+	Node0x26a94c70 [shape=record,label="{parser.c:3080:1}"];
+	Node0x26a94c70 -> Node0x26a94d10;
+	Node0x26a94c70 -> Node0x26a94860;
+	Node0x26a94c70 -> Node0x26a94cc0;
+	Node0x26a94cc0 [shape=record,label="{parser.c:3083:}"];
+	Node0x26a94cc0 -> Node0x26a94d10;
+	Node0x26a94d10 [shape=record,label="{parser.c:3083:2}"];
+}

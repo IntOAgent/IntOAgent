@@ -1,0 +1,23 @@
+digraph "CFG for 'node_insert' function" {
+	label="CFG for 'node_insert' function";
+
+	Node0x40e5000 [shape=record,label="{node.c:104:}"];
+	Node0x40e5000 -> Node0x40e51d0;
+	Node0x40e5000 -> Node0x40e53b0;
+	Node0x40e51d0 [shape=record,label="{node.c:105:}"];
+	Node0x40e51d0 -> Node0x40e5220;
+	Node0x40e51d0 -> Node0x40e5270;
+	Node0x40e5220 [shape=record,label="{node.c:107:}"];
+	Node0x40e5220 -> Node0x40e5270;
+	Node0x40e5270 [shape=record,label="{node.c:109:}"];
+	Node0x40e5270 -> Node0x40e52c0;
+	Node0x40e5270 -> Node0x40e53b0;
+	Node0x40e52c0 [shape=record,label="{node.c:111:}"];
+	Node0x40e52c0 -> Node0x40e5310;
+	Node0x40e52c0 -> Node0x40e5360;
+	Node0x40e5310 [shape=record,label="{node.c:111:1}"];
+	Node0x40e5310 -> Node0x40e5360;
+	Node0x40e5360 [shape=record,label="{node.c:111:2}"];
+	Node0x40e5360 -> Node0x40e53b0;
+	Node0x40e53b0 [shape=record,label="{node.c:114:}"];
+}

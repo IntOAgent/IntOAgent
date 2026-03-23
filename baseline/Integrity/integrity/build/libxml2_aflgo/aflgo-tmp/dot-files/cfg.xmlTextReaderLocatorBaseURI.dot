@@ -1,0 +1,36 @@
+digraph "CFG for 'xmlTextReaderLocatorBaseURI' function" {
+	label="CFG for 'xmlTextReaderLocatorBaseURI' function";
+
+	Node0x22be8710 [shape=record,label="{xmlreader.c:4493:}"];
+	Node0x22be8710 -> Node0x22be8c10;
+	Node0x22be8710 -> Node0x22be88a0;
+	Node0x22be88a0 [shape=record,label="{xmlreader.c:4495:}"];
+	Node0x22be88a0 -> Node0x22be8940;
+	Node0x22be88a0 -> Node0x22be88f0;
+	Node0x22be88f0 [shape=record,label="{xmlreader.c:4496:}"];
+	Node0x22be88f0 -> Node0x22be8c10;
+	Node0x22be8940 [shape=record,label="{xmlreader.c:4501:}"];
+	Node0x22be8940 -> Node0x22be8990;
+	Node0x22be8940 -> Node0x22be8b70;
+	Node0x22be8990 [shape=record,label="{xmlreader.c:4502:}"];
+	Node0x22be8990 -> Node0x22be89e0;
+	Node0x22be8990 -> Node0x22be8b70;
+	Node0x22be89e0 [shape=record,label="{xmlreader.c:4503:}"];
+	Node0x22be89e0 -> Node0x22be8a30;
+	Node0x22be89e0 -> Node0x22be8a80;
+	Node0x22be8a30 [shape=record,label="{%21}"];
+	Node0x22be8a30 -> Node0x22be8a80;
+	Node0x22be8a80 [shape=record,label="{%24}"];
+	Node0x22be8a80 -> Node0x22be8ad0;
+	Node0x22be8a80 -> Node0x22be8b20;
+	Node0x22be8ad0 [shape=record,label="{%25}"];
+	Node0x22be8ad0 -> Node0x22be8b20;
+	Node0x22be8b20 [shape=record,label="{xmlreader.c:4503:1}"];
+	Node0x22be8b20 -> Node0x22be8b70;
+	Node0x22be8b70 [shape=record,label="{xmlreader.c:4504:}"];
+	Node0x22be8b70 -> Node0x22be8c10;
+	Node0x22be8b70 -> Node0x22be8bc0;
+	Node0x22be8bc0 [shape=record,label="{xmlreader.c:4505:}"];
+	Node0x22be8bc0 -> Node0x22be8c10;
+	Node0x22be8c10 [shape=record,label="{xmlreader.c:4513:}"];
+}

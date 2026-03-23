@@ -1,0 +1,6 @@
+ptrarray.c:67,6.2091210465012097
+ptrarray.c:68,5.1574012056262566
+ptrarray.c:69,4.0747927324043047
+ptrarray.c:70,3
+ptrarray.c:72,0
+ptrarray.c:74,0

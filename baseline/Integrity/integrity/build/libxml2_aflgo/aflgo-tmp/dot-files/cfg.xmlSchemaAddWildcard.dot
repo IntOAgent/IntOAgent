@@ -1,0 +1,28 @@
+digraph "CFG for 'xmlSchemaAddWildcard' function" {
+	label="CFG for 'xmlSchemaAddWildcard' function";
+
+	Node0x2dacf990 [shape=record,label="{xmlschemas.c:5432:}"];
+	Node0x2dacf990 -> Node0x2dacfcc0;
+	Node0x2dacf990 -> Node0x2dacfa40;
+	Node0x2dacfa40 [shape=record,label="{xmlschemas.c:5435:}"];
+	Node0x2dacfa40 -> Node0x2dacfa90;
+	Node0x2dacfa40 -> Node0x2dacfb80;
+	Node0x2dacfa90 [shape=record,label="{xmlschemas.c:1856:}"];
+	Node0x2dacfa90 -> Node0x2dacfae0;
+	Node0x2dacfa90 -> Node0x2dacfb30;
+	Node0x2dacfae0 [shape=record,label="{xmlschemas.c:1856:1}"];
+	Node0x2dacfae0 -> Node0x2dacfb30;
+	Node0x2dacfb30 [shape=record,label="{xmlschemas.c:1856:2}"];
+	Node0x2dacfb30 -> Node0x2dacfcc0;
+	Node0x2dacfb80 [shape=record,label="{xmlschemas.c:5435:3}"];
+	Node0x2dacfb80 -> Node0x2dacfbd0;
+	Node0x2dacfb80 -> Node0x2dacfcc0;
+	Node0x2dacfbd0 [shape=record,label="{xmlschemas.c:1856:4}"];
+	Node0x2dacfbd0 -> Node0x2dacfc20;
+	Node0x2dacfbd0 -> Node0x2dacfc70;
+	Node0x2dacfc20 [shape=record,label="{xmlschemas.c:1856:5}"];
+	Node0x2dacfc20 -> Node0x2dacfc70;
+	Node0x2dacfc70 [shape=record,label="{xmlschemas.c:1856:6}"];
+	Node0x2dacfc70 -> Node0x2dacfcc0;
+	Node0x2dacfcc0 [shape=record,label="{xmlschemas.c:5445:}"];
+}

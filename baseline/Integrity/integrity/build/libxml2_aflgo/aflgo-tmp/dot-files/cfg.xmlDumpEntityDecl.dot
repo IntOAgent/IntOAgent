@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlDumpEntityDecl' function" {
+	label="CFG for 'xmlDumpEntityDecl' function";
+
+	Node0x15192a70 [shape=record,label="{entities.c:675:}"];
+	Node0x15192a70 -> Node0x15192b90;
+	Node0x15192a70 -> Node0x15192af0;
+	Node0x15192af0 [shape=record,label="{entities.c:678:}"];
+	Node0x15192af0 -> Node0x15192b90;
+	Node0x15192af0 -> Node0x15192b40;
+	Node0x15192b40 [shape=record,label="{entities.c:681:}"];
+	Node0x15192b40 -> Node0x15192b90;
+	Node0x15192b90 [shape=record,label="{entities.c:682:}"];
+}

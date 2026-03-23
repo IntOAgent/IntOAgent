@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSchemaCompareValues' function" {
+	label="CFG for 'xmlSchemaCompareValues' function";
+
+	Node0xc96bd0 [shape=record,label="{xmlschemastypes.c:5086:}"];
+	Node0xc96bd0 -> Node0xc96c70;
+	Node0xc96bd0 -> Node0xc96c20;
+	Node0xc96c20 [shape=record,label="{xmlschemastypes.c:5088:}"];
+	Node0xc96c20 -> Node0xc96c70;
+	Node0xc96c70 [shape=record,label="{xmlschemastypes.c:5104:}"];
+}

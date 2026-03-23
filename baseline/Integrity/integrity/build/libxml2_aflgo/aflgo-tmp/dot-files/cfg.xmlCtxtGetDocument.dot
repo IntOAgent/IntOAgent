@@ -1,0 +1,31 @@
+digraph "CFG for 'xmlCtxtGetDocument' function" {
+	label="CFG for 'xmlCtxtGetDocument' function";
+
+	Node0x8e6e720 [shape=record,label="{parserInternals.c:3219:}"];
+	Node0x8e6e720 -> Node0x8e6eaa0;
+	Node0x8e6e720 -> Node0x8e6e7d0;
+	Node0x8e6e7d0 [shape=record,label="{parserInternals.c:3222:}"];
+	Node0x8e6e7d0 -> Node0x8e6e820;
+	Node0x8e6e7d0 -> Node0x8e6e910;
+	Node0x8e6e820 [shape=record,label="{parserInternals.c:3223:}"];
+	Node0x8e6e820 -> Node0x8e6e870;
+	Node0x8e6e820 -> Node0x8e6e8c0;
+	Node0x8e6e870 [shape=record,label="{parserInternals.c:3223:1}"];
+	Node0x8e6e870 -> Node0x8e6e960;
+	Node0x8e6e870 -> Node0x8e6e8c0;
+	Node0x8e6e8c0 [shape=record,label="{parserInternals.c:272:}"];
+	Node0x8e6e8c0 -> Node0x8e6e910;
+	Node0x8e6e8c0 -> Node0x8e6e960;
+	Node0x8e6e910 [shape=record,label="{parserInternals.c:3225:}"];
+	Node0x8e6e910 -> Node0x8e6ea50;
+	Node0x8e6e960 [shape=record,label="{parserInternals.c:3227:}"];
+	Node0x8e6e960 -> Node0x8e6e9b0;
+	Node0x8e6e960 -> Node0x8e6ea00;
+	Node0x8e6e9b0 [shape=record,label="{parserInternals.c:486:}"];
+	Node0x8e6e9b0 -> Node0x8e6ea00;
+	Node0x8e6ea00 [shape=record,label="{parserInternals.c:3230:}"];
+	Node0x8e6ea00 -> Node0x8e6ea50;
+	Node0x8e6ea50 [shape=record,label="{parserInternals.c:3232:}"];
+	Node0x8e6ea50 -> Node0x8e6eaa0;
+	Node0x8e6eaa0 [shape=record,label="{parserInternals.c:3235:}"];
+}

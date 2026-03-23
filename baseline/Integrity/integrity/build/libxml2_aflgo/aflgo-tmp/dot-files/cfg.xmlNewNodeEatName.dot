@@ -1,0 +1,24 @@
+digraph "CFG for 'xmlNewNodeEatName' function" {
+	label="CFG for 'xmlNewNodeEatName' function";
+
+	Node0x37196fe0 [shape=record,label="{tree.c:1947:}"];
+	Node0x37196fe0 -> Node0x37197210;
+	Node0x37196fe0 -> Node0x37197030;
+	Node0x37197030 [shape=record,label="{tree.c:1845:}"];
+	Node0x37197030 -> Node0x37197170;
+	Node0x37197030 -> Node0x37197080;
+	Node0x37197080 [shape=record,label="{tree.c:1848:}"];
+	Node0x37197080 -> Node0x37197170;
+	Node0x37197080 -> Node0x371970d0;
+	Node0x371970d0 [shape=record,label="{tree.c:1868:}"];
+	Node0x371970d0 -> Node0x37197170;
+	Node0x371970d0 -> Node0x37197120;
+	Node0x37197120 [shape=record,label="{tree.c:1869:}"];
+	Node0x37197120 -> Node0x37197170;
+	Node0x37197170 [shape=record,label="{tree.c:1951:}"];
+	Node0x37197170 -> Node0x371971c0;
+	Node0x37197170 -> Node0x37197210;
+	Node0x371971c0 [shape=record,label="{tree.c:1956:}"];
+	Node0x371971c0 -> Node0x37197210;
+	Node0x37197210 [shape=record,label="{tree.c:1837:}"];
+}

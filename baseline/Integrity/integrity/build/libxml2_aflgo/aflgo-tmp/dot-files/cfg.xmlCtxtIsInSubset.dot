@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtIsInSubset' function" {
+	label="CFG for 'xmlCtxtIsInSubset' function";
+
+	Node0x8e74910 [shape=record,label="{parserInternals.c:3288:}"];
+	Node0x8e74910 -> Node0x8e749b0;
+	Node0x8e74910 -> Node0x8e74960;
+	Node0x8e74960 [shape=record,label="{parserInternals.c:3291:}"];
+	Node0x8e74960 -> Node0x8e749b0;
+	Node0x8e749b0 [shape=record,label="{parserInternals.c:3292:}"];
+}

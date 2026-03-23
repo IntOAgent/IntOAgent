@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlTextReaderIsDefault' function" {
+	label="CFG for 'xmlTextReaderIsDefault' function";
+
+	Node0x22baf5f0 [shape=record,label="{xmlreader.c:3560:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlRelaxNGSetParserErrors' function" {
+	label="CFG for 'xmlRelaxNGSetParserErrors' function";
+
+	Node0x12dc6af0 [shape=record,label="{relaxng.c:7400:}"];
+	Node0x12dc6af0 -> Node0x12dc6b90;
+	Node0x12dc6af0 -> Node0x12dc6b40;
+	Node0x12dc6b40 [shape=record,label="{relaxng.c:7402:}"];
+	Node0x12dc6b40 -> Node0x12dc6b90;
+	Node0x12dc6b90 [shape=record,label="{relaxng.c:7406:}"];
+}

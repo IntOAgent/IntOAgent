@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtGetSaxHandler' function" {
+	label="CFG for 'xmlCtxtGetSaxHandler' function";
+
+	Node0x8e6c820 [shape=record,label="{parserInternals.c:3174:}"];
+	Node0x8e6c820 -> Node0x8e6c8c0;
+	Node0x8e6c820 -> Node0x8e6c870;
+	Node0x8e6c870 [shape=record,label="{parserInternals.c:3177:}"];
+	Node0x8e6c870 -> Node0x8e6c8c0;
+	Node0x8e6c8c0 [shape=record,label="{parserInternals.c:3178:}"];
+}

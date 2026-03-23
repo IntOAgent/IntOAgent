@@ -1,0 +1,5 @@
+digraph "CFG for '__xmlKeepBlanksDefaultValue' function" {
+	label="CFG for '__xmlKeepBlanksDefaultValue' function";
+
+	Node0x1305670 [shape=record,label="{globals.c:622:}"];
+}

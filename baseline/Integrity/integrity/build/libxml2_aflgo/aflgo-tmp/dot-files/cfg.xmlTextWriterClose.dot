@@ -1,0 +1,23 @@
+digraph "CFG for 'xmlTextWriterClose' function" {
+	label="CFG for 'xmlTextWriterClose' function";
+
+	Node0x2d6a90e0 [shape=record,label="{xmlwriter.c:4087:}"];
+	Node0x2d6a90e0 -> Node0x2d6a9310;
+	Node0x2d6a90e0 -> Node0x2d6a9130;
+	Node0x2d6a9130 [shape=record,label="{xmlwriter.c:4087:1}"];
+	Node0x2d6a9130 -> Node0x2d6a9310;
+	Node0x2d6a9130 -> Node0x2d6a9180;
+	Node0x2d6a9180 [shape=record,label="{xmlwriter.c:4090:}"];
+	Node0x2d6a9180 -> Node0x2d6a91d0;
+	Node0x2d6a9180 -> Node0x2d6a9220;
+	Node0x2d6a91d0 [shape=record,label="{xmlwriter.c:4093:}"];
+	Node0x2d6a91d0 -> Node0x2d6a9220;
+	Node0x2d6a9220 [shape=record,label="{xmlwriter.c:4093:2}"];
+	Node0x2d6a9220 -> Node0x2d6a9270;
+	Node0x2d6a9220 -> Node0x2d6a92c0;
+	Node0x2d6a9270 [shape=record,label="{xmlwriter.c:4093:3}"];
+	Node0x2d6a9270 -> Node0x2d6a92c0;
+	Node0x2d6a92c0 [shape=record,label="{xmlwriter.c:4093:4}"];
+	Node0x2d6a92c0 -> Node0x2d6a9310;
+	Node0x2d6a9310 [shape=record,label="{xmlwriter.c:4099:}"];
+}

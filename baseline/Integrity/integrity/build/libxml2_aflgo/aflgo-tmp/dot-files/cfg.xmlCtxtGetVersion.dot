@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtGetVersion' function" {
+	label="CFG for 'xmlCtxtGetVersion' function";
+
+	Node0x26fe1b40 [shape=record,label="{parser.c:10304:}"];
+	Node0x26fe1b40 -> Node0x26fe20c0;
+	Node0x26fe1b40 -> Node0x26fe2070;
+	Node0x26fe2070 [shape=record,label="{parser.c:10307:}"];
+	Node0x26fe2070 -> Node0x26fe20c0;
+	Node0x26fe20c0 [shape=record,label="{parser.c:10308:}"];
+}

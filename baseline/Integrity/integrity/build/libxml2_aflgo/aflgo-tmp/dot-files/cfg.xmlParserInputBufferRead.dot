@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlParserInputBufferRead' function" {
+	label="CFG for 'xmlParserInputBufferRead' function";
+
+	Node0x97e7be0 [shape=record,label="{xmlIO.c:2371:}"];
+}

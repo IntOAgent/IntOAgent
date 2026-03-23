@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlInitMemory' function" {
+	label="CFG for 'xmlInitMemory' function";
+
+	Node0x3023d3b0 [shape=record,label="{xmlmemory.c:360:}"];
+}

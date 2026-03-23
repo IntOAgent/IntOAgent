@@ -1,0 +1,11 @@
+digraph "CFG for 'xmlFreeEnumeration' function" {
+	label="CFG for 'xmlFreeEnumeration' function";
+
+	Node0x37c97ea0 [shape=record,label="{valid.c:1439:}"];
+	Node0x37c97ea0 -> Node0x37c97f40;
+	Node0x37c97ea0 -> Node0x37c97ef0;
+	Node0x37c97ef0 [shape=record,label="{valid.c:1440:}"];
+	Node0x37c97ef0 -> Node0x37c97f40;
+	Node0x37c97ef0 -> Node0x37c97ef0;
+	Node0x37c97f40 [shape=record,label="{valid.c:1447:}"];
+}

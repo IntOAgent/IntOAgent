@@ -1,0 +1,37 @@
+digraph "CFG for 'xmlRelaxReadFile' function" {
+	label="CFG for 'xmlRelaxReadFile' function";
+
+	Node0x12d70650 [shape=record,label="{relaxng.c:1358:}"];
+	Node0x12d70650 -> Node0x12d70870;
+	Node0x12d70650 -> Node0x12d70aa0;
+	Node0x12d70870 [shape=record,label="{relaxng.c:402:}"];
+	Node0x12d70870 -> Node0x12d70a50;
+	Node0x12d70870 -> Node0x12d708c0;
+	Node0x12d708c0 [shape=record,label="{relaxng.c:403:}"];
+	Node0x12d708c0 -> Node0x12d70910;
+	Node0x12d708c0 -> Node0x12d70960;
+	Node0x12d70910 [shape=record,label="{relaxng.c:406:}"];
+	Node0x12d70910 -> Node0x12d70960;
+	Node0x12d70960 [shape=record,label="{relaxng.c:407:}"];
+	Node0x12d70960 -> Node0x12d709b0;
+	Node0x12d70960 -> Node0x12d70a00;
+	Node0x12d709b0 [shape=record,label="{relaxng.c:408:}"];
+	Node0x12d709b0 -> Node0x12d70a00;
+	Node0x12d70a00 [shape=record,label="{relaxng.c:408:1}"];
+	Node0x12d70a00 -> Node0x12d70a50;
+	Node0x12d70a50 [shape=record,label="{relaxng.c:399:}"];
+	Node0x12d70a50 -> Node0x12d70c30;
+	Node0x12d70aa0 [shape=record,label="{relaxng.c:1363:}"];
+	Node0x12d70aa0 -> Node0x12d70b40;
+	Node0x12d70aa0 -> Node0x12d70af0;
+	Node0x12d70af0 [shape=record,label="{relaxng.c:1364:}"];
+	Node0x12d70af0 -> Node0x12d70b40;
+	Node0x12d70b40 [shape=record,label="{relaxng.c:1365:}"];
+	Node0x12d70b40 -> Node0x12d70be0;
+	Node0x12d70b40 -> Node0x12d70b90;
+	Node0x12d70b90 [shape=record,label="{relaxng.c:1367:}"];
+	Node0x12d70b90 -> Node0x12d70be0;
+	Node0x12d70be0 [shape=record,label="{relaxng.c:1368:}"];
+	Node0x12d70be0 -> Node0x12d70c30;
+	Node0x12d70c30 [shape=record,label="{relaxng.c:1372:}"];
+}

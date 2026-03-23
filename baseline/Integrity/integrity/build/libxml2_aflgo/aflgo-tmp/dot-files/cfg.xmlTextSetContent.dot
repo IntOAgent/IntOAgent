@@ -1,0 +1,19 @@
+digraph "CFG for 'xmlTextSetContent' function" {
+	label="CFG for 'xmlTextSetContent' function";
+
+	Node0x374886e0 [shape=record,label="{tree.c:2718:}"];
+	Node0x374886e0 -> Node0x374892f0;
+	Node0x374886e0 -> Node0x374891b0;
+	Node0x374891b0 [shape=record,label="{tree.c:2720:}"];
+	Node0x374891b0 -> Node0x374892a0;
+	Node0x374891b0 -> Node0x37489200;
+	Node0x37489200 [shape=record,label="{tree.c:2723:}"];
+	Node0x37489200 -> Node0x374892a0;
+	Node0x37489200 -> Node0x37489250;
+	Node0x37489250 [shape=record,label="{tree.c:2724:}"];
+	Node0x37489250 -> Node0x374892a0;
+	Node0x37489250 -> Node0x374892f0;
+	Node0x374892a0 [shape=record,label="{tree.c:2725:}"];
+	Node0x374892a0 -> Node0x374892f0;
+	Node0x374892f0 [shape=record,label="{tree.c:2728:}"];
+}

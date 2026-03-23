@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlMemSize' function" {
+	label="CFG for 'xmlMemSize' function";
+
+	Node0x30237e60 [shape=record,label="{xmlmemory.c:272:}"];
+	Node0x30237e60 -> Node0x30229970;
+	Node0x30237e60 -> Node0x302298d0;
+	Node0x302298d0 [shape=record,label="{xmlmemory.c:275:}"];
+	Node0x302298d0 -> Node0x30229920;
+	Node0x302298d0 -> Node0x30229970;
+	Node0x30229920 [shape=record,label="{xmlmemory.c:279:}"];
+	Node0x30229920 -> Node0x30229970;
+	Node0x30229970 [shape=record,label="{xmlmemory.c:280:}"];
+}

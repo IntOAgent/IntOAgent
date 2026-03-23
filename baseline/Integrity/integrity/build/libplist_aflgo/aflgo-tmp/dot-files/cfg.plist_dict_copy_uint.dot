@@ -1,0 +1,10 @@
+digraph "CFG for 'plist_dict_copy_uint' function" {
+	label="CFG for 'plist_dict_copy_uint' function";
+
+	Node0x215ac310 [shape=record,label="{plist.c:1151:}"];
+	Node0x215ac310 -> Node0x215ac3b0;
+	Node0x215ac310 -> Node0x215ac360;
+	Node0x215ac360 [shape=record,label="{plist.c:1154:}"];
+	Node0x215ac360 -> Node0x215ac3b0;
+	Node0x215ac3b0 [shape=record,label="{plist.c:1157:}"];
+}

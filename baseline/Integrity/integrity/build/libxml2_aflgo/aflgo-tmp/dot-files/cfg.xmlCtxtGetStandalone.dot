@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtGetStandalone' function" {
+	label="CFG for 'xmlCtxtGetStandalone' function";
+
+	Node0x26fe2890 [shape=record,label="{parser.c:10318:}"];
+	Node0x26fe2890 -> Node0x26fe2930;
+	Node0x26fe2890 -> Node0x26fe28e0;
+	Node0x26fe28e0 [shape=record,label="{parser.c:10321:}"];
+	Node0x26fe28e0 -> Node0x26fe2930;
+	Node0x26fe2930 [shape=record,label="{parser.c:10322:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for '__xmlPedanticParserDefaultValue' function" {
+	label="CFG for '__xmlPedanticParserDefaultValue' function";
+
+	Node0x1305e40 [shape=record,label="{globals.c:637:}"];
+}

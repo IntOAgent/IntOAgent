@@ -1,0 +1,5 @@
+digraph "CFG for '__xmlSubstituteEntitiesDefaultValue' function" {
+	label="CFG for '__xmlSubstituteEntitiesDefaultValue' function";
+
+	Node0x1306170 [shape=record,label="{globals.c:642:}"];
+}

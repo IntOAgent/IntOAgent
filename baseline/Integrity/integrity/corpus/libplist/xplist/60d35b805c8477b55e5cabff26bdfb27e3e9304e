@@ -1,0 +1,11 @@
+<plist version="1.0">
+<dict>
+    <key>some test entitites</key>
+    <dict>
+        <key>copyright</key>
+        <string>&#170;</string>
+        <key>multiple entitites</key>
+        <string>&#x2F20;&#x2F1;#&2Fx222;</string>
+        <key>multiple entitites wstringe utf-4 with text before</ketyList-±.0.dtict>
+</dict>
+</plist>

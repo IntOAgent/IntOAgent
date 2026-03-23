@@ -1,0 +1,386 @@
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 2300055848
+INFO: Loaded 1 modules   (84 inline 8-bit counters): 84 [0x618c97931b80, 0x618c97931bd4), 
+INFO: Loaded 1 PC tables (84 PCs): 84 [0x618c97931bd8,0x618c97932118), 
+INFO: 29422 Extra Counters
+INFO:      463 files found in corpus/sqlite/db/
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 1048576 bytes
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:37203:7
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:37203:7
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:196104:11
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34304:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34306:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34308:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34310:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34310:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34303:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34303:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34304:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34305:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34305:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34307:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34308:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34309:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34306:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34307:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34309:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:34312:36
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:34312:36
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:35722:7
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:123773:11
+INFO: seed corpus: files: 463 min: 29b max: 17021952b total: 67819315b rss: 30Mb
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36727:25
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:56214:34
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:36913:7
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:73020:18
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:74300:33
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:72097:31
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:72068:27
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36566:8
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36588:8
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36637:8
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36647:8
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36653:16
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36604:8
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36621:8
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36644:8
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:89173:9
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:0:0
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:35722:7
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36596:10
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:36611:10
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:72677:7
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:72677:7
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:89207:9
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:78392:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:78411:3
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:72543:19
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:72145:27
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:81367:29
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:90094:11
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:72485:12
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:60410:65
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:78659:3
+[INTEGRITY] SHIFT_OVF at sqlite/sqlite3.c:102363:20
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:78392:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:78411:3
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:71990:56
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:78106:10
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:78484:5
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:72543:19
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:78484:5
+[INTEGRITY] OVERFLOW at sqlite/sqlite3.c:78659:3
+#464	INITED cov: 12 ft: 507 corp: 185/7902Kb exec/s: 0 rss: 47Mb
+#635	NEW    cov: 12 ft: 508 corp: 186/8926Kb lim: 1048576 exec/s: 0 rss: 47Mb L: 1048576/1048576 MS: 1 ChangeByte-
+#911	NEW    cov: 12 ft: 509 corp: 187/9950Kb lim: 1048576 exec/s: 0 rss: 47Mb L: 1048576/1048576 MS: 1 CopyPart-
+#1397	NEW    cov: 12 ft: 511 corp: 188/10974Kb lim: 1048576 exec/s: 0 rss: 59Mb L: 1048576/1048576 MS: 1 ChangeASCIIInt-
+#1478	NEW    cov: 12 ft: 512 corp: 189/11998Kb lim: 1048576 exec/s: 0 rss: 59Mb L: 1048576/1048576 MS: 1 ChangeBit-
+#1644	REDUCE cov: 12 ft: 512 corp: 189/11998Kb lim: 1048576 exec/s: 0 rss: 59Mb L: 608/1048576 MS: 1 EraseBytes-
+#2130	NEW    cov: 12 ft: 513 corp: 190/13022Kb lim: 1048576 exec/s: 0 rss: 61Mb L: 1048576/1048576 MS: 1 ChangeByte-
+#2391	NEW    cov: 12 ft: 515 corp: 191/13025Kb lim: 1048576 exec/s: 2391 rss: 62Mb L: 3096/1048576 MS: 1 ChangeBit-
+#2578	NEW    cov: 12 ft: 517 corp: 192/14049Kb lim: 1048576 exec/s: 2578 rss: 62Mb L: 1048576/1048576 MS: 2 ChangeByte-CopyPart-
+#2757	NEW    cov: 12 ft: 518 corp: 193/15073Kb lim: 1048576 exec/s: 2757 rss: 62Mb L: 1048576/1048576 MS: 4 ChangeBit-ChangeBinInt-ChangeBinInt-CopyPart-
+#2878	NEW    cov: 12 ft: 519 corp: 194/16097Kb lim: 1048576 exec/s: 2878 rss: 64Mb L: 1048576/1048576 MS: 1 CrossOver-
+#2919	NEW    cov: 12 ft: 520 corp: 195/16Mb lim: 1048576 exec/s: 2919 rss: 64Mb L: 1048576/1048576 MS: 1 ChangeBit-
+#2955	NEW    cov: 12 ft: 521 corp: 196/17Mb lim: 1048576 exec/s: 2955 rss: 64Mb L: 1048576/1048576 MS: 1 ChangeByte-
+#2981	NEW    cov: 12 ft: 522 corp: 197/18Mb lim: 1048576 exec/s: 2981 rss: 64Mb L: 1048576/1048576 MS: 1 ChangeBit-
+#3075	NEW    cov: 12 ft: 523 corp: 198/19Mb lim: 1048576 exec/s: 3075 rss: 64Mb L: 720925/1048576 MS: 4 ChangeByte-ChangeASCIIInt-ChangeBinInt-EraseBytes-
+#3116	NEW    cov: 12 ft: 524 corp: 199/19Mb lim: 1048576 exec/s: 3116 rss: 69Mb L: 5892/1048576 MS: 1 CrossOver-
+#3327	NEW    cov: 12 ft: 525 corp: 200/19Mb lim: 1048576 exec/s: 3327 rss: 69Mb L: 6044/1048576 MS: 1 CopyPart-
+#3433	NEW    cov: 12 ft: 526 corp: 201/20Mb lim: 1048576 exec/s: 3433 rss: 69Mb L: 895517/1048576 MS: 1 EraseBytes-
+#3524	NEW    cov: 12 ft: 527 corp: 202/21Mb lim: 1048576 exec/s: 3524 rss: 69Mb L: 1048576/1048576 MS: 1 ChangeBinInt-
+#3648	NEW    cov: 12 ft: 528 corp: 203/22Mb lim: 1048576 exec/s: 3648 rss: 69Mb L: 1048576/1048576 MS: 4 ChangeASCIIInt-ChangeASCIIInt-ChangeBinInt-CopyPart-
+#3726	NEW    cov: 12 ft: 529 corp: 204/23Mb lim: 1048576 exec/s: 3726 rss: 69Mb L: 895517/1048576 MS: 3 ShuffleBytes-ShuffleBytes-CrossOver-
+#3769	NEW    cov: 12 ft: 530 corp: 205/24Mb lim: 1048576 exec/s: 3769 rss: 73Mb L: 1048576/1048576 MS: 3 ChangeBinInt-ChangeBinInt-CopyPart-
+#4117	NEW    cov: 12 ft: 532 corp: 206/25Mb lim: 1048576 exec/s: 4117 rss: 74Mb L: 1048576/1048576 MS: 3 ChangeByte-CopyPart-CrossOver-
+#5248	REDUCE cov: 12 ft: 532 corp: 206/25Mb lim: 1048576 exec/s: 2624 rss: 75Mb L: 3151/1048576 MS: 1 EraseBytes-
+#5271	REDUCE cov: 12 ft: 532 corp: 206/25Mb lim: 1048576 exec/s: 2635 rss: 75Mb L: 921419/1048576 MS: 3 ShuffleBytes-ShuffleBytes-CrossOver-
+#5652	NEW    cov: 12 ft: 533 corp: 207/26Mb lim: 1048576 exec/s: 2826 rss: 75Mb L: 1048576/1048576 MS: 1 CrossOver-
+#6008	NEW    cov: 12 ft: 534 corp: 208/26Mb lim: 1048576 exec/s: 3004 rss: 75Mb L: 895586/1048576 MS: 1 InsertRepeatedBytes-
+#6224	NEW    cov: 12 ft: 535 corp: 209/27Mb lim: 1048576 exec/s: 3112 rss: 76Mb L: 895586/1048576 MS: 1 ChangeBit-
+#6240	REDUCE cov: 12 ft: 536 corp: 210/28Mb lim: 1048576 exec/s: 3120 rss: 76Mb L: 921420/1048576 MS: 1 InsertByte-
+#6333	NEW    cov: 12 ft: 537 corp: 211/28Mb lim: 1048576 exec/s: 3166 rss: 76Mb L: 3173/1048576 MS: 3 EraseBytes-ChangeBit-CopyPart-
+#7399	NEW    cov: 12 ft: 538 corp: 212/29Mb lim: 1048576 exec/s: 2466 rss: 78Mb L: 1048576/1048576 MS: 1 CMP- DE: "\220\320\003\000"-
+#7782	REDUCE cov: 12 ft: 538 corp: 212/29Mb lim: 1048576 exec/s: 2594 rss: 78Mb L: 4935/1048576 MS: 3 ChangeByte-ChangeByte-EraseBytes-
+#7838	REDUCE cov: 12 ft: 538 corp: 212/29Mb lim: 1048576 exec/s: 2612 rss: 78Mb L: 762584/1048576 MS: 1 EraseBytes-
+#8192	pulse  cov: 12 ft: 538 corp: 212/29Mb lim: 1048576 exec/s: 2730 rss: 78Mb
+#8318	REDUCE cov: 12 ft: 538 corp: 212/28Mb lim: 1048576 exec/s: 2772 rss: 78Mb L: 169131/1048576 MS: 5 ShuffleBytes-ChangeByte-CMP-CopyPart-CrossOver- DE: "xsql"-
+#8715	REDUCE cov: 12 ft: 538 corp: 212/28Mb lim: 1048576 exec/s: 2905 rss: 78Mb L: 3081/1048576 MS: 2 ChangeBit-EraseBytes-
+#9675	REDUCE cov: 12 ft: 538 corp: 212/28Mb lim: 1048576 exec/s: 3225 rss: 78Mb L: 996591/1048576 MS: 5 ShuffleBytes-ChangeBinInt-ChangeASCIIInt-EraseBytes-InsertRepeatedBytes-
+#11679	NEW    cov: 12 ft: 539 corp: 213/29Mb lim: 1048576 exec/s: 2919 rss: 79Mb L: 1048576/1048576 MS: 4 CMP-ChangeASCIIInt-ChangeBinInt-CopyPart- DE: "\220\320\003\000"-
+#12257	REDUCE cov: 12 ft: 539 corp: 213/29Mb lim: 1048576 exec/s: 3064 rss: 80Mb L: 712442/1048576 MS: 3 InsertByte-ChangeByte-EraseBytes-
+#12843	NEW    cov: 12 ft: 540 corp: 214/30Mb lim: 1048576 exec/s: 2568 rss: 80Mb L: 1048576/1048576 MS: 1 ChangeASCIIInt-
+#13420	REDUCE cov: 12 ft: 540 corp: 214/30Mb lim: 1048576 exec/s: 2684 rss: 81Mb L: 1047433/1048576 MS: 2 ChangeBinInt-EraseBytes-
+#13963	REDUCE cov: 12 ft: 540 corp: 214/30Mb lim: 1048576 exec/s: 2792 rss: 81Mb L: 893377/1048576 MS: 3 ChangeBit-ChangeASCIIInt-CrossOver-
+#15554	NEW    cov: 12 ft: 541 corp: 215/30Mb lim: 1048576 exec/s: 2592 rss: 81Mb L: 3099/1048576 MS: 1 EraseBytes-
+#16384	pulse  cov: 12 ft: 541 corp: 215/30Mb lim: 1048576 exec/s: 2730 rss: 81Mb
+#17281	REDUCE cov: 12 ft: 541 corp: 215/30Mb lim: 1048576 exec/s: 2880 rss: 81Mb L: 3151/1048576 MS: 2 ShuffleBytes-EraseBytes-
+#17765	REDUCE cov: 12 ft: 541 corp: 215/30Mb lim: 1048576 exec/s: 2960 rss: 81Mb L: 892837/1048576 MS: 4 ChangeBinInt-EraseBytes-ChangeByte-CrossOver-
+#18718	REDUCE cov: 12 ft: 541 corp: 215/30Mb lim: 1048576 exec/s: 2674 rss: 81Mb L: 3076/1048576 MS: 3 InsertByte-EraseBytes-ShuffleBytes-
+#19309	REDUCE cov: 12 ft: 541 corp: 215/30Mb lim: 1048576 exec/s: 2758 rss: 81Mb L: 664075/1048576 MS: 1 EraseBytes-
+#20085	REDUCE cov: 12 ft: 542 corp: 216/30Mb lim: 1048576 exec/s: 2869 rss: 81Mb L: 712443/1048576 MS: 1 InsertByte-
+#20176	REDUCE cov: 12 ft: 542 corp: 216/30Mb lim: 1048576 exec/s: 2882 rss: 82Mb L: 3236/1048576 MS: 1 EraseBytes-
+#20493	NEW    cov: 12 ft: 543 corp: 217/30Mb lim: 1048576 exec/s: 2927 rss: 82Mb L: 3141/1048576 MS: 2 ChangeBinInt-InsertRepeatedBytes-
+#20561	NEW    cov: 12 ft: 544 corp: 218/30Mb lim: 1048576 exec/s: 2937 rss: 82Mb L: 6452/1048576 MS: 3 PersAutoDict-ChangeASCIIInt-CrossOver- DE: "xsql"-
+#21172	NEW    cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2646 rss: 82Mb L: 3090/1048576 MS: 1 ChangeBit-
+#21975	REDUCE cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2746 rss: 82Mb L: 5139/1048576 MS: 3 ChangeBit-ShuffleBytes-EraseBytes-
+#22336	REDUCE cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2792 rss: 82Mb L: 113/1048576 MS: 1 EraseBytes-
+#22479	REDUCE cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2809 rss: 82Mb L: 1087/1048576 MS: 3 ChangeBit-ShuffleBytes-EraseBytes-
+#25785	REDUCE cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2865 rss: 82Mb L: 761/1048576 MS: 1 EraseBytes-
+#27947	REDUCE cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2794 rss: 82Mb L: 819994/1048576 MS: 2 InsertByte-EraseBytes-
+#28079	REDUCE cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2807 rss: 82Mb L: 3133/1048576 MS: 2 ChangeByte-EraseBytes-
+#28751	REDUCE cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2875 rss: 82Mb L: 4719/1048576 MS: 2 ChangeBit-EraseBytes-
+#29099	REDUCE cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2645 rss: 82Mb L: 3088/1048576 MS: 3 ChangeBit-ChangeBit-EraseBytes-
+#31976	REDUCE cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2664 rss: 82Mb L: 896760/1048576 MS: 2 CrossOver-CrossOver-
+#32075	REDUCE cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2672 rss: 82Mb L: 3248/1048576 MS: 4 ChangeByte-ChangeByte-PersAutoDict-EraseBytes- DE: "xsql"-
+#32425	REDUCE cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2702 rss: 82Mb L: 613001/1048576 MS: 5 PersAutoDict-ShuffleBytes-CMP-ChangeASCIIInt-EraseBytes- DE: "xsql"-"\001\000\000\000\000\000\000\000"-
+#32768	pulse  cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2730 rss: 82Mb
+#33192	REDUCE cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2766 rss: 82Mb L: 963/1048576 MS: 2 ChangeBinInt-EraseBytes-
+#33264	REDUCE cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2772 rss: 82Mb L: 4503/1048576 MS: 2 CopyPart-EraseBytes-
+#33350	REDUCE cov: 12 ft: 545 corp: 219/30Mb lim: 1048576 exec/s: 2779 rss: 82Mb L: 3073/1048576 MS: 1 EraseBytes-
+#36988	REDUCE cov: 12 ft: 545 corp: 219/29Mb lim: 1048576 exec/s: 2845 rss: 82Mb L: 352831/1048576 MS: 3 PersAutoDict-EraseBytes-EraseBytes- DE: "\001\000\000\000\000\000\000\000"-
+#39040	REDUCE cov: 12 ft: 545 corp: 219/29Mb lim: 1048576 exec/s: 2788 rss: 82Mb L: 4489/1048576 MS: 2 ChangeBinInt-EraseBytes-
+#43956	REDUCE cov: 12 ft: 545 corp: 219/29Mb lim: 1048576 exec/s: 2747 rss: 82Mb L: 3987/1048576 MS: 1 EraseBytes-
+#44347	REDUCE cov: 12 ft: 545 corp: 219/29Mb lim: 1048576 exec/s: 2771 rss: 82Mb L: 3170/1048576 MS: 1 EraseBytes-
+#44548	REDUCE cov: 12 ft: 546 corp: 220/29Mb lim: 1048576 exec/s: 2784 rss: 82Mb L: 3322/1048576 MS: 1 InsertRepeatedBytes-
+#46760	REDUCE cov: 12 ft: 546 corp: 220/29Mb lim: 1048576 exec/s: 2750 rss: 82Mb L: 3613/1048576 MS: 2 InsertByte-EraseBytes-
+#46766	REDUCE cov: 12 ft: 546 corp: 220/29Mb lim: 1048576 exec/s: 2750 rss: 82Mb L: 2091/1048576 MS: 1 EraseBytes-
+#47656	NEW    cov: 12 ft: 547 corp: 221/29Mb lim: 1048576 exec/s: 2803 rss: 82Mb L: 5070/1048576 MS: 5 ChangeBinInt-ChangeBit-ChangeByte-ChangeBit-CopyPart-
+#48058	REDUCE cov: 12 ft: 547 corp: 221/29Mb lim: 1048576 exec/s: 2826 rss: 82Mb L: 3079/1048576 MS: 2 InsertByte-EraseBytes-
+#49919	REDUCE cov: 12 ft: 547 corp: 221/29Mb lim: 1048576 exec/s: 2773 rss: 82Mb L: 146/1048576 MS: 1 EraseBytes-
+#50218	NEW    cov: 12 ft: 548 corp: 222/29Mb lim: 1048576 exec/s: 2789 rss: 82Mb L: 3603/1048576 MS: 4 ShuffleBytes-InsertRepeatedBytes-ChangeBinInt-EraseBytes-
+#52461	REDUCE cov: 12 ft: 548 corp: 222/29Mb lim: 1048576 exec/s: 2761 rss: 82Mb L: 4030/1048576 MS: 3 CrossOver-ChangeBit-EraseBytes-
+#53920	REDUCE cov: 12 ft: 548 corp: 222/29Mb lim: 1048576 exec/s: 2837 rss: 82Mb L: 3103/1048576 MS: 4 PersAutoDict-CopyPart-InsertRepeatedBytes-EraseBytes- DE: "\001\000\000\000\000\000\000\000"-
+#55236	REDUCE cov: 12 ft: 548 corp: 222/29Mb lim: 1048576 exec/s: 2761 rss: 82Mb L: 3129/1048576 MS: 1 EraseBytes-
+#55332	REDUCE cov: 12 ft: 548 corp: 222/29Mb lim: 1048576 exec/s: 2766 rss: 82Mb L: 648444/1048576 MS: 1 EraseBytes-
+#55695	REDUCE cov: 12 ft: 548 corp: 222/29Mb lim: 1048576 exec/s: 2784 rss: 82Mb L: 3082/1048576 MS: 3 ChangeByte-ChangeBinInt-EraseBytes-
+#57237	REDUCE cov: 12 ft: 548 corp: 222/29Mb lim: 1048576 exec/s: 2725 rss: 82Mb L: 558441/1048576 MS: 2 ChangeByte-EraseBytes-
+#59968	REDUCE cov: 12 ft: 548 corp: 222/29Mb lim: 1048576 exec/s: 2725 rss: 82Mb L: 126348/1048576 MS: 1 EraseBytes-
+#61567	NEW    cov: 12 ft: 549 corp: 223/30Mb lim: 1048576 exec/s: 2798 rss: 82Mb L: 1048576/1048576 MS: 4 ChangeASCIIInt-CopyPart-PersAutoDict-CMP- DE: "\001\000\000\000\000\000\000\000"-"\217\320\003\000"-
+#61636	REDUCE cov: 12 ft: 549 corp: 223/30Mb lim: 1048576 exec/s: 2801 rss: 82Mb L: 917440/1048576 MS: 4 ChangeBit-ShuffleBytes-EraseBytes-CrossOver-
+#62705	REDUCE cov: 12 ft: 549 corp: 223/30Mb lim: 1048576 exec/s: 2726 rss: 82Mb L: 3117/1048576 MS: 4 ChangeBit-InsertByte-ChangeBit-EraseBytes-
+#63371	REDUCE cov: 12 ft: 549 corp: 223/30Mb lim: 1048576 exec/s: 2755 rss: 83Mb L: 601/1048576 MS: 1 EraseBytes-
+#64278	REDUCE cov: 12 ft: 549 corp: 223/30Mb lim: 1048576 exec/s: 2794 rss: 83Mb L: 850/1048576 MS: 2 ChangeByte-EraseBytes-
+#64389	REDUCE cov: 12 ft: 549 corp: 223/30Mb lim: 1048576 exec/s: 2799 rss: 83Mb L: 104/1048576 MS: 1 EraseBytes-
+#64541	REDUCE cov: 12 ft: 550 corp: 224/30Mb lim: 1048576 exec/s: 2806 rss: 83Mb L: 3539/1048576 MS: 2 CopyPart-EraseBytes-
+#65536	pulse  cov: 12 ft: 550 corp: 224/30Mb lim: 1048576 exec/s: 2730 rss: 83Mb
+#66047	REDUCE cov: 12 ft: 550 corp: 224/30Mb lim: 1048576 exec/s: 2751 rss: 83Mb L: 267727/1048576 MS: 1 EraseBytes-
+#66410	REDUCE cov: 12 ft: 550 corp: 224/30Mb lim: 1048576 exec/s: 2767 rss: 83Mb L: 950624/1048576 MS: 3 ShuffleBytes-CopyPart-EraseBytes-
+#68417	REDUCE cov: 12 ft: 550 corp: 224/30Mb lim: 1048576 exec/s: 2736 rss: 83Mb L: 1852/1048576 MS: 2 ChangeByte-EraseBytes-
+#68763	REDUCE cov: 12 ft: 550 corp: 224/30Mb lim: 1048576 exec/s: 2750 rss: 83Mb L: 805/1048576 MS: 1 EraseBytes-
+#68989	REDUCE cov: 12 ft: 550 corp: 224/30Mb lim: 1048576 exec/s: 2759 rss: 83Mb L: 210868/1048576 MS: 1 CrossOver-
+#72818	REDUCE cov: 12 ft: 550 corp: 224/30Mb lim: 1048576 exec/s: 2800 rss: 83Mb L: 3433/1048576 MS: 4 PersAutoDict-CopyPart-CrossOver-EraseBytes- DE: "\220\320\003\000"-
+#73321	REDUCE cov: 12 ft: 550 corp: 224/30Mb lim: 1048576 exec/s: 2820 rss: 83Mb L: 1558/1048576 MS: 3 ChangeBinInt-ChangeBinInt-EraseBytes-
+#73623	REDUCE cov: 12 ft: 550 corp: 224/29Mb lim: 1048576 exec/s: 2726 rss: 83Mb L: 723973/1048576 MS: 2 ShuffleBytes-EraseBytes-
+#75300	REDUCE cov: 12 ft: 550 corp: 224/29Mb lim: 1048576 exec/s: 2788 rss: 83Mb L: 520/1048576 MS: 2 CMP-EraseBytes- DE: "\377\002\320\220"-
+#75701	REDUCE cov: 12 ft: 550 corp: 224/29Mb lim: 1048576 exec/s: 2803 rss: 83Mb L: 3374/1048576 MS: 1 EraseBytes-
+#77059	REDUCE cov: 12 ft: 550 corp: 224/29Mb lim: 1048576 exec/s: 2752 rss: 83Mb L: 622433/1048576 MS: 3 ChangeBit-ChangeBinInt-EraseBytes-
+#78604	REDUCE cov: 12 ft: 550 corp: 224/29Mb lim: 1048576 exec/s: 2807 rss: 83Mb L: 3488/1048576 MS: 5 CrossOver-ChangeBit-EraseBytes-InsertByte-InsertRepeatedBytes-
+#80315	REDUCE cov: 12 ft: 550 corp: 224/29Mb lim: 1048576 exec/s: 2769 rss: 83Mb L: 575550/1048576 MS: 1 EraseBytes-
+#81582	REDUCE cov: 12 ft: 550 corp: 224/29Mb lim: 1048576 exec/s: 2719 rss: 83Mb L: 1429/1048576 MS: 2 ShuffleBytes-EraseBytes-
+#82318	REDUCE cov: 12 ft: 550 corp: 224/29Mb lim: 1048576 exec/s: 2743 rss: 83Mb L: 3428/1048576 MS: 1 EraseBytes-
+#82522	REDUCE cov: 12 ft: 550 corp: 224/29Mb lim: 1048576 exec/s: 2750 rss: 83Mb L: 913838/1048576 MS: 4 ChangeByte-ShuffleBytes-ShuffleBytes-EraseBytes-
+#82587	REDUCE cov: 12 ft: 550 corp: 224/29Mb lim: 1048576 exec/s: 2752 rss: 83Mb L: 530883/1048576 MS: 5 EraseBytes-CMP-ChangeBinInt-ShuffleBytes-EraseBytes- DE: "trigge"-
+#84466	REDUCE cov: 12 ft: 550 corp: 224/29Mb lim: 1048576 exec/s: 2724 rss: 83Mb L: 3097/1048576 MS: 4 ChangeASCIIInt-ChangeBit-ChangeBit-EraseBytes-
+#84609	REDUCE cov: 12 ft: 550 corp: 224/28Mb lim: 1048576 exec/s: 2729 rss: 83Mb L: 383581/1048576 MS: 3 ChangeByte-ChangeByte-EraseBytes-
+#84784	REDUCE cov: 12 ft: 550 corp: 224/28Mb lim: 1048576 exec/s: 2734 rss: 83Mb L: 969510/1048576 MS: 5 ChangeByte-CopyPart-ChangeASCIIInt-ChangeASCIIInt-EraseBytes-
+#85366	REDUCE cov: 12 ft: 550 corp: 224/28Mb lim: 1048576 exec/s: 2753 rss: 83Mb L: 1000/1048576 MS: 2 ChangeBit-EraseBytes-
+#86183	REDUCE cov: 12 ft: 550 corp: 224/28Mb lim: 1048576 exec/s: 2780 rss: 83Mb L: 575441/1048576 MS: 2 ShuffleBytes-CrossOver-
+#86230	REDUCE cov: 12 ft: 550 corp: 224/28Mb lim: 1048576 exec/s: 2781 rss: 83Mb L: 3079/1048576 MS: 2 InsertByte-EraseBytes-
+#88476	REDUCE cov: 12 ft: 550 corp: 224/28Mb lim: 1048576 exec/s: 2764 rss: 83Mb L: 964684/1048576 MS: 1 CrossOver-
+#88483	REDUCE cov: 12 ft: 550 corp: 224/28Mb lim: 1048576 exec/s: 2765 rss: 83Mb L: 3155/1048576 MS: 2 InsertRepeatedBytes-EraseBytes-
+#90594	NEW    cov: 12 ft: 551 corp: 225/28Mb lim: 1048576 exec/s: 2745 rss: 83Mb L: 3603/1048576 MS: 1 ChangeBinInt-
+#92582	REDUCE cov: 12 ft: 551 corp: 225/28Mb lim: 1048576 exec/s: 2723 rss: 83Mb L: 3458/1048576 MS: 3 EraseBytes-ShuffleBytes-CopyPart-
+#92899	REDUCE cov: 12 ft: 551 corp: 225/28Mb lim: 1048576 exec/s: 2732 rss: 83Mb L: 375321/1048576 MS: 2 ChangeBinInt-EraseBytes-
+#94872	REDUCE cov: 12 ft: 551 corp: 225/28Mb lim: 1048576 exec/s: 2790 rss: 83Mb L: 3094/1048576 MS: 3 InsertRepeatedBytes-ShuffleBytes-EraseBytes-
+#94928	REDUCE cov: 12 ft: 551 corp: 225/28Mb lim: 1048576 exec/s: 2792 rss: 83Mb L: 646/1048576 MS: 1 EraseBytes-
+#95024	REDUCE cov: 12 ft: 551 corp: 225/28Mb lim: 1048576 exec/s: 2794 rss: 83Mb L: 346532/1048576 MS: 1 EraseBytes-
+#96691	REDUCE cov: 12 ft: 551 corp: 225/28Mb lim: 1048576 exec/s: 2762 rss: 83Mb L: 827/1048576 MS: 2 ShuffleBytes-EraseBytes-
+#97532	REDUCE cov: 12 ft: 551 corp: 225/28Mb lim: 1048576 exec/s: 2786 rss: 83Mb L: 3156/1048576 MS: 1 EraseBytes-
+#99954	REDUCE cov: 12 ft: 551 corp: 225/28Mb lim: 1048576 exec/s: 2776 rss: 83Mb L: 807/1048576 MS: 2 ChangeBinInt-EraseBytes-
+#105761	REDUCE cov: 12 ft: 551 corp: 225/28Mb lim: 1048576 exec/s: 2783 rss: 83Mb L: 577405/1048576 MS: 2 ChangeBit-EraseBytes-
+#106182	REDUCE cov: 12 ft: 551 corp: 225/28Mb lim: 1048576 exec/s: 2794 rss: 83Mb L: 983715/1048576 MS: 1 EraseBytes-
+#107024	REDUCE cov: 12 ft: 551 corp: 225/28Mb lim: 1048576 exec/s: 2744 rss: 83Mb L: 1005834/1048576 MS: 2 ChangeByte-EraseBytes-
+#107455	REDUCE cov: 12 ft: 551 corp: 225/28Mb lim: 1048576 exec/s: 2755 rss: 83Mb L: 939375/1048576 MS: 1 EraseBytes-
+#110495	NEW    cov: 12 ft: 553 corp: 226/28Mb lim: 1048576 exec/s: 2762 rss: 83Mb L: 713194/1048576 MS: 5 ChangeByte-ChangeASCIIInt-EraseBytes-ChangeBit-CMP- DE: "\377\377\377\377\377\377\377\377"-
+#114835	REDUCE cov: 12 ft: 553 corp: 226/28Mb lim: 1048576 exec/s: 2734 rss: 84Mb L: 3074/1048576 MS: 5 PersAutoDict-ChangeBit-ChangeBit-ChangeByte-EraseBytes- DE: "\220\320\003\000"-
+#114957	REDUCE cov: 12 ft: 553 corp: 226/28Mb lim: 1048576 exec/s: 2737 rss: 84Mb L: 329080/1048576 MS: 2 CopyPart-EraseBytes-
+#115113	REDUCE cov: 12 ft: 553 corp: 226/28Mb lim: 1048576 exec/s: 2740 rss: 84Mb L: 175/1048576 MS: 1 EraseBytes-
+#115989	NEW    cov: 12 ft: 554 corp: 227/28Mb lim: 1048576 exec/s: 2761 rss: 84Mb L: 418/1048576 MS: 1 PersAutoDict- DE: "\220\320\003\000"-
+#117825	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2740 rss: 84Mb L: 3229/1048576 MS: 1 InsertRepeatedBytes-
+#120618	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2741 rss: 84Mb L: 839609/1048576 MS: 3 ChangeASCIIInt-ChangeBinInt-EraseBytes-
+#120655	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2742 rss: 84Mb L: 3142/1048576 MS: 2 ChangeBinInt-EraseBytes-
+#129746	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2760 rss: 99Mb L: 339/1048576 MS: 1 EraseBytes-
+#131072	pulse  cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2730 rss: 99Mb
+#133412	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2722 rss: 99Mb L: 109/1048576 MS: 1 EraseBytes-
+#133998	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2734 rss: 99Mb L: 739/1048576 MS: 1 EraseBytes-
+#135406	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2763 rss: 99Mb L: 374266/1048576 MS: 3 EraseBytes-ShuffleBytes-InsertRepeatedBytes-
+#135943	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2718 rss: 99Mb L: 535/1048576 MS: 2 CrossOver-EraseBytes-
+#137689	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2753 rss: 99Mb L: 534/1048576 MS: 1 EraseBytes-
+#141944	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2729 rss: 99Mb L: 942127/1048576 MS: 5 ChangeBit-ChangeBit-ChangeByte-ChangeByte-EraseBytes-
+#142263	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2735 rss: 99Mb L: 622460/1048576 MS: 4 ChangeASCIIInt-ChangeBinInt-CMP-EraseBytes- DE: "xsql"-
+#147988	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2740 rss: 99Mb L: 703/1048576 MS: 5 InsertByte-ShuffleBytes-ChangeByte-InsertByte-EraseBytes-
+#151907	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2761 rss: 99Mb L: 953975/1048576 MS: 4 ChangeASCIIInt-ChangeByte-ShuffleBytes-EraseBytes-
+#154501	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2758 rss: 99Mb L: 120/1048576 MS: 4 ChangeBit-ChangeBit-ChangeBinInt-EraseBytes-
+#161463	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2736 rss: 99Mb L: 3114/1048576 MS: 2 ChangeByte-EraseBytes-
+#163299	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2767 rss: 99Mb L: 3080/1048576 MS: 1 EraseBytes-
+#165076	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2751 rss: 99Mb L: 1082/1048576 MS: 2 ShuffleBytes-EraseBytes-
+#172267	REDUCE cov: 12 ft: 555 corp: 228/28Mb lim: 1048576 exec/s: 2734 rss: 99Mb L: 58/1048576 MS: 1 EraseBytes-
+#172998	NEW    cov: 12 ft: 556 corp: 229/28Mb lim: 1048576 exec/s: 2746 rss: 99Mb L: 3182/1048576 MS: 1 InsertByte-
+#175281	REDUCE cov: 12 ft: 556 corp: 229/27Mb lim: 1048576 exec/s: 2738 rss: 99Mb L: 620229/1048576 MS: 3 InsertRepeatedBytes-CrossOver-EraseBytes-
+#181808	REDUCE cov: 12 ft: 556 corp: 229/27Mb lim: 1048576 exec/s: 2754 rss: 99Mb L: 25423/1048576 MS: 2 InsertRepeatedBytes-EraseBytes-
+#181939	REDUCE cov: 12 ft: 556 corp: 229/27Mb lim: 1048576 exec/s: 2756 rss: 99Mb L: 838/1048576 MS: 1 EraseBytes-
+#186277	REDUCE cov: 12 ft: 556 corp: 229/27Mb lim: 1048576 exec/s: 2739 rss: 99Mb L: 937603/1048576 MS: 3 ChangeASCIIInt-ChangeBinInt-EraseBytes-
+#187558	REDUCE cov: 12 ft: 556 corp: 229/27Mb lim: 1048576 exec/s: 2758 rss: 99Mb L: 3148/1048576 MS: 1 EraseBytes-
+#189549	REDUCE cov: 12 ft: 556 corp: 229/27Mb lim: 1048576 exec/s: 2747 rss: 99Mb L: 755808/1048576 MS: 1 CrossOver-
+#190450	REDUCE cov: 12 ft: 556 corp: 229/27Mb lim: 1048576 exec/s: 2720 rss: 99Mb L: 3075/1048576 MS: 1 EraseBytes-
+#192133	NEW    cov: 12 ft: 557 corp: 230/27Mb lim: 1048576 exec/s: 2744 rss: 99Mb L: 408/1048576 MS: 3 ChangeBinInt-ChangeBit-InsertByte-
+#196624	REDUCE cov: 12 ft: 557 corp: 230/27Mb lim: 1048576 exec/s: 2730 rss: 99Mb L: 1044611/1048576 MS: 1 EraseBytes-
+#196879	REDUCE cov: 12 ft: 557 corp: 230/27Mb lim: 1048576 exec/s: 2734 rss: 99Mb L: 3121/1048576 MS: 5 EraseBytes-ChangeBit-CMP-InsertByte-InsertRepeatedBytes- DE: "\377\377\377\016"-
+#198817	REDUCE cov: 12 ft: 557 corp: 230/27Mb lim: 1048576 exec/s: 2723 rss: 99Mb L: 474/1048576 MS: 3 CMP-CrossOver-EraseBytes- DE: "\001\000\000!"-
+#202593	REDUCE cov: 12 ft: 557 corp: 230/27Mb lim: 1048576 exec/s: 2737 rss: 102Mb L: 330424/1048576 MS: 1 EraseBytes-
+#203927	REDUCE cov: 12 ft: 557 corp: 230/27Mb lim: 1048576 exec/s: 2755 rss: 102Mb L: 3073/1048576 MS: 4 EraseBytes-EraseBytes-PersAutoDict-CopyPart- DE: "\001\000\000!"-
+#203928	REDUCE cov: 12 ft: 557 corp: 230/27Mb lim: 1048576 exec/s: 2755 rss: 102Mb L: 847/1048576 MS: 1 EraseBytes-
+#205599	REDUCE cov: 12 ft: 557 corp: 230/27Mb lim: 1048576 exec/s: 2741 rss: 102Mb L: 60/1048576 MS: 1 EraseBytes-
+#206096	REDUCE cov: 12 ft: 557 corp: 230/27Mb lim: 1048576 exec/s: 2747 rss: 102Mb L: 110/1048576 MS: 2 ChangeByte-EraseBytes-
+#208396	REDUCE cov: 12 ft: 557 corp: 230/27Mb lim: 1048576 exec/s: 2742 rss: 102Mb L: 786/1048576 MS: 5 ChangeASCIIInt-ChangeASCIIInt-ChangeByte-CMP-EraseBytes- DE: "\000\000\000\000\000\000\000\000"-
+#208617	REDUCE cov: 12 ft: 558 corp: 231/27Mb lim: 1048576 exec/s: 2744 rss: 102Mb L: 3103/1048576 MS: 1 ChangeByte-
+#209000	REDUCE cov: 12 ft: 558 corp: 231/27Mb lim: 1048576 exec/s: 2750 rss: 102Mb L: 361/1048576 MS: 3 CrossOver-ChangeByte-EraseBytes-
+#213056	REDUCE cov: 12 ft: 558 corp: 231/27Mb lim: 1048576 exec/s: 2731 rss: 102Mb L: 27274/1048576 MS: 1 EraseBytes-
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:71826:18
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:71919:12
+#213138	NEW    cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2732 rss: 102Mb L: 3103/1048576 MS: 2 ChangeByte-PersAutoDict- DE: "\377\377\377\377\377\377\377\377"-
+#213649	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2739 rss: 102Mb L: 341871/1048576 MS: 1 CrossOver-
+#213807	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2741 rss: 102Mb L: 695/1048576 MS: 3 CMP-ShuffleBytes-EraseBytes- DE: "\001\000\000\000\000\000\000\000"-
+#215309	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2725 rss: 102Mb L: 3150/1048576 MS: 2 ChangeBit-EraseBytes-
+#217836	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2757 rss: 102Mb L: 4897/1048576 MS: 2 ChangeByte-EraseBytes-
+#218075	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2725 rss: 102Mb L: 576725/1048576 MS: 4 ChangeByte-ChangeASCIIInt-ShuffleBytes-EraseBytes-
+#218232	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2727 rss: 102Mb L: 293152/1048576 MS: 2 CrossOver-EraseBytes-
+#220478	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2755 rss: 102Mb L: 552/1048576 MS: 1 EraseBytes-
+#224374	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2736 rss: 102Mb L: 3084/1048576 MS: 1 EraseBytes-
+#226980	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2734 rss: 102Mb L: 316/1048576 MS: 1 EraseBytes-
+#228196	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2749 rss: 102Mb L: 3125/1048576 MS: 1 EraseBytes-
+#228462	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2752 rss: 102Mb L: 26486/1048576 MS: 1 EraseBytes-
+#228944	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2725 rss: 102Mb L: 647/1048576 MS: 2 CrossOver-EraseBytes-
+#231700	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2725 rss: 102Mb L: 520093/1048576 MS: 1 EraseBytes-
+#232285	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2732 rss: 114Mb L: 754/1048576 MS: 5 ShuffleBytes-ChangeBit-ChangeByte-ChangeASCIIInt-EraseBytes-
+#232713	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2737 rss: 114Mb L: 484474/1048576 MS: 3 ChangeByte-ChangeASCIIInt-CrossOver-
+#237783	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2733 rss: 114Mb L: 3134/1048576 MS: 5 ShuffleBytes-PersAutoDict-InsertByte-ShuffleBytes-EraseBytes- DE: "\000\000\000\000\000\000\000\000"-
+#240812	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2736 rss: 114Mb L: 4491/1048576 MS: 4 CopyPart-ChangeBinInt-CMP-EraseBytes- DE: "t2"-
+#241068	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2739 rss: 114Mb L: 274467/1048576 MS: 1 EraseBytes-
+#242210	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2721 rss: 114Mb L: 417/1048576 MS: 2 CMP-EraseBytes- DE: "\377\377\377\377\377\377\377\377"-
+#249511	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2712 rss: 114Mb L: 636040/1048576 MS: 1 EraseBytes-
+#250887	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2727 rss: 114Mb L: 3091/1048576 MS: 1 EraseBytes-
+#251818	REDUCE cov: 12 ft: 560 corp: 232/27Mb lim: 1048576 exec/s: 2707 rss: 114Mb L: 4819/1048576 MS: 1 EraseBytes-
+[INTEGRITY] UNDERFLOW at sqlite/sqlite3.c:56041:23
+#255260	NEW    cov: 12 ft: 561 corp: 233/28Mb lim: 1048576 exec/s: 2686 rss: 114Mb L: 1048576/1048576 MS: 2 ChangeByte-ChangeBit-
+#259881	REDUCE cov: 12 ft: 561 corp: 233/28Mb lim: 1048576 exec/s: 2679 rss: 114Mb L: 182567/1048576 MS: 1 EraseBytes-
+#261239	REDUCE cov: 12 ft: 561 corp: 233/28Mb lim: 1048576 exec/s: 2693 rss: 114Mb L: 1044397/1048576 MS: 3 ChangeByte-ShuffleBytes-CrossOver-
+#262015	REDUCE cov: 12 ft: 561 corp: 233/28Mb lim: 1048576 exec/s: 2673 rss: 114Mb L: 604474/1048576 MS: 1 EraseBytes-
+#262144	pulse  cov: 12 ft: 561 corp: 233/28Mb lim: 1048576 exec/s: 2674 rss: 114Mb
+#266805	REDUCE cov: 12 ft: 561 corp: 233/28Mb lim: 1048576 exec/s: 2668 rss: 114Mb L: 1024005/1048576 MS: 5 ShuffleBytes-ChangeBit-ShuffleBytes-ChangeBit-EraseBytes-
+#267771	REDUCE cov: 12 ft: 561 corp: 233/28Mb lim: 1048576 exec/s: 2677 rss: 114Mb L: 800/1048576 MS: 1 EraseBytes-
+#269387	REDUCE cov: 12 ft: 561 corp: 233/28Mb lim: 1048576 exec/s: 2667 rss: 114Mb L: 1042546/1048576 MS: 1 EraseBytes-
+#270018	REDUCE cov: 12 ft: 561 corp: 233/28Mb lim: 1048576 exec/s: 2673 rss: 114Mb L: 742/1048576 MS: 1 EraseBytes-
+#277856	REDUCE cov: 12 ft: 561 corp: 233/28Mb lim: 1048576 exec/s: 2646 rss: 114Mb L: 3219/1048576 MS: 3 InsertRepeatedBytes-ChangeBinInt-EraseBytes-
+#278387	REDUCE cov: 12 ft: 561 corp: 233/28Mb lim: 1048576 exec/s: 2651 rss: 114Mb L: 118/1048576 MS: 1 EraseBytes-
+#280700	REDUCE cov: 12 ft: 561 corp: 233/28Mb lim: 1048576 exec/s: 2648 rss: 114Mb L: 3080/1048576 MS: 3 EraseBytes-ShuffleBytes-InsertRepeatedBytes-
+#281026	REDUCE cov: 12 ft: 561 corp: 233/28Mb lim: 1048576 exec/s: 2651 rss: 114Mb L: 588673/1048576 MS: 1 EraseBytes-
+#285032	REDUCE cov: 12 ft: 561 corp: 233/28Mb lim: 1048576 exec/s: 2639 rss: 114Mb L: 122796/1048576 MS: 1 EraseBytes-
+#286232	REDUCE cov: 12 ft: 562 corp: 234/28Mb lim: 1048576 exec/s: 2625 rss: 114Mb L: 274467/1048576 MS: 5 ChangeASCIIInt-ChangeASCIIInt-ChangeBit-ChangeBinInt-CrossOver-
+#290248	REDUCE cov: 12 ft: 562 corp: 234/28Mb lim: 1048576 exec/s: 2614 rss: 114Mb L: 272214/1048576 MS: 1 EraseBytes-
+#292886	REDUCE cov: 12 ft: 562 corp: 234/28Mb lim: 1048576 exec/s: 2615 rss: 114Mb L: 749/1048576 MS: 3 CMP-ChangeBit-EraseBytes- DE: "t3x"-
+#295628	REDUCE cov: 12 ft: 562 corp: 234/28Mb lim: 1048576 exec/s: 2616 rss: 114Mb L: 3114/1048576 MS: 2 InsertByte-EraseBytes-
+#295729	REDUCE cov: 12 ft: 562 corp: 234/28Mb lim: 1048576 exec/s: 2617 rss: 114Mb L: 1019/1048576 MS: 1 EraseBytes-
+#296246	REDUCE cov: 12 ft: 562 corp: 234/28Mb lim: 1048576 exec/s: 2621 rss: 114Mb L: 518/1048576 MS: 2 ChangeASCIIInt-EraseBytes-
+#302853	REDUCE cov: 12 ft: 563 corp: 235/28Mb lim: 1048576 exec/s: 2588 rss: 114Mb L: 4934/1048576 MS: 2 CopyPart-ChangeByte-
+#305256	REDUCE cov: 12 ft: 563 corp: 235/28Mb lim: 1048576 exec/s: 2586 rss: 114Mb L: 3083/1048576 MS: 3 ChangeASCIIInt-CrossOver-EraseBytes-
+#306987	REDUCE cov: 12 ft: 563 corp: 235/28Mb lim: 1048576 exec/s: 2601 rss: 114Mb L: 3081/1048576 MS: 1 EraseBytes-
+#307579	REDUCE cov: 12 ft: 563 corp: 235/28Mb lim: 1048576 exec/s: 2584 rss: 114Mb L: 1052/1048576 MS: 2 ChangeByte-EraseBytes-
+#308041	REDUCE cov: 12 ft: 563 corp: 235/28Mb lim: 1048576 exec/s: 2588 rss: 114Mb L: 24581/1048576 MS: 2 EraseBytes-InsertRepeatedBytes-
+#310422	REDUCE cov: 12 ft: 563 corp: 235/28Mb lim: 1048576 exec/s: 2586 rss: 114Mb L: 233089/1048576 MS: 1 EraseBytes-
+#311023	REDUCE cov: 12 ft: 563 corp: 235/28Mb lim: 1048576 exec/s: 2591 rss: 114Mb L: 540/1048576 MS: 1 EraseBytes-
+#312068	DONE   cov: 12 ft: 563 corp: 235/28Mb lim: 1048576 exec/s: 2579 rss: 114Mb
+###### Recommended dictionary. ######
+"\220\320\003\000" # Uses: 4830
+"xsql" # Uses: 4814
+"\001\000\000\000\000\000\000\000" # Uses: 3702
+"\217\320\003\000" # Uses: 2830
+"\377\002\320\220" # Uses: 2558
+"trigge" # Uses: 2373
+"\377\377\377\377\377\377\377\377" # Uses: 1968
+"\377\377\377\016" # Uses: 960
+"\001\000\000!" # Uses: 947
+"\000\000\000\000\000\000\000\000" # Uses: 808
+"t2" # Uses: 593
+"t3x" # Uses: 116
+###### End of recommended dictionary. ######
+Done 312068 runs in 121 second(s)
+[INTEGRITY] === Error Summary (67 unique, 0 dropped) ===
+[INTEGRITY]   [1] UNDERFLOW at sqlite/sqlite3.c:37203:7 (count=348622053)
+[INTEGRITY]   [2] OVERFLOW at sqlite/sqlite3.c:37203:7 (count=247159255)
+[INTEGRITY]   [3] SHIFT_OVF at sqlite/sqlite3.c:196104:11 (count=312068)
+[INTEGRITY]   [4] UNDERFLOW at sqlite/sqlite3.c:34304:5 (count=1248277)
+[INTEGRITY]   [5] OVERFLOW at sqlite/sqlite3.c:34306:5 (count=1248279)
+[INTEGRITY]   [6] UNDERFLOW at sqlite/sqlite3.c:34308:5 (count=1560346)
+[INTEGRITY]   [7] OVERFLOW at sqlite/sqlite3.c:34310:5 (count=936208)
+[INTEGRITY]   [8] UNDERFLOW at sqlite/sqlite3.c:34310:5 (count=2808618)
+[INTEGRITY]   [9] OVERFLOW at sqlite/sqlite3.c:34303:5 (count=1872415)
+[INTEGRITY]   [10] UNDERFLOW at sqlite/sqlite3.c:34303:5 (count=1560344)
+[INTEGRITY]   [11] OVERFLOW at sqlite/sqlite3.c:34304:5 (count=2808616)
+[INTEGRITY]   [12] OVERFLOW at sqlite/sqlite3.c:34305:5 (count=1872412)
+[INTEGRITY]   [13] UNDERFLOW at sqlite/sqlite3.c:34305:5 (count=624139)
+[INTEGRITY]   [14] OVERFLOW at sqlite/sqlite3.c:34307:5 (count=1560344)
+[INTEGRITY]   [15] OVERFLOW at sqlite/sqlite3.c:34308:5 (count=2184479)
+[INTEGRITY]   [16] UNDERFLOW at sqlite/sqlite3.c:34309:5 (count=2184480)
+[INTEGRITY]   [17] UNDERFLOW at sqlite/sqlite3.c:34306:5 (count=1248278)
+[INTEGRITY]   [18] UNDERFLOW at sqlite/sqlite3.c:34307:5 (count=1872409)
+[INTEGRITY]   [19] OVERFLOW at sqlite/sqlite3.c:34309:5 (count=1560346)
+[INTEGRITY]   [20] OVERFLOW at sqlite/sqlite3.c:34312:36 (count=624138)
+[INTEGRITY]   [21] UNDERFLOW at sqlite/sqlite3.c:34312:36 (count=2)
+[INTEGRITY]   [22] OVERFLOW at sqlite/sqlite3.c:35722:7 (count=130129699)
+[INTEGRITY]   [23] SHIFT_OVF at sqlite/sqlite3.c:123773:11 (count=1645802)
+[INTEGRITY]   [24] SHIFT_OVF at sqlite/sqlite3.c:36727:25 (count=2986937)
+[INTEGRITY]   [25] OVERFLOW at sqlite/sqlite3.c:56214:34 (count=6824)
+[INTEGRITY]   [26] OVERFLOW at sqlite/sqlite3.c:36913:7 (count=122)
+[INTEGRITY]   [27] SHIFT_OVF at sqlite/sqlite3.c:73020:18 (count=14474)
+[INTEGRITY]   [28] OVERFLOW at sqlite/sqlite3.c:74300:33 (count=251)
+[INTEGRITY]   [29] SHIFT_OVF at sqlite/sqlite3.c:72097:31 (count=124498)
+[INTEGRITY]   [30] SHIFT_OVF at sqlite/sqlite3.c:72068:27 (count=571594)
+[INTEGRITY]   [31] SHIFT_OVF at sqlite/sqlite3.c:36566:8 (count=185576)
+[INTEGRITY]   [32] SHIFT_OVF at sqlite/sqlite3.c:36588:8 (count=180130)
+[INTEGRITY]   [33] SHIFT_OVF at sqlite/sqlite3.c:36637:8 (count=140311)
+[INTEGRITY]   [34] SHIFT_OVF at sqlite/sqlite3.c:36647:8 (count=122734)
+[INTEGRITY]   [35] SHIFT_OVF at sqlite/sqlite3.c:36653:16 (count=122734)
+[INTEGRITY]   [36] SHIFT_OVF at sqlite/sqlite3.c:36604:8 (count=60811)
+[INTEGRITY]   [37] SHIFT_OVF at sqlite/sqlite3.c:36621:8 (count=54727)
+[INTEGRITY]   [38] SHIFT_OVF at sqlite/sqlite3.c:36644:8 (count=51397)
+[INTEGRITY]   [39] SHIFT_OVF at sqlite/sqlite3.c:89173:9 (count=39755)
+[INTEGRITY]   [40] OVERFLOW at sqlite/sqlite3.c:0:0 (count=12950)
+[INTEGRITY]   [41] UNDERFLOW at sqlite/sqlite3.c:35722:7 (count=345172)
+[INTEGRITY]   [42] SHIFT_OVF at sqlite/sqlite3.c:36596:10 (count=11622)
+[INTEGRITY]   [43] SHIFT_OVF at sqlite/sqlite3.c:36611:10 (count=17105)
+[INTEGRITY]   [44] UNDERFLOW at sqlite/sqlite3.c:72677:7 (count=1719239)
+[INTEGRITY]   [45] OVERFLOW at sqlite/sqlite3.c:72677:7 (count=1228502)
+[INTEGRITY]   [46] SHIFT_OVF at sqlite/sqlite3.c:89207:9 (count=18063)
+[INTEGRITY]   [47] OVERFLOW at sqlite/sqlite3.c:78392:5 (count=577621)
+[INTEGRITY]   [48] OVERFLOW at sqlite/sqlite3.c:78411:3 (count=575839)
+[INTEGRITY]   [49] OVERFLOW at sqlite/sqlite3.c:72543:19 (count=4165)
+[INTEGRITY]   [50] SHIFT_OVF at sqlite/sqlite3.c:72145:27 (count=45859)
+[INTEGRITY]   [51] UNDERFLOW at sqlite/sqlite3.c:81367:29 (count=2503)
+[INTEGRITY]   [52] SHIFT_OVF at sqlite/sqlite3.c:90094:11 (count=3187)
+[INTEGRITY]   [53] UNDERFLOW at sqlite/sqlite3.c:72485:12 (count=714)
+[INTEGRITY]   [54] OVERFLOW at sqlite/sqlite3.c:60410:65 (count=2330)
+[INTEGRITY]   [55] UNDERFLOW at sqlite/sqlite3.c:78659:3 (count=16599)
+[INTEGRITY]   [56] SHIFT_OVF at sqlite/sqlite3.c:102363:20 (count=966)
+[INTEGRITY]   [57] UNDERFLOW at sqlite/sqlite3.c:78392:5 (count=551863)
+[INTEGRITY]   [58] UNDERFLOW at sqlite/sqlite3.c:78411:3 (count=545389)
+[INTEGRITY]   [59] UNDERFLOW at sqlite/sqlite3.c:71990:56 (count=29289)
+[INTEGRITY]   [60] OVERFLOW at sqlite/sqlite3.c:78106:10 (count=15103)
+[INTEGRITY]   [61] UNDERFLOW at sqlite/sqlite3.c:78484:5 (count=250932)
+[INTEGRITY]   [62] UNDERFLOW at sqlite/sqlite3.c:72543:19 (count=20231)
+[INTEGRITY]   [63] OVERFLOW at sqlite/sqlite3.c:78484:5 (count=432807)
+[INTEGRITY]   [64] OVERFLOW at sqlite/sqlite3.c:78659:3 (count=20779)
+[INTEGRITY]   [65] UNDERFLOW at sqlite/sqlite3.c:71826:18 (count=407)
+[INTEGRITY]   [66] UNDERFLOW at sqlite/sqlite3.c:71919:12 (count=407)
+[INTEGRITY]   [67] UNDERFLOW at sqlite/sqlite3.c:56041:23 (count=180)

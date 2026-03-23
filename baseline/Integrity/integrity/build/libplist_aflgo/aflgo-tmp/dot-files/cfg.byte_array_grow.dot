@@ -1,0 +1,35 @@
+digraph "CFG for 'byte_array_grow' function" {
+	label="CFG for 'byte_array_grow' function";
+
+	Node0x15d613c0 [shape=record,label="{bytearray.c:57:}"];
+	Node0x15d613c0 -> Node0x15d74120;
+	Node0x15d613c0 -> Node0x15d74490;
+	Node0x15d74120 [shape=record,label="{bytearray.c:60:}"];
+	Node0x15d74120 -> Node0x15d74170;
+	Node0x15d74120 -> Node0x15d741c0;
+	Node0x15d74170 [shape=record,label="{bytearray.c:60:1}"];
+	Node0x15d74170 -> Node0x15d741c0;
+	Node0x15d741c0 [shape=record,label="{bytearray.c:60:2}"];
+	Node0x15d741c0 -> Node0x15d74210;
+	Node0x15d741c0 -> Node0x15d74260;
+	Node0x15d74210 [shape=record,label="{bytearray.c:61:}"];
+	Node0x15d74210 -> Node0x15d74260;
+	Node0x15d74260 [shape=record,label="{bytearray.c:61:3}"];
+	Node0x15d74260 -> Node0x15d742b0;
+	Node0x15d74260 -> Node0x15d74300;
+	Node0x15d742b0 [shape=record,label="{bytearray.c:61:4}"];
+	Node0x15d742b0 -> Node0x15d74300;
+	Node0x15d74300 [shape=record,label="{bytearray.c:61:5}"];
+	Node0x15d74300 -> Node0x15d74350;
+	Node0x15d74300 -> Node0x15d743a0;
+	Node0x15d74350 [shape=record,label="{bytearray.c:62:}"];
+	Node0x15d74350 -> Node0x15d743a0;
+	Node0x15d743a0 [shape=record,label="{bytearray.c:62:6}"];
+	Node0x15d743a0 -> Node0x15d743f0;
+	Node0x15d743a0 -> Node0x15d74440;
+	Node0x15d743f0 [shape=record,label="{bytearray.c:62:7}"];
+	Node0x15d743f0 -> Node0x15d74440;
+	Node0x15d74440 [shape=record,label="{bytearray.c:62:8}"];
+	Node0x15d74440 -> Node0x15d74490;
+	Node0x15d74490 [shape=record,label="{bytearray.c:63:}"];
+}

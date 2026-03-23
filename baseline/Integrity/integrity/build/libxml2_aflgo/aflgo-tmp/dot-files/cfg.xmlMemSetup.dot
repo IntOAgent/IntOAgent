@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlMemSetup' function" {
+	label="CFG for 'xmlMemSetup' function";
+
+	Node0x3023db60 [shape=record,label="{xmlmemory.c:416:}"];
+	Node0x3023db60 -> Node0x3023dc00;
+	Node0x3023db60 -> Node0x3023dbb0;
+	Node0x3023dbb0 [shape=record,label="{xmlmemory.c:424:}"];
+	Node0x3023dbb0 -> Node0x3023dc00;
+	Node0x3023dc00 [shape=record,label="{xmlmemory.c:430:}"];
+}

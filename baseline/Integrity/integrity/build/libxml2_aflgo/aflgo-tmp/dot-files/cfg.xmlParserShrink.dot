@@ -1,0 +1,48 @@
+digraph "CFG for 'xmlParserShrink' function" {
+	label="CFG for 'xmlParserShrink' function";
+
+	Node0x8c5f610 [shape=record,label="{parserInternals.c:750:}"];
+	Node0x8c5f610 -> Node0x8c5fd70;
+	Node0x8c5f610 -> Node0x8c5f870;
+	Node0x8c5f870 [shape=record,label="{parserInternals.c:757:}"];
+	Node0x8c5f870 -> Node0x8c5f8c0;
+	Node0x8c5f870 -> Node0x8c5f910;
+	Node0x8c5f8c0 [shape=record,label="{%13}"];
+	Node0x8c5f8c0 -> Node0x8c5f910;
+	Node0x8c5f910 [shape=record,label="{%16}"];
+	Node0x8c5f910 -> Node0x8c5f960;
+	Node0x8c5f910 -> Node0x8c5f9b0;
+	Node0x8c5f960 [shape=record,label="{%17}"];
+	Node0x8c5f960 -> Node0x8c5f9b0;
+	Node0x8c5f9b0 [shape=record,label="{parserInternals.c:759:}"];
+	Node0x8c5f9b0 -> Node0x8c5fa00;
+	Node0x8c5f9b0 -> Node0x8c5fd70;
+	Node0x8c5fa00 [shape=record,label="{parserInternals.c:760:}"];
+	Node0x8c5fa00 -> Node0x8c5fa50;
+	Node0x8c5fa00 -> Node0x8c5faa0;
+	Node0x8c5fa50 [shape=record,label="{parserInternals.c:760:1}"];
+	Node0x8c5fa50 -> Node0x8c5faa0;
+	Node0x8c5faa0 [shape=record,label="{parserInternals.c:760:2}"];
+	Node0x8c5faa0 -> Node0x8c5faf0;
+	Node0x8c5faa0 -> Node0x8c5fb40;
+	Node0x8c5faf0 [shape=record,label="{parserInternals.c:760:3}"];
+	Node0x8c5faf0 -> Node0x8c5fb40;
+	Node0x8c5fb40 [shape=record,label="{parserInternals.c:760:4}"];
+	Node0x8c5fb40 -> Node0x8c5fd20;
+	Node0x8c5fb40 -> Node0x8c5fb90;
+	Node0x8c5fb90 [shape=record,label="{parserInternals.c:763:}"];
+	Node0x8c5fb90 -> Node0x8c5fbe0;
+	Node0x8c5fb90 -> Node0x8c5fc30;
+	Node0x8c5fbe0 [shape=record,label="{%31}"];
+	Node0x8c5fbe0 -> Node0x8c5fc30;
+	Node0x8c5fc30 [shape=record,label="{%34}"];
+	Node0x8c5fc30 -> Node0x8c5fc80;
+	Node0x8c5fc30 -> Node0x8c5fcd0;
+	Node0x8c5fc80 [shape=record,label="{%35}"];
+	Node0x8c5fc80 -> Node0x8c5fcd0;
+	Node0x8c5fcd0 [shape=record,label="{parserInternals.c:764:}"];
+	Node0x8c5fcd0 -> Node0x8c5fd20;
+	Node0x8c5fd20 [shape=record,label="{parserInternals.c:767:}"];
+	Node0x8c5fd20 -> Node0x8c5fd70;
+	Node0x8c5fd70 [shape=record,label="{parserInternals.c:769:}"];
+}

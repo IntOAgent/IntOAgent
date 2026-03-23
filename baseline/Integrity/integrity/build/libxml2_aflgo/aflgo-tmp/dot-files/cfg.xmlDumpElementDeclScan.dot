@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlDumpElementDeclScan' function" {
+	label="CFG for 'xmlDumpElementDeclScan' function";
+
+	Node0x37c96060 [shape=record,label="{valid.c:1377:}"];
+}

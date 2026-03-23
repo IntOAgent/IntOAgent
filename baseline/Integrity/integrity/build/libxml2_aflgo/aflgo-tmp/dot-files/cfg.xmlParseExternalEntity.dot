@@ -1,0 +1,35 @@
+digraph "CFG for 'xmlParseExternalEntity' function" {
+	label="CFG for 'xmlParseExternalEntity' function";
+
+	Node0x270c3630 [shape=record,label="{parser.c:11940:}"];
+	Node0x270c3630 -> Node0x270c3ee0;
+	Node0x270c3630 -> Node0x270c3e90;
+	Node0x270c3e90 [shape=record,label="{parser.c:11941:}"];
+	Node0x270c3e90 -> Node0x270c3ee0;
+	Node0x270c3ee0 [shape=record,label="{parser.c:11943:}"];
+	Node0x270c3ee0 -> Node0x270c4a50;
+	Node0x270c3ee0 -> Node0x270c3f30;
+	Node0x270c3f30 [shape=record,label="{parser.c:11946:}"];
+	Node0x270c3f30 -> Node0x270c4a50;
+	Node0x270c3f30 -> Node0x270c3f80;
+	Node0x270c3f80 [shape=record,label="{parser.c:11950:}"];
+	Node0x270c3f80 -> Node0x270c4870;
+	Node0x270c3f80 -> Node0x270c4820;
+	Node0x270c4820 [shape=record,label="{parser.c:11888:}"];
+	Node0x270c4820 -> Node0x270c4870;
+	Node0x270c4870 [shape=record,label="{parser.c:11893:}"];
+	Node0x270c4870 -> Node0x270c4a00;
+	Node0x270c4870 -> Node0x270c48c0;
+	Node0x270c48c0 [shape=record,label="{parser.c:11898:}"];
+	Node0x270c48c0 -> Node0x270c4960;
+	Node0x270c48c0 -> Node0x270c4910;
+	Node0x270c4910 [shape=record,label="{parser.c:11902:}"];
+	Node0x270c4910 -> Node0x270c49b0;
+	Node0x270c4960 [shape=record,label="{parser.c:11904:}"];
+	Node0x270c4960 -> Node0x270c49b0;
+	Node0x270c49b0 [shape=record,label="{parser.c:11906:}"];
+	Node0x270c49b0 -> Node0x270c4a00;
+	Node0x270c4a00 [shape=record,label="{parser.c:11954:}"];
+	Node0x270c4a00 -> Node0x270c4a50;
+	Node0x270c4a50 [shape=record,label="{parser.c:11956:}"];
+}

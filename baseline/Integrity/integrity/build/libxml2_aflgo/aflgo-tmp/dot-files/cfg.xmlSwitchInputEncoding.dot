@@ -1,0 +1,21 @@
+digraph "CFG for 'xmlSwitchInputEncoding' function" {
+	label="CFG for 'xmlSwitchInputEncoding' function";
+
+	Node0x8d84d60 [shape=record,label="{parserInternals.c:1453:}"];
+	Node0x8d84d60 -> Node0x8d85180;
+	Node0x8d84d60 -> Node0x8d84ff0;
+	Node0x8d84ff0 [shape=record,label="{parserInternals.c:225:}"];
+	Node0x8d84ff0 -> Node0x8d85180;
+	Node0x8d84ff0 -> Node0x8d85040;
+	Node0x8d85040 [shape=record,label="{parserInternals.c:228:}"];
+	Node0x8d85040 -> Node0x8d850e0;
+	Node0x8d85040 -> Node0x8d85090;
+	Node0x8d85040 -> Node0x8d85130;
+	Node0x8d85090 [shape=record,label="{parserInternals.c:236:}"];
+	Node0x8d85090 -> Node0x8d85130;
+	Node0x8d850e0 [shape=record,label="{%10}"];
+	Node0x8d850e0 -> Node0x8d85130;
+	Node0x8d85130 [shape=record,label="{parserInternals.c:246:}"];
+	Node0x8d85130 -> Node0x8d85180;
+	Node0x8d85180 [shape=record,label="{parserInternals.c:1461:}"];
+}

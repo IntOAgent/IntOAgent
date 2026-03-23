@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlCleanupRelaxNGInternal' function" {
+	label="CFG for 'xmlCleanupRelaxNGInternal' function";
+
+	Node0x12d0cc50 [shape=record,label="{relaxng.c:2692:}"];
+}

@@ -1,0 +1,17 @@
+parserInternals.c:521,6.5534621880570256
+parserInternals.c:526,0
+parserInternals.c:527,5.4326396432167776
+parserInternals.c:531,7.1178992428364731
+parserInternals.c:532,7.1178992428364731
+parserInternals.c:533,8.2721814368014304
+parserInternals.c:536,5.8902275769745653
+parserInternals.c:537,5.6631238093292406
+parserInternals.c:540,0
+parserInternals.c:541,4.1448236057572974
+parserInternals.c:544,0
+parserInternals.c:546,2.4000000000000004
+parserInternals.c:550,0
+parserInternals.c:553,0
+parserInternals.c:555,5.5077954247413672
+parserInternals.c:557,4.4195019291476676
+parserInternals.c:563,0

@@ -1,0 +1,17 @@
+digraph "CFG for 'xmlInputFromFd' function" {
+	label="CFG for 'xmlInputFromFd' function";
+
+	Node0x97693a0 [shape=record,label="{xmlIO.c:1229:}"];
+	Node0x97693a0 -> Node0x9769430;
+	Node0x97693a0 -> Node0x9769480;
+	Node0x9769430 [shape=record,label="{xmlIO.c:1231:}"];
+	Node0x9769430 -> Node0x9769570;
+	Node0x9769480 [shape=record,label="{xmlIO.c:1233:}"];
+	Node0x9769480 -> Node0x97694d0;
+	Node0x9769480 -> Node0x9769520;
+	Node0x97694d0 [shape=record,label="{xmlIO.c:1235:}"];
+	Node0x97694d0 -> Node0x9769570;
+	Node0x9769520 [shape=record,label="{xmlIO.c:1238:}"];
+	Node0x9769520 -> Node0x9769570;
+	Node0x9769570 [shape=record,label="{xmlIO.c:1245:}"];
+}

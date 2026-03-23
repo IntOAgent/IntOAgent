@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlFreePattern' function" {
+	label="CFG for 'xmlFreePattern' function";
+
+	Node0x329cbda0 [shape=record,label="{pattern.c:223:}"];
+}

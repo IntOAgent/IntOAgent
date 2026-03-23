@@ -1,0 +1,10 @@
+xmlstring.c:53,2.5714285714285716
+xmlstring.c:54,0
+xmlstring.c:53,2.5714285714285716
+xmlstring.c:54,0
+xmlstring.c:54,0
+xmlstring.c:54,0
+xmlstring.c:53,2.5714285714285716
+xmlstring.c:54,0
+xmlstring.c:53,2.5714285714285716
+xmlstring.c:54,0

@@ -1,0 +1,29 @@
+digraph "CFG for 'xmlCtxtResolveFromCatalog' function" {
+	label="CFG for 'xmlCtxtResolveFromCatalog' function";
+
+	Node0x8d6a820 [shape=record,label="{parserInternals.c:2364:}"];
+	Node0x8d6a820 -> Node0x8d6a970;
+	Node0x8d6a820 -> Node0x8d6a8d0;
+	Node0x8d6a8d0 [shape=record,label="{parserInternals.c:2373:}"];
+	Node0x8d6a8d0 -> Node0x8d6a920;
+	Node0x8d6a8d0 -> Node0x8d6ab50;
+	Node0x8d6a920 [shape=record,label="{parserInternals.c:2376:}"];
+	Node0x8d6a920 -> Node0x8d6a970;
+	Node0x8d6a970 [shape=record,label="{parserInternals.c:2382:}"];
+	Node0x8d6a970 -> Node0x8d6aa60;
+	Node0x8d6a970 -> Node0x8d6ab50;
+	Node0x8d6a970 -> Node0x8d6a9c0;
+	Node0x8d6a970 -> Node0x8d6aa10;
+	Node0x8d6a9c0 [shape=record,label="{parserInternals.c:2387:}"];
+	Node0x8d6a9c0 -> Node0x8d6aa60;
+	Node0x8d6aa10 [shape=record,label="{parserInternals.c:2390:}"];
+	Node0x8d6aa10 -> Node0x8d6aa60;
+	Node0x8d6aa60 [shape=record,label="{parserInternals.c:2395:}"];
+	Node0x8d6aa60 -> Node0x8d6ab00;
+	Node0x8d6aa60 -> Node0x8d6aab0;
+	Node0x8d6aab0 [shape=record,label="{parserInternals.c:2400:}"];
+	Node0x8d6aab0 -> Node0x8d6ab00;
+	Node0x8d6ab00 [shape=record,label="{parserInternals.c:2402:}"];
+	Node0x8d6ab00 -> Node0x8d6ab50;
+	Node0x8d6ab50 [shape=record,label="{parserInternals.c:2403:}"];
+}

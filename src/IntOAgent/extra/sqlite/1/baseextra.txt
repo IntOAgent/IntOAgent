@@ -1,0 +1,27 @@
+Vulnerability Description:
+Arithmetic operations on user-controlled data that is not validated can cause overflows.
+
+Message:
+Conversion between signed and unsigned types int and unsigned int.
+
+Function:
+integerValue
+
+Vulnerable Code:
+v *= aMult[i].iMult;
+
+File:
+/home/xxx/agent-project/sqlite/shell.c
+
+Line Number:
+1428
+
+Code Context:
+}
+  for(i=0; i<ArraySize(aMult); i++){
+    if( sqlite3_stricmp(aMult[i].zSuffix, zArg)==0 ){
+      v *= aMult[i].iMult;
+      break;
+    }
+  }
+

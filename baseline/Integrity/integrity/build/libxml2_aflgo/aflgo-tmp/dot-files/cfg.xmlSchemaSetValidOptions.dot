@@ -1,0 +1,31 @@
+digraph "CFG for 'xmlSchemaSetValidOptions' function" {
+	label="CFG for 'xmlSchemaSetValidOptions' function";
+
+	Node0x2de30430 [shape=record,label="{xmlschemas.c:27384:}"];
+	Node0x2de30430 -> Node0x2de325c0;
+	Node0x2de30430 -> Node0x2de323e0;
+	Node0x2de32290 [shape=record,label="{xmlschemas.c:27392:}"];
+	Node0x2de32290 -> Node0x2de32340;
+	Node0x2de32290 -> Node0x2de32390;
+	Node0x2de32340 [shape=record,label="{%4}"];
+	Node0x2de32340 -> Node0x2de32390;
+	Node0x2de32390 [shape=record,label="{xmlschemas.c:27392:1}"];
+	Node0x2de32390 -> Node0x2de32570;
+	Node0x2de32390 -> Node0x2de323e0;
+	Node0x2de323e0 [shape=record,label="{xmlschemas.c:27393:}"];
+	Node0x2de323e0 -> Node0x2de32430;
+	Node0x2de323e0 -> Node0x2de32480;
+	Node0x2de32430 [shape=record,label="{xmlschemas.c:27393:2}"];
+	Node0x2de32430 -> Node0x2de32480;
+	Node0x2de32480 [shape=record,label="{xmlschemas.c:27393:3}"];
+	Node0x2de32480 -> Node0x2de324d0;
+	Node0x2de32480 -> Node0x2de32520;
+	Node0x2de324d0 [shape=record,label="{xmlschemas.c:27393:4}"];
+	Node0x2de324d0 -> Node0x2de32520;
+	Node0x2de32520 [shape=record,label="{xmlschemas.c:27393:5}"];
+	Node0x2de32520 -> Node0x2de32290;
+	Node0x2de32520 -> Node0x2de325c0;
+	Node0x2de32570 [shape=record,label="{xmlschemas.c:27396:}"];
+	Node0x2de32570 -> Node0x2de325c0;
+	Node0x2de325c0 [shape=record,label="{xmlschemas.c:27398:}"];
+}

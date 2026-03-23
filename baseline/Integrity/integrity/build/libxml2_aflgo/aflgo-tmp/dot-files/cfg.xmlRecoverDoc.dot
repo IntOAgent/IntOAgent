@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlRecoverDoc' function" {
+	label="CFG for 'xmlRecoverDoc' function";
+
+	Node0x27142da0 [shape=record,label="{parser.c:12942:}"];
+	Node0x27142da0 -> Node0x27143550;
+	Node0x27142da0 -> Node0x271434b0;
+	Node0x271434b0 [shape=record,label="{parser.c:12945:}"];
+	Node0x271434b0 -> Node0x27143550;
+	Node0x271434b0 -> Node0x27143500;
+	Node0x27143500 [shape=record,label="{parser.c:12953:}"];
+	Node0x27143500 -> Node0x27143550;
+	Node0x27143550 [shape=record,label="{parser.c:12559:}"];
+}

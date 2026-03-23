@@ -1,0 +1,5 @@
+digraph "CFG for 'htmlElementAllowedHere' function" {
+	label="CFG for 'htmlElementAllowedHere' function";
+
+	Node0x39d8ac0 [shape=record,label="{HTMLparser.c:5432:}"];
+}

@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlFreeRef' function" {
+	label="CFG for 'xmlFreeRef' function";
+
+	Node0x37d28e90 [shape=record,label="{valid.c:2476:}"];
+	Node0x37d28e90 -> Node0x37d290b0;
+	Node0x37d28e90 -> Node0x37d28f20;
+	Node0x37d28f20 [shape=record,label="{valid.c:2478:}"];
+	Node0x37d28f20 -> Node0x37d28fc0;
+	Node0x37d28f20 -> Node0x37d28f70;
+	Node0x37d28f70 [shape=record,label="{valid.c:2479:}"];
+	Node0x37d28f70 -> Node0x37d28fc0;
+	Node0x37d28fc0 [shape=record,label="{valid.c:2480:}"];
+	Node0x37d28fc0 -> Node0x37d29060;
+	Node0x37d28fc0 -> Node0x37d29010;
+	Node0x37d29010 [shape=record,label="{valid.c:2481:}"];
+	Node0x37d29010 -> Node0x37d29060;
+	Node0x37d29060 [shape=record,label="{valid.c:2482:}"];
+	Node0x37d29060 -> Node0x37d290b0;
+	Node0x37d290b0 [shape=record,label="{valid.c:2483:}"];
+}

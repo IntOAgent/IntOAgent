@@ -1,0 +1,11 @@
+digraph "CFG for 'xmlNsListDumpOutput' function" {
+	label="CFG for 'xmlNsListDumpOutput' function";
+
+	Node0x263187a0 [shape=record,label="{xmlsave.c:814:}"];
+	Node0x263187a0 -> Node0x262e32a0;
+	Node0x263187a0 -> Node0x262e3250;
+	Node0x262e3250 [shape=record,label="{xmlsave.c:815:}"];
+	Node0x262e3250 -> Node0x262e32a0;
+	Node0x262e3250 -> Node0x262e3250;
+	Node0x262e32a0 [shape=record,label="{xmlsave.c:818:}"];
+}

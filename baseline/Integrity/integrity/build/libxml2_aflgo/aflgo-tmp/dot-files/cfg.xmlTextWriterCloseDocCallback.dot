@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlTextWriterCloseDocCallback' function" {
+	label="CFG for 'xmlTextWriterCloseDocCallback' function";
+
+	Node0x2d403d90 [shape=record,label="{xmlwriter.c:4290:}"];
+	Node0x2d403d90 -> Node0x2d403e30;
+	Node0x2d403d90 -> Node0x2d403de0;
+	Node0x2d403de0 [shape=record,label="{xmlwriter.c:152:}"];
+	Node0x2d403de0 -> Node0x2d403e30;
+	Node0x2d403e30 [shape=record,label="{xmlwriter.c:4302:}"];
+}

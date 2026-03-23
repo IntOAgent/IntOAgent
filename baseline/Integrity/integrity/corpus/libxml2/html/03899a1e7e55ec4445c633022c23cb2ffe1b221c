@@ -1,0 +1,171 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="CSS.css" type="text/css" rel="stylesheet" />
+<link rel="SHORTCUT ICON" href="favicon.ico">
+<title>شهير بلاگ</title>
+</head>
+
+<body>
+
+<table border="0" width="100%" id="MainTBL" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="Header1">
+		<table border="0" width="100%" cellspacing="0" cellpadding="0" height="100%">
+			<tr>
+				<td>
+				<img border="0" src="Shell/Shahir.ShahidSales1.png" width="442" height="110"></td>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="28">
+			<div id="SideBar1">
+				<table width="100%">
+				<tr>
+				<td>
+				 <span class="Item">
+<a href="Index.asp" >
+خانه </a></span> <span class="Item">
+<a href="Contact.asp" >
+تماس با من </a></span> <span class="Item">
+<a href="Archive.asp" >
+آرشيو </a></span> <span class="Item">
+<a href="Search.asp" >
+جستجو در سایت </a></span> <span class="Item">
+<a href="http://shahirblog.com/detail.asp?id=30" >
+درباره من </a></span> <span class="Item">
+<a href="RSS2.asp" >
+
+<img src="showimage.aspx?path=Files_Upload\192.png&width=%>" border="0" />
+RSS </a></span> <span class="Item">
+<a href="" >
+ </a></span>
+				</td>
+				<td align="left">
+				<div id="DateTime">
+				<p align="left">
+				&#1610;&#1705;&#1588;&#1606;&#1576;&#1607;&#1548;&nbsp;15&nbsp;&#1575;&#1585;&#1583;&#1610;&#1576;&#1607;&#1588;&#1578;&nbsp;1387&nbsp; 
+				-&nbsp;&nbsp; 
+				<span dir="ltr">Sunday, May 04, 2008</span>
+				</div>
+				</td>
+				</tr>
+				</table>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top">
+		<table border="0" width="100%" cellspacing="0" cellpadding="0" id="Content">
+			<tr>
+				<td class="Right" valign="top" style="padding-right: 60px">
+					<table width="100%">
+						<tr>
+							<td valign="top">
+								
+<script>
+var tgs = new Array( 'div','td','tr','a');
+var szs = new Array( '7pt','8pt','9pt','10pt','11pt','12pt','13pt' );
+var startSz = 1;
+
+function ChangeSize( trgt,sz ) {
+	if (!document.getElementById) return
+	var d = document,cEl = null,i,j,cTags;
+	
+	if ( !( cEl = d.getElementById( trgt ) ) ) cEl = d.getElementsByTagName( trgt )[ 0 ];
+
+	cEl.style.fontSize = sz;
+
+	for ( i = 0 ; i < tgs.length ; i++ ) {
+		cTags = cEl.getElementsByTagName( tgs[ i ] );
+		for ( j = 0 ; j < cTags.length ; j++ ) cTags[ j ].style.fontSize = sz; //szs[ sz ];
+	}
+}
+</script>
+
+<table width="100%" id="NewsDetail">
+	<tr>
+		<td valign="top">
+		<div class="News_Info">
+			&#1578;&#1575;&#1585;&#1610;&#1582; &#1583;&#1585;&#1580;: <font color="#000000">&#1670;&#1607;&#1575;&#1585;&#1588;&#1606;&#1576;&#1607;&#1548;&nbsp;29&nbsp;&#1575;&#1587;&#1601;&#1606;&#1583;&nbsp;1386 
+			- Wednesday, March 19, 2008</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			&#1606;&#1608;&#1610;&#1587;&#1606;&#1583;&#1607;: <font color="#000000"></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			&#1583;&#1601;&#1593;&#1575;&#1578; &#1605;&#1588;&#1575;&#1607;&#1583;&#1607;: <font color="#000000">2688</font> 
+			&#1576;&#1575;&#1585;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#1603;&#1583;: <font color="#000000">341</font>
+		</div>
+		<br>
+		<!--
+		<div>&#1575;&#1606;&#1583;&#1575;&#1586;&#1607; &#1601;&#1608;&#1606;&#1578;:&nbsp;
+		<a href="javascript:ChangeSize('NewsBody','7pt')"><font size="1">&#1705;&#1608;&#1670;&#1705;</font></a>&nbsp;
+		<a href="javascript:ChangeSize('NewsBody','10pt')"><font size="2">&#1605;&#1593;&#1605;&#1608;&#1604;&#1740;</font></a>&nbsp;
+		<a href="javascript:ChangeSize('NewsBody','13pt')"><font size="3">&#1576;&#1586;&#1585;&#1711;</font></a>&nbsp;
+		</div>-->
+		
+
+		<div class="Titr1">
+			 </div>
+		<br>
+		<div id="NewsBody">
+			
+			<div class="Image">
+				
+				<a href="showimage.aspx?path=Files_Upload\302.JPG&Width=" rel="lightbox" title="شهير بلاگ">
+				<img src="showimage.aspx?path=Files_Upload\302.JPG&Width=220" align="left" border="1" />
+				</a></div>
+			<STRONG><FONT size=4><FONT color=#0000ff>عکس</FONT> <FONT color=#0000ff>محصول هنر یکی از همکاران است. روی آن کلیک کند.</FONT></FONT></STRONG><S1>  </div>
+		<br>
+		<div align="left">
+			<a href="printfriendly.asp?id=341">
+			<img src="shell/PrintFriendly.png" border="0"></a>
+			<a href="#" onclick="window.open('SendNews.asp?PageID=341','myWin','toolbar=no,directories=no,location=no,status=no,menubar=no,resizable=yes,scrollbars=no,width=500, height=200'); return false">
+			<img border="0" src="Shell/SendToFriends.jpg" width="140" height="30">
+			</a>
+		</div>
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td> <br />
+		<hr><div
+		id=Comments><ul><b>&#1606;&#1592;&#1585;&#1575;&#1578;
+		&#1705;&#1575;&#1585;&#1576;&#1585;&#1575;&#1606;:</b><br><li><font
+		color='blue'>حاجی جفرسون:</font><br><font size='1'>4/5/2008 -
+		7:08:00 PM</font><br>با درود به شما...&nbsp;بدون هیچ گونه طنز
+		و دستکاری توسط حاجی دایی نقل شده است این ها که در بیان جدی
+		اینقدر طناز هستند وای به روزی که بخواهند طنز بنویسند. ببین
+		شهیر جان چه کسانی سر جوانان ما را با اصلاحات 8 سال گول
+		مالیدند.. این ها را بخوانید :::::((دبيركل مجمع اسلامي بانوان
+		گفت: به نظر مي&zwnj;رسد آقاي خاتمي قصد فاصله گرفتن از تندروها
+		را ندارد و تا اين روند ادامه دارد ما با تندروها در يك ائتلاف
+		شركت نمي&zwnj;كنيم. به گزارش خبرنگار سياسي خبرگزاري فارس،
+		فاطمه كروبي دبيركل مجمع اسلامي بانوان عصر امروز شنبه در جمع
+		خبرنگاران رسانه&zwnj;هاي گروهي روند برگزاري انتخابات هشتمين
+		دوره مجلس شوراي اسلامي را تحليل كرد. وي ضمن برشمردن مرزبندي خود
+		با جربان تندروي اصلاح طلب افزود: اين ما نيستيم كه با ستاد ائتلاف
+		اصلاح طلبان اختلاف داريم اما انحصارگري برخي از گروه&zwnj;ها
+		جريان اصلاحات را دچار از هم&zwnj;گسستگي كرد. داوطلب هشتمين دوره
+		انتخابات مجلس شوراي اسلامي درباره تشكيل ستاد مردمي اصلاحات خاطر
+		نشان كرد: آقاي خاتمي به توصيه&zwnj;ها و نظرات دوستانشان توجهي
+		ندارند و اگر اين امكان وجود داشت كه همه جريانات اصلاح طلب زير
+		يك عنوان فعاليت كنند حتما از آن استقبال مي&zwnj;كرديم اما به
+		نظر نمي&zwnj;رسد كه آقاي خاتمي بخواهد از تندروها فاصله بگيرد و
+		تا اين روند ادامه داشته باشد ما با تندروها در يك ائتلاف شركت
+		نمي&zwnj;كنيم. وي در مورد شركت تشكل متبوع خود در مرحله بعدي
+		انتخابات مجلس گفت: برخي از كانديداهاي نزديك به ما به مرحله دوم
+		انتخابات راه يافته&zwnj;اند و ما با تمام توان در اين مرحله از
+		آنها دفاع خواهيم كرد. كروبي تاكيد كرد: گروهي انحصارگر با
+		اقدامات غيرعقلاني و تندروي&zwnj;هاي خود اتوبوس اصلاحات را در دره
+		سرنگون كردند)))) لطفا پیدا کنید پرتقال فروش را......واقعا این
+		ها می خواهند دوباره وارد مجلس و دولت شوند.....اووووووووووووووو
+		لالالالالالا........نه!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! البته این
+		مجمع بانوان بیشتر به سفره های نذر و سبزی پاک کردن های خونه
+		مامان بزرگ و خاله زنک بازی های عصر قاجاریه و مجلس پا تختی و
+		حنا بندون عروس شباهت دارد. مهندس جان گویا ما از دست این ....و
+		عیالش باید برویم گوشه همان ابدارخانه و شاغلام و چایی
+		دیشلمه....شما تشریف نمی آورید؟</li><br><br><li><font color='blue'>سیاوش:</font><br><font size='2'>4/3/2008 - 9:28:00 PM</font><br>مرد هزار چهره مرد هزار چهره کیست؟شخصیتی ساخته و پرداخته مهران مدیری، پیمان قاسم خانی و دیگر نویسندگان؟ تنها هدفش آنست که چند روز تعطیلات، مارا سرگم کند و دیگر هیچ؟ مرد هزار چهره یک طنز است یک طنز تلخ، برداشتی واقعی از جامعه ایرانی. من جوانم پس دردآشنای جوانانم و خود را با خود و دیگر جوانان طرف می کنم بسیار اند جوانانی که مصداق مرد هزار چهره هستند جوانانی سودا زده یا به قول خود مسعود &quot;جو گیر&quot; که هر با محصولی کهنه را با تعریفی جدید به آنها ارائه کنند چنان با تمام و جود می پذیرند که گویی راه فائق آمدن بر تمام مشکلات نارضایتی بین&zwnj;المللی درباره برنامه هسته&zwnj;ای جمهوری اسلامی است که حتی تلاش برای ساخت چنین تسلیحاتی را نیز تکذیب می&zwnj;کند. بر اساس این گزارش، دو دیپلمات بلندپایه که ارتباط نزدیکی با آژانس بین&zwnj;المللی انرژی اتمی دارند این اقدام چین را برملا کرده&zwnj;اند. آژانس بین&zwnj;المللی انرژی اتمی از اظهار نظر در این باره خودداری کرده است. العجب. من مامور و معذور..حالا از پدر عروس چند کلمه بشنوید: سخنگوی آژانس بین المللی انرژی اتمی ادعای برخی از رسانه های غربی را درباره این که چین اطلاعاتی را درباره برنامه هسته ای ایران در اختیار آژانس قرار داده است ، تکذیب کرد . ملیسا فلمینگ در گفت و گو با خبرنگار واحد مرکزی خبر تاکید کرد : آژانس بین المللی انرژی اتمی هرگز درباره اطلاعات محرمانه دریافتی از کشورها اظهار نظر نمی کند . وی گفت: هم

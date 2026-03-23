@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlGetLastChild' function" {
+	label="CFG for 'xmlGetLastChild' function";
+
+	Node0x3720fbc0 [shape=record,label="{tree.c:3141:}"];
+	Node0x3720fbc0 -> Node0x3720fce0;
+	Node0x3720fbc0 -> Node0x3720fc40;
+	Node0x3720fc40 [shape=record,label="{tree.c:3141:1}"];
+	Node0x3720fc40 -> Node0x3720fce0;
+	Node0x3720fc40 -> Node0x3720fc90;
+	Node0x3720fc90 [shape=record,label="{tree.c:3144:}"];
+	Node0x3720fc90 -> Node0x3720fce0;
+	Node0x3720fce0 [shape=record,label="{tree.c:3145:}"];
+}

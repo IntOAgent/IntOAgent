@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlXPathIsNaN' function" {
+	label="CFG for 'xmlXPathIsNaN' function";
+
+	Node0x2fc6c590 [shape=record,label="{xpath.c:252:}"];
+}

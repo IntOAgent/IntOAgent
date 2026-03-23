@@ -1,0 +1,1 @@
+{"tool_name": "debugger", "params": {"exe_path": "/home/xxx/agent-project/sqlite/sqlite3", "source_file": "/home/xxx/agent-project/sqlite/shell.c", "line_no": 1428, "args": null, "input_file": "/home/xxx/IntOAgent/src/TestcaseAgent/poc/sqlite/0/input.txt"}}

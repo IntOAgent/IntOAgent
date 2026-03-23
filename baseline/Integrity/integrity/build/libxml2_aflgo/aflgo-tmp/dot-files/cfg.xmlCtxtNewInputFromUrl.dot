@@ -1,0 +1,16 @@
+digraph "CFG for 'xmlCtxtNewInputFromUrl' function" {
+	label="CFG for 'xmlCtxtNewInputFromUrl' function";
+
+	Node0x8dc5e40 [shape=record,label="{parserInternals.c:1821:}"];
+	Node0x8dc5e40 -> Node0x8dc5fb0;
+	Node0x8dc5e40 -> Node0x8dc5ec0;
+	Node0x8dc5ec0 [shape=record,label="{parserInternals.c:1824:}"];
+	Node0x8dc5ec0 -> Node0x8dc5fb0;
+	Node0x8dc5ec0 -> Node0x8dc5f10;
+	Node0x8dc5f10 [shape=record,label="{parserInternals.c:1828:}"];
+	Node0x8dc5f10 -> Node0x8dc5fb0;
+	Node0x8dc5f10 -> Node0x8dc5f60;
+	Node0x8dc5f60 [shape=record,label="{parserInternals.c:1829:}"];
+	Node0x8dc5f60 -> Node0x8dc5fb0;
+	Node0x8dc5fb0 [shape=record,label="{parserInternals.c:1832:}"];
+}

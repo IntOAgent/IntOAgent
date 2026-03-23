@@ -1,0 +1,15 @@
+digraph "CFG for 'xmlSchemaNewQNameValue' function" {
+	label="CFG for 'xmlSchemaNewQNameValue' function";
+
+	Node0xb469a0 [shape=record,label="{xmlschemastypes.c:217:}"];
+	Node0xb469a0 -> Node0xb46a70;
+	Node0xb469a0 -> Node0xb46a20;
+	Node0xb46a20 [shape=record,label="{xmlschemastypes.c:217:1}"];
+	Node0xb46a20 -> Node0xb46a70;
+	Node0xb46a70 [shape=record,label="{xmlschemastypes.c:1238:}"];
+	Node0xb46a70 -> Node0xb46b10;
+	Node0xb46a70 -> Node0xb46ac0;
+	Node0xb46ac0 [shape=record,label="{xmlschemastypes.c:1241:}"];
+	Node0xb46ac0 -> Node0xb46b10;
+	Node0xb46b10 [shape=record,label="{xmlschemastypes.c:1244:}"];
+}

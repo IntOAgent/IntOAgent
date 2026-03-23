@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlParseContent' function" {
+	label="CFG for 'xmlParseContent' function";
+
+	Node0x26f3daa0 [shape=record,label="{parser.c:9643:}"];
+	Node0x26f3daa0 -> Node0x26f1abb0;
+	Node0x26f3daa0 -> Node0x26f1ab10;
+	Node0x26f1ab10 [shape=record,label="{parser.c:9643:1}"];
+	Node0x26f1ab10 -> Node0x26f1abb0;
+	Node0x26f1ab10 -> Node0x26f1ab60;
+	Node0x26f1ab60 [shape=record,label="{parser.c:9646:}"];
+	Node0x26f1ab60 -> Node0x26f1abb0;
+	Node0x26f1abb0 [shape=record,label="{parser.c:9651:}"];
+}

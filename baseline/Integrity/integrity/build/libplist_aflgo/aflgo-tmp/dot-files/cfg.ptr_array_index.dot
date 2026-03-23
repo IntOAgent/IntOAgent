@@ -1,0 +1,13 @@
+digraph "CFG for 'ptr_array_index' function" {
+	label="CFG for 'ptr_array_index' function";
+
+	Node0x3a76eed0 [shape=record,label="{ptrarray.c:86:}"];
+	Node0x3a76eed0 -> Node0x3a76efc0;
+	Node0x3a76eed0 -> Node0x3a76ef20;
+	Node0x3a76ef20 [shape=record,label="{ptrarray.c:87:}"];
+	Node0x3a76ef20 -> Node0x3a76ef70;
+	Node0x3a76ef20 -> Node0x3a76efc0;
+	Node0x3a76ef70 [shape=record,label="{ptrarray.c:90:}"];
+	Node0x3a76ef70 -> Node0x3a76efc0;
+	Node0x3a76efc0 [shape=record,label="{ptrarray.c:91:}"];
+}

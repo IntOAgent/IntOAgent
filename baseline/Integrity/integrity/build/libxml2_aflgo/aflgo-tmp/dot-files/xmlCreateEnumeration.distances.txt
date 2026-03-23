@@ -1,0 +1,7 @@
+valid.c:1416,13
+valid.c:1419,12
+valid.c:1422,10
+valid.c:1419,12
+valid.c:1422,10
+valid.c:1419,12
+valid.c:1422,10

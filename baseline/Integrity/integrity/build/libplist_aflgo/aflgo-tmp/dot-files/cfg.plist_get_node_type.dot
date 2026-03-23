@@ -1,0 +1,18 @@
+digraph "CFG for 'plist_get_node_type' function" {
+	label="CFG for 'plist_get_node_type' function";
+
+	Node0x21589350 [shape=record,label="{plist.c:1261:}"];
+	Node0x21589350 -> Node0x215894d0;
+	Node0x21589350 -> Node0x215893e0;
+	Node0x215893e0 [shape=record,label="{plist.c:356:}"];
+	Node0x215893e0 -> Node0x21589480;
+	Node0x215893e0 -> Node0x21589430;
+	Node0x21589430 [shape=record,label="{plist.c:1265:}"];
+	Node0x21589430 -> Node0x21589480;
+	Node0x21589480 [shape=record,label="{%8}"];
+	Node0x21589480 -> Node0x215894d0;
+	Node0x21589480 -> Node0x21589520;
+	Node0x215894d0 [shape=record,label="{plist.c:1267:}"];
+	Node0x215894d0 -> Node0x21589520;
+	Node0x21589520 [shape=record,label="{plist.c:1268:}"];
+}

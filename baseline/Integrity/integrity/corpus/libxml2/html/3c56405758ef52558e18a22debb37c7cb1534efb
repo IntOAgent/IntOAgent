@@ -1,0 +1,7 @@
+<HTML>
+<HEAD><TITLE>Script tests</TITLE></HEAD>
+<BODY>
+<SCRIPT language=javascript>
+    if (win="if(window.open<max);">
+</BODY>
+</HTML>

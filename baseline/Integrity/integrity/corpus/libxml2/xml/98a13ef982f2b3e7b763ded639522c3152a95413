@@ -1,0 +1,19 @@
+ßÿÿÿ]PYYždäž\#\\\\\
+
+<doc>
+    <\\\="foo:x&#38;x&amp;x&ap\\\\\\\|\\\\žžžžžžžžx"/ [
+  <!ENTITY e "-">
+]>
+<doc>
+    <e xžžžžžžžžžžžžžžžžžžžžžce "-ITY e "-">
+]>
+<doc>
+    <e xžžž">
+]>
+<doc>
+    <e xmlns="foo:x&#39;x&amžž\\\\ [
+  <!ENTITY e "]>
+<doc>
+    <e xm\\žžžžžžžžžžce "\\\\!â\\\\\os;x&e;x"/>
+    <e xmlns:ns="foo:x&libxml2/error.cžžžžžžžžžžžžžžžžžžžžžžžžžžžžžx"/>
+</doc>

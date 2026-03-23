@@ -1,0 +1,28 @@
+digraph "CFG for 'xmlCatalogAddLocal' function" {
+	label="CFG for 'xmlCatalogAddLocal' function";
+
+	Node0x5eebd00 [shape=record,label="{catalog.c:3529:}"];
+	Node0x5eebd00 -> Node0x5eec030;
+	Node0x5eebd00 -> Node0x5eebdb0;
+	Node0x5eebdb0 [shape=record,label="{catalog.c:3534:}"];
+	Node0x5eebdb0 -> Node0x5eebe50;
+	Node0x5eebdb0 -> Node0x5eebe00;
+	Node0x5eebe00 [shape=record,label="{catalog.c:3535:}"];
+	Node0x5eebe00 -> Node0x5eebe50;
+	Node0x5eebe50 [shape=record,label="{catalog.c:3539:}"];
+	Node0x5eebe50 -> Node0x5eec030;
+	Node0x5eebe50 -> Node0x5eebea0;
+	Node0x5eebea0 [shape=record,label="{catalog.c:3544:}"];
+	Node0x5eebea0 -> Node0x5eebf40;
+	Node0x5eebea0 -> Node0x5eebef0;
+	Node0x5eebef0 [shape=record,label="{catalog.c:3543:}"];
+	Node0x5eebef0 -> Node0x5eebf90;
+	Node0x5eebf40 [shape=record,label="{catalog.c:3545:}"];
+	Node0x5eebf40 -> Node0x5eec030;
+	Node0x5eebf90 [shape=record,label="{catalog.c:3547:}"];
+	Node0x5eebf90 -> Node0x5eebfe0;
+	Node0x5eebf90 -> Node0x5eebf90;
+	Node0x5eebfe0 [shape=record,label="{catalog.c:3547:1}"];
+	Node0x5eebfe0 -> Node0x5eec030;
+	Node0x5eec030 [shape=record,label="{catalog.c:3551:}"];
+}

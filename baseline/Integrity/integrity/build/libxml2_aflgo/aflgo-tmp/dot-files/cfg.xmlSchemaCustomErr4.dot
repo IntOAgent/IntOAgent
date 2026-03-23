@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlSchemaCustomErr4' function" {
+	label="CFG for 'xmlSchemaCustomErr4' function";
+
+	Node0x2dca35b0 [shape=record,label="{xmlschemas.c:2347:}"];
+	Node0x2dca35b0 -> Node0x2dca3600;
+	Node0x2dca35b0 -> Node0x2dca36a0;
+	Node0x2dca3600 [shape=record,label="{xmlschemas.c:2350:}"];
+	Node0x2dca3600 -> Node0x2dca3650;
+	Node0x2dca3600 -> Node0x2dca36a0;
+	Node0x2dca3650 [shape=record,label="{xmlschemas.c:2351:}"];
+	Node0x2dca3650 -> Node0x2dca36f0;
+	Node0x2dca36a0 [shape=record,label="{xmlschemas.c:2355:}"];
+	Node0x2dca36a0 -> Node0x2dca36f0;
+	Node0x2dca36f0 [shape=record,label="{xmlschemas.c:2356:}"];
+	Node0x2dca36f0 -> Node0x2dca3790;
+	Node0x2dca36f0 -> Node0x2dca3740;
+	Node0x2dca3740 [shape=record,label="{xmlschemas.c:2360:}"];
+	Node0x2dca3740 -> Node0x2dca3790;
+	Node0x2dca3790 [shape=record,label="{xmlschemas.c:2361:}"];
+}

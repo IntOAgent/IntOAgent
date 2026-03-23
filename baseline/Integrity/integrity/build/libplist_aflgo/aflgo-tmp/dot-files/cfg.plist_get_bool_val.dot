@@ -1,0 +1,35 @@
+digraph "CFG for 'plist_get_bool_val' function" {
+	label="CFG for 'plist_get_bool_val' function";
+
+	Node0x215e4090 [shape=record,label="{plist.c:1313:}"];
+	Node0x215e4090 -> Node0x215e4150;
+	Node0x215e4090 -> Node0x215e4470;
+	Node0x215e4150 [shape=record,label="{plist.c:356:}"];
+	Node0x215e4150 -> Node0x215e4470;
+	Node0x215e4150 -> Node0x215e41a0;
+	Node0x215e41a0 [shape=record,label="{plist.c:1265:}"];
+	Node0x215e41a0 -> Node0x215e41f0;
+	Node0x215e41a0 -> Node0x215e4470;
+	Node0x215e41f0 [shape=record,label="{plist.c:356:1}"];
+	Node0x215e41f0 -> Node0x215e43d0;
+	Node0x215e41f0 -> Node0x215e4240;
+	Node0x215e41f0 -> Node0x215e4290;
+	Node0x215e41f0 -> Node0x215e42e0;
+	Node0x215e41f0 -> Node0x215e4330;
+	Node0x215e41f0 -> Node0x215e4380;
+	Node0x215e4240 [shape=record,label="{plist.c:1229:}"];
+	Node0x215e4240 -> Node0x215e43d0;
+	Node0x215e4290 [shape=record,label="{plist.c:1233:}"];
+	Node0x215e4290 -> Node0x215e43d0;
+	Node0x215e42e0 [shape=record,label="{plist.c:1237:}"];
+	Node0x215e42e0 -> Node0x215e43d0;
+	Node0x215e4330 [shape=record,label="{plist.c:1241:}"];
+	Node0x215e4330 -> Node0x215e43d0;
+	Node0x215e4380 [shape=record,label="{plist.c:1244:}"];
+	Node0x215e4380 -> Node0x215e43d0;
+	Node0x215e43d0 [shape=record,label="{plist.c:1320:}"];
+	Node0x215e43d0 -> Node0x215e4470;
+	Node0x215e43d0 -> Node0x215e4420;
+	Node0x215e4420 [shape=record,label="{plist.c:1320:2}"];
+	Node0x215e4470 [shape=record,label="{plist.c:1321:}"];
+}

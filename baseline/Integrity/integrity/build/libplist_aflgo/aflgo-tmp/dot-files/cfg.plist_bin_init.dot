@@ -1,0 +1,5 @@
+digraph "CFG for 'plist_bin_init' function" {
+	label="CFG for 'plist_bin_init' function";
+
+	Node0x38761ea0 [shape=record,label="{bplist.c:260:}"];
+}

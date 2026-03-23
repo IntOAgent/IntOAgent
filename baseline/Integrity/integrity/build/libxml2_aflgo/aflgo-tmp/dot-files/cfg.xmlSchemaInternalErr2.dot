@@ -1,0 +1,21 @@
+digraph "CFG for 'xmlSchemaInternalErr2' function" {
+	label="CFG for 'xmlSchemaInternalErr2' function";
+
+	Node0x2df4cd30 [shape=record,label="{xmlschemas.c:2301:}"];
+	Node0x2df4cd30 -> Node0x2df4cf10;
+	Node0x2df4cd30 -> Node0x2df4cd80;
+	Node0x2df4cd80 [shape=record,label="{xmlschemas.c:2303:}"];
+	Node0x2df4cd80 -> Node0x2df4ce70;
+	Node0x2df4cd80 -> Node0x2df4ce20;
+	Node0x2df4cd80 -> Node0x2df4cdd0;
+	Node0x2df4cdd0 [shape=record,label="{xmlschemas.c:2311:}"];
+	Node0x2df4cdd0 -> Node0x2df4ce20;
+	Node0x2df4ce20 [shape=record,label="{xmlschemas.c:2314:}"];
+	Node0x2df4ce20 -> Node0x2df4ce70;
+	Node0x2df4ce70 [shape=record,label="{xmlschemas.c:2314:1}"];
+	Node0x2df4ce70 -> Node0x2df4cf10;
+	Node0x2df4ce70 -> Node0x2df4cec0;
+	Node0x2df4cec0 [shape=record,label="{xmlschemas.c:2314:2}"];
+	Node0x2df4cec0 -> Node0x2df4cf10;
+	Node0x2df4cf10 [shape=record,label="{xmlschemas.c:2315:}"];
+}

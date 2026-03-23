@@ -1,0 +1,28 @@
+digraph "CFG for 'xmlListDup' function" {
+	label="CFG for 'xmlListDup' function";
+
+	Node0xdfecae0 [shape=record,label="{list.c:670:}"];
+	Node0xdfecae0 -> Node0xdfece10;
+	Node0xdfecae0 -> Node0xdfecb90;
+	Node0xdfecb90 [shape=record,label="{list.c:678:}"];
+	Node0xdfecb90 -> Node0xdfecd70;
+	Node0xdfecb90 -> Node0xdfecbe0;
+	Node0xdfecbe0 [shape=record,label="{list.c:182:}"];
+	Node0xdfecbe0 -> Node0xdfecc30;
+	Node0xdfecbe0 -> Node0xdfecc80;
+	Node0xdfecc30 [shape=record,label="{list.c:187:}"];
+	Node0xdfecc30 -> Node0xdfecd70;
+	Node0xdfecc80 [shape=record,label="{list.c:185:}"];
+	Node0xdfecc80 -> Node0xdfecd20;
+	Node0xdfecc80 -> Node0xdfeccd0;
+	Node0xdfeccd0 [shape=record,label="{list.c:199:}"];
+	Node0xdfeccd0 -> Node0xdfecd70;
+	Node0xdfecd20 [shape=record,label="{list.c:201:}"];
+	Node0xdfecd20 -> Node0xdfecd70;
+	Node0xdfecd70 [shape=record,label="{list.c:679:}"];
+	Node0xdfecd70 -> Node0xdfece10;
+	Node0xdfecd70 -> Node0xdfecdc0;
+	Node0xdfecdc0 [shape=record,label="{list.c:681:}"];
+	Node0xdfecdc0 -> Node0xdfece10;
+	Node0xdfece10 [shape=record,label="{list.c:684:}"];
+}

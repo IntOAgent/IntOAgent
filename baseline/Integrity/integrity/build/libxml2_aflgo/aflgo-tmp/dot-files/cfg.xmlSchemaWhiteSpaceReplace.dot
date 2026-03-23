@@ -1,0 +1,37 @@
+digraph "CFG for 'xmlSchemaWhiteSpaceReplace' function" {
+	label="CFG for 'xmlSchemaWhiteSpaceReplace' function";
+
+	Node0xb7e120 [shape=record,label="{xmlschemastypes.c:2194:}"];
+	Node0xb7e120 -> Node0xb7e550;
+	Node0xb7e120 -> Node0xb7e1e0;
+	Node0xb7e1e0 [shape=record,label="{xmlschemastypes.c:2197:}"];
+	Node0xb7e1e0 -> Node0xb7e230;
+	Node0xb7e1e0 -> Node0xb7e550;
+	Node0xb7e1e0 -> Node0xb7e280;
+	Node0xb7e230 [shape=record,label="{xmlschemastypes.c:2199:}"];
+	Node0xb7e230 -> Node0xb7e1e0;
+	Node0xb7e280 [shape=record,label="{xmlschemastypes.c:2203:}"];
+	Node0xb7e280 -> Node0xb7e550;
+	Node0xb7e280 -> Node0xb7e2d0;
+	Node0xb7e2d0 [shape=record,label="{xmlschemastypes.c:2207:}"];
+	Node0xb7e2d0 -> Node0xb7e320;
+	Node0xb7e2d0 -> Node0xb7e370;
+	Node0xb7e320 [shape=record,label="{xmlschemastypes.c:2207:1}"];
+	Node0xb7e320 -> Node0xb7e370;
+	Node0xb7e370 [shape=record,label="{xmlschemastypes.c:2207:2}"];
+	Node0xb7e370 -> Node0xb7e3c0;
+	Node0xb7e370 -> Node0xb7e410;
+	Node0xb7e3c0 [shape=record,label="{xmlschemastypes.c:2207:3}"];
+	Node0xb7e3c0 -> Node0xb7e410;
+	Node0xb7e410 [shape=record,label="{xmlschemastypes.c:2207:4}"];
+	Node0xb7e410 -> Node0xb7e460;
+	Node0xb7e460 [shape=record,label="{xmlschemastypes.c:2209:}"];
+	Node0xb7e460 -> Node0xb7e500;
+	Node0xb7e460 -> Node0xb7e4b0;
+	Node0xb7e4b0 [shape=record,label="{xmlschemastypes.c:2210:}"];
+	Node0xb7e4b0 -> Node0xb7e500;
+	Node0xb7e500 [shape=record,label="{xmlschemastypes.c:2211:}"];
+	Node0xb7e500 -> Node0xb7e550;
+	Node0xb7e500 -> Node0xb7e460;
+	Node0xb7e550 [shape=record,label="{xmlschemastypes.c:2214:}"];
+}

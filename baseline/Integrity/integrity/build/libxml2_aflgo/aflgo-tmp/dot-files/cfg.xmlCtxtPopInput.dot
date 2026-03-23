@@ -1,0 +1,38 @@
+digraph "CFG for 'xmlCtxtPopInput' function" {
+	label="CFG for 'xmlCtxtPopInput' function";
+
+	Node0x26a3bcc0 [shape=record,label="{parser.c:1963:}"];
+	Node0x26a3bcc0 -> Node0x26a3cb20;
+	Node0x26a3bcc0 -> Node0x26a3c760;
+	Node0x26a3c760 [shape=record,label="{parser.c:1965:}"];
+	Node0x26a3c760 -> Node0x26a3cb20;
+	Node0x26a3c760 -> Node0x26a3c7b0;
+	Node0x26a3c7b0 [shape=record,label="{parser.c:1967:}"];
+	Node0x26a3c7b0 -> Node0x26a3c800;
+	Node0x26a3c7b0 -> Node0x26a3c850;
+	Node0x26a3c800 [shape=record,label="{parser.c:1967:1}"];
+	Node0x26a3c800 -> Node0x26a3c850;
+	Node0x26a3c850 [shape=record,label="{parser.c:1967:2}"];
+	Node0x26a3c850 -> Node0x26a3c8a0;
+	Node0x26a3c850 -> Node0x26a3c8f0;
+	Node0x26a3c8a0 [shape=record,label="{parser.c:1967:3}"];
+	Node0x26a3c8a0 -> Node0x26a3c8f0;
+	Node0x26a3c8f0 [shape=record,label="{parser.c:1967:4}"];
+	Node0x26a3c8f0 -> Node0x26a3cad0;
+	Node0x26a3c8f0 -> Node0x26a3c940;
+	Node0x26a3c940 [shape=record,label="{parser.c:1969:}"];
+	Node0x26a3c940 -> Node0x26a3c990;
+	Node0x26a3c940 -> Node0x26a3c9e0;
+	Node0x26a3c990 [shape=record,label="{%14}"];
+	Node0x26a3c990 -> Node0x26a3c9e0;
+	Node0x26a3c9e0 [shape=record,label="{%17}"];
+	Node0x26a3c9e0 -> Node0x26a3ca30;
+	Node0x26a3c9e0 -> Node0x26a3ca80;
+	Node0x26a3ca30 [shape=record,label="{%18}"];
+	Node0x26a3ca30 -> Node0x26a3ca80;
+	Node0x26a3ca80 [shape=record,label="{parser.c:1969:5}"];
+	Node0x26a3ca80 -> Node0x26a3cad0;
+	Node0x26a3cad0 [shape=record,label="{parser.c:1972:}"];
+	Node0x26a3cad0 -> Node0x26a3cb20;
+	Node0x26a3cb20 [shape=record,label="{parser.c:1975:}"];
+}

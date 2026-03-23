@@ -1,0 +1,10 @@
+digraph "CFG for 'plist_get_data' function" {
+	label="CFG for 'plist_get_data' function";
+
+	Node0x215657d0 [shape=record,label="{plist.c:354:}"];
+	Node0x215657d0 -> Node0x21565d40;
+	Node0x215657d0 -> Node0x21565cf0;
+	Node0x21565cf0 [shape=record,label="{plist.c:356:}"];
+	Node0x21565cf0 -> Node0x21565d40;
+	Node0x21565d40 [shape=record,label="{plist.c:357:}"];
+}

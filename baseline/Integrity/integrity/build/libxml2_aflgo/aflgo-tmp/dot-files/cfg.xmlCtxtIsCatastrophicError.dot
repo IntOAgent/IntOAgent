@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtIsCatastrophicError' function" {
+	label="CFG for 'xmlCtxtIsCatastrophicError' function";
+
+	Node0x8cd8ac0 [shape=record,label="{parserInternals.c:269:}"];
+	Node0x8cd8ac0 -> Node0x8cd8b60;
+	Node0x8cd8ac0 -> Node0x8cd8b10;
+	Node0x8cd8b10 [shape=record,label="{parserInternals.c:272:}"];
+	Node0x8cd8b10 -> Node0x8cd8b60;
+	Node0x8cd8b60 [shape=record,label="{parserInternals.c:274:}"];
+}

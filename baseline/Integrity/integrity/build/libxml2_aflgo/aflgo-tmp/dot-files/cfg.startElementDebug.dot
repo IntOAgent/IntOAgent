@@ -1,0 +1,34 @@
+digraph "CFG for 'startElementDebug' function" {
+	label="CFG for 'startElementDebug' function";
+
+	Node0x3d17dd60 [shape=record,label="{xmllint.c:888:}"];
+	Node0x3d17dd60 -> Node0x3d17df70;
+	Node0x3d17dd60 -> Node0x3d17dfc0;
+	Node0x3d17df70 [shape=record,label="{xmllint.c:888:1}"];
+	Node0x3d17df70 -> Node0x3d17dfc0;
+	Node0x3d17dfc0 [shape=record,label="{xmllint.c:888:2}"];
+	Node0x3d17dfc0 -> Node0x3d17e010;
+	Node0x3d17dfc0 -> Node0x3d17e290;
+	Node0x3d17e010 [shape=record,label="{xmllint.c:891:}"];
+	Node0x3d17e010 -> Node0x3d17e240;
+	Node0x3d17e010 -> Node0x3d17e060;
+	Node0x3d17e060 [shape=record,label="{xmllint.c:893:}"];
+	Node0x3d17e060 -> Node0x3d17e240;
+	Node0x3d17e060 -> Node0x3d17e0b0;
+	Node0x3d17e0b0 [shape=record,label="{xmllint.c:894:}"];
+	Node0x3d17e0b0 -> Node0x3d17e150;
+	Node0x3d17e0b0 -> Node0x3d17e100;
+	Node0x3d17e100 [shape=record,label="{xmllint.c:896:}"];
+	Node0x3d17e100 -> Node0x3d17e150;
+	Node0x3d17e150 [shape=record,label="{xmllint.c:893:3}"];
+	Node0x3d17e150 -> Node0x3d17e1a0;
+	Node0x3d17e150 -> Node0x3d17e1f0;
+	Node0x3d17e1a0 [shape=record,label="{%29}"];
+	Node0x3d17e1a0 -> Node0x3d17e1f0;
+	Node0x3d17e1f0 [shape=record,label="{xmllint.c:893:4}"];
+	Node0x3d17e1f0 -> Node0x3d17e240;
+	Node0x3d17e1f0 -> Node0x3d17e0b0;
+	Node0x3d17e240 [shape=record,label="{xmllint.c:899:}"];
+	Node0x3d17e240 -> Node0x3d17e290;
+	Node0x3d17e290 [shape=record,label="{xmllint.c:900:}"];
+}

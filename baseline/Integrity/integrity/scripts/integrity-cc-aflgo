@@ -1,0 +1,252 @@
+#!/usr/bin/env bash
+# integrity-cc-aflgo — Drop-in CC for Integrity + AFLGo directed fuzzing.
+#
+# Implements a 3-phase compilation pipeline:
+#
+#   AFLGO_PHASE=0 (default)
+#     Standard Integrity instrumentation only.
+#     Produces a plain object file (no AFL coverage bitmap).
+#     Also writes guard-branch locations to $INTEGRITY_OUTDIR/BBtargets.txt.
+#     Use this phase to let the build system produce a working binary while
+#     simultaneously generating the target list for AFLGo.
+#
+#   AFLGO_PHASE=1
+#     Integrity instrumentation + AFLGo preprocessing.
+#     Uses aflgo-clang with -targets=BBtargets.txt -outdir=INTEGRITY_OUTDIR.
+#     Generates: dot-files/cfg.*.dot, BBnames.txt, BBcalls.txt, Fnames.txt,
+#     Ftargets.txt (inputs needed by gen_distance_fast.py).
+#
+#   AFLGO_PHASE=2
+#     Integrity instrumentation + AFLGo distance instrumentation.
+#     Uses aflgo-clang with -distance=AFLGO_DIST.
+#     Produces the final instrumented object files for the fuzz binary.
+#
+# Required environment variables:
+#   AFLGO_DIR          Path to the aflgo repository root.
+#   INTEGRITY_DIR      Path to the integrity repository root (auto-detected
+#                      from this script's location if not set).
+#
+# Optional environment variables:
+#   AFLGO_PHASE        0 (default), 1, or 2.
+#   INTEGRITY_OUTDIR   Directory for BBtargets.txt and AFLGo data files.
+#                      Required when AFLGO_PHASE >= 1.
+#   AFLGO_DIST         Path to distance.cfg.txt. Required for AFLGO_PHASE=2.
+#   INTEGRITY_CLANG    Underlying plain clang (default: clang-14).
+#   INTEGRITY_OPT      opt binary (default: opt-14).
+#   INTEGRITY_VERBOSE  Set to 1 for verbose output.
+
+set -euo pipefail
+
+# ---------------------------------------------------------------------------
+# Configuration
+# ---------------------------------------------------------------------------
+SCRIPT_NAME="$(basename "$0")"
+if [[ "$SCRIPT_NAME" == *"++"* ]]; then
+    BASE_CLANG="${INTEGRITY_CLANG:-clang++-14}"
+else
+    BASE_CLANG="${INTEGRITY_CLANG:-clang-14}"
+fi
+OPT="${INTEGRITY_OPT:-opt-14}"
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+INTEGRITY_DIR_DEFAULT="$(realpath "$SCRIPT_DIR/..")"
+IDIR="${INTEGRITY_DIR:-$INTEGRITY_DIR_DEFAULT}"
+
+PASS="$IDIR/build/IntegrityPass.so"
+RT_OBJ="$IDIR/build/integrity_rt.o"
+
+PHASE="${AFLGO_PHASE:-0}"
+OUTDIR="${INTEGRITY_OUTDIR:-}"
+DIST="${AFLGO_DIST:-}"
+
+AFLGO_DIR="${AFLGO_DIR:-}"
+AFLGO_CLANG=""
+AFLGO_PASS=""
+AFLGO_RT=""
+if [[ -n "$AFLGO_DIR" ]]; then
+    AFLGO_CLANG="$AFLGO_DIR/instrument/aflgo-clang"
+    AFLGO_PASS="$AFLGO_DIR/instrument/aflgo-pass.so"
+    AFLGO_RT="$AFLGO_DIR/instrument/aflgo-runtime.o"
+fi
+
+VERBOSE="${INTEGRITY_VERBOSE:-0}"
+log() { [[ "$VERBOSE" == "1" ]] && echo "[integrity-cc-aflgo|phase$PHASE] $*" >&2 || true; }
+
+# ---------------------------------------------------------------------------
+# Classify this invocation
+# ---------------------------------------------------------------------------
+HAS_C=0; HAS_E=0; HAS_S=0
+for arg in "$@"; do
+    case "$arg" in
+        -c) HAS_C=1 ;; -E) HAS_E=1 ;; -S) HAS_S=1 ;;
+    esac
+done
+
+# ---------------------------------------------------------------------------
+# Link / preprocess / assembly — pass through.
+# In true link mode (phase 2): use aflgo-clang to inject aflgo-runtime.o,
+# then also append integrity_rt.o.
+# ---------------------------------------------------------------------------
+if [[ $HAS_C == 0 || $HAS_E == 1 || $HAS_S == 1 ]]; then
+    if [[ $HAS_C == 0 && $HAS_E == 0 && $HAS_S == 0 ]]; then
+        # True link mode
+        if [[ "$PHASE" == "2" && -n "$AFLGO_CLANG" && -f "$AFLGO_CLANG" ]]; then
+            log "link (phase 2, aflgo): $*"
+            exec "$AFLGO_CLANG" "$@" "$RT_OBJ"
+        elif [[ -f "$RT_OBJ" ]]; then
+            log "link (phase 0, plain): $*"
+            exec "$BASE_CLANG" "$@" "$RT_OBJ"
+        else
+            exec "$BASE_CLANG" "$@"
+        fi
+    else
+        log "pass-through: $*"
+        exec "$BASE_CLANG" "$@"
+    fi
+fi
+
+# ---------------------------------------------------------------------------
+# Compile mode: parse -o and collect remaining args
+# ---------------------------------------------------------------------------
+OUTPUT=""
+ARGS_WITHOUT_C=()
+SKIP_NEXT=0
+
+for arg in "$@"; do
+    if [[ $SKIP_NEXT == 1 ]]; then
+        OUTPUT="$arg"; SKIP_NEXT=0; continue
+    fi
+    case "$arg" in
+        -c)  ;;
+        -o)  SKIP_NEXT=1 ;;
+        *)   ARGS_WITHOUT_C+=("$arg") ;;
+    esac
+done
+
+if [[ -z "$OUTPUT" ]]; then
+    for arg in "${ARGS_WITHOUT_C[@]}"; do
+        if [[ "$arg" =~ \.(c|cc|cpp|cxx|C|m)$ ]]; then
+            OUTPUT="$(basename "${arg%.*}").o"; break
+        fi
+    done
+    [[ -z "$OUTPUT" ]] && OUTPUT="a.o"
+fi
+
+# ---------------------------------------------------------------------------
+# Sanity: Integrity pass must exist
+# ---------------------------------------------------------------------------
+if [[ ! -f "$PASS" ]]; then
+    echo "[integrity-cc-aflgo] WARNING: IntegrityPass.so not found at $PASS" >&2
+    echo "[integrity-cc-aflgo] Run 'make build/IntegrityPass.so' first. Falling back." >&2
+    exec "$BASE_CLANG" "$@"
+fi
+
+# ---------------------------------------------------------------------------
+# Step 1: Compile source → LLVM bitcode (plain clang, no AFL instrumentation)
+# ---------------------------------------------------------------------------
+PRE_BC="$(mktemp /tmp/integrity_XXXXXX.pre.bc)"
+INT_BC="${PRE_BC%.pre.bc}.int.bc"
+trap "rm -f '$PRE_BC' '$INT_BC'" EXIT
+
+# Optional: save INT_BC to a persistent directory for later llvm-link.
+# Set INTEGRITY_SAVE_BC_DIR to a writable directory to enable this.
+SAVE_BC_DIR="${INTEGRITY_SAVE_BC_DIR:-}"
+
+log "step1: emit-llvm → $PRE_BC"
+if ! "$BASE_CLANG" "${ARGS_WITHOUT_C[@]}" -emit-llvm -c -o "$PRE_BC" 2>&1; then
+    echo "[integrity-cc-aflgo] ERROR: clang emit-llvm failed" >&2
+    exit 1
+fi
+
+# ---------------------------------------------------------------------------
+# Step 2: Apply Integrity pass → instrumented bitcode + write BBtargets.txt
+# ---------------------------------------------------------------------------
+log "step2: opt -integrity → $INT_BC"
+INTEGRITY_OUTDIR_EXPORT=""
+if [[ -n "$OUTDIR" ]]; then
+    INTEGRITY_OUTDIR_EXPORT="INTEGRITY_OUTDIR=$OUTDIR"
+fi
+
+if ! env ${INTEGRITY_OUTDIR_EXPORT} \
+     "$OPT" -enable-new-pm=0 -load "$PASS" -integrity \
+     -o "$INT_BC" "$PRE_BC" 2>/dev/null; then
+    echo "[integrity-cc-aflgo] WARNING: opt -integrity failed, using uninstrumented IR" >&2
+    cp "$PRE_BC" "$INT_BC"
+fi
+
+# Save INT_BC for later llvm-link (whole-program bitcode / callgraph extraction)
+if [[ -n "$SAVE_BC_DIR" && -d "$SAVE_BC_DIR" ]]; then
+    SAVED_NAME="$(basename "$OUTPUT" .o).int.bc"
+    cp "$INT_BC" "$SAVE_BC_DIR/$SAVED_NAME"
+    log "saved INT_BC → $SAVE_BC_DIR/$SAVED_NAME"
+fi
+
+# ---------------------------------------------------------------------------
+# Step 3: Compile instrumented bitcode → object file
+#
+#   Phase 0: plain clang (no AFL coverage — provides working object for build
+#            system while BBtargets.txt is being accumulated)
+#   Phase 1: aflgo-clang with -targets + -outdir (generates CFG dot files)
+#   Phase 2: aflgo-clang with -distance (embeds distances for directed fuzzing)
+# ---------------------------------------------------------------------------
+case "$PHASE" in
+
+  0)
+    log "step3(phase0): plain compile IR → $OUTPUT"
+    if ! "$BASE_CLANG" -c -x ir -o "$OUTPUT" "$INT_BC" 2>&1; then
+        echo "[integrity-cc-aflgo] ERROR: compile IR failed (phase 0)" >&2
+        exit 1
+    fi
+    ;;
+
+  1)
+    if [[ -z "$OUTDIR" ]]; then
+        echo "[integrity-cc-aflgo] ERROR: INTEGRITY_OUTDIR required for phase 1" >&2
+        exit 1
+    fi
+    TARGETS_FILE="$OUTDIR/BBtargets.txt"
+    if [[ ! -f "$TARGETS_FILE" ]]; then
+        echo "[integrity-cc-aflgo] ERROR: BBtargets.txt not found at $TARGETS_FILE" >&2
+        echo "[integrity-cc-aflgo] Run phase 0 first to generate BBtargets.txt" >&2
+        exit 1
+    fi
+    log "step3(phase1): opt-14 AFLGo preprocessing → $OUTPUT"
+    # Use opt-14 -load directly: aflgo-clang loads the pass via -Xclang -load
+    # (clang plugin infrastructure) where cl::opt isn't populated before runOnModule().
+    # opt -load parses cl::opt before running the pass, so -targets/-outdir work.
+    opt-14 -enable-new-pm=0 -O0 \
+        -load "$AFLGO_PASS" \
+        -targets="$TARGETS_FILE" \
+        -outdir="$OUTDIR" \
+        -o /dev/null "$INT_BC" 2>/dev/null || true
+    # Strip trailing ':' added by BB.setName(bb_name+":") so distance calculator
+    # key lookup matches (it expects "file:line" not "file:line:").
+    [[ -f "$OUTDIR/BBnames.txt" ]] && sed -i 's/:$//' "$OUTDIR/BBnames.txt"
+    # Produce placeholder object for the build system.
+    "$BASE_CLANG" -c -x ir -o "$OUTPUT" "$INT_BC" 2>/dev/null || true
+    ;;
+
+  2)
+    if [[ -z "$DIST" || ! -f "$DIST" ]]; then
+        echo "[integrity-cc-aflgo] ERROR: AFLGO_DIST must point to distance.cfg.txt" >&2
+        exit 1
+    fi
+    log "step3(phase2): opt-14 AFLGo distance instrumentation → $OUTPUT"
+    DIST_BC="$(mktemp /tmp/integrity_dist_XXXXXX.bc)"
+    # Apply distance pass via opt-14: embeds AFL bitmap + per-BB distances.
+    # -O0 preserves the Integrity guard branches already in INT_BC.
+    opt-14 -enable-new-pm=0 -O0 \
+        -load "$AFLGO_PASS" \
+        -distance="$DIST" \
+        -o "$DIST_BC" "$INT_BC"
+    # Compile the instrumented bitcode to the final object.
+    "$BASE_CLANG" -g -O1 -c -x ir -o "$OUTPUT" "$DIST_BC"
+    ;;
+
+  *)
+    echo "[integrity-cc-aflgo] ERROR: Unknown AFLGO_PHASE='$PHASE' (must be 0, 1, or 2)" >&2
+    exit 1
+    ;;
+esac
+
+log "done → $OUTPUT"

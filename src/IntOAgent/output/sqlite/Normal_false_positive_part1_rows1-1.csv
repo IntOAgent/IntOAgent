@@ -1,0 +1,8 @@
+ID,Name,Description,Severity,Message,Path,Start line,Start column,End line,End column,Vul code,Code content,Closest Function Name,Closest Function Line,Status,Token,Time
+1,User-controlled data in arithmetic expression,Arithmetic operations on user-controlled data that is not validated can cause overflows.,warning,Conversion between signed and unsigned types int and unsigned int.,/shell.c,1428,0,1428,0,v *= aMult[i].iMult;,"  }
+  for(i=0; i<ArraySize(aMult); i++){
+    if( sqlite3_stricmp(aMult[i].zSuffix, zArg)==0 ){
+      v *= aMult[i].iMult;
+      break;
+    }
+  }",integerValue,1389.0,MayVulnerability,763841.0,589.7960121631622

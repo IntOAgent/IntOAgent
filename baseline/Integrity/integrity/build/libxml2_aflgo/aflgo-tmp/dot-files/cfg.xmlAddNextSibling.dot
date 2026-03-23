@@ -1,0 +1,19 @@
+digraph "CFG for 'xmlAddNextSibling' function" {
+	label="CFG for 'xmlAddNextSibling' function";
+
+	Node0x371e0a20 [shape=record,label="{tree.c:2894:}"];
+	Node0x371e0a20 -> Node0x371e0d70;
+	Node0x371e0a20 -> Node0x371e0c30;
+	Node0x371e0c30 [shape=record,label="{tree.c:2894:1}"];
+	Node0x371e0c30 -> Node0x371e0d70;
+	Node0x371e0c30 -> Node0x371e0c80;
+	Node0x371e0c80 [shape=record,label="{tree.c:2895:}"];
+	Node0x371e0c80 -> Node0x371e0d70;
+	Node0x371e0c80 -> Node0x371e0cd0;
+	Node0x371e0cd0 [shape=record,label="{tree.c:2899:}"];
+	Node0x371e0cd0 -> Node0x371e0d70;
+	Node0x371e0cd0 -> Node0x371e0d20;
+	Node0x371e0d20 [shape=record,label="{tree.c:2902:}"];
+	Node0x371e0d20 -> Node0x371e0d70;
+	Node0x371e0d70 [shape=record,label="{tree.c:2903:}"];
+}

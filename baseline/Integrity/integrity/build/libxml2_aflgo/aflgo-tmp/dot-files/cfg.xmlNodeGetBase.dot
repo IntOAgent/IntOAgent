@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlNodeGetBase' function" {
+	label="CFG for 'xmlNodeGetBase' function";
+
+	Node0x37300bc0 [shape=record,label="{tree.c:5090:}"];
+}

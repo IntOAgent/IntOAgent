@@ -1,0 +1,37 @@
+digraph "CFG for 'xmlParserEntityCheck' function" {
+	label="CFG for 'xmlParserEntityCheck' function";
+
+	Node0x26ecf780 [shape=record,label="{parser.c:438:}"];
+	Node0x26ecf780 -> Node0x26ecfa30;
+	Node0x26ecf780 -> Node0x26ecf9e0;
+	Node0x26ecf9e0 [shape=record,label="{parser.c:441:}"];
+	Node0x26ecf9e0 -> Node0x26ecfa30;
+	Node0x26ecf9e0 -> Node0x26ecfd50;
+	Node0x26ecfa30 [shape=record,label="{parser.c:448:}"];
+	Node0x26ecfa30 -> Node0x26ecfa80;
+	Node0x26ecfa30 -> Node0x26ecfad0;
+	Node0x26ecfa80 [shape=record,label="{%20}"];
+	Node0x26ecfa80 -> Node0x26ecfad0;
+	Node0x26ecfad0 [shape=record,label="{%23}"];
+	Node0x26ecfad0 -> Node0x26ecfb20;
+	Node0x26ecfad0 -> Node0x26ecfb70;
+	Node0x26ecfb20 [shape=record,label="{%24}"];
+	Node0x26ecfb20 -> Node0x26ecfb70;
+	Node0x26ecfb70 [shape=record,label="{parser.h:176:}"];
+	Node0x26ecfb70 -> Node0x26ecfbc0;
+	Node0x26ecfb70 -> Node0x26ecfd50;
+	Node0x26ecfbc0 [shape=record,label="{parser.c:469:}"];
+	Node0x26ecfbc0 -> Node0x26ecfd00;
+	Node0x26ecfbc0 -> Node0x26ecfc10;
+	Node0x26ecfc10 [shape=record,label="{parser.c:470:}"];
+	Node0x26ecfc10 -> Node0x26ecfc60;
+	Node0x26ecfc10 -> Node0x26ecfcb0;
+	Node0x26ecfc60 [shape=record,label="{parser.c:470:1}"];
+	Node0x26ecfc60 -> Node0x26ecfcb0;
+	Node0x26ecfcb0 [shape=record,label="{parser.c:470:2}"];
+	Node0x26ecfcb0 -> Node0x26ecfd00;
+	Node0x26ecfcb0 -> Node0x26ecfd50;
+	Node0x26ecfd00 [shape=record,label="{parser.c:260:}"];
+	Node0x26ecfd00 -> Node0x26ecfd50;
+	Node0x26ecfd50 [shape=record,label="{parser.c:478:}"];
+}

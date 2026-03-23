@@ -1,0 +1,37 @@
+digraph "CFG for 'xmlChildElementCount' function" {
+	label="CFG for 'xmlChildElementCount' function";
+
+	Node0x37210870 [shape=record,label="{tree.c:3165:}"];
+	Node0x37210870 -> Node0x37210ca0;
+	Node0x37210870 -> Node0x37210930;
+	Node0x37210930 [shape=record,label="{tree.c:3167:}"];
+	Node0x37210930 -> Node0x37210980;
+	Node0x37210930 -> Node0x372109d0;
+	Node0x37210980 [shape=record,label="{tree.c:3167:1}"];
+	Node0x37210980 -> Node0x372109d0;
+	Node0x372109d0 [shape=record,label="{tree.c:3167:2}"];
+	Node0x372109d0 -> Node0x37210a20;
+	Node0x372109d0 -> Node0x37210a70;
+	Node0x37210a20 [shape=record,label="{tree.c:3167:3}"];
+	Node0x37210a20 -> Node0x37210a70;
+	Node0x37210a70 [shape=record,label="{tree.c:3167:4}"];
+	Node0x37210a70 -> Node0x37210ca0;
+	Node0x37210a70 -> Node0x37210ac0;
+	Node0x37210ac0 [shape=record,label="{tree.c:3173:}"];
+	Node0x37210ac0 -> Node0x37210ca0;
+	Node0x37210ac0 -> Node0x37210b10;
+	Node0x37210b10 [shape=record,label="{tree.c:3179:}"];
+	Node0x37210b10 -> Node0x37210b60;
+	Node0x37210b10 -> Node0x37210bb0;
+	Node0x37210b60 [shape=record,label="{%20}"];
+	Node0x37210b60 -> Node0x37210bb0;
+	Node0x37210bb0 [shape=record,label="{%23}"];
+	Node0x37210bb0 -> Node0x37210c00;
+	Node0x37210bb0 -> Node0x37210c50;
+	Node0x37210c00 [shape=record,label="{%24}"];
+	Node0x37210c00 -> Node0x37210c50;
+	Node0x37210c50 [shape=record,label="{tree.c:3181:}"];
+	Node0x37210c50 -> Node0x37210ca0;
+	Node0x37210c50 -> Node0x37210b10;
+	Node0x37210ca0 [shape=record,label="{tree.c:3184:}"];
+}

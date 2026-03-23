@@ -1,0 +1,36 @@
+digraph "CFG for 'xmlRelaxNGCheckCycles' function" {
+	label="CFG for 'xmlRelaxNGCheckCycles' function";
+
+	Node0x12f2f120 [shape=record,label="{relaxng.c:5743:}"];
+	Node0x12f2f120 -> Node0x12f2f550;
+	Node0x12f2f120 -> Node0x12f2f1e0;
+	Node0x12f2f1e0 [shape=record,label="{%4}"];
+	Node0x12f2f1e0 -> Node0x12f2f230;
+	Node0x12f2f1e0 -> Node0x12f2f280;
+	Node0x12f2f230 [shape=record,label="{%6}"];
+	Node0x12f2f230 -> Node0x12f2f280;
+	Node0x12f2f280 [shape=record,label="{relaxng.c:5743:1}"];
+	Node0x12f2f280 -> Node0x12f2f2d0;
+	Node0x12f2f2d0 [shape=record,label="{relaxng.c:5744:}"];
+	Node0x12f2f2d0 -> Node0x12f2f4b0;
+	Node0x12f2f2d0 -> Node0x12f2f320;
+	Node0x12f2f2d0 -> Node0x12f2f460;
+	Node0x12f2f320 [shape=record,label="{relaxng.c:5746:}"];
+	Node0x12f2f320 -> Node0x12f2f370;
+	Node0x12f2f320 -> Node0x12f2f3c0;
+	Node0x12f2f370 [shape=record,label="{relaxng.c:5747:}"];
+	Node0x12f2f370 -> Node0x12f2f500;
+	Node0x12f2f3c0 [shape=record,label="{relaxng.c:5746:2}"];
+	Node0x12f2f3c0 -> Node0x12f2f410;
+	Node0x12f2f3c0 -> Node0x12f2f500;
+	Node0x12f2f410 [shape=record,label="{relaxng.c:5751:}"];
+	Node0x12f2f410 -> Node0x12f2f550;
+	Node0x12f2f460 [shape=record,label="{relaxng.c:5757:}"];
+	Node0x12f2f460 -> Node0x12f2f500;
+	Node0x12f2f4b0 [shape=record,label="{relaxng.c:5759:}"];
+	Node0x12f2f4b0 -> Node0x12f2f500;
+	Node0x12f2f500 [shape=record,label="{relaxng.c:5761:}"];
+	Node0x12f2f500 -> Node0x12f2f2d0;
+	Node0x12f2f500 -> Node0x12f2f550;
+	Node0x12f2f550 [shape=record,label="{relaxng.c:5764:}"];
+}

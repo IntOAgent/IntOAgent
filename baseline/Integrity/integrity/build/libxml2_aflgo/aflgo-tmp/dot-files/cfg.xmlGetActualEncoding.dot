@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlGetActualEncoding' function" {
+	label="CFG for 'xmlGetActualEncoding' function";
+
+	Node0x8dbd920 [shape=record,label="{parserInternals.c:1743:}"];
+	Node0x8dbd920 -> Node0x8dbda00;
+	Node0x8dbd920 -> Node0x8dbd9b0;
+	Node0x8dbd9b0 [shape=record,label="{parserInternals.c:1746:}"];
+	Node0x8dbd9b0 -> Node0x8dbdb40;
+	Node0x8dbda00 [shape=record,label="{parserInternals.c:1747:}"];
+	Node0x8dbda00 -> Node0x8dbdaf0;
+	Node0x8dbda00 -> Node0x8dbda50;
+	Node0x8dbda50 [shape=record,label="{parserInternals.c:1747:1}"];
+	Node0x8dbda50 -> Node0x8dbdaf0;
+	Node0x8dbda50 -> Node0x8dbdaa0;
+	Node0x8dbdaa0 [shape=record,label="{parserInternals.c:1748:}"];
+	Node0x8dbdaa0 -> Node0x8dbdb40;
+	Node0x8dbdaf0 [shape=record,label="{parserInternals.c:1749:}"];
+	Node0x8dbdaf0 -> Node0x8dbdb40;
+	Node0x8dbdb40 [shape=record,label="{parserInternals.c:1753:}"];
+}

@@ -1,0 +1,13 @@
+catalog.c:784,12.48
+catalog.c:787,12.48
+catalog.c:788,12.48
+catalog.c:791,10
+catalog.c:793,10
+catalog.c:3380,14.539329627758129
+catalog.c:3381,18.75
+catalog.c:3383,10
+catalog.c:784,12.48
+catalog.c:787,12.48
+catalog.c:788,12.48
+catalog.c:791,10
+catalog.c:793,10

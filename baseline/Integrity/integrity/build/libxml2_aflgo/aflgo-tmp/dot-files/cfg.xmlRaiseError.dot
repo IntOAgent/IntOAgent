@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlRaiseError' function" {
+	label="CFG for 'xmlRaiseError' function";
+
+	Node0x365794b0 [shape=record,label="{error.c:778:}"];
+}

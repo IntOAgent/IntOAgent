@@ -1,0 +1,5 @@
+digraph "CFG for 'htmlAttrAllowed' function" {
+	label="CFG for 'htmlAttrAllowed' function";
+
+	Node0x39d99b0 [shape=record,label="{HTMLparser.c:5460:}"];
+}

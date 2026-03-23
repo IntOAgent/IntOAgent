@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlGetRefs' function" {
+	label="CFG for 'xmlGetRefs' function";
+
+	Node0x37d37060 [shape=record,label="{valid.c:2762:}"];
+	Node0x37d37060 -> Node0x37d37180;
+	Node0x37d37060 -> Node0x37d370e0;
+	Node0x37d370e0 [shape=record,label="{valid.c:2770:}"];
+	Node0x37d370e0 -> Node0x37d37180;
+	Node0x37d370e0 -> Node0x37d37130;
+	Node0x37d37130 [shape=record,label="{valid.c:2774:}"];
+	Node0x37d37130 -> Node0x37d37180;
+	Node0x37d37180 [shape=record,label="{valid.c:2775:}"];
+}

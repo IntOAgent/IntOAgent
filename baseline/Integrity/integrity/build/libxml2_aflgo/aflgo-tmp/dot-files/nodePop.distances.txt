@@ -1,0 +1,15 @@
+parser.c:2034,5.095541401273886
+parser.c:2035,3.9622641509433962
+parser.c:2037,0
+parser.c:2039,0
+parser.c:2034,5.095541401273886
+parser.c:2037,0
+parser.c:2039,0
+parser.c:2035,3.9622641509433962
+parser.c:2037,0
+parser.c:2039,0
+parser.c:2037,0
+parser.c:2039,0
+parser.c:2035,3.9622641509433962
+parser.c:2037,0
+parser.c:2039,0

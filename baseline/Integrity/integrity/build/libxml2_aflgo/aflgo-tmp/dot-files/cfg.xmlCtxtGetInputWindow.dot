@@ -1,0 +1,29 @@
+digraph "CFG for 'xmlCtxtGetInputWindow' function" {
+	label="CFG for 'xmlCtxtGetInputWindow' function";
+
+	Node0x8e837b0 [shape=record,label="{parserInternals.c:3473:}"];
+	Node0x8e837b0 -> Node0x8e83d40;
+	Node0x8e837b0 -> Node0x8e83ac0;
+	Node0x8e83ac0 [shape=record,label="{parserInternals.c:3477:}"];
+	Node0x8e83ac0 -> Node0x8e83b10;
+	Node0x8e83ac0 -> Node0x8e83ca0;
+	Node0x8e83b10 [shape=record,label="{parserInternals.c:3478:}"];
+	Node0x8e83b10 -> Node0x8e83b60;
+	Node0x8e83b10 -> Node0x8e83bb0;
+	Node0x8e83b60 [shape=record,label="{%16}"];
+	Node0x8e83b60 -> Node0x8e83bb0;
+	Node0x8e83bb0 [shape=record,label="{%19}"];
+	Node0x8e83bb0 -> Node0x8e83c00;
+	Node0x8e83bb0 -> Node0x8e83c50;
+	Node0x8e83c00 [shape=record,label="{%20}"];
+	Node0x8e83c00 -> Node0x8e83c50;
+	Node0x8e83c50 [shape=record,label="{parserInternals.c:3479:}"];
+	Node0x8e83c50 -> Node0x8e83d40;
+	Node0x8e83c50 -> Node0x8e83ca0;
+	Node0x8e83ca0 [shape=record,label="{parserInternals.c:3482:}"];
+	Node0x8e83ca0 -> Node0x8e83cf0;
+	Node0x8e83ca0 -> Node0x8e83d40;
+	Node0x8e83cf0 [shape=record,label="{parserInternals.c:3485:}"];
+	Node0x8e83cf0 -> Node0x8e83d40;
+	Node0x8e83d40 [shape=record,label="{parserInternals.c:3490:}"];
+}

@@ -1,0 +1,14 @@
+parserInternals.c:1100,4.0776699029126213
+parserInternals.c:1101,4.0776699029126213
+parserInternals.c:1102,4.0776699029126213
+parserInternals.c:1109,0
+parserInternals.c:1110,3.773584905660377
+parserInternals.c:1111,0
+parserInternals.c:1130,6.5386611312921641
+parserInternals.c:1132,5.3617021276595747
+parserInternals.c:1100,4.0776699029126213
+parserInternals.c:1101,4.0776699029126213
+parserInternals.c:1102,4.0776699029126213
+parserInternals.c:1109,0
+parserInternals.c:1110,3.773584905660377
+parserInternals.c:1111,0

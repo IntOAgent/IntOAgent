@@ -1,0 +1,29 @@
+digraph "CFG for 'plist_write_to_stream_default' function" {
+	label="CFG for 'plist_write_to_stream_default' function";
+
+	Node0xf609890 [shape=record,label="{out-default.c:471:}"];
+	Node0xf609890 -> Node0xf5d2750;
+	Node0xf609890 -> Node0xf5d29d0;
+	Node0xf5d2750 [shape=record,label="{out-default.c:474:}"];
+	Node0xf5d2750 -> Node0xf5d29d0;
+	Node0xf5d2750 -> Node0xf5d27a0;
+	Node0xf5d27a0 [shape=record,label="{out-default.c:407:}"];
+	Node0xf5d27a0 -> Node0xf5d28e0;
+	Node0xf5d27a0 -> Node0xf5d27f0;
+	Node0xf5d27f0 [shape=record,label="{out-default.c:412:}"];
+	Node0xf5d27f0 -> Node0xf5d2840;
+	Node0xf5d27f0 -> Node0xf5d2890;
+	Node0xf5d2840 [shape=record,label="{%18}"];
+	Node0xf5d2840 -> Node0xf5d2890;
+	Node0xf5d2890 [shape=record,label="{out-default.c:411:}"];
+	Node0xf5d2890 -> Node0xf5d28e0;
+	Node0xf5d2890 -> Node0xf5d27f0;
+	Node0xf5d28e0 [shape=record,label="{out-default.c:414:}"];
+	Node0xf5d28e0 -> Node0xf5d2930;
+	Node0xf5d28e0 -> Node0xf5d2980;
+	Node0xf5d2930 [shape=record,label="{out-default.c:419:}"];
+	Node0xf5d2930 -> Node0xf5d2980;
+	Node0xf5d2980 [shape=record,label="{out-default.c:422:}"];
+	Node0xf5d2980 -> Node0xf5d29d0;
+	Node0xf5d29d0 [shape=record,label="{out-default.c:491:}"];
+}

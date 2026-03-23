@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlParseEntityRef' function" {
+	label="CFG for 'xmlParseEntityRef' function";
+
+	Node0x26ed4880 [shape=record,label="{parser.c:7494:}"];
+	Node0x26ed4880 -> Node0x26ed4ba0;
+	Node0x26ed4880 -> Node0x26ed4b00;
+	Node0x26ed4b00 [shape=record,label="{parser.c:7497:}"];
+	Node0x26ed4b00 -> Node0x26ed4ba0;
+	Node0x26ed4b00 -> Node0x26ed4b50;
+	Node0x26ed4b50 [shape=record,label="{parser.c:7501:}"];
+	Node0x26ed4b50 -> Node0x26ed4ba0;
+	Node0x26ed4ba0 [shape=record,label="{parser.c:7502:}"];
+}

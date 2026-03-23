@@ -1,0 +1,15 @@
+digraph "CFG for 'target_function' function" {
+	label="CFG for 'target_function' function";
+
+	Node0x896f140 [shape=record,label="{cwe369_divzero.c:14:}"];
+	Node0x896f140 -> Node0x8976860;
+	Node0x896f140 -> Node0x89768b0;
+	Node0x8976860 [shape=record,label="{cwe369_divzero.c:14:1}"];
+	Node0x8976860 -> Node0x89768b0;
+	Node0x89768b0 [shape=record,label="{cwe369_divzero.c:14:2}"];
+	Node0x89768b0 -> Node0x8976900;
+	Node0x89768b0 -> Node0x8976950;
+	Node0x8976900 [shape=record,label="{cwe369_divzero.c:14:3}"];
+	Node0x8976900 -> Node0x8976950;
+	Node0x8976950 [shape=record,label="{cwe369_divzero.c:14:4}"];
+}

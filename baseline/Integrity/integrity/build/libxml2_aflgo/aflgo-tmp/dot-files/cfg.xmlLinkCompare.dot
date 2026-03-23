@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlLinkCompare' function" {
+	label="CFG for 'xmlLinkCompare' function";
+
+	Node0xdf92680 [shape=record,label="{list.c:78:}"];
+}

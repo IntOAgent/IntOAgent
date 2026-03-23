@@ -1,0 +1,36 @@
+digraph "CFG for 'xmlCtxtDumpNodeList' function" {
+	label="CFG for 'xmlCtxtDumpNodeList' function";
+
+	Node0x1d106db0 [shape=record,label="{debugXML.c:1040:}"];
+	Node0x1d106db0 -> Node0x1d1071e0;
+	Node0x1d106db0 -> Node0x1d106e70;
+	Node0x1d106e70 [shape=record,label="{debugXML.c:1040:1}"];
+	Node0x1d106e70 -> Node0x1d106ec0;
+	Node0x1d106ec0 [shape=record,label="{debugXML.c:1022:}"];
+	Node0x1d106ec0 -> Node0x1d107190;
+	Node0x1d106ec0 -> Node0x1d106f10;
+	Node0x1d106f10 [shape=record,label="{debugXML.c:1024:}"];
+	Node0x1d106f10 -> Node0x1d107190;
+	Node0x1d106f10 -> Node0x1d106f60;
+	Node0x1d106f60 [shape=record,label="{debugXML.c:1025:}"];
+	Node0x1d106f60 -> Node0x1d106fb0;
+	Node0x1d106f60 -> Node0x1d107000;
+	Node0x1d106fb0 [shape=record,label="{debugXML.c:1025:2}"];
+	Node0x1d106fb0 -> Node0x1d107000;
+	Node0x1d107000 [shape=record,label="{debugXML.c:1025:3}"];
+	Node0x1d107000 -> Node0x1d107050;
+	Node0x1d107000 -> Node0x1d1070a0;
+	Node0x1d107050 [shape=record,label="{debugXML.c:1027:}"];
+	Node0x1d107050 -> Node0x1d1070a0;
+	Node0x1d1070a0 [shape=record,label="{debugXML.c:1027:4}"];
+	Node0x1d1070a0 -> Node0x1d1070f0;
+	Node0x1d1070a0 -> Node0x1d107140;
+	Node0x1d1070f0 [shape=record,label="{debugXML.c:1027:5}"];
+	Node0x1d1070f0 -> Node0x1d107140;
+	Node0x1d107140 [shape=record,label="{debugXML.c:1027:6}"];
+	Node0x1d107140 -> Node0x1d107190;
+	Node0x1d107190 [shape=record,label="{debugXML.c:1042:}"];
+	Node0x1d107190 -> Node0x1d1071e0;
+	Node0x1d107190 -> Node0x1d106ec0;
+	Node0x1d1071e0 [shape=record,label="{debugXML.c:1044:}"];
+}

@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlDumpNotationTable' function" {
+	label="CFG for 'xmlDumpNotationTable' function";
+
+	Node0x37cf6260 [shape=record,label="{valid.c:2106:}"];
+	Node0x37cf6260 -> Node0x37cf6350;
+	Node0x37cf6260 -> Node0x37cf62b0;
+	Node0x37cf62b0 [shape=record,label="{valid.c:2109:}"];
+	Node0x37cf62b0 -> Node0x37cf6350;
+	Node0x37cf62b0 -> Node0x37cf6300;
+	Node0x37cf6300 [shape=record,label="{valid.c:2112:}"];
+	Node0x37cf6300 -> Node0x37cf6350;
+	Node0x37cf6350 [shape=record,label="{valid.c:2113:}"];
+}

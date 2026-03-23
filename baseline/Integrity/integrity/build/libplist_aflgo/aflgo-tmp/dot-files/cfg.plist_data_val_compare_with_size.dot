@@ -1,0 +1,19 @@
+digraph "CFG for 'plist_data_val_compare_with_size' function" {
+	label="CFG for 'plist_data_val_compare_with_size' function";
+
+	Node0x215efd20 [shape=record,label="{plist.c:1814:}"];
+	Node0x215efd20 -> Node0x215efeb0;
+	Node0x215efd20 -> Node0x215efd70;
+	Node0x215efd70 [shape=record,label="{plist.c:356:}"];
+	Node0x215efd70 -> Node0x215efeb0;
+	Node0x215efd70 -> Node0x215efdc0;
+	Node0x215efdc0 [shape=record,label="{plist.c:1265:}"];
+	Node0x215efdc0 -> Node0x215efe10;
+	Node0x215efdc0 -> Node0x215efeb0;
+	Node0x215efe10 [shape=record,label="{plist.c:356:1}"];
+	Node0x215efe10 -> Node0x215efeb0;
+	Node0x215efe10 -> Node0x215efe60;
+	Node0x215efe60 [shape=record,label="{plist.c:1821:}"];
+	Node0x215efe60 -> Node0x215efeb0;
+	Node0x215efeb0 [shape=record,label="{plist.c:1822:}"];
+}

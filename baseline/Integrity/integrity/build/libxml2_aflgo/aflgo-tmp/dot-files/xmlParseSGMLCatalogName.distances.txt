@@ -1,0 +1,6 @@
+catalog.c:2182,8.1216166872402109
+catalog.c:2192,0
+catalog.c:2196,0
+catalog.c:2197,4.8083927808019693
+catalog.c:2199,0
+catalog.c:2205,10

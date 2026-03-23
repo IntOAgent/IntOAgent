@@ -1,0 +1,28 @@
+digraph "CFG for 'xmlFileRead' function" {
+	label="CFG for 'xmlFileRead' function";
+
+	Node0x9750a60 [shape=record,label="{xmlIO.c:969:}"];
+	Node0x9750a60 -> Node0x9755990;
+	Node0x9750a60 -> Node0x97556b0;
+	Node0x97556b0 [shape=record,label="{xmlIO.c:981:}"];
+	Node0x97556b0 -> Node0x9755760;
+	Node0x97556b0 -> Node0x9755940;
+	Node0x9755760 [shape=record,label="{xmlIO.c:983:}"];
+	Node0x9755760 -> Node0x9755940;
+	Node0x9755760 -> Node0x97557b0;
+	Node0x97557b0 [shape=record,label="{xmlIO.c:984:}"];
+	Node0x97557b0 -> Node0x9755800;
+	Node0x97557b0 -> Node0x9755850;
+	Node0x9755800 [shape=record,label="{xmlIO.c:984:1}"];
+	Node0x9755800 -> Node0x9755850;
+	Node0x9755850 [shape=record,label="{xmlIO.c:984:2}"];
+	Node0x9755850 -> Node0x97558a0;
+	Node0x9755850 -> Node0x97558f0;
+	Node0x97558a0 [shape=record,label="{xmlIO.c:984:3}"];
+	Node0x97558a0 -> Node0x97558f0;
+	Node0x97558f0 [shape=record,label="{xmlIO.c:984:4}"];
+	Node0x97558f0 -> Node0x9755990;
+	Node0x9755940 [shape=record,label="{xmlIO.c:986:}"];
+	Node0x9755940 -> Node0x9755990;
+	Node0x9755990 [shape=record,label="{xmlIO.c:987:}"];
+}

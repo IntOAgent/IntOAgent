@@ -1,0 +1,36 @@
+digraph "CFG for 'xmlTextReaderLocatorLineNumber' function" {
+	label="CFG for 'xmlTextReaderLocatorLineNumber' function";
+
+	Node0x22be4560 [shape=record,label="{xmlreader.c:4458:}"];
+	Node0x22be4560 -> Node0x22be4990;
+	Node0x22be4560 -> Node0x22be4620;
+	Node0x22be4620 [shape=record,label="{xmlreader.c:4460:}"];
+	Node0x22be4620 -> Node0x22be46c0;
+	Node0x22be4620 -> Node0x22be4670;
+	Node0x22be4670 [shape=record,label="{xmlreader.c:4461:}"];
+	Node0x22be4670 -> Node0x22be4990;
+	Node0x22be46c0 [shape=record,label="{xmlreader.c:4466:}"];
+	Node0x22be46c0 -> Node0x22be4710;
+	Node0x22be46c0 -> Node0x22be48f0;
+	Node0x22be4710 [shape=record,label="{xmlreader.c:4467:}"];
+	Node0x22be4710 -> Node0x22be4760;
+	Node0x22be4710 -> Node0x22be48f0;
+	Node0x22be4760 [shape=record,label="{xmlreader.c:4468:}"];
+	Node0x22be4760 -> Node0x22be47b0;
+	Node0x22be4760 -> Node0x22be4800;
+	Node0x22be47b0 [shape=record,label="{%22}"];
+	Node0x22be47b0 -> Node0x22be4800;
+	Node0x22be4800 [shape=record,label="{%25}"];
+	Node0x22be4800 -> Node0x22be4850;
+	Node0x22be4800 -> Node0x22be48a0;
+	Node0x22be4850 [shape=record,label="{%26}"];
+	Node0x22be4850 -> Node0x22be48a0;
+	Node0x22be48a0 [shape=record,label="{xmlreader.c:4468:1}"];
+	Node0x22be48a0 -> Node0x22be48f0;
+	Node0x22be48f0 [shape=record,label="{xmlreader.c:4469:}"];
+	Node0x22be48f0 -> Node0x22be4990;
+	Node0x22be48f0 -> Node0x22be4940;
+	Node0x22be4940 [shape=record,label="{xmlreader.c:4470:}"];
+	Node0x22be4940 -> Node0x22be4990;
+	Node0x22be4990 [shape=record,label="{xmlreader.c:4478:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlDumpEntityDeclScan' function" {
+	label="CFG for 'xmlDumpEntityDeclScan' function";
+
+	Node0x151953a0 [shape=record,label="{entities.c:695:}"];
+}

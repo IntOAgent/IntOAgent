@@ -1,0 +1,5 @@
+digraph "CFG for 'internal_plist_init' function" {
+	label="CFG for 'internal_plist_init' function";
+
+	Node0x21513170 [shape=record,label="{plist.c:154:}"];
+}

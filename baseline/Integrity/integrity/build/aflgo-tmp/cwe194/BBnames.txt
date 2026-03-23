@@ -1,0 +1,5 @@
+cwe194_signext.c:19
+cwe194_signext.c:23
+cwe194_signext.c:23:1
+cwe194_signext.c:23:2
+cwe194_signext.c:23:3

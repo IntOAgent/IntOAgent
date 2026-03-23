@@ -1,0 +1,21 @@
+digraph "CFG for 'xmlEncodeEntitiesReentrant' function" {
+	label="CFG for 'xmlEncodeEntitiesReentrant' function";
+
+	Node0x151883e0 [shape=record,label="{entities.c:524:}"];
+	Node0x151883e0 -> Node0x15188600;
+	Node0x151883e0 -> Node0x15188470;
+	Node0x15188470 [shape=record,label="{entities.c:527:}"];
+	Node0x15188470 -> Node0x15188560;
+	Node0x15188470 -> Node0x151884c0;
+	Node0x151884c0 [shape=record,label="{entities.c:527:1}"];
+	Node0x151884c0 -> Node0x151885b0;
+	Node0x151884c0 -> Node0x15188510;
+	Node0x15188510 [shape=record,label="{entities.c:529:}"];
+	Node0x15188510 -> Node0x15188560;
+	Node0x15188510 -> Node0x151885b0;
+	Node0x15188560 [shape=record,label="{entities.c:530:}"];
+	Node0x15188560 -> Node0x151885b0;
+	Node0x151885b0 [shape=record,label="{entities.c:532:}"];
+	Node0x151885b0 -> Node0x15188600;
+	Node0x15188600 [shape=record,label="{entities.c:533:}"];
+}

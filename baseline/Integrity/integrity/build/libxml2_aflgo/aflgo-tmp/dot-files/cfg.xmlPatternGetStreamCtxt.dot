@@ -1,0 +1,41 @@
+digraph "CFG for 'xmlPatternGetStreamCtxt' function" {
+	label="CFG for 'xmlPatternGetStreamCtxt' function";
+
+	Node0x32b441c0 [shape=record,label="{pattern.c:2246:}"];
+	Node0x32b441c0 -> Node0x32b138e0;
+	Node0x32b441c0 -> Node0x32b0a110;
+	Node0x32b0a110 [shape=record,label="{pattern.c:2246:1}"];
+	Node0x32b0a110 -> Node0x32b138e0;
+	Node0x32b0a110 -> Node0x32b0a160;
+	Node0x32b0a160 [shape=record,label="{pattern.c:2250:}"];
+	Node0x32b0a160 -> Node0x32b0a390;
+	Node0x32b0a160 -> Node0x32b0a1b0;
+	Node0x32b0a1b0 [shape=record,label="{pattern.c:1526:}"];
+	Node0x32b0a1b0 -> Node0x32b0a250;
+	Node0x32b0a1b0 -> Node0x32b0a200;
+	Node0x32b0a200 [shape=record,label="{pattern.c:1526:2}"];
+	Node0x32b0a200 -> Node0x32b0a250;
+	Node0x32b0a250 [shape=record,label="{pattern.c:2253:}"];
+	Node0x32b0a250 -> Node0x32b0a390;
+	Node0x32b0a250 -> Node0x32b0a2a0;
+	Node0x32b0a2a0 [shape=record,label="{pattern.c:2255:}"];
+	Node0x32b0a2a0 -> Node0x32b0a340;
+	Node0x32b0a2a0 -> Node0x32b0a2f0;
+	Node0x32b0a2f0 [shape=record,label="{pattern.c:2258:}"];
+	Node0x32b0a2f0 -> Node0x32b0a340;
+	Node0x32b0a340 [shape=record,label="{pattern.c:2261:}"];
+	Node0x32b0a340 -> Node0x32b138e0;
+	Node0x32b0a340 -> Node0x32b0a160;
+	Node0x32b0a390 [shape=record,label="{pattern.c:2265:}"];
+	Node0x32b0a390 -> Node0x32b138e0;
+	Node0x32b0a390 -> Node0x32b0a3e0;
+	Node0x32b0a3e0 [shape=record,label="{pattern.c:1552:}"];
+	Node0x32b0a3e0 -> Node0x32b0a480;
+	Node0x32b0a3e0 -> Node0x32b0a430;
+	Node0x32b0a430 [shape=record,label="{pattern.c:1554:}"];
+	Node0x32b0a430 -> Node0x32b0a480;
+	Node0x32b0a480 [shape=record,label="{pattern.c:1555:}"];
+	Node0x32b0a480 -> Node0x32b138e0;
+	Node0x32b0a480 -> Node0x32b0a3e0;
+	Node0x32b138e0 [shape=record,label="{pattern.c:2268:}"];
+}

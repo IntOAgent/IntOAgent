@@ -1,0 +1,36 @@
+digraph "CFG for 'xmlBufShrink' function" {
+	label="CFG for 'xmlBufShrink' function";
+
+	Node0x3f76b080 [shape=record,label="{buf.c:243:}"];
+	Node0x3f76b080 -> Node0x3f73e300;
+	Node0x3f76b080 -> Node0x3f73df90;
+	Node0x3f73df90 [shape=record,label="{buf.c:243:1}"];
+	Node0x3f73df90 -> Node0x3f73e300;
+	Node0x3f73df90 -> Node0x3f73dfe0;
+	Node0x3f73dfe0 [shape=record,label="{buf.c:248:}"];
+	Node0x3f73dfe0 -> Node0x3f73e300;
+	Node0x3f73dfe0 -> Node0x3f73e030;
+	Node0x3f73e030 [shape=record,label="{buf.c:251:}"];
+	Node0x3f73e030 -> Node0x3f73e080;
+	Node0x3f73e030 -> Node0x3f73e0d0;
+	Node0x3f73e080 [shape=record,label="{buf.c:251:2}"];
+	Node0x3f73e080 -> Node0x3f73e0d0;
+	Node0x3f73e0d0 [shape=record,label="{buf.c:251:3}"];
+	Node0x3f73e0d0 -> Node0x3f73e120;
+	Node0x3f73e0d0 -> Node0x3f73e170;
+	Node0x3f73e120 [shape=record,label="{buf.c:251:4}"];
+	Node0x3f73e120 -> Node0x3f73e170;
+	Node0x3f73e170 [shape=record,label="{buf.c:251:5}"];
+	Node0x3f73e170 -> Node0x3f73e1c0;
+	Node0x3f73e170 -> Node0x3f73e210;
+	Node0x3f73e1c0 [shape=record,label="{buf.c:253:}"];
+	Node0x3f73e1c0 -> Node0x3f73e210;
+	Node0x3f73e210 [shape=record,label="{buf.c:253:6}"];
+	Node0x3f73e210 -> Node0x3f73e260;
+	Node0x3f73e210 -> Node0x3f73e2b0;
+	Node0x3f73e260 [shape=record,label="{buf.c:253:7}"];
+	Node0x3f73e260 -> Node0x3f73e2b0;
+	Node0x3f73e2b0 [shape=record,label="{buf.c:253:8}"];
+	Node0x3f73e2b0 -> Node0x3f73e300;
+	Node0x3f73e300 [shape=record,label="{buf.c:256:}"];
+}

@@ -1,0 +1,27 @@
+digraph "CFG for 'xmlSAX2InternalSubset' function" {
+	label="CFG for 'xmlSAX2InternalSubset' function";
+
+	Node0x1abef730 [shape=record,label="{SAX2.c:243:}"];
+	Node0x1abef730 -> Node0x1abef9b0;
+	Node0x1abef730 -> Node0x1abef780;
+	Node0x1abef780 [shape=record,label="{SAX2.c:247:}"];
+	Node0x1abef780 -> Node0x1abef9b0;
+	Node0x1abef780 -> Node0x1abef7d0;
+	Node0x1abef7d0 [shape=record,label="{SAX2.c:249:}"];
+	Node0x1abef7d0 -> Node0x1abef870;
+	Node0x1abef7d0 -> Node0x1abef820;
+	Node0x1abef820 [shape=record,label="{SAX2.c:249:1}"];
+	Node0x1abef820 -> Node0x1abef870;
+	Node0x1abef820 -> Node0x1abef9b0;
+	Node0x1abef870 [shape=record,label="{SAX2.c:251:}"];
+	Node0x1abef870 -> Node0x1abef910;
+	Node0x1abef870 -> Node0x1abef8c0;
+	Node0x1abef8c0 [shape=record,label="{SAX2.c:253:}"];
+	Node0x1abef8c0 -> Node0x1abef910;
+	Node0x1abef910 [shape=record,label="{SAX2.c:258:}"];
+	Node0x1abef910 -> Node0x1abef960;
+	Node0x1abef910 -> Node0x1abef9b0;
+	Node0x1abef960 [shape=record,label="{SAX2.c:43:}"];
+	Node0x1abef960 -> Node0x1abef9b0;
+	Node0x1abef9b0 [shape=record,label="{SAX2.c:261:}"];
+}

@@ -1,0 +1,6 @@
+xmlschemastypes.c:1703,0
+xmlschemastypes.c:1704,0
+xmlschemastypes.c:1705,0
+xmlschemastypes.c:1703,0
+xmlschemastypes.c:1704,0
+xmlschemastypes.c:1705,0

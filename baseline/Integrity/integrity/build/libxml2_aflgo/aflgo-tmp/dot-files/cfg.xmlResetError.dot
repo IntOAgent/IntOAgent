@@ -1,0 +1,38 @@
+digraph "CFG for 'xmlResetError' function" {
+	label="CFG for 'xmlResetError' function";
+
+	Node0x3655bcc0 [shape=record,label="{error.c:952:}"];
+	Node0x3655bcc0 -> Node0x3655c150;
+	Node0x3655bcc0 -> Node0x3655bd90;
+	Node0x3655bd90 [shape=record,label="{error.c:954:}"];
+	Node0x3655bd90 -> Node0x3655c150;
+	Node0x3655bd90 -> Node0x3655bde0;
+	Node0x3655bde0 [shape=record,label="{error.c:956:}"];
+	Node0x3655bde0 -> Node0x3655be80;
+	Node0x3655bde0 -> Node0x3655be30;
+	Node0x3655be30 [shape=record,label="{error.c:957:}"];
+	Node0x3655be30 -> Node0x3655be80;
+	Node0x3655be80 [shape=record,label="{error.c:958:}"];
+	Node0x3655be80 -> Node0x3655bf20;
+	Node0x3655be80 -> Node0x3655bed0;
+	Node0x3655bed0 [shape=record,label="{error.c:959:}"];
+	Node0x3655bed0 -> Node0x3655bf20;
+	Node0x3655bf20 [shape=record,label="{error.c:960:}"];
+	Node0x3655bf20 -> Node0x3655bfc0;
+	Node0x3655bf20 -> Node0x3655bf70;
+	Node0x3655bf70 [shape=record,label="{error.c:961:}"];
+	Node0x3655bf70 -> Node0x3655bfc0;
+	Node0x3655bfc0 [shape=record,label="{error.c:962:}"];
+	Node0x3655bfc0 -> Node0x3655c060;
+	Node0x3655bfc0 -> Node0x3655c010;
+	Node0x3655c010 [shape=record,label="{error.c:963:}"];
+	Node0x3655c010 -> Node0x3655c060;
+	Node0x3655c060 [shape=record,label="{error.c:964:}"];
+	Node0x3655c060 -> Node0x3655c100;
+	Node0x3655c060 -> Node0x3655c0b0;
+	Node0x3655c0b0 [shape=record,label="{error.c:965:}"];
+	Node0x3655c0b0 -> Node0x3655c100;
+	Node0x3655c100 [shape=record,label="{error.c:968:}"];
+	Node0x3655c100 -> Node0x3655c150;
+	Node0x3655c150 [shape=record,label="{error.c:968:1}"];
+}

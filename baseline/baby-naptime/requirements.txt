@@ -1,0 +1,4 @@
+colorama==0.4.6
+libclang==18.1.1
+openai==1.65.2
+tiktoken==0.9.0

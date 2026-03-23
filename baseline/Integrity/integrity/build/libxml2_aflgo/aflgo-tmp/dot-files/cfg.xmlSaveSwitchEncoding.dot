@@ -1,0 +1,36 @@
+digraph "CFG for 'xmlSaveSwitchEncoding' function" {
+	label="CFG for 'xmlSaveSwitchEncoding' function";
+
+	Node0x26428ae0 [shape=record,label="{xmlsave.c:647:}"];
+	Node0x26428ae0 -> Node0x26428ba0;
+	Node0x26428ae0 -> Node0x26428f10;
+	Node0x26428ba0 [shape=record,label="{xmlsave.c:652:}"];
+	Node0x26428ba0 -> Node0x26428bf0;
+	Node0x26428ba0 -> Node0x26428f10;
+	Node0x26428bf0 [shape=record,label="{xmlsave.c:655:}"];
+	Node0x26428bf0 -> Node0x26428c90;
+	Node0x26428bf0 -> Node0x26428c40;
+	Node0x26428c40 [shape=record,label="{xmlsave.c:657:}"];
+	Node0x26428c40 -> Node0x26428f10;
+	Node0x26428c90 [shape=record,label="{xmlsave.c:661:}"];
+	Node0x26428c90 -> Node0x26428ec0;
+	Node0x26428c90 -> Node0x26428ce0;
+	Node0x26428ce0 [shape=record,label="{xmlsave.c:664:}"];
+	Node0x26428ce0 -> Node0x26428d30;
+	Node0x26428ce0 -> Node0x26428e20;
+	Node0x26428d30 [shape=record,label="{xmlsave.c:666:}"];
+	Node0x26428d30 -> Node0x26428dd0;
+	Node0x26428d30 -> Node0x26428d80;
+	Node0x26428d80 [shape=record,label="{xmlsave.c:62:}"];
+	Node0x26428d80 -> Node0x26428dd0;
+	Node0x26428dd0 [shape=record,label="{xmlsave.c:63:}"];
+	Node0x26428dd0 -> Node0x26428e70;
+	Node0x26428e20 [shape=record,label="{xmlsave.c:671:}"];
+	Node0x26428e20 -> Node0x26428e70;
+	Node0x26428e70 [shape=record,label="{%25}"];
+	Node0x26428e70 -> Node0x26428f10;
+	Node0x26428e70 -> Node0x26428ec0;
+	Node0x26428ec0 [shape=record,label="{xmlsave.c:676:}"];
+	Node0x26428ec0 -> Node0x26428f10;
+	Node0x26428f10 [shape=record,label="{xmlsave.c:684:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlRelaxNGSetResourceLoader' function" {
+	label="CFG for 'xmlRelaxNGSetResourceLoader' function";
+
+	Node0x12dcbfb0 [shape=record,label="{relaxng.c:7463:}"];
+	Node0x12dcbfb0 -> Node0x12dcc050;
+	Node0x12dcbfb0 -> Node0x12dcc000;
+	Node0x12dcc000 [shape=record,label="{relaxng.c:7465:}"];
+	Node0x12dcc000 -> Node0x12dcc050;
+	Node0x12dcc050 [shape=record,label="{relaxng.c:7467:}"];
+}

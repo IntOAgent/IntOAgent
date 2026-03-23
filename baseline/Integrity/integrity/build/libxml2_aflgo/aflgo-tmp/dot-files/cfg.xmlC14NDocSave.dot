@@ -1,0 +1,17 @@
+digraph "CFG for 'xmlC14NDocSave' function" {
+	label="CFG for 'xmlC14NDocSave' function";
+
+	Node0xfcabce0 [shape=record,label="{c14n.c:2025:}"];
+	Node0xfcabce0 -> Node0xfcabd70;
+	Node0xfcabce0 -> Node0xfcabdc0;
+	Node0xfcabd70 [shape=record,label="{c14n.c:173:}"];
+	Node0xfcabd70 -> Node0xfcabeb0;
+	Node0xfcabdc0 [shape=record,label="{c14n.c:2037:}"];
+	Node0xfcabdc0 -> Node0xfcabe10;
+	Node0xfcabdc0 -> Node0xfcabe60;
+	Node0xfcabe10 [shape=record,label="{c14n.c:233:}"];
+	Node0xfcabe10 -> Node0xfcabeb0;
+	Node0xfcabe60 [shape=record,label="{c14n.c:1922:}"];
+	Node0xfcabe60 -> Node0xfcabeb0;
+	Node0xfcabeb0 [shape=record,label="{c14n.c:2058:}"];
+}

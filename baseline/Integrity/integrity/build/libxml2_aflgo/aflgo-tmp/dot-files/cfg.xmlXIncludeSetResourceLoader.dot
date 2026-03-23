@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlXIncludeSetResourceLoader' function" {
+	label="CFG for 'xmlXIncludeSetResourceLoader' function";
+
+	Node0xc477550 [shape=record,label="{xinclude.c:2011:}"];
+	Node0xc477550 -> Node0xc4775f0;
+	Node0xc477550 -> Node0xc4775a0;
+	Node0xc4775a0 [shape=record,label="{xinclude.c:2013:}"];
+	Node0xc4775a0 -> Node0xc4775f0;
+	Node0xc4775f0 [shape=record,label="{xinclude.c:2015:}"];
+}

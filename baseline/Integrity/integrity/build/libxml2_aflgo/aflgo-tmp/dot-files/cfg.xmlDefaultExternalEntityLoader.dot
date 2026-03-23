@@ -1,0 +1,26 @@
+digraph "CFG for 'xmlDefaultExternalEntityLoader' function" {
+	label="CFG for 'xmlDefaultExternalEntityLoader' function";
+
+	Node0x8d65c40 [shape=record,label="{parserInternals.c:2544:}"];
+	Node0x8d65c40 -> Node0x8d65ec0;
+	Node0x8d65c40 -> Node0x8d65c90;
+	Node0x8d65c90 [shape=record,label="{parserInternals.c:2548:}"];
+	Node0x8d65c90 -> Node0x8d65dd0;
+	Node0x8d65c90 -> Node0x8d65ce0;
+	Node0x8d65ce0 [shape=record,label="{parserInternals.c:2558:}"];
+	Node0x8d65ce0 -> Node0x8d65dd0;
+	Node0x8d65ce0 -> Node0x8d65d30;
+	Node0x8d65d30 [shape=record,label="{parserInternals.c:2559:}"];
+	Node0x8d65d30 -> Node0x8d65d80;
+	Node0x8d65d30 -> Node0x8d65dd0;
+	Node0x8d65d80 [shape=record,label="{parserInternals.c:246:}"];
+	Node0x8d65d80 -> Node0x8d65e20;
+	Node0x8d65dd0 [shape=record,label="{parserInternals.c:2562:}"];
+	Node0x8d65dd0 -> Node0x8d65e20;
+	Node0x8d65e20 [shape=record,label="{parserInternals.c:2565:}"];
+	Node0x8d65e20 -> Node0x8d65ec0;
+	Node0x8d65e20 -> Node0x8d65e70;
+	Node0x8d65e70 [shape=record,label="{parserInternals.c:2566:}"];
+	Node0x8d65e70 -> Node0x8d65ec0;
+	Node0x8d65ec0 [shape=record,label="{parserInternals.c:2568:}"];
+}

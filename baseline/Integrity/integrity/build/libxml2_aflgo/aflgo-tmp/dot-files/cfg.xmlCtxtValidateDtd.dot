@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlCtxtValidateDtd' function" {
+	label="CFG for 'xmlCtxtValidateDtd' function";
+
+	Node0x37e8f8b0 [shape=record,label="{valid.c:6107:}"];
+	Node0x37e8f8b0 -> Node0x37e8f9d0;
+	Node0x37e8f8b0 -> Node0x37e8f930;
+	Node0x37e8f930 [shape=record,label="{valid.c:6107:1}"];
+	Node0x37e8f930 -> Node0x37e8f980;
+	Node0x37e8f930 -> Node0x37e8f9d0;
+	Node0x37e8f980 [shape=record,label="{valid.c:6110:}"];
+	Node0x37e8f980 -> Node0x37e8f9d0;
+	Node0x37e8f9d0 [shape=record,label="{valid.c:6113:}"];
+}

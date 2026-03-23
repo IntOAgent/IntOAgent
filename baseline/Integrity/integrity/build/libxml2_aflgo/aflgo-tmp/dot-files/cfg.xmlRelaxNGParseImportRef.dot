@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlRelaxNGParseImportRef' function" {
+	label="CFG for 'xmlRelaxNGParseImportRef' function";
+
+	Node0x12eeb510 [shape=record,label="{relaxng.c:4479:}"];
+	Node0x12eeb510 -> Node0x12eeb5a0;
+	Node0x12eeb510 -> Node0x12eeb730;
+	Node0x12eeb5a0 [shape=record,label="{relaxng.c:4490:}"];
+	Node0x12eeb5a0 -> Node0x12eeb5f0;
+	Node0x12eeb5a0 -> Node0x12eeb6e0;
+	Node0x12eeb5f0 [shape=record,label="{relaxng.c:4492:}"];
+	Node0x12eeb5f0 -> Node0x12eeb690;
+	Node0x12eeb5f0 -> Node0x12eeb640;
+	Node0x12eeb640 [shape=record,label="{relaxng.c:4493:}"];
+	Node0x12eeb640 -> Node0x12eeb730;
+	Node0x12eeb690 [shape=record,label="{relaxng.c:4497:}"];
+	Node0x12eeb690 -> Node0x12eeb730;
+	Node0x12eeb6e0 [shape=record,label="{relaxng.c:4502:}"];
+	Node0x12eeb6e0 -> Node0x12eeb730;
+	Node0x12eeb730 [shape=record,label="{relaxng.c:4506:}"];
+}

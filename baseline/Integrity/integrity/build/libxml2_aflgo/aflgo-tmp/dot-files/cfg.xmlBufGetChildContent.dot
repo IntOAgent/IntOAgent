@@ -1,0 +1,46 @@
+digraph "CFG for 'xmlBufGetChildContent' function" {
+	label="CFG for 'xmlBufGetChildContent' function";
+
+	Node0x373032f0 [shape=record,label="{tree.c:5156:}"];
+	Node0x373032f0 -> Node0x37303830;
+	Node0x373032f0 -> Node0x373033d0;
+	Node0x373033d0 [shape=record,label="{tree.c:5159:}"];
+	Node0x373033d0 -> Node0x373036f0;
+	Node0x373033d0 -> Node0x37303420;
+	Node0x373033d0 -> Node0x373034c0;
+	Node0x37303420 [shape=record,label="{tree.c:5162:}"];
+	Node0x37303420 -> Node0x37303470;
+	Node0x37303470 [shape=record,label="{tree.c:5177:}"];
+	Node0x37303470 -> Node0x37303790;
+	Node0x373034c0 [shape=record,label="{tree.c:5127:}"];
+	Node0x373034c0 -> Node0x37303560;
+	Node0x373034c0 -> Node0x37303510;
+	Node0x37303510 [shape=record,label="{tree.c:5128:}"];
+	Node0x37303510 -> Node0x373035b0;
+	Node0x37303560 [shape=record,label="{tree.c:5131:}"];
+	Node0x37303560 -> Node0x37303470;
+	Node0x37303560 -> Node0x373035b0;
+	Node0x373035b0 [shape=record,label="{tree.c:5141:}"];
+	Node0x373035b0 -> Node0x37303600;
+	Node0x373035b0 -> Node0x37303650;
+	Node0x37303600 [shape=record,label="{tree.c:5142:}"];
+	Node0x37303600 -> Node0x37303470;
+	Node0x37303650 [shape=record,label="{tree.c:5146:}"];
+	Node0x37303650 -> Node0x373036a0;
+	Node0x37303650 -> Node0x37303470;
+	Node0x373036a0 [shape=record,label="{tree.c:5149:}"];
+	Node0x373036a0 -> Node0x37303470;
+	Node0x373036f0 [shape=record,label="{tree.c:5170:}"];
+	Node0x373036f0 -> Node0x37303470;
+	Node0x373036f0 -> Node0x37303740;
+	Node0x37303740 [shape=record,label="{tree.c:5158:}"];
+	Node0x37303740 -> Node0x37303830;
+	Node0x37303740 -> Node0x373033d0;
+	Node0x37303790 [shape=record,label="{tree.c:5177:1}"];
+	Node0x37303790 -> Node0x373037e0;
+	Node0x37303790 -> Node0x37303740;
+	Node0x373037e0 [shape=record,label="{tree.c:5178:}"];
+	Node0x373037e0 -> Node0x37303830;
+	Node0x373037e0 -> Node0x37303790;
+	Node0x37303830 [shape=record,label="{tree.c:5184:}"];
+}

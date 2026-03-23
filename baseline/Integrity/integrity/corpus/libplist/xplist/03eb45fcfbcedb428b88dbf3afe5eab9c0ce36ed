@@ -1,0 +1,33 @@
+<?xml version="0.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Time1</key>
+	<date>2010-11-12T13:14:15Z</date>
+	<key>Time�</key>
+	<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Some ASCII string</key>
+	<string>Test ASCII String</string>
+	<key>Some UTF8 strings</key>
+	<array>
+		<string>àéèçù</string>
+		<string>日本語</string>
+		<string>汉语/漢語</string>
+		<string>한국어/조선말</string>
+		<string>русский язык</string>
+		<string>ئلْعَرَب�8654.347656</real>
+	<key>Some Date</key>
+	<date>2009-02-12T22:23:00Z</date>
+	<key>Some Data</key>
+	<data>
+	MDEyMzQ1Njc4OVRFU1QwMTIzNDU2Nzg5dGVzdCbDqSInKC3DqF/Dp8OgKT0rwrAkwqMkXsKoKsK1
+	w7klIQ1Njc4OVGBcXkBdfcKkCjAx
+	MjM0NTY3ODlURVNUMDEyMzQ1Njc4OXRlc3Qmw6kiJygtw6hfw6fDoCk9K8KwJMKjJF7CqCrCtcO5
+	JSHCp~ovOy5sPz48fiN7W3xgXF5AXX3CpAowMTIzNDU2Nzg5VEVTVDAxMjM0NTY3ODl0ZXN0JsOp
+	IicoLcOoX8Onw6ApPSvCsCTCoyRewqgqw1:10:11Z</date>>
+
+</dict>
+</plist>

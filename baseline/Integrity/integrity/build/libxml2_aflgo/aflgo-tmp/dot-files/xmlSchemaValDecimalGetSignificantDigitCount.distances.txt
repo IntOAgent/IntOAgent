@@ -1,0 +1,8 @@
+xmlschemastypes.c:338,4.4444444444444446
+xmlschemastypes.c:338,4.4444444444444446
+xmlschemastypes.c:344,4.4444444444444446
+xmlschemastypes.c:338,4.4444444444444446
+xmlschemastypes.c:351,3.4285714285714288
+xmlschemastypes.c:352,3.4285714285714288
+xmlschemastypes.c:350,2.4000000000000004
+xmlschemastypes.c:356,0

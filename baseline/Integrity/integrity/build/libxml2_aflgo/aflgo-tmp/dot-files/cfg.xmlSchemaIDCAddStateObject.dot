@@ -1,0 +1,34 @@
+digraph "CFG for 'xmlSchemaIDCAddStateObject' function" {
+	label="CFG for 'xmlSchemaIDCAddStateObject' function";
+
+	Node0x2e8e2200 [shape=record,label="{xmlschemas.c:21979:}"];
+	Node0x2e8e2200 -> Node0x2e8e2ca0;
+	Node0x2e8e2200 -> Node0x2e8e2c50;
+	Node0x2e8e2c50 [shape=record,label="{xmlschemas.c:21981:}"];
+	Node0x2e8e2c50 -> Node0x2e8e2d90;
+	Node0x2e8e2ca0 [shape=record,label="{xmlschemas.c:21987:}"];
+	Node0x2e8e2ca0 -> Node0x2e8e2cf0;
+	Node0x2e8e2ca0 -> Node0x2e8e2d40;
+	Node0x2e8e2cf0 [shape=record,label="{xmlschemas.c:2006:}"];
+	Node0x2e8e2cf0 -> Node0x2e8e2fc0;
+	Node0x2e8e2d40 [shape=record,label="{xmlschemas.c:21987:1}"];
+	Node0x2e8e2d40 -> Node0x2e8e2d90;
+	Node0x2e8e2d90 [shape=record,label="{xmlschemas.c:21997:}"];
+	Node0x2e8e2d90 -> Node0x2e8e2e30;
+	Node0x2e8e2d90 -> Node0x2e8e2de0;
+	Node0x2e8e2de0 [shape=record,label="{xmlschemas.c:21998:}"];
+	Node0x2e8e2de0 -> Node0x2e8e2e30;
+	Node0x2e8e2e30 [shape=record,label="{xmlschemas.c:21999:}"];
+	Node0x2e8e2e30 -> Node0x2e8e2ed0;
+	Node0x2e8e2e30 -> Node0x2e8e2e80;
+	Node0x2e8e2e80 [shape=record,label="{xmlschemas.c:22005:}"];
+	Node0x2e8e2e80 -> Node0x2e8e2ed0;
+	Node0x2e8e2ed0 [shape=record,label="{xmlschemas.c:22011:}"];
+	Node0x2e8e2ed0 -> Node0x2e8e2f20;
+	Node0x2e8e2ed0 -> Node0x2e8e2f70;
+	Node0x2e8e2f20 [shape=record,label="{xmlschemas.c:22013:}"];
+	Node0x2e8e2f20 -> Node0x2e8e2fc0;
+	Node0x2e8e2f70 [shape=record,label="{xmlschemas.c:22017:}"];
+	Node0x2e8e2f70 -> Node0x2e8e2fc0;
+	Node0x2e8e2fc0 [shape=record,label="{xmlschemas.c:22024:}"];
+}

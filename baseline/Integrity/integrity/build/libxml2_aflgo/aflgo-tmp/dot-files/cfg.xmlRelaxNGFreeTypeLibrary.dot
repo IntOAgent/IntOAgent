@@ -1,0 +1,15 @@
+digraph "CFG for 'xmlRelaxNGFreeTypeLibrary' function" {
+	label="CFG for 'xmlRelaxNGFreeTypeLibrary' function";
+
+	Node0x12d07150 [shape=record,label="{relaxng.c:2623:}"];
+	Node0x12d07150 -> Node0x12d072c0;
+	Node0x12d07150 -> Node0x12d071d0;
+	Node0x12d071d0 [shape=record,label="{relaxng.c:2625:}"];
+	Node0x12d071d0 -> Node0x12d07270;
+	Node0x12d071d0 -> Node0x12d07220;
+	Node0x12d07220 [shape=record,label="{relaxng.c:2626:}"];
+	Node0x12d07220 -> Node0x12d07270;
+	Node0x12d07270 [shape=record,label="{relaxng.c:2627:}"];
+	Node0x12d07270 -> Node0x12d072c0;
+	Node0x12d072c0 [shape=record,label="{relaxng.c:2628:}"];
+}

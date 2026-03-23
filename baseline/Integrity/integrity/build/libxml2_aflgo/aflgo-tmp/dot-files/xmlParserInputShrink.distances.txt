@@ -1,0 +1,9 @@
+parserInternals.c:783,8.6062011011301074
+parserInternals.c:784,7.4933770657247383
+parserInternals.c:785,6.3422818791946307
+parserInternals.c:786,5.1289009497964733
+parserInternals.c:787,3.8031995170540296
+parserInternals.c:789,0
+parserInternals.c:791,3.75
+parserInternals.c:792,0
+parserInternals.c:794,0

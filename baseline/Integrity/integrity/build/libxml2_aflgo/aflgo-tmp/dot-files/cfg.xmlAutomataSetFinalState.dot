@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlAutomataSetFinalState' function" {
+	label="CFG for 'xmlAutomataSetFinalState' function";
+
+	Node0x1394dfd0 [shape=record,label="{xmlregexp.c:5672:}"];
+	Node0x1394dfd0 -> Node0x1394e070;
+	Node0x1394dfd0 -> Node0x1394e020;
+	Node0x1394e020 [shape=record,label="{xmlregexp.c:5674:}"];
+	Node0x1394e020 -> Node0x1394e070;
+	Node0x1394e070 [shape=record,label="{xmlregexp.c:5676:}"];
+}

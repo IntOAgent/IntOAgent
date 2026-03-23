@@ -1,0 +1,46 @@
+digraph "CFG for 'xmlResolveFromCatalog' function" {
+	label="CFG for 'xmlResolveFromCatalog' function";
+
+	Node0x8e18790 [shape=record,label="{parserInternals.c:2292:}"];
+	Node0x8e18790 -> Node0x8e18d20;
+	Node0x8e18790 -> Node0x8e18870;
+	Node0x8e18870 [shape=record,label="{parserInternals.c:2299:}"];
+	Node0x8e18870 -> Node0x8e188c0;
+	Node0x8e18870 -> Node0x8e18d20;
+	Node0x8e188c0 [shape=record,label="{parserInternals.c:2308:}"];
+	Node0x8e188c0 -> Node0x8e18910;
+	Node0x8e188c0 -> Node0x8e18d20;
+	Node0x8e18910 [shape=record,label="{parserInternals.c:2312:}"];
+	Node0x8e18910 -> Node0x8e18960;
+	Node0x8e18910 -> Node0x8e189b0;
+	Node0x8e18960 [shape=record,label="{parserInternals.c:2320:}"];
+	Node0x8e18960 -> Node0x8e189b0;
+	Node0x8e189b0 [shape=record,label="{parserInternals.c:2327:}"];
+	Node0x8e189b0 -> Node0x8e18a00;
+	Node0x8e189b0 -> Node0x8e18a50;
+	Node0x8e18a00 [shape=record,label="{parserInternals.c:2328:}"];
+	Node0x8e18a00 -> Node0x8e18a50;
+	Node0x8e18a50 [shape=record,label="{parserInternals.c:2339:}"];
+	Node0x8e18a50 -> Node0x8e18aa0;
+	Node0x8e18a50 -> Node0x8e18be0;
+	Node0x8e18aa0 [shape=record,label="{parserInternals.c:2340:}"];
+	Node0x8e18aa0 -> Node0x8e18af0;
+	Node0x8e18aa0 -> Node0x8e18b40;
+	Node0x8e18af0 [shape=record,label="{parserInternals.c:2341:}"];
+	Node0x8e18af0 -> Node0x8e18b40;
+	Node0x8e18b40 [shape=record,label="{parserInternals.c:2344:}"];
+	Node0x8e18b40 -> Node0x8e18b90;
+	Node0x8e18b40 -> Node0x8e18be0;
+	Node0x8e18b90 [shape=record,label="{parserInternals.c:2345:}"];
+	Node0x8e18b90 -> Node0x8e18be0;
+	Node0x8e18be0 [shape=record,label="{parserInternals.c:2349:}"];
+	Node0x8e18be0 -> Node0x8e18c30;
+	Node0x8e18be0 -> Node0x8e18c80;
+	Node0x8e18c30 [shape=record,label="{parserInternals.c:2351:}"];
+	Node0x8e18c30 -> Node0x8e18cd0;
+	Node0x8e18c80 [shape=record,label="{parserInternals.c:2353:}"];
+	Node0x8e18c80 -> Node0x8e18cd0;
+	Node0x8e18cd0 [shape=record,label="{parserInternals.c:2356:}"];
+	Node0x8e18cd0 -> Node0x8e18d20;
+	Node0x8e18d20 [shape=record,label="{parserInternals.c:2359:}"];
+}

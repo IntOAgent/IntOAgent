@@ -1,0 +1,24 @@
+digraph "CFG for 'htmlCreateMemoryParserCtxt' function" {
+	label="CFG for 'htmlCreateMemoryParserCtxt' function";
+
+	Node0x3998c00 [shape=record,label="{HTMLparser.c:4682:}"];
+	Node0x3998c00 -> Node0x3998e30;
+	Node0x3998c00 -> Node0x3998c50;
+	Node0x3998c50 [shape=record,label="{HTMLparser.c:4685:}"];
+	Node0x3998c50 -> Node0x3998e30;
+	Node0x3998c50 -> Node0x3998ca0;
+	Node0x3998ca0 [shape=record,label="{HTMLparser.c:4605:}"];
+	Node0x3998ca0 -> Node0x3998e30;
+	Node0x3998ca0 -> Node0x3998cf0;
+	Node0x3998cf0 [shape=record,label="{HTMLparser.c:4655:}"];
+	Node0x3998cf0 -> Node0x3998de0;
+	Node0x3998cf0 -> Node0x3998d40;
+	Node0x3998d40 [shape=record,label="{HTMLparser.c:4661:}"];
+	Node0x3998d40 -> Node0x3998d90;
+	Node0x3998d40 -> Node0x3998e30;
+	Node0x3998d90 [shape=record,label="{HTMLparser.c:4662:}"];
+	Node0x3998d90 -> Node0x3998de0;
+	Node0x3998de0 [shape=record,label="{HTMLparser.c:4686:}"];
+	Node0x3998de0 -> Node0x3998e30;
+	Node0x3998e30 [shape=record,label="{HTMLparser.c:4686:1}"];
+}

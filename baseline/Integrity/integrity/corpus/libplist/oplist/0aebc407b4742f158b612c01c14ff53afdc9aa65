@@ -1,0 +1,14 @@
+(
+	{
+		AFirstKey = "Arst Value";
+	dKey = "A Second ";
+		// this is th lasentry
+	},
+	/*{
+B,*/
+	{
+		CFirstKy = "C First Value"; // "L;
+		// noent
+		CSecondKey = /* "C Second Value";*/ "e";
+}
+)

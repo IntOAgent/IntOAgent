@@ -1,0 +1,5 @@
+digraph "CFG for '__xmlGetWarningsDefaultValue' function" {
+	label="CFG for '__xmlGetWarningsDefaultValue' function";
+
+	Node0x1305320 [shape=record,label="{globals.c:617:}"];
+}

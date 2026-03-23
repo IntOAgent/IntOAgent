@@ -1,0 +1,27 @@
+digraph "CFG for 'xmlSchemaTypeFixup' function" {
+	label="CFG for 'xmlSchemaTypeFixup' function";
+
+	Node0x2e5110e0 [shape=record,label="{xmlschemas.c:18201:}"];
+	Node0x2e5110e0 -> Node0x2e511360;
+	Node0x2e5110e0 -> Node0x2e511130;
+	Node0x2e511130 [shape=record,label="{xmlschemas.c:18203:}"];
+	Node0x2e511130 -> Node0x2e5111d0;
+	Node0x2e511130 -> Node0x2e511180;
+	Node0x2e511180 [shape=record,label="{xmlschemas.c:2322:}"];
+	Node0x2e511180 -> Node0x2e511360;
+	Node0x2e5111d0 [shape=record,label="{xmlschemas.c:18208:}"];
+	Node0x2e5111d0 -> Node0x2e511360;
+	Node0x2e5111d0 -> Node0x2e511220;
+	Node0x2e511220 [shape=record,label="{xmlschemas.c:18208:1}"];
+	Node0x2e511220 -> Node0x2e511270;
+	Node0x2e511220 -> Node0x2e511360;
+	Node0x2e511270 [shape=record,label="{xmlschemas.c:18210:}"];
+	Node0x2e511270 -> Node0x2e511360;
+	Node0x2e511270 -> Node0x2e5112c0;
+	Node0x2e511270 -> Node0x2e511310;
+	Node0x2e5112c0 [shape=record,label="{xmlschemas.c:18211:}"];
+	Node0x2e5112c0 -> Node0x2e511360;
+	Node0x2e511310 [shape=record,label="{xmlschemas.c:18213:}"];
+	Node0x2e511310 -> Node0x2e511360;
+	Node0x2e511360 [shape=record,label="{xmlschemas.c:18215:}"];
+}

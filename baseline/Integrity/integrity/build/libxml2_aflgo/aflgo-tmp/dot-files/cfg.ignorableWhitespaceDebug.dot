@@ -1,0 +1,40 @@
+digraph "CFG for 'ignorableWhitespaceDebug' function" {
+	label="CFG for 'ignorableWhitespaceDebug' function";
+
+	Node0x3d18b940 [shape=record,label="{xmllint.c:945:}"];
+	Node0x3d18b940 -> Node0x3d18be00;
+	Node0x3d18b940 -> Node0x3d18be50;
+	Node0x3d18be00 [shape=record,label="{xmllint.c:948:}"];
+	Node0x3d18be00 -> Node0x3d18be50;
+	Node0x3d18be50 [shape=record,label="{xmllint.c:948:1}"];
+	Node0x3d18be50 -> Node0x3d18bea0;
+	Node0x3d18be50 -> Node0x3d18c210;
+	Node0x3d18bea0 [shape=record,label="{xmllint.c:951:}"];
+	Node0x3d18bea0 -> Node0x3d18bef0;
+	Node0x3d18bea0 -> Node0x3d18c1c0;
+	Node0x3d18bef0 [shape=record,label="{xmllint.c:951:2}"];
+	Node0x3d18bef0 -> Node0x3d18bf40;
+	Node0x3d18bef0 -> Node0x3d18bf90;
+	Node0x3d18bf40 [shape=record,label="{xmllint.c:951:3}"];
+	Node0x3d18bf40 -> Node0x3d18bf90;
+	Node0x3d18bf90 [shape=record,label="{xmllint.c:951:4}"];
+	Node0x3d18bf90 -> Node0x3d18bfe0;
+	Node0x3d18bf90 -> Node0x3d18c030;
+	Node0x3d18bfe0 [shape=record,label="{xmllint.c:951:5}"];
+	Node0x3d18bfe0 -> Node0x3d18c030;
+	Node0x3d18c030 [shape=record,label="{xmllint.c:951:6}"];
+	Node0x3d18c030 -> Node0x3d18c080;
+	Node0x3d18c030 -> Node0x3d18c0d0;
+	Node0x3d18c080 [shape=record,label="{xmllint.c:951:7}"];
+	Node0x3d18c080 -> Node0x3d18c0d0;
+	Node0x3d18c0d0 [shape=record,label="{xmllint.c:951:8}"];
+	Node0x3d18c0d0 -> Node0x3d18c120;
+	Node0x3d18c0d0 -> Node0x3d18c170;
+	Node0x3d18c120 [shape=record,label="{xmllint.c:951:9}"];
+	Node0x3d18c120 -> Node0x3d18c170;
+	Node0x3d18c170 [shape=record,label="{xmllint.c:951:10}"];
+	Node0x3d18c170 -> Node0x3d18c1c0;
+	Node0x3d18c1c0 [shape=record,label="{xmllint.c:953:}"];
+	Node0x3d18c1c0 -> Node0x3d18c210;
+	Node0x3d18c210 [shape=record,label="{xmllint.c:955:}"];
+}

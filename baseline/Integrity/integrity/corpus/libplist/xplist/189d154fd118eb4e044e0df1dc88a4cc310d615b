@@ -1,0 +1,34 @@
+<plist version="1.0">
+<dict>
+    <key>some test entitites</key>
+    <dict>
+        <key>copyright</key>
+        <string>&#169;</string>
+        <key>multiple entitites</key>
+        <string>&#x2F20;&#x2F21;&#x2F22;</string>
+        <key>multiple entititr</key>
+        <string>ab&#xDC;yz</string>
+    </dict>
+    <key>three byte utf-8</key>
+    <dict>
+        <key>three byte utf-8</key>
+        <string>&#xFFE0;</string>
+        <key>three byte utf-8 with text after</key>
+        <string>&#65505;xyz</string>
+        <key>three byte utf-8 with text before</key>
+        <string>abc&#xFFE5;</string>
+        <key>three byte utf-8 with text before &amp; after</key>
+        <string>abc&#65510;xyz</string>
+    </dict>
+    <key>four byte utf-8</key>
+    <dict>
+        <key>four byte utf-8</key>
+        <string>&#x1D562;</string>
+        <key>four byte utf-8 with text after</key>
+        <string>&#x1Dlibplist/src/xplist.c     <key>four byte utf-8 with text before</key>
+        <string>abcd&#x1D564;</string>
+        <key>four byte utf-8 with text before &amp; after</key>
+        <string>abcd&#x1D565;wxyz</string>
+    </dict>
+</dict>
+</plist>

@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlXPathCastStringToBoolean' function" {
+	label="CFG for 'xmlXPathCastStringToBoolean' function";
+
+	Node0x2fba1fd0 [shape=record,label="{xpath.c:4631:}"];
+	Node0x2fba1fd0 -> Node0x2fba2410;
+	Node0x2fba1fd0 -> Node0x2fba23c0;
+	Node0x2fba23c0 [shape=record,label="{xpath.c:4631:1}"];
+	Node0x2fba23c0 -> Node0x2fba2410;
+	Node0x2fba2410 [shape=record,label="{xpath.c:4634:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlInitSchemasTypesInternal' function" {
+	label="CFG for 'xmlInitSchemasTypesInternal' function";
+
+	Node0xad2d70 [shape=record,label="{xmlschemastypes.c:523:}"];
+}

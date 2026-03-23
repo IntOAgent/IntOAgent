@@ -1,0 +1,34 @@
+digraph "CFG for 'htmlTagLookup' function" {
+	label="CFG for 'htmlTagLookup' function";
+
+	Node0x37cb420 [shape=record,label="{HTMLparser.c:1266:}"];
+	Node0x37cb420 -> Node0x37cb800;
+	Node0x37cb420 -> Node0x37cb4e0;
+	Node0x37cb4e0 [shape=record,label="{%2}"];
+	Node0x37cb4e0 -> Node0x37cb530;
+	Node0x37cb4e0 -> Node0x37cb580;
+	Node0x37cb530 [shape=record,label="{%6}"];
+	Node0x37cb530 -> Node0x37cb580;
+	Node0x37cb580 [shape=record,label="{%9}"];
+	Node0x37cb580 -> Node0x37cb5d0;
+	Node0x37cb580 -> Node0x37cb620;
+	Node0x37cb5d0 [shape=record,label="{%10}"];
+	Node0x37cb5d0 -> Node0x37cb620;
+	Node0x37cb620 [shape=record,label="{HTMLparser.c:1253:}"];
+	Node0x37cb620 -> Node0x37cb7b0;
+	Node0x37cb620 -> Node0x37cb670;
+	Node0x37cb670 [shape=record,label="{%19}"];
+	Node0x37cb670 -> Node0x37cb800;
+	Node0x37cb670 -> Node0x37cb6c0;
+	Node0x37cb6c0 [shape=record,label="{%21}"];
+	Node0x37cb6c0 -> Node0x37cb710;
+	Node0x37cb6c0 -> Node0x37cb760;
+	Node0x37cb710 [shape=record,label="{%23}"];
+	Node0x37cb710 -> Node0x37cb760;
+	Node0x37cb760 [shape=record,label="{%26}"];
+	Node0x37cb760 -> Node0x37cb7b0;
+	Node0x37cb7b0 [shape=record,label="{%27}"];
+	Node0x37cb7b0 -> Node0x37cb4e0;
+	Node0x37cb7b0 -> Node0x37cb800;
+	Node0x37cb800 [shape=record,label="{HTMLparser.c:1272:}"];
+}

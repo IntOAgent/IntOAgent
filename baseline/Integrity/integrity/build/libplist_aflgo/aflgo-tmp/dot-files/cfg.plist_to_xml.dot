@@ -1,0 +1,38 @@
+digraph "CFG for 'plist_to_xml' function" {
+	label="CFG for 'plist_to_xml' function";
+
+	Node0xb445110 [shape=record,label="{xplist.c:534:}"];
+	Node0xb445110 -> Node0xb4451e0;
+	Node0xb445110 -> Node0xb4455a0;
+	Node0xb4451e0 [shape=record,label="{xplist.c:541:}"];
+	Node0xb4451e0 -> Node0xb4455a0;
+	Node0xb4451e0 -> Node0xb445230;
+	Node0xb445230 [shape=record,label="{xplist.c:545:}"];
+	Node0xb445230 -> Node0xb445280;
+	Node0xb445230 -> Node0xb4452d0;
+	Node0xb445280 [shape=record,label="{%16}"];
+	Node0xb445280 -> Node0xb4452d0;
+	Node0xb4452d0 [shape=record,label="{xplist.c:545:1}"];
+	Node0xb4452d0 -> Node0xb445550;
+	Node0xb4452d0 -> Node0xb445320;
+	Node0xb445320 [shape=record,label="{xplist.c:553:}"];
+	Node0xb445320 -> Node0xb445370;
+	Node0xb445320 -> Node0xb4453c0;
+	Node0xb445370 [shape=record,label="{xplist.c:557:}"];
+	Node0xb445370 -> Node0xb445550;
+	Node0xb4453c0 [shape=record,label="{xplist.c:563:}"];
+	Node0xb4453c0 -> Node0xb445410;
+	Node0xb4453c0 -> Node0xb445460;
+	Node0xb445410 [shape=record,label="{xplist.c:566:}"];
+	Node0xb445410 -> Node0xb445460;
+	Node0xb445460 [shape=record,label="{xplist.c:566:2}"];
+	Node0xb445460 -> Node0xb4454b0;
+	Node0xb445460 -> Node0xb445500;
+	Node0xb4454b0 [shape=record,label="{xplist.c:566:3}"];
+	Node0xb4454b0 -> Node0xb445500;
+	Node0xb445500 [shape=record,label="{xplist.c:566:4}"];
+	Node0xb445500 -> Node0xb445550;
+	Node0xb445550 [shape=record,label="{xplist.c:572:}"];
+	Node0xb445550 -> Node0xb4455a0;
+	Node0xb4455a0 [shape=record,label="{xplist.c:572:5}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'plist_print' function" {
+	label="CFG for 'plist_print' function";
+
+	Node0x216ab540 [shape=record,label="{plist.c:2006:}"];
+	Node0x216ab540 -> Node0x216ab590;
+	Node0x216ab540 -> Node0x216ab5e0;
+	Node0x216ab590 [shape=record,label="{plist.c:1968:}"];
+	Node0x216ab590 -> Node0x216ab5e0;
+	Node0x216ab5e0 [shape=record,label="{plist.c:2007:}"];
+}

@@ -1,0 +1,25 @@
+digraph "CFG for 'xmlDictOwns' function" {
+	label="CFG for 'xmlDictOwns' function";
+
+	Node0x15ed21c0 [shape=record,label="{dict.c:363:}"];
+	Node0x15ed21c0 -> Node0x15ed23f0;
+	Node0x15ed21c0 -> Node0x15ed2210;
+	Node0x15ed2210 [shape=record,label="{dict.c:365:}"];
+	Node0x15ed2210 -> Node0x15ed2350;
+	Node0x15ed2210 -> Node0x15ed2260;
+	Node0x15ed2260 [shape=record,label="{dict.c:367:}"];
+	Node0x15ed2260 -> Node0x15ed2300;
+	Node0x15ed2260 -> Node0x15ed22b0;
+	Node0x15ed22b0 [shape=record,label="{dict.c:367:1}"];
+	Node0x15ed22b0 -> Node0x15ed2300;
+	Node0x15ed22b0 -> Node0x15ed23f0;
+	Node0x15ed2300 [shape=record,label="{dict.c:369:}"];
+	Node0x15ed2300 -> Node0x15ed2350;
+	Node0x15ed2300 -> Node0x15ed2260;
+	Node0x15ed2350 [shape=record,label="{dict.c:371:}"];
+	Node0x15ed2350 -> Node0x15ed23f0;
+	Node0x15ed2350 -> Node0x15ed23a0;
+	Node0x15ed23a0 [shape=record,label="{dict.c:372:}"];
+	Node0x15ed23a0 -> Node0x15ed23f0;
+	Node0x15ed23f0 [shape=record,label="{dict.c:374:}"];
+}

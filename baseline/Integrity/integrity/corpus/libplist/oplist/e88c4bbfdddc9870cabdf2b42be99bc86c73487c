@@ -1,0 +1,15 @@
+(
+	{
+		AFirstKey = "A First Value";
+		ASecondKey = "A Second Value";
+		// this is the last entry
+	},
+	/*{
+		BFirstKondKey = "B Second Value";
+	},*/
+	{
+		CFirstKey = "C First Value"; // "C First Unused Value";
+		// now here is mment
+		CSecondKey = /* "C Second Value";*/ "C Second Corrected Value";
+	}
+)

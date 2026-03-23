@@ -1,0 +1,24 @@
+digraph "CFG for 'xmlTextReaderNextSibling' function" {
+	label="CFG for 'xmlTextReaderNextSibling' function";
+
+	Node0x22a54620 [shape=record,label="{xmlreader.c:1952:}"];
+	Node0x22a54620 -> Node0x22a54850;
+	Node0x22a54620 -> Node0x22a54670;
+	Node0x22a54670 [shape=record,label="{xmlreader.c:1954:}"];
+	Node0x22a54670 -> Node0x22a54850;
+	Node0x22a54670 -> Node0x22a546c0;
+	Node0x22a546c0 [shape=record,label="{xmlreader.c:1959:}"];
+	Node0x22a546c0 -> Node0x22a54850;
+	Node0x22a546c0 -> Node0x22a54710;
+	Node0x22a54710 [shape=record,label="{xmlreader.c:1962:}"];
+	Node0x22a54710 -> Node0x22a54760;
+	Node0x22a54710 -> Node0x22a547b0;
+	Node0x22a54760 [shape=record,label="{xmlreader.c:1963:}"];
+	Node0x22a54760 -> Node0x22a54850;
+	Node0x22a547b0 [shape=record,label="{xmlreader.c:1965:}"];
+	Node0x22a547b0 -> Node0x22a54850;
+	Node0x22a547b0 -> Node0x22a54800;
+	Node0x22a54800 [shape=record,label="{xmlreader.c:1966:}"];
+	Node0x22a54800 -> Node0x22a54850;
+	Node0x22a54850 [shape=record,label="{xmlreader.c:1972:}"];
+}

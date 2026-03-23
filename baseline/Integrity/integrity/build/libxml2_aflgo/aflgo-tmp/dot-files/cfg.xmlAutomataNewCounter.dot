@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlAutomataNewCounter' function" {
+	label="CFG for 'xmlAutomataNewCounter' function";
+
+	Node0x13ab4df0 [shape=record,label="{xmlregexp.c:6249:}"];
+	Node0x13ab4df0 -> Node0x13ab99e0;
+	Node0x13ab4df0 -> Node0x13ab9910;
+	Node0x13ab9910 [shape=record,label="{xmlregexp.c:6252:}"];
+	Node0x13ab9910 -> Node0x13ab99e0;
+	Node0x13ab9910 -> Node0x13ab9990;
+	Node0x13ab9990 [shape=record,label="{xmlregexp.c:6255:}"];
+	Node0x13ab9990 -> Node0x13ab99e0;
+	Node0x13ab99e0 [shape=record,label="{xmlregexp.c:6258:}"];
+}

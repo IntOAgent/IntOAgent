@@ -1,0 +1,16 @@
+digraph "CFG for 'hasInternalSubsetSplit' function" {
+	label="CFG for 'hasInternalSubsetSplit' function";
+
+	Node0x2de9fc30 [shape=record,label="{xmlschemas.c:27807:}"];
+	Node0x2de9fc30 -> Node0x2de9fd70;
+	Node0x2de9fc30 -> Node0x2de9fc80;
+	Node0x2de9fc80 [shape=record,label="{xmlschemas.c:27807:1}"];
+	Node0x2de9fc80 -> Node0x2de9fd70;
+	Node0x2de9fc80 -> Node0x2de9fcd0;
+	Node0x2de9fcd0 [shape=record,label="{xmlschemas.c:27808:}"];
+	Node0x2de9fcd0 -> Node0x2de9fd70;
+	Node0x2de9fcd0 -> Node0x2de9fd20;
+	Node0x2de9fd20 [shape=record,label="{xmlschemas.c:27809:}"];
+	Node0x2de9fd20 -> Node0x2de9fd70;
+	Node0x2de9fd70 [shape=record,label="{xmlschemas.c:27811:}"];
+}

@@ -1,0 +1,32 @@
+digraph "CFG for 'htmlParseDoctypeLiteral' function" {
+	label="CFG for 'htmlParseDoctypeLiteral' function";
+
+	Node0x3a068b0 [shape=record,label="{HTMLparser.c:3429:}"];
+	Node0x3a068b0 -> Node0x3a070a0;
+	Node0x3a068b0 -> Node0x3a06dd0;
+	Node0x3a068b0 -> Node0x3a06ec0;
+	Node0x3a06dd0 [shape=record,label="{HTMLparser.c:3434:}"];
+	Node0x3a06dd0 -> Node0x3a06e20;
+	Node0x3a06dd0 -> Node0x3a06e70;
+	Node0x3a06e20 [shape=record,label="{HTMLparser.c:3434:1}"];
+	Node0x3a06e20 -> Node0x3a06e70;
+	Node0x3a06e70 [shape=record,label="{HTMLparser.c:3434:2}"];
+	Node0x3a06e70 -> Node0x3a06fb0;
+	Node0x3a06e70 -> Node0x3a070a0;
+	Node0x3a06ec0 [shape=record,label="{HTMLparser.c:3439:}"];
+	Node0x3a06ec0 -> Node0x3a06f10;
+	Node0x3a06ec0 -> Node0x3a06f60;
+	Node0x3a06f10 [shape=record,label="{HTMLparser.c:3439:3}"];
+	Node0x3a06f10 -> Node0x3a06f60;
+	Node0x3a06f60 [shape=record,label="{HTMLparser.c:3439:4}"];
+	Node0x3a06f60 -> Node0x3a06fb0;
+	Node0x3a06f60 -> Node0x3a070a0;
+	Node0x3a06fb0 [shape=record,label="{%35}"];
+	Node0x3a06fb0 -> Node0x3a07000;
+	Node0x3a06fb0 -> Node0x3a07050;
+	Node0x3a07000 [shape=record,label="{%44}"];
+	Node0x3a07000 -> Node0x3a07050;
+	Node0x3a07050 [shape=record,label="{HTMLparser.c:3448:}"];
+	Node0x3a07050 -> Node0x3a070a0;
+	Node0x3a070a0 [shape=record,label="{HTMLparser.c:3448:5}"];
+}

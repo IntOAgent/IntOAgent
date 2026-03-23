@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtSetResourceLoader' function" {
+	label="CFG for 'xmlCtxtSetResourceLoader' function";
+
+	Node0x8d69690 [shape=record,label="{parserInternals.c:2646:}"];
+	Node0x8d69690 -> Node0x8d69980;
+	Node0x8d69690 -> Node0x8d69930;
+	Node0x8d69930 [shape=record,label="{parserInternals.c:2649:}"];
+	Node0x8d69930 -> Node0x8d69980;
+	Node0x8d69980 [shape=record,label="{parserInternals.c:2651:}"];
+}

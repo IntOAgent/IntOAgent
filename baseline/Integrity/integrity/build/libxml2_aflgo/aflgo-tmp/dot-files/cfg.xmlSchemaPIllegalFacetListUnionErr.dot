@@ -1,0 +1,25 @@
+digraph "CFG for 'xmlSchemaPIllegalFacetListUnionErr' function" {
+	label="CFG for 'xmlSchemaPIllegalFacetListUnionErr' function";
+
+	Node0x2e56ad90 [shape=record,label="{xmlschemas.c:3067:}"];
+	Node0x2e56ad90 -> Node0x2e56ade0;
+	Node0x2e56ad90 -> Node0x2e56ae30;
+	Node0x2e56ade0 [shape=record,label="{xmlschemas.c:21071:}"];
+	Node0x2e56ade0 -> Node0x2e56ae30;
+	Node0x2e56ae30 [shape=record,label="{xmlschemas.c:21071:1}"];
+	Node0x2e56ae30 -> Node0x2e56ae80;
+	Node0x2e56ae30 -> Node0x2e56aed0;
+	Node0x2e56ae80 [shape=record,label="{xmlschemas.c:21071:2}"];
+	Node0x2e56ae80 -> Node0x2e56aed0;
+	Node0x2e56aed0 [shape=record,label="{xmlschemas.c:21071:3}"];
+	Node0x2e56aed0 -> Node0x2e56af20;
+	Node0x2e56aed0 -> Node0x2e56af70;
+	Node0x2e56af20 [shape=record,label="{xmlschemas.c:21071:4}"];
+	Node0x2e56af20 -> Node0x2e56af70;
+	Node0x2e56af70 [shape=record,label="{xmlschemas.c:1925:}"];
+	Node0x2e56af70 -> Node0x2e56b010;
+	Node0x2e56af70 -> Node0x2e56afc0;
+	Node0x2e56afc0 [shape=record,label="{xmlschemas.c:3074:}"];
+	Node0x2e56afc0 -> Node0x2e56b010;
+	Node0x2e56b010 [shape=record,label="{xmlschemas.c:3075:}"];
+}

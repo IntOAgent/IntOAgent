@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlSchemaFreeTypeEntry' function" {
+	label="CFG for 'xmlSchemaFreeTypeEntry' function";
+
+	Node0xc7e850 [shape=record,label="{xmlschemastypes.c:477:}"];
+}

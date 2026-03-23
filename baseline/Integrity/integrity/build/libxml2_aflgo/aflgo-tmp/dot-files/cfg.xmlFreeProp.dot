@@ -1,0 +1,47 @@
+digraph "CFG for 'xmlFreeProp' function" {
+	label="CFG for 'xmlFreeProp' function";
+
+	Node0x37180e40 [shape=record,label="{tree.c:1686:}"];
+	Node0x37180e40 -> Node0x371813d0;
+	Node0x37180e40 -> Node0x37180f20;
+	Node0x37180f20 [shape=record,label="{tree.c:1688:}"];
+	Node0x37180f20 -> Node0x37180fc0;
+	Node0x37180f20 -> Node0x37180f70;
+	Node0x37180f70 [shape=record,label="{tree.c:1688:1}"];
+	Node0x37180f70 -> Node0x37180fc0;
+	Node0x37180fc0 [shape=record,label="{tree.c:1690:}"];
+	Node0x37180fc0 -> Node0x371810b0;
+	Node0x37180fc0 -> Node0x37181010;
+	Node0x37181010 [shape=record,label="{tree.c:1690:2}"];
+	Node0x37181010 -> Node0x371810b0;
+	Node0x37181010 -> Node0x37181060;
+	Node0x37181060 [shape=record,label="{tree.c:1691:}"];
+	Node0x37181060 -> Node0x371810b0;
+	Node0x371810b0 [shape=record,label="{tree.c:1694:}"];
+	Node0x371810b0 -> Node0x371811a0;
+	Node0x371810b0 -> Node0x37181100;
+	Node0x37181100 [shape=record,label="{tree.c:1694:3}"];
+	Node0x37181100 -> Node0x371811a0;
+	Node0x37181100 -> Node0x37181150;
+	Node0x37181150 [shape=record,label="{tree.c:1695:}"];
+	Node0x37181150 -> Node0x371811a0;
+	Node0x371811a0 [shape=record,label="{tree.c:1697:}"];
+	Node0x371811a0 -> Node0x37181240;
+	Node0x371811a0 -> Node0x371811f0;
+	Node0x371811f0 [shape=record,label="{tree.c:1697:4}"];
+	Node0x371811f0 -> Node0x37181240;
+	Node0x37181240 [shape=record,label="{tree.c:1698:}"];
+	Node0x37181240 -> Node0x37181380;
+	Node0x37181240 -> Node0x37181290;
+	Node0x37181290 [shape=record,label="{tree.c:1698:5}"];
+	Node0x37181290 -> Node0x37181330;
+	Node0x37181290 -> Node0x371812e0;
+	Node0x371812e0 [shape=record,label="{tree.c:1698:6}"];
+	Node0x371812e0 -> Node0x37181330;
+	Node0x371812e0 -> Node0x37181380;
+	Node0x37181330 [shape=record,label="{tree.c:1698:7}"];
+	Node0x37181330 -> Node0x37181380;
+	Node0x37181380 [shape=record,label="{tree.c:1699:}"];
+	Node0x37181380 -> Node0x371813d0;
+	Node0x371813d0 [shape=record,label="{tree.c:1700:}"];
+}

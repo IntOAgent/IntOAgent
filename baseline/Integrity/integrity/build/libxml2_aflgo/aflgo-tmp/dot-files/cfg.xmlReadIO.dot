@@ -1,0 +1,22 @@
+digraph "CFG for 'xmlReadIO' function" {
+	label="CFG for 'xmlReadIO' function";
+
+	Node0x271762d0 [shape=record,label="{parser.c:13532:}"];
+	Node0x271762d0 -> Node0x27176500;
+	Node0x271762d0 -> Node0x27176320;
+	Node0x27176320 [shape=record,label="{parser.c:13270:}"];
+	Node0x27176320 -> Node0x271763c0;
+	Node0x27176320 -> Node0x27176370;
+	Node0x27176370 [shape=record,label="{parser.c:13271:}"];
+	Node0x27176370 -> Node0x27176410;
+	Node0x271763c0 [shape=record,label="{parser.c:13171:}"];
+	Node0x271763c0 -> Node0x27176410;
+	Node0x27176410 [shape=record,label="{parser.c:13538:}"];
+	Node0x27176410 -> Node0x271764b0;
+	Node0x27176410 -> Node0x27176460;
+	Node0x27176460 [shape=record,label="{parser.c:13542:}"];
+	Node0x27176460 -> Node0x271764b0;
+	Node0x271764b0 [shape=record,label="{parser.c:13544:}"];
+	Node0x271764b0 -> Node0x27176500;
+	Node0x27176500 [shape=record,label="{parser.c:13546:}"];
+}

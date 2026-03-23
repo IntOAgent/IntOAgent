@@ -1,0 +1,29 @@
+digraph "CFG for 'plist_dict_remove_item' function" {
+	label="CFG for 'plist_dict_remove_item' function";
+
+	Node0x215d1df0 [shape=record,label="{plist.c:950:}"];
+	Node0x215d1df0 -> Node0x215d2120;
+	Node0x215d1df0 -> Node0x215d1ea0;
+	Node0x215d1ea0 [shape=record,label="{plist.c:356:}"];
+	Node0x215d1ea0 -> Node0x215d2120;
+	Node0x215d1ea0 -> Node0x215d1ef0;
+	Node0x215d1ef0 [shape=record,label="{plist.c:1265:}"];
+	Node0x215d1ef0 -> Node0x215d1f40;
+	Node0x215d1ef0 -> Node0x215d2120;
+	Node0x215d1f40 [shape=record,label="{plist.c:952:}"];
+	Node0x215d1f40 -> Node0x215d2120;
+	Node0x215d1f40 -> Node0x215d1f90;
+	Node0x215d1f90 [shape=record,label="{plist.c:955:}"];
+	Node0x215d1f90 -> Node0x215d2030;
+	Node0x215d1f90 -> Node0x215d1fe0;
+	Node0x215d1fe0 [shape=record,label="{plist.c:958:}"];
+	Node0x215d1fe0 -> Node0x215d2030;
+	Node0x215d2030 [shape=record,label="{plist.c:553:}"];
+	Node0x215d2030 -> Node0x215d20d0;
+	Node0x215d2030 -> Node0x215d2080;
+	Node0x215d2080 [shape=record,label="{plist.c:555:}"];
+	Node0x215d2080 -> Node0x215d20d0;
+	Node0x215d20d0 [shape=record,label="{plist.c:555:1}"];
+	Node0x215d20d0 -> Node0x215d2120;
+	Node0x215d2120 [shape=record,label="{plist.c:964:}"];
+}

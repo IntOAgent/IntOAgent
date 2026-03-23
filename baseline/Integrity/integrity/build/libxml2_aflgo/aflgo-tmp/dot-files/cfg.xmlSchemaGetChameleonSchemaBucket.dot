@@ -1,0 +1,27 @@
+digraph "CFG for 'xmlSchemaGetChameleonSchemaBucket' function" {
+	label="CFG for 'xmlSchemaGetChameleonSchemaBucket' function";
+
+	Node0x2dfbb1c0 [shape=record,label="{xmlschemas.c:9784:}"];
+	Node0x2dfbb1c0 -> Node0x2dfbb210;
+	Node0x2dfbb1c0 -> Node0x2dfbb440;
+	Node0x2dfbb210 [shape=record,label="{xmlschemas.c:9789:}"];
+	Node0x2dfbb210 -> Node0x2dfbb260;
+	Node0x2dfbb260 [shape=record,label="{xmlschemas.c:9790:}"];
+	Node0x2dfbb260 -> Node0x2dfbb2b0;
+	Node0x2dfbb260 -> Node0x2dfbb350;
+	Node0x2dfbb2b0 [shape=record,label="{xmlschemas.c:9793:}"];
+	Node0x2dfbb2b0 -> Node0x2dfbb300;
+	Node0x2dfbb2b0 -> Node0x2dfbb350;
+	Node0x2dfbb300 [shape=record,label="{xmlschemas.c:9794:}"];
+	Node0x2dfbb300 -> Node0x2dfbb440;
+	Node0x2dfbb300 -> Node0x2dfbb350;
+	Node0x2dfbb350 [shape=record,label="{xmlschemas.c:9789:1}"];
+	Node0x2dfbb350 -> Node0x2dfbb3a0;
+	Node0x2dfbb350 -> Node0x2dfbb3f0;
+	Node0x2dfbb3a0 [shape=record,label="{%27}"];
+	Node0x2dfbb3a0 -> Node0x2dfbb3f0;
+	Node0x2dfbb3f0 [shape=record,label="{xmlschemas.c:9789:2}"];
+	Node0x2dfbb3f0 -> Node0x2dfbb440;
+	Node0x2dfbb3f0 -> Node0x2dfbb260;
+	Node0x2dfbb440 [shape=record,label="{xmlschemas.c:9799:}"];
+}

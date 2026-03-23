@@ -1,0 +1,6 @@
+xmlschemastypes.c:1560,0
+xmlschemastypes.c:1567,0
+xmlschemastypes.c:1556,6.2715081483880661
+xmlschemastypes.c:1560,0
+xmlschemastypes.c:1564,0
+xmlschemastypes.c:1567,0

@@ -1,0 +1,34 @@
+digraph "CFG for 'xmlNewXmlNs' function" {
+	label="CFG for 'xmlNewXmlNs' function";
+
+	Node0x371faa00 [shape=record,label="{tree.c:5595:}"];
+	Node0x371faa00 -> Node0x371fb890;
+	Node0x371faa00 -> Node0x371fb570;
+	Node0x371fb570 [shape=record,label="{tree.c:5598:}"];
+	Node0x371fb570 -> Node0x371fb5c0;
+	Node0x371fb570 -> Node0x371fb6b0;
+	Node0x371fb5c0 [shape=record,label="{tree.c:599:}"];
+	Node0x371fb5c0 -> Node0x371fb660;
+	Node0x371fb5c0 -> Node0x371fb610;
+	Node0x371fb610 [shape=record,label="{tree.c:599:1}"];
+	Node0x371fb610 -> Node0x371fb660;
+	Node0x371fb660 [shape=record,label="{tree.c:600:}"];
+	Node0x371fb660 -> Node0x371fb840;
+	Node0x371fb660 -> Node0x371fb7f0;
+	Node0x371fb6b0 [shape=record,label="{tree.c:5605:}"];
+	Node0x371fb6b0 -> Node0x371fb700;
+	Node0x371fb6b0 -> Node0x371fb890;
+	Node0x371fb700 [shape=record,label="{tree.c:599:2}"];
+	Node0x371fb700 -> Node0x371fb7a0;
+	Node0x371fb700 -> Node0x371fb750;
+	Node0x371fb750 [shape=record,label="{tree.c:599:3}"];
+	Node0x371fb750 -> Node0x371fb7a0;
+	Node0x371fb7a0 [shape=record,label="{tree.c:600:4}"];
+	Node0x371fb7a0 -> Node0x371fb840;
+	Node0x371fb7a0 -> Node0x371fb7f0;
+	Node0x371fb7f0 [shape=record,label="{%32}"];
+	Node0x371fb7f0 -> Node0x371fb840;
+	Node0x371fb840 [shape=record,label="{tree.c:5612:}"];
+	Node0x371fb840 -> Node0x371fb890;
+	Node0x371fb890 [shape=record,label="{tree.c:5612:5}"];
+}

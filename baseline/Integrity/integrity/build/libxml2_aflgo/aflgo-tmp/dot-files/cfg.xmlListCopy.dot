@@ -1,0 +1,42 @@
+digraph "CFG for 'xmlListCopy' function" {
+	label="CFG for 'xmlListCopy' function";
+
+	Node0xdff53c0 [shape=record,label="{list.c:699:}"];
+	Node0xdff53c0 -> Node0xdff58a0;
+	Node0xdff53c0 -> Node0xdff5490;
+	Node0xdff5490 [shape=record,label="{list.c:701:}"];
+	Node0xdff5490 -> Node0xdff58a0;
+	Node0xdff5490 -> Node0xdff54e0;
+	Node0xdff54e0 [shape=record,label="{list.c:701:1}"];
+	Node0xdff54e0 -> Node0xdff5530;
+	Node0xdff5530 [shape=record,label="{list.c:702:}"];
+	Node0xdff5530 -> Node0xdff5580;
+	Node0xdff5580 [shape=record,label="{list.c:99:}"];
+	Node0xdff5580 -> Node0xdff5620;
+	Node0xdff5580 -> Node0xdff55d0;
+	Node0xdff55d0 [shape=record,label="{list.c:99:2}"];
+	Node0xdff55d0 -> Node0xdff5580;
+	Node0xdff55d0 -> Node0xdff5620;
+	Node0xdff5620 [shape=record,label="{list.c:259:}"];
+	Node0xdff5620 -> Node0xdff56c0;
+	Node0xdff5620 -> Node0xdff5670;
+	Node0xdff5670 [shape=record,label="{list.c:262:}"];
+	Node0xdff5670 -> Node0xdff58a0;
+	Node0xdff5670 -> Node0xdff5530;
+	Node0xdff56c0 [shape=record,label="{list.c:390:}"];
+	Node0xdff56c0 -> Node0xdff5850;
+	Node0xdff56c0 -> Node0xdff5710;
+	Node0xdff5710 [shape=record,label="{list.c:391:}"];
+	Node0xdff5710 -> Node0xdff5760;
+	Node0xdff5760 [shape=record,label="{list.c:392:}"];
+	Node0xdff5760 -> Node0xdff5800;
+	Node0xdff5760 -> Node0xdff57b0;
+	Node0xdff57b0 [shape=record,label="{list.c:63:}"];
+	Node0xdff57b0 -> Node0xdff5800;
+	Node0xdff5800 [shape=record,label="{list.c:64:}"];
+	Node0xdff5800 -> Node0xdff5850;
+	Node0xdff5800 -> Node0xdff5760;
+	Node0xdff5850 [shape=record,label="{list.c:308:}"];
+	Node0xdff5850 -> Node0xdff58a0;
+	Node0xdff58a0 [shape=record,label="{list.c:708:}"];
+}

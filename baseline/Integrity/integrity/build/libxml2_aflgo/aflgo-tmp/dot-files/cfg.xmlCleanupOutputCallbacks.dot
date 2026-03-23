@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlCleanupOutputCallbacks' function" {
+	label="CFG for 'xmlCleanupOutputCallbacks' function";
+
+	Node0x980eec0 [shape=record,label="{xmlIO.c:2896:}"];
+}

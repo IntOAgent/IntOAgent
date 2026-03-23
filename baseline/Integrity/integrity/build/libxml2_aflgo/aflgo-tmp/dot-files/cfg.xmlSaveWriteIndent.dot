@@ -1,0 +1,36 @@
+digraph "CFG for 'xmlSaveWriteIndent' function" {
+	label="CFG for 'xmlSaveWriteIndent' function";
+
+	Node0x264569e0 [shape=record,label="{xmlsave.c:720:}"];
+	Node0x264569e0 -> Node0x264570a0;
+	Node0x264569e0 -> Node0x26457410;
+	Node0x264570a0 [shape=record,label="{xmlsave.c:721:}"];
+	Node0x264570a0 -> Node0x264570f0;
+	Node0x264570a0 -> Node0x26457140;
+	Node0x264570f0 [shape=record,label="{xmlsave.c:722:}"];
+	Node0x264570f0 -> Node0x26457410;
+	Node0x264570f0 -> Node0x26457140;
+	Node0x26457140 [shape=record,label="{xmlsave.c:725:}"];
+	Node0x26457140 -> Node0x26457190;
+	Node0x26457140 -> Node0x264571e0;
+	Node0x26457190 [shape=record,label="{%14}"];
+	Node0x26457190 -> Node0x264571e0;
+	Node0x264571e0 [shape=record,label="{%17}"];
+	Node0x264571e0 -> Node0x26457230;
+	Node0x264571e0 -> Node0x26457280;
+	Node0x26457230 [shape=record,label="{%18}"];
+	Node0x26457230 -> Node0x26457280;
+	Node0x26457280 [shape=record,label="{xmlsave.c:726:}"];
+	Node0x26457280 -> Node0x264572d0;
+	Node0x26457280 -> Node0x26457320;
+	Node0x264572d0 [shape=record,label="{xmlsave.c:728:}"];
+	Node0x264572d0 -> Node0x26457320;
+	Node0x26457320 [shape=record,label="{xmlsave.c:728:1}"];
+	Node0x26457320 -> Node0x26457370;
+	Node0x26457320 -> Node0x264573c0;
+	Node0x26457370 [shape=record,label="{xmlsave.c:728:2}"];
+	Node0x26457370 -> Node0x264573c0;
+	Node0x264573c0 [shape=record,label="{xmlsave.c:728:3}"];
+	Node0x264573c0 -> Node0x26457410;
+	Node0x26457410 [shape=record,label="{xmlsave.c:729:}"];
+}

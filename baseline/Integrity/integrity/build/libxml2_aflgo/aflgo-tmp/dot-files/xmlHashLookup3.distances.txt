@@ -1,0 +1,8 @@
+hash.c:876,12
+hash.c:878,10
+hash.c:874,13
+hash.c:876,12
+hash.c:878,10
+hash.c:874,13
+hash.c:876,12
+hash.c:878,10

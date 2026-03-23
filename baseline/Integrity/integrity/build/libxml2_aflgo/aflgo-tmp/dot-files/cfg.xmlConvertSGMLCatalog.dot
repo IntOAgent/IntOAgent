@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlConvertSGMLCatalog' function" {
+	label="CFG for 'xmlConvertSGMLCatalog' function";
+
+	Node0x5dbcd70 [shape=record,label="{catalog.c:784:}"];
+	Node0x5dbcd70 -> Node0x5dbcf40;
+	Node0x5dbcd70 -> Node0x5dbce00;
+	Node0x5dbce00 [shape=record,label="{catalog.c:784:1}"];
+	Node0x5dbce00 -> Node0x5dbce50;
+	Node0x5dbce00 -> Node0x5dbcf40;
+	Node0x5dbce50 [shape=record,label="{catalog.c:787:}"];
+	Node0x5dbce50 -> Node0x5dbcef0;
+	Node0x5dbce50 -> Node0x5dbcea0;
+	Node0x5dbcea0 [shape=record,label="{catalog.c:788:}"];
+	Node0x5dbcea0 -> Node0x5dbcef0;
+	Node0x5dbcef0 [shape=record,label="{catalog.c:791:}"];
+	Node0x5dbcef0 -> Node0x5dbcf40;
+	Node0x5dbcf40 [shape=record,label="{catalog.c:793:}"];
+}

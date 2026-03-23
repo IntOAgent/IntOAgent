@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSchemaValidCtxtGetParserCtxt' function" {
+	label="CFG for 'xmlSchemaValidCtxtGetParserCtxt' function";
+
+	Node0x2def9700 [shape=record,label="{xmlschemas.c:28475:}"];
+	Node0x2def9700 -> Node0x2def97a0;
+	Node0x2def9700 -> Node0x2def9750;
+	Node0x2def9750 [shape=record,label="{xmlschemas.c:28477:}"];
+	Node0x2def9750 -> Node0x2def97a0;
+	Node0x2def97a0 [shape=record,label="{xmlschemas.c:28478:}"];
+}

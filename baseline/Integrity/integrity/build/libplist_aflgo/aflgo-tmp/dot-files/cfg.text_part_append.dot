@@ -1,0 +1,9 @@
+digraph "CFG for 'text_part_append' function" {
+	label="CFG for 'text_part_append' function";
+
+	Node0xb5c5ed0 [shape=record,label="{xplist.c:681:}"];
+	Node0xb5c5ed0 -> Node0xb5c72e0;
+	Node0xb5c5ed0 -> Node0xb5c7330;
+	Node0xb5c72e0 [shape=record,label="{xplist.c:682:}"];
+	Node0xb5c7330 [shape=record,label="{xplist.c:663:}"];
+}

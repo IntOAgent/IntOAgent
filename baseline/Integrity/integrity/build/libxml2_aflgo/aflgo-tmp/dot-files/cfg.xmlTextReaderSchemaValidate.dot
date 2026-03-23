@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlTextReaderSchemaValidate' function" {
+	label="CFG for 'xmlTextReaderSchemaValidate' function";
+
+	Node0x22bd5930 [shape=record,label="{xmlreader.c:4324:}"];
+}

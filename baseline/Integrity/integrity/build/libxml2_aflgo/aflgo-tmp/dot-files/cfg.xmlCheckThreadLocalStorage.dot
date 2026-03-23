@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlCheckThreadLocalStorage' function" {
+	label="CFG for 'xmlCheckThreadLocalStorage' function";
+
+	Node0x130a670 [shape=record,label="{globals.c:753:}"];
+}

@@ -1,0 +1,33 @@
+digraph "CFG for 'myStrdupFunc' function" {
+	label="CFG for 'myStrdupFunc' function";
+
+	Node0x3d066820 [shape=record,label="{xmllint.c:514:}"];
+	Node0x3d066820 -> Node0x3cf301d0;
+	Node0x3d066820 -> Node0x3cf2fca0;
+	Node0x3cf2fca0 [shape=record,label="{xmllint.c:517:}"];
+	Node0x3cf2fca0 -> Node0x3cf2ff00;
+	Node0x3cf2fca0 -> Node0x3cf2ff50;
+	Node0x3cf2ff00 [shape=record,label="{%4}"];
+	Node0x3cf2ff00 -> Node0x3cf2ff50;
+	Node0x3cf2ff50 [shape=record,label="{xmllint.c:518:}"];
+	Node0x3cf2ff50 -> Node0x3cf2ffa0;
+	Node0x3cf2ff50 -> Node0x3cf2fff0;
+	Node0x3cf2ffa0 [shape=record,label="{xmllint.c:518:1}"];
+	Node0x3cf2ffa0 -> Node0x3cf2fff0;
+	Node0x3cf2fff0 [shape=record,label="{xmllint.c:518:2}"];
+	Node0x3cf2fff0 -> Node0x3cf30040;
+	Node0x3cf2fff0 -> Node0x3cf30090;
+	Node0x3cf30040 [shape=record,label="{xmllint.c:518:3}"];
+	Node0x3cf30040 -> Node0x3cf30090;
+	Node0x3cf30090 [shape=record,label="{xmllint.c:518:4}"];
+	Node0x3cf30090 -> Node0x3cf30130;
+	Node0x3cf30090 -> Node0x3cf300e0;
+	Node0x3cf300e0 [shape=record,label="{xmllint.c:522:}"];
+	Node0x3cf300e0 -> Node0x3cf301d0;
+	Node0x3cf30130 [shape=record,label="{xmllint.c:527:}"];
+	Node0x3cf30130 -> Node0x3cf301d0;
+	Node0x3cf30130 -> Node0x3cf30180;
+	Node0x3cf30180 [shape=record,label="{xmllint.c:533:}"];
+	Node0x3cf30180 -> Node0x3cf301d0;
+	Node0x3cf301d0 [shape=record,label="{xmllint.c:536:}"];
+}

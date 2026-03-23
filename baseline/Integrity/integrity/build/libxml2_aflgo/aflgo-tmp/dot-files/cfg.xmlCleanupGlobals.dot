@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlCleanupGlobals' function" {
+	label="CFG for 'xmlCleanupGlobals' function";
+
+	Node0x12efd80 [shape=record,label="{globals.c:379:}"];
+}

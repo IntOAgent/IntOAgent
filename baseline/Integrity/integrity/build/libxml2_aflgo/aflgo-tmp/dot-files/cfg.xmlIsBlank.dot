@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlIsBlank' function" {
+	label="CFG for 'xmlIsBlank' function";
+
+	Node0xb660b00 [shape=record,label="{chvalid.c:100:}"];
+	Node0xb660b00 -> Node0xb6452d0;
+	Node0xb660b00 -> Node0xb645460;
+	Node0xb6452d0 [shape=record,label="{chvalid.c:100:1}"];
+	Node0xb6452d0 -> Node0xb645320;
+	Node0xb6452d0 -> Node0xb645370;
+	Node0xb645320 [shape=record,label="{chvalid.c:100:2}"];
+	Node0xb645320 -> Node0xb645370;
+	Node0xb645370 [shape=record,label="{chvalid.c:100:3}"];
+	Node0xb645370 -> Node0xb6453c0;
+	Node0xb645370 -> Node0xb645410;
+	Node0xb6453c0 [shape=record,label="{chvalid.c:100:4}"];
+	Node0xb6453c0 -> Node0xb645410;
+	Node0xb645410 [shape=record,label="{chvalid.c:100:5}"];
+	Node0xb645410 -> Node0xb645460;
+	Node0xb645460 [shape=record,label="{chvalid.c:100:6}"];
+}

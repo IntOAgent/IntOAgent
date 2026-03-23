@@ -1,0 +1,36 @@
+digraph "CFG for 'xmlBufEmpty' function" {
+	label="CFG for 'xmlBufEmpty' function";
+
+	Node0x3f767fb0 [shape=record,label="{buf.c:217:}"];
+	Node0x3f767fb0 -> Node0x3f7683e0;
+	Node0x3f767fb0 -> Node0x3f768070;
+	Node0x3f768070 [shape=record,label="{buf.c:217:1}"];
+	Node0x3f768070 -> Node0x3f7680c0;
+	Node0x3f768070 -> Node0x3f7683e0;
+	Node0x3f7680c0 [shape=record,label="{buf.c:219:}"];
+	Node0x3f7680c0 -> Node0x3f7683e0;
+	Node0x3f7680c0 -> Node0x3f768110;
+	Node0x3f768110 [shape=record,label="{buf.c:222:}"];
+	Node0x3f768110 -> Node0x3f768160;
+	Node0x3f768110 -> Node0x3f7681b0;
+	Node0x3f768160 [shape=record,label="{buf.c:223:}"];
+	Node0x3f768160 -> Node0x3f7681b0;
+	Node0x3f7681b0 [shape=record,label="{buf.c:223:2}"];
+	Node0x3f7681b0 -> Node0x3f768200;
+	Node0x3f7681b0 -> Node0x3f768250;
+	Node0x3f768200 [shape=record,label="{buf.c:223:3}"];
+	Node0x3f768200 -> Node0x3f768250;
+	Node0x3f768250 [shape=record,label="{buf.c:223:4}"];
+	Node0x3f768250 -> Node0x3f7682a0;
+	Node0x3f768250 -> Node0x3f7682f0;
+	Node0x3f7682a0 [shape=record,label="{buf.c:223:5}"];
+	Node0x3f7682a0 -> Node0x3f7682f0;
+	Node0x3f7682f0 [shape=record,label="{buf.c:223:6}"];
+	Node0x3f7682f0 -> Node0x3f768340;
+	Node0x3f7682f0 -> Node0x3f768390;
+	Node0x3f768340 [shape=record,label="{buf.c:223:7}"];
+	Node0x3f768340 -> Node0x3f768390;
+	Node0x3f768390 [shape=record,label="{buf.c:223:8}"];
+	Node0x3f768390 -> Node0x3f7683e0;
+	Node0x3f7683e0 [shape=record,label="{buf.c:226:}"];
+}

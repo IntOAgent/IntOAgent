@@ -1,0 +1,25 @@
+digraph "CFG for 'xmlSchemaCleanupTypesInternal' function" {
+	label="CFG for 'xmlSchemaCleanupTypesInternal' function";
+
+	Node0xb58c70 [shape=record,label="{xmlschemastypes.c:490:}"];
+	Node0xb58c70 -> Node0xb58ef0;
+	Node0xb58c70 -> Node0xb58cc0;
+	Node0xb58cc0 [shape=record,label="{xmlschemastypes.c:492:}"];
+	Node0xb58cc0 -> Node0xb58ea0;
+	Node0xb58cc0 -> Node0xb58d10;
+	Node0xb58d10 [shape=record,label="{xmlschemastypes.c:496:}"];
+	Node0xb58d10 -> Node0xb58e50;
+	Node0xb58d10 -> Node0xb58d60;
+	Node0xb58d60 [shape=record,label="{xmlschemastypes.c:497:}"];
+	Node0xb58d60 -> Node0xb58e00;
+	Node0xb58d60 -> Node0xb58db0;
+	Node0xb58db0 [shape=record,label="{xmlschemastypes.c:500:}"];
+	Node0xb58db0 -> Node0xb58e00;
+	Node0xb58e00 [shape=record,label="{xmlschemastypes.c:505:}"];
+	Node0xb58e00 -> Node0xb58e50;
+	Node0xb58e50 [shape=record,label="{xmlschemastypes.c:507:}"];
+	Node0xb58e50 -> Node0xb58ea0;
+	Node0xb58ea0 [shape=record,label="{xmlschemastypes.c:509:}"];
+	Node0xb58ea0 -> Node0xb58ef0;
+	Node0xb58ef0 [shape=record,label="{xmlschemastypes.c:513:}"];
+}

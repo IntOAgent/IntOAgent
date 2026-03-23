@@ -1,0 +1,11 @@
+<!DOCTYTE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http:
+	Foo1
+	<table border="4">
+	  <tr>
+	;    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

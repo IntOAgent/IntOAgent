@@ -1,0 +1,23 @@
+digraph "CFG for 'xmlSetNs' function" {
+	label="CFG for 'xmlSetNs' function";
+
+	Node0x370b9930 [shape=record,label="{tree.c:581:}"];
+	Node0x370b9930 -> Node0x370b9b60;
+	Node0x370b9930 -> Node0x370b9980;
+	Node0x370b9980 [shape=record,label="{tree.c:584:}"];
+	Node0x370b9980 -> Node0x370b99d0;
+	Node0x370b9980 -> Node0x370b9a20;
+	Node0x370b99d0 [shape=record,label="{tree.c:584:1}"];
+	Node0x370b99d0 -> Node0x370b9a20;
+	Node0x370b9a20 [shape=record,label="{tree.c:584:2}"];
+	Node0x370b9a20 -> Node0x370b9a70;
+	Node0x370b9a20 -> Node0x370b9ac0;
+	Node0x370b9a70 [shape=record,label="{tree.c:584:3}"];
+	Node0x370b9a70 -> Node0x370b9ac0;
+	Node0x370b9ac0 [shape=record,label="{tree.c:584:4}"];
+	Node0x370b9ac0 -> Node0x370b9b10;
+	Node0x370b9ac0 -> Node0x370b9b60;
+	Node0x370b9b10 [shape=record,label="{tree.c:586:}"];
+	Node0x370b9b10 -> Node0x370b9b60;
+	Node0x370b9b60 [shape=record,label="{tree.c:587:}"];
+}

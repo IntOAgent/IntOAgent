@@ -1,0 +1,13 @@
+xmlIO.c:686,10
+xmlIO.c:688,10
+xmlIO.c:690,10
+xmlIO.c:702,10
+xmlIO.c:727,12.961424332344214
+xmlIO.c:686,10
+xmlIO.c:688,10
+xmlIO.c:690,10
+xmlIO.c:702,10
+xmlIO.c:686,10
+xmlIO.c:688,10
+xmlIO.c:690,10
+xmlIO.c:702,10

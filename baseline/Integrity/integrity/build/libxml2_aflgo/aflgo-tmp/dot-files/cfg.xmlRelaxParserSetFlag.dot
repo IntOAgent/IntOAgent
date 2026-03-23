@@ -1,0 +1,40 @@
+digraph "CFG for 'xmlRelaxParserSetFlag' function" {
+	label="CFG for 'xmlRelaxParserSetFlag' function";
+
+	Node0x12d13460 [shape=record,label="{relaxng.c:1332:}"];
+	Node0x12d13460 -> Node0x12d13a90;
+	Node0x12d13460 -> Node0x12d13680;
+	Node0x12d13680 [shape=record,label="{relaxng.c:1333:}"];
+	Node0x12d13680 -> Node0x12d13860;
+	Node0x12d13680 -> Node0x12d136d0;
+	Node0x12d136d0 [shape=record,label="{relaxng.c:1334:}"];
+	Node0x12d136d0 -> Node0x12d13720;
+	Node0x12d136d0 -> Node0x12d13770;
+	Node0x12d13720 [shape=record,label="{%9}"];
+	Node0x12d13720 -> Node0x12d13770;
+	Node0x12d13770 [shape=record,label="{%12}"];
+	Node0x12d13770 -> Node0x12d137c0;
+	Node0x12d13770 -> Node0x12d13810;
+	Node0x12d137c0 [shape=record,label="{%13}"];
+	Node0x12d137c0 -> Node0x12d13810;
+	Node0x12d13810 [shape=record,label="{relaxng.c:1336:}"];
+	Node0x12d13810 -> Node0x12d13860;
+	Node0x12d13860 [shape=record,label="{relaxng.c:1337:}"];
+	Node0x12d13860 -> Node0x12d13a40;
+	Node0x12d13860 -> Node0x12d138b0;
+	Node0x12d138b0 [shape=record,label="{relaxng.c:1338:}"];
+	Node0x12d138b0 -> Node0x12d13900;
+	Node0x12d138b0 -> Node0x12d13950;
+	Node0x12d13900 [shape=record,label="{%23}"];
+	Node0x12d13900 -> Node0x12d13950;
+	Node0x12d13950 [shape=record,label="{%26}"];
+	Node0x12d13950 -> Node0x12d139a0;
+	Node0x12d13950 -> Node0x12d139f0;
+	Node0x12d139a0 [shape=record,label="{%27}"];
+	Node0x12d139a0 -> Node0x12d139f0;
+	Node0x12d139f0 [shape=record,label="{relaxng.c:1340:}"];
+	Node0x12d139f0 -> Node0x12d13a40;
+	Node0x12d13a40 [shape=record,label="{relaxng.c:1341:}"];
+	Node0x12d13a40 -> Node0x12d13a90;
+	Node0x12d13a90 [shape=record,label="{relaxng.c:1343:}"];
+}

@@ -1,0 +1,12 @@
+ptrarray.c:45,5.2276132303791636
+ptrarray.c:46,4.0875912408759127
+ptrarray.c:48,0
+ptrarray.c:49,0
+ptrarray.c:52,2
+ptrarray.c:57,0
+ptrarray.c:45,5.2276132303791636
+ptrarray.c:46,4.0875912408759127
+ptrarray.c:48,0
+ptrarray.c:49,0
+ptrarray.c:52,2
+ptrarray.c:57,0

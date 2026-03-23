@@ -1,0 +1,19 @@
+digraph "CFG for 'plist_set_bool_val' function" {
+	label="CFG for 'plist_set_bool_val' function";
+
+	Node0x21648fa0 [shape=record,label="{plist.c:354:}"];
+	Node0x21648fa0 -> Node0x21649040;
+	Node0x21648fa0 -> Node0x21648ff0;
+	Node0x21648ff0 [shape=record,label="{plist.c:356:}"];
+	Node0x21648ff0 -> Node0x21649040;
+	Node0x21649040 [shape=record,label="{plist.c:1478:}"];
+	Node0x21649040 -> Node0x21649090;
+	Node0x21649040 -> Node0x216490e0;
+	Node0x21649090 [shape=record,label="{plist.c:1478:1}"];
+	Node0x216490e0 [shape=record,label="{plist.c:1480:}"];
+	Node0x216490e0 -> Node0x21649180;
+	Node0x216490e0 -> Node0x21649130;
+	Node0x21649130 [shape=record,label="{plist.c:1497:}"];
+	Node0x21649130 -> Node0x21649180;
+	Node0x21649180 [shape=record,label="{plist.c:1497:2}"];
+}

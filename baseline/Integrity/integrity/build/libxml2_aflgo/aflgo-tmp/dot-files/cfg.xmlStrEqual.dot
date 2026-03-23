@@ -1,0 +1,17 @@
+digraph "CFG for 'xmlStrEqual' function" {
+	label="CFG for 'xmlStrEqual' function";
+
+	Node0x1a9d37b0 [shape=record,label="{xmlstring.c:158:}"];
+	Node0x1a9d37b0 -> Node0x1a9d3ac0;
+	Node0x1a9d37b0 -> Node0x1a9d39d0;
+	Node0x1a9d39d0 [shape=record,label="{xmlstring.c:159:}"];
+	Node0x1a9d39d0 -> Node0x1a9d3ac0;
+	Node0x1a9d39d0 -> Node0x1a9d3a20;
+	Node0x1a9d3a20 [shape=record,label="{xmlstring.c:165:}"];
+	Node0x1a9d3a20 -> Node0x1a9d3a70;
+	Node0x1a9d3a20 -> Node0x1a9d3ac0;
+	Node0x1a9d3a70 [shape=record,label="{xmlstring.c:165:1}"];
+	Node0x1a9d3a70 -> Node0x1a9d3ac0;
+	Node0x1a9d3a70 -> Node0x1a9d3a20;
+	Node0x1a9d3ac0 [shape=record,label="{xmlstring.c:169:}"];
+}

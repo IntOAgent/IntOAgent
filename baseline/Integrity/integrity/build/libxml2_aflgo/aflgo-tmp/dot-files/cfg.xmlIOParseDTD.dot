@@ -1,0 +1,32 @@
+digraph "CFG for 'xmlIOParseDTD' function" {
+	label="CFG for 'xmlIOParseDTD' function";
+
+	Node0x27098620 [shape=record,label="{parser.c:11553:}"];
+	Node0x27098620 -> Node0x27098c20;
+	Node0x27098620 -> Node0x27098900;
+	Node0x27098900 [shape=record,label="{parser.c:11556:}"];
+	Node0x27098900 -> Node0x27098950;
+	Node0x27098900 -> Node0x270989a0;
+	Node0x27098950 [shape=record,label="{parser.c:11558:}"];
+	Node0x27098950 -> Node0x27098c20;
+	Node0x270989a0 [shape=record,label="{parser.c:13217:}"];
+	Node0x270989a0 -> Node0x27098a40;
+	Node0x270989a0 -> Node0x270989f0;
+	Node0x270989f0 [shape=record,label="{parser.c:13218:}"];
+	Node0x270989f0 -> Node0x27098a90;
+	Node0x27098a40 [shape=record,label="{parser.c:13171:}"];
+	Node0x27098a40 -> Node0x27098a90;
+	Node0x27098a90 [shape=record,label="{parser.c:11567:}"];
+	Node0x27098a90 -> Node0x27098ae0;
+	Node0x27098a90 -> Node0x27098b30;
+	Node0x27098ae0 [shape=record,label="{parser.c:11569:}"];
+	Node0x27098ae0 -> Node0x27098c20;
+	Node0x27098b30 [shape=record,label="{parser.c:11574:}"];
+	Node0x27098b30 -> Node0x27098bd0;
+	Node0x27098b30 -> Node0x27098b80;
+	Node0x27098b80 [shape=record,label="{parser.c:11575:}"];
+	Node0x27098b80 -> Node0x27098bd0;
+	Node0x27098bd0 [shape=record,label="{parser.c:11578:}"];
+	Node0x27098bd0 -> Node0x27098c20;
+	Node0x27098c20 [shape=record,label="{parser.c:11582:}"];
+}

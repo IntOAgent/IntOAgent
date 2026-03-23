@@ -1,0 +1,14 @@
+digraph "CFG for 'xmlPatternStreamable' function" {
+	label="CFG for 'xmlPatternStreamable' function";
+
+	Node0x32b18880 [shape=record,label="{pattern.c:2279:}"];
+	Node0x32b18880 -> Node0x32b189a0;
+	Node0x32b18880 -> Node0x32b18900;
+	Node0x32b18900 [shape=record,label="{pattern.c:2282:}"];
+	Node0x32b18900 -> Node0x32b189a0;
+	Node0x32b18900 -> Node0x32b18950;
+	Node0x32b18950 [shape=record,label="{pattern.c:2284:}"];
+	Node0x32b18950 -> Node0x32b189a0;
+	Node0x32b18950 -> Node0x32b18900;
+	Node0x32b189a0 [shape=record,label="{pattern.c:2287:}"];
+}

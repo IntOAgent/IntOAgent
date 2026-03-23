@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlCharEncCloseFunc' function" {
+	label="CFG for 'xmlCharEncCloseFunc' function";
+
+	Node0x25490600 [shape=record,label="{encoding.c:2192:}"];
+	Node0x25490600 -> Node0x25491d30;
+	Node0x25490600 -> Node0x25491bf0;
+	Node0x25491bf0 [shape=record,label="{encoding.c:2195:}"];
+	Node0x25491bf0 -> Node0x25491c40;
+	Node0x25491bf0 -> Node0x25491d30;
+	Node0x25491c40 [shape=record,label="{encoding.c:2198:}"];
+	Node0x25491c40 -> Node0x25491ce0;
+	Node0x25491c40 -> Node0x25491c90;
+	Node0x25491c90 [shape=record,label="{encoding.c:2200:}"];
+	Node0x25491c90 -> Node0x25491ce0;
+	Node0x25491ce0 [shape=record,label="{encoding.c:2203:}"];
+	Node0x25491ce0 -> Node0x25491d30;
+	Node0x25491d30 [shape=record,label="{encoding.c:2205:}"];
+}

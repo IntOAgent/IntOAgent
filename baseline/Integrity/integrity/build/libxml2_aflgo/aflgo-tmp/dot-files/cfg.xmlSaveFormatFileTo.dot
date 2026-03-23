@@ -1,0 +1,23 @@
+digraph "CFG for 'xmlSaveFormatFileTo' function" {
+	label="CFG for 'xmlSaveFormatFileTo' function";
+
+	Node0x26402dc0 [shape=record,label="{xmlsave.c:2587:}"];
+	Node0x26402dc0 -> Node0x26402ff0;
+	Node0x26402dc0 -> Node0x26402e10;
+	Node0x26402e10 [shape=record,label="{xmlsave.c:2588:}"];
+	Node0x26402e10 -> Node0x26402eb0;
+	Node0x26402e10 -> Node0x26402e60;
+	Node0x26402e60 [shape=record,label="{xmlsave.c:2589:}"];
+	Node0x26402e60 -> Node0x26402eb0;
+	Node0x26402e60 -> Node0x26402f00;
+	Node0x26402eb0 [shape=record,label="{xmlsave.c:2591:}"];
+	Node0x26402eb0 -> Node0x26402ff0;
+	Node0x26402f00 [shape=record,label="{xmlsave.c:2384:}"];
+	Node0x26402f00 -> Node0x26402fa0;
+	Node0x26402f00 -> Node0x26402f50;
+	Node0x26402f50 [shape=record,label="{xmlsave.c:2394:}"];
+	Node0x26402f50 -> Node0x26402fa0;
+	Node0x26402fa0 [shape=record,label="{xmlsave.c:2399:}"];
+	Node0x26402fa0 -> Node0x26402ff0;
+	Node0x26402ff0 [shape=record,label="{xmlsave.c:2598:}"];
+}

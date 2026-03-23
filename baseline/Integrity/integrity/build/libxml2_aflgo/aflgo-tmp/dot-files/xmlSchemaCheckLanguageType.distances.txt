@@ -1,0 +1,9 @@
+xmlschemastypes.c:2392,5.6648308418568059
+xmlschemastypes.c:2395,4.4991965720407077
+xmlschemastypes.c:2396,0
+xmlschemastypes.c:2398,4.7618638608546275
+xmlschemastypes.c:2400,3.5280529207938116
+xmlschemastypes.c:2401,0
+xmlschemastypes.c:2407,0
+xmlschemastypes.c:2408,4.4991965720407077
+xmlschemastypes.c:2410,0

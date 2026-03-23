@@ -1,0 +1,31 @@
+digraph "CFG for 'xmlGetPredefinedEntity' function" {
+	label="CFG for 'xmlGetPredefinedEntity' function";
+
+	Node0x15135f50 [shape=record,label="{entities.c:306:}"];
+	Node0x15135f50 -> Node0x151361d0;
+	Node0x15135f50 -> Node0x15135fa0;
+	Node0x15135fa0 [shape=record,label="{entities.c:307:}"];
+	Node0x15135fa0 -> Node0x15136180;
+	Node0x15135fa0 -> Node0x15135ff0;
+	Node0x15135fa0 -> Node0x15136040;
+	Node0x15135fa0 -> Node0x15136090;
+	Node0x15135fa0 -> Node0x15136130;
+	Node0x15135ff0 [shape=record,label="{entities.c:309:}"];
+	Node0x15135ff0 -> Node0x15136180;
+	Node0x15135ff0 -> Node0x151361d0;
+	Node0x15136040 [shape=record,label="{entities.c:313:}"];
+	Node0x15136040 -> Node0x15136180;
+	Node0x15136040 -> Node0x151361d0;
+	Node0x15136090 [shape=record,label="{entities.c:317:}"];
+	Node0x15136090 -> Node0x151360e0;
+	Node0x15136090 -> Node0x151361d0;
+	Node0x151360e0 [shape=record,label="{entities.c:319:}"];
+	Node0x151360e0 -> Node0x15136180;
+	Node0x151360e0 -> Node0x151361d0;
+	Node0x15136130 [shape=record,label="{entities.c:323:}"];
+	Node0x15136130 -> Node0x15136180;
+	Node0x15136130 -> Node0x151361d0;
+	Node0x15136180 [shape=record,label="{entities.c:329:}"];
+	Node0x15136180 -> Node0x151361d0;
+	Node0x151361d0 [shape=record,label="{entities.c:330:}"];
+}

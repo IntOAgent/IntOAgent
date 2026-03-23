@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSchemaValueGetNext' function" {
+	label="CFG for 'xmlSchemaValueGetNext' function";
+
+	Node0xb68850 [shape=record,label="{xmlschemastypes.c:1119:}"];
+	Node0xb68850 -> Node0xb688f0;
+	Node0xb68850 -> Node0xb688a0;
+	Node0xb688a0 [shape=record,label="{xmlschemastypes.c:1121:}"];
+	Node0xb688a0 -> Node0xb688f0;
+	Node0xb688f0 [shape=record,label="{xmlschemastypes.c:1122:}"];
+}

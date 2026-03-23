@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlSetBufferAllocationScheme' function" {
+	label="CFG for 'xmlSetBufferAllocationScheme' function";
+
+	Node0x3f7a8940 [shape=record,label="{buf.c:629:}"];
+}

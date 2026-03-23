@@ -1,0 +1,37 @@
+digraph "CFG for 'xmlGetCharEncodingName' function" {
+	label="CFG for 'xmlGetCharEncodingName' function";
+
+	Node0x253d7df0 [shape=record,label="{encoding.c:664:}"];
+	Node0x253d7df0 -> Node0x253d8050;
+	Node0x253d7df0 -> Node0x253d80a0;
+	Node0x253d8050 [shape=record,label="{encoding.c:664:1}"];
+	Node0x253d8050 -> Node0x253d80a0;
+	Node0x253d80a0 [shape=record,label="{encoding.c:664:2}"];
+	Node0x253d80a0 -> Node0x253d80f0;
+	Node0x253d80a0 -> Node0x253d8140;
+	Node0x253d80f0 [shape=record,label="{encoding.c:664:3}"];
+	Node0x253d80f0 -> Node0x253d8140;
+	Node0x253d8140 [shape=record,label="{encoding.c:664:4}"];
+	Node0x253d8140 -> Node0x253d8370;
+	Node0x253d8140 -> Node0x253d8190;
+	Node0x253d8190 [shape=record,label="{encoding.c:677:}"];
+	Node0x253d8190 -> Node0x253d81e0;
+	Node0x253d8190 -> Node0x253d8230;
+	Node0x253d81e0 [shape=record,label="{encoding.c:677:5}"];
+	Node0x253d81e0 -> Node0x253d8230;
+	Node0x253d8230 [shape=record,label="{encoding.c:677:6}"];
+	Node0x253d8230 -> Node0x253d8280;
+	Node0x253d8230 -> Node0x253d82d0;
+	Node0x253d8280 [shape=record,label="{encoding.c:677:7}"];
+	Node0x253d8280 -> Node0x253d82d0;
+	Node0x253d82d0 [shape=record,label="{encoding.c:677:8}"];
+	Node0x253d82d0 -> Node0x253d8410;
+	Node0x253d82d0 -> Node0x253d8320;
+	Node0x253d8320 [shape=record,label="{encoding.c:680:}"];
+	Node0x253d8320 -> Node0x253d83c0;
+	Node0x253d8370 [shape=record,label="{encoding.c:664:9}"];
+	Node0x253d8370 -> Node0x253d83c0;
+	Node0x253d83c0 [shape=record,label="{encoding.c:681:}"];
+	Node0x253d83c0 -> Node0x253d8410;
+	Node0x253d8410 [shape=record,label="{encoding.c:681:10}"];
+}

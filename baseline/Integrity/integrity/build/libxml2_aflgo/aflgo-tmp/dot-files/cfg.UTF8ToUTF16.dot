@@ -1,0 +1,17 @@
+digraph "CFG for 'UTF8ToUTF16' function" {
+	label="CFG for 'UTF8ToUTF16' function";
+
+	Node0x2554fd20 [shape=record,label="{encoding.c:2665:}"];
+	Node0x2554fd20 -> Node0x2554ffb0;
+	Node0x2554fd20 -> Node0x255500a0;
+	Node0x2554ffb0 [shape=record,label="{encoding.c:2669:}"];
+	Node0x2554ffb0 -> Node0x25550000;
+	Node0x2554ffb0 -> Node0x25550050;
+	Node0x25550000 [shape=record,label="{encoding.c:2670:}"];
+	Node0x25550000 -> Node0x255500f0;
+	Node0x25550050 [shape=record,label="{encoding.c:2676:}"];
+	Node0x25550050 -> Node0x255500f0;
+	Node0x255500a0 [shape=record,label="{encoding.c:2680:}"];
+	Node0x255500a0 -> Node0x255500f0;
+	Node0x255500f0 [shape=record,label="{encoding.c:2681:}"];
+}

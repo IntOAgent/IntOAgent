@@ -1,0 +1,37 @@
+digraph "CFG for 'plist_data_compare' function" {
+	label="CFG for 'plist_data_compare' function";
+
+	Node0x2163f5a0 [shape=record,label="{plist.c:1425:}"];
+	Node0x2163f5a0 -> Node0x2163f7b0;
+	Node0x2163f5a0 -> Node0x2163fad0;
+	Node0x2163f7b0 [shape=record,label="{plist.c:1428:}"];
+	Node0x2163f7b0 -> Node0x2163fad0;
+	Node0x2163f7b0 -> Node0x2163f800;
+	Node0x2163f800 [shape=record,label="{plist.c:1428:1}"];
+	Node0x2163f800 -> Node0x2163fad0;
+	Node0x2163f800 -> Node0x2163f850;
+	Node0x2163f850 [shape=record,label="{plist.c:356:}"];
+	Node0x2163f850 -> Node0x2163f8a0;
+	Node0x2163f850 -> Node0x2163fad0;
+	Node0x2163f8a0 [shape=record,label="{plist.c:1437:}"];
+	Node0x2163f8a0 -> Node0x2163fad0;
+	Node0x2163f8a0 -> Node0x2163f8f0;
+	Node0x2163f8a0 -> Node0x2163f990;
+	Node0x2163f8a0 -> Node0x2163f9e0;
+	Node0x2163f8a0 -> Node0x2163fa80;
+	Node0x2163f8f0 [shape=record,label="{plist.c:1445:}"];
+	Node0x2163f8f0 -> Node0x2163f940;
+	Node0x2163f8f0 -> Node0x2163fad0;
+	Node0x2163f940 [shape=record,label="{plist.c:1447:}"];
+	Node0x2163f940 -> Node0x2163fad0;
+	Node0x2163f990 [shape=record,label="{plist.c:1451:}"];
+	Node0x2163f990 -> Node0x2163fad0;
+	Node0x2163f9e0 [shape=record,label="{plist.c:1454:}"];
+	Node0x2163f9e0 -> Node0x2163fa30;
+	Node0x2163f9e0 -> Node0x2163fad0;
+	Node0x2163fa30 [shape=record,label="{plist.c:1456:}"];
+	Node0x2163fa30 -> Node0x2163fad0;
+	Node0x2163fa80 [shape=record,label="{plist.c:1461:}"];
+	Node0x2163fa80 -> Node0x2163fad0;
+	Node0x2163fad0 [shape=record,label="{plist.c:1467:}"];
+}

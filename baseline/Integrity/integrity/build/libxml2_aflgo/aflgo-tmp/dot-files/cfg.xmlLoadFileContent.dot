@@ -1,0 +1,41 @@
+digraph "CFG for 'xmlLoadFileContent' function" {
+	label="CFG for 'xmlLoadFileContent' function";
+
+	Node0x5ddb560 [shape=record,label="{catalog.c:945:}"];
+	Node0x5ddb560 -> Node0x5ddba40;
+	Node0x5ddb560 -> Node0x5ddb630;
+	Node0x5ddb630 [shape=record,label="{catalog.c:951:}"];
+	Node0x5ddb630 -> Node0x5ddba40;
+	Node0x5ddb630 -> Node0x5ddb680;
+	Node0x5ddb680 [shape=record,label="{catalog.c:954:}"];
+	Node0x5ddb680 -> Node0x5ddba40;
+	Node0x5ddb680 -> Node0x5ddb6d0;
+	Node0x5ddb6d0 [shape=record,label="{catalog.c:959:}"];
+	Node0x5ddb6d0 -> Node0x5ddb720;
+	Node0x5ddb6d0 -> Node0x5ddb770;
+	Node0x5ddb720 [shape=record,label="{catalog.c:960:}"];
+	Node0x5ddb720 -> Node0x5ddb770;
+	Node0x5ddb770 [shape=record,label="{catalog.c:960:1}"];
+	Node0x5ddb770 -> Node0x5ddb7c0;
+	Node0x5ddb770 -> Node0x5ddb810;
+	Node0x5ddb7c0 [shape=record,label="{catalog.c:206:}"];
+	Node0x5ddb7c0 -> Node0x5ddba40;
+	Node0x5ddb810 [shape=record,label="{catalog.c:966:}"];
+	Node0x5ddb810 -> Node0x5ddb8b0;
+	Node0x5ddb810 -> Node0x5ddb860;
+	Node0x5ddb860 [shape=record,label="{catalog.c:969:}"];
+	Node0x5ddb860 -> Node0x5ddba40;
+	Node0x5ddb8b0 [shape=record,label="{catalog.c:972:}"];
+	Node0x5ddb8b0 -> Node0x5ddb900;
+	Node0x5ddb8b0 -> Node0x5ddb950;
+	Node0x5ddb900 [shape=record,label="{catalog.c:972:2}"];
+	Node0x5ddb900 -> Node0x5ddb950;
+	Node0x5ddb950 [shape=record,label="{catalog.c:972:3}"];
+	Node0x5ddb950 -> Node0x5ddb9a0;
+	Node0x5ddb950 -> Node0x5ddb9f0;
+	Node0x5ddb9a0 [shape=record,label="{catalog.c:972:4}"];
+	Node0x5ddb9a0 -> Node0x5ddb9f0;
+	Node0x5ddb9f0 [shape=record,label="{catalog.c:972:5}"];
+	Node0x5ddb9f0 -> Node0x5ddba40;
+	Node0x5ddba40 [shape=record,label="{catalog.c:975:}"];
+}

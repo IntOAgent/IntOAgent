@@ -1,0 +1,15 @@
+digraph "CFG for 'node_list_add' function" {
+	label="CFG for 'node_list_add' function";
+
+	Node0x1cbfd7f0 [shape=record,label="{node_list.c:52:}"];
+	Node0x1cbfd7f0 -> Node0x1cbfd870;
+	Node0x1cbfd7f0 -> Node0x1cbfd960;
+	Node0x1cbfd870 [shape=record,label="{node_list.c:55:}"];
+	Node0x1cbfd870 -> Node0x1cbfd8c0;
+	Node0x1cbfd870 -> Node0x1cbfd910;
+	Node0x1cbfd8c0 [shape=record,label="{node_list.c:74:}"];
+	Node0x1cbfd8c0 -> Node0x1cbfd910;
+	Node0x1cbfd910 [shape=record,label="{node_list.c:74:1}"];
+	Node0x1cbfd910 -> Node0x1cbfd960;
+	Node0x1cbfd960 [shape=record,label="{node_list.c:76:}"];
+}

@@ -1,0 +1,15 @@
+digraph "CFG for 'hasInternalSubsetDebug' function" {
+	label="CFG for 'hasInternalSubsetDebug' function";
+
+	Node0x3d162c10 [shape=record,label="{xmllint.c:655:}"];
+	Node0x3d162c10 -> Node0x3d164200;
+	Node0x3d162c10 -> Node0x3d164250;
+	Node0x3d164200 [shape=record,label="{xmllint.c:655:1}"];
+	Node0x3d164200 -> Node0x3d164250;
+	Node0x3d164250 [shape=record,label="{xmllint.c:655:2}"];
+	Node0x3d164250 -> Node0x3d1642a0;
+	Node0x3d164250 -> Node0x3d1642f0;
+	Node0x3d1642a0 [shape=record,label="{xmllint.c:658:}"];
+	Node0x3d1642a0 -> Node0x3d1642f0;
+	Node0x3d1642f0 [shape=record,label="{xmllint.c:660:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSchemaValidateLengthFacet' function" {
+	label="CFG for 'xmlSchemaValidateLengthFacet' function";
+
+	Node0xc0ec20 [shape=record,label="{xmlschemastypes.c:5402:}"];
+	Node0xc0ec20 -> Node0xc0ecc0;
+	Node0xc0ec20 -> Node0xc0ec70;
+	Node0xc0ec70 [shape=record,label="{xmlschemastypes.c:5405:}"];
+	Node0xc0ec70 -> Node0xc0ecc0;
+	Node0xc0ecc0 [shape=record,label="{xmlschemastypes.c:5407:}"];
+}

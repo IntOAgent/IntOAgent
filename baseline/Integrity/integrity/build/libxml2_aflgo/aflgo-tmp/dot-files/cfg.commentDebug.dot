@@ -1,0 +1,15 @@
+digraph "CFG for 'commentDebug' function" {
+	label="CFG for 'commentDebug' function";
+
+	Node0x3d192590 [shape=record,label="{xmllint.c:991:}"];
+	Node0x3d192590 -> Node0x3d192760;
+	Node0x3d192590 -> Node0x3d1927b0;
+	Node0x3d192760 [shape=record,label="{xmllint.c:991:1}"];
+	Node0x3d192760 -> Node0x3d1927b0;
+	Node0x3d1927b0 [shape=record,label="{xmllint.c:991:2}"];
+	Node0x3d1927b0 -> Node0x3d192800;
+	Node0x3d1927b0 -> Node0x3d192850;
+	Node0x3d192800 [shape=record,label="{xmllint.c:994:}"];
+	Node0x3d192800 -> Node0x3d192850;
+	Node0x3d192850 [shape=record,label="{xmllint.c:995:}"];
+}

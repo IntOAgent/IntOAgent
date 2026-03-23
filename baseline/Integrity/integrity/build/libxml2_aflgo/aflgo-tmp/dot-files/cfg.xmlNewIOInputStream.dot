@@ -1,0 +1,40 @@
+digraph "CFG for 'xmlNewIOInputStream' function" {
+	label="CFG for 'xmlNewIOInputStream' function";
+
+	Node0x8df7d20 [shape=record,label="{parserInternals.c:2198:}"];
+	Node0x8df7d20 -> Node0x8df8180;
+	Node0x8df7d20 -> Node0x8df7d70;
+	Node0x8df7d70 [shape=record,label="{parserInternals.c:1845:}"];
+	Node0x8df7d70 -> Node0x8df7dc0;
+	Node0x8df7d70 -> Node0x8df7e10;
+	Node0x8df7dc0 [shape=record,label="{parserInternals.c:1847:}"];
+	Node0x8df7dc0 -> Node0x8df7e60;
+	Node0x8df7e10 [shape=record,label="{parserInternals.c:1850:}"];
+	Node0x8df7e10 -> Node0x8df7e60;
+	Node0x8df7e60 [shape=record,label="{parserInternals.c:2202:}"];
+	Node0x8df7e60 -> Node0x8df7eb0;
+	Node0x8df7e60 -> Node0x8df80e0;
+	Node0x8df7eb0 [shape=record,label="{parserInternals.c:189:}"];
+	Node0x8df7eb0 -> Node0x8df7f50;
+	Node0x8df7eb0 -> Node0x8df7f00;
+	Node0x8df7f00 [shape=record,label="{parserInternals.c:196:}"];
+	Node0x8df7f00 -> Node0x8df8090;
+	Node0x8df7f50 [shape=record,label="{parserInternals.c:197:}"];
+	Node0x8df7f50 -> Node0x8df7fa0;
+	Node0x8df7f50 -> Node0x8df8040;
+	Node0x8df7fa0 [shape=record,label="{parserInternals.c:198:}"];
+	Node0x8df7fa0 -> Node0x8df8040;
+	Node0x8df7fa0 -> Node0x8df7ff0;
+	Node0x8df7ff0 [shape=record,label="{parserInternals.c:200:}"];
+	Node0x8df7ff0 -> Node0x8df8090;
+	Node0x8df8040 [shape=record,label="{parserInternals.c:202:}"];
+	Node0x8df8040 -> Node0x8df8090;
+	Node0x8df8090 [shape=record,label="{parserInternals.c:207:}"];
+	Node0x8df8090 -> Node0x8df8180;
+	Node0x8df80e0 [shape=record,label="{parserInternals.c:2207:}"];
+	Node0x8df80e0 -> Node0x8df8180;
+	Node0x8df80e0 -> Node0x8df8130;
+	Node0x8df8130 [shape=record,label="{parserInternals.c:2209:}"];
+	Node0x8df8130 -> Node0x8df8180;
+	Node0x8df8180 [shape=record,label="{parserInternals.c:2212:}"];
+}

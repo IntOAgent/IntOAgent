@@ -1,0 +1,9 @@
+xmlschemastypes.c:490,22
+xmlschemastypes.c:492,23
+xmlschemastypes.c:496,24
+xmlschemastypes.c:497,25
+xmlschemastypes.c:500,25
+xmlschemastypes.c:505,24
+xmlschemastypes.c:507,23
+xmlschemastypes.c:509,22
+xmlschemastypes.c:513,20

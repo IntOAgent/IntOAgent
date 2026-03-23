@@ -1,0 +1,30 @@
+digraph "CFG for 'xmlRemoveProp' function" {
+	label="CFG for 'xmlRemoveProp' function";
+
+	Node0x37184f90 [shape=record,label="{tree.c:1716:}"];
+	Node0x37184f90 -> Node0x371852c0;
+	Node0x37184f90 -> Node0x37185040;
+	Node0x37185040 [shape=record,label="{tree.c:1719:}"];
+	Node0x37185040 -> Node0x371852c0;
+	Node0x37185040 -> Node0x37185090;
+	Node0x37185090 [shape=record,label="{tree.c:1722:}"];
+	Node0x37185090 -> Node0x371850e0;
+	Node0x37185090 -> Node0x37185130;
+	Node0x371850e0 [shape=record,label="{tree.c:1724:}"];
+	Node0x371850e0 -> Node0x37185270;
+	Node0x371850e0 -> Node0x37185220;
+	Node0x37185130 [shape=record,label="{tree.c:1730:}"];
+	Node0x37185130 -> Node0x371852c0;
+	Node0x37185130 -> Node0x37185180;
+	Node0x37185180 [shape=record,label="{tree.c:1731:}"];
+	Node0x37185180 -> Node0x371851d0;
+	Node0x37185180 -> Node0x37185130;
+	Node0x371851d0 [shape=record,label="{tree.c:1731:1}"];
+	Node0x371851d0 -> Node0x37185270;
+	Node0x371851d0 -> Node0x37185220;
+	Node0x37185220 [shape=record,label="{%20}"];
+	Node0x37185220 -> Node0x37185270;
+	Node0x37185270 [shape=record,label="{tree.c:1741:}"];
+	Node0x37185270 -> Node0x371852c0;
+	Node0x371852c0 [shape=record,label="{tree.c:1741:2}"];
+}

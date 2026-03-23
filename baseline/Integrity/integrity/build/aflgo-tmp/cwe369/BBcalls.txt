@@ -1,0 +1,2 @@
+cwe369_divzero.c:14,__integrity_report
+cwe369_divzero.c:14,__integrity_report

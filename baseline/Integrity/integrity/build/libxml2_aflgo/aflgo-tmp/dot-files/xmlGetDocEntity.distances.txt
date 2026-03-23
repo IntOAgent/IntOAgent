@@ -1,0 +1,7 @@
+entities.c:479,14.933333333333334
+entities.c:480,13.333333333333334
+entities.c:481,10
+entities.c:486,14
+entities.c:487,13
+entities.c:488,12
+entities.c:489,10

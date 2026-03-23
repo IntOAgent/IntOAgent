@@ -1,0 +1,12 @@
+<plist version="1.0">
+<dict>
+    <key>some test entitites</key>
+    <dict>
+        <key>copyright</key>
+        <string>&#169;</string>
+        è<key>multiple entitites</key>
+        <string>&<stéñëò>abc&#xFFE5;</string>
+        <key>three byte utf-8 with text before string>abcd&#x1D565;wxyz</s=tring>
+    </dict>
+</dict>
+</plist>

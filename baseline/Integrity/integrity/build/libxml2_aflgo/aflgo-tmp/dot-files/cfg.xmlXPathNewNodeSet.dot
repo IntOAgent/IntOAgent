@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlXPathNewNodeSet' function" {
+	label="CFG for 'xmlXPathNewNodeSet' function";
+
+	Node0x2fdeedf0 [shape=record,label="{xpath.c:3194:}"];
+	Node0x2fdeedf0 -> Node0x2fdef100;
+	Node0x2fdeedf0 -> Node0x2fdef060;
+	Node0x2fdef060 [shape=record,label="{xpath.c:3194:1}"];
+	Node0x2fdef060 -> Node0x2fdef0b0;
+	Node0x2fdef060 -> Node0x2fdef100;
+	Node0x2fdef0b0 [shape=record,label="{xpath.c:3202:}"];
+	Node0x2fdef0b0 -> Node0x2fdef100;
+	Node0x2fdef100 [shape=record,label="{xpath.c:3207:}"];
+}

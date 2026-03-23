@@ -1,0 +1,19 @@
+digraph "CFG for 'xmlXIncludeProcessNode' function" {
+	label="CFG for 'xmlXIncludeProcessNode' function";
+
+	Node0xc491880 [shape=record,label="{xinclude.c:2180:}"];
+	Node0xc491880 -> Node0xc491a10;
+	Node0xc491880 -> Node0xc4918d0;
+	Node0xc4918d0 [shape=record,label="{xinclude.c:2180:1}"];
+	Node0xc4918d0 -> Node0xc491a10;
+	Node0xc4918d0 -> Node0xc491920;
+	Node0xc491920 [shape=record,label="{xinclude.c:2181:}"];
+	Node0xc491920 -> Node0xc491a10;
+	Node0xc491920 -> Node0xc491970;
+	Node0xc491970 [shape=record,label="{xinclude.c:1965:}"];
+	Node0xc491970 -> Node0xc4919c0;
+	Node0xc491970 -> Node0xc491a10;
+	Node0xc4919c0 [shape=record,label="{xinclude.c:2184:}"];
+	Node0xc4919c0 -> Node0xc491a10;
+	Node0xc491a10 [shape=record,label="{xinclude.c:2187:}"];
+}

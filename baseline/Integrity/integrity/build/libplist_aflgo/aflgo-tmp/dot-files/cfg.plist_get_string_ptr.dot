@@ -1,0 +1,21 @@
+digraph "CFG for 'plist_get_string_ptr' function" {
+	label="CFG for 'plist_get_string_ptr' function";
+
+	Node0x2158e7d0 [shape=record,label="{plist.c:1300:}"];
+	Node0x2158e7d0 -> Node0x2158e9f0;
+	Node0x2158e7d0 -> Node0x2158e860;
+	Node0x2158e860 [shape=record,label="{plist.c:356:}"];
+	Node0x2158e860 -> Node0x2158e9f0;
+	Node0x2158e860 -> Node0x2158e8b0;
+	Node0x2158e8b0 [shape=record,label="{plist.c:1265:}"];
+	Node0x2158e8b0 -> Node0x2158e900;
+	Node0x2158e8b0 -> Node0x2158e9f0;
+	Node0x2158e900 [shape=record,label="{plist.c:356:1}"];
+	Node0x2158e900 -> Node0x2158e9a0;
+	Node0x2158e900 -> Node0x2158e950;
+	Node0x2158e950 [shape=record,label="{plist.c:1307:}"];
+	Node0x2158e950 -> Node0x2158e9a0;
+	Node0x2158e9a0 [shape=record,label="{plist.c:1308:}"];
+	Node0x2158e9a0 -> Node0x2158e9f0;
+	Node0x2158e9f0 [shape=record,label="{plist.c:1309:}"];
+}

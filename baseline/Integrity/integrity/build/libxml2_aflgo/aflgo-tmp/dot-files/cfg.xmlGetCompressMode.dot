@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlGetCompressMode' function" {
+	label="CFG for 'xmlGetCompressMode' function";
+
+	Node0x37224040 [shape=record,label="{tree.c:6708:}"];
+}

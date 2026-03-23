@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlDummyCompare' function" {
+	label="CFG for 'xmlDummyCompare' function";
+
+	Node0x37d2a5d0 [shape=record,label="{valid.c:2528:}"];
+}

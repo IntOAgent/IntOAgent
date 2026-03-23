@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlXIncludeGetLastError' function" {
+	label="CFG for 'xmlXIncludeGetLastError' function";
+
+	Node0xc473d30 [shape=record,label="{xinclude.c:1976:}"];
+	Node0xc473d30 -> Node0xc46a6e0;
+	Node0xc473d30 -> Node0xc46a690;
+	Node0xc46a690 [shape=record,label="{xinclude.c:1978:}"];
+	Node0xc46a690 -> Node0xc46a6e0;
+	Node0xc46a6e0 [shape=record,label="{xinclude.c:1979:}"];
+}

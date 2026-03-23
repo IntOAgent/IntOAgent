@@ -1,0 +1,231 @@
+libxml2_la-xinclude.lo: /home/xxx/PHDlife/fuxian/libxml2/xinclude.c \
+  /home/xxx/PHDlife/fuxian/libxml2/libxml.h config.h \
+  include/libxml/xmlversion.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/xmlexports.h \
+  /usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/features.h /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/stdc-predef.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/string.h \
+  /usr/lib/llvm-14/lib/clang/14.0.0/include/stddef.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/strings.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/xmlmemory.h \
+  /usr/include/stdio.h \
+  /usr/lib/llvm-14/lib/clang/14.0.0/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/tree.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/parser.h \
+  /usr/lib/llvm-14/lib/clang/14.0.0/include/limits.h \
+  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/xmlstring.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/xmlregexp.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/dict.h \
+  /usr/lib/llvm-14/lib/clang/14.0.0/include/__stddef_max_align_t.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/hash.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/valid.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/xmlerror.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/list.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/xmlautomata.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/entities.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/encoding.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/xmlIO.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/SAX2.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/threads.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/uri.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/xpath.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/xpointer.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/parserInternals.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/HTMLparser.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/chvalid.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/libxml/xinclude.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/private/buf.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/private/error.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/private/memory.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/private/../../libxml.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/private/parser.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/private/tree.h \
+  /home/xxx/PHDlife/fuxian/libxml2/include/private/xinclude.h
+
+/home/xxx/PHDlife/fuxian/libxml2/libxml.h:
+
+config.h:
+
+include/libxml/xmlversion.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/xmlexports.h:
+
+/usr/lib/llvm-14/lib/clang/14.0.0/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/features.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/string.h:
+
+/usr/lib/llvm-14/lib/clang/14.0.0/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/strings.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/xmlmemory.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/llvm-14/lib/clang/14.0.0/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/tree.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/parser.h:
+
+/usr/lib/llvm-14/lib/clang/14.0.0/include/limits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/xmlstring.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/xmlregexp.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/dict.h:
+
+/usr/lib/llvm-14/lib/clang/14.0.0/include/__stddef_max_align_t.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/hash.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/valid.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/xmlerror.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/list.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/xmlautomata.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/entities.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/encoding.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/xmlIO.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/SAX2.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/threads.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/uri.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/xpath.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/xpointer.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/parserInternals.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/HTMLparser.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/chvalid.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/libxml/xinclude.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/private/buf.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/private/error.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/private/memory.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/private/../../libxml.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/private/parser.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/private/tree.h:
+
+/home/xxx/PHDlife/fuxian/libxml2/include/private/xinclude.h:

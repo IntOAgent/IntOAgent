@@ -1,0 +1,19 @@
+digraph "CFG for 'xmlRelaxNGSchemaTypeCheck' function" {
+	label="CFG for 'xmlRelaxNGSchemaTypeCheck' function";
+
+	Node0x12d200d0 [shape=record,label="{relaxng.c:2343:}"];
+	Node0x12d200d0 -> Node0x12d202a0;
+	Node0x12d200d0 -> Node0x12d20160;
+	Node0x12d20160 [shape=record,label="{relaxng.c:2345:}"];
+	Node0x12d20160 -> Node0x12d202a0;
+	Node0x12d20160 -> Node0x12d201b0;
+	Node0x12d201b0 [shape=record,label="{relaxng.c:2351:}"];
+	Node0x12d201b0 -> Node0x12d20250;
+	Node0x12d201b0 -> Node0x12d202a0;
+	Node0x12d201b0 -> Node0x12d20200;
+	Node0x12d20200 [shape=record,label="{relaxng.c:2355:}"];
+	Node0x12d20200 -> Node0x12d202a0;
+	Node0x12d20250 [shape=record,label="{relaxng.c:2356:}"];
+	Node0x12d20250 -> Node0x12d202a0;
+	Node0x12d202a0 [shape=record,label="{relaxng.c:2359:}"];
+}

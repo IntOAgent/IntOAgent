@@ -1,0 +1,44 @@
+digraph "CFG for 'xmlStrdup' function" {
+	label="CFG for 'xmlStrdup' function";
+
+	Node0x1a9bf690 [shape=record,label="{xmlstring.c:75:}"];
+	Node0x1a9bf690 -> Node0x1a9c0540;
+	Node0x1a9bf690 -> Node0x1a9c00e0;
+	Node0x1a9c00e0 [shape=record,label="{xmlstring.c:76:}"];
+	Node0x1a9c00e0 -> Node0x1a9c0130;
+	Node0x1a9c00e0 -> Node0x1a9c00e0;
+	Node0x1a9c0130 [shape=record,label="{xmlstring.c:77:}"];
+	Node0x1a9c0130 -> Node0x1a9c0180;
+	Node0x1a9c0130 -> Node0x1a9c01d0;
+	Node0x1a9c0180 [shape=record,label="{%9}"];
+	Node0x1a9c0180 -> Node0x1a9c01d0;
+	Node0x1a9c01d0 [shape=record,label="{%12}"];
+	Node0x1a9c01d0 -> Node0x1a9c0220;
+	Node0x1a9c01d0 -> Node0x1a9c0270;
+	Node0x1a9c0220 [shape=record,label="{%13}"];
+	Node0x1a9c0220 -> Node0x1a9c0270;
+	Node0x1a9c0270 [shape=record,label="{xmlstring.c:53:}"];
+	Node0x1a9c0270 -> Node0x1a9c02c0;
+	Node0x1a9c0270 -> Node0x1a9c0540;
+	Node0x1a9c02c0 [shape=record,label="{xmlstring.c:54:}"];
+	Node0x1a9c02c0 -> Node0x1a9c0310;
+	Node0x1a9c02c0 -> Node0x1a9c0360;
+	Node0x1a9c0310 [shape=record,label="{xmlstring.c:54:1}"];
+	Node0x1a9c0310 -> Node0x1a9c0360;
+	Node0x1a9c0360 [shape=record,label="{xmlstring.c:54:2}"];
+	Node0x1a9c0360 -> Node0x1a9c03b0;
+	Node0x1a9c0360 -> Node0x1a9c0400;
+	Node0x1a9c03b0 [shape=record,label="{xmlstring.c:54:3}"];
+	Node0x1a9c03b0 -> Node0x1a9c0400;
+	Node0x1a9c0400 [shape=record,label="{xmlstring.c:54:4}"];
+	Node0x1a9c0400 -> Node0x1a9c0450;
+	Node0x1a9c0400 -> Node0x1a9c04a0;
+	Node0x1a9c0450 [shape=record,label="{xmlstring.c:54:5}"];
+	Node0x1a9c0450 -> Node0x1a9c04a0;
+	Node0x1a9c04a0 [shape=record,label="{xmlstring.c:54:6}"];
+	Node0x1a9c04a0 -> Node0x1a9c0540;
+	Node0x1a9c04a0 -> Node0x1a9c04f0;
+	Node0x1a9c04f0 [shape=record,label="{xmlstring.c:58:}"];
+	Node0x1a9c04f0 -> Node0x1a9c0540;
+	Node0x1a9c0540 [shape=record,label="{xmlstring.c:78:}"];
+}

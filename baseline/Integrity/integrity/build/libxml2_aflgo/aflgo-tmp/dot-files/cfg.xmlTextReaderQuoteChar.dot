@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlTextReaderQuoteChar' function" {
+	label="CFG for 'xmlTextReaderQuoteChar' function";
+
+	Node0x22baf640 [shape=record,label="{xmlreader.c:3573:}"];
+}

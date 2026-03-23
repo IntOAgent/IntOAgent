@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlInitParser' function" {
+	label="CFG for 'xmlInitParser' function";
+
+	Node0x229457d0 [shape=record,label="{threads.c:406:}"];
+}

@@ -1,0 +1,33 @@
+digraph "CFG for 'xmlRelaxNGValidCtxtClearErrors' function" {
+	label="CFG for 'xmlRelaxNGValidCtxtClearErrors' function";
+
+	Node0x12e534f0 [shape=record,label="{relaxng.c:8245:}"];
+	Node0x12e534f0 -> Node0x12e53a90;
+	Node0x12e534f0 -> Node0x12e53db0;
+	Node0x12e53a90 [shape=record,label="{relaxng.c:2182:}"];
+	Node0x12e53a90 -> Node0x12e53ae0;
+	Node0x12e53ae0 [shape=record,label="{relaxng.c:2183:}"];
+	Node0x12e53ae0 -> Node0x12e53cc0;
+	Node0x12e53ae0 -> Node0x12e53b30;
+	Node0x12e53b30 [shape=record,label="{relaxng.c:2185:}"];
+	Node0x12e53b30 -> Node0x12e53bd0;
+	Node0x12e53b30 -> Node0x12e53b80;
+	Node0x12e53b80 [shape=record,label="{relaxng.c:2186:}"];
+	Node0x12e53b80 -> Node0x12e53bd0;
+	Node0x12e53bd0 [shape=record,label="{relaxng.c:2187:}"];
+	Node0x12e53bd0 -> Node0x12e53c70;
+	Node0x12e53bd0 -> Node0x12e53c20;
+	Node0x12e53c20 [shape=record,label="{relaxng.c:2189:}"];
+	Node0x12e53c20 -> Node0x12e53c70;
+	Node0x12e53c70 [shape=record,label="{relaxng.c:2190:}"];
+	Node0x12e53c70 -> Node0x12e53cc0;
+	Node0x12e53cc0 [shape=record,label="{relaxng.c:2182:1}"];
+	Node0x12e53cc0 -> Node0x12e53d10;
+	Node0x12e53cc0 -> Node0x12e53d60;
+	Node0x12e53d10 [shape=record,label="{%22}"];
+	Node0x12e53d10 -> Node0x12e53d60;
+	Node0x12e53d60 [shape=record,label="{relaxng.c:2182:2}"];
+	Node0x12e53d60 -> Node0x12e53ae0;
+	Node0x12e53d60 -> Node0x12e53db0;
+	Node0x12e53db0 [shape=record,label="{relaxng.c:8248:}"];
+}

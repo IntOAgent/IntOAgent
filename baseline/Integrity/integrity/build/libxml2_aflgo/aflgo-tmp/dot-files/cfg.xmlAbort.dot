@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlAbort' function" {
+	label="CFG for 'xmlAbort' function";
+
+	Node0x365a99e0 [shape=record,label="{error.c:1372:}"];
+}

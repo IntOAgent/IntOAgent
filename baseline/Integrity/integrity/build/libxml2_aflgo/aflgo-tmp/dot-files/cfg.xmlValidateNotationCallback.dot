@@ -1,0 +1,43 @@
+digraph "CFG for 'xmlValidateNotationCallback' function" {
+	label="CFG for 'xmlValidateNotationCallback' function";
+
+	Node0x37e9f250 [shape=record,label="{valid.c:6119:}"];
+	Node0x37e9f250 -> Node0x37e9f730;
+	Node0x37e9f250 -> Node0x37e9f320;
+	Node0x37e9f320 [shape=record,label="{valid.c:6122:}"];
+	Node0x37e9f320 -> Node0x37e9f370;
+	Node0x37e9f320 -> Node0x37e9f730;
+	Node0x37e9f370 [shape=record,label="{valid.c:6123:}"];
+	Node0x37e9f370 -> Node0x37e9f730;
+	Node0x37e9f370 -> Node0x37e9f3c0;
+	Node0x37e9f3c0 [shape=record,label="{valid.c:6128:}"];
+	Node0x37e9f3c0 -> Node0x37e9f6e0;
+	Node0x37e9f3c0 -> Node0x37e9f410;
+	Node0x37e9f410 [shape=record,label="{valid.c:3001:}"];
+	Node0x37e9f410 -> Node0x37e9f6e0;
+	Node0x37e9f410 -> Node0x37e9f460;
+	Node0x37e9f460 [shape=record,label="{valid.c:2978:}"];
+	Node0x37e9f460 -> Node0x37e9f500;
+	Node0x37e9f460 -> Node0x37e9f4b0;
+	Node0x37e9f4b0 [shape=record,label="{valid.c:2979:}"];
+	Node0x37e9f4b0 -> Node0x37e9f500;
+	Node0x37e9f500 [shape=record,label="{valid.c:3005:}"];
+	Node0x37e9f500 -> Node0x37e9f550;
+	Node0x37e9f500 -> Node0x37e9f640;
+	Node0x37e9f550 [shape=record,label="{valid.c:3005:1}"];
+	Node0x37e9f550 -> Node0x37e9f640;
+	Node0x37e9f550 -> Node0x37e9f5a0;
+	Node0x37e9f5a0 [shape=record,label="{valid.c:2978:2}"];
+	Node0x37e9f5a0 -> Node0x37e9f640;
+	Node0x37e9f5a0 -> Node0x37e9f5f0;
+	Node0x37e9f5f0 [shape=record,label="{valid.c:2979:3}"];
+	Node0x37e9f5f0 -> Node0x37e9f640;
+	Node0x37e9f640 [shape=record,label="{valid.c:3008:}"];
+	Node0x37e9f640 -> Node0x37e9f690;
+	Node0x37e9f640 -> Node0x37e9f730;
+	Node0x37e9f690 [shape=record,label="{valid.c:3009:}"];
+	Node0x37e9f690 -> Node0x37e9f6e0;
+	Node0x37e9f6e0 [shape=record,label="{valid.c:6130:}"];
+	Node0x37e9f6e0 -> Node0x37e9f730;
+	Node0x37e9f730 [shape=record,label="{valid.c:6134:}"];
+}

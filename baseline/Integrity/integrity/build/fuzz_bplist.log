@@ -1,0 +1,397 @@
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1760361299
+INFO: Loaded 1 modules   (4141 inline 8-bit counters): 4141 [0x582b43643220, 0x582b4364424d), 
+INFO: Loaded 1 PC tables (4141 PCs): 4141 [0x582b43644250,0x582b43654520), 
+INFO: 5530 Extra Counters
+INFO:      501 files found in corpus/libplist/bplist/
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
+INFO: seed corpus: files: 501 min: 1b max: 3718b total: 48642b rss: 26Mb
+[INTEGRITY] SHIFT_OVF at libplist/src/bplist.c:855:28
+[INTEGRITY] SHIFT_OVF at libplist/src/bplist.c:618:18
+[INTEGRITY] SHIFT_OVF at libplist/src/bplist.c:534:18
+[INTEGRITY] SHIFT_OVF at libplist/src/bplist.c:535:18
+[INTEGRITY] SHIFT_OVF at libplist/src/bplist.c:690:27
+[INTEGRITY] OVERFLOW at libplist/src/ptrarray.c:85:0
+[INTEGRITY] OVERFLOW at libplist/src/ptrarray.c:90:13
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:890:17
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:0:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:102:7
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:108:8
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:100:2
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:105:7
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:0:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:107:3
+[INTEGRITY] OVERFLOW at libplist/src/ptrarray.c:94:0
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:835:0
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:855:28
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:662:0
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:675:9
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:360:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:48:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:64:6
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:618:18
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:887:9
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:633:35
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:133:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:80:17
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:80:2
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:89:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:51:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:156:17
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:882:24
+[INTEGRITY] OVERFLOW at libplist/src/ptrarray.c:78:0
+[INTEGRITY] OVERFLOW at libplist/src/ptrarray.c:81:2
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:264:25
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:116:2
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:746:19
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:608:5
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:262:0
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:463:5
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:163:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:166:6
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:120:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:126:7
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:129:7
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:0:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:170:39
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:390:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:31:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:32:0
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:0:0
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:423:5
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:473:17
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:263:6
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:392:5
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:34:21
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:408:20
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:417:27
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:405:2
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:430:37
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:434:37
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:803:16
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:458:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:150:6
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:64:9
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:37:0
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:38:21
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:152:7
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:67:9
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:706:5
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:137:13
+[INTEGRITY] OVERFLOW at libplist/libcnary/node_list.c:140:10
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:403:47
+[INTEGRITY] OVERFLOW at libplist/src/ptrarray.c:35:0
+[INTEGRITY] OVERFLOW at libplist/src/ptrarray.c:36:6
+[INTEGRITY] OVERFLOW at libplist/libcnary/node.c:34:6
+[INTEGRITY] SHIFT_OVF at libplist/src/bplist.c:795:17
+[INTEGRITY] SHIFT_OVF at libplist/src/bplist.c:647:20
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:720:19
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:287:5
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:304:20
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:792:16
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:365:0
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:379:26
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:326:23
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:408:7
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:417:14
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:647:20
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:654:14
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:296:24
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:437:18
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:353:0
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:356:42
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:825:16
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:499:0
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:521:5
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:409:13
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:410:17
+[INTEGRITY] OVERFLOW at libplist/src/hashtable.c:38:0
+[INTEGRITY] OVERFLOW at libplist/src/hashtable.c:39:6
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:337:23
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:778:16
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:355:0
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:733:19
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:785:16
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:479:0
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:493:24
+[INTEGRITY] OVERFLOW at libplist/src/plist.c:399:24
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:409:8
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:418:8
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:807:21
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:781:21
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:788:21
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:821:21
+#502	INITED cov: 257 ft: 1650 corp: 305/30Kb exec/s: 0 rss: 27Mb
+#114994	REDUCE cov: 257 ft: 1650 corp: 305/30Kb lim: 4096 exec/s: 0 rss: 28Mb L: 100/3718 MS: 2 ChangeBinInt-EraseBytes-
+#182305	REDUCE cov: 257 ft: 1650 corp: 305/30Kb lim: 4096 exec/s: 182305 rss: 29Mb L: 78/3718 MS: 1 EraseBytes-
+#224012	REDUCE cov: 257 ft: 1650 corp: 305/30Kb lim: 4096 exec/s: 224012 rss: 29Mb L: 93/3718 MS: 2 CrossOver-EraseBytes-
+#260128	REDUCE cov: 257 ft: 1650 corp: 305/30Kb lim: 4096 exec/s: 260128 rss: 29Mb L: 90/3718 MS: 1 EraseBytes-
+#289549	REDUCE cov: 257 ft: 1650 corp: 305/30Kb lim: 4096 exec/s: 289549 rss: 29Mb L: 77/3718 MS: 1 EraseBytes-
+#516430	REDUCE cov: 257 ft: 1650 corp: 305/30Kb lim: 4096 exec/s: 258215 rss: 29Mb L: 88/3718 MS: 1 EraseBytes-
+#524288	pulse  cov: 257 ft: 1650 corp: 305/30Kb lim: 4096 exec/s: 262144 rss: 29Mb
+#638108	REDUCE cov: 257 ft: 1650 corp: 305/30Kb lim: 4096 exec/s: 212702 rss: 29Mb L: 99/3718 MS: 1 EraseBytes-
+#776319	NEW    cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 258773 rss: 29Mb L: 84/3718 MS: 1 CrossOver-
+#784726	REDUCE cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 261575 rss: 29Mb L: 69/3718 MS: 2 EraseBytes-ChangeBit-
+#829027	REDUCE cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 207256 rss: 29Mb L: 81/3718 MS: 1 EraseBytes-
+#848434	REDUCE cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 212108 rss: 29Mb L: 64/3718 MS: 1 EraseBytes-
+#855557	REDUCE cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 213889 rss: 29Mb L: 96/3718 MS: 3 ChangeBinInt-CrossOver-EraseBytes-
+#994163	REDUCE cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 248540 rss: 29Mb L: 62/3718 MS: 1 EraseBytes-
+#1003345	REDUCE cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 250836 rss: 29Mb L: 88/3718 MS: 2 ChangeASCIIInt-EraseBytes-
+#1048576	pulse  cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 262144 rss: 29Mb
+#1200307	REDUCE cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 240061 rss: 29Mb L: 86/3718 MS: 2 ChangeASCIIInt-EraseBytes-
+#1557733	REDUCE cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 259622 rss: 29Mb L: 107/3718 MS: 2 ChangeBit-EraseBytes-
+#1810974	REDUCE cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 258710 rss: 29Mb L: 83/3718 MS: 1 EraseBytes-
+#1980257	REDUCE cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 247532 rss: 29Mb L: 82/3718 MS: 3 ChangeBinInt-ChangeBit-EraseBytes-
+#2024658	REDUCE cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 253082 rss: 29Mb L: 77/3718 MS: 1 EraseBytes-
+#2097152	pulse  cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 262144 rss: 29Mb
+#2586786	REDUCE cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 258678 rss: 29Mb L: 79/3718 MS: 1 EraseBytes-
+#2915294	REDUCE cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 265026 rss: 29Mb L: 106/3718 MS: 2 EraseBytes-CopyPart-
+#3082990	REDUCE cov: 257 ft: 1654 corp: 306/30Kb lim: 4096 exec/s: 256915 rss: 29Mb L: 77/3718 MS: 1 EraseBytes-
+[INTEGRITY] OVERFLOW at libplist/src/bplist.c:799:21
+#3164552	NEW    cov: 257 ft: 1655 corp: 307/31Kb lim: 4096 exec/s: 263712 rss: 29Mb L: 113/3718 MS: 2 ChangeByte-ChangeBit-
+#4194304	pulse  cov: 257 ft: 1655 corp: 307/31Kb lim: 4096 exec/s: 262144 rss: 29Mb
+#5190115	REDUCE cov: 257 ft: 1655 corp: 307/30Kb lim: 4096 exec/s: 273163 rss: 29Mb L: 44/3718 MS: 3 InsertByte-EraseBytes-ChangeBit-
+#5370656	NEW    cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 268532 rss: 29Mb L: 64/3718 MS: 1 CrossOver-
+#5375397	REDUCE cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 268769 rss: 29Mb L: 60/3718 MS: 1 EraseBytes-
+#5408154	REDUCE cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 270407 rss: 29Mb L: 53/3718 MS: 2 CMP-EraseBytes- DE: "\377\377\377\377\377\377\377$"-
+#5708640	REDUCE cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 271840 rss: 29Mb L: 78/3718 MS: 1 EraseBytes-
+#5773276	REDUCE cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 274917 rss: 29Mb L: 77/3718 MS: 1 EraseBytes-
+#5840159	REDUCE cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 278102 rss: 29Mb L: 43/3718 MS: 3 CopyPart-EraseBytes-ChangeBit-
+#5886550	REDUCE cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 280311 rss: 29Mb L: 42/3718 MS: 1 EraseBytes-
+#6044048	REDUCE cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 274729 rss: 29Mb L: 52/3718 MS: 1 EraseBytes-
+#6061287	REDUCE cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 275513 rss: 29Mb L: 60/3718 MS: 4 ChangeBit-EraseBytes-ChangeByte-ChangeBit-
+#6213905	REDUCE cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 270169 rss: 29Mb L: 59/3718 MS: 3 ChangeBinInt-ShuffleBytes-EraseBytes-
+#6287220	REDUCE cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 273357 rss: 29Mb L: 42/3718 MS: 4 InsertByte-EraseBytes-InsertByte-CMP- DE: "'\000\000\000"-
+#6372508	REDUCE cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 277065 rss: 29Mb L: 41/3718 MS: 3 ChangeBinInt-CrossOver-EraseBytes-
+#6434949	REDUCE cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 279780 rss: 29Mb L: 41/3718 MS: 1 EraseBytes-
+#6900327	REDUCE cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 276013 rss: 29Mb L: 58/3718 MS: 2 CMP-EraseBytes- DE: "libplist/src/plist.c"-
+#8388608	pulse  cov: 257 ft: 1656 corp: 308/31Kb lim: 4096 exec/s: 279620 rss: 29Mb
+#8513253	NEW    cov: 257 ft: 1659 corp: 309/31Kb lim: 4096 exec/s: 274621 rss: 29Mb L: 77/3718 MS: 1 ChangeBinInt-
+#8515792	REDUCE cov: 257 ft: 1659 corp: 309/31Kb lim: 4096 exec/s: 274702 rss: 29Mb L: 52/3718 MS: 4 ChangeBit-ChangeBit-ChangeBit-EraseBytes-
+#9214700	NEW    cov: 257 ft: 1660 corp: 310/31Kb lim: 4096 exec/s: 279233 rss: 29Mb L: 84/3718 MS: 3 ChangeBit-ChangeASCIIInt-ChangeBit-
+#9227556	NEW    cov: 257 ft: 1661 corp: 311/31Kb lim: 4096 exec/s: 279622 rss: 29Mb L: 84/3718 MS: 1 ChangeByte-
+#10494438	NEW    cov: 257 ft: 1662 corp: 312/31Kb lim: 4096 exec/s: 283633 rss: 29Mb L: 88/3718 MS: 2 CMP-ChangeBit- DE: "\001\000\000\001"-
+#10497954	REDUCE cov: 257 ft: 1662 corp: 312/31Kb lim: 4096 exec/s: 283728 rss: 29Mb L: 85/3718 MS: 1 EraseBytes-
+#11087080	REDUCE cov: 257 ft: 1662 corp: 312/31Kb lim: 4096 exec/s: 284284 rss: 29Mb L: 84/3718 MS: 1 EraseBytes-
+#12519927	REDUCE cov: 257 ft: 1662 corp: 312/31Kb lim: 4096 exec/s: 284543 rss: 29Mb L: 93/3718 MS: 2 CrossOver-EraseBytes-
+#12778316	REDUCE cov: 257 ft: 1662 corp: 312/31Kb lim: 4096 exec/s: 283962 rss: 29Mb L: 79/3718 MS: 4 CrossOver-ChangeBit-EraseBytes-CrossOver-
+#13860577	NEW    cov: 257 ft: 1663 corp: 313/31Kb lim: 4096 exec/s: 288762 rss: 29Mb L: 228/3718 MS: 5 ChangeByte-ChangeASCIIInt-InsertRepeatedBytes-ChangeBit-CMP- DE: "b\217\223\226\214t"-
+#13860833	REDUCE cov: 257 ft: 1663 corp: 313/31Kb lim: 4096 exec/s: 288767 rss: 29Mb L: 193/3718 MS: 1 EraseBytes-
+#13860954	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 288769 rss: 29Mb L: 193/3718 MS: 1 PersAutoDict- DE: "b\217\223\226\214t"-
+#13861300	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 288777 rss: 29Mb L: 166/3718 MS: 1 EraseBytes-
+#13861581	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 288782 rss: 29Mb L: 153/3718 MS: 1 EraseBytes-
+#13861593	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 288783 rss: 29Mb L: 121/3718 MS: 2 CMP-EraseBytes- DE: "\000\000\000\005"-
+#13862251	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 288796 rss: 29Mb L: 135/3718 MS: 3 ChangeBit-ChangeBinInt-EraseBytes-
+#13867348	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 288903 rss: 29Mb L: 117/3718 MS: 2 CopyPart-EraseBytes-
+#13869630	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 288950 rss: 29Mb L: 121/3718 MS: 2 CopyPart-EraseBytes-
+#13969406	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 285089 rss: 29Mb L: 116/3718 MS: 1 EraseBytes-
+#13969598	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 285093 rss: 29Mb L: 113/3718 MS: 2 ChangeByte-EraseBytes-
+#14028836	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 286302 rss: 29Mb L: 114/3718 MS: 3 ShuffleBytes-PersAutoDict-EraseBytes- DE: "\377\377\377\377\377\377\377$"-
+#14169673	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 289177 rss: 29Mb L: 80/3718 MS: 2 EraseBytes-ChangeBit-
+#14699025	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 288216 rss: 29Mb L: 107/3718 MS: 2 ChangeBit-EraseBytes-
+#16202651	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 289333 rss: 29Mb L: 113/3718 MS: 1 EraseBytes-
+#16777216	pulse  cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 289262 rss: 29Mb
+#17513709	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 291895 rss: 29Mb L: 155/3718 MS: 3 ChangeBit-ChangeBit-EraseBytes-
+#17805995	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 291901 rss: 29Mb L: 153/3718 MS: 1 EraseBytes-
+#19695420	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 293961 rss: 29Mb L: 112/3718 MS: 4 ShuffleBytes-ShuffleBytes-EraseBytes-ChangeBinInt-
+#19945353	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 293314 rss: 29Mb L: 169/3718 MS: 3 EraseBytes-ShuffleBytes-ChangeBinInt-
+#20166789	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 292272 rss: 29Mb L: 160/3718 MS: 1 EraseBytes-
+#20760626	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 292403 rss: 29Mb L: 142/3718 MS: 1 EraseBytes-
+#21067367	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 292602 rss: 29Mb L: 70/3718 MS: 5 ChangeBit-InsertByte-EraseBytes-ChangeByte-ChangeBinInt-
+#24362408	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 297102 rss: 29Mb L: 152/3718 MS: 1 EraseBytes-
+#24473379	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 294859 rss: 29Mb L: 151/3718 MS: 1 EraseBytes-
+#25968522	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 295096 rss: 29Mb L: 82/3718 MS: 2 EraseBytes-ChangeBit-
+#26324824	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 295784 rss: 29Mb L: 79/3718 MS: 2 ChangeBit-EraseBytes-
+#26839521	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 298216 rss: 29Mb L: 76/3718 MS: 2 CrossOver-EraseBytes-
+#26956082	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 296220 rss: 29Mb L: 78/3718 MS: 1 EraseBytes-
+#26998858	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 296690 rss: 29Mb L: 77/3718 MS: 1 EraseBytes-
+#27508814	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 295793 rss: 29Mb L: 73/3718 MS: 1 EraseBytes-
+#28007358	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 297950 rss: 29Mb L: 72/3718 MS: 4 ChangeBit-ChangeByte-ChangeBit-EraseBytes-
+#28078304	REDUCE cov: 257 ft: 1664 corp: 314/31Kb lim: 4096 exec/s: 298705 rss: 29Mb L: 71/3718 MS: 1 EraseBytes-
+#29364951	NEW    cov: 257 ft: 1665 corp: 315/31Kb lim: 4096 exec/s: 296615 rss: 29Mb L: 77/3718 MS: 2 ShuffleBytes-ShuffleBytes-
+#29766103	NEW    cov: 257 ft: 1667 corp: 316/31Kb lim: 4096 exec/s: 297661 rss: 29Mb L: 77/3718 MS: 2 ShuffleBytes-CopyPart-
+#30024699	REDUCE cov: 257 ft: 1667 corp: 316/31Kb lim: 4096 exec/s: 297274 rss: 29Mb L: 76/3718 MS: 1 EraseBytes-
+#32768860	REDUCE cov: 257 ft: 1667 corp: 316/31Kb lim: 4096 exec/s: 300631 rss: 29Mb L: 141/3718 MS: 1 EraseBytes-
+#33554432	pulse  cov: 257 ft: 1667 corp: 316/31Kb lim: 4096 exec/s: 299593 rss: 29Mb
+#33797552	NEW    cov: 257 ft: 1668 corp: 317/31Kb lim: 4096 exec/s: 299093 rss: 29Mb L: 84/3718 MS: 2 ChangeASCIIInt-CMP- DE: "\021\000\000\000\000\000\000\000"-
+#33797638	NEW    cov: 257 ft: 1669 corp: 318/31Kb lim: 4096 exec/s: 299094 rss: 29Mb L: 84/3718 MS: 1 PersAutoDict- DE: "\000\000\000\005"-
+#33797685	NEW    cov: 257 ft: 1670 corp: 319/31Kb lim: 4096 exec/s: 299094 rss: 29Mb L: 84/3718 MS: 2 ShuffleBytes-ShuffleBytes-
+#33797852	NEW    cov: 257 ft: 1671 corp: 320/31Kb lim: 4096 exec/s: 299096 rss: 29Mb L: 84/3718 MS: 2 ChangeBit-ChangeByte-
+#33805463	NEW    cov: 257 ft: 1672 corp: 321/32Kb lim: 4096 exec/s: 299163 rss: 29Mb L: 84/3718 MS: 1 CMP- DE: "\003Vju+X\000\000"-
+#33806640	NEW    cov: 257 ft: 1673 corp: 322/32Kb lim: 4096 exec/s: 299173 rss: 29Mb L: 84/3718 MS: 2 ChangeBit-ChangeBit-
+#33808521	NEW    cov: 257 ft: 1674 corp: 323/32Kb lim: 4096 exec/s: 299190 rss: 29Mb L: 84/3718 MS: 1 PersAutoDict- DE: "\021\000\000\000\000\000\000\000"-
+#33809002	NEW    cov: 257 ft: 1675 corp: 324/32Kb lim: 4096 exec/s: 299194 rss: 29Mb L: 84/3718 MS: 1 ChangeByte-
+#34047174	NEW    cov: 257 ft: 1676 corp: 325/32Kb lim: 4096 exec/s: 301302 rss: 29Mb L: 84/3718 MS: 2 CMP-ChangeBinInt- DE: "\000\216"-
+#34050275	NEW    cov: 257 ft: 1677 corp: 326/32Kb lim: 4096 exec/s: 301329 rss: 29Mb L: 84/3718 MS: 1 ShuffleBytes-
+#34114481	NEW    cov: 257 ft: 1678 corp: 327/32Kb lim: 4096 exec/s: 299249 rss: 29Mb L: 84/3718 MS: 1 ChangeBinInt-
+#34148329	NEW    cov: 257 ft: 1679 corp: 328/32Kb lim: 4096 exec/s: 299546 rss: 29Mb L: 93/3718 MS: 3 ShuffleBytes-PersAutoDict-InsertByte- DE: "\003Vju+X\000\000"-
+#34163187	REDUCE cov: 257 ft: 1679 corp: 328/32Kb lim: 4096 exec/s: 299677 rss: 29Mb L: 89/3718 MS: 3 CopyPart-CrossOver-EraseBytes-
+#34193318	REDUCE cov: 257 ft: 1679 corp: 328/32Kb lim: 4096 exec/s: 299941 rss: 29Mb L: 85/3718 MS: 1 EraseBytes-
+#34286180	REDUCE cov: 257 ft: 1679 corp: 328/32Kb lim: 4096 exec/s: 300755 rss: 29Mb L: 84/3718 MS: 2 CMP-EraseBytes- DE: "Q\000\000\000\000\000\000\000"-
+#34332961	NEW    cov: 257 ft: 1680 corp: 329/32Kb lim: 4096 exec/s: 301166 rss: 29Mb L: 84/3718 MS: 1 ChangeBinInt-
+#34333628	NEW    cov: 257 ft: 1681 corp: 330/32Kb lim: 4096 exec/s: 301172 rss: 29Mb L: 84/3718 MS: 2 ChangeBinInt-ChangeByte-
+#34336489	NEW    cov: 257 ft: 1682 corp: 331/32Kb lim: 4096 exec/s: 301197 rss: 29Mb L: 84/3718 MS: 1 CMP- DE: "\005\000\000\000\000\000\000\000"-
+#34352191	NEW    cov: 257 ft: 1683 corp: 332/32Kb lim: 4096 exec/s: 301335 rss: 29Mb L: 84/3718 MS: 2 ChangeBit-ChangeBinInt-
+#34459293	NEW    cov: 257 ft: 1684 corp: 333/32Kb lim: 4096 exec/s: 302274 rss: 29Mb L: 84/3718 MS: 2 ShuffleBytes-ShuffleBytes-
+#34694139	NEW    cov: 257 ft: 1685 corp: 334/33Kb lim: 4096 exec/s: 301688 rss: 29Mb L: 84/3718 MS: 1 ChangeBit-
+#34700167	NEW    cov: 257 ft: 1686 corp: 335/33Kb lim: 4096 exec/s: 301740 rss: 29Mb L: 84/3718 MS: 3 ChangeByte-ShuffleBytes-PersAutoDict- DE: "\003Vju+X\000\000"-
+#34713613	NEW    cov: 257 ft: 1687 corp: 336/33Kb lim: 4096 exec/s: 301857 rss: 29Mb L: 84/3718 MS: 1 ChangeBit-
+#34748500	NEW    cov: 257 ft: 1688 corp: 337/33Kb lim: 4096 exec/s: 302160 rss: 29Mb L: 116/3718 MS: 2 CopyPart-ChangeBinInt-
+#34752376	NEW    cov: 257 ft: 1689 corp: 338/33Kb lim: 4096 exec/s: 302194 rss: 29Mb L: 116/3718 MS: 1 ChangeBit-
+#34756752	REDUCE cov: 257 ft: 1689 corp: 338/33Kb lim: 4096 exec/s: 302232 rss: 29Mb L: 89/3718 MS: 1 EraseBytes-
+#34756779	REDUCE cov: 257 ft: 1689 corp: 338/33Kb lim: 4096 exec/s: 302232 rss: 29Mb L: 86/3718 MS: 2 ChangeBit-EraseBytes-
+#34827471	NEW    cov: 257 ft: 1690 corp: 339/33Kb lim: 4096 exec/s: 302847 rss: 29Mb L: 114/3718 MS: 2 ChangeByte-CrossOver-
+#34828697	REDUCE cov: 257 ft: 1690 corp: 339/33Kb lim: 4096 exec/s: 302858 rss: 29Mb L: 113/3718 MS: 1 EraseBytes-
+#34831709	REDUCE cov: 257 ft: 1690 corp: 339/33Kb lim: 4096 exec/s: 302884 rss: 29Mb L: 100/3718 MS: 2 ChangeBit-EraseBytes-
+#34833440	REDUCE cov: 257 ft: 1690 corp: 339/33Kb lim: 4096 exec/s: 302899 rss: 29Mb L: 93/3718 MS: 1 EraseBytes-
+#34860171	REDUCE cov: 257 ft: 1690 corp: 339/33Kb lim: 4096 exec/s: 303131 rss: 29Mb L: 78/3718 MS: 1 EraseBytes-
+#34898473	REDUCE cov: 257 ft: 1690 corp: 339/33Kb lim: 4096 exec/s: 300848 rss: 29Mb L: 85/3718 MS: 2 ChangeByte-EraseBytes-
+#35148800	REDUCE cov: 257 ft: 1690 corp: 339/33Kb lim: 4096 exec/s: 303006 rss: 29Mb L: 82/3718 MS: 2 EraseBytes-ChangeBit-
+#35194406	REDUCE cov: 257 ft: 1690 corp: 339/33Kb lim: 4096 exec/s: 303400 rss: 29Mb L: 84/3718 MS: 1 EraseBytes-
+#35240277	REDUCE cov: 257 ft: 1690 corp: 339/33Kb lim: 4096 exec/s: 303795 rss: 29Mb L: 77/3718 MS: 1 EraseBytes-
+#35346568	REDUCE cov: 257 ft: 1690 corp: 339/33Kb lim: 4096 exec/s: 302107 rss: 29Mb L: 81/3718 MS: 1 EraseBytes-
+#35371785	REDUCE cov: 257 ft: 1691 corp: 340/33Kb lim: 4096 exec/s: 302322 rss: 29Mb L: 77/3718 MS: 2 ChangeByte-ChangeBinInt-
+#35504538	REDUCE cov: 257 ft: 1691 corp: 340/33Kb lim: 4096 exec/s: 303457 rss: 29Mb L: 83/3718 MS: 3 ChangeASCIIInt-CrossOver-EraseBytes-
+#35531874	REDUCE cov: 257 ft: 1691 corp: 340/33Kb lim: 4096 exec/s: 303691 rss: 29Mb L: 84/3718 MS: 1 EraseBytes-
+#35616801	REDUCE cov: 257 ft: 1691 corp: 340/33Kb lim: 4096 exec/s: 304417 rss: 29Mb L: 80/3718 MS: 2 ChangeByte-EraseBytes-
+#35623597	REDUCE cov: 257 ft: 1691 corp: 340/33Kb lim: 4096 exec/s: 304475 rss: 29Mb L: 80/3718 MS: 1 EraseBytes-
+#36196489	REDUCE cov: 257 ft: 1691 corp: 340/33Kb lim: 4096 exec/s: 304172 rss: 29Mb L: 112/3718 MS: 2 EraseBytes-ChangeBit-
+#36329571	REDUCE cov: 257 ft: 1691 corp: 340/33Kb lim: 4096 exec/s: 305290 rss: 29Mb L: 78/3718 MS: 2 ChangeBit-EraseBytes-
+#36499812	REDUCE cov: 257 ft: 1691 corp: 340/33Kb lim: 4096 exec/s: 304165 rss: 29Mb L: 77/3718 MS: 1 EraseBytes-
+#36884722	DONE   cov: 257 ft: 1691 corp: 340/33Kb lim: 4096 exec/s: 304832 rss: 29Mb
+###### Recommended dictionary. ######
+"\377\377\377\377\377\377\377$" # Uses: 630345
+"'\000\000\000" # Uses: 547121
+"libplist/src/plist.c" # Uses: 519074
+"\001\000\000\001" # Uses: 408436
+"b\217\223\226\214t" # Uses: 331976
+"\000\000\000\005" # Uses: 332661
+"\021\000\000\000\000\000\000\000" # Uses: 26935
+"\003Vju+X\000\000" # Uses: 26679
+"\000\216" # Uses: 23738
+"Q\000\000\000\000\000\000\000" # Uses: 21673
+"\005\000\000\000\000\000\000\000" # Uses: 20934
+###### End of recommended dictionary. ######
+Done 36884722 runs in 121 second(s)
+stat::number_of_executed_units: 36884722
+stat::average_exec_per_sec:     304832
+stat::new_units_added:          128
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              29
+[INTEGRITY] === Error Summary (116 unique, 0 dropped) ===
+[INTEGRITY]   [1] SHIFT_OVF at libplist/src/bplist.c:855:28 (count=173893)
+[INTEGRITY]   [2] SHIFT_OVF at libplist/src/bplist.c:618:18 (count=183081)
+[INTEGRITY]   [3] SHIFT_OVF at libplist/src/bplist.c:534:18 (count=89834)
+[INTEGRITY]   [4] SHIFT_OVF at libplist/src/bplist.c:535:18 (count=91127)
+[INTEGRITY]   [5] SHIFT_OVF at libplist/src/bplist.c:690:27 (count=5660)
+[INTEGRITY]   [6] OVERFLOW at libplist/src/ptrarray.c:85:0 (count=4491398)
+[INTEGRITY]   [7] OVERFLOW at libplist/src/ptrarray.c:90:13 (count=4491398)
+[INTEGRITY]   [8] OVERFLOW at libplist/src/bplist.c:890:17 (count=1946533)
+[INTEGRITY]   [9] OVERFLOW at libplist/src/bplist.c:0:0 (count=2272239)
+[INTEGRITY]   [10] OVERFLOW at libplist/libcnary/node.c:102:7 (count=1343676)
+[INTEGRITY]   [11] OVERFLOW at libplist/libcnary/node.c:108:8 (count=1279638)
+[INTEGRITY]   [12] OVERFLOW at libplist/libcnary/node.c:100:2 (count=1850678)
+[INTEGRITY]   [13] OVERFLOW at libplist/libcnary/node.c:105:7 (count=1279709)
+[INTEGRITY]   [14] OVERFLOW at libplist/libcnary/node.c:0:0 (count=1952837)
+[INTEGRITY]   [15] OVERFLOW at libplist/libcnary/node.c:107:3 (count=1241444)
+[INTEGRITY]   [16] OVERFLOW at libplist/src/ptrarray.c:94:0 (count=582145)
+[INTEGRITY]   [17] OVERFLOW at libplist/src/bplist.c:835:0 (count=571042)
+[INTEGRITY]   [18] OVERFLOW at libplist/src/bplist.c:855:28 (count=1142084)
+[INTEGRITY]   [19] OVERFLOW at libplist/src/bplist.c:662:0 (count=571042)
+[INTEGRITY]   [20] OVERFLOW at libplist/src/bplist.c:675:9 (count=571042)
+[INTEGRITY]   [21] OVERFLOW at libplist/src/plist.c:360:0 (count=571042)
+[INTEGRITY]   [22] OVERFLOW at libplist/libcnary/node.c:48:0 (count=571042)
+[INTEGRITY]   [23] OVERFLOW at libplist/libcnary/node.c:64:6 (count=571042)
+[INTEGRITY]   [24] OVERFLOW at libplist/src/bplist.c:618:18 (count=1052346)
+[INTEGRITY]   [25] OVERFLOW at libplist/src/bplist.c:887:9 (count=571040)
+[INTEGRITY]   [26] OVERFLOW at libplist/src/bplist.c:633:35 (count=526171)
+[INTEGRITY]   [27] OVERFLOW at libplist/libcnary/node.c:133:0 (count=571040)
+[INTEGRITY]   [28] OVERFLOW at libplist/libcnary/node.c:80:17 (count=571040)
+[INTEGRITY]   [29] OVERFLOW at libplist/libcnary/node.c:80:2 (count=571040)
+[INTEGRITY]   [30] OVERFLOW at libplist/libcnary/node.c:89:0 (count=571040)
+[INTEGRITY]   [31] OVERFLOW at libplist/libcnary/node_list.c:51:0 (count=571040)
+[INTEGRITY]   [32] OVERFLOW at libplist/libcnary/node.c:156:17 (count=571040)
+[INTEGRITY]   [33] OVERFLOW at libplist/src/bplist.c:882:24 (count=570984)
+[INTEGRITY]   [34] OVERFLOW at libplist/src/ptrarray.c:78:0 (count=570984)
+[INTEGRITY]   [35] OVERFLOW at libplist/src/ptrarray.c:81:2 (count=570984)
+[INTEGRITY]   [36] OVERFLOW at libplist/libcnary/node.c:264:25 (count=1255457)
+[INTEGRITY]   [37] OVERFLOW at libplist/libcnary/node.c:116:2 (count=593979)
+[INTEGRITY]   [38] OVERFLOW at libplist/src/bplist.c:746:19 (count=3997)
+[INTEGRITY]   [39] OVERFLOW at libplist/src/bplist.c:608:5 (count=552210)
+[INTEGRITY]   [40] OVERFLOW at libplist/libcnary/node.c:262:0 (count=1190826)
+[INTEGRITY]   [41] OVERFLOW at libplist/src/plist.c:463:5 (count=1181752)
+[INTEGRITY]   [42] OVERFLOW at libplist/libcnary/node.c:163:0 (count=571040)
+[INTEGRITY]   [43] OVERFLOW at libplist/libcnary/node.c:166:6 (count=571040)
+[INTEGRITY]   [44] OVERFLOW at libplist/libcnary/node_list.c:120:0 (count=571040)
+[INTEGRITY]   [45] OVERFLOW at libplist/libcnary/node_list.c:126:7 (count=571040)
+[INTEGRITY]   [46] OVERFLOW at libplist/libcnary/node_list.c:129:7 (count=571040)
+[INTEGRITY]   [47] OVERFLOW at libplist/libcnary/node_list.c:0:0 (count=571040)
+[INTEGRITY]   [48] OVERFLOW at libplist/libcnary/node.c:170:39 (count=571040)
+[INTEGRITY]   [49] OVERFLOW at libplist/src/plist.c:390:0 (count=571042)
+[INTEGRITY]   [50] OVERFLOW at libplist/libcnary/node.c:31:0 (count=571042)
+[INTEGRITY]   [51] OVERFLOW at libplist/libcnary/node_list.c:32:0 (count=571042)
+[INTEGRITY]   [52] OVERFLOW at libplist/src/plist.c:0:0 (count=1713001)
+[INTEGRITY]   [53] OVERFLOW at libplist/src/plist.c:423:5 (count=571040)
+[INTEGRITY]   [54] OVERFLOW at libplist/src/plist.c:473:17 (count=570921)
+[INTEGRITY]   [55] OVERFLOW at libplist/libcnary/node.c:263:6 (count=499190)
+[INTEGRITY]   [56] OVERFLOW at libplist/src/plist.c:392:5 (count=332830)
+[INTEGRITY]   [57] OVERFLOW at libplist/libcnary/node.c:34:21 (count=499190)
+[INTEGRITY]   [58] OVERFLOW at libplist/src/bplist.c:408:20 (count=389956)
+[INTEGRITY]   [59] OVERFLOW at libplist/src/bplist.c:417:27 (count=389956)
+[INTEGRITY]   [60] OVERFLOW at libplist/src/bplist.c:405:2 (count=394582)
+[INTEGRITY]   [61] OVERFLOW at libplist/src/bplist.c:430:37 (count=227671)
+[INTEGRITY]   [62] OVERFLOW at libplist/src/bplist.c:434:37 (count=156817)
+[INTEGRITY]   [63] OVERFLOW at libplist/src/bplist.c:803:16 (count=59006)
+[INTEGRITY]   [64] OVERFLOW at libplist/src/bplist.c:458:0 (count=59006)
+[INTEGRITY]   [65] OVERFLOW at libplist/libcnary/node.c:150:6 (count=56276)
+[INTEGRITY]   [66] OVERFLOW at libplist/libcnary/node_list.c:64:9 (count=56276)
+[INTEGRITY]   [67] OVERFLOW at libplist/libcnary/node_list.c:37:0 (count=47286)
+[INTEGRITY]   [68] OVERFLOW at libplist/libcnary/node_list.c:38:21 (count=47286)
+[INTEGRITY]   [69] OVERFLOW at libplist/libcnary/node.c:152:7 (count=47286)
+[INTEGRITY]   [70] OVERFLOW at libplist/libcnary/node_list.c:67:9 (count=47286)
+[INTEGRITY]   [71] OVERFLOW at libplist/src/bplist.c:706:5 (count=91857)
+[INTEGRITY]   [72] OVERFLOW at libplist/libcnary/node_list.c:137:13 (count=56276)
+[INTEGRITY]   [73] OVERFLOW at libplist/libcnary/node_list.c:140:10 (count=47286)
+[INTEGRITY]   [74] OVERFLOW at libplist/src/plist.c:403:47 (count=92476)
+[INTEGRITY]   [75] OVERFLOW at libplist/src/ptrarray.c:35:0 (count=92476)
+[INTEGRITY]   [76] OVERFLOW at libplist/src/ptrarray.c:36:6 (count=92476)
+[INTEGRITY]   [77] OVERFLOW at libplist/libcnary/node.c:34:6 (count=47286)
+[INTEGRITY]   [78] SHIFT_OVF at libplist/src/bplist.c:795:17 (count=8100)
+[INTEGRITY]   [79] SHIFT_OVF at libplist/src/bplist.c:647:20 (count=3267554)
+[INTEGRITY]   [80] OVERFLOW at libplist/src/bplist.c:720:19 (count=2661)
+[INTEGRITY]   [81] OVERFLOW at libplist/src/bplist.c:287:5 (count=102093)
+[INTEGRITY]   [82] OVERFLOW at libplist/src/bplist.c:304:20 (count=159221)
+[INTEGRITY]   [83] OVERFLOW at libplist/src/bplist.c:792:16 (count=10909)
+[INTEGRITY]   [84] OVERFLOW at libplist/src/bplist.c:365:0 (count=10909)
+[INTEGRITY]   [85] OVERFLOW at libplist/src/bplist.c:379:26 (count=10909)
+[INTEGRITY]   [86] OVERFLOW at libplist/src/bplist.c:326:23 (count=15893)
+[INTEGRITY]   [87] OVERFLOW at libplist/src/bplist.c:408:7 (count=50758)
+[INTEGRITY]   [88] OVERFLOW at libplist/src/bplist.c:417:14 (count=33703)
+[INTEGRITY]   [89] OVERFLOW at libplist/src/bplist.c:647:20 (count=85228)
+[INTEGRITY]   [90] OVERFLOW at libplist/src/bplist.c:654:14 (count=69544)
+[INTEGRITY]   [91] OVERFLOW at libplist/src/bplist.c:296:24 (count=28326)
+[INTEGRITY]   [92] OVERFLOW at libplist/src/bplist.c:437:18 (count=50759)
+[INTEGRITY]   [93] OVERFLOW at libplist/src/plist.c:353:0 (count=83755)
+[INTEGRITY]   [94] OVERFLOW at libplist/src/plist.c:356:42 (count=83755)
+[INTEGRITY]   [95] OVERFLOW at libplist/src/bplist.c:825:16 (count=38396)
+[INTEGRITY]   [96] OVERFLOW at libplist/src/bplist.c:499:0 (count=38396)
+[INTEGRITY]   [97] OVERFLOW at libplist/src/bplist.c:521:5 (count=38395)
+[INTEGRITY]   [98] OVERFLOW at libplist/src/plist.c:409:13 (count=38396)
+[INTEGRITY]   [99] OVERFLOW at libplist/src/plist.c:410:17 (count=38396)
+[INTEGRITY]   [100] OVERFLOW at libplist/src/hashtable.c:38:0 (count=38396)
+[INTEGRITY]   [101] OVERFLOW at libplist/src/hashtable.c:39:6 (count=38396)
+[INTEGRITY]   [102] OVERFLOW at libplist/src/bplist.c:337:23 (count=15874)
+[INTEGRITY]   [103] OVERFLOW at libplist/src/bplist.c:778:16 (count=36524)
+[INTEGRITY]   [104] OVERFLOW at libplist/src/bplist.c:355:0 (count=36524)
+[INTEGRITY]   [105] OVERFLOW at libplist/src/bplist.c:733:19 (count=15872)
+[INTEGRITY]   [106] OVERFLOW at libplist/src/bplist.c:785:16 (count=46131)
+[INTEGRITY]   [107] OVERFLOW at libplist/src/bplist.c:479:0 (count=46131)
+[INTEGRITY]   [108] OVERFLOW at libplist/src/bplist.c:493:24 (count=46131)
+[INTEGRITY]   [109] OVERFLOW at libplist/src/plist.c:399:24 (count=46131)
+[INTEGRITY]   [110] OVERFLOW at libplist/src/bplist.c:409:8 (count=5547)
+[INTEGRITY]   [111] OVERFLOW at libplist/src/bplist.c:418:8 (count=12134)
+[INTEGRITY]   [112] OVERFLOW at libplist/src/bplist.c:807:21 (count=5119)
+[INTEGRITY]   [113] OVERFLOW at libplist/src/bplist.c:781:21 (count=4599)
+[INTEGRITY]   [114] OVERFLOW at libplist/src/bplist.c:788:21 (count=4916)
+[INTEGRITY]   [115] OVERFLOW at libplist/src/bplist.c:821:21 (count=5094)
+[INTEGRITY]   [116] OVERFLOW at libplist/src/bplist.c:799:21 (count=32048)

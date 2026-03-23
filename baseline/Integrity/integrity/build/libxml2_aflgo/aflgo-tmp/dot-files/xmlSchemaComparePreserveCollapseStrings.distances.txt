@@ -1,0 +1,8 @@
+xmlschemastypes.c:4515,7
+xmlschemastypes.c:4518,5
+xmlschemastypes.c:4516,8
+xmlschemastypes.c:4520,8
+xmlschemastypes.c:4541,7
+xmlschemastypes.c:4519,4
+xmlschemastypes.c:4545,2
+xmlschemastypes.c:4544,0

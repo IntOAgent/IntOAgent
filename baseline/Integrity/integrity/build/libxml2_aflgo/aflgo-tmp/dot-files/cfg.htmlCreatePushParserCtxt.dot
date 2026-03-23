@@ -1,0 +1,23 @@
+digraph "CFG for 'htmlCreatePushParserCtxt' function" {
+	label="CFG for 'htmlCreatePushParserCtxt' function";
+
+	Node0x39c47f0 [shape=record,label="{HTMLparser.c:5225:}"];
+	Node0x39c47f0 -> Node0x399b2f0;
+	Node0x39c47f0 -> Node0x39c4840;
+	Node0x39c4840 [shape=record,label="{HTMLparser.c:5229:}"];
+	Node0x39c4840 -> Node0x39c4890;
+	Node0x39c4840 -> Node0x39c48e0;
+	Node0x39c4890 [shape=record,label="{HTMLparser.c:4585:}"];
+	Node0x39c4890 -> Node0x399b2f0;
+	Node0x39c48e0 [shape=record,label="{HTMLparser.c:5236:}"];
+	Node0x39c48e0 -> Node0x39c4930;
+	Node0x39c48e0 -> Node0x39c4980;
+	Node0x39c4930 [shape=record,label="{HTMLparser.c:5237:}"];
+	Node0x39c4930 -> Node0x399b2f0;
+	Node0x39c4980 [shape=record,label="{HTMLparser.c:5242:}"];
+	Node0x39c4980 -> Node0x399b2f0;
+	Node0x39c4980 -> Node0x39c49d0;
+	Node0x39c49d0 [shape=record,label="{HTMLparser.c:5243:}"];
+	Node0x39c49d0 -> Node0x399b2f0;
+	Node0x399b2f0 [shape=record,label="{HTMLparser.c:5246:}"];
+}

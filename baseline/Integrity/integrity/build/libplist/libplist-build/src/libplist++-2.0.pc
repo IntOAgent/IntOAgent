@@ -1,0 +1,11 @@
+prefix=/home/xxx/PHDlife/fuxian/integrity/build/libplist/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libplist++
+Description: C++ binding for libplist
+Version: 2.7.0-52-g6e03a1d
+Libs: -L${libdir} -lplist++-2.0
+Cflags: -I${includedir}
+Requires.private: libplist-2.0 >= 2.7.0-52-g6e03a1d

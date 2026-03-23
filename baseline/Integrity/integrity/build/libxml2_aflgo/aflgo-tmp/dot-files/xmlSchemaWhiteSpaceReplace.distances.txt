@@ -1,0 +1,13 @@
+xmlschemastypes.c:2194,7.3102155576382382
+xmlschemastypes.c:2197,6.0606060606060614
+xmlschemastypes.c:2199,7.3102155576382382
+xmlschemastypes.c:2203,10
+xmlschemastypes.c:2207,0
+xmlschemastypes.c:2197,6.0606060606060614
+xmlschemastypes.c:2199,7.3102155576382382
+xmlschemastypes.c:2203,10
+xmlschemastypes.c:2207,0
+xmlschemastypes.c:2197,6.0606060606060614
+xmlschemastypes.c:2199,7.3102155576382382
+xmlschemastypes.c:2203,10
+xmlschemastypes.c:2207,0

@@ -1,0 +1,33 @@
+digraph "CFG for 'xmlSchemaIllegalAttrErr' function" {
+	label="CFG for 'xmlSchemaIllegalAttrErr' function";
+
+	Node0x2e93ade0 [shape=record,label="{xmlschemas.c:2543:}"];
+	Node0x2e93ade0 -> Node0x2e93bfe0;
+	Node0x2e93ade0 -> Node0x2e93be00;
+	Node0x2e93be00 [shape=record,label="{xmlschemas.c:2533:}"];
+	Node0x2e93be00 -> Node0x2e93bea0;
+	Node0x2e93be00 -> Node0x2e93be50;
+	Node0x2e93be50 [shape=record,label="{xmlschemas.c:1264:}"];
+	Node0x2e93be50 -> Node0x2e93bea0;
+	Node0x2e93bea0 [shape=record,label="{xmlschemas.c:1268:}"];
+	Node0x2e93bea0 -> Node0x2e93bf90;
+	Node0x2e93bea0 -> Node0x2e93bef0;
+	Node0x2e93bef0 [shape=record,label="{xmlschemas.c:1269:}"];
+	Node0x2e93bef0 -> Node0x2e93bfe0;
+	Node0x2e93bef0 -> Node0x2e93bf40;
+	Node0x2e93bf40 [shape=record,label="{xmlschemas.c:1271:}"];
+	Node0x2e93bf40 -> Node0x2e93bfe0;
+	Node0x2e93bf90 [shape=record,label="{xmlschemas.c:1273:}"];
+	Node0x2e93bf90 -> Node0x2e93bfe0;
+	Node0x2e93bfe0 [shape=record,label="{xmlschemas.c:2177:}"];
+	Node0x2e93bfe0 -> Node0x2e93c080;
+	Node0x2e93bfe0 -> Node0x2e93c030;
+	Node0x2e93c030 [shape=record,label="{xmlschemas.c:2550:}"];
+	Node0x2e93c030 -> Node0x2e93c080;
+	Node0x2e93c080 [shape=record,label="{xmlschemas.c:2551:}"];
+	Node0x2e93c080 -> Node0x2e8e7c90;
+	Node0x2e93c080 -> Node0x2e8e7c40;
+	Node0x2e8e7c40 [shape=record,label="{xmlschemas.c:2551:1}"];
+	Node0x2e8e7c40 -> Node0x2e8e7c90;
+	Node0x2e8e7c90 [shape=record,label="{xmlschemas.c:2552:}"];
+}

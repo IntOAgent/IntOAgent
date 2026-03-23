@@ -1,0 +1,35 @@
+digraph "CFG for 'charactersSplit' function" {
+	label="CFG for 'charactersSplit' function";
+
+	Node0x2deb9410 [shape=record,label="{xmlschemas.c:28008:}"];
+	Node0x2deb9410 -> Node0x2deb97f0;
+	Node0x2deb9410 -> Node0x2deb94d0;
+	Node0x2deb94d0 [shape=record,label="{xmlschemas.c:28010:}"];
+	Node0x2deb94d0 -> Node0x2deb95c0;
+	Node0x2deb94d0 -> Node0x2deb9520;
+	Node0x2deb9520 [shape=record,label="{xmlschemas.c:28010:1}"];
+	Node0x2deb9520 -> Node0x2deb95c0;
+	Node0x2deb9520 -> Node0x2deb9570;
+	Node0x2deb9570 [shape=record,label="{xmlschemas.c:28011:}"];
+	Node0x2deb9570 -> Node0x2deb95c0;
+	Node0x2deb95c0 [shape=record,label="{xmlschemas.c:28012:}"];
+	Node0x2deb95c0 -> Node0x2deb97f0;
+	Node0x2deb95c0 -> Node0x2deb9610;
+	Node0x2deb9610 [shape=record,label="{xmlschemas.c:26761:}"];
+	Node0x2deb9610 -> Node0x2deb97f0;
+	Node0x2deb9610 -> Node0x2deb9660;
+	Node0x2deb9660 [shape=record,label="{xmlschemas.c:26763:}"];
+	Node0x2deb9660 -> Node0x2deb96b0;
+	Node0x2deb9660 -> Node0x2deb97f0;
+	Node0x2deb96b0 [shape=record,label="{xmlschemas.c:26765:}"];
+	Node0x2deb96b0 -> Node0x2deb9750;
+	Node0x2deb96b0 -> Node0x2deb9700;
+	Node0x2deb9700 [shape=record,label="{xmlschemas.c:26766:}"];
+	Node0x2deb9700 -> Node0x2deb9750;
+	Node0x2deb9750 [shape=record,label="{xmlschemas.c:26767:}"];
+	Node0x2deb9750 -> Node0x2deb97a0;
+	Node0x2deb9750 -> Node0x2deb97f0;
+	Node0x2deb97a0 [shape=record,label="{xmlschemas.c:26769:}"];
+	Node0x2deb97a0 -> Node0x2deb97f0;
+	Node0x2deb97f0 [shape=record,label="{xmlschemas.c:28014:}"];
+}

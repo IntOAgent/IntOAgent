@@ -1,0 +1,48 @@
+digraph "CFG for 'xmlSAXParseDTD' function" {
+	label="CFG for 'xmlSAXParseDTD' function";
+
+	Node0x270a0750 [shape=record,label="{parser.c:11603:}"];
+	Node0x270a0750 -> Node0x270a0d40;
+	Node0x270a0750 -> Node0x270a0840;
+	Node0x270a0840 [shape=record,label="{parser.c:11605:}"];
+	Node0x270a0840 -> Node0x270a0d40;
+	Node0x270a0840 -> Node0x270a0890;
+	Node0x270a0890 [shape=record,label="{parser.c:13217:}"];
+	Node0x270a0890 -> Node0x270a0930;
+	Node0x270a0890 -> Node0x270a08e0;
+	Node0x270a08e0 [shape=record,label="{parser.c:13218:}"];
+	Node0x270a08e0 -> Node0x270a0980;
+	Node0x270a0930 [shape=record,label="{parser.c:13171:}"];
+	Node0x270a0930 -> Node0x270a0980;
+	Node0x270a0980 [shape=record,label="{parser.c:11614:}"];
+	Node0x270a0980 -> Node0x270a09d0;
+	Node0x270a0980 -> Node0x270a0a20;
+	Node0x270a09d0 [shape=record,label="{parser.c:11616:}"];
+	Node0x270a09d0 -> Node0x270a0d40;
+	Node0x270a0a20 [shape=record,label="{parser.c:11624:}"];
+	Node0x270a0a20 -> Node0x270a0b10;
+	Node0x270a0a20 -> Node0x270a0a70;
+	Node0x270a0a70 [shape=record,label="{parser.c:11624:1}"];
+	Node0x270a0a70 -> Node0x270a0b10;
+	Node0x270a0a70 -> Node0x270a0ac0;
+	Node0x270a0ac0 [shape=record,label="{parser.c:11625:}"];
+	Node0x270a0ac0 -> Node0x270a0b10;
+	Node0x270a0b10 [shape=record,label="{parser.c:11627:}"];
+	Node0x270a0b10 -> Node0x270a0b60;
+	Node0x270a0b10 -> Node0x270a0c00;
+	Node0x270a0b60 [shape=record,label="{parser.c:11628:}"];
+	Node0x270a0b60 -> Node0x270a0d40;
+	Node0x270a0b60 -> Node0x270a0bb0;
+	Node0x270a0bb0 [shape=record,label="{parser.c:11630:}"];
+	Node0x270a0bb0 -> Node0x270a0d40;
+	Node0x270a0c00 [shape=record,label="{parser.c:11634:}"];
+	Node0x270a0c00 -> Node0x270a0c50;
+	Node0x270a0c00 -> Node0x270a0ca0;
+	Node0x270a0c50 [shape=record,label="{parser.c:11635:}"];
+	Node0x270a0c50 -> Node0x270a0cf0;
+	Node0x270a0ca0 [shape=record,label="{parser.c:11637:}"];
+	Node0x270a0ca0 -> Node0x270a0cf0;
+	Node0x270a0cf0 [shape=record,label="{parser.c:11639:}"];
+	Node0x270a0cf0 -> Node0x270a0d40;
+	Node0x270a0d40 [shape=record,label="{parser.c:11643:}"];
+}

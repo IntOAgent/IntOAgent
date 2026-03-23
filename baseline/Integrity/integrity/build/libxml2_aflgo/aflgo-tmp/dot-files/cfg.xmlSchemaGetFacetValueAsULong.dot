@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlSchemaGetFacetValueAsULong' function" {
+	label="CFG for 'xmlSchemaGetFacetValueAsULong' function";
+
+	Node0xc98e80 [shape=record,label="{xmlschemastypes.c:5212:}"];
+	Node0xc98e80 -> Node0xc98fa0;
+	Node0xc98e80 -> Node0xc98f00;
+	Node0xc98f00 [shape=record,label="{xmlschemastypes.c:5213:}"];
+	Node0xc98f00 -> Node0xc98fa0;
+	Node0xc98f00 -> Node0xc98f50;
+	Node0xc98f50 [shape=record,label="{xmlschemastypes.c:5215:}"];
+	Node0xc98f50 -> Node0xc98fa0;
+	Node0xc98fa0 [shape=record,label="{xmlschemastypes.c:5216:}"];
+}

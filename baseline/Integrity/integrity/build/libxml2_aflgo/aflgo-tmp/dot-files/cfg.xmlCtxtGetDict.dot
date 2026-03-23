@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCtxtGetDict' function" {
+	label="CFG for 'xmlCtxtGetDict' function";
+
+	Node0x8e6ade0 [shape=record,label="{parserInternals.c:3138:}"];
+	Node0x8e6ade0 -> Node0x8e6ae80;
+	Node0x8e6ade0 -> Node0x8e6ae30;
+	Node0x8e6ae30 [shape=record,label="{parserInternals.c:3141:}"];
+	Node0x8e6ae30 -> Node0x8e6ae80;
+	Node0x8e6ae80 [shape=record,label="{parserInternals.c:3142:}"];
+}

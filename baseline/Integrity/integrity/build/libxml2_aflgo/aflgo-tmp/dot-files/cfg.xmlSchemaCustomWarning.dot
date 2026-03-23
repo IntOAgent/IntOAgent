@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSchemaCustomWarning' function" {
+	label="CFG for 'xmlSchemaCustomWarning' function";
+
+	Node0x2dfb87f0 [shape=record,label="{xmlschemas.c:2388:}"];
+	Node0x2dfb87f0 -> Node0x2dfb89e0;
+	Node0x2dfb87f0 -> Node0x2dfb8990;
+	Node0x2dfb8990 [shape=record,label="{xmlschemas.c:2398:}"];
+	Node0x2dfb8990 -> Node0x2dfb89e0;
+	Node0x2dfb89e0 [shape=record,label="{xmlschemas.c:2399:}"];
+}

@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlNewInputFromFd' function" {
+	label="CFG for 'xmlNewInputFromFd' function";
+
+	Node0x8de4c00 [shape=record,label="{parserInternals.c:2019:}"];
+	Node0x8de4c00 -> Node0x8de4dd0;
+	Node0x8de4c00 -> Node0x8de4c90;
+	Node0x8de4c90 [shape=record,label="{parserInternals.c:2022:}"];
+	Node0x8de4c90 -> Node0x8de4dd0;
+	Node0x8de4c90 -> Node0x8de4ce0;
+	Node0x8de4ce0 [shape=record,label="{parserInternals.c:2026:}"];
+	Node0x8de4ce0 -> Node0x8de4d80;
+	Node0x8de4ce0 -> Node0x8de4d30;
+	Node0x8de4d30 [shape=record,label="{parserInternals.c:2027:}"];
+	Node0x8de4d30 -> Node0x8de4dd0;
+	Node0x8de4d80 [shape=record,label="{parserInternals.c:2031:}"];
+	Node0x8de4d80 -> Node0x8de4dd0;
+	Node0x8de4dd0 [shape=record,label="{parserInternals.c:2032:}"];
+}

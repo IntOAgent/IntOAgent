@@ -1,0 +1,21 @@
+digraph "CFG for 'xmlInitRandom' function" {
+	label="CFG for 'xmlInitRandom' function";
+
+	Node0x15e968c0 [shape=record,label="{dict.c:916:}"];
+	Node0x15e968c0 -> Node0x15e96ae0;
+	Node0x15e968c0 -> Node0x15e96950;
+	Node0x15e96950 [shape=record,label="{dict.c:940:}"];
+	Node0x15e96950 -> Node0x15e969a0;
+	Node0x15e969a0 [shape=record,label="{dict.c:949:}"];
+	Node0x15e969a0 -> Node0x15e969f0;
+	Node0x15e969a0 -> Node0x15e96a90;
+	Node0x15e969a0 -> Node0x15e96a40;
+	Node0x15e969f0 [shape=record,label="{dict.c:958:}"];
+	Node0x15e969f0 -> Node0x15e96a40;
+	Node0x15e96a40 [shape=record,label="{dict.c:940:1}"];
+	Node0x15e96a40 -> Node0x15e96ae0;
+	Node0x15e96a40 -> Node0x15e969a0;
+	Node0x15e96a90 [shape=record,label="{dict.c:967:}"];
+	Node0x15e96a90 -> Node0x15e96ae0;
+	Node0x15e96ae0 [shape=record,label="{dict.c:973:}"];
+}

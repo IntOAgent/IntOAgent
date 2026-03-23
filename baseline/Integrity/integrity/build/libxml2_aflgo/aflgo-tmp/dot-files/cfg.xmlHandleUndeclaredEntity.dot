@@ -1,0 +1,34 @@
+digraph "CFG for 'xmlHandleUndeclaredEntity' function" {
+	label="CFG for 'xmlHandleUndeclaredEntity' function";
+
+	Node0x271b5230 [shape=record,label="{parser.c:7354:}"];
+	Node0x271b5230 -> Node0x271b5b10;
+	Node0x271b5230 -> Node0x271b5a70;
+	Node0x271b5a70 [shape=record,label="{parser.c:7355:}"];
+	Node0x271b5a70 -> Node0x271b5ac0;
+	Node0x271b5a70 -> Node0x271b5b60;
+	Node0x271b5ac0 [shape=record,label="{parser.c:7356:}"];
+	Node0x271b5ac0 -> Node0x271b5b10;
+	Node0x271b5ac0 -> Node0x271b5b60;
+	Node0x271b5b10 [shape=record,label="{parser.c:349:}"];
+	Node0x271b5b10 -> Node0x271b6780;
+	Node0x271b5b60 [shape=record,label="{parser.c:7360:}"];
+	Node0x271b5b60 -> Node0x271b65f0;
+	Node0x271b5b60 -> Node0x271b65a0;
+	Node0x271b65a0 [shape=record,label="{parser.c:295:}"];
+	Node0x271b65a0 -> Node0x271b6780;
+	Node0x271b65f0 [shape=record,label="{parser.c:7371:}"];
+	Node0x271b65f0 -> Node0x271b6640;
+	Node0x271b65f0 -> Node0x271b66e0;
+	Node0x271b6640 [shape=record,label="{parser.c:7372:}"];
+	Node0x271b6640 -> Node0x271b6730;
+	Node0x271b6640 -> Node0x271b6690;
+	Node0x271b6690 [shape=record,label="{parser.c:7373:}"];
+	Node0x271b6690 -> Node0x271b66e0;
+	Node0x271b6690 -> Node0x271b6730;
+	Node0x271b66e0 [shape=record,label="{parser.c:365:}"];
+	Node0x271b66e0 -> Node0x271b6780;
+	Node0x271b6730 [shape=record,label="{parser.c:277:}"];
+	Node0x271b6730 -> Node0x271b6780;
+	Node0x271b6780 [shape=record,label="{parser.c:7389:}"];
+}

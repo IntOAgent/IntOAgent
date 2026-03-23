@@ -1,0 +1,9 @@
+xmlschemastypes.c:4106,8.8201878537338576
+xmlschemastypes.c:4110,0
+xmlschemastypes.c:4111,0
+xmlschemastypes.c:4112,0
+xmlschemastypes.c:4113,0
+xmlschemastypes.c:4115,0
+xmlschemastypes.c:4116,0
+xmlschemastypes.c:4117,0
+xmlschemastypes.c:4118,0

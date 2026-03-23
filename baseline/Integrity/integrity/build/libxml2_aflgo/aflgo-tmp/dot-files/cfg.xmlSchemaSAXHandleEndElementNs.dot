@@ -1,0 +1,38 @@
+digraph "CFG for 'xmlSchemaSAXHandleEndElementNs' function" {
+	label="CFG for 'xmlSchemaSAXHandleEndElementNs' function";
+
+	Node0x2de91030 [shape=record,label="{xmlschemas.c:26978:}"];
+	Node0x2de91030 -> Node0x2de920d0;
+	Node0x2de91030 -> Node0x2de91ea0;
+	Node0x2de91ea0 [shape=record,label="{xmlschemas.c:26985:}"];
+	Node0x2de91ea0 -> Node0x2de91ef0;
+	Node0x2de91ea0 -> Node0x2de92080;
+	Node0x2de91ef0 [shape=record,label="{xmlschemas.c:26986:}"];
+	Node0x2de91ef0 -> Node0x2de91f40;
+	Node0x2de91ef0 -> Node0x2de91f90;
+	Node0x2de91f40 [shape=record,label="{xmlschemas.c:26986:1}"];
+	Node0x2de91f40 -> Node0x2de91f90;
+	Node0x2de91f90 [shape=record,label="{xmlschemas.c:26986:2}"];
+	Node0x2de91f90 -> Node0x2de91fe0;
+	Node0x2de91f90 -> Node0x2de92030;
+	Node0x2de91fe0 [shape=record,label="{xmlschemas.c:26986:3}"];
+	Node0x2de91fe0 -> Node0x2de92030;
+	Node0x2de92030 [shape=record,label="{xmlschemas.c:26986:4}"];
+	Node0x2de92030 -> Node0x2de92260;
+	Node0x2de92080 [shape=record,label="{xmlschemas.c:26989:}"];
+	Node0x2de92080 -> Node0x2de920d0;
+	Node0x2de920d0 [shape=record,label="{xmlschemas.c:26994:}"];
+	Node0x2de920d0 -> Node0x2de92170;
+	Node0x2de920d0 -> Node0x2de92120;
+	Node0x2de92120 [shape=record,label="{xmlschemas.c:26995:}"];
+	Node0x2de92120 -> Node0x2de92170;
+	Node0x2de92120 -> Node0x2de921c0;
+	Node0x2de92170 [shape=record,label="{xmlschemas.c:26996:}"];
+	Node0x2de92170 -> Node0x2de921c0;
+	Node0x2de921c0 [shape=record,label="{xmlschemas.c:26999:}"];
+	Node0x2de921c0 -> Node0x2de92210;
+	Node0x2de921c0 -> Node0x2de92260;
+	Node0x2de92210 [shape=record,label="{xmlschemas.c:27002:}"];
+	Node0x2de92210 -> Node0x2de92260;
+	Node0x2de92260 [shape=record,label="{xmlschemas.c:27013:}"];
+}

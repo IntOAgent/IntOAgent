@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlHashCopy' function" {
+	label="CFG for 'xmlHashCopy' function";
+
+	Node0x957d2b0 [shape=record,label="{hash.c:1162:}"];
+}

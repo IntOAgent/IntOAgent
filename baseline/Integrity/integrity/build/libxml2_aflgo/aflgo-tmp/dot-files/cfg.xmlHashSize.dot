@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlHashSize' function" {
+	label="CFG for 'xmlHashSize' function";
+
+	Node0x957d300 [shape=record,label="{hash.c:1174:}"];
+	Node0x957d300 -> Node0x952f050;
+	Node0x957d300 -> Node0x952f000;
+	Node0x952f000 [shape=record,label="{hash.c:1176:}"];
+	Node0x952f000 -> Node0x952f050;
+	Node0x952f050 [shape=record,label="{hash.c:1177:}"];
+}

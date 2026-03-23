@@ -1,0 +1,16 @@
+xmlreader.c:280,22.337926886216842
+xmlreader.c:281,22.337926886216842
+xmlreader.c:284,20.961180334192434
+xmlreader.c:286,30
+xmlreader.c:287,30
+xmlreader.c:289,12.687058823529412
+xmlreader.c:290,28.63636363636364
+xmlreader.c:292,7
+xmlreader.c:296,7
+xmlreader.c:298,7
+xmlreader.c:299,6
+xmlreader.c:302,6
+xmlreader.c:305,4
+xmlreader.c:306,3
+xmlreader.c:307,2
+xmlreader.c:309,0

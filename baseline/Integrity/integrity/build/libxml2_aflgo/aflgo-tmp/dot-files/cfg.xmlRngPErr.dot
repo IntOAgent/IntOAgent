@@ -1,0 +1,45 @@
+digraph "CFG for 'xmlRngPErr' function" {
+	label="CFG for 'xmlRngPErr' function";
+
+	Node0x12d74f90 [shape=record,label="{relaxng.c:457:}"];
+	Node0x12d74f90 -> Node0x12d75350;
+	Node0x12d74f90 -> Node0x12d751c0;
+	Node0x12d751c0 [shape=record,label="{relaxng.c:458:}"];
+	Node0x12d751c0 -> Node0x12d75210;
+	Node0x12d751c0 -> Node0x12d75260;
+	Node0x12d75210 [shape=record,label="{relaxng.c:461:}"];
+	Node0x12d75210 -> Node0x12d75260;
+	Node0x12d75260 [shape=record,label="{relaxng.c:462:}"];
+	Node0x12d75260 -> Node0x12d752b0;
+	Node0x12d75260 -> Node0x12d75300;
+	Node0x12d752b0 [shape=record,label="{relaxng.c:463:}"];
+	Node0x12d752b0 -> Node0x12d75300;
+	Node0x12d75300 [shape=record,label="{relaxng.c:463:1}"];
+	Node0x12d75300 -> Node0x12d75350;
+	Node0x12d75350 [shape=record,label="{relaxng.c:453:}"];
+	Node0x12d75350 -> Node0x12d753a0;
+	Node0x12d75350 -> Node0x12d753f0;
+	Node0x12d753a0 [shape=record,label="{relaxng.c:467:}"];
+	Node0x12d753a0 -> Node0x12d753f0;
+	Node0x12d753f0 [shape=record,label="{relaxng.c:471:}"];
+	Node0x12d753f0 -> Node0x12d75440;
+	Node0x12d753f0 -> Node0x12d75670;
+	Node0x12d75440 [shape=record,label="{relaxng.c:402:}"];
+	Node0x12d75440 -> Node0x12d75620;
+	Node0x12d75440 -> Node0x12d75490;
+	Node0x12d75490 [shape=record,label="{relaxng.c:403:}"];
+	Node0x12d75490 -> Node0x12d754e0;
+	Node0x12d75490 -> Node0x12d75530;
+	Node0x12d754e0 [shape=record,label="{relaxng.c:406:}"];
+	Node0x12d754e0 -> Node0x12d75530;
+	Node0x12d75530 [shape=record,label="{relaxng.c:407:}"];
+	Node0x12d75530 -> Node0x12d75580;
+	Node0x12d75530 -> Node0x12d755d0;
+	Node0x12d75580 [shape=record,label="{relaxng.c:408:}"];
+	Node0x12d75580 -> Node0x12d755d0;
+	Node0x12d755d0 [shape=record,label="{relaxng.c:408:2}"];
+	Node0x12d755d0 -> Node0x12d75620;
+	Node0x12d75620 [shape=record,label="{relaxng.c:399:}"];
+	Node0x12d75620 -> Node0x12d75670;
+	Node0x12d75670 [shape=record,label="{relaxng.c:477:}"];
+}

@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlHasFeature' function" {
+	label="CFG for 'xmlHasFeature' function";
+
+	Node0x269f3c30 [shape=record,label="{parser.c:496:}"];
+	Node0x269f3c30 -> Node0x269f3cc0;
+	Node0x269f3c30 -> Node0x269f3d10;
+	Node0x269f3cc0 [shape=record,label="{parser.c:496:1}"];
+	Node0x269f3cc0 -> Node0x269f3d10;
+	Node0x269f3d10 [shape=record,label="{parser.c:496:2}"];
+	Node0x269f3d10 -> Node0x269f3d60;
+	Node0x269f3d10 -> Node0x269f3db0;
+	Node0x269f3d60 [shape=record,label="{parser.c:496:3}"];
+	Node0x269f3d60 -> Node0x269f3db0;
+	Node0x269f3db0 [shape=record,label="{parser.c:496:4}"];
+	Node0x269f3db0 -> Node0x269f3e00;
+	Node0x269f3db0 -> Node0x269f3e50;
+	Node0x269f3e00 [shape=record,label="{parser.c:496:5}"];
+	Node0x269f3e00 -> Node0x269f3e50;
+	Node0x269f3e50 [shape=record,label="{parser.c:665:}"];
+}

@@ -1,0 +1,14 @@
+bytearray.c:60,0
+bytearray.c:61,0
+bytearray.c:62,0
+bytearray.c:67,6.0729349897630973
+bytearray.c:68,4.7233092699772241
+bytearray.c:69,3
+bytearray.c:75,0
+bytearray.c:76,4.0448139706590469
+bytearray.c:77,0
+bytearray.c:60,0
+bytearray.c:61,0
+bytearray.c:62,0
+bytearray.c:80,3
+bytearray.c:82,0

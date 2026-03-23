@@ -1,0 +1,16 @@
+digraph "CFG for 'xmlListReverseWalk' function" {
+	label="CFG for 'xmlListReverseWalk' function";
+
+	Node0xdff3860 [shape=record,label="{list.c:637:}"];
+	Node0xdff3860 -> Node0xdff39a0;
+	Node0xdff3860 -> Node0xdff38b0;
+	Node0xdff38b0 [shape=record,label="{list.c:639:}"];
+	Node0xdff38b0 -> Node0xdff3900;
+	Node0xdff3900 [shape=record,label="{list.c:639:1}"];
+	Node0xdff3900 -> Node0xdff39a0;
+	Node0xdff3900 -> Node0xdff3950;
+	Node0xdff3950 [shape=record,label="{list.c:640:}"];
+	Node0xdff3950 -> Node0xdff39a0;
+	Node0xdff3950 -> Node0xdff3900;
+	Node0xdff39a0 [shape=record,label="{list.c:643:}"];
+}

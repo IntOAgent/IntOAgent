@@ -1,0 +1,33 @@
+<<!DCTY~E HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnome-xml"push mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="whit>
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+ u,tmË
+l  <body>
+    <div>
+      <h3>
+        <a href="https://html.spec.wh  </tr>
+  </table>
+  </boatwg.org/multipage/parsing.html    <div>
+        <!-->the previous no$de shoulddy>
+</htm be an empty)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) comment, and this should be a text node-->
+      </div>
+      <div>
+        <!--->the previous0nodehould be an empty comment, and this should be a text node-->
+      </dl> otdiv>
+    </div>
+  
+ </body>
+</htmlml>

@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlTextWriterWriteDocCallback' function" {
+	label="CFG for 'xmlTextWriterWriteDocCallback' function";
+
+	Node0x2d3febe0 [shape=record,label="{xmlwriter.c:4267:}"];
+	Node0x2d3febe0 -> Node0x2d402150;
+	Node0x2d3febe0 -> Node0x2d402100;
+	Node0x2d402100 [shape=record,label="{xmlwriter.c:152:}"];
+	Node0x2d402100 -> Node0x2d402150;
+	Node0x2d402150 [shape=record,label="{xmlwriter.c:4279:}"];
+}

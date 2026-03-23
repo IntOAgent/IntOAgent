@@ -1,0 +1,15 @@
+digraph "CFG for 'xmlRegisterInputCallbacks' function" {
+	label="CFG for 'xmlRegisterInputCallbacks' function";
+
+	Node0x98015b0 [shape=record,label="{xmlIO.c:2785:}"];
+	Node0x98015b0 -> Node0x9801720;
+	Node0x98015b0 -> Node0x9801630;
+	Node0x9801630 [shape=record,label="{xmlIO.c:2790:}"];
+	Node0x9801630 -> Node0x9801680;
+	Node0x9801630 -> Node0x98016d0;
+	Node0x9801680 [shape=record,label="{xmlIO.c:2794:}"];
+	Node0x9801680 -> Node0x98016d0;
+	Node0x98016d0 [shape=record,label="{xmlIO.c:2794:1}"];
+	Node0x98016d0 -> Node0x9801720;
+	Node0x9801720 [shape=record,label="{xmlIO.c:2795:}"];
+}

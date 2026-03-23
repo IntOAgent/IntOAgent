@@ -1,0 +1,40 @@
+digraph "CFG for 'xmlSwitchInputEncodingName' function" {
+	label="CFG for 'xmlSwitchInputEncodingName' function";
+
+	Node0x8d73f30 [shape=record,label="{parserInternals.c:1295:}"];
+	Node0x8d73f30 -> Node0x8d743c0;
+	Node0x8d73f30 -> Node0x8d74000;
+	Node0x8d74000 [shape=record,label="{parserInternals.c:1302:}"];
+	Node0x8d74000 -> Node0x8d740a0;
+	Node0x8d74000 -> Node0x8d74050;
+	Node0x8d74000 -> Node0x8d741e0;
+	Node0x8d74050 [shape=record,label="{parserInternals.c:1304:}"];
+	Node0x8d74050 -> Node0x8d743c0;
+	Node0x8d740a0 [shape=record,label="{parserInternals.c:486:}"];
+	Node0x8d740a0 -> Node0x8d74190;
+	Node0x8d740a0 -> Node0x8d740f0;
+	Node0x8d740f0 [shape=record,label="{parserInternals.c:488:}"];
+	Node0x8d740f0 -> Node0x8d74190;
+	Node0x8d740f0 -> Node0x8d74140;
+	Node0x8d74140 [shape=record,label="{parserInternals.c:492:}"];
+	Node0x8d74140 -> Node0x8d74190;
+	Node0x8d74190 [shape=record,label="{parserInternals.c:500:}"];
+	Node0x8d74190 -> Node0x8d743c0;
+	Node0x8d741e0 [shape=record,label="{parserInternals.c:1312:}"];
+	Node0x8d741e0 -> Node0x8d743c0;
+	Node0x8d741e0 -> Node0x8d74230;
+	Node0x8d74230 [shape=record,label="{parserInternals.c:225:}"];
+	Node0x8d74230 -> Node0x8d743c0;
+	Node0x8d74230 -> Node0x8d74280;
+	Node0x8d74280 [shape=record,label="{parserInternals.c:228:}"];
+	Node0x8d74280 -> Node0x8d74320;
+	Node0x8d74280 -> Node0x8d742d0;
+	Node0x8d74280 -> Node0x8d74370;
+	Node0x8d742d0 [shape=record,label="{parserInternals.c:236:}"];
+	Node0x8d742d0 -> Node0x8d74370;
+	Node0x8d74320 [shape=record,label="{%28}"];
+	Node0x8d74320 -> Node0x8d74370;
+	Node0x8d74370 [shape=record,label="{parserInternals.c:246:}"];
+	Node0x8d74370 -> Node0x8d743c0;
+	Node0x8d743c0 [shape=record,label="{parserInternals.c:1319:}"];
+}

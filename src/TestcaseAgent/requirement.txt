@@ -1,0 +1,10 @@
+python-dotenv
+requests
+tree_sitter
+tree-sitter-cpp
+pygdbmi
+redis
+openai
+tiktoken
+dotenv
+json-repair

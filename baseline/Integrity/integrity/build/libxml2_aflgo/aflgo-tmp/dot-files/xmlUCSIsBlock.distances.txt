@@ -1,0 +1,6 @@
+xmlregexp.c:87,6.521318747985668
+xmlregexp.c:92,0
+xmlregexp.c:95,13
+xmlregexp.c:96,0
+xmlregexp.c:117,12
+xmlregexp.c:119,10

@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlXPathVariableLookup' function" {
+	label="CFG for 'xmlXPathVariableLookup' function";
+
+	Node0x2fe678a0 [shape=record,label="{xpath.c:3892:}"];
+	Node0x2fe678a0 -> Node0x2fe67a70;
+	Node0x2fe678a0 -> Node0x2fe67930;
+	Node0x2fe67930 [shape=record,label="{xpath.c:3895:}"];
+	Node0x2fe67930 -> Node0x2fe679d0;
+	Node0x2fe67930 -> Node0x2fe67980;
+	Node0x2fe67980 [shape=record,label="{xpath.c:3899:}"];
+	Node0x2fe67980 -> Node0x2fe67a70;
+	Node0x2fe679d0 [shape=record,label="{xpath.c:3928:}"];
+	Node0x2fe679d0 -> Node0x2fe67a70;
+	Node0x2fe679d0 -> Node0x2fe67a20;
+	Node0x2fe67a20 [shape=record,label="{xpath.c:3933:}"];
+	Node0x2fe67a20 -> Node0x2fe67a70;
+	Node0x2fe67a70 [shape=record,label="{xpath.c:3903:}"];
+}

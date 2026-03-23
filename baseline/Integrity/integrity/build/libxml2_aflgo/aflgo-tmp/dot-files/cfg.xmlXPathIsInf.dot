@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlXPathIsInf' function" {
+	label="CFG for 'xmlXPathIsInf' function";
+
+	Node0x2fc6ced0 [shape=record,label="{xpath.c:267:}"];
+}

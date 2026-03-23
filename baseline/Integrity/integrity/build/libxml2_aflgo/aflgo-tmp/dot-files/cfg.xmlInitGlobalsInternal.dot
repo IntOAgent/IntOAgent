@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlInitGlobalsInternal' function" {
+	label="CFG for 'xmlInitGlobalsInternal' function";
+
+	Node0x12ee5f0 [shape=record,label="{globals.c:358:}"];
+}

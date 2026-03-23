@@ -1,0 +1,35 @@
+digraph "CFG for 'xmlC14NPrintAttrs' function" {
+	label="CFG for 'xmlC14NPrintAttrs' function";
+
+	Node0xfd0b2f0 [shape=record,label="{c14n.c:926:}"];
+	Node0xfd0b2f0 -> Node0xfd0b510;
+	Node0xfd0b2f0 -> Node0xfd0b560;
+	Node0xfd0b510 [shape=record,label="{c14n.c:922:}"];
+	Node0xfd0b510 -> Node0xfd0b880;
+	Node0xfd0b560 [shape=record,label="{c14n.c:931:}"];
+	Node0xfd0b560 -> Node0xfd0b650;
+	Node0xfd0b560 -> Node0xfd0b5b0;
+	Node0xfd0b5b0 [shape=record,label="{c14n.c:932:}"];
+	Node0xfd0b5b0 -> Node0xfd0b600;
+	Node0xfd0b5b0 -> Node0xfd0b650;
+	Node0xfd0b600 [shape=record,label="{c14n.c:933:}"];
+	Node0xfd0b600 -> Node0xfd0b650;
+	Node0xfd0b650 [shape=record,label="{c14n.c:937:}"];
+	Node0xfd0b650 -> Node0xfd0b830;
+	Node0xfd0b650 -> Node0xfd0b6a0;
+	Node0xfd0b6a0 [shape=record,label="{c14n.c:943:}"];
+	Node0xfd0b6a0 -> Node0xfd0b740;
+	Node0xfd0b6a0 -> Node0xfd0b6f0;
+	Node0xfd0b6f0 [shape=record,label="{c14n.c:946:}"];
+	Node0xfd0b6f0 -> Node0xfd0b830;
+	Node0xfd0b740 [shape=record,label="{c14n.c:139:}"];
+	Node0xfd0b740 -> Node0xfd0b7e0;
+	Node0xfd0b740 -> Node0xfd0b790;
+	Node0xfd0b790 [shape=record,label="{c14n.c:140:}"];
+	Node0xfd0b790 -> Node0xfd0b7e0;
+	Node0xfd0b7e0 [shape=record,label="{c14n.c:142:}"];
+	Node0xfd0b7e0 -> Node0xfd0b880;
+	Node0xfd0b830 [shape=record,label="{c14n.c:953:}"];
+	Node0xfd0b830 -> Node0xfd0b880;
+	Node0xfd0b880 [shape=record,label="{c14n.c:955:}"];
+}

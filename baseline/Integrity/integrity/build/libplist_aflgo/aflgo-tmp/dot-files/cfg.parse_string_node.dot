@@ -1,0 +1,17 @@
+digraph "CFG for 'parse_string_node' function" {
+	label="CFG for 'parse_string_node' function";
+
+	Node0x38868c30 [shape=record,label="{bplist.c:356:}"];
+	Node0x38868c30 -> Node0x38868cc0;
+	Node0x38868c30 -> Node0x38868d10;
+	Node0x38868cc0 [shape=record,label="{bplist.c:359:}"];
+	Node0x38868cc0 -> Node0x38868d10;
+	Node0x38868d10 [shape=record,label="{bplist.c:359:1}"];
+	Node0x38868d10 -> Node0x38868d60;
+	Node0x38868d10 -> Node0x38868db0;
+	Node0x38868d60 [shape=record,label="{bplist.c:361:}"];
+	Node0x38868d60 -> Node0x38868e00;
+	Node0x38868db0 [shape=record,label="{bplist.c:365:}"];
+	Node0x38868db0 -> Node0x38868e00;
+	Node0x38868e00 [shape=record,label="{bplist.c:370:}"];
+}

@@ -1,0 +1,10 @@
+digraph "CFG for 'node_list_create' function" {
+	label="CFG for 'node_list_create' function";
+
+	Node0x1cbfba40 [shape=record,label="{node_list.c:38:}"];
+	Node0x1cbfba40 -> Node0x1cbfc700;
+	Node0x1cbfba40 -> Node0x1cbfc6b0;
+	Node0x1cbfc6b0 [shape=record,label="{node_list.c:38:1}"];
+	Node0x1cbfc6b0 -> Node0x1cbfc700;
+	Node0x1cbfc700 [shape=record,label="{node_list.c:48:}"];
+}

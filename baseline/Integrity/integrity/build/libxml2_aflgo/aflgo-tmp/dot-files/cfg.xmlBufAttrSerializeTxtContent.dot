@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlBufAttrSerializeTxtContent' function" {
+	label="CFG for 'xmlBufAttrSerializeTxtContent' function";
+
+	Node0x263ca500 [shape=record,label="{xmlsave.c:2145:}"];
+	Node0x263ca500 -> Node0x263cad20;
+	Node0x263ca500 -> Node0x263cacd0;
+	Node0x263cacd0 [shape=record,label="{xmlsave.c:2145:1}"];
+	Node0x263cacd0 -> Node0x263cad20;
+	Node0x263cacd0 -> Node0x263cad70;
+	Node0x263cad20 [shape=record,label="{xmlsave.c:2146:}"];
+	Node0x263cad20 -> Node0x263cad70;
+	Node0x263cad70 [shape=record,label="{xmlsave.c:2147:}"];
+}

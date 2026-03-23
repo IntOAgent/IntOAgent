@@ -1,0 +1,21 @@
+digraph "CFG for 'xmlFinishDocument' function" {
+	label="CFG for 'xmlFinishDocument' function";
+
+	Node0x270014b0 [shape=record,label="{parser.c:10355:}"];
+	Node0x270014b0 -> Node0x270015e0;
+	Node0x270014b0 -> Node0x27001540;
+	Node0x27001540 [shape=record,label="{parser.c:10355:1}"];
+	Node0x27001540 -> Node0x270015e0;
+	Node0x27001540 -> Node0x27001590;
+	Node0x27001590 [shape=record,label="{parser.c:10356:}"];
+	Node0x27001590 -> Node0x270015e0;
+	Node0x270015e0 [shape=record,label="{parser.c:10361:}"];
+	Node0x270015e0 -> Node0x270016d0;
+	Node0x270015e0 -> Node0x27001630;
+	Node0x27001630 [shape=record,label="{parser.c:10363:}"];
+	Node0x27001630 -> Node0x270016d0;
+	Node0x27001630 -> Node0x27001680;
+	Node0x27001680 [shape=record,label="{parser.c:10364:}"];
+	Node0x27001680 -> Node0x270016d0;
+	Node0x270016d0 [shape=record,label="{parser.c:10367:}"];
+}

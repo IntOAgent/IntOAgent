@@ -1,0 +1,15 @@
+parser.c:10686,0
+parser.c:10687,4
+parser.c:10688,3
+parser.c:10690,3
+parser.c:10691,3
+parser.c:10697,2
+parser.c:10700,0
+parser.c:10677,2.4000000000000004
+parser.c:10686,0
+parser.c:10687,4
+parser.c:10688,3
+parser.c:10690,3
+parser.c:10691,3
+parser.c:10697,2
+parser.c:10700,0

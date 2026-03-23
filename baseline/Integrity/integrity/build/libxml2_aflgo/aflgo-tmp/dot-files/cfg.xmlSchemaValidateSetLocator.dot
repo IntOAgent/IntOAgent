@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSchemaValidateSetLocator' function" {
+	label="CFG for 'xmlSchemaValidateSetLocator' function";
+
+	Node0x2deecc20 [shape=record,label="{xmlschemas.c:28281:}"];
+	Node0x2deecc20 -> Node0x2deed1e0;
+	Node0x2deecc20 -> Node0x2deed190;
+	Node0x2deed190 [shape=record,label="{xmlschemas.c:28282:}"];
+	Node0x2deed190 -> Node0x2deed1e0;
+	Node0x2deed1e0 [shape=record,label="{xmlschemas.c:28284:}"];
+}

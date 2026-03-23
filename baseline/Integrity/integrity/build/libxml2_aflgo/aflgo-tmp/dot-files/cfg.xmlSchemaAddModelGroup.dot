@@ -1,0 +1,34 @@
+digraph "CFG for 'xmlSchemaAddModelGroup' function" {
+	label="CFG for 'xmlSchemaAddModelGroup' function";
+
+	Node0x2e2a8a20 [shape=record,label="{xmlschemas.c:5253:}"];
+	Node0x2e2a8a20 -> Node0x2e2abd00;
+	Node0x2e2a8a20 -> Node0x2e2ab970;
+	Node0x2e2ab970 [shape=record,label="{xmlschemas.c:5257:}"];
+	Node0x2e2ab970 -> Node0x2e2abc10;
+	Node0x2e2ab970 -> Node0x2e2aba30;
+	Node0x2e2aba30 [shape=record,label="{xmlschemas.c:5256:}"];
+	Node0x2e2aba30 -> Node0x2e2aba80;
+	Node0x2e2aba30 -> Node0x2e2abb70;
+	Node0x2e2aba80 [shape=record,label="{xmlschemas.c:1856:}"];
+	Node0x2e2aba80 -> Node0x2e2abad0;
+	Node0x2e2aba80 -> Node0x2e2abb20;
+	Node0x2e2abad0 [shape=record,label="{xmlschemas.c:1856:1}"];
+	Node0x2e2abad0 -> Node0x2e2abb20;
+	Node0x2e2abb20 [shape=record,label="{xmlschemas.c:1856:2}"];
+	Node0x2e2abb20 -> Node0x2e2abb70;
+	Node0x2e2abb70 [shape=record,label="{xmlschemas.c:5266:}"];
+	Node0x2e2abb70 -> Node0x2e2abbc0;
+	Node0x2e2abb70 -> Node0x2e2abd00;
+	Node0x2e2abbc0 [shape=record,label="{xmlschemas.c:5268:}"];
+	Node0x2e2abbc0 -> Node0x2e2abc10;
+	Node0x2e2abbc0 -> Node0x2e2abd00;
+	Node0x2e2abc10 [shape=record,label="{%44}"];
+	Node0x2e2abc10 -> Node0x2e2abc60;
+	Node0x2e2abc10 -> Node0x2e2abcb0;
+	Node0x2e2abc60 [shape=record,label="{%49}"];
+	Node0x2e2abc60 -> Node0x2e2abcb0;
+	Node0x2e2abcb0 [shape=record,label="{xmlschemas.c:5270:}"];
+	Node0x2e2abcb0 -> Node0x2e2abd00;
+	Node0x2e2abd00 [shape=record,label="{xmlschemas.c:5270:3}"];
+}

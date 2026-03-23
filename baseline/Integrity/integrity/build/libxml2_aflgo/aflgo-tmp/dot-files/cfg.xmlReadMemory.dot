@@ -1,0 +1,25 @@
+digraph "CFG for 'xmlReadMemory' function" {
+	label="CFG for 'xmlReadMemory' function";
+
+	Node0x2716cdc0 [shape=record,label="{parser.c:13456:}"];
+	Node0x2716cdc0 -> Node0x2716d040;
+	Node0x2716cdc0 -> Node0x2716ce10;
+	Node0x2716ce10 [shape=record,label="{parser.c:13459:}"];
+	Node0x2716ce10 -> Node0x2716d040;
+	Node0x2716ce10 -> Node0x2716ce60;
+	Node0x2716ce60 [shape=record,label="{parser.c:13270:}"];
+	Node0x2716ce60 -> Node0x2716cf00;
+	Node0x2716ce60 -> Node0x2716ceb0;
+	Node0x2716ceb0 [shape=record,label="{parser.c:13271:}"];
+	Node0x2716ceb0 -> Node0x2716cf50;
+	Node0x2716cf00 [shape=record,label="{parser.c:13171:}"];
+	Node0x2716cf00 -> Node0x2716cf50;
+	Node0x2716cf50 [shape=record,label="{parser.c:13465:}"];
+	Node0x2716cf50 -> Node0x2716cff0;
+	Node0x2716cf50 -> Node0x2716cfa0;
+	Node0x2716cfa0 [shape=record,label="{parser.c:13469:}"];
+	Node0x2716cfa0 -> Node0x2716cff0;
+	Node0x2716cff0 [shape=record,label="{parser.c:13471:}"];
+	Node0x2716cff0 -> Node0x2716d040;
+	Node0x2716d040 [shape=record,label="{parser.c:13473:}"];
+}

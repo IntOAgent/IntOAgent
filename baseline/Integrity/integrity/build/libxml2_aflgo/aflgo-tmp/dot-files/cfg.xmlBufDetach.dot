@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlBufDetach' function" {
+	label="CFG for 'xmlBufDetach' function";
+
+	Node0x3f7646f0 [shape=record,label="{buf.c:177:}"];
+	Node0x3f7646f0 -> Node0x3f764e20;
+	Node0x3f7646f0 -> Node0x3f764ce0;
+	Node0x3f764ce0 [shape=record,label="{buf.c:177:1}"];
+	Node0x3f764ce0 -> Node0x3f764d30;
+	Node0x3f764ce0 -> Node0x3f764e20;
+	Node0x3f764d30 [shape=record,label="{buf.c:180:}"];
+	Node0x3f764d30 -> Node0x3f764dd0;
+	Node0x3f764d30 -> Node0x3f764d80;
+	Node0x3f764d80 [shape=record,label="{buf.c:181:}"];
+	Node0x3f764d80 -> Node0x3f764dd0;
+	Node0x3f764dd0 [shape=record,label="{buf.c:192:}"];
+	Node0x3f764dd0 -> Node0x3f764e20;
+	Node0x3f764e20 [shape=record,label="{buf.c:193:}"];
+}

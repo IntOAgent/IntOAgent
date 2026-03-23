@@ -1,0 +1,20 @@
+# Ignore cache
+__pycache__/
+
+# Ignore some stored folders
+_codeql/
+chat_history/
+chat_history/TestcaseAgent/
+chat_history/TestcaseAgent/sqlite/
+extra/
+extra/sqlite/
+output/
+projects/
+reports/
+temp/
+poc/
+logs/
+result/
+
+# Environment variables
+.env

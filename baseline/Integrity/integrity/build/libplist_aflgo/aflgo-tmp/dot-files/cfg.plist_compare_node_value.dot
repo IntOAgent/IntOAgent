@@ -1,0 +1,5 @@
+digraph "CFG for 'plist_compare_node_value' function" {
+	label="CFG for 'plist_compare_node_value' function";
+
+	Node0x21643340 [shape=record,label="{plist.c:1471:}"];
+}

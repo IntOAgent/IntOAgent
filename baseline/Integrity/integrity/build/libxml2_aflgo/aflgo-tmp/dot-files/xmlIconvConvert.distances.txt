@@ -1,0 +1,4 @@
+encoding.c:1236,4.2105263157894735
+encoding.c:1245,3.116883116883117
+encoding.c:1251,0
+encoding.c:1252,0

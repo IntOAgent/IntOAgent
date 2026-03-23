@@ -1,0 +1,21 @@
+digraph "CFG for 'xmlListMerge' function" {
+	label="CFG for 'xmlListMerge' function";
+
+	Node0xdfef650 [shape=record,label="{list.c:655:}"];
+	Node0xdfef650 -> Node0xdfef870;
+	Node0xdfef650 -> Node0xdfef6e0;
+	Node0xdfef6e0 [shape=record,label="{list.c:390:}"];
+	Node0xdfef6e0 -> Node0xdfef870;
+	Node0xdfef6e0 -> Node0xdfef730;
+	Node0xdfef730 [shape=record,label="{list.c:391:}"];
+	Node0xdfef730 -> Node0xdfef780;
+	Node0xdfef780 [shape=record,label="{list.c:392:}"];
+	Node0xdfef780 -> Node0xdfef820;
+	Node0xdfef780 -> Node0xdfef7d0;
+	Node0xdfef7d0 [shape=record,label="{list.c:63:}"];
+	Node0xdfef7d0 -> Node0xdfef820;
+	Node0xdfef820 [shape=record,label="{list.c:64:}"];
+	Node0xdfef820 -> Node0xdfef870;
+	Node0xdfef820 -> Node0xdfef780;
+	Node0xdfef870 [shape=record,label="{list.c:657:}"];
+}

@@ -1,0 +1,30 @@
+digraph "CFG for 'xmlSchemaNewParserCtxt' function" {
+	label="CFG for 'xmlSchemaNewParserCtxt' function";
+
+	Node0x2dc3f900 [shape=record,label="{xmlschemas.c:12171:}"];
+	Node0x2dc3f900 -> Node0x2dc3fc80;
+	Node0x2dc3f900 -> Node0x2dc3f9b0;
+	Node0x2dc3f9b0 [shape=record,label="{xmlschemas.c:9687:}"];
+	Node0x2dc3f9b0 -> Node0x2dc3fa00;
+	Node0x2dc3f9b0 -> Node0x2dc3fa50;
+	Node0x2dc3fa00 [shape=record,label="{xmlschemas.c:1863:}"];
+	Node0x2dc3fa00 -> Node0x2dc3fbe0;
+	Node0x2dc3fa50 [shape=record,label="{xmlschemas.c:9692:}"];
+	Node0x2dc3fa50 -> Node0x2dc3faa0;
+	Node0x2dc3fa50 -> Node0x2dc3faf0;
+	Node0x2dc3faa0 [shape=record,label="{xmlschemas.c:1863:1}"];
+	Node0x2dc3faa0 -> Node0x2dc3fb40;
+	Node0x2dc3faf0 [shape=record,label="{xmlschemas.c:3332:}"];
+	Node0x2dc3faf0 -> Node0x2dc3fb40;
+	Node0x2dc3fb40 [shape=record,label="{xmlschemas.c:9694:}"];
+	Node0x2dc3fb40 -> Node0x2dc3fb90;
+	Node0x2dc3fb40 -> Node0x2dc3fbe0;
+	Node0x2dc3fb90 [shape=record,label="{xmlschemas.c:9696:}"];
+	Node0x2dc3fb90 -> Node0x2dc3fbe0;
+	Node0x2dc3fbe0 [shape=record,label="{xmlschemas.c:12175:}"];
+	Node0x2dc3fbe0 -> Node0x2dc3fc80;
+	Node0x2dc3fbe0 -> Node0x2dc3fc30;
+	Node0x2dc3fc30 [shape=record,label="{xmlschemas.c:12177:}"];
+	Node0x2dc3fc30 -> Node0x2dc3fc80;
+	Node0x2dc3fc80 [shape=record,label="{xmlschemas.c:12180:}"];
+}

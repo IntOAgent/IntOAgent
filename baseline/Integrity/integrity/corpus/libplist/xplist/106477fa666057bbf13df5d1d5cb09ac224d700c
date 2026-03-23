@@ -1,0 +1,4 @@
+<plist version="1.]0">
+<dict>
+    <key><![CDATA[cdata&key]]></key>
+    <string>string with cdata content: <!1728394:;<=>?@ABCDEFGHIJKLt>

@@ -1,0 +1,36 @@
+digraph "CFG for 'xmlParseUriOrPath' function" {
+	label="CFG for 'xmlParseUriOrPath' function";
+
+	Node0x3766cea0 [shape=record,label="{uri.c:2347:}"];
+	Node0x3766cea0 -> Node0x3766da10;
+	Node0x3766cea0 -> Node0x3766d9c0;
+	Node0x3766d9c0 [shape=record,label="{uri.c:1061:}"];
+	Node0x3766d9c0 -> Node0x3766da10;
+	Node0x3766da10 [shape=record,label="{uri.c:2351:}"];
+	Node0x3766da10 -> Node0x3766dd30;
+	Node0x3766da10 -> Node0x3766da60;
+	Node0x3766da60 [shape=record,label="{uri.c:2356:}"];
+	Node0x3766da60 -> Node0x3766dab0;
+	Node0x3766da60 -> Node0x3766dc40;
+	Node0x3766dab0 [shape=record,label="{uri.c:2361:}"];
+	Node0x3766dab0 -> Node0x3766dd30;
+	Node0x3766dab0 -> Node0x3766db00;
+	Node0x3766db00 [shape=record,label="{uri.c:2366:}"];
+	Node0x3766db00 -> Node0x3766db50;
+	Node0x3766db00 -> Node0x3766dba0;
+	Node0x3766db50 [shape=record,label="{uri.c:2426:}"];
+	Node0x3766db50 -> Node0x3766dba0;
+	Node0x3766dba0 [shape=record,label="{uri.c:2426:1}"];
+	Node0x3766dba0 -> Node0x3766dd30;
+	Node0x3766dba0 -> Node0x3766dbf0;
+	Node0x3766dbf0 [shape=record,label="{uri.c:2435:}"];
+	Node0x3766dbf0 -> Node0x3766dce0;
+	Node0x3766dc40 [shape=record,label="{uri.c:1013:}"];
+	Node0x3766dc40 -> Node0x3766dc90;
+	Node0x3766dc40 -> Node0x3766dd30;
+	Node0x3766dc90 [shape=record,label="{uri.c:2442:}"];
+	Node0x3766dc90 -> Node0x3766dce0;
+	Node0x3766dce0 [shape=record,label="{uri.c:2453:}"];
+	Node0x3766dce0 -> Node0x3766dd30;
+	Node0x3766dd30 [shape=record,label="{uri.c:2457:}"];
+}

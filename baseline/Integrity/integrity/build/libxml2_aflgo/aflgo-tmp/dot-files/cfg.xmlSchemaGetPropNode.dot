@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlSchemaGetPropNode' function" {
+	label="CFG for 'xmlSchemaGetPropNode' function";
+
+	Node0x2dfc6130 [shape=record,label="{xmlschemas.c:4482:}"];
+	Node0x2dfc6130 -> Node0x2dfc8ca0;
+	Node0x2dfc6130 -> Node0x2dfc8b20;
+	Node0x2dfc8b20 [shape=record,label="{xmlschemas.c:4484:}"];
+	Node0x2dfc8b20 -> Node0x2dfc8ca0;
+	Node0x2dfc8b20 -> Node0x2dfc8bb0;
+	Node0x2dfc8bb0 [shape=record,label="{xmlschemas.c:4486:}"];
+	Node0x2dfc8bb0 -> Node0x2dfc8c00;
+	Node0x2dfc8bb0 -> Node0x2dfc8c50;
+	Node0x2dfc8c00 [shape=record,label="{xmlschemas.c:4486:1}"];
+	Node0x2dfc8c00 -> Node0x2dfc8c50;
+	Node0x2dfc8c00 -> Node0x2dfc8ca0;
+	Node0x2dfc8c50 [shape=record,label="{xmlschemas.c:4488:}"];
+	Node0x2dfc8c50 -> Node0x2dfc8ca0;
+	Node0x2dfc8c50 -> Node0x2dfc8bb0;
+	Node0x2dfc8ca0 [shape=record,label="{xmlschemas.c:4491:}"];
+}

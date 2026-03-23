@@ -1,0 +1,22 @@
+digraph "CFG for 'node_destroy' function" {
+	label="CFG for 'node_destroy' function";
+
+	Node0x40cac00 [shape=record,label="{node.c:32:}"];
+	Node0x40cac00 -> Node0x40dab20;
+	Node0x40cac00 -> Node0x40da990;
+	Node0x40da990 [shape=record,label="{node.c:34:}"];
+	Node0x40da990 -> Node0x40daad0;
+	Node0x40da990 -> Node0x40da9e0;
+	Node0x40da9e0 [shape=record,label="{node.c:34:1}"];
+	Node0x40da9e0 -> Node0x40daad0;
+	Node0x40da9e0 -> Node0x40daa30;
+	Node0x40daa30 [shape=record,label="{node.c:36:}"];
+	Node0x40daa30 -> Node0x40daad0;
+	Node0x40daa30 -> Node0x40daa80;
+	Node0x40daa80 [shape=record,label="{node.c:37:}"];
+	Node0x40daa80 -> Node0x40daad0;
+	Node0x40daa80 -> Node0x40daa80;
+	Node0x40daad0 [shape=record,label="{node.c:41:}"];
+	Node0x40daad0 -> Node0x40dab20;
+	Node0x40dab20 [shape=record,label="{node.c:45:}"];
+}

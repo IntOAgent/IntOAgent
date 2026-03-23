@@ -1,0 +1,15 @@
+digraph "CFG for 'xmlNewTextWriterMemory' function" {
+	label="CFG for 'xmlNewTextWriterMemory' function";
+
+	Node0x2d3fc6b0 [shape=record,label="{xmlwriter.c:265:}"];
+	Node0x2d3fc6b0 -> Node0x2d3fc730;
+	Node0x2d3fc6b0 -> Node0x2d3fc780;
+	Node0x2d3fc730 [shape=record,label="{xmlwriter.c:130:}"];
+	Node0x2d3fc730 -> Node0x2d3fc820;
+	Node0x2d3fc780 [shape=record,label="{xmlwriter.c:273:}"];
+	Node0x2d3fc780 -> Node0x2d3fc7d0;
+	Node0x2d3fc780 -> Node0x2d3fc820;
+	Node0x2d3fc7d0 [shape=record,label="{xmlwriter.c:130:1}"];
+	Node0x2d3fc7d0 -> Node0x2d3fc820;
+	Node0x2d3fc820 [shape=record,label="{xmlwriter.c:282:}"];
+}

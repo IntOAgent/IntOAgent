@@ -1,0 +1,5 @@
+digraph "CFG for 'timelocal64' function" {
+	label="CFG for 'timelocal64' function";
+
+	Node0x4b73d10 [shape=record,label="{time64.c:542:}"];
+}

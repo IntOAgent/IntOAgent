@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlSubstituteEntitiesDefault' function" {
+	label="CFG for 'xmlSubstituteEntitiesDefault' function";
+
+	Node0x8db5570 [shape=record,label="{parserInternals.c:3722:}"];
+}

@@ -1,0 +1,15 @@
+digraph "CFG for 'xmlCtxtSetDict' function" {
+	label="CFG for 'xmlCtxtSetDict' function";
+
+	Node0x8e6b7a0 [shape=record,label="{parserInternals.c:3155:}"];
+	Node0x8e6b7a0 -> Node0x8e6b910;
+	Node0x8e6b7a0 -> Node0x8e6b820;
+	Node0x8e6b820 [shape=record,label="{parserInternals.c:3158:}"];
+	Node0x8e6b820 -> Node0x8e6b8c0;
+	Node0x8e6b820 -> Node0x8e6b870;
+	Node0x8e6b870 [shape=record,label="{parserInternals.c:3159:}"];
+	Node0x8e6b870 -> Node0x8e6b8c0;
+	Node0x8e6b8c0 [shape=record,label="{parserInternals.c:3161:}"];
+	Node0x8e6b8c0 -> Node0x8e6b910;
+	Node0x8e6b910 [shape=record,label="{parserInternals.c:3163:}"];
+}

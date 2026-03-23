@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlFdClose' function" {
+	label="CFG for 'xmlFdClose' function";
+
+	Node0x9771710 [shape=record,label="{xmlIO.c:860:}"];
+	Node0x9771710 -> Node0x9771c80;
+	Node0x9771710 -> Node0x9771cd0;
+	Node0x9771c80 [shape=record,label="{xmlIO.c:868:}"];
+	Node0x9771c80 -> Node0x9771cd0;
+	Node0x9771cd0 [shape=record,label="{xmlIO.c:871:}"];
+}

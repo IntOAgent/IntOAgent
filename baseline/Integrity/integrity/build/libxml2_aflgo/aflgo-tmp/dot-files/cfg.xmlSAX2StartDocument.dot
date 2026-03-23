@@ -1,0 +1,46 @@
+digraph "CFG for 'xmlSAX2StartDocument' function" {
+	label="CFG for 'xmlSAX2StartDocument' function";
+
+	Node0x1ac36370 [shape=record,label="{SAX2.c:794:}"];
+	Node0x1ac36370 -> Node0x1ac368b0;
+	Node0x1ac36370 -> Node0x1ac36450;
+	Node0x1ac36450 [shape=record,label="{SAX2.c:800:}"];
+	Node0x1ac36450 -> Node0x1ac365e0;
+	Node0x1ac36450 -> Node0x1ac364a0;
+	Node0x1ac364a0 [shape=record,label="{SAX2.c:801:}"];
+	Node0x1ac364a0 -> Node0x1ac364f0;
+	Node0x1ac364a0 -> Node0x1ac36540;
+	Node0x1ac364f0 [shape=record,label="{SAX2.c:802:}"];
+	Node0x1ac364f0 -> Node0x1ac36540;
+	Node0x1ac36540 [shape=record,label="{SAX2.c:803:}"];
+	Node0x1ac36540 -> Node0x1ac36860;
+	Node0x1ac36540 -> Node0x1ac36590;
+	Node0x1ac36590 [shape=record,label="{SAX2.c:807:}"];
+	Node0x1ac36590 -> Node0x1ac366d0;
+	Node0x1ac365e0 [shape=record,label="{SAX2.c:812:}"];
+	Node0x1ac365e0 -> Node0x1ac36860;
+	Node0x1ac365e0 -> Node0x1ac36630;
+	Node0x1ac36630 [shape=record,label="{SAX2.c:814:}"];
+	Node0x1ac36630 -> Node0x1ac366d0;
+	Node0x1ac36630 -> Node0x1ac36680;
+	Node0x1ac36680 [shape=record,label="{SAX2.c:824:}"];
+	Node0x1ac36680 -> Node0x1ac366d0;
+	Node0x1ac366d0 [shape=record,label="{SAX2.c:828:}"];
+	Node0x1ac366d0 -> Node0x1ac368b0;
+	Node0x1ac366d0 -> Node0x1ac36720;
+	Node0x1ac36720 [shape=record,label="{SAX2.c:828:1}"];
+	Node0x1ac36720 -> Node0x1ac36770;
+	Node0x1ac36720 -> Node0x1ac368b0;
+	Node0x1ac36770 [shape=record,label="{SAX2.c:829:}"];
+	Node0x1ac36770 -> Node0x1ac368b0;
+	Node0x1ac36770 -> Node0x1ac367c0;
+	Node0x1ac367c0 [shape=record,label="{SAX2.c:829:2}"];
+	Node0x1ac367c0 -> Node0x1ac368b0;
+	Node0x1ac367c0 -> Node0x1ac36810;
+	Node0x1ac36810 [shape=record,label="{SAX2.c:830:}"];
+	Node0x1ac36810 -> Node0x1ac36860;
+	Node0x1ac36810 -> Node0x1ac368b0;
+	Node0x1ac36860 [shape=record,label="{SAX2.c:834:}"];
+	Node0x1ac36860 -> Node0x1ac368b0;
+	Node0x1ac368b0 [shape=record,label="{SAX2.c:834:3}"];
+}

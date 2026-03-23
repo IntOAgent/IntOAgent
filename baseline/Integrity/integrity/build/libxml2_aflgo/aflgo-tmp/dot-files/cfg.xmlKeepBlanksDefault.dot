@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlKeepBlanksDefault' function" {
+	label="CFG for 'xmlKeepBlanksDefault' function";
+
+	Node0x8db5970 [shape=record,label="{parserInternals.c:3739:}"];
+	Node0x8db5970 -> Node0x8db6230;
+	Node0x8db5970 -> Node0x8db6280;
+	Node0x8db6230 [shape=record,label="{parserInternals.c:3744:}"];
+	Node0x8db6230 -> Node0x8db6280;
+	Node0x8db6280 [shape=record,label="{parserInternals.c:3746:}"];
+}

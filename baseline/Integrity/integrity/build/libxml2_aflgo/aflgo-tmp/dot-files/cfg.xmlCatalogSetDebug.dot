@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlCatalogSetDebug' function" {
+	label="CFG for 'xmlCatalogSetDebug' function";
+
+	Node0x5ee9df0 [shape=record,label="{catalog.c:3488:}"];
+}

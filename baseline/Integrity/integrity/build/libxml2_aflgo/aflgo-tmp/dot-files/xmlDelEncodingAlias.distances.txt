@@ -1,0 +1,6 @@
+encoding.c:587,6.060009837678308
+encoding.c:595,0
+encoding.c:596,3.8828967642526968
+encoding.c:599,0
+encoding.c:600,0
+encoding.c:601,0

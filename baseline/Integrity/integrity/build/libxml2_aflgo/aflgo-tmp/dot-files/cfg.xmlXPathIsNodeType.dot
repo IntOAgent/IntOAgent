@@ -1,0 +1,19 @@
+digraph "CFG for 'xmlXPathIsNodeType' function" {
+	label="CFG for 'xmlXPathIsNodeType' function";
+
+	Node0x30139900 [shape=record,label="{xpath.c:8517:}"];
+	Node0x30139900 -> Node0x30139cb0;
+	Node0x30139900 -> Node0x30139b70;
+	Node0x30139b70 [shape=record,label="{xpath.c:8520:}"];
+	Node0x30139b70 -> Node0x30139bc0;
+	Node0x30139b70 -> Node0x30139cb0;
+	Node0x30139bc0 [shape=record,label="{xpath.c:8522:}"];
+	Node0x30139bc0 -> Node0x30139c10;
+	Node0x30139bc0 -> Node0x30139cb0;
+	Node0x30139c10 [shape=record,label="{xpath.c:8524:}"];
+	Node0x30139c10 -> Node0x30139c60;
+	Node0x30139c10 -> Node0x30139cb0;
+	Node0x30139c60 [shape=record,label="{xpath.c:8526:}"];
+	Node0x30139c60 -> Node0x30139cb0;
+	Node0x30139cb0 [shape=record,label="{xpath.c:8529:}"];
+}

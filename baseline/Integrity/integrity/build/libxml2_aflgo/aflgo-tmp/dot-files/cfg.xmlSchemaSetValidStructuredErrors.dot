@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlSchemaSetValidStructuredErrors' function" {
+	label="CFG for 'xmlSchemaSetValidStructuredErrors' function";
+
+	Node0x2de23f10 [shape=record,label="{xmlschemas.c:27333:}"];
+	Node0x2de23f10 -> Node0x2de24000;
+	Node0x2de23f10 -> Node0x2de23f60;
+	Node0x2de23f60 [shape=record,label="{xmlschemas.c:27335:}"];
+	Node0x2de23f60 -> Node0x2de24000;
+	Node0x2de23f60 -> Node0x2de23fb0;
+	Node0x2de23fb0 [shape=record,label="{xmlschemas.c:27340:}"];
+	Node0x2de23fb0 -> Node0x2de24000;
+	Node0x2de24000 [shape=record,label="{xmlschemas.c:27341:}"];
+}

@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlRelaxNGSchemaFreeValue' function" {
+	label="CFG for 'xmlRelaxNGSchemaFreeValue' function";
+
+	Node0x12d2fe60 [shape=record,label="{relaxng.c:2445:}"];
+}

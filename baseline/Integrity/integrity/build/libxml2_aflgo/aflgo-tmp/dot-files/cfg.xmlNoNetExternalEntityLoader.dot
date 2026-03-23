@@ -1,0 +1,15 @@
+digraph "CFG for 'xmlNoNetExternalEntityLoader' function" {
+	label="CFG for 'xmlNoNetExternalEntityLoader' function";
+
+	Node0x8e20510 [shape=record,label="{parserInternals.c:2587:}"];
+	Node0x8e20510 -> Node0x8e205e0;
+	Node0x8e20510 -> Node0x8e20590;
+	Node0x8e20590 [shape=record,label="{parserInternals.c:2588:}"];
+	Node0x8e20590 -> Node0x8e205e0;
+	Node0x8e205e0 [shape=record,label="{parserInternals.c:2592:}"];
+	Node0x8e205e0 -> Node0x8e20680;
+	Node0x8e205e0 -> Node0x8e20630;
+	Node0x8e20630 [shape=record,label="{parserInternals.c:2595:}"];
+	Node0x8e20630 -> Node0x8e20680;
+	Node0x8e20680 [shape=record,label="{parserInternals.c:2597:}"];
+}

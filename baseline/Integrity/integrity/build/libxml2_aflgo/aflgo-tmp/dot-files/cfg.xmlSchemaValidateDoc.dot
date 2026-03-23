@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlSchemaValidateDoc' function" {
+	label="CFG for 'xmlSchemaValidateDoc' function";
+
+	Node0x2de4bb50 [shape=record,label="{xmlschemas.c:27733:}"];
+	Node0x2de4bb50 -> Node0x2de4bec0;
+	Node0x2de4bb50 -> Node0x2de4bd30;
+	Node0x2de4bd30 [shape=record,label="{xmlschemas.c:27736:}"];
+	Node0x2de4bd30 -> Node0x2de4bd80;
+	Node0x2de4bd30 -> Node0x2de4be70;
+	Node0x2de4bd80 [shape=record,label="{xmlschemas.c:27739:}"];
+	Node0x2de4bd80 -> Node0x2de4be20;
+	Node0x2de4bd80 -> Node0x2de4bdd0;
+	Node0x2de4bdd0 [shape=record,label="{xmlschemas.c:2360:}"];
+	Node0x2de4bdd0 -> Node0x2de4be20;
+	Node0x2de4be20 [shape=record,label="{xmlschemas.c:2361:}"];
+	Node0x2de4be20 -> Node0x2de4bec0;
+	Node0x2de4be70 [shape=record,label="{xmlschemas.c:27745:}"];
+	Node0x2de4be70 -> Node0x2de4bec0;
+	Node0x2de4bec0 [shape=record,label="{xmlschemas.c:27747:}"];
+}

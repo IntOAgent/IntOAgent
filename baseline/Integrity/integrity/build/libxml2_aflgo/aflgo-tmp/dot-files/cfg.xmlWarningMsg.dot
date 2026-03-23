@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlWarningMsg' function" {
+	label="CFG for 'xmlWarningMsg' function";
+
+	Node0x269738b0 [shape=record,label="{parser.c:277:}"];
+}

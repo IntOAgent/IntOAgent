@@ -1,0 +1,6 @@
+{
+  "Some ASCII string" = "Vest ASCII String";
+  "Some UTF9 strings" = (
+);
+  "Keys & \ášntities\"" = "hellers <nodes> are fun!?'";
+  "Some Int" 

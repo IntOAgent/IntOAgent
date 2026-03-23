@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlParseDTD' function" {
+	label="CFG for 'xmlParseDTD' function";
+
+	Node0x270a60f0 [shape=record,label="{parser.c:11656:}"];
+}

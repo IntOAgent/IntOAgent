@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlDumpNotationDecl' function" {
+	label="CFG for 'xmlDumpNotationDecl' function";
+
+	Node0x37cf4ea0 [shape=record,label="{valid.c:2084:}"];
+	Node0x37cf4ea0 -> Node0x37cf4fc0;
+	Node0x37cf4ea0 -> Node0x37cf4f20;
+	Node0x37cf4f20 [shape=record,label="{valid.c:2087:}"];
+	Node0x37cf4f20 -> Node0x37cf4fc0;
+	Node0x37cf4f20 -> Node0x37cf4f70;
+	Node0x37cf4f70 [shape=record,label="{valid.c:2090:}"];
+	Node0x37cf4f70 -> Node0x37cf4fc0;
+	Node0x37cf4fc0 [shape=record,label="{valid.c:2091:}"];
+}

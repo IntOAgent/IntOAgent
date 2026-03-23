@@ -1,0 +1,16 @@
+digraph "CFG for 'notationDeclSplit' function" {
+	label="CFG for 'notationDeclSplit' function";
+
+	Node0x2dea6d50 [shape=record,label="{xmlschemas.c:27907:}"];
+	Node0x2dea6d50 -> Node0x2dea6e90;
+	Node0x2dea6d50 -> Node0x2dea6da0;
+	Node0x2dea6da0 [shape=record,label="{xmlschemas.c:27907:1}"];
+	Node0x2dea6da0 -> Node0x2dea6e90;
+	Node0x2dea6da0 -> Node0x2dea6df0;
+	Node0x2dea6df0 [shape=record,label="{xmlschemas.c:27908:}"];
+	Node0x2dea6df0 -> Node0x2dea6e90;
+	Node0x2dea6df0 -> Node0x2dea6e40;
+	Node0x2dea6e40 [shape=record,label="{xmlschemas.c:27909:}"];
+	Node0x2dea6e40 -> Node0x2dea6e90;
+	Node0x2dea6e90 [shape=record,label="{xmlschemas.c:27911:}"];
+}

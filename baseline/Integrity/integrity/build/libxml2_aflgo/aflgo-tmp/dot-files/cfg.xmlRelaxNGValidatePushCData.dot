@@ -1,0 +1,22 @@
+digraph "CFG for 'xmlRelaxNGValidatePushCData' function" {
+	label="CFG for 'xmlRelaxNGValidatePushCData' function";
+
+	Node0x12e09e90 [shape=record,label="{relaxng.c:8141:}"];
+	Node0x12e09e90 -> Node0x12d89b70;
+	Node0x12e09e90 -> Node0x12d899e0;
+	Node0x12d899e0 [shape=record,label="{relaxng.c:8141:1}"];
+	Node0x12d899e0 -> Node0x12d89b70;
+	Node0x12d899e0 -> Node0x12d89a30;
+	Node0x12d89a30 [shape=record,label="{relaxng.c:8144:}"];
+	Node0x12d89a30 -> Node0x12d89ad0;
+	Node0x12d89a30 -> Node0x12d89a80;
+	Node0x12d89a30 -> Node0x12d89b70;
+	Node0x12d89a80 [shape=record,label="{relaxng.c:8147:}"];
+	Node0x12d89a80 -> Node0x12d89a30;
+	Node0x12d89ad0 [shape=record,label="{relaxng.c:8152:}"];
+	Node0x12d89ad0 -> Node0x12d89b20;
+	Node0x12d89ad0 -> Node0x12d89b70;
+	Node0x12d89b20 [shape=record,label="{relaxng.c:8154:}"];
+	Node0x12d89b20 -> Node0x12d89b70;
+	Node0x12d89b70 [shape=record,label="{relaxng.c:8159:}"];
+}

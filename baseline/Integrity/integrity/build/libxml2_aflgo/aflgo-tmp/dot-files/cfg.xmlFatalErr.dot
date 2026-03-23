@@ -1,0 +1,20 @@
+digraph "CFG for 'xmlFatalErr' function" {
+	label="CFG for 'xmlFatalErr' function";
+
+	Node0x8cf5690 [shape=record,label="{parserInternals.c:486:}"];
+	Node0x8cf5690 -> Node0x8cf5780;
+	Node0x8cf5690 -> Node0x8cf56e0;
+	Node0x8cf56e0 [shape=record,label="{parserInternals.c:488:}"];
+	Node0x8cf56e0 -> Node0x8cf5780;
+	Node0x8cf56e0 -> Node0x8cf5730;
+	Node0x8cf5730 [shape=record,label="{parserInternals.c:492:}"];
+	Node0x8cf5730 -> Node0x8cf5780;
+	Node0x8cf5780 [shape=record,label="{parserInternals.c:496:}"];
+	Node0x8cf5780 -> Node0x8cf57d0;
+	Node0x8cf5780 -> Node0x8cf5820;
+	Node0x8cf57d0 [shape=record,label="{parserInternals.c:497:}"];
+	Node0x8cf57d0 -> Node0x8cf5870;
+	Node0x8cf5820 [shape=record,label="{parserInternals.c:500:}"];
+	Node0x8cf5820 -> Node0x8cf5870;
+	Node0x8cf5870 [shape=record,label="{parserInternals.c:504:}"];
+}

@@ -1,0 +1,23 @@
+digraph "CFG for 'xmlCatalogConvert' function" {
+	label="CFG for 'xmlCatalogConvert' function";
+
+	Node0x5ee49b0 [shape=record,label="{catalog.c:3380:}"];
+	Node0x5ee49b0 -> Node0x5ee4a50;
+	Node0x5ee49b0 -> Node0x5ee4a00;
+	Node0x5ee4a00 [shape=record,label="{catalog.c:3381:}"];
+	Node0x5ee4a00 -> Node0x5ee4a50;
+	Node0x5ee4a50 [shape=record,label="{catalog.c:3383:}"];
+	Node0x5ee4a50 -> Node0x5ee4be0;
+	Node0x5ee4a50 -> Node0x5ee4aa0;
+	Node0x5ee4aa0 [shape=record,label="{catalog.c:784:}"];
+	Node0x5ee4aa0 -> Node0x5ee4af0;
+	Node0x5ee4aa0 -> Node0x5ee4be0;
+	Node0x5ee4af0 [shape=record,label="{catalog.c:787:}"];
+	Node0x5ee4af0 -> Node0x5ee4b90;
+	Node0x5ee4af0 -> Node0x5ee4b40;
+	Node0x5ee4b40 [shape=record,label="{catalog.c:788:}"];
+	Node0x5ee4b40 -> Node0x5ee4b90;
+	Node0x5ee4b90 [shape=record,label="{catalog.c:791:}"];
+	Node0x5ee4b90 -> Node0x5ee4be0;
+	Node0x5ee4be0 [shape=record,label="{catalog.c:793:}"];
+}

@@ -1,0 +1,38 @@
+digraph "CFG for 'xmlParseBalancedChunkMemoryRecover' function" {
+	label="CFG for 'xmlParseBalancedChunkMemoryRecover' function";
+
+	Node0x270ca230 [shape=record,label="{parser.c:12241:}"];
+	Node0x270ca230 -> Node0x270cb3f0;
+	Node0x270ca230 -> Node0x270cb3a0;
+	Node0x270cb3a0 [shape=record,label="{parser.c:12242:}"];
+	Node0x270cb3a0 -> Node0x270cb3f0;
+	Node0x270cb3f0 [shape=record,label="{parser.c:12244:}"];
+	Node0x270cb3f0 -> Node0x270cb760;
+	Node0x270cb3f0 -> Node0x270cb440;
+	Node0x270cb440 [shape=record,label="{parser.c:12247:}"];
+	Node0x270cb440 -> Node0x270cb760;
+	Node0x270cb440 -> Node0x270cb490;
+	Node0x270cb490 [shape=record,label="{parser.c:12251:}"];
+	Node0x270cb490 -> Node0x270cb530;
+	Node0x270cb490 -> Node0x270cb4e0;
+	Node0x270cb4e0 [shape=record,label="{parser.c:12256:}"];
+	Node0x270cb4e0 -> Node0x270cb530;
+	Node0x270cb530 [shape=record,label="{parser.c:12260:}"];
+	Node0x270cb530 -> Node0x270cb6c0;
+	Node0x270cb530 -> Node0x270cb580;
+	Node0x270cb580 [shape=record,label="{parser.c:12266:}"];
+	Node0x270cb580 -> Node0x270cb620;
+	Node0x270cb580 -> Node0x270cb5d0;
+	Node0x270cb5d0 [shape=record,label="{parser.c:12268:}"];
+	Node0x270cb5d0 -> Node0x270cb670;
+	Node0x270cb620 [shape=record,label="{parser.c:12270:}"];
+	Node0x270cb620 -> Node0x270cb670;
+	Node0x270cb670 [shape=record,label="{parser.c:12272:}"];
+	Node0x270cb670 -> Node0x270cb6c0;
+	Node0x270cb670 -> Node0x270cb710;
+	Node0x270cb6c0 [shape=record,label="{parser.c:12278:}"];
+	Node0x270cb6c0 -> Node0x270cb710;
+	Node0x270cb710 [shape=record,label="{parser.c:12277:}"];
+	Node0x270cb710 -> Node0x270cb760;
+	Node0x270cb760 [shape=record,label="{parser.c:12281:}"];
+}

@@ -1,0 +1,15 @@
+digraph "CFG for 'referenceDebug' function" {
+	label="CFG for 'referenceDebug' function";
+
+	Node0x3d1847b0 [shape=record,label="{xmllint.c:935:}"];
+	Node0x3d1847b0 -> Node0x3d184950;
+	Node0x3d1847b0 -> Node0x3d1849a0;
+	Node0x3d184950 [shape=record,label="{xmllint.c:935:1}"];
+	Node0x3d184950 -> Node0x3d1849a0;
+	Node0x3d1849a0 [shape=record,label="{xmllint.c:935:2}"];
+	Node0x3d1849a0 -> Node0x3d1849f0;
+	Node0x3d1849a0 -> Node0x3d184a40;
+	Node0x3d1849f0 [shape=record,label="{xmllint.c:938:}"];
+	Node0x3d1849f0 -> Node0x3d184a40;
+	Node0x3d184a40 [shape=record,label="{xmllint.c:939:}"];
+}

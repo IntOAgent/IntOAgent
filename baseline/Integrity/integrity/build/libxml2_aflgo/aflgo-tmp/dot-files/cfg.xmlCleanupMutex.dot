@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlCleanupMutex' function" {
+	label="CFG for 'xmlCleanupMutex' function";
+
+	Node0x22934fd0 [shape=record,label="{threads.c:94:}"];
+}

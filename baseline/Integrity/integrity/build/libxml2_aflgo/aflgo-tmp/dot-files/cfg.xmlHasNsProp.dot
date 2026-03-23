@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlHasNsProp' function" {
+	label="CFG for 'xmlHasNsProp' function";
+
+	Node0x37360060 [shape=record,label="{tree.c:6326:}"];
+}

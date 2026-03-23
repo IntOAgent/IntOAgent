@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlSaveDoc' function" {
+	label="CFG for 'xmlSaveDoc' function";
+
+	Node0x2632be10 [shape=record,label="{xmlsave.c:1962:}"];
+	Node0x2632be10 -> Node0x26334e70;
+	Node0x2632be10 -> Node0x26334e20;
+	Node0x26334e20 [shape=record,label="{xmlsave.c:1963:}"];
+	Node0x26334e20 -> Node0x26334e70;
+	Node0x26334e70 [shape=record,label="{xmlsave.c:1966:}"];
+}

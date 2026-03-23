@@ -1,0 +1,9 @@
+{
+  "Some ASCII string" = "Test ASCII String";
+  "Some UTF8 strings" = (
+  
+    "język polski",
+    "हिन्दी",
+  );
+  "Keys & \"entities\"" = "hello world & others <nodes> are fun!?'";
+  "Some Int" 

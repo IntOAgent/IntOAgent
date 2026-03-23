@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlRegisterNodeDefault' function" {
+	label="CFG for 'xmlRegisterNodeDefault' function";
+
+	Node0x37487c40 [shape=record,label="{tree.c:8877:}"];
+}

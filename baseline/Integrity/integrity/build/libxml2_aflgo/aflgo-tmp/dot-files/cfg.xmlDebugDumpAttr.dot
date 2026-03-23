@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlDebugDumpAttr' function" {
+	label="CFG for 'xmlDebugDumpAttr' function";
+
+	Node0x1d0680d0 [shape=record,label="{debugXML.c:1323:}"];
+	Node0x1d0680d0 -> Node0x1d068750;
+	Node0x1d0680d0 -> Node0x1d068700;
+	Node0x1d068700 [shape=record,label="{debugXML.c:52:}"];
+	Node0x1d068700 -> Node0x1d068750;
+	Node0x1d068750 [shape=record,label="{debugXML.c:1331:}"];
+}

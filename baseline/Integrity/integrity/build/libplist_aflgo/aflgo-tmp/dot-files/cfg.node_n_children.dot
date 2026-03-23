@@ -1,0 +1,10 @@
+digraph "CFG for 'node_n_children' function" {
+	label="CFG for 'node_n_children' function";
+
+	Node0x40ce390 [shape=record,label="{node.c:147:}"];
+	Node0x40ce390 -> Node0x40ce5d0;
+	Node0x40ce390 -> Node0x40ce580;
+	Node0x40ce580 [shape=record,label="{node.c:148:}"];
+	Node0x40ce580 -> Node0x40ce5d0;
+	Node0x40ce5d0 [shape=record,label="{node.c:149:}"];
+}

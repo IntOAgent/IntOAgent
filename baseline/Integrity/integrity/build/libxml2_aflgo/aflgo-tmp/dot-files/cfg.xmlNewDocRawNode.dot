@@ -1,0 +1,39 @@
+digraph "CFG for 'xmlNewDocRawNode' function" {
+	label="CFG for 'xmlNewDocRawNode' function";
+
+	Node0x3719dab0 [shape=record,label="{tree.c:1980:}"];
+	Node0x3719dab0 -> Node0x3719de70;
+	Node0x3719dab0 -> Node0x3719db00;
+	Node0x3719db00 [shape=record,label="{tree.c:1982:}"];
+	Node0x3719db00 -> Node0x3719de70;
+	Node0x3719db00 -> Node0x3719db50;
+	Node0x3719db50 [shape=record,label="{tree.c:2043:}"];
+	Node0x3719db50 -> Node0x3719dd30;
+	Node0x3719db50 -> Node0x3719dba0;
+	Node0x3719dba0 [shape=record,label="{tree.c:2046:}"];
+	Node0x3719dba0 -> Node0x3719dce0;
+	Node0x3719dba0 -> Node0x3719dbf0;
+	Node0x3719dbf0 [shape=record,label="{tree.c:2056:}"];
+	Node0x3719dbf0 -> Node0x3719dd30;
+	Node0x3719dbf0 -> Node0x3719dc40;
+	Node0x3719dc40 [shape=record,label="{tree.c:2056:1}"];
+	Node0x3719dc40 -> Node0x3719dd30;
+	Node0x3719dc40 -> Node0x3719dc90;
+	Node0x3719dc90 [shape=record,label="{tree.c:2057:}"];
+	Node0x3719dc90 -> Node0x3719dd30;
+	Node0x3719dce0 [shape=record,label="{tree.c:2060:}"];
+	Node0x3719dce0 -> Node0x3719dd30;
+	Node0x3719dd30 [shape=record,label="{tree.c:2273:}"];
+	Node0x3719dd30 -> Node0x3719ddd0;
+	Node0x3719dd30 -> Node0x3719dd80;
+	Node0x3719dd80 [shape=record,label="{tree.c:2273:2}"];
+	Node0x3719dd80 -> Node0x3719de20;
+	Node0x3719ddd0 [shape=record,label="{tree.c:1988:}"];
+	Node0x3719ddd0 -> Node0x3719de20;
+	Node0x3719de20 [shape=record,label="{%33}"];
+	Node0x3719de20 -> Node0x3719dec0;
+	Node0x3719de20 -> Node0x3719de70;
+	Node0x3719de70 [shape=record,label="{tree.c:1997:}"];
+	Node0x3719de70 -> Node0x3719dec0;
+	Node0x3719dec0 [shape=record,label="{tree.c:1998:}"];
+}

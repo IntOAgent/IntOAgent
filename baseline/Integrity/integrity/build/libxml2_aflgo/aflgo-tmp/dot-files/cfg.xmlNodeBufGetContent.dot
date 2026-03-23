@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlNodeBufGetContent' function" {
+	label="CFG for 'xmlNodeBufGetContent' function";
+
+	Node0x37300c10 [shape=record,label="{tree.c:5114:}"];
+	Node0x37300c10 -> Node0x37301ba0;
+	Node0x37300c10 -> Node0x37301b50;
+	Node0x37301b50 [shape=record,label="{tree.c:5115:}"];
+	Node0x37301b50 -> Node0x37301ba0;
+	Node0x37301ba0 [shape=record,label="{tree.c:5121:}"];
+}

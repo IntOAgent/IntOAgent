@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlParserInputRead' function" {
+	label="CFG for 'xmlParserInputRead' function";
+
+	Node0x8d0d3e0 [shape=record,label="{parserInternals.c:606:}"];
+}

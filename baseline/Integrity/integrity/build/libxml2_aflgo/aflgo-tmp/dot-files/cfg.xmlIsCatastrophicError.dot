@@ -1,0 +1,23 @@
+digraph "CFG for 'xmlIsCatastrophicError' function" {
+	label="CFG for 'xmlIsCatastrophicError' function";
+
+	Node0x36512b80 [shape=record,label="{error.c:41:}"];
+	Node0x36512b80 -> Node0x36512bd0;
+	Node0x36512b80 -> Node0x36512db0;
+	Node0x36512bd0 [shape=record,label="{error.c:44:}"];
+	Node0x36512bd0 -> Node0x36512c20;
+	Node0x36512bd0 -> Node0x36512db0;
+	Node0x36512c20 [shape=record,label="{error.c:53:}"];
+	Node0x36512c20 -> Node0x36512c70;
+	Node0x36512c20 -> Node0x36512cc0;
+	Node0x36512c70 [shape=record,label="{error.c:53:1}"];
+	Node0x36512c70 -> Node0x36512cc0;
+	Node0x36512cc0 [shape=record,label="{error.c:53:2}"];
+	Node0x36512cc0 -> Node0x36512d10;
+	Node0x36512cc0 -> Node0x36512d60;
+	Node0x36512d10 [shape=record,label="{error.c:53:3}"];
+	Node0x36512d10 -> Node0x36512d60;
+	Node0x36512d60 [shape=record,label="{error.c:53:4}"];
+	Node0x36512d60 -> Node0x36512db0;
+	Node0x36512db0 [shape=record,label="{error.c:59:}"];
+}

@@ -1,0 +1,40 @@
+digraph "CFG for 'xmlSaveErr' function" {
+	label="CFG for 'xmlSaveErr' function";
+
+	Node0x26422b10 [shape=record,label="{xmlsave.c:82:}"];
+	Node0x26422b10 -> Node0x264235e0;
+	Node0x26422b10 -> Node0x26423540;
+	Node0x26423540 [shape=record,label="{xmlsave.c:83:}"];
+	Node0x26423540 -> Node0x264235e0;
+	Node0x26423540 -> Node0x26423590;
+	Node0x26423590 [shape=record,label="{xmlsave.c:84:}"];
+	Node0x26423590 -> Node0x264235e0;
+	Node0x26423590 -> Node0x26423900;
+	Node0x264235e0 [shape=record,label="{xmlsave.c:87:}"];
+	Node0x264235e0 -> Node0x26423630;
+	Node0x264235e0 -> Node0x26423680;
+	Node0x26423630 [shape=record,label="{xmlsave.c:61:}"];
+	Node0x26423630 -> Node0x264238b0;
+	Node0x26423630 -> Node0x26423860;
+	Node0x26423680 [shape=record,label="{xmlsave.c:92:}"];
+	Node0x26423680 -> Node0x26423720;
+	Node0x26423680 -> Node0x264236d0;
+	Node0x264236d0 [shape=record,label="{xmlsave.c:93:}"];
+	Node0x264236d0 -> Node0x26423720;
+	Node0x26423720 [shape=record,label="{xmlsave.c:95:}"];
+	Node0x26423720 -> Node0x264237c0;
+	Node0x26423720 -> Node0x26423770;
+	Node0x26423770 [shape=record,label="{xmlsave.c:98:}"];
+	Node0x26423770 -> Node0x264237c0;
+	Node0x264237c0 [shape=record,label="{xmlsave.c:102:}"];
+	Node0x264237c0 -> Node0x26423810;
+	Node0x264237c0 -> Node0x26423900;
+	Node0x26423810 [shape=record,label="{xmlsave.c:61:1}"];
+	Node0x26423810 -> Node0x264238b0;
+	Node0x26423810 -> Node0x26423860;
+	Node0x26423860 [shape=record,label="{%17}"];
+	Node0x26423860 -> Node0x264238b0;
+	Node0x264238b0 [shape=record,label="{xmlsave.c:108:}"];
+	Node0x264238b0 -> Node0x26423900;
+	Node0x26423900 [shape=record,label="{xmlsave.c:108:2}"];
+}

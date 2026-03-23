@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlCleanupParser' function" {
+	label="CFG for 'xmlCleanupParser' function";
+
+	Node0x22946950 [shape=record,label="{threads.c:450:}"];
+	Node0x22946950 -> Node0x22946db0;
+	Node0x22946950 -> Node0x22946e00;
+	Node0x22946db0 [shape=record,label="{threads.c:453:}"];
+	Node0x22946db0 -> Node0x22946e00;
+	Node0x22946e00 [shape=record,label="{threads.c:502:}"];
+}

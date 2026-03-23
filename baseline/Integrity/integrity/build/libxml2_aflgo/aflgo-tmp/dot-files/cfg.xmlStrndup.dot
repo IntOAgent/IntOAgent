@@ -1,0 +1,18 @@
+digraph "CFG for 'xmlStrndup' function" {
+	label="CFG for 'xmlStrndup' function";
+
+	Node0x1a9af8f0 [shape=record,label="{xmlstring.c:53:}"];
+	Node0x1a9af8f0 -> Node0x1a9be220;
+	Node0x1a9af8f0 -> Node0x1a9be0e0;
+	Node0x1a9be0e0 [shape=record,label="{xmlstring.c:54:}"];
+	Node0x1a9be0e0 -> Node0x1a9be130;
+	Node0x1a9be0e0 -> Node0x1a9be180;
+	Node0x1a9be130 [shape=record,label="{xmlstring.c:54:1}"];
+	Node0x1a9be130 -> Node0x1a9be180;
+	Node0x1a9be180 [shape=record,label="{xmlstring.c:54:2}"];
+	Node0x1a9be180 -> Node0x1a9be220;
+	Node0x1a9be180 -> Node0x1a9be1d0;
+	Node0x1a9be1d0 [shape=record,label="{xmlstring.c:58:}"];
+	Node0x1a9be1d0 -> Node0x1a9be220;
+	Node0x1a9be220 [shape=record,label="{xmlstring.c:61:}"];
+}

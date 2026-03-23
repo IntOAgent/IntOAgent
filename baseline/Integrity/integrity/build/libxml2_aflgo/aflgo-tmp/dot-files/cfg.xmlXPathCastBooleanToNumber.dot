@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlXPathCastBooleanToNumber' function" {
+	label="CFG for 'xmlXPathCastBooleanToNumber' function";
+
+	Node0x2fe966d0 [shape=record,label="{xpath.c:4508:}"];
+}

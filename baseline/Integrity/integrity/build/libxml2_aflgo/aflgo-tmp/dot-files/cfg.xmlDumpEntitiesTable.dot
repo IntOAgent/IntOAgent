@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlDumpEntitiesTable' function" {
+	label="CFG for 'xmlDumpEntitiesTable' function";
+
+	Node0x15193ed0 [shape=record,label="{entities.c:711:}"];
+	Node0x15193ed0 -> Node0x15193fc0;
+	Node0x15193ed0 -> Node0x15193f20;
+	Node0x15193f20 [shape=record,label="{entities.c:714:}"];
+	Node0x15193f20 -> Node0x15193fc0;
+	Node0x15193f20 -> Node0x15193f70;
+	Node0x15193f70 [shape=record,label="{entities.c:717:}"];
+	Node0x15193f70 -> Node0x15193fc0;
+	Node0x15193fc0 [shape=record,label="{entities.c:718:}"];
+}

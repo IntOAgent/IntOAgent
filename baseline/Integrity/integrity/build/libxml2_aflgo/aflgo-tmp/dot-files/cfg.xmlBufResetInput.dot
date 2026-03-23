@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlBufResetInput' function" {
+	label="CFG for 'xmlBufResetInput' function";
+
+	Node0x3f7a5c30 [shape=record,label="{buf.c:606:}"];
+	Node0x3f7a5c30 -> Node0x3f7a5e00;
+	Node0x3f7a5c30 -> Node0x3f7a5db0;
+	Node0x3f7a5db0 [shape=record,label="{buf.c:608:}"];
+	Node0x3f7a5db0 -> Node0x3f7a5e00;
+	Node0x3f7a5e00 [shape=record,label="{buf.c:589:}"];
+}

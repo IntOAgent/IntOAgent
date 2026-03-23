@@ -1,0 +1,10 @@
+digraph "CFG for 'xmlFreeMutex' function" {
+	label="CFG for 'xmlFreeMutex' function";
+
+	Node0x22935380 [shape=record,label="{threads.c:110:}"];
+	Node0x22935380 -> Node0x22935420;
+	Node0x22935380 -> Node0x229353d0;
+	Node0x229353d0 [shape=record,label="{threads.c:94:}"];
+	Node0x229353d0 -> Node0x22935420;
+	Node0x22935420 [shape=record,label="{threads.c:115:}"];
+}

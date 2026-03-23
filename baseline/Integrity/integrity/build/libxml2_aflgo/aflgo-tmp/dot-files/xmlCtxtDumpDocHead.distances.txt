@@ -1,0 +1,12 @@
+debugXML.c:149,0
+debugXML.c:149,0
+debugXML.c:155,0
+debugXML.c:149,0
+debugXML.c:149,0
+debugXML.c:1049,3.6000000000000005
+debugXML.c:1054,2.5714285714285712
+debugXML.c:149,0
+debugXML.c:155,0
+debugXML.c:155,0
+debugXML.c:149,0
+debugXML.c:149,0

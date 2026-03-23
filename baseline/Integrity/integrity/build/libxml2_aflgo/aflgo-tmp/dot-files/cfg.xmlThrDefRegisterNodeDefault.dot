@@ -1,0 +1,5 @@
+digraph "CFG for 'xmlThrDefRegisterNodeDefault' function" {
+	label="CFG for 'xmlThrDefRegisterNodeDefault' function";
+
+	Node0x1312e60 [shape=record,label="{globals.c:1052:}"];
+}

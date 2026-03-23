@@ -1,0 +1,13 @@
+digraph "CFG for 'xmlBufContent' function" {
+	label="CFG for 'xmlBufContent' function";
+
+	Node0x3f785e70 [shape=record,label="{buf.c:361:}"];
+	Node0x3f785e70 -> Node0x3f76b400;
+	Node0x3f785e70 -> Node0x3f76b360;
+	Node0x3f76b360 [shape=record,label="{buf.c:361:1}"];
+	Node0x3f76b360 -> Node0x3f76b3b0;
+	Node0x3f76b360 -> Node0x3f76b400;
+	Node0x3f76b3b0 [shape=record,label="{buf.c:364:}"];
+	Node0x3f76b3b0 -> Node0x3f76b400;
+	Node0x3f76b400 [shape=record,label="{buf.c:365:}"];
+}

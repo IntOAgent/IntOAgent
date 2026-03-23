@@ -1,0 +1,28 @@
+digraph "CFG for 'xmlSchemaPValAttrNodeValue' function" {
+	label="CFG for 'xmlSchemaPValAttrNodeValue' function";
+
+	Node0x2dff70e0 [shape=record,label="{xmlschemas.c:6054:}"];
+	Node0x2dff70e0 -> Node0x2dff7560;
+	Node0x2dff70e0 -> Node0x2dff72e0;
+	Node0x2dff72e0 [shape=record,label="{xmlschemas.c:6056:}"];
+	Node0x2dff72e0 -> Node0x2dff7380;
+	Node0x2dff72e0 -> Node0x2dff7330;
+	Node0x2dff7330 [shape=record,label="{xmlschemas.c:6057:}"];
+	Node0x2dff7330 -> Node0x2dff7560;
+	Node0x2dff7380 [shape=record,label="{xmlschemas.c:6061:}"];
+	Node0x2dff7380 -> Node0x2dff7420;
+	Node0x2dff7380 -> Node0x2dff73d0;
+	Node0x2dff73d0 [shape=record,label="{xmlschemas.c:6068:}"];
+	Node0x2dff73d0 -> Node0x2dff7470;
+	Node0x2dff73d0 -> Node0x2dff74c0;
+	Node0x2dff7420 [shape=record,label="{xmlschemas.c:6071:}"];
+	Node0x2dff7420 -> Node0x2dff7560;
+	Node0x2dff7470 [shape=record,label="{xmlschemas.c:6081:}"];
+	Node0x2dff7470 -> Node0x2dff7560;
+	Node0x2dff74c0 [shape=record,label="{xmlschemas.c:6084:}"];
+	Node0x2dff74c0 -> Node0x2dff7560;
+	Node0x2dff74c0 -> Node0x2dff7510;
+	Node0x2dff7510 [shape=record,label="{xmlschemas.c:6085:}"];
+	Node0x2dff7510 -> Node0x2dff7560;
+	Node0x2dff7560 [shape=record,label="{xmlschemas.c:6094:}"];
+}

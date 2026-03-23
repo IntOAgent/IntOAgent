@@ -1,0 +1,32 @@
+digraph "CFG for 'xmlIsBlankNode' function" {
+	label="CFG for 'xmlIsBlankNode' function";
+
+	Node0x3721cb90 [shape=record,label="{tree.c:6630:}"];
+	Node0x3721cb90 -> Node0x3721cf10;
+	Node0x3721cb90 -> Node0x3721cc40;
+	Node0x3721cc40 [shape=record,label="{tree.c:6632:}"];
+	Node0x3721cc40 -> Node0x3721cc90;
+	Node0x3721cc40 -> Node0x3721cce0;
+	Node0x3721cc90 [shape=record,label="{tree.c:6632:1}"];
+	Node0x3721cc90 -> Node0x3721cce0;
+	Node0x3721cce0 [shape=record,label="{tree.c:6632:2}"];
+	Node0x3721cce0 -> Node0x3721cd30;
+	Node0x3721cce0 -> Node0x3721cd80;
+	Node0x3721cd30 [shape=record,label="{tree.c:6632:3}"];
+	Node0x3721cd30 -> Node0x3721cd80;
+	Node0x3721cd80 [shape=record,label="{tree.c:6632:4}"];
+	Node0x3721cd80 -> Node0x3721cdd0;
+	Node0x3721cd80 -> Node0x3721cf10;
+	Node0x3721cdd0 [shape=record,label="{tree.c:6635:}"];
+	Node0x3721cdd0 -> Node0x3721cf10;
+	Node0x3721cdd0 -> Node0x3721ce20;
+	Node0x3721ce20 [shape=record,label="{tree.c:6637:}"];
+	Node0x3721ce20 -> Node0x3721cec0;
+	Node0x3721ce20 -> Node0x3721cf10;
+	Node0x3721ce20 -> Node0x3721ce70;
+	Node0x3721ce70 [shape=record,label="{tree.c:6639:}"];
+	Node0x3721ce70 -> Node0x3721ce20;
+	Node0x3721cec0 [shape=record,label="{tree.c:6643:}"];
+	Node0x3721cec0 -> Node0x3721cf10;
+	Node0x3721cf10 [shape=record,label="{tree.c:6643:5}"];
+}

@@ -1,0 +1,15 @@
+digraph "CFG for 'xmlPathToURI' function" {
+	label="CFG for 'xmlPathToURI' function";
+
+	Node0x375a20a0 [shape=record,label="{uri.c:2744:}"];
+	Node0x375a20a0 -> Node0x375a21e0;
+	Node0x375a20a0 -> Node0x375a20f0;
+	Node0x375a20f0 [shape=record,label="{uri.c:2748:}"];
+	Node0x375a20f0 -> Node0x375a2190;
+	Node0x375a20f0 -> Node0x375a2140;
+	Node0x375a2140 [shape=record,label="{uri.c:2756:}"];
+	Node0x375a2140 -> Node0x375a21e0;
+	Node0x375a2190 [shape=record,label="{uri.c:2758:}"];
+	Node0x375a2190 -> Node0x375a21e0;
+	Node0x375a21e0 [shape=record,label="{uri.c:2776:}"];
+}
