@@ -23,18 +23,18 @@ Further manual analysis of the vulnerabilities in Table Newbugs reveals three ro
 
 1. **Unchecked increment.** It arises when a counter is incremented without an effective bound check (e.g., `$while(i \neq end); i++;$`), allowing repeated use of *+= 1* or *++* to eventually overflow the integer range.
 For a real-world example, in Libxml2, the variable *ncol* tracks the current column number during input parsing.
-When processing extremely long lines, *ncol* can exceed the 32-bit signed integer limit and wrap to a negative value, ultimately causing a segmentation fault~\cite{libxml2_commit_1005}.
+When processing extremely long lines, *ncol* can exceed the 32-bit signed integer limit and wrap to a negative value, ultimately causing a segmentation fault (Libxml2 Development Team, 2025, [Issue #1005](https://gitlab.gnome.org/GNOME/libxml2/-/issues/1005)).
 This root cause accounts for 58 vulnerabilities, comprising roughly half of the issues discovered by IntOAgent.
 
 2. **Normal Calculation.**
 This root cause arises when developers perform arithmetic operations without considering potential integer overflow.
-For example, as illustrated in the effectiveness section, the developer directly computes *nSep * (argc-1)* without checking whether the product may exceed the range of *int*, leading to integer overflow and subsequent program crashes.
+For example, the developer directly computes *nSep * (argc-1)* without checking whether the product may exceed the range of *int*, leading to integer overflow and subsequent program crashes.
 This category accounts for 51 cases (43.97\%) of all vulnerabilities discovered by IntOAgent.
 
 3. **Direct negation.**
 Developers sometimes negate a negative integer to obtain its absolute value without realizing that the minimum 32-bit integer cannot be represented as a positive number, causing an overflow.
 This issue typically appears in code patterns such as `$x < 0 ? -x : x;$`.
-For instance, in the function `jsonReturnFromBlob` of SQLite~\cite{sqlite_commit_7e38287da43ea3b661da3d8c1f431aa907d648c9}, the value *iRes* is directly negated when computing the absolute value.
+For instance, in the function `jsonReturnFromBlob` of SQLite (SQLite Development Team, 2025, [commit 7e38287](https://github.com/sqlite/sqlite/commit/7e38287da43ea3b661da3d8c1f431aa907d648c9)), the value *iRes* is directly negated when computing the absolute value.
 This design overlooks the boundary case where *iRes* equals the minimum integer, which causes signed overflow and leads to incorrect type conversion.
 This type accounts for 7 cases, representing 6.03\% of all discovered by IntOAgent.
 
@@ -89,7 +89,7 @@ By integrating vulnerability-centric analysis, semantic understanding of input r
 ## D. Ethical Considerations
 
 All experiments and analyses in this study were conducted exclusively for scientific research, with the goal of improving automated vulnerability detection rather than enabling exploitation.
-**Experimental safeguards.** We implemented procedural safeguards throughout the experimental workflow. All executions of IntOAgent were confined to isolated sandbox environments based on Docker containers~\cite{docker}. These sandboxes were configured to prohibit network access and external communication, except for controlled interactions with LLMs. This design minimizes the risk of unintended dissemination of sensitive artifacts, including PoC inputs and intermediate analysis data.
+**Experimental safeguards.** We implemented procedural safeguards throughout the experimental workflow. All executions of IntOAgent were confined to isolated sandbox environments based on Docker containers (Docker, [https://www.docker.com/](https://www.docker.com/)). These sandboxes were configured to prohibit network access and external communication, except for controlled interactions with LLMs. This design minimizes the risk of unintended dissemination of sensitive artifacts, including PoC inputs and intermediate analysis data.
 **Responsible disclosure.** All newly identified vulnerabilities were responsibly reported to the respective maintainers and subsequently patched, and all communications followed coordinated disclosure practices. Although valid PoC inputs were obtained for all cases, we do not release them publicly prior to the availability of corresponding patches.
 
 ## E. Threat Model
