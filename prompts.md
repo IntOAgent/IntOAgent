@@ -62,27 +62,7 @@ Steps:
 3. Check whether any variable is compile-time constant (via macros/constant propagation) and, using the derived ranges, decide if a signed integer overflow is possible; if provably safe, mark the path as Pruned, otherwise Retained.
 
 Output:
-Provide a concise reasoning summary and clearly state whether the path contains a potential signed integer overflow.
-```
-
-## Prompt for Function Body Slicing
-
-```
-Role:
-You are an expert in C/C++ integer overflow detection and program slicing.
-
-Task:
-Given the function body and a description of the potential integer overflow, extract only the statements that are semantically relevant to the variables and expressions contributing to the overflow, while preserving the essential execution semantics.
-
-Steps:
-1. Identify the variables that participate in overflow-related expressions and determine their data dependencies using dataflow reasoning.
-2. Retain only the statements that define, modify, or influence these variables, and remove unrelated code segments.
-3. For the removed parts, insert concise natural language summaries to maintain semantic completeness and readability.
-
-Expected Output:
-  - A brief explanation of the slicing decisions and reasoning process.
-  - The reduced and semantically coherent function body preserving overflow-relevant logic.
-  - Short natural-language comments summarizing removed sections.
+Provide a concise reasoning summary and clearly state whether the path contains a potential signed integer overflow
 ```
 
 ## Prompt for Reachable Testcase Generation
@@ -92,36 +72,39 @@ Role:
 You are an expert in C/C++ program analysis and testcase generation for reaching potentially vulnerable statements.
 
 Task:
-Given a function calling path and a target statement, perform semantic analysis to determine if sufficient information exists to synthesize a testcase that reaches the target statement, and identify what constraints must be satisfied.
+Given a function calling path and a target statement, perform semantic analysis to determine whether a testcase generator can be synthesized to systematically explore the constrained input space and reach the target statement, and identify the required constraints.
 
 Steps:
 
 1. Input Structure Identification:
-   - Analyze the entry function of the path to infer the expected input file format
-   - Determine how the target program should be invoked with that input (e.g., command-line options)
-  
-2. Function Call Identification:
-   - Identify the required API call sequence along the path to reach the target statement
-   - Analyze interprocedural transitions, function names, and nearby comments describing functionality
-   - Example: If path goes through base64() documented as Base64 decoder, testcase must trigger Base64 workflow
+   - Identify all input variables reachable from the entry point of the path
+   - Infer their types, formats, and structural relationships
+   - Determine the expected input form of the program
 
-3. Argument Value Analysis:
-   - Perform path-conditioned backward data-flow reasoning from the target statement
-   - Identify which input arguments correspond to variables in the suspicious statement
-   - Determine what value range constraints must be satisfied for reachability
+2. Path Condition Analysis:
+   - Trace how each input variable propagates across function boundaries along the path
+   - Identify which input fields influence branching decisions
+   - Extract path conditions required to reach the target statement
+   - Determine value ranges or constraints that must be satisfied
+
+3. Domain Knowledge Inference:
+   - Infer high-level semantic context implied by the path (e.g., XML, SQL)
+   - Use domain knowledge to constrain inputs to structurally valid instances
+   - Improve input validity when explicit path conditions are incomplete
 
 4. Feasibility Assessment:
-   - Evaluate whether current contextual information is sufficient to construct a reachable testcase
-   - Identify missing critical information (e.g., unknown input sources, unclear API sequences)
-   - If information is insufficient, specify what additional context should be retrieved
-   - If sufficient, confirm that concrete testcase can be synthesized and generate a reachable testcase
+   - Evaluate whether the available information is sufficient to synthesize a testcase generator
+   - If insufficient, identify missing critical information
+   - If sufficient, confirm feasibility and construct a testcase generator that can produce inputs satisfying the path constraints
 
 Output:
-Provide a structured analysis containing:
-- Inferred input format and invocation method
-- Required API call sequence to reach the target
-- Identified constraints on argument values (types and ranges)
-- Final judgment: whether testcase synthesis is feasible with current information, or what additional context is needed
+Provide a structured analysis including:
+- Inferred input format
+- Path constraints on input variables (types and value ranges)
+- Domain knowledge used
+- Final judgment:
+  - Feasible: provide a testcase generator that can produce multiple valid testcases
+  - Not feasible: specify missing information
 ```
 
 ## Prompt for Triggerable PoC Construction
