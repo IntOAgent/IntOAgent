@@ -50,19 +50,46 @@ or
 ## Prompt for Path Pruning
 
 ```
-Role:
-You are an expert in C/C++ integer overflow analysis.
+Role
+You are an expert in C++ program analysis focusing on semantic filtering for integer overflow detection using context-aware reasoning.
 
-Task:
-Given the vulnerability function call context, determine whether the analyzed path is provably free from signed integer overflows for the given expression.
+Task
+Analyze integer arithmetic operations in their semantic context to determine if they are protected by guards or global bounds that prevent overflow. Conservatively dismiss only when overflow can be definitively ruled out.
 
 Steps:
-1. Identify the target expression and all relevant variables; infer each variable’s semantic role from naming and local/project context.
-2. Analyze surrounding conditions, loops, and control flow to determine how these variables evolve and to derive feasible value ranges, incorporating global/configuration bounds where applicable.
-3. Check whether any variable is compile-time constant (via macros/constant propagation) and, using the derived ranges, decide if a signed integer overflow is possible; if provably safe, mark the path as Pruned, otherwise Retained.
+1. Analyze Local Guards:
+- Examine control flow surrounding the target arithmetic operation within the path
+- Identify range checks (if statements, assertions) that constrain operand values
+- Verify that guards consistently protect ALL execution paths reaching the operation
+- Requirement: Guards must dominate the operation and prove operands stay within safe ranges
+
+2. Analyze Global Bounds:
+- Identify variables with domain-specific semantic constraints
+- Check for global invariants, configuration limits, or system-wide bounds
+- Requirement: Bounds must be enforced program-wide, not just locally assumed
+
+3. Conservative Dismissal Principle:
+- ONLY dismiss a candidate when overflow is DEFINITIVELY impossible based on:
+  * Explicit range checks in dominating control flow, OR
+  * Proven global bounds from program semantics
+- If ANY uncertainty exists about guard effectiveness or bound enforcement, flag as potentially vulnerable
+- Err on the side of caution: when in doubt, output @@@may vulnerability@@@
+
+4. Context Analysis:
+- Consider the full path, not just the single line
+- Trace data flow to understand operand value ranges
+- Verify that guards cover all code paths (no bypasses via exceptions, early returns, etc.)
 
 Output:
-Provide a concise reasoning summary and clearly state whether the path contains a potential signed integer overflow
+First, provide brief analysis (2-4 sentences) explaining:
+- What guards or bounds were identified (if any)
+- Whether they definitively prevent overflow
+- The reasoning for the conclusion
+
+Then output exactly one of:
+@@@no vulnerability@@@
+or
+@@@may vulnerability@@@
 ```
 
 ## Prompt for Reachable Testcase Generation
