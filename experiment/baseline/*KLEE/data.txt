@@ -1,0 +1,1448 @@
+t=    0.0s  mem=    0.4MB  cpu=  0.0%  ktests=   0  errs=   0
+t=    5.0s  mem=  394.7MB  cpu= 99.9%  ktests=   0  errs=   0
+t=   10.0s  mem=  365.8MB  cpu= 99.9%  ktests=   5  errs=   0
+t=   15.0s  mem=  365.8MB  cpu= 99.9%  ktests=  14  errs=   0
+t=   20.0s  mem=  365.8MB  cpu=100.0%  ktests=  23  errs=   0
+t=   25.0s  mem=  374.1MB  cpu= 99.9%  ktests=  24  errs=   0
+t=   30.0s  mem=  374.1MB  cpu= 99.9%  ktests=  24  errs=   0
+t=   35.0s  mem=  382.3MB  cpu=100.0%  ktests=  24  errs=   0
+t=   40.0s  mem=  382.3MB  cpu=100.0%  ktests=  24  errs=   0
+t=   45.0s  mem=  382.3MB  cpu=100.0%  ktests=  24  errs=   0
+t=   50.1s  mem=  391.5MB  cpu=100.0%  ktests=  24  errs=   0
+t=   55.1s  mem=  396.0MB  cpu=100.0%  ktests=  24  errs=   0
+t=   60.1s  mem=  396.7MB  cpu=100.0%  ktests=  24  errs=   0
+t=   65.1s  mem=  396.7MB  cpu=100.0%  ktests=  24  errs=   0
+t=   70.1s  mem=  396.7MB  cpu=100.0%  ktests=  24  errs=   0
+t=   75.1s  mem=  431.4MB  cpu=100.0%  ktests=  27  errs=   0
+t=   80.1s  mem=  441.6MB  cpu=100.0%  ktests=  27  errs=   0
+t=   85.1s  mem=  496.3MB  cpu=100.0%  ktests=  27  errs=   0
+t=   90.1s  mem=  528.9MB  cpu= 97.2%  ktests=  27  errs=   0
+t=   95.1s  mem=  528.9MB  cpu= 92.1%  ktests=  27  errs=   0
+t=  100.1s  mem=  528.9MB  cpu= 87.5%  ktests=  27  errs=   0
+t=  105.1s  mem=  528.9MB  cpu= 83.3%  ktests=  27  errs=   0
+t=  110.1s  mem=  528.9MB  cpu= 79.5%  ktests=  27  errs=   0
+t=  115.1s  mem=  528.9MB  cpu= 76.1%  ktests=  27  errs=   0
+t=  120.1s  mem=  528.9MB  cpu= 72.9%  ktests=  27  errs=   0
+t=  125.1s  mem=  528.9MB  cpu= 70.0%  ktests=  27  errs=   0
+t=  130.1s  mem=  528.9MB  cpu= 67.3%  ktests=  27  errs=   0
+t=  135.1s  mem=  528.9MB  cpu= 64.8%  ktests=  27  errs=   0
+t=  140.2s  mem=  528.9MB  cpu= 62.5%  ktests=  27  errs=   0
+t=  145.2s  mem=  528.9MB  cpu= 60.3%  ktests=  27  errs=   0
+t=  150.2s  mem=  528.9MB  cpu= 58.3%  ktests=  27  errs=   0
+t=  155.2s  mem=  528.9MB  cpu= 56.5%  ktests=  27  errs=   0
+t=  160.2s  mem=  528.9MB  cpu= 54.7%  ktests=  27  errs=   0
+t=  165.2s  mem=  528.9MB  cpu= 53.0%  ktests=  27  errs=   0
+t=  170.2s  mem=  528.9MB  cpu= 51.5%  ktests=  27  errs=   0
+t=  175.2s  mem=  528.9MB  cpu= 50.0%  ktests=  27  errs=   0
+t=  180.2s  mem=  528.9MB  cpu= 48.6%  ktests=  27  errs=   0
+t=  185.2s  mem=  528.9MB  cpu= 47.3%  ktests=  27  errs=   0
+t=  190.2s  mem=  528.9MB  cpu= 46.1%  ktests=  27  errs=   0
+t=  195.2s  mem=  528.9MB  cpu= 44.9%  ktests=  27  errs=   0
+t=  200.2s  mem=  528.9MB  cpu= 43.7%  ktests=  27  errs=   0
+t=  205.2s  mem=  528.9MB  cpu= 42.7%  ktests=  27  errs=   0
+t=  210.2s  mem=  528.9MB  cpu= 41.7%  ktests=  27  errs=   0
+t=  215.2s  mem=  528.9MB  cpu= 40.7%  ktests=  27  errs=   0
+t=  220.2s  mem=  528.9MB  cpu= 39.8%  ktests=  27  errs=   0
+t=  225.2s  mem=  528.9MB  cpu= 38.9%  ktests=  27  errs=   0
+t=  230.2s  mem=  528.9MB  cpu= 38.0%  ktests=  27  errs=   0
+t=  235.3s  mem=  528.9MB  cpu= 37.2%  ktests=  27  errs=   0
+t=  240.3s  mem=  528.9MB  cpu= 36.5%  ktests=  27  errs=   0
+t=  245.3s  mem=  528.9MB  cpu= 35.7%  ktests=  27  errs=   0
+t=  250.3s  mem=  528.9MB  cpu= 35.0%  ktests=  27  errs=   0
+t=  255.3s  mem=  528.9MB  cpu= 34.3%  ktests=  27  errs=   0
+t=  260.3s  mem=  528.9MB  cpu= 33.7%  ktests=  27  errs=   0
+t=  265.3s  mem=  528.9MB  cpu= 33.0%  ktests=  27  errs=   0
+t=  270.3s  mem=  528.9MB  cpu= 32.4%  ktests=  27  errs=   0
+t=  275.3s  mem=  528.9MB  cpu= 31.8%  ktests=  27  errs=   0
+
+t=    0.0s  mem=    0.2MB  cpu=  0.0%  ktests=   0  errs=   0
+t=    5.0s  mem=  394.6MB  cpu= 99.7%  ktests=   0  errs=   0
+t=   10.0s  mem=  365.9MB  cpu= 99.9%  ktests=   0  errs=   0
+t=   15.0s  mem=  374.2MB  cpu= 99.9%  ktests=   0  errs=   0
+t=   20.0s  mem=  396.3MB  cpu= 99.9%  ktests=   0  errs=   0
+t=   25.0s  mem=  396.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=   30.0s  mem=  404.9MB  cpu= 99.9%  ktests=   0  errs=   0
+t=   35.0s  mem=  411.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=   40.0s  mem=  421.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=   45.0s  mem=  428.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=   50.0s  mem=  435.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=   55.0s  mem=  445.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=   60.1s  mem=  447.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=   65.1s  mem=  452.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=   70.1s  mem=  461.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=   75.1s  mem=  469.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=   80.1s  mem=  474.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=   85.1s  mem=  485.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=   90.1s  mem=  489.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=   95.1s  mem=  502.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  100.1s  mem=  502.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  105.1s  mem=  507.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  110.1s  mem=  518.5MB  cpu=100.0%  ktests=   1  errs=   0
+t=  115.1s  mem=  518.6MB  cpu=100.0%  ktests=   9  errs=   0
+t=  120.1s  mem=  518.6MB  cpu=100.0%  ktests=  11  errs=   0
+t=  125.1s  mem=  518.6MB  cpu=100.0%  ktests=  11  errs=   0
+t=  130.1s  mem=  518.6MB  cpu=100.0%  ktests=  14  errs=   0
+t=  135.1s  mem=  518.5MB  cpu=100.0%  ktests=  19  errs=   0
+t=  140.1s  mem=  518.5MB  cpu=100.0%  ktests=  21  errs=   0
+t=  145.1s  mem=  526.7MB  cpu=100.0%  ktests=  21  errs=   0
+t=  150.1s  mem=  526.7MB  cpu=100.0%  ktests=  22  errs=   0
+t=  155.1s  mem=  526.4MB  cpu=100.0%  ktests=  23  errs=   0
+t=  160.1s  mem=  526.2MB  cpu=100.0%  ktests=  24  errs=   0
+t=  165.1s  mem=  526.7MB  cpu=100.0%  ktests=  24  errs=   0
+t=  170.1s  mem=  526.7MB  cpu=100.0%  ktests=  24  errs=   0
+t=  175.2s  mem=  526.7MB  cpu=100.0%  ktests=  24  errs=   0
+t=  180.2s  mem=  526.6MB  cpu=100.0%  ktests=  24  errs=   0
+t=  185.2s  mem=  528.9MB  cpu=100.0%  ktests=  24  errs=   0
+t=  190.2s  mem=  531.7MB  cpu=100.0%  ktests=  24  errs=   0
+t=  195.2s  mem=  532.5MB  cpu=100.0%  ktests=  24  errs=   0
+t=  200.2s  mem=  532.5MB  cpu=100.0%  ktests=  24  errs=   0
+t=  205.2s  mem=  532.5MB  cpu=100.0%  ktests=  24  errs=   0
+t=  210.2s  mem=  533.2MB  cpu=100.0%  ktests=  24  errs=   0
+t=  215.2s  mem=  534.2MB  cpu=100.0%  ktests=  24  errs=   0
+t=  220.2s  mem=  534.2MB  cpu=100.0%  ktests=  24  errs=   0
+t=  225.2s  mem=  534.2MB  cpu=100.0%  ktests=  24  errs=   0
+t=  230.2s  mem=  534.5MB  cpu=100.0%  ktests=  24  errs=   0
+t=  235.2s  mem=  534.7MB  cpu=100.0%  ktests=  24  errs=   0
+t=  240.2s  mem=  534.7MB  cpu=100.0%  ktests=  24  errs=   0
+t=  245.2s  mem=  534.3MB  cpu=100.0%  ktests=  24  errs=   0
+t=  250.2s  mem=  542.9MB  cpu=100.0%  ktests=  24  errs=   0
+t=  255.2s  mem=  536.7MB  cpu=100.0%  ktests=  24  errs=   0
+t=  260.2s  mem=  537.1MB  cpu=100.0%  ktests=  24  errs=   0
+t=  265.2s  mem=  537.1MB  cpu=100.0%  ktests=  24  errs=   0
+t=  270.3s  mem=  537.9MB  cpu=100.0%  ktests=  24  errs=   0
+t=  275.3s  mem=  539.2MB  cpu=100.0%  ktests=  24  errs=   0
+t=  280.3s  mem=  539.4MB  cpu=100.0%  ktests=  24  errs=   0
+t=  285.3s  mem=  540.3MB  cpu=100.0%  ktests=  24  errs=   0
+t=  290.3s  mem=  549.9MB  cpu=100.0%  ktests=  24  errs=   0
+t=  295.3s  mem=  567.1MB  cpu=100.0%  ktests=  26  errs=   0
+t=  300.3s  mem=  591.5MB  cpu=100.0%  ktests=  27  errs=   0
+t=  305.3s  mem=  607.8MB  cpu=100.0%  ktests=  27  errs=   0
+t=  310.3s  mem=  607.6MB  cpu=100.0%  ktests=  27  errs=   0
+t=  315.3s  mem=  607.8MB  cpu=100.0%  ktests=  27  errs=   0
+t=  320.3s  mem=  607.8MB  cpu=100.0%  ktests=  27  errs=   0
+t=  325.3s  mem=  607.8MB  cpu=100.0%  ktests=  27  errs=   0
+t=  330.3s  mem=  632.4MB  cpu=100.0%  ktests=  27  errs=   0
+t=  335.3s  mem=  638.0MB  cpu=100.0%  ktests=  27  errs=   0
+t=  340.3s  mem=  672.4MB  cpu=100.0%  ktests=  27  errs=   0
+t=  345.3s  mem=  670.6MB  cpu= 99.1%  ktests=  27  errs=   0
+t=  350.3s  mem=  670.6MB  cpu= 97.7%  ktests=  27  errs=   0
+t=  355.3s  mem=  670.6MB  cpu= 96.3%  ktests=  27  errs=   0
+t=  360.3s  mem=  670.6MB  cpu= 95.0%  ktests=  27  errs=   0
+t=  365.3s  mem=  670.6MB  cpu= 93.7%  ktests=  27  errs=   0
+t=  370.3s  mem=  670.6MB  cpu= 92.4%  ktests=  27  errs=   0
+t=  375.4s  mem=  670.6MB  cpu= 91.2%  ktests=  27  errs=   0
+t=  380.4s  mem=  670.6MB  cpu= 90.0%  ktests=  27  errs=   0
+t=  385.4s  mem=  670.6MB  cpu= 88.8%  ktests=  27  errs=   0
+t=  390.4s  mem=  670.6MB  cpu= 87.7%  ktests=  27  errs=   0
+t=  395.4s  mem=  670.6MB  cpu= 86.6%  ktests=  27  errs=   0
+t=  400.4s  mem=  670.6MB  cpu= 85.5%  ktests=  27  errs=   0
+t=  405.4s  mem=  670.6MB  cpu= 84.4%  ktests=  27  errs=   0
+t=  410.4s  mem=  670.6MB  cpu= 83.4%  ktests=  27  errs=   0
+t=  415.4s  mem=  670.6MB  cpu= 82.4%  ktests=  27  errs=   0
+t=  420.4s  mem=  670.6MB  cpu= 81.4%  ktests=  27  errs=   0
+t=  425.4s  mem=  670.6MB  cpu= 80.4%  ktests=  27  errs=   0
+t=  430.4s  mem=  670.6MB  cpu= 79.5%  ktests=  27  errs=   0
+t=  435.4s  mem=  670.6MB  cpu= 78.6%  ktests=  27  errs=   0
+t=  440.4s  mem=  670.6MB  cpu= 77.7%  ktests=  27  errs=   0
+t=  445.4s  mem=  670.6MB  cpu= 76.8%  ktests=  27  errs=   0
+t=  450.4s  mem=  670.6MB  cpu= 76.0%  ktests=  27  errs=   0
+t=  455.4s  mem=  670.6MB  cpu= 75.1%  ktests=  27  errs=   0
+t=  460.4s  mem=  670.6MB  cpu= 74.3%  ktests=  27  errs=   0
+t=  465.4s  mem=  670.6MB  cpu= 73.5%  ktests=  27  errs=   0
+t=  470.4s  mem=  670.6MB  cpu= 72.7%  ktests=  27  errs=   0
+t=  475.5s  mem=  670.6MB  cpu= 72.0%  ktests=  27  errs=   0
+t=  480.5s  mem=  670.6MB  cpu= 71.2%  ktests=  27  errs=   0
+t=  485.5s  mem=  670.6MB  cpu= 70.5%  ktests=  27  errs=   0
+t=  490.5s  mem=  670.6MB  cpu= 69.8%  ktests=  27  errs=   0
+t=  495.5s  mem=  670.6MB  cpu= 69.1%  ktests=  27  errs=   0
+t=  500.5s  mem=  670.6MB  cpu= 68.4%  ktests=  27  errs=   0
+t=  505.5s  mem=  670.6MB  cpu= 67.7%  ktests=  27  errs=   0
+t=  510.5s  mem=  670.6MB  cpu= 67.0%  ktests=  27  errs=   0
+t=  515.5s  mem=  670.6MB  cpu= 66.4%  ktests=  27  errs=   0
+t=  520.5s  mem=  670.6MB  cpu= 65.7%  ktests=  27  errs=   0
+t=  525.5s  mem=  670.6MB  cpu= 65.1%  ktests=  27  errs=   0
+t=  530.5s  mem=  670.6MB  cpu= 64.5%  ktests=  27  errs=   0
+t=  535.5s  mem=  670.6MB  cpu= 63.9%  ktests=  27  errs=   0
+t=  540.5s  mem=  670.6MB  cpu= 63.3%  ktests=  27  errs=   0
+t=  545.5s  mem=  670.6MB  cpu= 62.7%  ktests=  27  errs=   0
+t=  550.5s  mem=  670.6MB  cpu= 62.2%  ktests=  27  errs=   0
+t=  555.5s  mem=  670.6MB  cpu= 61.6%  ktests=  27  errs=   0
+t=  560.5s  mem=  670.6MB  cpu= 61.1%  ktests=  27  errs=   0
+t=  565.5s  mem=  670.6MB  cpu= 60.5%  ktests=  27  errs=   0
+t=  570.5s  mem=  670.6MB  cpu= 60.0%  ktests=  27  errs=   0
+t=  575.6s  mem=  670.6MB  cpu= 59.5%  ktests=  27  errs=   0
+t=  580.6s  mem=  670.6MB  cpu= 58.9%  ktests=  27  errs=   0
+t=  585.6s  mem=  670.6MB  cpu= 58.4%  ktests=  27  errs=   0
+t=  590.6s  mem=  670.6MB  cpu= 57.9%  ktests=  27  errs=   0
+t=  595.6s  mem=  670.6MB  cpu= 57.5%  ktests=  27  errs=   0
+t=  600.6s  mem=  670.6MB  cpu= 57.0%  ktests=  27  errs=   0
+t=  605.6s  mem=  670.6MB  cpu= 56.5%  ktests=  27  errs=   0
+t=  610.6s  mem=  670.6MB  cpu= 56.0%  ktests=  27  errs=   0
+t=  615.6s  mem=  670.6MB  cpu= 55.6%  ktests=  27  errs=   0
+t=  620.6s  mem=  670.6MB  cpu= 55.1%  ktests=  27  errs=   0
+t=  625.6s  mem=  670.6MB  cpu= 54.7%  ktests=  27  errs=   0
+t=  630.6s  mem=  670.6MB  cpu= 54.3%  ktests=  27  errs=   0
+t=  635.6s  mem=  670.6MB  cpu= 53.8%  ktests=  27  errs=   0
+t=  640.6s  mem=  670.6MB  cpu= 53.4%  ktests=  27  errs=   0
+t=  645.6s  mem=  670.6MB  cpu= 53.0%  ktests=  27  errs=   0
+t=  650.6s  mem=  670.6MB  cpu= 52.6%  ktests=  27  errs=   0
+t=  655.6s  mem=  670.6MB  cpu= 52.2%  ktests=  27  errs=   0
+t=  660.6s  mem=  670.6MB  cpu= 51.8%  ktests=  27  errs=   0
+t=  665.6s  mem=  670.6MB  cpu= 51.4%  ktests=  27  errs=   0
+t=  670.7s  mem=  670.6MB  cpu= 51.0%  ktests=  27  errs=   0
+t=  675.7s  mem=  670.6MB  cpu= 50.6%  ktests=  27  errs=   0
+t=  680.7s  mem=  670.6MB  cpu= 50.3%  ktests=  27  errs=   0
+t=  685.7s  mem=  670.6MB  cpu= 49.9%  ktests=  27  errs=   0
+t=  690.7s  mem=  670.6MB  cpu= 49.5%  ktests=  27  errs=   0
+t=  695.7s  mem=  670.6MB  cpu= 49.2%  ktests=  27  errs=   0
+t=  700.7s  mem=  670.6MB  cpu= 48.8%  ktests=  27  errs=   0
+t=  705.7s  mem=  670.6MB  cpu= 48.5%  ktests=  27  errs=   0
+t=  710.7s  mem=  670.6MB  cpu= 48.2%  ktests=  27  errs=   0
+t=  715.7s  mem=  670.6MB  cpu= 47.8%  ktests=  27  errs=   0
+t=  720.7s  mem=  670.6MB  cpu= 47.5%  ktests=  27  errs=   0
+t=  725.7s  mem=  670.6MB  cpu= 47.2%  ktests=  27  errs=   0
+t=  730.7s  mem=  670.6MB  cpu= 46.8%  ktests=  27  errs=   0
+t=  735.7s  mem=  670.6MB  cpu= 46.5%  ktests=  27  errs=   0
+t=  740.7s  mem=  670.6MB  cpu= 46.2%  ktests=  27  errs=   0
+t=  745.7s  mem=  670.6MB  cpu= 45.9%  ktests=  27  errs=   0
+t=  750.7s  mem=  670.6MB  cpu= 45.6%  ktests=  27  errs=   0
+t=  755.7s  mem=  670.6MB  cpu= 45.3%  ktests=  27  errs=   0
+t=  760.7s  mem=  670.6MB  cpu= 45.0%  ktests=  27  errs=   0
+t=  765.7s  mem=  670.6MB  cpu= 44.7%  ktests=  27  errs=   0
+t=  770.8s  mem=  670.6MB  cpu= 44.4%  ktests=  27  errs=   0
+t=  775.8s  mem=  670.6MB  cpu= 44.1%  ktests=  27  errs=   0
+t=  780.8s  mem=  670.6MB  cpu= 43.8%  ktests=  27  errs=   0
+t=  785.8s  mem=  670.6MB  cpu= 43.6%  ktests=  27  errs=   0
+t=  790.8s  mem=  670.6MB  cpu= 43.3%  ktests=  27  errs=   0
+t=  795.8s  mem=  670.6MB  cpu= 43.0%  ktests=  27  errs=   0
+t=  800.8s  mem=  670.6MB  cpu= 42.7%  ktests=  27  errs=   0
+t=  805.8s  mem=  670.6MB  cpu= 42.5%  ktests=  27  errs=   0
+t=  810.8s  mem=  670.6MB  cpu= 42.2%  ktests=  27  errs=   0
+t=  815.8s  mem=  670.6MB  cpu= 41.9%  ktests=  27  errs=   0
+t=  820.8s  mem=  670.6MB  cpu= 41.7%  ktests=  27  errs=   0
+t=  825.8s  mem=  670.6MB  cpu= 41.4%  ktests=  27  errs=   0
+t=  830.8s  mem=  670.6MB  cpu= 41.2%  ktests=  27  errs=   0
+t=  835.8s  mem=  670.6MB  cpu= 40.9%  ktests=  27  errs=   0
+t=  840.8s  mem=  670.6MB  cpu= 40.7%  ktests=  27  errs=   0
+t=  845.8s  mem=  670.6MB  cpu= 40.5%  ktests=  27  errs=   0
+t=  850.8s  mem=  670.6MB  cpu= 40.2%  ktests=  27  errs=   0
+t=  855.8s  mem=  670.6MB  cpu= 40.0%  ktests=  27  errs=   0
+t=  860.8s  mem=  670.6MB  cpu= 39.8%  ktests=  27  errs=   0
+t=  865.9s  mem=  670.6MB  cpu= 39.5%  ktests=  27  errs=   0
+t=  870.9s  mem=  670.6MB  cpu= 39.3%  ktests=  27  errs=   0
+t=  875.9s  mem=  670.6MB  cpu= 39.1%  ktests=  27  errs=   0
+t=  880.9s  mem=  670.6MB  cpu= 38.8%  ktests=  27  errs=   0
+t=  885.9s  mem=  670.6MB  cpu= 38.6%  ktests=  27  errs=   0
+t=  890.9s  mem=  670.6MB  cpu= 38.4%  ktests=  27  errs=   0
+t=  895.9s  mem=  670.6MB  cpu= 38.2%  ktests=  27  errs=   0
+t=  900.9s  mem=  670.6MB  cpu= 38.0%  ktests=  27  errs=   0
+t=  905.9s  mem=  670.6MB  cpu= 37.8%  ktests=  27  errs=   0
+t=  910.9s  mem=  670.6MB  cpu= 37.6%  ktests=  27  errs=   0
+t=  915.9s  mem=  670.6MB  cpu= 37.4%  ktests=  27  errs=   0
+t=  920.9s  mem=  670.6MB  cpu= 37.2%  ktests=  27  errs=   0
+t=  925.9s  mem=  670.6MB  cpu= 37.0%  ktests=  27  errs=   0
+t=  930.9s  mem=  670.6MB  cpu= 36.8%  ktests=  27  errs=   0
+t=  935.9s  mem=  670.6MB  cpu= 36.6%  ktests=  27  errs=   0
+t=  940.9s  mem=  670.6MB  cpu= 36.4%  ktests=  27  errs=   0
+t=  945.9s  mem=  670.6MB  cpu= 36.2%  ktests=  27  errs=   0
+t=  950.9s  mem=  670.6MB  cpu= 36.0%  ktests=  27  errs=   0
+t=  955.9s  mem=  670.6MB  cpu= 35.8%  ktests=  27  errs=   0
+t=  961.0s  mem=  670.6MB  cpu= 35.6%  ktests=  27  errs=   0
+t=  966.0s  mem=  670.6MB  cpu= 35.4%  ktests=  27  errs=   0
+t=  971.0s  mem=  670.6MB  cpu= 35.2%  ktests=  27  errs=   0
+t=  976.0s  mem=  670.6MB  cpu= 35.1%  ktests=  27  errs=   0
+t=  981.0s  mem=  670.6MB  cpu= 34.9%  ktests=  27  errs=   0
+t=  986.0s  mem=  670.6MB  cpu= 34.7%  ktests=  27  errs=   0
+t=  991.0s  mem=  670.6MB  cpu= 34.5%  ktests=  27  errs=   0
+t=  996.0s  mem=  670.6MB  cpu= 34.4%  ktests=  27  errs=   0
+t= 1001.0s  mem=  670.6MB  cpu= 34.2%  ktests=  27  errs=   0
+t= 1006.0s  mem=  670.6MB  cpu= 34.0%  ktests=  27  errs=   0
+t= 1011.0s  mem=  670.6MB  cpu= 33.8%  ktests=  27  errs=   0
+t= 1016.0s  mem=  670.6MB  cpu= 33.7%  ktests=  27  errs=   0
+t= 1021.0s  mem=  670.6MB  cpu= 33.5%  ktests=  27  errs=   0
+t= 1026.0s  mem=  670.6MB  cpu= 33.4%  ktests=  27  errs=   0
+t= 1031.0s  mem=  670.6MB  cpu= 33.2%  ktests=  27  errs=   0
+t= 1036.0s  mem=  670.6MB  cpu= 33.0%  ktests=  27  errs=   0
+t= 1041.0s  mem=  670.6MB  cpu= 32.9%  ktests=  27  errs=   0
+t= 1046.0s  mem=  670.6MB  cpu= 32.7%  ktests=  27  errs=   0
+t= 1051.0s  mem=  670.6MB  cpu= 32.6%  ktests=  27  errs=   0
+t= 1056.0s  mem=  670.6MB  cpu= 32.4%  ktests=  27  errs=   0
+t= 1061.1s  mem=  670.6MB  cpu= 32.3%  ktests=  27  errs=   0
+t= 1066.1s  mem=  670.6MB  cpu= 32.1%  ktests=  27  errs=   0
+t= 1071.1s  mem=  670.6MB  cpu= 32.0%  ktests=  27  errs=   0
+t= 1076.1s  mem=  670.6MB  cpu= 31.8%  ktests=  27  errs=   0
+t= 1081.1s  mem=  670.6MB  cpu= 31.7%  ktests=  27  errs=   0
+t= 1086.1s  mem=  670.6MB  cpu= 31.5%  ktests=  27  errs=   0
+t= 1091.1s  mem=  670.6MB  cpu= 31.4%  ktests=  27  errs=   0
+t= 1096.1s  mem=  670.6MB  cpu= 31.2%  ktests=  27  errs=   0
+t= 1101.1s  mem=  670.6MB  cpu= 31.1%  ktests=  27  errs=   0
+t= 1106.1s  mem=  670.6MB  cpu= 30.9%  ktests=  27  errs=   0
+t= 1111.1s  mem=  670.6MB  cpu= 30.8%  ktests=  27  errs=   0
+t= 1116.1s  mem=  670.6MB  cpu= 30.7%  ktests=  27  errs=   0
+t= 1121.1s  mem=  670.6MB  cpu= 30.5%  ktests=  27  errs=   0
+t= 1126.1s  mem=  670.6MB  cpu= 30.4%  ktests=  27  errs=   0
+t= 1131.1s  mem=  670.6MB  cpu= 30.3%  ktests=  27  errs=   0
+t= 1136.1s  mem=  670.6MB  cpu= 30.1%  ktests=  27  errs=   0
+t= 1141.1s  mem=  670.6MB  cpu= 30.0%  ktests=  27  errs=   0
+t= 1146.1s  mem=  670.6MB  cpu= 29.9%  ktests=  27  errs=   0
+t= 1151.1s  mem=  670.6MB  cpu= 29.7%  ktests=  27  errs=   0
+t= 1156.1s  mem=  670.6MB  cpu= 29.6%  ktests=  27  errs=   0
+t= 1161.2s  mem=  670.6MB  cpu= 29.5%  ktests=  27  errs=   0
+t= 1166.2s  mem=  670.6MB  cpu= 29.3%  ktests=  27  errs=   0
+t= 1171.2s  mem=  670.6MB  cpu= 29.2%  ktests=  27  errs=   0
+t= 1176.2s  mem=  670.6MB  cpu= 29.1%  ktests=  27  errs=   0
+t= 1181.2s  mem=  670.6MB  cpu= 29.0%  ktests=  27  errs=   0
+t= 1186.2s  mem=  670.6MB  cpu= 28.8%  ktests=  27  errs=   0
+t= 1191.2s  mem=  670.6MB  cpu= 28.7%  ktests=  27  errs=   0
+t= 1196.2s  mem=  670.6MB  cpu= 28.6%  ktests=  27  errs=   0
+t= 1201.2s  mem=  670.6MB  cpu= 28.5%  ktests=  27  errs=   0
+t= 1206.2s  mem=  670.6MB  cpu= 28.4%  ktests=  27  errs=   0
+t= 1211.2s  mem=  670.6MB  cpu= 28.3%  ktests=  27  errs=   0
+t= 1216.2s  mem=  670.6MB  cpu= 28.1%  ktests=  27  errs=   0
+t= 1221.2s  mem=  670.6MB  cpu= 28.0%  ktests=  27  errs=   0
+t= 1226.2s  mem=  670.6MB  cpu= 27.9%  ktests=  27  errs=   0
+t= 1231.2s  mem=  670.6MB  cpu= 27.8%  ktests=  27  errs=   0
+t= 1236.2s  mem=  670.6MB  cpu= 27.7%  ktests=  27  errs=   0
+t= 1241.2s  mem=  670.6MB  cpu= 27.6%  ktests=  27  errs=   0
+t= 1246.2s  mem=  670.6MB  cpu= 27.5%  ktests=  27  errs=   0
+t= 1251.2s  mem=  670.6MB  cpu= 27.3%  ktests=  27  errs=   0
+t= 1256.3s  mem=  670.6MB  cpu= 27.2%  ktests=  27  errs=   0
+t= 1261.3s  mem=  670.6MB  cpu= 27.1%  ktests=  27  errs=   0
+t= 1266.3s  mem=  670.6MB  cpu= 27.0%  ktests=  27  errs=   0
+t= 1271.3s  mem=  670.6MB  cpu= 26.9%  ktests=  27  errs=   0
+t= 1276.3s  mem=  670.6MB  cpu= 26.8%  ktests=  27  errs=   0
+t= 1281.3s  mem=  670.6MB  cpu= 26.7%  ktests=  27  errs=   0
+t= 1286.3s  mem=  670.6MB  cpu= 26.6%  ktests=  27  errs=   0
+t= 1291.3s  mem=  670.6MB  cpu= 26.5%  ktests=  27  errs=   0
+t= 1296.3s  mem=  670.6MB  cpu= 26.4%  ktests=  27  errs=   0
+t= 1301.3s  mem=  670.6MB  cpu= 26.3%  ktests=  27  errs=   0
+t= 1306.3s  mem=  670.6MB  cpu= 26.2%  ktests=  27  errs=   0
+t= 1311.3s  mem=  670.6MB  cpu= 26.1%  ktests=  27  errs=   0
+t= 1316.3s  mem=  670.6MB  cpu= 26.0%  ktests=  27  errs=   0
+t= 1321.3s  mem=  670.6MB  cpu= 25.9%  ktests=  27  errs=   0
+t= 1326.3s  mem=  670.6MB  cpu= 25.8%  ktests=  27  errs=   0
+t= 1331.3s  mem=  670.6MB  cpu= 25.7%  ktests=  27  errs=   0
+t= 1336.3s  mem=  670.6MB  cpu= 25.6%  ktests=  27  errs=   0
+t= 1341.3s  mem=  670.6MB  cpu= 25.5%  ktests=  27  errs=   0
+t= 1346.3s  mem=  670.6MB  cpu= 25.4%  ktests=  27  errs=   0
+t= 1351.4s  mem=  670.6MB  cpu= 25.3%  ktests=  27  errs=   0
+t= 1356.4s  mem=  670.6MB  cpu= 25.2%  ktests=  27  errs=   0
+t= 1361.4s  mem=  670.6MB  cpu= 25.1%  ktests=  27  errs=   0
+t= 1366.4s  mem=  670.6MB  cpu= 25.0%  ktests=  27  errs=   0
+t= 1371.4s  mem=  670.6MB  cpu= 25.0%  ktests=  27  errs=   0
+t= 1376.4s  mem=  670.6MB  cpu= 24.9%  ktests=  27  errs=   0
+t= 1381.4s  mem=  670.6MB  cpu= 24.8%  ktests=  27  errs=   0
+t= 1386.4s  mem=  670.6MB  cpu= 24.7%  ktests=  27  errs=   0
+t= 1391.4s  mem=  670.6MB  cpu= 24.6%  ktests=  27  errs=   0
+t= 1396.4s  mem=  670.6MB  cpu= 24.5%  ktests=  27  errs=   0
+t= 1401.4s  mem=  670.6MB  cpu= 24.4%  ktests=  27  errs=   0
+t= 1406.4s  mem=  670.6MB  cpu= 24.3%  ktests=  27  errs=   0
+t= 1411.4s  mem=  670.6MB  cpu= 24.2%  ktests=  27  errs=   0
+t= 1416.4s  mem=  670.6MB  cpu= 24.2%  ktests=  27  errs=   0
+t= 1421.4s  mem=  670.6MB  cpu= 24.1%  ktests=  27  errs=   0
+t= 1426.4s  mem=  670.6MB  cpu= 24.0%  ktests=  27  errs=   0
+t= 1431.4s  mem=  670.6MB  cpu= 23.9%  ktests=  27  errs=   0
+t= 1436.4s  mem=  670.6MB  cpu= 23.8%  ktests=  27  errs=   0
+t= 1441.4s  mem=  670.6MB  cpu= 23.7%  ktests=  27  errs=   0
+t= 1446.4s  mem=  670.6MB  cpu= 23.7%  ktests=  27  errs=   0
+t= 1451.5s  mem=  670.6MB  cpu= 23.6%  ktests=  27  errs=   0
+t= 1456.5s  mem=  670.6MB  cpu= 23.5%  ktests=  27  errs=   0
+t= 1461.5s  mem=  670.6MB  cpu= 23.4%  ktests=  27  errs=   0
+t= 1466.5s  mem=  670.6MB  cpu= 23.3%  ktests=  27  errs=   0
+t= 1471.5s  mem=  670.6MB  cpu= 23.3%  ktests=  27  errs=   0
+t= 1476.5s  mem=  670.6MB  cpu= 23.2%  ktests=  27  errs=   0
+t= 1481.5s  mem=  670.6MB  cpu= 23.1%  ktests=  27  errs=   0
+t= 1486.5s  mem=  670.6MB  cpu= 23.0%  ktests=  27  errs=   0
+t= 1491.5s  mem=  670.6MB  cpu= 22.9%  ktests=  27  errs=   0
+t= 1496.5s  mem=  670.6MB  cpu= 22.9%  ktests=  27  errs=   0
+t= 1501.5s  mem=  670.6MB  cpu= 22.8%  ktests=  27  errs=   0
+t= 1506.5s  mem=  670.6MB  cpu= 22.7%  ktests=  27  errs=   0
+t= 1511.5s  mem=  670.6MB  cpu= 22.6%  ktests=  27  errs=   0
+t= 1516.5s  mem=  670.6MB  cpu= 22.6%  ktests=  27  errs=   0
+t= 1521.5s  mem=  670.6MB  cpu= 22.5%  ktests=  27  errs=   0
+t= 1526.5s  mem=  670.6MB  cpu= 22.4%  ktests=  27  errs=   0
+t= 1531.5s  mem=  670.6MB  cpu= 22.3%  ktests=  27  errs=   0
+t= 1536.5s  mem=  670.6MB  cpu= 22.3%  ktests=  27  errs=   0
+t= 1541.6s  mem=  670.6MB  cpu= 22.2%  ktests=  27  errs=   0
+t= 1546.6s  mem=  670.6MB  cpu= 22.1%  ktests=  27  errs=   0
+t= 1551.6s  mem=  670.6MB  cpu= 22.1%  ktests=  27  errs=   0
+t= 1556.6s  mem=  670.6MB  cpu= 22.0%  ktests=  27  errs=   0
+t= 1561.6s  mem=  670.6MB  cpu= 21.9%  ktests=  27  errs=   0
+t= 1566.6s  mem=  670.6MB  cpu= 21.8%  ktests=  27  errs=   0
+t= 1571.6s  mem=  670.6MB  cpu= 21.8%  ktests=  27  errs=   0
+t= 1576.6s  mem=  670.6MB  cpu= 21.7%  ktests=  27  errs=   0
+t= 1581.6s  mem=  670.6MB  cpu= 21.6%  ktests=  27  errs=   0
+t= 1586.6s  mem=  670.6MB  cpu= 21.6%  ktests=  27  errs=   0
+t= 1591.6s  mem=  670.6MB  cpu= 21.5%  ktests=  27  errs=   0
+t= 1596.6s  mem=  670.6MB  cpu= 21.4%  ktests=  27  errs=   0
+t= 1601.6s  mem=  670.6MB  cpu= 21.4%  ktests=  27  errs=   0
+t= 1606.6s  mem=  670.6MB  cpu= 21.3%  ktests=  27  errs=   0
+t= 1611.6s  mem=  670.6MB  cpu= 21.2%  ktests=  27  errs=   0
+t= 1616.6s  mem=  670.6MB  cpu= 21.2%  ktests=  27  errs=   0
+t= 1621.6s  mem=  670.6MB  cpu= 21.1%  ktests=  27  errs=   0
+t= 1626.6s  mem=  670.6MB  cpu= 21.0%  ktests=  27  errs=   0
+t= 1631.7s  mem=  670.6MB  cpu= 21.0%  ktests=  27  errs=   0
+t= 1636.7s  mem=  670.6MB  cpu= 20.9%  ktests=  27  errs=   0
+t= 1641.7s  mem=  670.6MB  cpu= 20.8%  ktests=  27  errs=   0
+t= 1646.7s  mem=  670.6MB  cpu= 20.8%  ktests=  27  errs=   0
+t= 1651.7s  mem=  670.6MB  cpu= 20.7%  ktests=  27  errs=   0
+t= 1656.7s  mem=  670.6MB  cpu= 20.7%  ktests=  27  errs=   0
+t= 1661.7s  mem=  670.6MB  cpu= 20.6%  ktests=  27  errs=   0
+t= 1666.7s  mem=  670.6MB  cpu= 20.5%  ktests=  27  errs=   0
+t= 1671.7s  mem=  670.6MB  cpu= 20.5%  ktests=  27  errs=   0
+t= 1676.7s  mem=  670.6MB  cpu= 20.4%  ktests=  27  errs=   0
+t= 1681.7s  mem=  670.6MB  cpu= 20.3%  ktests=  27  errs=   0
+t= 1686.7s  mem=  670.6MB  cpu= 20.3%  ktests=  27  errs=   0
+t= 1691.7s  mem=  670.6MB  cpu= 20.2%  ktests=  27  errs=   0
+t= 1696.7s  mem=  670.6MB  cpu= 20.2%  ktests=  27  errs=   0
+t= 1701.7s  mem=  670.6MB  cpu= 20.1%  ktests=  27  errs=   0
+t= 1706.7s  mem=  670.6MB  cpu= 20.1%  ktests=  27  errs=   0
+t= 1711.7s  mem=  670.6MB  cpu= 20.0%  ktests=  27  errs=   0
+t= 1716.7s  mem=  670.6MB  cpu= 19.9%  ktests=  27  errs=   0
+t= 1721.8s  mem=  670.6MB  cpu= 19.9%  ktests=  27  errs=   0
+t= 1726.8s  mem=  670.6MB  cpu= 19.8%  ktests=  27  errs=   0
+t= 1731.8s  mem=  670.6MB  cpu= 19.8%  ktests=  27  errs=   0
+t= 1736.8s  mem=  670.6MB  cpu= 19.7%  ktests=  27  errs=   0
+t= 1741.8s  mem=  670.6MB  cpu= 19.6%  ktests=  27  errs=   0
+t= 1746.8s  mem=  670.6MB  cpu= 19.6%  ktests=  27  errs=   0
+t= 1751.8s  mem=  670.6MB  cpu= 19.5%  ktests=  27  errs=   0
+t= 1756.8s  mem=  670.6MB  cpu= 19.5%  ktests=  27  errs=   0
+t= 1761.8s  mem=  670.6MB  cpu= 19.4%  ktests=  27  errs=   0
+t= 1766.8s  mem=  670.6MB  cpu= 19.4%  ktests=  27  errs=   0
+t= 1771.8s  mem=  670.6MB  cpu= 19.3%  ktests=  27  errs=   0
+t= 1776.8s  mem=  670.6MB  cpu= 19.3%  ktests=  27  errs=   0
+t= 1781.8s  mem=  670.6MB  cpu= 19.2%  ktests=  27  errs=   0
+t= 1786.8s  mem=  670.6MB  cpu= 19.2%  ktests=  27  errs=   0
+t= 1791.8s  mem=  670.6MB  cpu= 19.1%  ktests=  27  errs=   0
+t= 1796.8s  mem=  670.6MB  cpu= 19.0%  ktests=  27  errs=   0
+t= 1801.8s  mem=  670.6MB  cpu= 19.0%  ktests=  27  errs=   0
+t= 1806.8s  mem=  670.6MB  cpu= 18.9%  ktests=  27  errs=   0
+t= 1811.8s  mem=  670.6MB  cpu= 18.9%  ktests=  27  errs=   0
+t= 1816.9s  mem=  670.6MB  cpu= 18.8%  ktests=  27  errs=   0
+t= 1821.9s  mem=  670.6MB  cpu= 18.8%  ktests=  27  errs=   0
+t= 1826.9s  mem=  670.6MB  cpu= 18.7%  ktests=  27  errs=   0
+t= 1831.9s  mem=  670.6MB  cpu= 18.7%  ktests=  27  errs=   0
+t= 1836.9s  mem=  670.6MB  cpu= 18.6%  ktests=  27  errs=   0
+t= 1841.9s  mem=  670.6MB  cpu= 18.6%  ktests=  27  errs=   0
+t= 1846.9s  mem=  670.6MB  cpu= 18.5%  ktests=  27  errs=   0
+t= 1851.9s  mem=  670.6MB  cpu= 18.5%  ktests=  27  errs=   0
+t= 1856.9s  mem=  670.6MB  cpu= 18.4%  ktests=  27  errs=   0
+t= 1861.9s  mem=  670.6MB  cpu= 18.4%  ktests=  27  errs=   0
+t= 1866.9s  mem=  670.6MB  cpu= 18.3%  ktests=  27  errs=   0
+t= 1871.9s  mem=  670.6MB  cpu= 18.3%  ktests=  27  errs=   0
+t= 1876.9s  mem=  670.6MB  cpu= 18.2%  ktests=  27  errs=   0
+t= 1881.9s  mem=  670.6MB  cpu= 18.2%  ktests=  27  errs=   0
+t= 1886.9s  mem=  670.6MB  cpu= 18.1%  ktests=  27  errs=   0
+t= 1891.9s  mem=  670.6MB  cpu= 18.1%  ktests=  27  errs=   0
+t= 1896.9s  mem=  670.6MB  cpu= 18.0%  ktests=  27  errs=   0
+t= 1901.9s  mem=  670.6MB  cpu= 18.0%  ktests=  27  errs=   0
+t= 1906.9s  mem=  670.6MB  cpu= 17.9%  ktests=  27  errs=   0
+t= 1912.0s  mem=  670.6MB  cpu= 17.9%  ktests=  27  errs=   0
+t= 1917.0s  mem=  670.6MB  cpu= 17.9%  ktests=  27  errs=   0
+t= 1922.0s  mem=  670.6MB  cpu= 17.8%  ktests=  27  errs=   0
+t= 1927.0s  mem=  670.6MB  cpu= 17.8%  ktests=  27  errs=   0
+t= 1932.0s  mem=  670.6MB  cpu= 17.7%  ktests=  27  errs=   0
+t= 1937.0s  mem=  670.6MB  cpu= 17.7%  ktests=  27  errs=   0
+t= 1942.0s  mem=  670.6MB  cpu= 17.6%  ktests=  27  errs=   0
+t= 1947.0s  mem=  670.6MB  cpu= 17.6%  ktests=  27  errs=   0
+t= 1952.0s  mem=  670.6MB  cpu= 17.5%  ktests=  27  errs=   0
+t= 1957.0s  mem=  670.6MB  cpu= 17.5%  ktests=  27  errs=   0
+t= 1962.0s  mem=  670.6MB  cpu= 17.4%  ktests=  27  errs=   0
+t= 1967.0s  mem=  670.6MB  cpu= 17.4%  ktests=  27  errs=   0
+t= 1972.0s  mem=  670.6MB  cpu= 17.4%  ktests=  27  errs=   0
+t= 1977.0s  mem=  670.6MB  cpu= 17.3%  ktests=  27  errs=   0
+t= 1982.0s  mem=  670.6MB  cpu= 17.3%  ktests=  27  errs=   0
+t= 1987.0s  mem=  670.6MB  cpu= 17.2%  ktests=  27  errs=   0
+t= 1992.0s  mem=  670.6MB  cpu= 17.2%  ktests=  27  errs=   0
+t= 1997.0s  mem=  670.6MB  cpu= 17.1%  ktests=  27  errs=   0
+t= 2002.1s  mem=  670.6MB  cpu= 17.1%  ktests=  27  errs=   0
+t= 2007.1s  mem=  670.6MB  cpu= 17.1%  ktests=  27  errs=   0
+t= 2012.1s  mem=  670.6MB  cpu= 17.0%  ktests=  27  errs=   0
+t= 2017.1s  mem=  670.6MB  cpu= 17.0%  ktests=  27  errs=   0
+t= 2022.1s  mem=  670.6MB  cpu= 16.9%  ktests=  27  errs=   0
+t= 2027.1s  mem=  670.6MB  cpu= 16.9%  ktests=  27  errs=   0
+t= 2032.1s  mem=  670.6MB  cpu= 16.8%  ktests=  27  errs=   0
+t= 2037.1s  mem=  670.6MB  cpu= 16.8%  ktests=  27  errs=   0
+t= 2042.1s  mem=  670.6MB  cpu= 16.8%  ktests=  27  errs=   0
+t= 2047.1s  mem=  670.6MB  cpu= 16.7%  ktests=  27  errs=   0
+t= 2052.1s  mem=  670.6MB  cpu= 16.7%  ktests=  27  errs=   0
+t= 2057.1s  mem=  670.6MB  cpu= 16.6%  ktests=  27  errs=   0
+t= 2062.1s  mem=  670.6MB  cpu= 16.6%  ktests=  27  errs=   0
+t= 2067.1s  mem=  670.6MB  cpu= 16.6%  ktests=  27  errs=   0
+t= 2072.1s  mem=  670.6MB  cpu= 16.5%  ktests=  27  errs=   0
+t= 2077.1s  mem=  670.6MB  cpu= 16.5%  ktests=  27  errs=   0
+t= 2082.1s  mem=  670.6MB  cpu= 16.4%  ktests=  27  errs=   0
+t= 2087.1s  mem=  670.6MB  cpu= 16.4%  ktests=  27  errs=   0
+t= 2092.1s  mem=  670.6MB  cpu= 16.4%  ktests=  27  errs=   0
+t= 2097.2s  mem=  670.6MB  cpu= 16.3%  ktests=  27  errs=   0
+t= 2102.2s  mem=  670.6MB  cpu= 16.3%  ktests=  27  errs=   0
+t= 2107.2s  mem=  670.6MB  cpu= 16.2%  ktests=  27  errs=   0
+t= 2112.2s  mem=  670.6MB  cpu= 16.2%  ktests=  27  errs=   0
+t= 2117.2s  mem=  670.6MB  cpu= 16.2%  ktests=  27  errs=   0
+t= 2122.2s  mem=  670.6MB  cpu= 16.1%  ktests=  27  errs=   0
+t= 2127.2s  mem=  670.6MB  cpu= 16.1%  ktests=  27  errs=   0
+t= 2132.2s  mem=  670.6MB  cpu= 16.0%  ktests=  27  errs=   0
+t= 2137.2s  mem=  670.6MB  cpu= 16.0%  ktests=  27  errs=   0
+t= 2142.2s  mem=  670.6MB  cpu= 16.0%  ktests=  27  errs=   0
+t= 2147.2s  mem=  670.6MB  cpu= 15.9%  ktests=  27  errs=   0
+t= 2152.2s  mem=  670.6MB  cpu= 15.9%  ktests=  27  errs=   0
+t= 2157.2s  mem=  670.6MB  cpu= 15.9%  ktests=  27  errs=   0
+t= 2162.2s  mem=  670.6MB  cpu= 15.8%  ktests=  27  errs=   0
+t= 2167.2s  mem=  670.6MB  cpu= 15.8%  ktests=  27  errs=   0
+t= 2172.2s  mem=  670.6MB  cpu= 15.8%  ktests=  27  errs=   0
+t= 2177.2s  mem=  670.6MB  cpu= 15.7%  ktests=  27  errs=   0
+t= 2182.2s  mem=  670.6MB  cpu= 15.7%  ktests=  27  errs=   0
+t= 2187.2s  mem=  670.6MB  cpu= 15.6%  ktests=  27  errs=   0
+t= 2192.2s  mem=  670.6MB  cpu= 15.6%  ktests=  27  errs=   0
+t= 2197.2s  mem=  670.6MB  cpu= 15.6%  ktests=  27  errs=   0
+t= 2202.3s  mem=  670.6MB  cpu= 15.5%  ktests=  27  errs=   0
+t= 2207.3s  mem=  670.6MB  cpu= 15.5%  ktests=  27  errs=   0
+t= 2212.3s  mem=  670.6MB  cpu= 15.5%  ktests=  27  errs=   0
+t= 2217.3s  mem=  670.6MB  cpu= 15.4%  ktests=  27  errs=   0
+t= 2222.3s  mem=  670.6MB  cpu= 15.4%  ktests=  27  errs=   0
+t= 2227.3s  mem=  670.6MB  cpu= 15.4%  ktests=  27  errs=   0
+t= 2232.3s  mem=  670.6MB  cpu= 15.3%  ktests=  27  errs=   0
+t= 2237.3s  mem=  670.6MB  cpu= 15.3%  ktests=  27  errs=   0
+t= 2242.3s  mem=  670.6MB  cpu= 15.3%  ktests=  27  errs=   0
+t= 2247.3s  mem=  670.6MB  cpu= 15.2%  ktests=  27  errs=   0
+t= 2252.3s  mem=  670.6MB  cpu= 15.2%  ktests=  27  errs=   0
+t= 2257.3s  mem=  670.6MB  cpu= 15.2%  ktests=  27  errs=   0
+t= 2262.3s  mem=  670.6MB  cpu= 15.1%  ktests=  27  errs=   0
+t= 2267.3s  mem=  670.6MB  cpu= 15.1%  ktests=  27  errs=   0
+t= 2272.3s  mem=  670.6MB  cpu= 15.1%  ktests=  27  errs=   0
+t= 2277.3s  mem=  670.6MB  cpu= 15.0%  ktests=  27  errs=   0
+t= 2282.3s  mem=  670.6MB  cpu= 15.0%  ktests=  27  errs=   0
+t= 2287.3s  mem=  670.6MB  cpu= 15.0%  ktests=  27  errs=   0
+t= 2292.3s  mem=  670.6MB  cpu= 14.9%  ktests=  27  errs=   0
+t= 2297.3s  mem=  670.6MB  cpu= 14.9%  ktests=  27  errs=   0
+t= 2302.4s  mem=  670.6MB  cpu= 14.9%  ktests=  27  errs=   0
+t= 2307.4s  mem=  670.6MB  cpu= 14.8%  ktests=  27  errs=   0
+t= 2312.4s  mem=  670.6MB  cpu= 14.8%  ktests=  27  errs=   0
+t= 2317.4s  mem=  670.6MB  cpu= 14.8%  ktests=  27  errs=   0
+t= 2322.4s  mem=  670.6MB  cpu= 14.7%  ktests=  27  errs=   0
+t= 2327.4s  mem=  670.6MB  cpu= 14.7%  ktests=  27  errs=   0
+t= 2332.4s  mem=  670.6MB  cpu= 14.7%  ktests=  27  errs=   0
+t= 2337.4s  mem=  670.6MB  cpu= 14.6%  ktests=  27  errs=   0
+t= 2342.4s  mem=  670.6MB  cpu= 14.6%  ktests=  27  errs=   0
+t= 2347.4s  mem=  670.6MB  cpu= 14.6%  ktests=  27  errs=   0
+t= 2352.4s  mem=  670.6MB  cpu= 14.5%  ktests=  27  errs=   0
+t= 2357.4s  mem=  670.6MB  cpu= 14.5%  ktests=  27  errs=   0
+t= 2362.4s  mem=  670.6MB  cpu= 14.5%  ktests=  27  errs=   0
+t= 2367.4s  mem=  670.6MB  cpu= 14.5%  ktests=  27  errs=   0
+t= 2372.4s  mem=  670.6MB  cpu= 14.4%  ktests=  27  errs=   0
+t= 2377.4s  mem=  670.6MB  cpu= 14.4%  ktests=  27  errs=   0
+t= 2382.4s  mem=  670.6MB  cpu= 14.4%  ktests=  27  errs=   0
+t= 2387.4s  mem=  670.6MB  cpu= 14.3%  ktests=  27  errs=   0
+t= 2392.4s  mem=  670.6MB  cpu= 14.3%  ktests=  27  errs=   0
+t= 2397.4s  mem=  670.6MB  cpu= 14.3%  ktests=  27  errs=   0
+t= 2402.5s  mem=  670.6MB  cpu= 14.2%  ktests=  27  errs=   0
+t= 2407.5s  mem=  670.6MB  cpu= 14.2%  ktests=  27  errs=   0
+t= 2412.5s  mem=  670.6MB  cpu= 14.2%  ktests=  27  errs=   0
+t= 2417.5s  mem=  670.6MB  cpu= 14.2%  ktests=  27  errs=   0
+t= 2422.5s  mem=  670.6MB  cpu= 14.1%  ktests=  27  errs=   0
+t= 2427.5s  mem=  670.6MB  cpu= 14.1%  ktests=  27  errs=   0
+t= 2432.5s  mem=  670.6MB  cpu= 14.1%  ktests=  27  errs=   0
+t= 2437.5s  mem=  670.6MB  cpu= 14.0%  ktests=  27  errs=   0
+t= 2442.5s  mem=  670.6MB  cpu= 14.0%  ktests=  27  errs=   0
+t= 2447.5s  mem=  670.6MB  cpu= 14.0%  ktests=  27  errs=   0
+t= 2452.5s  mem=  670.6MB  cpu= 14.0%  ktests=  27  errs=   0
+t= 2457.5s  mem=  670.6MB  cpu= 13.9%  ktests=  27  errs=   0
+t= 2462.5s  mem=  670.6MB  cpu= 13.9%  ktests=  27  errs=   0
+t= 2467.5s  mem=  670.6MB  cpu= 13.9%  ktests=  27  errs=   0
+t= 2472.5s  mem=  670.6MB  cpu= 13.8%  ktests=  27  errs=   0
+t= 2477.5s  mem=  670.6MB  cpu= 13.8%  ktests=  27  errs=   0
+t= 2482.5s  mem=  670.6MB  cpu= 13.8%  ktests=  27  errs=   0
+t= 2487.5s  mem=  670.6MB  cpu= 13.8%  ktests=  27  errs=   0
+t= 2492.5s  mem=  670.6MB  cpu= 13.7%  ktests=  27  errs=   0
+t= 2497.5s  mem=  670.6MB  cpu= 13.7%  ktests=  27  errs=   0
+t= 2502.5s  mem=  670.6MB  cpu= 13.7%  ktests=  27  errs=   0
+t= 2507.6s  mem=  670.6MB  cpu= 13.6%  ktests=  27  errs=   0
+t= 2512.6s  mem=  670.6MB  cpu= 13.6%  ktests=  27  errs=   0
+t= 2517.6s  mem=  670.6MB  cpu= 13.6%  ktests=  27  errs=   0
+t= 2522.6s  mem=  670.6MB  cpu= 13.6%  ktests=  27  errs=   0
+t= 2527.6s  mem=  670.6MB  cpu= 13.5%  ktests=  27  errs=   0
+t= 2532.6s  mem=  670.6MB  cpu= 13.5%  ktests=  27  errs=   0
+t= 2537.6s  mem=  670.6MB  cpu= 13.5%  ktests=  27  errs=   0
+t= 2542.6s  mem=  670.6MB  cpu= 13.5%  ktests=  27  errs=   0
+t= 2547.6s  mem=  670.6MB  cpu= 13.4%  ktests=  27  errs=   0
+t= 2552.6s  mem=  670.6MB  cpu= 13.4%  ktests=  27  errs=   0
+t= 2557.6s  mem=  670.6MB  cpu= 13.4%  ktests=  27  errs=   0
+t= 2562.6s  mem=  670.6MB  cpu= 13.4%  ktests=  27  errs=   0
+t= 2567.6s  mem=  670.6MB  cpu= 13.3%  ktests=  27  errs=   0
+t= 2572.6s  mem=  670.6MB  cpu= 13.3%  ktests=  27  errs=   0
+t= 2577.6s  mem=  670.6MB  cpu= 13.3%  ktests=  27  errs=   0
+t= 2582.6s  mem=  670.6MB  cpu= 13.3%  ktests=  27  errs=   0
+t= 2587.6s  mem=  670.6MB  cpu= 13.2%  ktests=  27  errs=   0
+t= 2592.6s  mem=  670.6MB  cpu= 13.2%  ktests=  27  errs=   0
+t= 2597.6s  mem=  670.6MB  cpu= 13.2%  ktests=  27  errs=   0
+t= 2602.6s  mem=  670.6MB  cpu= 13.1%  ktests=  27  errs=   0
+t= 2607.7s  mem=  670.6MB  cpu= 13.1%  ktests=  27  errs=   0
+t= 2612.7s  mem=  670.6MB  cpu= 13.1%  ktests=  27  errs=   0
+t= 2617.7s  mem=  670.6MB  cpu= 13.1%  ktests=  27  errs=   0
+t= 2622.7s  mem=  670.6MB  cpu= 13.0%  ktests=  27  errs=   0
+t= 2627.7s  mem=  670.6MB  cpu= 13.0%  ktests=  27  errs=   0
+t= 2632.7s  mem=  670.6MB  cpu= 13.0%  ktests=  27  errs=   0
+t= 2637.7s  mem=  670.6MB  cpu= 13.0%  ktests=  27  errs=   0
+t= 2642.7s  mem=  670.6MB  cpu= 12.9%  ktests=  27  errs=   0
+t= 2647.7s  mem=  670.6MB  cpu= 12.9%  ktests=  27  errs=   0
+t= 2652.7s  mem=  670.6MB  cpu= 12.9%  ktests=  27  errs=   0
+t= 2657.7s  mem=  670.6MB  cpu= 12.9%  ktests=  27  errs=   0
+t= 2662.7s  mem=  670.6MB  cpu= 12.9%  ktests=  27  errs=   0
+t= 2667.7s  mem=  670.6MB  cpu= 12.8%  ktests=  27  errs=   0
+t= 2672.7s  mem=  670.6MB  cpu= 12.8%  ktests=  27  errs=   0
+t= 2677.7s  mem=  670.6MB  cpu= 12.8%  ktests=  27  errs=   0
+t= 2682.7s  mem=  670.6MB  cpu= 12.8%  ktests=  27  errs=   0
+t= 2687.7s  mem=  670.6MB  cpu= 12.7%  ktests=  27  errs=   0
+t= 2692.7s  mem=  670.6MB  cpu= 12.7%  ktests=  27  errs=   0
+t= 2697.8s  mem=  670.6MB  cpu= 12.7%  ktests=  27  errs=   0
+t= 2702.8s  mem=  670.6MB  cpu= 12.7%  ktests=  27  errs=   0
+t= 2707.8s  mem=  670.6MB  cpu= 12.6%  ktests=  27  errs=   0
+t= 2712.8s  mem=  670.6MB  cpu= 12.6%  ktests=  27  errs=   0
+t= 2717.8s  mem=  670.6MB  cpu= 12.6%  ktests=  27  errs=   0
+t= 2722.8s  mem=  670.6MB  cpu= 12.6%  ktests=  27  errs=   0
+t= 2727.8s  mem=  670.6MB  cpu= 12.5%  ktests=  27  errs=   0
+t= 2732.8s  mem=  670.6MB  cpu= 12.5%  ktests=  27  errs=   0
+t= 2737.8s  mem=  670.6MB  cpu= 12.5%  ktests=  27  errs=   0
+t= 2742.8s  mem=  670.6MB  cpu= 12.5%  ktests=  27  errs=   0
+t= 2747.8s  mem=  670.6MB  cpu= 12.5%  ktests=  27  errs=   0
+t= 2752.8s  mem=  670.6MB  cpu= 12.4%  ktests=  27  errs=   0
+t= 2757.8s  mem=  670.6MB  cpu= 12.4%  ktests=  27  errs=   0
+t= 2762.8s  mem=  670.6MB  cpu= 12.4%  ktests=  27  errs=   0
+t= 2767.8s  mem=  670.6MB  cpu= 12.4%  ktests=  27  errs=   0
+t= 2772.8s  mem=  670.6MB  cpu= 12.3%  ktests=  27  errs=   0
+t= 2777.8s  mem=  670.6MB  cpu= 12.3%  ktests=  27  errs=   0
+t= 2782.8s  mem=  670.6MB  cpu= 12.3%  ktests=  27  errs=   0
+t= 2787.8s  mem=  670.6MB  cpu= 12.3%  ktests=  27  errs=   0
+t= 2792.9s  mem=  670.6MB  cpu= 12.3%  ktests=  27  errs=   0
+t= 2797.9s  mem=  670.6MB  cpu= 12.2%  ktests=  27  errs=   0
+t= 2802.9s  mem=  670.6MB  cpu= 12.2%  ktests=  27  errs=   0
+t= 2807.9s  mem=  670.6MB  cpu= 12.2%  ktests=  27  errs=   0
+t= 2812.9s  mem=  670.6MB  cpu= 12.2%  ktests=  27  errs=   0
+t= 2817.9s  mem=  670.6MB  cpu= 12.1%  ktests=  27  errs=   0
+t= 2822.9s  mem=  670.6MB  cpu= 12.1%  ktests=  27  errs=   0
+t= 2827.9s  mem=  670.6MB  cpu= 12.1%  ktests=  27  errs=   0
+t= 2832.9s  mem=  670.6MB  cpu= 12.1%  ktests=  27  errs=   0
+t= 2837.9s  mem=  670.6MB  cpu= 12.1%  ktests=  27  errs=   0
+t= 2842.9s  mem=  670.6MB  cpu= 12.0%  ktests=  27  errs=   0
+t= 2847.9s  mem=  670.6MB  cpu= 12.0%  ktests=  27  errs=   0
+t= 2852.9s  mem=  670.6MB  cpu= 12.0%  ktests=  27  errs=   0
+t= 2857.9s  mem=  670.6MB  cpu= 12.0%  ktests=  27  errs=   0
+t= 2862.9s  mem=  670.6MB  cpu= 12.0%  ktests=  27  errs=   0
+t= 2867.9s  mem=  670.6MB  cpu= 11.9%  ktests=  27  errs=   0
+t= 2872.9s  mem=  670.6MB  cpu= 11.9%  ktests=  27  errs=   0
+t= 2877.9s  mem=  670.6MB  cpu= 11.9%  ktests=  27  errs=   0
+t= 2882.9s  mem=  670.6MB  cpu= 11.9%  ktests=  27  errs=   0
+t= 2887.9s  mem=  670.6MB  cpu= 11.8%  ktests=  27  errs=   0
+t= 2893.0s  mem=  670.6MB  cpu= 11.8%  ktests=  27  errs=   0
+t= 2898.0s  mem=  670.6MB  cpu= 11.8%  ktests=  27  errs=   0
+t= 2903.0s  mem=  670.6MB  cpu= 11.8%  ktests=  27  errs=   0
+t= 2908.0s  mem=  670.6MB  cpu= 11.8%  ktests=  27  errs=   0
+t= 2913.0s  mem=  670.6MB  cpu= 11.7%  ktests=  27  errs=   0
+t= 2918.0s  mem=  670.6MB  cpu= 11.7%  ktests=  27  errs=   0
+t= 2923.0s  mem=  670.6MB  cpu= 11.7%  ktests=  27  errs=   0
+t= 2928.0s  mem=  670.6MB  cpu= 11.7%  ktests=  27  errs=   0
+t= 2933.0s  mem=  670.6MB  cpu= 11.7%  ktests=  27  errs=   0
+t= 2938.0s  mem=  670.6MB  cpu= 11.6%  ktests=  27  errs=   0
+t= 2943.0s  mem=  670.6MB  cpu= 11.6%  ktests=  27  errs=   0
+t= 2948.0s  mem=  670.6MB  cpu= 11.6%  ktests=  27  errs=   0
+t= 2953.0s  mem=  670.6MB  cpu= 11.6%  ktests=  27  errs=   0
+t= 2958.0s  mem=  670.6MB  cpu= 11.6%  ktests=  27  errs=   0
+t= 2963.0s  mem=  670.6MB  cpu= 11.5%  ktests=  27  errs=   0
+t= 2968.0s  mem=  670.6MB  cpu= 11.5%  ktests=  27  errs=   0
+t= 2973.0s  mem=  670.6MB  cpu= 11.5%  ktests=  27  errs=   0
+t= 2978.0s  mem=  670.6MB  cpu= 11.5%  ktests=  27  errs=   0
+t= 2983.0s  mem=  670.6MB  cpu= 11.5%  ktests=  27  errs=   0
+t= 2988.0s  mem=  670.6MB  cpu= 11.5%  ktests=  27  errs=   0
+t= 2993.1s  mem=  670.6MB  cpu= 11.4%  ktests=  27  errs=   0
+t= 2998.1s  mem=  670.6MB  cpu= 11.4%  ktests=  27  errs=   0
+t= 3003.1s  mem=  670.6MB  cpu= 11.4%  ktests=  27  errs=   0
+t= 3008.1s  mem=  670.6MB  cpu= 11.4%  ktests=  27  errs=   0
+t= 3013.1s  mem=  670.6MB  cpu= 11.4%  ktests=  27  errs=   0
+t= 3018.1s  mem=  670.6MB  cpu= 11.3%  ktests=  27  errs=   0
+t= 3023.1s  mem=  670.6MB  cpu= 11.3%  ktests=  27  errs=   0
+t= 3028.1s  mem=  670.6MB  cpu= 11.3%  ktests=  27  errs=   0
+t= 3033.1s  mem=  670.6MB  cpu= 11.3%  ktests=  27  errs=   0
+t= 3038.1s  mem=  670.6MB  cpu= 11.3%  ktests=  27  errs=   0
+t= 3043.1s  mem=  670.6MB  cpu= 11.2%  ktests=  27  errs=   0
+t= 3048.1s  mem=  670.6MB  cpu= 11.2%  ktests=  27  errs=   0
+t= 3053.1s  mem=  670.6MB  cpu= 11.2%  ktests=  27  errs=   0
+t= 3058.1s  mem=  670.6MB  cpu= 11.2%  ktests=  27  errs=   0
+t= 3063.1s  mem=  670.6MB  cpu= 11.2%  ktests=  27  errs=   0
+t= 3068.1s  mem=  670.6MB  cpu= 11.2%  ktests=  27  errs=   0
+t= 3073.1s  mem=  670.6MB  cpu= 11.1%  ktests=  27  errs=   0
+t= 3078.1s  mem=  670.6MB  cpu= 11.1%  ktests=  27  errs=   0
+t= 3083.2s  mem=  670.6MB  cpu= 11.1%  ktests=  27  errs=   0
+t= 3088.2s  mem=  670.6MB  cpu= 11.1%  ktests=  27  errs=   0
+t= 3093.2s  mem=  670.6MB  cpu= 11.1%  ktests=  27  errs=   0
+t= 3098.2s  mem=  670.6MB  cpu= 11.0%  ktests=  27  errs=   0
+t= 3103.2s  mem=  670.6MB  cpu= 11.0%  ktests=  27  errs=   0
+t= 3108.2s  mem=  670.6MB  cpu= 11.0%  ktests=  27  errs=   0
+t= 3113.2s  mem=  670.6MB  cpu= 11.0%  ktests=  27  errs=   0
+t= 3118.2s  mem=  670.6MB  cpu= 11.0%  ktests=  27  errs=   0
+t= 3123.2s  mem=  670.6MB  cpu= 11.0%  ktests=  27  errs=   0
+t= 3128.2s  mem=  670.6MB  cpu= 10.9%  ktests=  27  errs=   0
+t= 3133.2s  mem=  670.6MB  cpu= 10.9%  ktests=  27  errs=   0
+t= 3138.2s  mem=  670.6MB  cpu= 10.9%  ktests=  27  errs=   0
+t= 3143.2s  mem=  670.6MB  cpu= 10.9%  ktests=  27  errs=   0
+t= 3148.2s  mem=  670.6MB  cpu= 10.9%  ktests=  27  errs=   0
+t= 3153.2s  mem=  670.6MB  cpu= 10.9%  ktests=  27  errs=   0
+t= 3158.2s  mem=  670.6MB  cpu= 10.8%  ktests=  27  errs=   0
+t= 3163.2s  mem=  670.6MB  cpu= 10.8%  ktests=  27  errs=   0
+t= 3168.2s  mem=  670.6MB  cpu= 10.8%  ktests=  27  errs=   0
+t= 3173.2s  mem=  670.6MB  cpu= 10.8%  ktests=  27  errs=   0
+t= 3178.2s  mem=  670.6MB  cpu= 10.8%  ktests=  27  errs=   0
+t= 3183.2s  mem=  670.6MB  cpu= 10.8%  ktests=  27  errs=   0
+t= 3188.3s  mem=  670.6MB  cpu= 10.7%  ktests=  27  errs=   0
+t= 3193.3s  mem=  670.6MB  cpu= 10.7%  ktests=  27  errs=   0
+t= 3198.3s  mem=  670.6MB  cpu= 10.7%  ktests=  27  errs=   0
+t= 3203.3s  mem=  670.6MB  cpu= 10.7%  ktests=  27  errs=   0
+t= 3208.3s  mem=  670.6MB  cpu= 10.7%  ktests=  27  errs=   0
+t= 3213.3s  mem=  670.6MB  cpu= 10.6%  ktests=  27  errs=   0
+t= 3218.3s  mem=  670.6MB  cpu= 10.6%  ktests=  27  errs=   0
+t= 3223.3s  mem=  670.6MB  cpu= 10.6%  ktests=  27  errs=   0
+t= 3228.3s  mem=  670.6MB  cpu= 10.6%  ktests=  27  errs=   0
+t= 3233.3s  mem=  670.6MB  cpu= 10.6%  ktests=  27  errs=   0
+t= 3238.3s  mem=  670.6MB  cpu= 10.6%  ktests=  27  errs=   0
+t= 3243.3s  mem=  670.6MB  cpu= 10.6%  ktests=  27  errs=   0
+t= 3248.3s  mem=  670.6MB  cpu= 10.5%  ktests=  27  errs=   0
+t= 3253.3s  mem=  670.6MB  cpu= 10.5%  ktests=  27  errs=   0
+t= 3258.3s  mem=  670.6MB  cpu= 10.5%  ktests=  27  errs=   0
+t= 3263.3s  mem=  670.6MB  cpu= 10.5%  ktests=  27  errs=   0
+t= 3268.3s  mem=  670.6MB  cpu= 10.5%  ktests=  27  errs=   0
+t= 3273.3s  mem=  670.6MB  cpu= 10.5%  ktests=  27  errs=   0
+t= 3278.3s  mem=  670.6MB  cpu= 10.4%  ktests=  27  errs=   0
+t= 3283.4s  mem=  670.6MB  cpu= 10.4%  ktests=  27  errs=   0
+t= 3288.4s  mem=  670.6MB  cpu= 10.4%  ktests=  27  errs=   0
+t= 3293.4s  mem=  670.6MB  cpu= 10.4%  ktests=  27  errs=   0
+t= 3298.4s  mem=  670.6MB  cpu= 10.4%  ktests=  27  errs=   0
+t= 3303.4s  mem=  670.6MB  cpu= 10.4%  ktests=  27  errs=   0
+t= 3308.4s  mem=  670.6MB  cpu= 10.3%  ktests=  27  errs=   0
+t= 3313.4s  mem=  670.6MB  cpu= 10.3%  ktests=  27  errs=   0
+t= 3318.4s  mem=  670.6MB  cpu= 10.3%  ktests=  27  errs=   0
+t= 3323.4s  mem=  670.6MB  cpu= 10.3%  ktests=  27  errs=   0
+t= 3328.4s  mem=  670.6MB  cpu= 10.3%  ktests=  27  errs=   0
+t= 3333.4s  mem=  670.6MB  cpu= 10.3%  ktests=  27  errs=   0
+t= 3338.4s  mem=  670.6MB  cpu= 10.3%  ktests=  27  errs=   0
+t= 3343.4s  mem=  670.6MB  cpu= 10.2%  ktests=  27  errs=   0
+t= 3348.4s  mem=  670.6MB  cpu= 10.2%  ktests=  27  errs=   0
+t= 3353.4s  mem=  670.6MB  cpu= 10.2%  ktests=  27  errs=   0
+t= 3358.4s  mem=  670.6MB  cpu= 10.2%  ktests=  27  errs=   0
+t= 3363.4s  mem=  670.6MB  cpu= 10.2%  ktests=  27  errs=   0
+t= 3368.4s  mem=  670.6MB  cpu= 10.2%  ktests=  27  errs=   0
+t= 3373.4s  mem=  670.6MB  cpu= 10.1%  ktests=  27  errs=   0
+t= 3378.5s  mem=  670.6MB  cpu= 10.1%  ktests=  27  errs=   0
+t= 3383.5s  mem=  670.6MB  cpu= 10.1%  ktests=  27  errs=   0
+t= 3388.5s  mem=  670.6MB  cpu= 10.1%  ktests=  27  errs=   0
+t= 3393.5s  mem=  670.6MB  cpu= 10.1%  ktests=  27  errs=   0
+t= 3398.5s  mem=  670.6MB  cpu= 10.1%  ktests=  27  errs=   0
+t= 3403.5s  mem=  670.6MB  cpu= 10.1%  ktests=  27  errs=   0
+t= 3408.5s  mem=  670.6MB  cpu= 10.0%  ktests=  27  errs=   0
+t= 3413.5s  mem=  670.6MB  cpu= 10.0%  ktests=  27  errs=   0
+t= 3418.5s  mem=  670.6MB  cpu= 10.0%  ktests=  27  errs=   0
+t= 3423.5s  mem=  670.6MB  cpu= 10.0%  ktests=  27  errs=   0
+t= 3428.5s  mem=  670.6MB  cpu= 10.0%  ktests=  27  errs=   0
+t= 3433.5s  mem=  670.6MB  cpu= 10.0%  ktests=  27  errs=   0
+t= 3438.5s  mem=  670.6MB  cpu= 10.0%  ktests=  27  errs=   0
+t= 3443.5s  mem=  670.6MB  cpu=  9.9%  ktests=  27  errs=   0
+t= 3448.5s  mem=  670.6MB  cpu=  9.9%  ktests=  27  errs=   0
+t= 3453.5s  mem=  670.6MB  cpu=  9.9%  ktests=  27  errs=   0
+t= 3458.5s  mem=  670.6MB  cpu=  9.9%  ktests=  27  errs=   0
+t= 3463.5s  mem=  670.6MB  cpu=  9.9%  ktests=  27  errs=   0
+t= 3468.5s  mem=  670.6MB  cpu=  9.9%  ktests=  27  errs=   0
+t= 3473.6s  mem=  670.6MB  cpu=  9.9%  ktests=  27  errs=   0
+t= 3478.6s  mem=  670.6MB  cpu=  9.8%  ktests=  27  errs=   0
+t= 3483.6s  mem=  670.6MB  cpu=  9.8%  ktests=  27  errs=   0
+t= 3488.6s  mem=  670.6MB  cpu=  9.8%  ktests=  27  errs=   0
+t= 3493.6s  mem=  670.6MB  cpu=  9.8%  ktests=  27  errs=   0
+t= 3498.6s  mem=  670.6MB  cpu=  9.8%  ktests=  27  errs=   0
+t= 3503.6s  mem=  670.6MB  cpu=  9.8%  ktests=  27  errs=   0
+t= 3508.6s  mem=  670.6MB  cpu=  9.8%  ktests=  27  errs=   0
+t= 3513.6s  mem=  670.6MB  cpu=  9.7%  ktests=  27  errs=   0
+t= 3518.6s  mem=  670.6MB  cpu=  9.7%  ktests=  27  errs=   0
+t= 3523.6s  mem=  670.6MB  cpu=  9.7%  ktests=  27  errs=   0
+t= 3528.6s  mem=  670.6MB  cpu=  9.7%  ktests=  27  errs=   0
+t= 3533.6s  mem=  670.6MB  cpu=  9.7%  ktests=  27  errs=   0
+t= 3538.6s  mem=  670.6MB  cpu=  9.7%  ktests=  27  errs=   0
+t= 3543.6s  mem=  670.6MB  cpu=  9.7%  ktests=  27  errs=   0
+t= 3548.6s  mem=  670.6MB  cpu=  9.6%  ktests=  27  errs=   0
+t= 3553.6s  mem=  670.6MB  cpu=  9.6%  ktests=  27  errs=   0
+t= 3558.6s  mem=  670.6MB  cpu=  9.6%  ktests=  27  errs=   0
+t= 3563.7s  mem=  670.6MB  cpu=  9.6%  ktests=  27  errs=   0
+t= 3568.7s  mem=  670.6MB  cpu=  9.6%  ktests=  27  errs=   0
+t= 3573.7s  mem=  670.6MB  cpu=  9.6%  ktests=  27  errs=   0
+t= 3578.7s  mem=  670.6MB  cpu=  9.6%  ktests=  27  errs=   0
+t= 3583.7s  mem=  670.6MB  cpu=  9.5%  ktests=  27  errs=   0
+t= 3588.7s  mem=  670.6MB  cpu=  9.5%  ktests=  27  errs=   0
+t= 3593.7s  mem=  670.6MB  cpu=  9.5%  ktests=  27  errs=   0
+t= 3598.7s  mem=  670.6MB  cpu=  9.5%  ktests=  27  errs=   0
+t= 3603.7s  mem=  670.6MB  cpu=  9.5%  ktests=  27  errs=   0
+t= 3608.7s  mem=  670.6MB  cpu=  9.5%  ktests=  27  errs=   0
+t= 3613.7s  mem=  670.6MB  cpu=  9.5%  ktests=  27  errs=   0
+t= 3618.7s  mem=  670.6MB  cpu=  9.5%  ktests=  27  errs=   0
+t= 3623.7s  mem=  670.6MB  cpu=  9.4%  ktests=  27  errs=   0
+t= 3628.7s  mem=  670.6MB  cpu=  9.4%  ktests=  27  errs=   0
+t= 3633.7s  mem=  670.6MB  cpu=  9.4%  ktests=  27  errs=   0
+t= 3638.7s  mem=  670.6MB  cpu=  9.4%  ktests=  27  errs=   0
+t= 3643.7s  mem=  670.6MB  cpu=  9.4%  ktests=  27  errs=   0
+t= 3648.7s  mem=  670.6MB  cpu=  9.4%  ktests=  27  errs=   0
+t= 3653.7s  mem=  670.6MB  cpu=  9.4%  ktests=  27  errs=   0
+t= 3658.7s  mem=  670.6MB  cpu=  9.4%  ktests=  27  errs=   0
+t= 3663.7s  mem=  670.6MB  cpu=  9.3%  ktests=  27  errs=   0
+t= 3668.7s  mem=  670.6MB  cpu=  9.3%  ktests=  27  errs=   0
+t= 3673.8s  mem=  670.6MB  cpu=  9.3%  ktests=  27  errs=   0
+t= 3678.8s  mem=  670.6MB  cpu=  9.3%  ktests=  27  errs=   0
+t= 3683.8s  mem=  670.6MB  cpu=  9.3%  ktests=  27  errs=   0
+t= 3688.8s  mem=  670.6MB  cpu=  9.3%  ktests=  27  errs=   0
+t= 3693.8s  mem=  670.6MB  cpu=  9.3%  ktests=  27  errs=   0
+t= 3698.8s  mem=  670.6MB  cpu=  9.3%  ktests=  27  errs=   0
+t= 3703.8s  mem=  670.6MB  cpu=  9.2%  ktests=  27  errs=   0
+t= 3708.8s  mem=  670.6MB  cpu=  9.2%  ktests=  27  errs=   0
+t= 3713.8s  mem=  670.6MB  cpu=  9.2%  ktests=  27  errs=   0
+t= 3718.8s  mem=  670.6MB  cpu=  9.2%  ktests=  27  errs=   0
+t= 3723.8s  mem=  670.6MB  cpu=  9.2%  ktests=  27  errs=   0
+t= 3728.8s  mem=  670.6MB  cpu=  9.2%  ktests=  27  errs=   0
+t= 3733.8s  mem=  670.6MB  cpu=  9.2%  ktests=  27  errs=   0
+t= 3738.8s  mem=  670.6MB  cpu=  9.2%  ktests=  27  errs=   0
+t= 3743.8s  mem=  670.6MB  cpu=  9.1%  ktests=  27  errs=   0
+t= 3748.8s  mem=  670.6MB  cpu=  9.1%  ktests=  27  errs=   0
+t= 3753.8s  mem=  670.6MB  cpu=  9.1%  ktests=  27  errs=   0
+t= 3758.8s  mem=  670.6MB  cpu=  9.1%  ktests=  27  errs=   0
+t= 3763.9s  mem=  670.6MB  cpu=  9.1%  ktests=  27  errs=   0
+t= 3768.9s  mem=  670.6MB  cpu=  9.1%  ktests=  27  errs=   0
+t= 3773.9s  mem=  670.6MB  cpu=  9.1%  ktests=  27  errs=   0
+t= 3778.9s  mem=  670.6MB  cpu=  9.1%  ktests=  27  errs=   0
+t= 3783.9s  mem=  670.6MB  cpu=  9.0%  ktests=  27  errs=   0
+t= 3788.9s  mem=  670.6MB  cpu=  9.0%  ktests=  27  errs=   0
+t= 3793.9s  mem=  670.6MB  cpu=  9.0%  ktests=  27  errs=   0
+t= 3798.9s  mem=  670.6MB  cpu=  9.0%  ktests=  27  errs=   0
+t= 3803.9s  mem=  670.6MB  cpu=  9.0%  ktests=  27  errs=   0
+t= 3808.9s  mem=  670.6MB  cpu=  9.0%  ktests=  27  errs=   0
+t= 3813.9s  mem=  670.6MB  cpu=  9.0%  ktests=  27  errs=   0
+t= 3818.9s  mem=  670.6MB  cpu=  9.0%  ktests=  27  errs=   0
+t= 3823.9s  mem=  670.6MB  cpu=  8.9%  ktests=  27  errs=   0
+t= 3828.9s  mem=  670.6MB  cpu=  8.9%  ktests=  27  errs=   0
+t= 3833.9s  mem=  670.6MB  cpu=  8.9%  ktests=  27  errs=   0
+t= 3838.9s  mem=  670.6MB  cpu=  8.9%  ktests=  27  errs=   0
+t= 3843.9s  mem=  670.6MB  cpu=  8.9%  ktests=  27  errs=   0
+t= 3848.9s  mem=  670.6MB  cpu=  8.9%  ktests=  27  errs=   0
+t= 3853.9s  mem=  670.6MB  cpu=  8.9%  ktests=  27  errs=   0
+t= 3859.0s  mem=  670.6MB  cpu=  8.9%  ktests=  27  errs=   0
+t= 3864.0s  mem=  670.6MB  cpu=  8.9%  ktests=  27  errs=   0
+t= 3869.0s  mem=  670.6MB  cpu=  8.8%  ktests=  27  errs=   0
+t= 3874.0s  mem=  670.6MB  cpu=  8.8%  ktests=  27  errs=   0
+t= 3879.0s  mem=  670.6MB  cpu=  8.8%  ktests=  27  errs=   0
+t= 3884.0s  mem=  670.6MB  cpu=  8.8%  ktests=  27  errs=   0
+t= 3889.0s  mem=  670.6MB  cpu=  8.8%  ktests=  27  errs=   0
+t= 3894.0s  mem=  670.6MB  cpu=  8.8%  ktests=  27  errs=   0
+t= 3899.0s  mem=  670.6MB  cpu=  8.8%  ktests=  27  errs=   0
+t= 3904.0s  mem=  670.6MB  cpu=  8.8%  ktests=  27  errs=   0
+t= 3909.0s  mem=  670.6MB  cpu=  8.8%  ktests=  27  errs=   0
+t= 3914.0s  mem=  670.6MB  cpu=  8.7%  ktests=  27  errs=   0
+t= 3919.0s  mem=  670.6MB  cpu=  8.7%  ktests=  27  errs=   0
+t= 3924.0s  mem=  670.6MB  cpu=  8.7%  ktests=  27  errs=   0
+t= 3929.0s  mem=  670.6MB  cpu=  8.7%  ktests=  27  errs=   0
+t= 3934.0s  mem=  670.6MB  cpu=  8.7%  ktests=  27  errs=   0
+t= 3939.0s  mem=  670.6MB  cpu=  8.7%  ktests=  27  errs=   0
+t= 3944.0s  mem=  670.6MB  cpu=  8.7%  ktests=  27  errs=   0
+t= 3949.0s  mem=  670.6MB  cpu=  8.7%  ktests=  27  errs=   0
+t= 3954.0s  mem=  670.6MB  cpu=  8.7%  ktests=  27  errs=   0
+t= 3959.1s  mem=  670.6MB  cpu=  8.6%  ktests=  27  errs=   0
+t= 3964.1s  mem=  670.6MB  cpu=  8.6%  ktests=  27  errs=   0
+
+
+t=    0.0s  mem=    0.4MB  cpu=  0.0%  ktests=   0  errs=   0
+t=    5.0s  mem=  394.6MB  cpu= 99.7%  ktests=   0  errs=   0
+t=   10.0s  mem=  388.4MB  cpu= 99.8%  ktests=   0  errs=   0
+t=   15.0s  mem=  394.2MB  cpu= 99.9%  ktests=   0  errs=   0
+t=   20.0s  mem=  394.4MB  cpu= 99.9%  ktests=   0  errs=   0
+t=   25.0s  mem=  394.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=   30.0s  mem=  395.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=   35.0s  mem=  396.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=   40.0s  mem=  396.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=   45.0s  mem=  404.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=   50.1s  mem=  406.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=   55.1s  mem=  412.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=   60.1s  mem=  420.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=   65.1s  mem=  424.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=   70.1s  mem=  436.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=   75.1s  mem=  436.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=   80.1s  mem=  441.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=   85.1s  mem=  453.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=   90.1s  mem=  453.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=   95.1s  mem=  457.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  100.1s  mem=  469.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  105.1s  mem=  469.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  110.1s  mem=  476.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  115.1s  mem=  485.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  120.1s  mem=  485.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  125.1s  mem=  493.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  130.1s  mem=  501.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=  135.1s  mem=  502.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  140.1s  mem=  508.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  145.1s  mem=  512.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  150.2s  mem=  517.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  155.2s  mem=  526.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  160.2s  mem=  526.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  165.2s  mem=  534.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  170.2s  mem=  534.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  175.2s  mem=  540.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  180.2s  mem=  550.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=  185.2s  mem=  550.8MB  cpu=100.0%  ktests=   0  errs=   0
+t=  190.2s  mem=  559.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  195.2s  mem=  557.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  200.2s  mem=  561.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  205.2s  mem=  565.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  210.2s  mem=  575.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  215.2s  mem=  575.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  220.2s  mem=  578.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  225.2s  mem=  583.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  230.2s  mem=  591.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  235.2s  mem=  591.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  240.2s  mem=  599.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  245.2s  mem=  599.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  250.2s  mem=  603.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  255.2s  mem=  607.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  260.3s  mem=  616.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  265.3s  mem=  615.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=  270.3s  mem=  618.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=  275.3s  mem=  623.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  280.3s  mem=  632.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  285.3s  mem=  632.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  290.3s  mem=  635.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  295.3s  mem=  648.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  300.3s  mem=  648.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  305.3s  mem=  652.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=  310.3s  mem=  656.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  315.3s  mem=  664.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=  320.3s  mem=  668.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  325.3s  mem=  672.8MB  cpu=100.0%  ktests=   0  errs=   0
+t=  330.3s  mem=  681.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  335.3s  mem=  681.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  340.3s  mem=  686.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  345.3s  mem=  689.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  350.3s  mem=  697.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  355.3s  mem=  697.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  360.4s  mem=  704.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  365.4s  mem=  705.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  370.4s  mem=  710.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  375.4s  mem=  713.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  380.4s  mem=  721.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  385.4s  mem=  721.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  390.4s  mem=  727.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  395.4s  mem=  729.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=  400.4s  mem=  738.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  405.4s  mem=  738.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  410.4s  mem=  743.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  415.4s  mem=  746.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  420.4s  mem=  754.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  425.4s  mem=  753.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=  430.4s  mem=  758.8MB  cpu=100.0%  ktests=   0  errs=   0
+t=  435.4s  mem=  762.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  440.4s  mem=  766.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  445.4s  mem=  770.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  450.4s  mem=  778.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  455.5s  mem=  778.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  460.5s  mem=  778.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  465.5s  mem=  786.8MB  cpu=100.0%  ktests=   0  errs=   0
+t=  470.5s  mem=  786.8MB  cpu=100.0%  ktests=   0  errs=   0
+t=  475.5s  mem=  795.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  480.5s  mem=  795.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  485.5s  mem=  795.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  490.5s  mem=  803.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  495.5s  mem=  803.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  500.5s  mem=  803.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  505.5s  mem=  811.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  510.5s  mem=  811.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  515.5s  mem=  821.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  520.5s  mem=  821.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  525.5s  mem=  829.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  530.5s  mem=  829.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  535.5s  mem=  829.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  540.5s  mem=  837.8MB  cpu=100.0%  ktests=   0  errs=   0
+t=  545.5s  mem=  837.8MB  cpu=100.0%  ktests=   0  errs=   0
+t=  550.5s  mem=  845.8MB  cpu=100.0%  ktests=   0  errs=   0
+t=  555.5s  mem=  845.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  560.6s  mem=  845.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=  565.6s  mem=  854.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  570.6s  mem=  854.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  575.6s  mem=  862.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  580.6s  mem=  862.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  585.6s  mem=  870.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  590.6s  mem=  870.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  595.6s  mem=  870.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  600.6s  mem=  878.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  605.6s  mem=  878.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  610.6s  mem=  886.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  615.6s  mem=  885.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=  620.6s  mem=  886.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  625.6s  mem=  894.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  630.6s  mem=  894.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  635.6s  mem=  896.8MB  cpu=100.0%  ktests=   0  errs=   0
+t=  640.6s  mem=  899.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  645.6s  mem=  902.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  650.6s  mem=  902.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  655.6s  mem=  910.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  660.7s  mem=  910.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  665.7s  mem=  918.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=  670.7s  mem=  918.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  675.7s  mem=  918.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=  680.7s  mem=  927.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  685.7s  mem=  927.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  690.7s  mem=  935.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  695.7s  mem=  935.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  700.7s  mem=  935.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  705.7s  mem=  943.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  710.7s  mem=  940.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  715.7s  mem=  943.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  720.7s  mem=  951.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  725.7s  mem=  951.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  730.7s  mem=  951.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  735.7s  mem=  959.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  740.7s  mem=  959.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  745.7s  mem=  959.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  750.8s  mem=  965.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  755.8s  mem=  967.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  760.8s  mem=  975.8MB  cpu=100.0%  ktests=   0  errs=   0
+t=  765.8s  mem=  975.8MB  cpu=100.0%  ktests=   0  errs=   0
+t=  770.8s  mem=  975.8MB  cpu=100.0%  ktests=   0  errs=   0
+t=  775.8s  mem=  984.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  780.8s  mem=  984.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  785.8s  mem=  984.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  790.8s  mem=  984.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  795.8s  mem=  989.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  800.8s  mem=  992.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  805.8s  mem= 1000.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  810.8s  mem= 1000.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  815.8s  mem= 1000.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  820.8s  mem= 1000.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  825.8s  mem= 1005.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  830.8s  mem= 1008.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  835.8s  mem= 1008.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  840.8s  mem= 1016.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  845.9s  mem= 1016.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  850.9s  mem= 1016.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  855.9s  mem= 1022.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  860.9s  mem= 1024.3MB  cpu=100.0%  ktests=   0  errs=   0
+t=  865.9s  mem= 1024.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  870.9s  mem= 1029.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  875.9s  mem= 1031.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  880.9s  mem= 1032.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  885.9s  mem= 1040.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  890.9s  mem= 1040.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  895.9s  mem= 1040.6MB  cpu=100.0%  ktests=   0  errs=   0
+t=  900.9s  mem= 1043.2MB  cpu=100.0%  ktests=   0  errs=   0
+t=  905.9s  mem= 1045.8MB  cpu=100.0%  ktests=   0  errs=   0
+t=  910.9s  mem= 1048.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  915.9s  mem= 1048.7MB  cpu=100.0%  ktests=   0  errs=   0
+t=  920.9s  mem= 1057.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  925.9s  mem= 1057.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  930.9s  mem= 1057.0MB  cpu=100.0%  ktests=   0  errs=   0
+t=  935.9s  mem= 1061.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=  940.9s  mem= 1065.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  946.0s  mem= 1065.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  951.0s  mem= 1073.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  956.0s  mem= 1073.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  961.0s  mem= 1073.1MB  cpu=100.0%  ktests=   0  errs=   0
+t=  966.0s  mem= 1081.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  971.0s  mem= 1081.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  976.0s  mem= 1081.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  981.0s  mem= 1081.4MB  cpu=100.0%  ktests=   0  errs=   0
+t=  986.0s  mem= 1085.9MB  cpu=100.0%  ktests=   0  errs=   0
+t=  991.0s  mem= 1089.5MB  cpu=100.0%  ktests=   0  errs=   0
+t=  996.0s  mem= 1089.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1001.0s  mem= 1097.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1006.0s  mem= 1097.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1011.0s  mem= 1101.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1016.0s  mem= 1105.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1021.0s  mem= 1114.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1026.0s  mem= 1114.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1031.0s  mem= 1122.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1036.0s  mem= 1122.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1041.1s  mem= 1130.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1046.1s  mem= 1130.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1051.1s  mem= 1138.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1056.1s  mem= 1138.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1061.1s  mem= 1138.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1066.1s  mem= 1145.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1071.1s  mem= 1146.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1076.1s  mem= 1154.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1081.1s  mem= 1154.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1086.1s  mem= 1154.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1091.1s  mem= 1162.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1096.1s  mem= 1162.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1101.1s  mem= 1170.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1106.1s  mem= 1170.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1111.1s  mem= 1170.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1116.1s  mem= 1179.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1121.1s  mem= 1179.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1126.1s  mem= 1187.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1131.1s  mem= 1187.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1136.2s  mem= 1195.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1141.2s  mem= 1195.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1146.2s  mem= 1195.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1151.2s  mem= 1203.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1156.2s  mem= 1203.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1161.2s  mem= 1203.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1166.2s  mem= 1211.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1171.2s  mem= 1211.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1176.2s  mem= 1211.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1181.2s  mem= 1219.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1186.2s  mem= 1219.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1191.2s  mem= 1227.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1196.2s  mem= 1227.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1201.2s  mem= 1227.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1206.2s  mem= 1236.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1211.2s  mem= 1235.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1216.2s  mem= 1236.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1221.2s  mem= 1244.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1226.2s  mem= 1244.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1231.2s  mem= 1252.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1236.3s  mem= 1252.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1241.3s  mem= 1252.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1246.3s  mem= 1260.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1251.3s  mem= 1260.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1256.3s  mem= 1268.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1261.3s  mem= 1268.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1266.3s  mem= 1268.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1271.3s  mem= 1268.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1276.3s  mem= 1276.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1281.3s  mem= 1276.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1286.3s  mem= 1284.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1291.3s  mem= 1284.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1296.3s  mem= 1284.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1301.3s  mem= 1293.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1306.3s  mem= 1293.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1311.3s  mem= 1293.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1316.3s  mem= 1301.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1321.3s  mem= 1301.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1326.4s  mem= 1306.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1331.4s  mem= 1309.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1336.4s  mem= 1309.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1341.4s  mem= 1317.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1346.4s  mem= 1317.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1351.4s  mem= 1317.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1356.4s  mem= 1325.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1361.4s  mem= 1325.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1366.4s  mem= 1325.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1371.4s  mem= 1333.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1376.4s  mem= 1333.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1381.4s  mem= 1333.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1386.4s  mem= 1341.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1391.4s  mem= 1341.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1396.4s  mem= 1341.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1401.4s  mem= 1350.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1406.4s  mem= 1350.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1411.4s  mem= 1354.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1416.4s  mem= 1357.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1421.4s  mem= 1358.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1426.5s  mem= 1366.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1431.5s  mem= 1366.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1436.5s  mem= 1366.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1441.5s  mem= 1374.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1446.5s  mem= 1374.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1451.5s  mem= 1382.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1456.5s  mem= 1382.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1461.5s  mem= 1382.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1466.5s  mem= 1390.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1471.5s  mem= 1390.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1476.5s  mem= 1390.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1481.5s  mem= 1390.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1486.5s  mem= 1397.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1491.5s  mem= 1398.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1496.5s  mem= 1398.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1501.5s  mem= 1407.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1506.5s  mem= 1407.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1511.5s  mem= 1415.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1516.5s  mem= 1415.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1521.6s  mem= 1415.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1526.6s  mem= 1423.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1531.6s  mem= 1423.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1536.6s  mem= 1423.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1541.6s  mem= 1423.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1546.6s  mem= 1430.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1551.6s  mem= 1431.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1556.6s  mem= 1431.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1561.6s  mem= 1439.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1566.6s  mem= 1439.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1571.6s  mem= 1439.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1576.6s  mem= 1446.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1581.6s  mem= 1447.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1586.6s  mem= 1447.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1591.6s  mem= 1455.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1596.6s  mem= 1455.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1601.6s  mem= 1455.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1606.6s  mem= 1463.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1611.6s  mem= 1464.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1616.7s  mem= 1464.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1621.7s  mem= 1472.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1626.7s  mem= 1472.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1631.7s  mem= 1472.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1636.7s  mem= 1480.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1641.7s  mem= 1480.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1646.7s  mem= 1480.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1651.7s  mem= 1488.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1656.7s  mem= 1488.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1661.7s  mem= 1488.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1666.7s  mem= 1488.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1671.7s  mem= 1496.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1676.7s  mem= 1496.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1681.7s  mem= 1496.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1686.7s  mem= 1504.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1691.7s  mem= 1504.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1696.7s  mem= 1504.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1701.7s  mem= 1512.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1706.7s  mem= 1512.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1711.8s  mem= 1512.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1716.8s  mem= 1518.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1721.8s  mem= 1520.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1726.8s  mem= 1520.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1731.8s  mem= 1529.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1736.8s  mem= 1529.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1741.8s  mem= 1529.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1746.8s  mem= 1534.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1751.8s  mem= 1536.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1756.8s  mem= 1537.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1761.8s  mem= 1537.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1766.8s  mem= 1545.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1771.8s  mem= 1545.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1776.8s  mem= 1545.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1781.8s  mem= 1551.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1786.8s  mem= 1553.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1791.8s  mem= 1553.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1796.8s  mem= 1561.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1801.8s  mem= 1561.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1806.8s  mem= 1561.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1811.9s  mem= 1561.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1816.9s  mem= 1569.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1821.9s  mem= 1569.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1826.9s  mem= 1569.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1831.9s  mem= 1577.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1836.9s  mem= 1577.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1841.9s  mem= 1577.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1846.9s  mem= 1586.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1851.9s  mem= 1586.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1856.9s  mem= 1586.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1861.9s  mem= 1586.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1866.9s  mem= 1593.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1871.9s  mem= 1594.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1876.9s  mem= 1594.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1881.9s  mem= 1602.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1886.9s  mem= 1602.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1891.9s  mem= 1602.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1896.9s  mem= 1607.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1902.0s  mem= 1610.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1907.0s  mem= 1610.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1912.0s  mem= 1610.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1917.0s  mem= 1618.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1922.0s  mem= 1618.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1927.0s  mem= 1618.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1932.0s  mem= 1624.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1937.0s  mem= 1626.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1942.0s  mem= 1626.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1947.0s  mem= 1634.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1952.0s  mem= 1634.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1957.0s  mem= 1634.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1962.0s  mem= 1634.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1967.0s  mem= 1642.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1972.0s  mem= 1642.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1977.0s  mem= 1642.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1982.0s  mem= 1651.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1987.0s  mem= 1651.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1992.0s  mem= 1650.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 1997.1s  mem= 1651.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2002.1s  mem= 1659.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2007.1s  mem= 1659.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2012.1s  mem= 1659.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2017.1s  mem= 1667.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2022.1s  mem= 1667.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2027.1s  mem= 1667.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2032.1s  mem= 1675.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2037.1s  mem= 1675.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2042.1s  mem= 1675.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2047.1s  mem= 1675.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2052.1s  mem= 1675.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2057.1s  mem= 1683.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2062.1s  mem= 1683.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2067.1s  mem= 1683.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2072.1s  mem= 1691.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2077.1s  mem= 1691.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2082.1s  mem= 1691.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2087.1s  mem= 1691.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2092.2s  mem= 1699.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2097.2s  mem= 1699.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2102.2s  mem= 1699.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2107.2s  mem= 1705.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2112.2s  mem= 1708.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2117.2s  mem= 1708.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2122.2s  mem= 1708.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2127.2s  mem= 1716.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2132.2s  mem= 1716.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2137.2s  mem= 1716.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2142.2s  mem= 1724.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2147.2s  mem= 1724.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2152.2s  mem= 1724.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2157.2s  mem= 1724.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2162.2s  mem= 1731.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2167.2s  mem= 1732.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2172.2s  mem= 1732.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2177.2s  mem= 1740.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2182.3s  mem= 1740.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2187.3s  mem= 1740.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2192.3s  mem= 1740.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2197.3s  mem= 1748.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2202.3s  mem= 1749.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2207.3s  mem= 1748.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2212.3s  mem= 1757.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2217.3s  mem= 1757.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2222.3s  mem= 1757.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2227.3s  mem= 1757.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2232.3s  mem= 1762.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2237.3s  mem= 1765.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2242.3s  mem= 1765.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2247.3s  mem= 1765.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2252.3s  mem= 1773.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2257.3s  mem= 1773.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2262.3s  mem= 1773.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2267.3s  mem= 1773.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2272.3s  mem= 1781.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2277.4s  mem= 1781.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2282.4s  mem= 1781.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2287.4s  mem= 1781.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2292.4s  mem= 1789.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2297.4s  mem= 1789.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2302.4s  mem= 1789.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2307.4s  mem= 1789.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2312.4s  mem= 1797.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2317.4s  mem= 1797.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2322.4s  mem= 1797.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2327.4s  mem= 1797.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2332.4s  mem= 1805.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2337.4s  mem= 1805.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2342.4s  mem= 1805.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2347.4s  mem= 1805.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2352.4s  mem= 1813.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2357.4s  mem= 1813.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2362.4s  mem= 1813.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2367.4s  mem= 1813.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2372.5s  mem= 1822.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2377.5s  mem= 1822.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2382.5s  mem= 1822.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2387.5s  mem= 1822.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2392.5s  mem= 1830.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2397.5s  mem= 1830.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2402.5s  mem= 1830.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2407.5s  mem= 1830.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2412.5s  mem= 1830.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2417.5s  mem= 1838.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2422.5s  mem= 1838.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2427.5s  mem= 1838.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2432.5s  mem= 1846.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2437.5s  mem= 1846.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2442.5s  mem= 1846.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2447.5s  mem= 1846.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2452.5s  mem= 1846.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2457.5s  mem= 1854.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2462.5s  mem= 1854.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2467.5s  mem= 1854.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2472.6s  mem= 1854.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2477.6s  mem= 1863.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2482.6s  mem= 1863.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2487.6s  mem= 1863.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2492.6s  mem= 1863.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2497.6s  mem= 1871.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2502.6s  mem= 1871.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2507.6s  mem= 1871.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2512.6s  mem= 1871.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2517.6s  mem= 1871.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2522.6s  mem= 1876.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2527.6s  mem= 1878.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2532.6s  mem= 1879.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2537.6s  mem= 1879.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2542.6s  mem= 1879.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2547.6s  mem= 1887.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2552.6s  mem= 1887.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2557.6s  mem= 1887.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2562.6s  mem= 1887.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2567.6s  mem= 1895.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2572.6s  mem= 1895.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2577.7s  mem= 1895.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2582.7s  mem= 1895.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2587.7s  mem= 1895.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2592.7s  mem= 1903.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2597.7s  mem= 1903.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2602.7s  mem= 1903.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2607.7s  mem= 1903.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2612.7s  mem= 1909.3MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2617.7s  mem= 1911.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2622.7s  mem= 1911.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2627.7s  mem= 1911.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2632.7s  mem= 1919.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2637.7s  mem= 1919.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2642.7s  mem= 1919.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2647.7s  mem= 1919.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2652.7s  mem= 1927.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2657.7s  mem= 1927.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2662.7s  mem= 1927.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2667.8s  mem= 1927.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2672.8s  mem= 1927.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2677.8s  mem= 1936.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2682.8s  mem= 1936.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2687.8s  mem= 1936.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2692.8s  mem= 1936.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2697.8s  mem= 1941.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2702.8s  mem= 1943.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2707.8s  mem= 1944.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2712.8s  mem= 1944.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2717.8s  mem= 1952.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2722.8s  mem= 1952.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2727.8s  mem= 1952.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2732.8s  mem= 1952.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2737.8s  mem= 1952.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2742.8s  mem= 1960.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2747.8s  mem= 1960.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2752.8s  mem= 1960.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2757.8s  mem= 1960.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2762.9s  mem= 1968.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2767.9s  mem= 1968.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2772.9s  mem= 1968.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2777.9s  mem= 1968.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2782.9s  mem= 1976.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2787.9s  mem= 1976.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2792.9s  mem= 1976.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2797.9s  mem= 1976.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2802.9s  mem= 1984.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2807.9s  mem= 1984.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2812.9s  mem= 1984.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2817.9s  mem= 1984.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2822.9s  mem= 1984.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2827.9s  mem= 1993.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2832.9s  mem= 1993.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2837.9s  mem= 1993.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2842.9s  mem= 1993.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2847.9s  mem= 1993.1MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2852.9s  mem= 2001.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2858.0s  mem= 2001.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2863.0s  mem= 2001.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2868.0s  mem= 2000.9MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2873.0s  mem= 2006.8MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2878.0s  mem= 2009.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2883.0s  mem= 2009.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2888.0s  mem= 2009.2MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2893.0s  mem= 2017.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2898.0s  mem= 2017.0MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2903.0s  mem= 2017.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2908.0s  mem= 2017.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2913.0s  mem= 2017.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2918.0s  mem= 2025.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2923.0s  mem= 2025.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2928.0s  mem= 2025.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2933.0s  mem= 2025.4MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2938.0s  mem= 2033.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2943.0s  mem= 2033.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2948.0s  mem= 2033.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2953.1s  mem= 2033.5MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2958.1s  mem= 2041.7MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2963.1s  mem= 2041.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2968.1s  mem= 2041.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2973.1s  mem= 2041.6MB  cpu=100.0%  ktests=   0  errs=   0
+t= 2978.1s  mem= 2049.9MB  cpu=100.0%  ktests=   0  errs=   0
