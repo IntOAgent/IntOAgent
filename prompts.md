@@ -125,12 +125,14 @@ Steps:
    - If sufficient, confirm feasibility and construct a testcase generator that can produce inputs satisfying the path constraints
 
 Output:
-Provide a structured analysis including:
 - Inferred input format
 - Path constraints on input variables (types and value ranges)
 - Domain knowledge used
 - Final judgment:
-  - Feasible: provide a testcase generator that can produce multiple valid testcases
+  - Feasible: a Python script that, when executed, produces multiple
+    testcases satisfying the path constraints. Tunable fields identified
+    in step 2 should be exposed as parameters so they can be varied
+    across testcases.
   - Not feasible: specify missing information
 ```
 
