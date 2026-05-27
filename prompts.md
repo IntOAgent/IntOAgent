@@ -95,45 +95,98 @@ or
 ## Prompt for Reachable Testcase Generation
 
 ```
-Role:
-You are an expert in C/C++ program analysis and testcase generation for reaching potentially vulnerable statements.
+You are a C/C++ program-analysis and testcase-generation expert. You will be
+given a calling path (a sequence of functions) and a target statement at the
+end of that path. Your task is to perform a backward analysis from the target
+statement and then emit a Python generator script, in a single response.
 
-Task:
-Given a function calling path and a target statement, perform semantic analysis to determine whether a testcase generator can be synthesized to systematically explore the constrained input space and reach the target statement, and identify the required constraints.
+# Inputs
 
-Steps:
+<calling_path>
+{{CALLING_PATH}}
+</calling_path>
 
-1. Input Structure Identification:
-   - Identify all input variables reachable from the entry point of the path
-   - Infer their types, formats, and structural relationships
-   - Determine the expected input form of the program
+<target_statement>
+{{TARGET_STATEMENT}}
+</target_statement>
 
-2. Path Condition Analysis:
-   - Trace how each input variable propagates across function boundaries along the path
-   - Identify which input fields influence branching decisions
-   - Extract path conditions required to reach the target statement
-   - Determine value ranges or constraints that must be satisfied
+<source_code>
+{{RELEVANT_SOURCE_CODE}}
+</source_code>
 
-3. Domain Knowledge Inference:
-   - Infer high-level semantic context implied by the path (e.g., XML, SQL)
-   - Use domain knowledge to constrain inputs to structurally valid instances
-   - Improve input validity when explicit path conditions are incomplete
+# Task
 
-4. Feasibility Assessment:
-   - Evaluate whether the available information is sufficient to synthesize a testcase generator
-   - If insufficient, identify missing critical information
-   - If sufficient, confirm feasibility and construct a testcase generator that can produce inputs satisfying the path constraints
+Perform the following analysis and synthesis steps. Do not skip any step.
 
-Output:
-- Inferred input format
-- Path constraints on input variables (types and value ranges)
-- Domain knowledge used
-- Final judgment:
-  - Feasible: a Python script that, when executed, produces multiple
-    testcases satisfying the path constraints. Tunable fields identified
-    in step 2 should be exposed as parameters so they can be varied
-    across testcases.
-  - Not feasible: specify missing information
+## Step 1. Input identification
+Starting from the target statement, trace backward along the calling path and
+identify which program-level inputs ultimately flow into the operands of the
+target statement. For each such input, determine:
+  - its type (e.g., string, integer, byte buffer, file),
+  - its expected format (e.g., SQL text, XML, JSON, raw bytes), and
+  - its structural composition (fields, delimiters, nesting, length prefixes,
+    or other internal structure).
+
+## Step 2. Path condition extraction
+Along the same backward trace, identify every branch condition that guards
+the target statement. Extract:
+  - the path conditions the inputs must satisfy for execution to reach the
+    target statement, and
+  - the value ranges (or other constraints) implied by those conditions on
+    each input field identified in Step 1.
+
+## Step 3. API functionality inference
+Using the functional semantics of the traversed functions, the inferred input
+form from Step 1, and your own domain knowledge of the target system, infer
+the API-level functionality that this calling path implements (for example,
+"parses an SQL CREATE TABLE statement", "decodes a PNG IHDR chunk").
+
+## Step 4. Feasibility judgment
+Based on Steps 1 to 3, decide whether the path is feasible, meaning a
+program-level input that satisfies all extracted constraints can plausibly
+be constructed. If the path is infeasible, explain why and stop. Do not emit
+a generator script.
+
+## Step 5. Generator synthesis (only if feasible)
+Emit a single self-contained Python 3 script that:
+  - exposes every input field identified in Step 1 as a function parameter
+    or configurable variable, so that the field can be varied across
+    testcases,
+  - produces multiple testcases (not just one) that satisfy every path
+    condition and value range extracted in Step 2,
+  - writes each testcase to stdout or to a file in the exact program-level
+    input format inferred in Step 1, ready to be fed to the target program
+    without further transformation,
+  - uses only the Python standard library, and
+  - runs to completion without requiring any external input.
+
+The script must be grounded in the analysis from Steps 1 to 4. Do not invent
+fields or constraints that were not derived from the backward trace.
+
+# Output format
+
+Respond in the following structured form, in this exact order.
+
+<input_format>
+Inferred input format and structural composition from Step 1.
+</input_format>
+
+<path_constraints>
+Path conditions and value ranges from Step 2.
+</path_constraints>
+
+<api_functionality>
+Inferred API-level functionality from Step 3.
+</api_functionality>
+
+<feasibility>
+"feasible" or "infeasible", followed by a one-paragraph justification.
+</feasibility>
+
+<generator_script>
+The Python generator script from Step 5. Omit this block entirely if the
+path is infeasible.
+</generator_script>
 ```
 
 ## Prompt for Triggerable PoC Construction
