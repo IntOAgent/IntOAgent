@@ -34,7 +34,7 @@ $3 = 0 '\000'
 (gdb) print (a[0]<<24) + (a[1]<<16) + (a[2]<<8) + a[3]
 $4 = -16777215
 
-",https://github.com/sqlite/sqlite/commit/56d831e0648ffcea031da404d1112eafa4e3fed6,B. Intermediate-result overflow,LOGIC_ERROR,-,tool
+",https://github.com/sqlite/sqlite/commit/56d831e0648ffcea031da404d1112eafa4e3fed6,B. Intermediate-result overflow,LOGIC_ERROR,penging,tool
 8,6+1,Sqlite,-,- int variable,shell.c,1432,integerValue,return isNeg? -v : v;,0,./configure --enable-debug "CFLAGS=-O0 -g -fsanitize=signed-integer-overflow",SQL,shell.c:1432:20: runtime error: negation of -9223372036854775808 cannot be represented in type 'long long int'; cast to an unsigned type to negate this value to itself,https://github.com/sqlite/sqlite/commit/96455af9503094c862c1bf781d3c8d63883b707e,C. INT_MIN / boundary value,PURE_UB,-,tool
 9,6+2,Sqlite,*,int variable * int literal + int variable,shell.c,1422,integerValue,v = v*10 + zArg[0] - '0';,0,./configure --enable-debug "CFLAGS=-O0 -g -fsanitize=signed-integer-overflow",SQL,shell.c:1422:16: runtime error: signed integer overflow: 9223372036854775800 + 56 cannot be represented in type 'long long int',https://github.com/sqlite/sqlite/commit/96455af9503094c862c1bf781d3c8d63883b707e,B. Intermediate-result overflow,PURE_UB,-,tool
 10,7,Sqlite,*=,int variable *= int variable,shell.c,1428,integerValue,v *= aMult[i].iMult;,0,./configure --enable-debug "CFLAGS=-O0 -g -fsanitize=signed-integer-overflow",SQL,"sqlite> .expert -sample 0x8000000000000000GB 
@@ -125,7 +125,7 @@ shell.c:5722:11: runtime error: signed integer overflow: 500000000 * 5 cannot be
 -DSQLITE_MAX_LENGTH=2000000000"" \
 && make",SQL,"sqlite> select base64(zeroblob(2000000000)); 
 shell.c:5341:8: runtime error: signed integer overflow: 666666667 * 4 cannot be represented in type 'int'",https://github.com/sqlite/sqlite/commit/9b6bc61dbd9744ca01e1d25e31745858dbf4feb7,B. Intermediate-result overflow,PURE_UB,-,tool
-35,25,Sqlite,*,int variable * int variable,shell.c,33124,main,if( sz*n==0 ) data.shellFlgs &= ~SHFLG_Lookaside;,0,./configure --enable-debug "CFLAGS=-O0 -g -fsanitize=signed-integer-overflow",Bash,shell.c:33124:13: runtime error: signed integer overflow: 2147483647 * 2 cannot be represented in type 'int',https://github.com/sqlite/sqlite/commit/e15ef5b756d6195c5dc06294c5a01aee60932205,B. Intermediate-result overflow,LOGIC_ERROR,-,tool
+35,25,Sqlite,*,int variable * int variable,shell.c,33124,main,if( sz*n==0 ) data.shellFlgs &= ~SHFLG_Lookaside;,0,./configure --enable-debug "CFLAGS=-O0 -g -fsanitize=signed-integer-overflow",Bash,shell.c:33124:13: runtime error: signed integer overflow: 2147483647 * 2 cannot be represented in type 'int',https://github.com/sqlite/sqlite/commit/e15ef5b756d6195c5dc06294c5a01aee60932205,B. Intermediate-result overflow,LOGIC_ERROR,penging,tool
 36,26,Sqlite,*=,int variable *= int literal,shell.c,23983,print_box_line,N *= 3;,0,"./configure --enable-debug --enable-fts5 \
 ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow \
 -DSQLITE_MAX_SQL_LENGTH=2000000000 \
@@ -135,7 +135,7 @@ shell.c:5341:8: runtime error: signed integer overflow: 666666667 * 4 cannot be 
 ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow \
 -DSQLITE_MAX_SQL_LENGTH=2000000000 \
 -DSQLITE_MAX_LENGTH=2000000000"" \
-&& make",SQL,sqlite3.c:97135:37: runtime error: signed integer overflow: 1073741824 * 2 cannot be represented in type 'int',https://github.com/sqlite/sqlite/commit/264bcad69a449ecc46fd47859162d0536b1214a0,B. Intermediate-result overflow,LOGIC_ERROR,-,library
+&& make",SQL,sqlite3.c:97135:37: runtime error: signed integer overflow: 1073741824 * 2 cannot be represented in type 'int',https://github.com/sqlite/sqlite/commit/264bcad69a449ecc46fd47859162d0536b1214a0,B. Intermediate-result overflow,LOGIC_ERROR,penging,library
 38,28,Sqlite,,,sqlite3.c,94318,vdbeColumnFromOverflow,"int t,",0,"./configure --enable-debug --enable-fts5 \
 ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow \
 -DSQLITE_MAX_SQL_LENGTH=2000000000 \
@@ -195,9 +195,9 @@ Segmentation fault (core dumped)",https://github.com/sqlite/sqlite/commit/acdda1
 && make",SQL,"sqlite3.c:129981:3: runtime error: signed integer overflow: 2147483647 + 1 cannot be repre
 sented in type 'int'",https://github.com/sqlite/sqlite/commit/9c0770537f5227078ca1cafa53b877db5e106b85,B. Intermediate-result overflow,PURE_UB,-,library
 53,43,Sqlite,\++,int variable ++,shell.c,25691,readHexDb,nLine++;,1,./configure --enable-debug "CFLAGS=-O0 -g -fsanitize=signed-integer-overflow",Python,"shell.c:25691:12: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'
-Error on line -2147483646 of --hexdb input",https://github.com/sqlite/sqlite/commit/9c0770537f5227078ca1cafa53b877db5e106b85,D. Unchecked monotonic counter,LOGIC_ERROR,-,tool
-54,44,Sqlite,\++,int variable ++,shell.c,25644,readHexDb,nLine++;,1,./configure --enable-debug "CFLAGS=-O0 -g -fsanitize=signed-integer-overflow",Python,shell.c:25501:8: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int',https://github.com/sqlite/sqlite/commit/9c0770537f5227078ca1cafa53b877db5e106b85,D. Unchecked monotonic counter,LOGIC_ERROR,-,tool
-55,45,Sqlite,\++,int variable ++,shell.c,25658,readHexDb,nLine++;,1,./configure --enable-debug "CFLAGS=-O0 -g -fsanitize=signed-integer-overflow",Python,shell.c:25514:12: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int',https://github.com/sqlite/sqlite/commit/9c0770537f5227078ca1cafa53b877db5e106b85,D. Unchecked monotonic counter,LOGIC_ERROR,-,tool
+Error on line -2147483646 of --hexdb input",https://github.com/sqlite/sqlite/commit/9c0770537f5227078ca1cafa53b877db5e106b85,D. Unchecked monotonic counter,LOGIC_ERROR,penging,tool
+54,44,Sqlite,\++,int variable ++,shell.c,25644,readHexDb,nLine++;,1,./configure --enable-debug "CFLAGS=-O0 -g -fsanitize=signed-integer-overflow",Python,shell.c:25501:8: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int',https://github.com/sqlite/sqlite/commit/9c0770537f5227078ca1cafa53b877db5e106b85,D. Unchecked monotonic counter,LOGIC_ERROR,penging,tool
+55,45,Sqlite,\++,int variable ++,shell.c,25658,readHexDb,nLine++;,1,./configure --enable-debug "CFLAGS=-O0 -g -fsanitize=signed-integer-overflow",Python,shell.c:25514:12: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int',https://github.com/sqlite/sqlite/commit/9c0770537f5227078ca1cafa53b877db5e106b85,D. Unchecked monotonic counter,LOGIC_ERROR,penging,tool
 56,46,Sqlite,\--,int variable --,shell.c,29509,do_meta_command,nSkip--,0,./configure --enable-debug "CFLAGS=-O0 -g -fsanitize=signed-integer-overflow",SQL,,https://github.com/sqlite/sqlite/commit/9c0770537f5227078ca1cafa53b877db5e106b85,D. Unchecked monotonic counter,PURE_UB,-,tool
 57,47,Sqlite,\+,int literal * int variable,sqlite3.c,95342,sqlite3VdbeExec,"if( sqlite3VdbeMemGrow(pOut, (int)nByte+2, pOut==pIn2) ){",0,"./configure --enable-debug --enable-fts5 \
 ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow \
@@ -376,7 +376,7 @@ SUMMARY: AddressSanitizer: SEGV /data/root/Projects/sqlite/sqlite3.c:147508 in s
 -DSQLITE_MAX_LENGTH=2000000000"" \
 && make",Python & C,"/root/data/root/Projects/sqlite/out$ ./16 /data/root/Projects/sqlite/test++/1+.sql
 sqlite3.c:147264:5: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'
-Prepare16 failed: out of memory",,B. Intermediate-result overflow,LOGIC_ERROR,-,library
+Prepare16 failed: out of memory",,B. Intermediate-result overflow,LOGIC_ERROR,penging,library
 71,,Sqlite,\++,int variable++,sqlite3.c,180727,sqlite3GetToken,          if( sqlite3Isxdigit(z[i])==0 ){,1,default,Python,"sqlite3.c:180727:22: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'
 
 Program received signal SIGSEGV, Segmentation fault.
@@ -385,22 +385,22 @@ Program received signal SIGSEGV, Segmentation fault.
 (gdb) ",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,assigned,library
 72,,Sqlite,\++,int variable++,sqlite3.c,180751,sqlite3GetToken,            if( sqlite3Isdigit(z[i])==0 ){,1,default,Python,"sqlite3.c:180751:24: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'
 
-Program received signal SIGSEGV, Segmentation fault.",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,pending,library
+Program received signal SIGSEGV, Segmentation fault.",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,assigned,library
 73,,Sqlite,\++,int variable++,sqlite3.c,180767,sqlite3GetToken,            if( sqlite3Isdigit(z[i])==0 ){,1,default,Python,"sqlite3.c:180767:25: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'
 
-Program received signal SIGSEGV, Segmentation fault.",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,pending,library
+Program received signal SIGSEGV, Segmentation fault.",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,assigned,library
 74,,Sqlite,\++,int variable++,sqlite3.c,180801,sqlite3GetToken,      for(i=1; (c=z[i])!=0; i++){,1,default,Python,"sqlite3.c:180801:30: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'
 
-Program received signal SIGSEGV, Segmentation fault.",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,pending,library
+Program received signal SIGSEGV, Segmentation fault.",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,assigned,library
 75,,Sqlite,\++,int variable++,sqlite3.c,180878,sqlite3GetToken,  while( IdChar(z[i]) ){ i++; },1,default,Python,"sqlite3.c:180878:27: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'
 
-Program received signal SIGSEGV, Segmentation fault.",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,pending,library
+Program received signal SIGSEGV, Segmentation fault.",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,assigned,library
 76,,Sqlite,\++,int variable++,sqlite3.c,180803,sqlite3GetToken,          n++;,1,default,Python,sqlite3.c:184861:12: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int',https://github.com/sqlite/sqlite/commit/35f37ec9596e7d2a1bdfeda2fdd105e9ab995c3f,D. Unchecked monotonic counter,PURE_UB,-,library
 77,,Sqlite,*,int variable * literial,sqlite3.c,253945,sqlite3Fts5IndexMerge,nMerge = nMerge*-1;,0,#NAME?,SQL,sqlite3.c:253945:14: runtime error: negation of -2147483648 cannot be represented in type 'int'; cast to an unsigned type to negate this val,https://github.com/sqlite/sqlite/commit/918efe3cce4ec213c044346df5e3ce142d1f2711,C. INT_MIN / boundary value,PURE_UB,-,library
 78,,Sqlite,\++,int variable++,sqlite3.c,180577,sqlite3GetToken,for(i=2; (c=z[i])!=0 && c!='\n'; i++){},1,default,Python,"sqlite3.c:180577:43: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'
 AddressSanitizer:DEADLYSIGNAL
 =================================================================
-==480671==ERROR: AddressSanitizer: SEGV on unknown address 0x7f6cf44fe809 (pc 0x7f6df8844b96 bp 0x7ffc7dbaecf0 sp 0x7ffc7dbaecc0 T0)",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,pending,library
+==480671==ERROR: AddressSanitizer: SEGV on unknown address 0x7f6cf44fe809 (pc 0x7f6df8844b96 bp 0x7ffc7dbaecf0 sp 0x7ffc7dbaecc0 T0)",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,assigned,library
 79,,Sqlite,-,,shell.c,6060,ieee754func,m = -m;,0,default,SQL,shell.c:6060:9: runtime error: negation of -9223372036854775808 cannot be represented in type 'long long int'; cast to an unsigned type to negate this value to itself,https://github.com/sqlite/sqlite/commit/3b81f93532bc5097a99db85987a6917c46d85d15,C. INT_MIN / boundary value,PURE_UB,-,tool
 80,,Sqlite,\+,,sqlite3.c,180698,sqlite3GetToken,        return i+1;,1,default,Python,sqlite3.c:180698:17: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int',https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,B. Intermediate-result overflow,PURE_UB,-,library
 81,,Sqlite,\+,,sqlite3.c,180701,sqlite3GetToken,        return i+1;,1,default,Python,sqlite3.c:180701:17: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int',https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,B. Intermediate-result overflow,PURE_UB,-,library
@@ -410,15 +410,15 @@ AddressSanitizer:DEADLYSIGNAL
 AddressSanitizer:DEADLYSIGNAL
 =================================================================
 ==543291==ERROR: AddressSanitizer: SEGV on unknown address 0x7f1ed2ffe807 (pc 0x7f1fd728a619 bp 0x7ffdd74ea280 sp 0x7ffdd74ea250 T0)
-==543291==The signal is caused by a READ memory access.",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,pending,library
+==543291==The signal is caused by a READ memory access.",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,assigned,library
 85,,Sqlite,\++,,sqlite3.c,180739,sqlite3GetToken,for(i=0; 1; i++){,1,default,Python,"sqlite3.c:180739:22: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'
 AddressSanitizer:DEADLYSIGNAL
 =================================================================
-==545167==ERROR: AddressSanitizer: SEGV on unknown address 0x7f55026fe807 (pc 0x7f5606a21de5 bp 0x7ffef407c730 sp 0x7ffef407c700 T0)",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,pending,library
+==545167==ERROR: AddressSanitizer: SEGV on unknown address 0x7f55026fe807 (pc 0x7f5606a21de5 bp 0x7ffef407c730 sp 0x7ffef407c700 T0)",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,assigned,library
 86,,Sqlite,\++,,sqlite3.c,180807,sqlite3GetToken,i++,1,default,Python,"sqlite3.c:180807:14: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'
 AddressSanitizer:DEADLYSIGNAL
 =================================================================
-==547527==ERROR: AddressSanitizer: SEGV on unknown address 0x7fb4ba3fe807 (pc 0x7fb5be6afa1c bp 0x7ffdf59b81c0 sp 0x7ffdf59b8190 T0)",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,pending,library
+==547527==ERROR: AddressSanitizer: SEGV on unknown address 0x7fb4ba3fe807 (pc 0x7fb5be6afa1c bp 0x7ffdf59b81c0 sp 0x7ffdf59b8190 T0)",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,assigned,library
 87,,Sqlite,\++,,sqlite3.c,180810,sqlite3GetToken,i++,1,default,Python,"sqlite3.c:180810:14: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'
 sqlite3.c:180933:14",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,PURE_UB,-,library
 88,,Sqlite,\++,,sqlite3.c,180816,sqlite3GetToken,i++,1,default,Python,"sqlite3.c:180816:12: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'
@@ -426,13 +426,13 @@ AddressSanitizer:DEADLYSIGNAL
 =================================================================
 ==561439==ERROR: AddressSanitizer: SEGV on unknown address 0x7f6d19dfe808 (pc 0x7f6e1e04cbf9 bp 0x7ffdd94e0de0 sp 0x7ffdd94e0db0 T0)
 ==561439==The signal is caused by a READ memory access.
-    #0 0x7f6e1e04cbf9 in sqlite3GetToken /data/root/Paper/IntOAgent/sqlite/sqlite3.c:180801",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,pending,library
+    #0 0x7f6e1e04cbf9 in sqlite3GetToken /data/root/Paper/IntOAgent/sqlite/sqlite3.c:180801",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,assigned,library
 89,,Sqlite,\++,,sqlite3.c,180843,sqlite3GetToken,for(i=2; sqlite3Isxdigit(z[i]); i++){},1,default,Python,"sqlite3.c:180843:42: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'
 AddressSanitizer:DEADLYSIGNAL
 =================================================================
 ==569027==ERROR: AddressSanitizer: SEGV on unknown address 0x7f226ecfe807 (pc 0x7f2372f90fea bp 0x7ffca2d90170 sp 0x7ffca2d90140 T0)
 ==569027==The signal is caused by a READ memory access.
-    #0 0x7f2372f90fea in sqlite3GetToken /data/root/Paper/IntOAgent/sqlite/sqlite3.c:180843",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,pending,library
+    #0 0x7f2372f90fea in sqlite3GetToken /data/root/Paper/IntOAgent/sqlite/sqlite3.c:180843",https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,MEM_NEGATIVE_INDEX,assigned,library
 90,,Sqlite,\++,,sqlite3.c,180848,sqlite3GetToken,i++,1,default,Python,sqlite3.c:180848:21: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int',https://github.com/sqlite/sqlite/commit/acdda1075da9dc6c53a9191b4c03711027a66030,D. Unchecked monotonic counter,PURE_UB,-,library
 91,61,libxml2,\+=,int variable+= int literal,HTMLparser.c,2620,htmlParseData,col += 1,1,"./autogen.sh && ./configure ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow"" && make && make install
 gcc -g -fsanitize=address poc.c -o poc \
@@ -456,14 +456,14 @@ gcc -g -fsanitize=address poc.c -o poc \
   -L/usr/local/lib \
   -lxml2 \
   -Wl,-rpath=/usr/local/lib \
-  -Wl,-rpath=/lib/x86_64-linux-gnu",Python & C,HTMLparser.c:3040:25: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int',https://gitlab.gnome.org/GNOME/libxml2/-/issues/1005,,PURE_UB,pending,library
+  -Wl,-rpath=/lib/x86_64-linux-gnu",Python & C,HTMLparser.c:3040:25: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int',https://gitlab.gnome.org/GNOME/libxml2/-/issues/1005,,PURE_UB,assigned,library
 94,64,libxml2,\+=,int variable+= int literal,HTMLparser.c,3053,htmlParseCharData,col += 1;,1,"./autogen.sh && ./configure ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow"" && make && make install
 gcc -g -fsanitize=address poc.c -o poc \
   -I/usr/local/include/libxml2 \
   -L/usr/local/lib \
   -lxml2 \
   -Wl,-rpath=/usr/local/lib \
-  -Wl,-rpath=/lib/x86_64-linux-gnu",Python & C,HTMLparser.c:3053:17: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int',https://gitlab.gnome.org/GNOME/libxml2/-/issues/1005,,PURE_UB,pending,library
+  -Wl,-rpath=/lib/x86_64-linux-gnu",Python & C,HTMLparser.c:3053:17: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int',https://gitlab.gnome.org/GNOME/libxml2/-/issues/1005,,PURE_UB,assigned,library
 95,65,libxml2,\+=,int variable+= int literal,HTMLparser.c,3259,htmlParseCharData,line += 1;,1,"./autogen.sh && ./configure ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow"" && make && make install
 gcc -g -fsanitize=address poc.c -o poc \
   -I/usr/local/include/libxml2 \
@@ -527,7 +527,7 @@ gcc -g -fsanitize=address poc.c -o poc \
   -L/usr/local/lib \
   -lxml2 \
   -Wl,-rpath=/usr/local/lib \
-  -Wl,-rpath=/lib/x86_64-linux-gnu",C,xmlwriter.c:4332:14: runtime error: signed integer overflow: 2147475456 + 8192 cannot be represented in type 'int',https://gitlab.gnome.org/GNOME/libxml2/-/issues/1002,,MEM_UNDERSIZED_ALLOC,-,library
+  -Wl,-rpath=/lib/x86_64-linux-gnu",C,xmlwriter.c:4332:14: runtime error: signed integer overflow: 2147475456 + 8192 cannot be represented in type 'int',https://gitlab.gnome.org/GNOME/libxml2/-/issues/1002,,MEM_UNDERSIZED_ALLOC,penging,library
 104,74,libplist,\++,int variable ++,base64.c,111,base64decode,                                outbuf[p++] = (unsigned char)(((w3 << 6) + w4) & 0xFF);,1,"./configure --prefix=/home/root/lib ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow,address"" && make && make install",Python & C,"AddressSanitizer:DEADLYSIGNAL
 =================================================================
 ==3344503==ERROR: AddressSanitizer: SEGV on unknown address 0x7f82e27a4800 (pc 0x563a569429f8 bp 0x7ffc3d004480 sp 0x7ffc3d0043b0 T0)
@@ -540,8 +540,8 @@ gcc -g -fsanitize=address poc.c -o poc \
 
 AddressSanitizer can not provide additional info.
 SUMMARY: AddressSanitizer: SEGV /data/root/Projects/libplist/src/base64.c:111 in base64decode
-==3344503==ABORTING",https://github.com/libimobiledevice/libplist/issues/279,,MEM_UNDERSIZED_ALLOC,pending,library
-105,75,libplist,\++,int variable ++,bplist.c,1132,plist_utf8_to_utf16be,                        outbuf[p++] = be16toh(((c2 & 0x3F) + ((c1 & 3) << 6)) + (((c1 >> 2) & 15) << 8) + ((c0 & 15) << 12)),1,"./configure --prefix=/home/root/lib ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow,address"" && make && make install",Python & C,AddressSanitizer:DEADLYSIGNAL,https://github.com/libimobiledevice/libplist/issues/279,,MEM_UNDERSIZED_ALLOC,pending,library
+==3344503==ABORTING",https://github.com/libimobiledevice/libplist/issues/279,,MEM_UNDERSIZED_ALLOC,assigned,library
+105,75,libplist,\++,int variable ++,bplist.c,1132,plist_utf8_to_utf16be,                        outbuf[p++] = be16toh(((c2 & 0x3F) + ((c1 & 3) << 6)) + (((c1 >> 2) & 15) << 8) + ((c0 & 15) << 12)),1,"./configure --prefix=/home/root/lib ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow,address"" && make && make install",Python & C,AddressSanitizer:DEADLYSIGNAL,https://github.com/libimobiledevice/libplist/issues/279,,MEM_UNDERSIZED_ALLOC,assigned,library
 106,76,libplist,\++,int variable ++,bplist.c,410,plist_utf16be_to_utf8,                                outbuf[p++] = (char)(0x80 + (w & 0x3F));,1,"./configure --prefix=/home/root/lib ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow,address"" && make && make install",-,AddressSanitizer:DEADLYSIGNAL,https://github.com/libimobiledevice/libplist/issues/279,,MEM_UNDERSIZED_ALLOC,assigned,library
 107,77,libplist,\++,int variable ++,oplist.c,767,node_from_openstep,num_escapes++;,1,"./configure --prefix=/home/root/lib ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow,address"" && make && make install",Python & C,"./parse_ascii_plist /data/root/Projects/libplist/test++/3.plist
 oplist.c:767:32: runtime error: signed integer overflow: 2147483647 + 1 cannot be represented in type 'int'",https://github.com/libimobiledevice/libplist/issues/280,,LOGIC_ERROR,assigned,library
@@ -557,7 +557,7 @@ read_size = fread(plist_entire, sizeof(char), filestats.st_size, iplist);",1,"./
 
 AddressSanitizer can not provide additional info.
 SUMMARY: AddressSanitizer: SEGV /data/root/Projects/libplist/tools/plistutil.c:282 in main
-==2449591==ABORTING",https://github.com/libimobiledevice/libplist/issues/278,,MEM_NEGATIVE_INDEX,pending,tool
+==2449591==ABORTING",https://github.com/libimobiledevice/libplist/issues/278,,MEM_NEGATIVE_INDEX,assigned,tool
 109,79,libplist,\+=,int variable += int literal,plistutil.c,232,main,               read_capacity += 4096;,1,"./configure --prefix=/home/root/lib ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow,address"" && make && make install",Python,"Breakpoint 1, main (argc=1, argv=0x7fffffffe038) at plistutil.c:232
 232                     read_capacity += 4096;
 (gdb) n
@@ -579,11 +579,11 @@ SUMMARY: AddressSanitizer: allocation-size-too-big ../../../../src/libsanitizer/
 111,81,libplist,,,jplist.c,749,parse_object,"char* key = unescape_string(js + ti->tokens[j].start, ti->tokens[j].end - ti->tokens[j].start, NULL);",1,"./configure --prefix=/home/root/lib ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow,address"" && make && make install",Python & C,"AddressSanitizer: heap-buffer-overflow ...
 READ of size 1 ...
 0x7fa4606fb81c is located 0 bytes to the right of 2147483676-byte region ...
-SUMMARY: AddressSanitizer: heap-buffer-overflow in unescape_string",https://github.com/libimobiledevice/libplist/issues/282,,MEM_NEGATIVE_INDEX,pending,library
+SUMMARY: AddressSanitizer: heap-buffer-overflow in unescape_string",https://github.com/libimobiledevice/libplist/issues/282,,MEM_NEGATIVE_INDEX,assigned,library
 112,82,libplist,\+=,int variable+= int literal,jplist.c,820,plist_from_json,maxtoks+=16;,1,"./configure --prefix=/home/root/lib ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow,address"" && make && make install",Python & C,"820                 maxtoks+=16;
 (gdb) n
 jplist.c:820:20: runtime error: signed integer overflow: 2147483632 + 16 cannot be represented in type 'int'
-821                 continue;",https://github.com/libimobiledevice/libplist/issues/282,,MEM_UNDERSIZED_ALLOC,pending,library
+821                 continue;",https://github.com/libimobiledevice/libplist/issues/282,,MEM_UNDERSIZED_ALLOC,assigned,library
 113,83,libplist,,,bplist.c,1229,is_ascii_string,int len,1,"./autogen.sh && ./configure ""CFLAGS=-O0 -g -fsanitize=signed-integer-overflow"" && make && make install
 gcc -g -fsanitize=address poc.c -o poc \
   -I/usr/local/include/libxml2 \
@@ -592,7 +592,7 @@ gcc -g -fsanitize=address poc.c -o poc \
   -Wl,-rpath=/usr/local/lib \
   -Wl,-rpath=/lib/x86_64-linux-gnu",Python & C,"Breakpoint 3, is_ascii_string (s=0x7ffef35fb800 ..., len=-2147483641)
 (gdb) p len
-$4 = -2147483641",https://github.com/libimobiledevice/libplist/issues/285,,LOGIC_ERROR,pending,library
+$4 = -2147483641",https://github.com/libimobiledevice/libplist/issues/285,,LOGIC_ERROR,assigned,library
 114,84,v8,,,d8.cc,5228,Shell::ReadFile,int size = static_cast<int>(file->size());,1,default,Python,"\==== C stack trace ===============================
 /home/root/CProjects/v8/out.gn/x64.debug/libv8_libbase.so(_ZN2v84base5debug10StackTraceC1Ev+0x1e)[0x7f064a89fd5e]
 /home/root/CProjects/v8/out.gn/x64.debug/libv8_libbase.so(+0x77cb3)[0x7f064a89fcb3]
@@ -610,9 +610,9 @@ $4 = -2147483641",https://github.com/libimobiledevice/libplist/issues/285,,LOGIC
 /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f0649ffde40]
 ./d8(_start+0x2a)[0x5633da23afea]
 [end of stack trace]
-Segmentation fault (core dumped)",https://github.com/v8/v8/commit/490abeb40936273f345d7fbbafa5f8c0ca007623,,MEM_NEGATIVE_INDEX,-,tool
-115,85,v8,,,uri.cc,280,Uri::Encode,int uri_length = uri->length();,0,default,JS,,https://github.com/v8/v8/commit/2d9bb826bc8a5e028d29acda998be673a176e7c7,,LOGIC_ERROR,-,library
-116,86,v8,,,intl-objects.cc,762,Intl::ValidateAndCanonicalizeUnicodeLocaleId,isolate->factory()->NewStringFromAsciiChecked(locale_in),0,default,JS,,https://github.com/v8/v8/commit/4c40a5f0423774cb77f87654176d888b9c171ab9,,LOGIC_ERROR,-,library
+Segmentation fault (core dumped)",https://github.com/v8/v8/commit/490abeb40936273f345d7fbbafa5f8c0ca007623,,MEM_NEGATIVE_INDEX,penging,tool
+115,85,v8,,,uri.cc,280,Uri::Encode,int uri_length = uri->length();,0,default,JS,,https://github.com/v8/v8/commit/2d9bb826bc8a5e028d29acda998be673a176e7c7,,LOGIC_ERROR,penging,library
+116,86,v8,,,intl-objects.cc,762,Intl::ValidateAndCanonicalizeUnicodeLocaleId,isolate->factory()->NewStringFromAsciiChecked(locale_in),0,default,JS,,https://github.com/v8/v8/commit/4c40a5f0423774cb77f87654176d888b9c171ab9,,LOGIC_ERROR,penging,library
 117,87,libpng,*,int variable * literial,pnm2png.c,379,do_pnm2png,height * sizeof (png_byte *),0,CFLAGS='-m32 -O0 -g -fsanitize=address' CPPFLAGS='-m32' LDFLAGS='-m32' ./configure --disable-shared --enable-static,Python & C,"""ERROR: AddressSanitizer: heap-buffer-overflow on address 0xf5200790 at pc 0x56594596 bp 0xffdfcea8 sp 0xffdfce98
 WRITE of size 4 at 0xf5200790 thread T0
     #0 0x56594595 in do_pnm2png contrib/pngminus/pnm2png.c:387
@@ -665,4 +665,4 @@ Shadow byte legend (one shadow byte represents 8 application bytes):
   ASan internal:           fe
   Left alloca redzone:     ca
   Right alloca redzone:    cb
-==1978634==ABORTING""",,,MEM_UNDERSIZED_ALLOC,-,library
+==1978634==ABORTING""",,,MEM_UNDERSIZED_ALLOC,penging,library
